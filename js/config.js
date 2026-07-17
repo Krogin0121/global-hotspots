@@ -23,6 +23,14 @@ const CONFIG = {
   // 韩小韩聚合 API (国内社交平台热搜, 服务端偶尔不稳定, 仅做尽力而为)
   vvhan: 'https://api.vvhan.com/api/hotlist/',
 
+  // 国内 6 平台热搜来源: GitHub 仓库 iiecho1/hot_searches_for_apps (GitHub Actions 每小时抓取归档)
+  //   raw 文件走 GitHub CDN 全球可达 + CORS 开放 (Access-Control-Allow-Origin: *), 前端零代理直连
+  //   格式: Markdown, 每条 "+ [标题](链接)"
+  //   路径: {base}/{平台}/{平台}.md  (平台名中文)
+  ghArchive: {
+    base: 'https://raw.githubusercontent.com/iiecho1/hot_searches_for_apps/main/archives',
+  },
+
   // 可选: 本地代理 server.py (自部署时绕过 CORS/限流)
   // 留 null 则纯静态运行(GitHub Pages 友好); 设为 'http://127.0.0.1:8765/proxy?url=' 则启用
   proxy: null,
@@ -124,12 +132,12 @@ const SOURCES = [
 
   /* ---------- 国内热点 ---------- */
   { id: 'gn-cn',      name: 'Google 新闻 · 中文', cat: 'cn',   color: '#4285f4', icon: 'G',   kind: 'rss',  url: 'https://news.google.com/rss?hl=zh-CN&gl=CN&ceid=CN:zh-Hans', region: '中国' },
-  { id: 'weibo',      name: '微博热搜',          cat: 'cn',   color: '#e6162d', icon: '微',  kind: 'vvhan', vvhan: 'weibo',    site: 'https://s.weibo.com/top/summary',      region: '中国' },
-  { id: 'zhihu',      name: '知乎热榜',          cat: 'cn',   color: '#0084ff', icon: '知',  kind: 'vvhan', vvhan: 'zhihu',    site: 'https://www.zhihu.com/hot',             region: '中国' },
-  { id: 'baidu',      name: '百度热搜',          cat: 'cn',   color: '#2932e1', icon: '百',  kind: 'vvhan', vvhan: 'baidu',    site: 'https://top.baidu.com/board?tab=realtime',region: '中国' },
-  { id: 'bili',       name: '哔哩哔哩热搜',      cat: 'cn',   color: '#fb7299', icon: 'B',   kind: 'vvhan', vvhan: 'bilibili', site: 'https://www.bilibili.com/v/popular/rank/all', region: '中国' },
-  { id: 'douyin',     name: '抖音热点',          cat: 'cn',   color: '#000000', icon: '抖',  kind: 'vvhan', vvhan: 'douyin',   site: 'https://www.douyin.com/hot',            region: '中国' },
-  { id: 'toutiao',    name: '今日头条',          cat: 'cn',   color: '#ed1c24', icon: '头',  kind: 'vvhan', vvhan: 'toutiao',  site: 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', region: '中国' },
+  { id: 'weibo',      name: '微博热搜',          cat: 'cn',   color: '#e6162d', icon: '微',  kind: 'gharchive', ghArchive: '微博',    site: 'https://s.weibo.com/top/summary',      region: '中国' },
+  { id: 'zhihu',      name: '知乎热榜',          cat: 'cn',   color: '#0084ff', icon: '知',  kind: 'gharchive', ghArchive: '知乎',    site: 'https://www.zhihu.com/hot',             region: '中国' },
+  { id: 'baidu',      name: '百度热搜',          cat: 'cn',   color: '#2932e1', icon: '百',  kind: 'gharchive', ghArchive: '百度',    site: 'https://top.baidu.com/board?tab=realtime',region: '中国' },
+  { id: 'bili',       name: '哔哩哔哩热搜',      cat: 'cn',   color: '#fb7299', icon: 'B',   kind: 'gharchive', ghArchive: '哔哩哔哩',site: 'https://www.bilibili.com/v/popular/rank/all', region: '中国' },
+  { id: 'douyin',     name: '抖音热点',          cat: 'cn',   color: '#000000', icon: '抖',  kind: 'gharchive', ghArchive: '抖音',    site: 'https://www.douyin.com/hot',            region: '中国' },
+  { id: 'toutiao',    name: '今日头条',          cat: 'cn',   color: '#ed1c24', icon: '头',  kind: 'gharchive', ghArchive: '今日头条',site: 'https://www.toutiao.com/hot-event/hot-board/?origin=toutiao_pc', region: '中国' },
 ];
 
 // 分类标签

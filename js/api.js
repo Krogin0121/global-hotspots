@@ -162,7 +162,63 @@ const HotAPI = (() => {
     return { ok: true, items };
   }
 
-  /* ---------- 统一入口 ---------- */
+  /* ---------- GitHub 归档适配器 (国内 6 平台热搜, raw MD 文件) ----------
+   *  来源: iiecho1/hot_searches_for_apps (GitHub Actions 每小时抓取归档)
+   *  格式:
+   *    ## 平台
+   *    ### 2026-07-18
+   *    + [标题](链接)
+   *  解析: 正则匹配 "+ [标题](链接)", 顺序即排名
+   *  增强: 微博 URL 含 band_rank 参数, 提取为热度
+   */
+  async function fetchGhArchive(source) {
+    const platform = source.ghArchive;
+    const url = C.ghArchive.base + '/' + platform + '/' + platform + '.md';
+    const md = await fetchText(url, 22000);
+    if (!md || !md.trim()) throw new Error('归档文件为空');
+
+    // 提取归档日期 (### 2026-07-18) 作为 time (当天 0 点)
+    let archiveTime = null;
+    const dateM = md.match(/^###\s*(\d{4}-\d{2}-\d{2})\s*$/m);
+    if (dateM) {
+      const t = Date.parse(dateM[1] + 'T00:00:00+08:00');  // 国内平台用东八区
+      if (!isNaN(t)) archiveTime = t;
+    }
+
+    // 解析条目: + [标题](链接)
+    const items = [];
+    const re = /\+\s*\[([^\]]+)\]\((https?:[^)]+)\)/g;
+    let m;
+    while ((m = re.exec(md)) !== null && items.length < C.itemsPerSource) {
+      const title = decode(m[1]);
+      let link = m[2];
+      if (!title) continue;
+
+      // 微博热度: 从 URL 提取 band_rank 参数
+      let hot = null, hotLabel = '';
+      const rankM = link.match(/band_rank=(\d+)/);
+      if (rankM) {
+        const rank = parseInt(rankM[1], 10);
+        hot = Math.max(0, 100 - rank);  // 排名越高数值越大 (1->99, 2->98)
+        hotLabel = '#' + rank;
+      }
+
+      items.push(norm({
+        title: title,
+        url: link,
+        hot: hot,
+        hotLabel: hotLabel,
+        time: archiveTime,
+        by: source.name,
+        meta: source.region,
+      }));
+    }
+
+    if (!items.length) throw new Error('归档解析为空 (无 + [标题](链接) 条目)');
+    return { ok: true, items };
+  }
+
+
   async function load(source) {
     // 1. 命中缓存直接返回 (带 ts 以便 UI 显示"缓存于")
     const cached = cacheGet(source.id);
@@ -172,10 +228,11 @@ const HotAPI = (() => {
     let res;
     try {
       switch (source.kind) {
-        case 'rss':   res = await fetchRSS(source); break;
-        case 'hn':    res = await fetchHN(source);  break;
-        case 'vvhan': res = await fetchVvhan(source); break;
-        default:      res = { ok: false, error: '未知 kind: ' + source.kind };
+        case 'rss':       res = await fetchRSS(source);       break;
+        case 'hn':        res = await fetchHN(source);        break;
+        case 'vvhan':     res = await fetchVvhan(source);     break;
+        case 'gharchive': res = await fetchGhArchive(source); break;
+        default:          res = { ok: false, error: '未知 kind: ' + source.kind };
       }
     } catch (e) {
       res = { ok: false, error: e.message || String(e) };

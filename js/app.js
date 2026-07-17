@@ -151,6 +151,10 @@ const App = (() => {
 
   function cardHTML(s) {
     const catName = (CATS.find(c => c.id === s.cat) || {}).name || '';
+    // 数据源类型标记: 实时RSS / 社区API / 每小时归档
+    const typeMap = { rss: '实时', hn: '社区', gharchive: '时报', vvhan: '聚合' };
+    const typeLabel = typeMap[s.kind] || '';
+    const typeTitle = s.kind === 'gharchive' ? '数据由 GitHub Actions 每小时抓取归档' : (s.kind === 'hn' ? '官方 API 实时' : 'RSS 实时订阅');
     return `
       <section class="card" data-id="${s.id}" data-cat="${s.cat}" style="--accent:${s.color}">
         <header class="card-head">
@@ -159,6 +163,7 @@ const App = (() => {
             <div class="card-name">${s.name}${s.region ? `<span class="card-region">${s.region}</span>`:''}</div>
             <div class="card-sub">
               <span class="tag tag-${s.cat}">${catName}</span>
+              <span class="src-type src-type-${s.kind}" title="${typeTitle}">${typeLabel}</span>
               <span class="card-ts" data-ts>—</span>
             </div>
           </div>
@@ -295,7 +300,6 @@ const App = (() => {
   function itemHTML(it, i, s) {
     const rank = `<span class="rank${i<3?' r'+(i+1):''}">${i+1}</span>`;
     const thumb = it.thumb ? `<img class="thumb" src="${it.thumb}" alt="" loading="lazy" onerror="this.remove()">` : '';
-    const hot = it.hotLabel ? `<span class="hot">${it.hotLabel}</span>` : '';
     const meta = [it.time ? fmtRel(it.time) : '', it.meta].filter(Boolean).join(' · ');
     const discuss = it.discuss ? ` <a class="discuss" href="${it.discuss}" target="_blank" rel="noopener" title="参与讨论">💬</a>` : '';
     const href = it.url || s.site || '#';
@@ -303,6 +307,10 @@ const App = (() => {
     // 可信度徽章
     const credIcon = it.credLevel === 'high' ? '✔' : (it.credLevel === 'mid' ? '～' : '⚠');
     const cred = `<span class="cred cred-${it.credLevel}" title="可信度 ${it.cred}/100${it.credReason ? ' · '+it.credReason : ''}">${credIcon}</span>`;
+
+    // 热度标签: 微博 #1 样式更醒目
+    const hotCls = it.hotLabel && /^#[1-3]$/.test(it.hotLabel) ? 'hot hot-top' : 'hot';
+    const hot = it.hotLabel ? `<span class="${hotCls}">${it.hotLabel}</span>` : '';
 
     // 双语标题: 翻译开启且已译 -> 主中文 + 副原文
     const needTr = state.translateEnabled && HotAPI.needTranslate(s);
