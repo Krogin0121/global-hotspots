@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '7d008094-225a-4c56-b4b1-0a01db1acad3'
-  PropagateID: '7d008094-225a-4c56-b4b1-0a01db1acad3'
-  ReservedCode1: '36a237c5-3d03-498f-a476-7bb8d9251c1a'
-  ReservedCode2: '36a237c5-3d03-498f-a476-7bb8d9251c1a'
+  ProduceID: '95f31b7b-5d01-42b8-9a89-2590e2283d3a'
+  PropagateID: '95f31b7b-5d01-42b8-9a89-2590e2283d3a'
+  ReservedCode1: '7e038507-3d26-4065-ad2e-2985e152e9e8'
+  ReservedCode2: '7e038507-3d26-4065-ad2e-2985e152e9e8'
 ---
 
 # 全球实时热点事件 · Global Realtime Hotspots Tracker
@@ -72,9 +72,9 @@ proxy: 'http://127.0.0.1:8765/proxy?url=',
 
 GitHub Pages 部署时前端直连公开 API，无需运行 `server.py`。
 
-## `update.ps1` 一键推送脚本
+## `update.ps1` 本项目一键推送脚本
 
-在项目根目录用 PowerShell 运行：
+在**本项目根目录**用 PowerShell 运行（专为 `global-hotspots` 仓库定制）：
 
 ```powershell
 .\update.ps1                          # 自动提交并推送（提交信息为时间戳）
@@ -84,14 +84,47 @@ GitHub Pages 部署时前端直连公开 API，无需运行 `server.py`。
 .\update.ps1 -Pull                    # 推送前先 rebase 拉取远程
 ```
 
-脚本特性：
-- 自动定位 Git，配置 UTF-8 提交编码与中文路径兼容
+特性：
+- 默认远程：`https://github.com/Krogin0121/global-hotspots.git`
 - 默认走 Clash 代理 `http://127.0.0.1:7890`（可用 `-NoProxy` 关闭）
-- 默认远程：`https://github.com/Krogin0121/全球实时热点事件.git`
-- 中文仓库名用码点构建，规避 PowerShell 5.1 脚本文件编码问题
+- 自动配置 UTF-8 提交编码与中文路径兼容
 - 推送失败时给出认证/网络/冲突三类常见原因与处理建议
 
-> 首次推送若遇认证失败（403/401），需在 GitHub 生成带 `repo` 权限的 Personal Access Token，推送时用户名填 `Krogin0121`、密码处粘贴 Token（Git Credential Manager 会自动记住）。
+> 首次推送若遇认证失败（403/401），需在 GitHub 生成带 `repo` 权限的 Personal Access Token，推送时用户名填 `Krogin0121`、密码处粘贴 Token，Git 会自动记住。
+
+---
+
+## `gh-push` 通用一键推送工具（适用于日后所有项目）
+
+除本项目专属的 `update.ps1` 外，还提供了一个**全局通用工具** `gh-push`，**任意项目目录**下都能一键完成 init / 自动创建仓库 / commit / push 全流程。
+
+### 安装位置
+- 脚本：`D:\Git\cmd\gh-push.ps1`（`D:\Git\cmd` 已在系统 PATH，任意目录可调用）
+
+### 用法
+在任意项目目录下：
+```powershell
+gh-push                                # 仓库名=当前目录名(ASCII化), 自动建仓+推送
+gh-push -Repo my-app -Message "v1.2"   # 指定仓库名和提交信息
+gh-push -Private                       # 新仓库设为私有
+gh-push -NoProxy                       # 直连不走代理
+gh-push -Pull                          # 推送前先 rebase 拉取
+gh-push -NoCreate                      # 仓库不存在时不自动创建, 直接报错
+```
+
+### 核心特性
+- **自动建仓**：远程同名仓库不存在时，自动读取已存凭据通过 GitHub API 创建
+- **仓库名推断优先级**：`-Repo 参数` > `已有 origin 解析` > `当前目录名`（非 ASCII 字符自动替换为 `-`，规避 PowerShell5.1 + GitHub API 中文编码 bug）
+- **沿用 origin**：已绑定 origin 的项目不会误建新仓库
+- **凭据来源**：优先读 `~/.git-credentials`（helper=store），回退 `git credential fill`（GCM）
+- **默认配置**：用户 `Krogin0121`、代理 `http://127.0.0.1:7890`、分支 `main`，均可用参数覆盖
+- **UTF-8 安全**：HttpClient 显式 UTF-8 body；脚本带 BOM 避免 PS5.1 按 GBK 误读
+- **cmd /c 包裹 git 命令**：规避 PS5.1 把 git stderr 进度包成 RemoteException 显示假错误
+
+### 首次使用前提
+- 已安装 Git（`D:\Git`）
+- 已在某次 `git push` 时让 Git 记住 GitHub 凭据（PAT 需带 `repo` scope）
+- Clash 在 7890 端口（或用 `-NoProxy`）
 
 ## 数据源说明
 

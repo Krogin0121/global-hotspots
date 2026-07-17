@@ -105,19 +105,25 @@ try {
     } else {
         $msg = if ($Message) { $Message } else { ("更新于 " + (Get-Date -Format "yyyy-MM-dd HH:mm:ss")) }
         W-Info "[提交] $msg"
-        & $git commit -m $msg
+        $commitCmd = "`"$git`" commit -m `"$msg`" 2>&1"
+        Write-Host ((cmd /c $commitCmd) | Out-String)
     }
 
     # ---------- 6. 推送前 (可选) rebase 拉取 ----------
     if ($Pull) {
         W-Info "拉取远程并 rebase..."
-        & $git pull --rebase origin $Branch 2>&1 | Out-Host
+        $pullCmd = "`"$git`" pull --rebase origin $Branch 2>&1"
+        Write-Host ((cmd /c $pullCmd) | Out-String)
     }
 
     # ---------- 7. 推送 ----------
     W-Info "[推送] origin $Branch ..."
-    & $git push -u origin $Branch 2>&1 | Out-Host
-    if ($LASTEXITCODE -eq 0) {
+    # 用 cmd /c 包裹, 规避 PS5.1 把 git stderr 进度包成 RemoteException 显示假错误
+    $pushCmd = "`"$git`" push -u origin $Branch 2>&1"
+    $pushOut = cmd /c $pushCmd
+    $pushExit = $LASTEXITCODE
+    Write-Host ($pushOut | Out-String)
+    if ($pushExit -eq 0) {
         W-Ok ""
         W-Ok "推送成功!"
         Write-Host ""
