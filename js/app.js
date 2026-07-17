@@ -29,8 +29,23 @@ const App = (() => {
     buildShell();
     applyFilter();
     refreshAll(true);            // 首次拉取
-    startClock();
+      startClock();
     syncAutoRefresh();
+    bindBackTop();
+  }
+
+  /* ---------------- 回到顶部 ---------------- */
+  function bindBackTop() {
+    const btn = document.getElementById('backTop');
+    if (!btn) return;
+    const onScroll = () => {
+      btn.classList.toggle('show', window.scrollY > 480);
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+    onScroll();
   }
 
   /* ---------------- 顶部控制区 ---------------- */
@@ -202,6 +217,43 @@ const App = (() => {
       const id = s.dataset.cnt;
       s.textContent = id === 'all' ? SOURCES.length : (counts[id] || 0);
     });
+    // 搜索关键词高亮
+    highlightSearch();
+  }
+
+  /* ---------------- 搜索高亮 (文本节点级) ---------------- */
+  function highlightSearch() {
+    const q = state.query;
+    document.querySelectorAll('#cards .item').forEach(item => {
+      if (item.style.display === 'none') return;
+      const title = item.querySelector('.it-title');
+      if (!title) return;
+      // 清除旧高亮
+      title.querySelectorAll('mark').forEach(m => {
+        const t = document.createTextNode(m.textContent);
+        m.parentNode.replaceChild(t, m);
+      });
+      title.normalize();
+      if (!q) return;
+      // 高亮命中文本节点
+      const walker = document.createTreeWalker(title, NodeFilter.SHOW_TEXT, null);
+      const targets = [];
+      let n; while (n = walker.nextNode()) targets.push(n);
+      targets.forEach(node => {
+        const lv = node.nodeValue.toLowerCase();
+        let idx = lv.indexOf(q);
+        while (idx >= 0) {
+          const range = document.createRange();
+          range.setStart(node, idx);
+          range.setEnd(node, idx + q.length);
+          const mark = document.createElement('mark');
+          range.surroundContents(mark);
+          // surroundContents 会把匹配部分移出 node, 剩余部分成为新文本节点
+          // 重新从 node 继续找
+          idx = node.nodeValue ? node.nodeValue.toLowerCase().indexOf(q) : -1;
+        }
+      });
+    });
   }
 
   /* ---------------- 统计面板 ---------------- */
@@ -270,8 +322,15 @@ const App = (() => {
   function setLoading(id) {
     const card = document.querySelector(`#cards .card[data-id="${id}"]`);
     if (!card) return;
-    card.querySelector('.card-body').innerHTML = '<div class="loading">加载中…</div>';
+    card.querySelector('.card-body').innerHTML = skeletonHTML();
     card.querySelector('[data-ts]').textContent = '刷新中';
+  }
+
+  function skeletonHTML() {
+    const rows = Array.from({ length: 5 }, () =>
+      `<div class="skel-item"><div class="skel-rank"></div><div class="skel-line"></div></div>`
+    ).join('');
+    return `<div class="skeleton-list">${rows}</div>`;
   }
 
   function renderCard(s) {
@@ -282,7 +341,7 @@ const App = (() => {
     const d = state.data.get(s.id);
     if (!d) return;
 
-    if (d.loading) { body.innerHTML = '<div class="loading">加载中…</div>'; tsEl.textContent = '刷新中'; return; }
+    if (d.loading) { body.innerHTML = skeletonHTML(); tsEl.textContent = '刷新中'; return; }
     if (!d.ok) {
       body.innerHTML = emptyState(s, d.error || '暂时无法获取');
       tsEl.textContent = '不可用';
