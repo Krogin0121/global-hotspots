@@ -14,6 +14,8 @@ const App = (() => {
     theme: localStorage.getItem('gh_theme') || 'dark',
     autoRefresh: localStorage.getItem('gh_auto') === '1',
     intervalMs: parseInt(localStorage.getItem('gh_interval'), 10) || C.refreshInterval,
+    translateEnabled: localStorage.getItem('gh_tr') !== '0',     // 默认开
+    credFilter: localStorage.getItem('gh_credfilter') === '1',   // 默认关
     data: new Map(),          // id -> { ok, items, ts, cached, error, loading }
     refreshing: false,
     autoTimer: null,
@@ -73,6 +75,43 @@ const App = (() => {
       state.query = '';
       applyFilter();
     });
+
+    // 翻译开关
+    const trToggle = $('translateToggle');
+    if (trToggle) {
+      trToggle.checked = state.translateEnabled;
+      trToggle.addEventListener('change', e => {
+        state.translateEnabled = e.target.checked;
+        localStorage.setItem('gh_tr', state.translateEnabled ? '1' : '0');
+        C.translate.enabled = state.translateEnabled;
+        // 开启时: 对已有数据触发翻译; 关闭时: 仅重渲染
+        if (state.translateEnabled) {
+          state.data.forEach((d, id) => {
+            if (d.ok && d.items && d.items.length) {
+              const s = SOURCES.find(x => x.id === id);
+              if (s && HotAPI.needTranslate(s)) {
+                HotAPI.translateBatch(d.items).then(() => renderCard(s));
+              }
+            }
+          });
+        } else {
+          SOURCES.forEach(s => renderCard(s));
+        }
+        applyFilter();
+      });
+    }
+
+    // 仅高可信过滤开关
+    const cfToggle = $('credFilterToggle');
+    if (cfToggle) {
+      cfToggle.checked = state.credFilter;
+      cfToggle.addEventListener('change', e => {
+        state.credFilter = e.target.checked;
+        localStorage.setItem('gh_credfilter', state.credFilter ? '1' : '0');
+        applyFilter();
+        updateStats();
+      });
+    }
   }
 
   function applyTheme() {
@@ -140,7 +179,11 @@ const App = (() => {
       let visibleItems = 0;
       card.querySelectorAll('.item').forEach(it => {
         const txt = it.textContent.toLowerCase();
-        const hit = !state.query || txt.indexOf(state.query) >= 0;
+        const hitQuery = !state.query || txt.indexOf(state.query) >= 0;
+        // 可信度过滤: 开启严格模式时仅 high 可见; 关闭时所有可见但 low dim
+        const level = it.dataset.cred || 'mid';
+        const hitCred = state.credFilter ? (level === 'high') : true;
+        const hit = hitQuery && hitCred;
         it.style.display = hit ? '' : 'none';
         if (hit) visibleItems++;
       });
@@ -156,6 +199,27 @@ const App = (() => {
     });
   }
 
+  /* ---------------- 统计面板 ---------------- */
+  function updateStats() {
+    let total = 0, high = 0, mid = 0, low = 0, tr = 0, src = 0;
+    state.data.forEach(d => {
+      if (!d || !d.ok || !d.items) return;
+      src++;
+      d.items.forEach(it => {
+        total++;
+        if (it.credLevel === 'high') high++; else if (it.credLevel === 'mid') mid++; else low++;
+        if (it.translated) tr++;
+      });
+    });
+    const set = (id, v) => { const e = document.getElementById(id); if (e) e.textContent = v; };
+    set('statTotal', total);
+    set('statHigh', high);
+    set('statMid', mid);
+    set('statLow', low);
+    set('statTr', tr);
+    set('statSrc', src);
+  }
+
   /* ---------------- 拉取与渲染 ---------------- */
   async function refreshAll(initial) {
     state.refreshing = true;
@@ -167,6 +231,10 @@ const App = (() => {
       const r = await HotAPI.load(s);
       state.data.set(s.id, { ...r, loading: false });
       renderCard(s);
+      // 异步翻译英文源 (不阻塞, 译完重渲染)
+      if (r.ok && r.items && r.items.length && state.translateEnabled && HotAPI.needTranslate(s)) {
+        HotAPI.translateBatch(r.items).then(() => renderCard(s)).catch(() => {});
+      }
       return r.ok;
     });
     const results = await Promise.all(tasks);
@@ -175,6 +243,7 @@ const App = (() => {
     state.refreshing = false;
     setStatus(`已更新 · ${ok}/${SOURCES.length} 个源在线 · ${fmtNow()}`, false);
     applyFilter();
+    updateStats();
   }
 
   async function flushOne(id) {
@@ -186,7 +255,11 @@ const App = (() => {
     const r = await HotAPI.load(s);
     state.data.set(id, { ...r, loading: false });
     renderCard(s);
+    if (r.ok && r.items && r.items.length && state.translateEnabled && HotAPI.needTranslate(s)) {
+      HotAPI.translateBatch(r.items).then(() => renderCard(s)).catch(() => {});
+    }
     applyFilter();
+    updateStats();
   }
 
   function setLoading(id) {
@@ -226,11 +299,34 @@ const App = (() => {
     const meta = [it.time ? fmtRel(it.time) : '', it.meta].filter(Boolean).join(' · ');
     const discuss = it.discuss ? ` <a class="discuss" href="${it.discuss}" target="_blank" rel="noopener" title="参与讨论">💬</a>` : '';
     const href = it.url || s.site || '#';
-    return `<li class="item">
-      ${rank}${thumb}
+
+    // 可信度徽章
+    const credIcon = it.credLevel === 'high' ? '✔' : (it.credLevel === 'mid' ? '～' : '⚠');
+    const cred = `<span class="cred cred-${it.credLevel}" title="可信度 ${it.cred}/100${it.credReason ? ' · '+it.credReason : ''}">${credIcon}</span>`;
+
+    // 双语标题: 翻译开启且已译 -> 主中文 + 副原文
+    const needTr = state.translateEnabled && HotAPI.needTranslate(s);
+    let titleHTML, subHTML = '';
+    if (needTr && it.titleZh) {
+      titleHTML = esc(it.titleZh);
+      subHTML = `<div class="it-orig" lang="en">${esc(it.title)}</div>`;
+    } else if (needTr && !it.translated) {
+      // 翻译中, 标记
+      titleHTML = esc(it.title) + ` <span class="tr-pending" title="翻译中">译…</span>`;
+    } else {
+      titleHTML = esc(it.title);
+    }
+
+    // 低可信标记行 (仅在非过滤模式且该条被识别为 spam 时显示原因提示)
+    const spamNote = (it.credLevel === 'low' && it.credReason && !state.credFilter)
+      ? `<span class="spam-note" title="${esc(it.credReason)}">疑似标题党</span>` : '';
+
+    return `<li class="item cred-${it.credLevel}" data-cred="${it.credLevel}">
+      ${rank}${cred}${thumb}
       <div class="it-main">
-        <a class="it-title" href="${href}" target="_blank" rel="noopener">${esc(it.title)}</a>
-        <div class="it-meta">${hot}${meta ? `<span class="meta">${meta}</span>`:''}${discuss}</div>
+        <a class="it-title" href="${href}" target="_blank" rel="noopener">${titleHTML}</a>
+        ${subHTML}
+        <div class="it-meta">${hot}${spamNote}${meta ? `<span class="meta">${meta}</span>`:''}${discuss}</div>
         ${it.desc ? `<div class="it-desc">${esc(it.desc)}</div>` : ''}
       </div>
     </li>`;

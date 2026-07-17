@@ -64,7 +64,7 @@ const HotAPI = (() => {
 
   /* ---------- 归一化条目 ---------- */
   function norm(o) {
-    return Object.assign({ title:'', url:'', hot:null, hotLabel:'', time:null, desc:'', thumb:'', by:'', meta:'' }, o);
+    return Object.assign({ title:'', url:'', hot:null, hotLabel:'', time:null, desc:'', thumb:'', by:'', meta:'', titleZh:'', cred:0, credLevel:'low', credReason:'', translated:false, spam:false }, o);
   }
 
   /* ---------- RSS 适配器 (rss2json 主, allorigins 备) ---------- */
@@ -182,6 +182,9 @@ const HotAPI = (() => {
     }
     if (res.ok && res.items && res.items.length) {
       res.ts = Date.now();
+      // 同步计算可信度评分 (不阻塞, 纯本地计算)
+      const s = (window.SOURCES || []).find(x => x.id === source.id) || source;
+      res.items.forEach(it => scoreCredibility(it, s));
       cacheSet(source.id, res.items);
     }
     return res;
@@ -191,7 +194,195 @@ const HotAPI = (() => {
     try {
       const keys = Object.keys(localStorage).filter(k => k.indexOf('gh_cache_') === 0);
       keys.forEach(k => localStorage.removeItem(k));
+      // 同时清理翻译缓存, 让下次翻译重新拉取
+      const tkeys = Object.keys(localStorage).filter(k => k.indexOf('gh_tr_') === 0);
+      tkeys.forEach(k => localStorage.removeItem(k));
     } catch {}
+  }
+
+  /* ============================================================
+   *  翻译层 (MyMemory API, 无需 key, CORS 开放)
+   *  - localStorage 缓存原文hash -> 译文, 减少重复请求
+   *  - 并发限流器 pLimit(N), 避免瞬时洪峰触发限流
+   *  - 单飞去重: 同一原文同时只发一个请求
+   *  - 翻译失败/超时 -> 返回空串, UI 保留原文 + "译" 标记
+   * ============================================================ */
+
+  // 简易字符串 hash (FNV-1a 32bit), 用作缓存 key
+  function fnvHash(s) {
+    let h = 0x811c9dc5;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = (h + ((h << 1) + (h << 4) + (h << 7) + (h << 8) + (h << 24))) >>> 0;
+    }
+    return h.toString(36);
+  }
+
+  // 并发限流器: 最多 concurrency 个 promise 同时执行
+  function pLimit(concurrency) {
+    let active = 0;
+    const queue = [];
+    const next = () => {
+      if (active >= concurrency || queue.length === 0) return;
+      active++;
+      const { fn, resolve, reject } = queue.shift();
+      Promise.resolve().then(fn).then(v => { active--; resolve(v); next(); }, e => { active--; reject(e); next(); });
+    };
+    return fn => new Promise((resolve, reject) => { queue.push({ fn, resolve, reject }); next(); });
+  }
+
+  const _trLimit = pLimit(C.translate.concurrency);
+  const _trInflight = new Map();   // 原文hash -> Promise, 单飞去重
+
+  function trCacheGet(key) {
+    try {
+      const raw = localStorage.getItem('gh_tr_' + key);
+      if (!raw) return null;
+      const obj = JSON.parse(raw);
+      if (Date.now() - obj.ts > C.translate.cacheTTL) return null;
+      return obj.z;
+    } catch { return null; }
+  }
+  function trCacheSet(key, z) {
+    try {
+      localStorage.setItem('gh_tr_' + key, JSON.stringify({ ts: Date.now(), z }));
+    } catch { /* quota 满 */ }
+  }
+
+  async function translateOne(text) {
+    if (!text || !text.trim()) return '';
+    // 中文/非拉丁字符占比 > 50% 视为已是中文, 跳过翻译
+    const chars = text.replace(/\s/g, '');
+    if (chars.length) {
+      const cjk = (text.match(/[\u4e00-\u9fff\u3000-\u30ff]/g) || []).length;
+      if (cjk / chars.length > 0.4) return '';  // 已是中文, 无需翻译
+    }
+    const key = fnvHash(text);
+    // 1. 缓存
+    const cached = trCacheGet(key);
+    if (cached !== null) return cached;
+    // 2. 单飞去重
+    if (_trInflight.has(key)) return _trInflight.get(key);
+    // 3. 限流 + 请求
+    const p = _trLimit(() => doTranslateOnce(text, key));
+    _trInflight.set(key, p);
+    try {
+      const z = await p;
+      return z;
+    } finally {
+      _trInflight.delete(key);
+    }
+  }
+
+  async function doTranslateOnce(text, key) {
+    const T = C.translate;
+    const q = text.length > T.maxChars ? text.slice(0, T.maxChars) : text;
+    const ctrl = new AbortController();
+    const timer = setTimeout(() => ctrl.abort(), T.timeout);
+    try {
+      const url = `${T.endpoint}?q=${encodeURIComponent(q)}&langpair=${encodeURIComponent(T.langpair)}&de=${encodeURIComponent(T.de)}`;
+      const res = await fetch(url, { signal: ctrl.signal, headers: { 'Accept': 'application/json' } });
+      if (!res.ok) return '';
+      const j = await res.json();
+      const z = (j && j.responseData && j.responseData.translatedText) || '';
+      // MyMemory 偶尔返回 "PLEASE SELECT TWO DISTINCT LANGUAGES" / "INVALID" 等错误文本
+      if (/PLEASE SELECT|INVALID|MY MEMORY WARNING|QUOTA/i.test(z)) return '';
+      // MyMemory 对中文输入有时回传原文, 检测一下
+      const cleaned = String(z).trim();
+      if (cleaned && cleaned !== q) {
+        trCacheSet(key, cleaned);
+        return cleaned;
+      }
+      return '';
+    } catch {
+      return '';
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  // 批量翻译某源标题, 不阻塞 load; 返回 items (原地更新 titleZh/translated)
+  async function translateBatch(items) {
+    if (!C.translate.enabled) return items;
+    if (!items || !items.length) return items;
+    const tasks = items.map(async it => {
+      const z = await translateOne(it.title);
+      if (z) { it.titleZh = z; it.translated = true; }
+    });
+    await Promise.all(tasks);
+    return items;
+  }
+
+  /* ============================================================
+   *  可信度评分 & 虚假信息过滤
+   *  - 基础分: 按 CREDIBILITY_TIER 取源等级
+   *  - 扣分: 全大写比例高 / 连续叹号 / SPAM_KEYWORDS / SPAM_DOMAINS
+   *  - 等级: >=85 high(绿) / 60-84 mid(橙) / <60 low(红, 折叠)
+   * ============================================================ */
+
+  function scoreCredibility(item, source) {
+    const tier = window.CREDIBILITY_TIER;
+    const spamKW = window.SPAM_KEYWORDS;
+    const spamDM = window.SPAM_DOMAINS;
+    let score = tier[source.id] != null ? tier[source.id] : 50;
+    const reasons = [];
+    const title = (item.title || '').trim();
+    const lower = title.toLowerCase();
+
+    // 1. URL 域名黑名单 (最严重, 直接降为 30)
+    let urlHit = false;
+    if (item.url) {
+      try {
+        const host = new URL(item.url).hostname.toLowerCase();
+        for (const d of spamDM) {
+          if (host.indexOf(d) >= 0) { urlHit = true; break; }
+        }
+      } catch {}
+    }
+    if (urlHit) { score = 30; reasons.push('域名黑名单'); }
+
+    // 2. 标题党 / 营销关键词命中 (每命中一个 -18, 累计)
+    if (!urlHit) {
+      let kwHit = 0;
+      for (const kw of spamKW) {
+        if (lower.indexOf(kw.toLowerCase()) >= 0) { kwHit++; reasons.push('热词:' + kw); }
+      }
+      if (kwHit > 0) score -= Math.min(40, kwHit * 18);
+    }
+
+    // 3. 全大写比例 (标题党特征): 占比 > 50% 扣 15
+    if (!urlHit) {
+      const letters = title.replace(/[^A-Za-z]/g, '');
+      if (letters.length > 6) {
+        const uppers = (title.match(/[A-Z]/g) || []).length;
+        if (uppers / letters.length > 0.5) { score -= 15; reasons.push('全大写'); }
+      }
+    }
+
+    // 4. 连续 >=3 个感叹号 扣 10
+    if (!urlHit && /!{3,}/.test(title)) { score -= 10; reasons.push('连环叹号'); }
+
+    // 5. 标题过短 (<4 字符) 且无明显语义 扣 5 (疑似占位)
+    if (title.length > 0 && title.length < 4) { score -= 5; reasons.push('标题过短'); }
+
+    // 6. 标题包含具体数字 (新闻体特征) 加 3 (封顶 100)
+    if (/\b\d{2,4}\b/.test(title) || /\d+[%万亿美元人]/.test(title)) score += 3;
+
+    score = Math.max(0, Math.min(100, Math.round(score)));
+    let level;
+    if (score >= 85) level = 'high';
+    else if (score >= 60) level = 'mid';
+    else level = 'low';
+    item.cred = score;
+    item.credLevel = level;
+    item.credReason = reasons.join(' / ');
+    item.spam = level === 'low';
+    return item;
+  }
+
+  // 是否需要对此源标题翻译
+  function needTranslate(source) {
+    return (window.SOURCES_NEED_TRANSLATE || []).indexOf(source.id) >= 0;
   }
 
   /* ---------- 小工具 ---------- */
@@ -225,5 +416,5 @@ const HotAPI = (() => {
     return String(s).replace(/\s+/g, '');
   }
 
-  return { load, flushCache, fetchJSON };
+  return { load, flushCache, fetchJSON, translateBatch, translateOne, scoreCredibility, needTranslate };
 })();

@@ -246,6 +246,59 @@ a { color: inherit; text-decoration: none; }
 .foot a { color: var(--accent); }
 .foot code { font-family: var(--mono); background: var(--card-2); padding: 1px 6px; border-radius: 5px; }
 
+/* ---------- 统计面板 ---------- */
+.stats-bar {
+  max-width: 1600px; margin: 0 auto; padding: 6px 22px 12px;
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+}
+.stat {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--card-2); border: 1px solid var(--line);
+  padding: 5px 11px; border-radius: 9px; font-size: 12.5px;
+  font-family: var(--mono); color: var(--text-dim);
+}
+.stat .stat-ico { font-size: 13px; opacity: .85; }
+.stat span:nth-child(2) { font-weight: 700; color: var(--text); }
+.stat .stat-lab { color: var(--text-mute); font-weight: 400; }
+.stat-high { border-color: #2a5a3a; }
+.stat-high .stat-ico { color: var(--accent-2); }
+.stat-mid { border-color: #5a4a20; }
+.stat-mid .stat-ico { color: var(--gold); }
+.stat-low { border-color: #5a2a2a; }
+.stat-low .stat-ico { color: var(--danger); }
+
+/* ---------- 单卡内: 双语标题 + 可信度徽章 ---------- */
+.cred {
+  flex: none; width: 20px; height: 20px; border-radius: 50%;
+  display: grid; place-items: center; font-size: 11px; font-weight: 700;
+  border: 1px solid transparent; background: var(--card-2); color: var(--text-mute);
+}
+.cred-high { color: #2ecc71; border-color: #2a6a4a; background: rgba(46,204,113,.08); }
+.cred-mid  { color: var(--gold); border-color: #5a4a20; background: rgba(245,179,1,.08); }
+.cred-low  { color: var(--danger); border-color: #5a2a2a; background: rgba(255,90,90,.08); }
+/* 低可信条目整体灰显 (仅在非严格模式下可见时) */
+.item.cred-low { opacity: .62; }
+.item.cred-low:hover { opacity: 1; }
+
+.it-orig {
+  margin-top: 2px; font-size: 11px; color: var(--text-mute);
+  font-style: italic; line-height: 1.35;
+  display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical; overflow: hidden;
+}
+.tr-pending {
+  display: inline-block; margin-left: 4px; font-size: 10px; color: var(--gold);
+  background: rgba(245,179,1,.12); padding: 0 5px; border-radius: 4px; vertical-align: middle;
+}
+.spam-note {
+  color: var(--danger); font-size: 10.5px;
+  background: rgba(255,90,90,.1); padding: 1px 6px; border-radius: 5px; border: 1px solid #5a2a2a;
+}
+
+/* 翻译开关激活时, item-title 加一点视觉提示 (已译) */
+.it-title.has-zh::after {
+  content: ''; /* 占位, 可扩展 */
+}
+
 /* ---------- 响应式 ---------- */
 @media (max-width: 720px) {
   .topbar-inner { padding: 11px 14px; gap: 12px; }
@@ -254,4 +307,6 @@ a { color: inherit; text-decoration: none; }
   .search { min-width: 140px; flex: 1 1 140px; }
   .grid { padding: 12px 14px 50px; grid-template-columns: 1fr; }
   .tabs-wrap, .status-bar, .foot { padding-left: 14px; padding-right: 14px; }
+  .stats-bar { padding: 6px 14px 10px; gap: 6px; }
+  .stat { padding: 4px 8px; font-size: 11.5px; }
 }

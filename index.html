@@ -41,6 +41,14 @@
             <option value="1800000">30 分钟</option>
           </select>
         </label>
+        <label class="field" title="将英文标题翻译成中文（原文显示在下方）">
+          <span>译中</span>
+          <span class="switch"><input type="checkbox" id="translateToggle"><i></i></span>
+        </label>
+        <label class="field" title="仅显示高可信条目，过滤标题党/钓鱼/营销内容">
+          <span>可信</span>
+          <span class="switch"><input type="checkbox" id="credFilterToggle"><i></i></span>
+        </label>
         <button class="btn" id="refreshBtn">↻ 刷新全部</button>
         <button class="btn" id="themeToggle" title="切换主题">🌙</button>
       </div>
@@ -53,12 +61,23 @@
   <!-- 状态条 -->
   <div class="status-bar" id="status">正在初始化…</div>
 
+  <!-- 统计面板 -->
+  <div class="stats-bar" id="stats">
+    <div class="stat" title="所有源条目总数"><span class="stat-ico">📰</span><span id="statTotal">0</span><span class="stat-lab">总条目</span></div>
+    <div class="stat stat-high" title="高可信条目（≥85分）"><span class="stat-ico">✔</span><span id="statHigh">0</span><span class="stat-lab">高可信</span></div>
+    <div class="stat stat-mid" title="中等可信条目（60-84分）"><span class="stat-ico">～</span><span id="statMid">0</span><span class="stat-lab">中等</span></div>
+    <div class="stat stat-low" title="低可信条目（<60分，已折叠）"><span class="stat-ico">⚠</span><span id="statLow">0</span><span class="stat-lab">低可信</span></div>
+    <div class="stat" title="已翻译成中文的条目"><span class="stat-ico">译</span><span id="statTr">0</span><span class="stat-lab">已译</span></div>
+    <div class="stat" title="在线数据源数量"><span class="stat-ico">📡</span><span id="statSrc">0</span><span class="stat-lab">在线源</span></div>
+  </div>
+
   <!-- 卡片网格 -->
   <main class="grid" id="cards"></main>
 
   <!-- 页脚 -->
   <footer class="foot">
     数据来源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
+    英文标题由 MyMemory 翻译 API 实时中文化（带本地缓存）· 可信度评分基于来源等级 + 标题党特征 + 关键词黑名单综合判定<br>
     仅作信息聚合展示，版权归原作者所有 · 静态前端直连公开 API，单源失败不影响其它源 · 部分国内源需在本机网络可达时显示
   </footer>
 

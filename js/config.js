@@ -38,7 +38,71 @@ const CONFIG = {
 
   // Hacker News 抓取条目数
   hnCount: 30,
+
+  /* ============ 新增: 翻译 & 可信度过滤 ============ */
+
+  // 翻译服务 MyMemory (无需 key, CORS 开放, 匿名约 5000 词/天; 带 de 可升 50000)
+  //   GET ?q=TEXT&langpair=en|zh-CN&de=邮箱
+  translate: {
+    endpoint: 'https://api.mymemory.translated.net/get',
+    langpair: 'en|zh-CN',
+    de: 'globalhotspots@example.com',
+    enabled: true,            // 默认开启翻译 (用户可关)
+    // 标题长度超过此值截断后再译 (防止超长请求被拒)
+    maxChars: 280,
+    // 并发限流: 同一时刻最多 N 个翻译请求在飞
+    concurrency: 3,
+    // 单条请求超时 (毫秒)
+    timeout: 8000,
+    // 翻译结果缓存有效期 (默认与新闻缓存一致, 8 分钟)
+    cacheTTL: 8 * 60 * 1000,
+  },
+
+  // 可信度过滤
+  credibility: {
+    enabled: true,            // 默认开启过滤 (用户可关)
+    // 阈值: < hideThreshold 的条目默认折叠隐藏
+    hideThreshold: 60,
+    // "仅看高可信" 模式阈值
+    highThreshold: 85,
+    highOnly: false,          // 默认不开启严格过滤
+  },
 };
+
+/* ============ 可信度配置 ============ */
+
+// 来源可信度基础分 (按源等级)
+//   tier-s: 国际权威主流媒体 (BBC/NYT/Guardian/NPR/DW/CNBC) -> 90
+//   tier-a: 主流专业聚合 (Reuters/AP 若加入)               -> 88
+//   tier-b: 透明社区 (Hacker News)                          -> 80
+//   tier-c: 聚合来源 (Google News / vvhan 国内平台)         -> 75
+//   tier-d: 未分类/未知                                      -> 50
+const CREDIBILITY_TIER = {
+  'bbc':90, 'nyt':90, 'guardian':90, 'npr':90, 'dw':90, 'cnbc':90,
+  'hackernews': 80,
+  'gn-cn':75, 'weibo':75, 'zhihu':75, 'baidu':75, 'bili':75, 'douyin':75, 'toutiao':75,
+};
+
+// 标题党 / 虚假信息特征关键词 (出现即扣分; 中文+英文混合)
+const SPAM_KEYWORDS = [
+  // 英文 clickbait
+  'shocking','you won\'t believe','breaking news:','must see','exposed:','truth revealed',
+  'this simple trick','doctors hate','click here','read more','surprising truth',
+  'what happens next','will shock you',
+  // 中文营销 / 标题党 / 钓鱼
+  '震惊','速看','快看','删前速看','点击查看','限时抢购','暴富','月入百万',
+  '秘籍','真相曝光','惊天内幕','惊呆','看哭','看完跪了','别再','千万别',
+  // 金融诈骗特征
+  '稳赚不赔','内部消息','保本保息','日赚','零风险',
+];
+
+// 已知不可信域名 (URL 命中即直接降为低可信)
+const SPAM_DOMAINS = [
+  'clickbait.example','fake-news.example','ads.example',
+];
+
+// 翻译语言识别辅助: 这些源标题默认是英文, 需要翻译
+const SOURCES_NEED_TRANSLATE = ['bbc','nyt','guardian','npr','dw','cnbc','hackernews'];
 
 /* 数据源列表 ----------------------------------------------------
  * kind:   'rss' | 'hn' | 'vvhan'
@@ -80,3 +144,7 @@ const CATEGORIES = [
 window.CONFIG = CONFIG;
 window.SOURCES = SOURCES;
 window.CATEGORIES = CATEGORIES;
+window.CREDIBILITY_TIER = CREDIBILITY_TIER;
+window.SPAM_KEYWORDS = SPAM_KEYWORDS;
+window.SPAM_DOMAINS = SPAM_DOMAINS;
+window.SOURCES_NEED_TRANSLATE = SOURCES_NEED_TRANSLATE;
