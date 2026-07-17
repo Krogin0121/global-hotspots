@@ -1,0 +1,23 @@
+# 操作系统 / 编辑器
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.vscode/
+.idea/
+
+# 临时与缓存
+.temp/
+*.log
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地敏感配置 (如自定义 PAT/代理)
+.env
+*.local
+secrets.*
+
+# 依赖 (本仓库为纯静态, 通常无, 仍预留)
+node_modules/
+package-lock.json
