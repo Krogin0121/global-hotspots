@@ -392,7 +392,7 @@ const App = (() => {
     if (!el) return;
     const hasFilter = state.query || state.credFilter || state.activeCat !== 'all';
     if (hasFilter && visibleCards === 0) {
-      el.hidden = false;
+      el.style.display = 'flex';
       const sub = document.getElementById('nrSub');
       if (sub) {
         const parts = [];
@@ -405,7 +405,7 @@ const App = (() => {
         sub.textContent = parts.length ? '当前筛选：' + parts.join(' · ') : '';
       }
     } else {
-      el.hidden = true;
+      el.style.display = 'none';
     }
   }
 
