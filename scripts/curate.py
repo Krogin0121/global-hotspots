@@ -36,8 +36,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 RAW_PATH = os.path.join(BASE_DIR, "data", "raw.json")
 OUT_PATH = os.path.join(BASE_DIR, "data", "top20.json")
 
-LLM_BASE_URL = os.environ.get("LLM_BASE_URL", "https://open.bigmodel.cn/api/paas/v4")
-LLM_MODEL = os.environ.get("LLM_MODEL", "glm-4-flash")
+LLM_BASE_URL = os.environ.get("LLM_BASE_URL") or "https://open.bigmodel.cn/api/paas/v4"
+LLM_MODEL = os.environ.get("LLM_MODEL") or "glm-4-flash"
 API_KEY = os.environ.get("ZHIPU_API_KEY") or os.environ.get("LLM_API_KEY")
 
 # 候选池大小（送入 LLM 筛选的最大条数）
@@ -176,7 +176,7 @@ def llm_chat(messages, temperature=0.7, max_tokens=4000):
     if not API_KEY:
         raise RuntimeError("未配置 ZHIPU_API_KEY 环境变量")
 
-    url = f"{LLM_BASE_URL}/chat/completions"
+    url = f"{LLM_BASE_URL.rstrip('/')}/chat/completions"
     headers = {
         "Authorization": f"Bearer {API_KEY}",
         "Content-Type": "application/json",
@@ -187,8 +187,13 @@ def llm_chat(messages, temperature=0.7, max_tokens=4000):
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    resp = requests.post(url, headers=headers, json=payload, timeout=REQUEST_TIMEOUT)
-    resp.raise_for_status()
+    try:
+        resp = requests.post(url, headers=headers, json=payload, timeout=REQUEST_TIMEOUT)
+    except requests.exceptions.RequestException as e:
+        raise RuntimeError(f"LLM 请求连接失败 (url={url}): {e}")
+    if resp.status_code != 200:
+        body = resp.text[:300]
+        raise RuntimeError(f"LLM API 返回 HTTP {resp.status_code}: {body}")
     data = resp.json()
     return data["choices"][0]["message"]["content"]
 
@@ -364,7 +369,8 @@ def main():
         sys.exit(1)
 
     log(f"=== LLM 策划开始 {now_iso()} ===")
-    log(f"模型: {LLM_MODEL} @ {LLM_BASE_URL}")
+    log(f"模型: {LLM_MODEL!r} @ {LLM_BASE_URL!r}")
+    log(f"API key: {'***' + API_KEY[-4:] if API_KEY else '(空)'} (长度 {len(API_KEY)})")
 
     # 1. 读取 raw.json
     if not os.path.exists(RAW_PATH):
