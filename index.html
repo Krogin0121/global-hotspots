@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
@@ -6,7 +6,7 @@
   <meta name="description" content="全球实时热点事件聚合 · 一站式追踪国际新闻、科技社区与国内热搜">
   <title>全球实时热点事件 · Global Hotspots</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>◈</text></svg>">
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
@@ -48,6 +48,10 @@
         <label class="field" title="仅显示高可信条目，过滤标题党/钓鱼/营销内容">
           <span>可信</span>
           <span class="switch"><input type="checkbox" id="credFilterToggle"><i></i></span>
+        </label>
+        <label class="field" title="隐藏已点击过的条目（按 H 切换）">
+          <span>未读</span>
+          <span class="switch"><input type="checkbox" id="hideReadToggle"><i></i></span>
         </label>
         <button class="btn" id="refreshBtn">↻ 刷新全部</button>
         <div class="field fs-field" title="字体大小">
@@ -93,7 +97,7 @@
     数据来源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
     英文标题由 MyMemory 翻译 API 实时中文化（带本地缓存）· 可信度评分基于来源等级 + 标题党特征 + 关键词黑名单综合判定<br>
     仅作信息聚合展示，版权归原作者所有 · 静态前端直连公开 API，单源失败不影响其它源 · 部分国内源需在本机网络可达时显示<br>
-    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>1</kbd>-<kbd>4</kbd>切分类 <kbd>R</kbd>刷新 <kbd>T</kbd>主题 <kbd>F</kbd>折叠全部 <kbd>G</kbd>回顶 <kbd>?</kbd>帮助</span>
+    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>1</kbd>-<kbd>4</kbd>切分类 <kbd>R</kbd>刷新 <kbd>T</kbd>主题 <kbd>F</kbd>折叠全部 <kbd>G</kbd>回顶 <kbd>H</kbd>仅未读 <kbd>J</kbd>/<kbd>K</kbd>逐条浏览 <kbd>?</kbd>帮助</span>
   </footer>
 
   <!-- 回到顶部 -->
@@ -114,14 +118,16 @@
         <li><kbd>T</kbd><span>切换深色/浅色主题</span></li>
         <li><kbd>F</kbd><span>折叠/展开所有卡片</span></li>
         <li><kbd>G</kbd><span>回到顶部</span></li>
+        <li><kbd>H</kbd><span>切换「仅看未读」开关</span></li>
+        <li><kbd>J</kbd> / <kbd>K</kbd><span>下/上一条逐条浏览（自动滚入视口）</span></li>
         <li><kbd>?</kbd><span>打开本帮助面板</span></li>
       </ul>
-      <div class="help-tip">点击卡片标题栏可折叠单个卡片；点击过的条目标题会自动变暗（已读标记），可在顶栏「可信」旁的开关管理。</div>
+      <div class="help-tip">点击卡片标题栏可折叠单个卡片；点击过的条目标题会自动变暗（已读标记），可用顶栏「未读」开关或快捷键 H 过滤。每个源卡片标题旁有色点显示健康度（绿=快/橙=正常/红=慢/灰=缓存/×=离线）。</div>
     </div>
   </div>
 
-  <script src="js/config.js?v=2"></script>
-  <script src="js/api.js?v=2"></script>
-  <script src="js/app.js?v=2"></script>
+  <script src="js/config.js?v=3"></script>
+  <script src="js/api.js?v=3"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>

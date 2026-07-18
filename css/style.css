@@ -292,6 +292,28 @@ a { color: inherit; text-decoration: none; }
 .src-type-gharchive { color: var(--accent-2); border-color: #2a5a4a; }
 .src-type-vvhan     { color: var(--text-mute); }
 
+/* ---------- 数据源健康度徽章 ---------- */
+.card-health {
+  display: inline-block; width: 8px; height: 8px; border-radius: 50%;
+  font-size: 0; line-height: 0; vertical-align: middle;
+  background: var(--text-mute); transition: background .3s;
+}
+.card-health.health-fast   { background: #4ade80; box-shadow: 0 0 6px rgba(74,222,128,.6); }   /* 绿: <1.5s */
+.card-health.health-ok     { background: #fbbf24; box-shadow: 0 0 6px rgba(251,191,36,.5); }    /* 黄: 1.5-3s */
+.card-health.health-slow   { background: #f87171; box-shadow: 0 0 6px rgba(248,113,113,.5); }   /* 红: >3s */
+.card-health.health-cached { background: #64708a; }                                            /* 灰: 缓存 */
+.card-health.health-down   { background: #ef4444; box-shadow: 0 0 8px rgba(239,68,68,.7); width: 10px; height: 10px; }
+.card-health.health-empty  { background: #475569; }
+.card-health.health-loading { background: #64708a; opacity: .4; }
+
+/* ---------- j/k 焦点高亮 ---------- */
+.item.focused {
+  outline: 2px solid var(--accent-2);
+  outline-offset: -2px;
+  background: rgba(255,255,255,.04);
+  border-radius: 6px;
+}
+
 /* 微博 Top3 热度高亮 */
 .hot.hot-top {
   color: #fff; background: linear-gradient(135deg, #ff5a5a, #ff8a3a);

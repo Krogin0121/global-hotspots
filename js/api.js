@@ -222,9 +222,10 @@ const HotAPI = (() => {
   async function load(source) {
     // 1. 命中缓存直接返回 (带 ts 以便 UI 显示"缓存于")
     const cached = cacheGet(source.id);
-    if (cached) return { ok: true, items: cached.items, ts: cached.ts, cached: true };
+    if (cached) return { ok: true, items: cached.items, ts: cached.ts, cached: true, latency: 0 };
 
-    // 2. 在线拉取
+    // 2. 在线拉取 (计时)
+    const t0 = performance.now();
     let res;
     try {
       switch (source.kind) {
@@ -237,6 +238,8 @@ const HotAPI = (() => {
     } catch (e) {
       res = { ok: false, error: e.message || String(e) };
     }
+    const latency = Math.round(performance.now() - t0);
+    if (res.ok) res.latency = latency;
     if (res.ok && res.items && res.items.length) {
       res.ts = Date.now();
       // 同步计算可信度评分 (不阻塞, 纯本地计算)

@@ -97,10 +97,45 @@ const App = (() => {
           toggleCollapseAll(); break;
         case 'g':
           window.scrollTo({ top: 0, behavior: 'smooth' }); break;
+        case 'h':
+          toggleHideRead(); break;
+        case 'j':
+          e.preventDefault(); focusItem(1); break;
+        case 'k':
+          e.preventDefault(); focusItem(-1); break;
         case '?':
           openHelp(); break;
       }
     });
+  }
+
+  function toggleHideRead() {
+    state.hideRead = !state.hideRead;
+    localStorage.setItem('gh_hideread', state.hideRead ? '1' : '0');
+    const hr = document.getElementById('hideReadToggle');
+    if (hr) hr.checked = state.hideRead;
+    applyFilter();
+    updateStats();
+  }
+
+  /* ---------------- j/k 逐条浏览 ---------------- */
+  let focusIdx = -1;
+  function focusItem(dir) {
+    const items = [...document.querySelectorAll('#cards .item')].filter(it => it.offsetParent !== null);
+    if (!items.length) return;
+    // 清除旧高亮
+    items.forEach(it => it.classList.remove('focused'));
+    focusIdx += dir;
+    if (focusIdx < 0) focusIdx = 0;
+    if (focusIdx >= items.length) focusIdx = items.length - 1;
+    const it = items[focusIdx];
+    it.classList.add('focused');
+    it.scrollIntoView({ block: 'center', behavior: 'smooth' });
+    // 滚动时若条目在折叠卡片下方，先展开
+    const card = it.closest('.card');
+    if (card && card.classList.contains('collapsed')) {
+      toggleCollapse(card.dataset.id);
+    }
   }
   function switchCat(cat) {
     state.activeCat = cat;
@@ -285,6 +320,18 @@ const App = (() => {
       });
     }
 
+    // 隐藏已读开关
+    const hrToggle = $('hideReadToggle');
+    if (hrToggle) {
+      hrToggle.checked = state.hideRead;
+      hrToggle.addEventListener('change', e => {
+        state.hideRead = e.target.checked;
+        localStorage.setItem('gh_hideread', state.hideRead ? '1' : '0');
+        applyFilter();
+        updateStats();
+      });
+    }
+
     // 字体大小
     $('fontDown')?.addEventListener('click', () => cycleFont(-1));
     $('fontUp')?.addEventListener('click', () => cycleFont(1));
@@ -340,6 +387,7 @@ const App = (() => {
             <div class="card-sub">
               <span class="tag tag-${s.cat}">${catName}</span>
               <span class="src-type src-type-${s.kind}" title="${typeTitle}">${typeLabel}</span>
+              <span class="card-health" data-health title="数据源健康度"></span>
               <span class="card-ts" data-ts>—</span>
             </div>
           </div>
@@ -366,7 +414,9 @@ const App = (() => {
         // 可信度过滤: 开启严格模式时仅 high 可见; 关闭时所有可见但 low dim
         const level = it.dataset.cred || 'mid';
         const hitCred = state.credFilter ? (level === 'high') : true;
-        const hit = hitQuery && hitCred;
+        // 已读过滤: 开启时仅未读可见
+        const hitRead = state.hideRead ? !it.classList.contains('is-read') : true;
+        const hit = hitQuery && hitCred && hitRead;
         it.style.display = hit ? '' : 'none';
         if (hit) visibleItems++;
       });
@@ -402,6 +452,7 @@ const App = (() => {
           if (c) parts.push('分类「' + c.name + '」');
         }
         if (state.credFilter) parts.push('仅高可信');
+        if (state.hideRead) parts.push('仅未读');
         sub.textContent = parts.length ? '当前筛选：' + parts.join(' · ') : '';
       }
     } else {
@@ -418,6 +469,10 @@ const App = (() => {
     localStorage.setItem('gh_credfilter', '0');
     const cf = document.getElementById('credFilterToggle');
     if (cf) cf.checked = false;
+    state.hideRead = false;
+    localStorage.setItem('gh_hideread', '0');
+    const hr = document.getElementById('hideReadToggle');
+    if (hr) hr.checked = false;
     document.querySelectorAll('#tabs .tab').forEach(x => x.classList.toggle('on', x.dataset.cat === 'all'));
     applyFilter();
     updateStats();
@@ -540,22 +595,36 @@ const App = (() => {
     if (!card) return;
     const body = card.querySelector('.card-body');
     const tsEl = card.querySelector('[data-ts]');
+    const healthEl = card.querySelector('[data-health]');
     const d = state.data.get(s.id);
     if (!d) return;
 
-    if (d.loading) { body.innerHTML = skeletonHTML(); tsEl.textContent = '刷新中'; return; }
+    if (d.loading) { body.innerHTML = skeletonHTML(); tsEl.textContent = '刷新中'; if (healthEl) { healthEl.className = 'card-health health-loading'; healthEl.textContent = '…'; } return; }
     if (!d.ok) {
       body.innerHTML = emptyState(s, d.error || '暂时无法获取');
       tsEl.textContent = '不可用';
+      if (healthEl) { healthEl.className = 'card-health health-down'; healthEl.textContent = '✕'; healthEl.title = '离线: ' + (d.error || '不可达'); }
       return;
     }
     if (!d.items || !d.items.length) {
       body.innerHTML = emptyState(s, '暂无内容');
       tsEl.textContent = '空';
+      if (healthEl) { healthEl.className = 'card-health health-empty'; healthEl.textContent = '○'; healthEl.title = '在线但无内容'; }
       return;
     }
     body.innerHTML = '<ul class="items">' + d.items.map((it, i) => itemHTML(it, i, s)).join('') + '</ul>';
     tsEl.textContent = '更新于 ' + (d.cached ? '缓存 ' : '') + fmtRel(d.ts);
+    // 健康度徽章: 在线 + 延迟分档
+    if (healthEl) {
+      const lat = d.latency || 0;
+      let cls = 'health-fast', label = '●', tip = '在线';
+      if (d.cached) { cls = 'health-cached'; label = '●'; tip = '缓存'; }
+      else if (lat > 3000) { cls = 'health-slow'; label = '●'; tip = '较慢'; }
+      else if (lat > 1500) { cls = 'health-ok'; label = '●'; tip = '正常'; }
+      healthEl.className = 'card-health ' + cls;
+      healthEl.textContent = label;
+      healthEl.title = tip + (lat > 0 ? ' · ' + lat + 'ms' : '');
+    }
   }
 
   function itemHTML(it, i, s) {
