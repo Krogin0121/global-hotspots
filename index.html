@@ -50,7 +50,13 @@
           <span class="switch"><input type="checkbox" id="credFilterToggle"><i></i></span>
         </label>
         <button class="btn" id="refreshBtn">↻ 刷新全部</button>
+        <div class="field fs-field" title="字体大小">
+          <span>A</span>
+          <button type="button" class="fs-btn" id="fontDown" title="缩小字体">−</button>
+          <button type="button" class="fs-btn" id="fontUp" title="放大字体">+</button>
+        </div>
         <button class="btn" id="themeToggle" title="切换主题">🌙</button>
+        <button class="btn" id="helpBtn" title="键盘快捷键 (?)">?</button>
       </div>
     </div>
   </header>
@@ -78,11 +84,33 @@
   <footer class="foot">
     数据来源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
     英文标题由 MyMemory 翻译 API 实时中文化（带本地缓存）· 可信度评分基于来源等级 + 标题党特征 + 关键词黑名单综合判定<br>
-    仅作信息聚合展示，版权归原作者所有 · 静态前端直连公开 API，单源失败不影响其它源 · 部分国内源需在本机网络可达时显示
+    仅作信息聚合展示，版权归原作者所有 · 静态前端直连公开 API，单源失败不影响其它源 · 部分国内源需在本机网络可达时显示<br>
+    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>1</kbd>-<kbd>4</kbd>切分类 <kbd>R</kbd>刷新 <kbd>T</kbd>主题 <kbd>F</kbd>折叠全部 <kbd>G</kbd>回顶 <kbd>?</kbd>帮助</span>
   </footer>
 
   <!-- 回到顶部 -->
   <button id="backTop" title="回到顶部" aria-label="回到顶部">↑</button>
+
+  <!-- 快捷键帮助浮层 -->
+  <div id="helpOverlay" class="help-overlay" aria-hidden="true">
+    <div class="help-card">
+      <div class="help-head">
+        <h3>键盘快捷键</h3>
+        <button class="help-close" id="helpClose" aria-label="关闭">×</button>
+      </div>
+      <ul class="help-list">
+        <li><kbd>/</kbd><span>聚焦搜索框</span></li>
+        <li><kbd>Esc</kbd><span>清空搜索 / 关闭本面板</span></li>
+        <li><kbd>1</kbd><span>全部</span><kbd>2</kbd><span>国际</span><kbd>3</kbd><span>科技</span><kbd>4</kbd><span>国内</span></li>
+        <li><kbd>R</kbd><span>刷新全部数据源</span></li>
+        <li><kbd>T</kbd><span>切换深色/浅色主题</span></li>
+        <li><kbd>F</kbd><span>折叠/展开所有卡片</span></li>
+        <li><kbd>G</kbd><span>回到顶部</span></li>
+        <li><kbd>?</kbd><span>打开本帮助面板</span></li>
+      </ul>
+      <div class="help-tip">点击卡片标题栏可折叠单个卡片；点击过的条目标题会自动变暗（已读标记），可在顶栏「可信」旁的开关管理。</div>
+    </div>
+  </div>
 
   <script src="js/config.js"></script>
   <script src="js/api.js"></script>

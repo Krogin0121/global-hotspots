@@ -16,6 +16,10 @@ const App = (() => {
     intervalMs: parseInt(localStorage.getItem('gh_interval'), 10) || C.refreshInterval,
     translateEnabled: localStorage.getItem('gh_tr') !== '0',     // 默认开
     credFilter: localStorage.getItem('gh_credfilter') === '1',   // 默认关
+    fontScale: localStorage.getItem('gh_font') || 'md',          // sm/md/lg
+    collapsed: new Set(JSON.parse(localStorage.getItem('gh_collapsed') || '[]')),  // 折叠的卡片 id
+    hideRead: localStorage.getItem('gh_hideread') === '1',       // 隐藏已读
+    readUrls: new Set(JSON.parse(localStorage.getItem('gh_read') || '[]')),        // 已读 url 集合
     data: new Map(),          // id -> { ok, items, ts, cached, error, loading }
     refreshing: false,
     autoTimer: null,
@@ -24,14 +28,162 @@ const App = (() => {
   /* ---------------- 初始化 ---------------- */
   function init() {
     applyTheme();
+    applyFontScale();
     bindHeader();
     bindTabs();
     buildShell();
+    bindCardCollapse();
+    bindReadMark();
+    restoreCollapsed();
     applyFilter();
     refreshAll(true);            // 首次拉取
-      startClock();
+    startClock();
     syncAutoRefresh();
     bindBackTop();
+    bindKeyboard();
+    bindHelp();
+  }
+
+  /* ---------------- 字体大小 ---------------- */
+  function applyFontScale() {
+    document.documentElement.setAttribute('data-font', state.fontScale);
+  }
+  function cycleFont(dir) {
+    const order = ['sm', 'md', 'lg'];
+    let i = order.indexOf(state.fontScale);
+    i = Math.max(0, Math.min(order.length - 1, i + dir));
+    state.fontScale = order[i];
+    localStorage.setItem('gh_font', state.fontScale);
+    applyFontScale();
+  }
+
+  /* ---------------- 快捷键 ---------------- */
+  function bindKeyboard() {
+    document.addEventListener('keydown', e => {
+      // 输入框聚焦时仅处理 Esc
+      const tag = (e.target.tagName || '').toLowerCase();
+      const inField = tag === 'input' || tag === 'textarea' || tag === 'select';
+      if (e.key === 'Escape') {
+        if (inField) { e.target.blur(); }
+        closeHelp();
+        const si = document.getElementById('searchInput');
+        if (si && si.value) { si.value = ''; state.query = ''; applyFilter(); }
+        return;
+      }
+      if (inField) return;
+      // 忽略带 Ctrl/Meta/Alt 的组合
+      if (e.ctrlKey || e.metaKey || e.altKey) return;
+      const k = e.key.toLowerCase();
+      switch (k) {
+        case '/':
+          e.preventDefault();
+          document.getElementById('searchInput')?.focus();
+          break;
+        case '1': switchCat('all'); break;
+        case '2': switchCat('intl'); break;
+        case '3': switchCat('tech'); break;
+        case '4': switchCat('cn'); break;
+        case 'r':
+          HotAPI.flushCache(); refreshAll(false); break;
+        case 't':
+          state.theme = state.theme === 'dark' ? 'light' : 'dark';
+          localStorage.setItem('gh_theme', state.theme); applyTheme(); break;
+        case 'f':
+          toggleCollapseAll(); break;
+        case 'g':
+          window.scrollTo({ top: 0, behavior: 'smooth' }); break;
+        case '?':
+          openHelp(); break;
+      }
+    });
+  }
+  function switchCat(cat) {
+    state.activeCat = cat;
+    document.querySelectorAll('#tabs .tab').forEach(x => {
+      x.classList.toggle('on', x.dataset.cat === cat);
+    });
+    applyFilter();
+  }
+
+  /* ---------------- 帮助浮层 ---------------- */
+  function bindHelp() {
+    const overlay = document.getElementById('helpOverlay');
+    document.getElementById('helpBtn')?.addEventListener('click', openHelp);
+    document.getElementById('helpClose')?.addEventListener('click', closeHelp);
+    overlay?.addEventListener('click', e => { if (e.target === overlay) closeHelp(); });
+  }
+  function openHelp() {
+    const ov = document.getElementById('helpOverlay');
+    if (ov) { ov.classList.add('show'); ov.setAttribute('aria-hidden', 'false'); }
+  }
+  function closeHelp() {
+    const ov = document.getElementById('helpOverlay');
+    if (ov) { ov.classList.remove('show'); ov.setAttribute('aria-hidden', 'true'); }
+  }
+
+  /* ---------------- 卡片折叠 ---------------- */
+  function bindCardCollapse() {
+    const grid = document.getElementById('cards');
+    grid.addEventListener('click', e => {
+      // 排除刷新按钮点击
+      if (e.target.closest('.card-refresh')) return;
+      const head = e.target.closest('.card-head');
+      if (!head) return;
+      const card = head.closest('.card');
+      if (!card) return;
+      toggleCollapse(card.dataset.id);
+    });
+  }
+  function toggleCollapse(id) {
+    const card = document.querySelector(`#cards .card[data-id="${id}"]`);
+    if (!card) return;
+    const isCol = card.classList.toggle('collapsed');
+    if (isCol) state.collapsed.add(id); else state.collapsed.delete(id);
+    persistCollapsed();
+  }
+  function toggleCollapseAll() {
+    const cards = document.querySelectorAll('#cards .card');
+    const allCol = Array.from(cards).every(c => c.classList.contains('collapsed'));
+    cards.forEach(c => {
+      const id = c.dataset.id;
+      if (allCol) { c.classList.remove('collapsed'); state.collapsed.delete(id); }
+      else { c.classList.add('collapsed'); state.collapsed.add(id); }
+    });
+    persistCollapsed();
+  }
+  function persistCollapsed() {
+    try { localStorage.setItem('gh_collapsed', JSON.stringify(Array.from(state.collapsed))); } catch {}
+  }
+  function restoreCollapsed() {
+    document.querySelectorAll('#cards .card').forEach(c => {
+      c.classList.toggle('collapsed', state.collapsed.has(c.dataset.id));
+    });
+  }
+
+  /* ---------------- 阅读标记 ---------------- */
+  function markRead(url) {
+    if (!url) return;
+    state.readUrls.add(url);
+    // 限制集合大小 (保留最近 500 条)
+    if (state.readUrls.size > 500) {
+      const arr = Array.from(state.readUrls).slice(-500);
+      state.readUrls = new Set(arr);
+    }
+    try { localStorage.setItem('gh_read', JSON.stringify(Array.from(state.readUrls))); } catch {}
+  }
+  function isRead(url) { return url ? state.readUrls.has(url) : false; }
+  function bindReadMark() {
+    const grid = document.getElementById('cards');
+    grid.addEventListener('click', e => {
+      const a = e.target.closest('.it-title');
+      if (!a) return;
+      const url = a.dataset.url || a.getAttribute('href');
+      if (url) {
+        markRead(url);
+        const li = a.closest('.item');
+        if (li) li.classList.add('is-read');
+      }
+    });
   }
 
   /* ---------------- 回到顶部 ---------------- */
@@ -127,6 +279,10 @@ const App = (() => {
         updateStats();
       });
     }
+
+    // 字体大小
+    $('fontDown')?.addEventListener('click', () => cycleFont(-1));
+    $('fontUp')?.addEventListener('click', () => cycleFont(1));
   }
 
   function applyTheme() {
@@ -172,7 +328,7 @@ const App = (() => {
     const typeTitle = s.kind === 'gharchive' ? '数据由 GitHub Actions 每小时抓取归档' : (s.kind === 'hn' ? '官方 API 实时' : 'RSS 实时订阅');
     return `
       <section class="card" data-id="${s.id}" data-cat="${s.cat}" style="--accent:${s.color}">
-        <header class="card-head">
+        <header class="card-head" title="点击折叠/展开">
           <div class="card-ico" style="background:${s.color}">${s.icon}</div>
           <div class="card-tit">
             <div class="card-name">${s.name}${s.region ? `<span class="card-region">${s.region}</span>`:''}</div>
@@ -183,6 +339,7 @@ const App = (() => {
             </div>
           </div>
           <button class="card-refresh" title="刷新此源">↻</button>
+          <span class="chevron" aria-hidden="true">▾</span>
         </header>
         <div class="card-body"><div class="loading">加载中…</div></div>
       </section>`;
@@ -388,10 +545,13 @@ const App = (() => {
     const spamNote = (it.credLevel === 'low' && it.credReason && !state.credFilter)
       ? `<span class="spam-note" title="${esc(it.credReason)}">疑似标题党</span>` : '';
 
-    return `<li class="item cred-${it.credLevel}" data-cred="${it.credLevel}">
+    // 已读标记
+    const readCls = isRead(href) ? ' is-read' : '';
+
+    return `<li class="item cred-${it.credLevel}${readCls}" data-cred="${it.credLevel}">
       ${rank}${cred}${thumb}
       <div class="it-main">
-        <a class="it-title" href="${href}" target="_blank" rel="noopener">${titleHTML}</a>
+        <a class="it-title" href="${href}" target="_blank" rel="noopener" data-url="${esc(href)}">${titleHTML}</a>
         ${subHTML}
         <div class="it-meta">${hot}${spamNote}${meta ? `<span class="meta">${meta}</span>`:''}${discuss}</div>
         ${it.desc ? `<div class="it-desc">${esc(it.desc)}</div>` : ''}
