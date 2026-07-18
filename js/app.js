@@ -435,6 +435,9 @@ const App = (() => {
     highlightSearch();
     // 无结果提示: 所有卡片隐藏时显示
     updateNoResults(visibleCardsTotal);
+    // 重置 j/k 导航焦点（列表已变，旧索引失效）
+    document.querySelectorAll('.item.focused').forEach(it => it.classList.remove('focused'));
+    focusIdx = -1;
   }
 
   function updateNoResults(visibleCards) {
