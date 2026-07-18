@@ -3,139 +3,106 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '1bbf6039-6564-4c33-a6cb-cd2484fa5a85'
-  PropagateID: '1bbf6039-6564-4c33-a6cb-cd2484fa5a85'
-  ReservedCode1: '3582509f-699d-4da9-a951-d43912452236'
-  ReservedCode2: '3582509f-699d-4da9-a951-d43912452236'
+  ProduceID: '09f753e8-9917-4c8f-ba3b-69d0fe8fc668'
+  PropagateID: '09f753e8-9917-4c8f-ba3b-69d0fe8fc668'
+  ReservedCode1: '65ac11b7-3908-4ffd-a18d-c74c40350899'
+  ReservedCode2: '65ac11b7-3908-4ffd-a18d-c74c40350899'
 ---
 
-# 全球实时热点事件 · Global Realtime Hotspots Tracker
+# 全球热点深度解读 · Global Hotspots Digest
 
-一个纯静态、零依赖、一键部署到 GitHub Pages 的全球热点聚合看板。在同一页面聚合 **国际新闻 / 科技社区 / 国内热搜** 三大类共 14 个公开数据源，单源失败不影响其它源，开箱即用。
+> AI 策划的多源新闻深度解读网站 · 每日 20 条最重要新闻 + 局势综述
 
-## 功能特性
+线上访问：https://krogin0121.github.io/global-hotspots/
 
-- **14 个数据源一站式追踪**
-  - 国际：BBC World · NYT World · The Guardian · NPR · Deutsche Welle · CNBC
-  - 科技：Hacker News（官方 Firebase API，实时分数/评论/讨论链接）
-  - 国内：Google 新闻中文 · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条
-- **实时刷新**：手动一键刷新 / 自动刷新（5/10/15/30 分钟可选），带 localStorage 缓存（8 分钟 TTL）避免重复请求
-- **分类过滤 + 全局搜索**：按国际/科技/国内筛选，关键词高亮命中
-- **深色 / 浅色主题**切换，主题与设置自动持久化
-- **响应式布局**：桌面多列网格、移动端单列自适应
-- **优雅降级**：任一数据源不可达时显示空状态卡片并保留直达链接，不阻塞其它源
+## 特点
 
-## 目录结构
+- **AI 智能筛选**：从 15 个信源数百条新闻中，由 LLM 筛选前 20 条最重要事件
+- **深度解读**：每条新闻带 200-300 字 AI 分析（背景 + 影响 + 后续走向）
+- **局势综述**：每日生成 200 字宏观局势脉络
+- **多源印证**：同一事件多个源报道自动合并，显示所有来源
+- **分类覆盖**：国际局势 / 国内要闻 / 经济 / 科技 / 社会
+- **每 6 小时更新**：GitHub Actions 定时抓取 + AI 处理，零服务器成本
+
+## 架构
 
 ```
-.
-├── index.html        # 页面骨架
-├── css/style.css     # 样式（深色为主，支持浅色切换）
-├── js/
-│   ├── config.js     # 数据源与全局设置
-│   ├── api.js        # 数据获取层（RSS/HN/gharchive 适配器 + 翻译 + 可信度评分 + 缓存 + 代理降级）
-│   └── app.js        # 应用层（渲染/搜索/分类/自动刷新/主题/双语标题/统计面板）
-├── server.py         # 可选本地代理服务器（自部署时绕过 CORS/限流）
-├── update.ps1        # 一键更新并推送至 GitHub 的脚本
-├── sync-all.ps1      # 批量推送脚本（桌面快捷方式「同步推送所有项目」调用）
-└── .gitignore
+GitHub Actions (每6小时)
+    ↓
+scripts/fetch.py          # 抓取 15 个信源 → data/raw.json
+    ↓
+scripts/curate.py         # LLM 筛选+解读   → data/top20.json
+    ↓
+GitHub Pages              # 静态前端读取展示
 ```
 
-## 本地运行
+### 数据源（15 个）
 
-### 方式 A：纯静态（最简单）
+| 类型 | 源 | tier |
+|------|-----|------|
+| 国际权威 | BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC | s/a |
+| 科技社区 | Hacker News | b |
+| 国内聚合 | Google News 中文 + 微博/知乎/百度/B站/抖音/今日头条（GitHub 归档） | b/c |
 
-直接用浏览器打开 `index.html` 即可（部分浏览器对 `file://` 下的 fetch 有限制，推荐用方式 B）。
+国内 6 平台热搜通过 `iiecho1/hot_searches_for_apps` GitHub 仓库归档获取，规避 CORS 限制。
 
-### 方式 B：本地服务器（推荐）
+## 部署配置
 
-```bash
-python server.py            # 默认 http://127.0.0.1:8765
-python server.py 9000       # 自定义端口
-```
+### 1. 配置 API key（必需）
 
-浏览器访问 `http://127.0.0.1:8765/`。
+在 GitHub 仓库 Settings → Secrets and variables → Actions 添加：
+- `ZHIPU_API_KEY` — 智谱 API key（在 https://bigmodel.cn 注册获取，GLM-4-Flash 模型免费）
 
-如需启用服务端代理（绕过浏览器 CORS / 限流），编辑 `js/config.js`：
+可选（覆盖默认值）：
+- `LLM_BASE_URL` — 默认 `https://open.bigmodel.cn/api/paas/v4`
+- `LLM_MODEL` — 默认 `glm-4-flash`
 
-```js
-proxy: 'http://127.0.0.1:8765/proxy?url=',
-```
+### 2. 启用 GitHub Pages
 
-`server.py` 零依赖，仅使用 Python 标准库。
+仓库 Settings → Pages → Source: `gh-pages` 分支 `/` 目录
 
-## 部署到 GitHub Pages
+### 3. 启用 Actions
 
-1. 推送代码到 GitHub 仓库（可用本仓库自带的 `update.ps1` 一键完成）。
-2. 仓库 **Settings → Pages → Build and deployment → Source: Deploy from a branch**。
-3. 选择 `main` 分支 `/` (root) 目录，Save。
-4. 稍等片刻，访问 `https://<你的用户名>.github.io/<仓库名>/`。
+仓库 Settings → Actions → General → 允许 workflows
 
-GitHub Pages 部署时前端直连公开 API，无需运行 `server.py`。
+### 4. 首次触发
 
-## `update.ps1` 本项目一键推送脚本
+Actions 页 → 「每日热点深度解读」workflow → Run workflow 手动触发一次
 
-在**本项目根目录**用 PowerShell 运行（专为 `global-hotspots` 仓库定制）：
+## 本地测试
 
 ```powershell
-.\update.ps1                          # 自动提交并推送（提交信息为时间戳）
-.\update.ps1 -Message "新增 XXX"      # 自定义提交信息
-.\update.ps1 -Init                    # 首次初始化（git init + 关联远程 + 首次推送）
-.\update.ps1 -NoProxy                 # 本次不走 Clash 代理（直连）
-.\update.ps1 -Pull                    # 推送前先 rebase 拉取远程
+cd D:\工作流\全球热点
+pip install -r scripts/requirements.txt
+
+# 抓取数据
+python scripts/fetch.py
+
+# 生成解读（需配置 ZHIPU_API_KEY 环境变量）
+$env:ZHIPU_API_KEY = "你的key"
+python scripts/curate.py
+
+# 本地预览（任选一种）
+python -m http.server 8000
+# 浏览器访问 http://localhost:8000
 ```
 
-特性：
-- 默认远程：`https://github.com/Krogin0121/global-hotspots.git`
-- 默认走 Clash 代理 `http://127.0.0.1:7890`（可用 `-NoProxy` 关闭）
-- 自动配置 UTF-8 提交编码与中文路径兼容
-- 推送失败时给出认证/网络/冲突三类常见原因与处理建议
+## 快捷键
 
-> 首次推送若遇认证失败（403/401），需在 GitHub 生成带 `repo` 权限的 Personal Access Token，推送时用户名填 `Krogin0121`、密码处粘贴 Token，Git 会自动记住。
+| 键 | 功能 |
+|----|------|
+| `/` | 聚焦搜索框 |
+| `1`-`5` | 切换分类 |
+| `J` / `K` | 下/上一条逐条浏览 |
+| `R` | 重新加载 |
+| `T` | 切换深色/浅色 |
+| `?` | 帮助面板 |
 
----
+## 技术栈
 
-## `gh-push` 通用一键推送工具（适用于日后所有项目）
-
-除本项目专属的 `update.ps1` 外，还提供了一个**全局通用工具** `gh-push`，**任意项目目录**下都能一键完成 init / 自动创建仓库 / commit / push 全流程。
-
-### 安装位置
-- 脚本：`D:\Git\cmd\gh-push.ps1`（`D:\Git\cmd` 已在系统 PATH，任意目录可调用）
-
-### 用法
-在任意项目目录下：
-```powershell
-gh-push                                # 仓库名=当前目录名(ASCII化), 自动建仓+推送
-gh-push -Repo my-app -Message "v1.2"   # 指定仓库名和提交信息
-gh-push -Private                       # 新仓库设为私有
-gh-push -NoProxy                       # 直连不走代理
-gh-push -Pull                          # 推送前先 rebase 拉取
-gh-push -NoCreate                      # 仓库不存在时不自动创建, 直接报错
-```
-
-### 核心特性
-- **自动建仓**：远程同名仓库不存在时，自动读取已存凭据通过 GitHub API 创建
-- **仓库名推断优先级**：`-Repo 参数` > `已有 origin 解析` > `当前目录名`（非 ASCII 字符自动替换为 `-`，规避 PowerShell5.1 + GitHub API 中文编码 bug）
-- **沿用 origin**：已绑定 origin 的项目不会误建新仓库
-- **凭据来源**：优先读 `~/.git-credentials`（helper=store），回退 `git credential fill`（GCM）
-- **默认配置**：用户 `Krogin0121`、代理 `http://127.0.0.1:7890`、分支 `main`，均可用参数覆盖
-- **UTF-8 安全**：HttpClient 显式 UTF-8 body；脚本带 BOM 避免 PS5.1 按 GBK 误读
-- **cmd /c 包裹 git 命令**：规避 PS5.1 把 git stderr 进度包成 RemoteException 显示假错误
-
-### 首次使用前提
-- 已安装 Git（`D:\Git`）
-- 已在某次 `git push` 时让 Git 记住 GitHub 凭据（PAT 需带 `repo` scope）
-- Clash 在 7890 端口（或用 `-NoProxy`）
-
-## 数据源说明
-
-| 类型 | 来源 | 接入方式 | 备注 |
-|------|------|----------|------|
-| 国际新闻 | BBC / NYT / Guardian / NPR / DW / CNBC | RSS → rss2json（主）+ allorigins（备） | 客户端 DOMParser 兜底解析 |
-| 科技社区 | Hacker News | 官方 Firebase API | 直接 JSON，含分数/评论/讨论链接 |
-| 国内热点 | Google 新闻中文 | RSS → rss2json | 稳定 |
-| 国内热搜 | 微博/知乎/百度/B站/抖音/头条 | GitHub 归档（`iiecho1/hot_searches_for_apps`，GitHub Actions 每小时抓取） | CORS 开放，前端零代理直连；微博 Top3 热度高亮 |
-
-所有数据版权归原作者所有，本项目仅作信息聚合展示。
+- 前端：原生 HTML/CSS/JS，零依赖
+- 后端：Python + feedparser + requests
+- LLM：智谱 GLM-4-Flash（OpenAI 兼容接口，免费）
+- 部署：GitHub Actions + GitHub Pages
 
 > AI生成

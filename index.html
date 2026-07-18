@@ -1,23 +1,23 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN" data-theme="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="全球实时热点事件聚合 · 一站式追踪国际新闻、科技社区与国内热搜">
-  <title>全球实时热点事件 · Global Hotspots</title>
+  <meta name="description" content="全球热点深度解读 · AI 策划 · 多源印证 · 每日20条">
+  <title>全球热点深度解读 · Global Hotspots Digest</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>◈</text></svg>">
-  <link rel="stylesheet" href="css/style.css?v=3">
+  <link rel="stylesheet" href="css/style.css?v=1">
 </head>
 <body>
 
-  <!-- 顶部控制区 -->
+  <!-- 顶部导航 -->
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">
-        <div class="brand-logo" aria-hidden="true"></div>
+        <div class="brand-logo" aria-hidden="true">◈</div>
         <div>
-          <h1>全球实时热点事件</h1>
-          <div class="sub">Global Realtime Hotspots Tracker</div>
+          <h1>全球热点深度解读</h1>
+          <div class="sub">Global Hotspots Digest · AI 智能策划</div>
         </div>
       </div>
       <div class="spacer"></div>
@@ -25,66 +25,47 @@
         <div class="clock" id="clock">--:--:--</div>
         <div class="search field">
           <span>🔍</span>
-          <input type="text" id="searchInput" placeholder="搜索全部热点…" autocomplete="off">
+          <input type="text" id="searchInput" placeholder="搜索关键词、地区、人物…" autocomplete="off">
           <span class="clr" id="clearSearch" title="清空">×</span>
         </div>
-        <label class="field" title="自动刷新">
-          <span>自动</span>
-          <span class="switch"><input type="checkbox" id="autoToggle"><i></i></span>
-        </label>
-        <label class="field" title="刷新间隔">
-          <span>每</span>
-          <select id="intervalSel">
-            <option value="300000">5 分钟</option>
-            <option value="600000">10 分钟</option>
-            <option value="900000">15 分钟</option>
-            <option value="1800000">30 分钟</option>
-          </select>
-        </label>
-        <label class="field" title="将英文标题翻译成中文（原文显示在下方）">
-          <span>译中</span>
-          <span class="switch"><input type="checkbox" id="translateToggle"><i></i></span>
-        </label>
-        <label class="field" title="仅显示高可信条目，过滤标题党/钓鱼/营销内容">
-          <span>可信</span>
-          <span class="switch"><input type="checkbox" id="credFilterToggle"><i></i></span>
-        </label>
-        <label class="field" title="隐藏已点击过的条目（按 H 切换）">
-          <span>未读</span>
-          <span class="switch"><input type="checkbox" id="hideReadToggle"><i></i></span>
-        </label>
-        <button class="btn" id="refreshBtn">↻ 刷新全部</button>
-        <div class="field fs-field" title="字体大小">
-          <span>A</span>
-          <button type="button" class="fs-btn" id="fontDown" title="缩小字体">−</button>
-          <button type="button" class="fs-btn" id="fontUp" title="放大字体">+</button>
-        </div>
-        <button class="btn" id="themeToggle" title="切换主题">🌙</button>
-        <button class="btn" id="helpBtn" title="键盘快捷键 (?)">?</button>
+        <button class="btn" id="refreshBtn" title="重新加载（R）">↻</button>
+        <button class="btn" id="themeToggle" title="切换主题（T)">🌙</button>
+        <button class="btn" id="helpBtn" title="帮助（?）">?</button>
       </div>
     </div>
   </header>
 
-  <!-- 分类标签 -->
-  <div class="tabs-wrap" id="tabs"></div>
-
   <!-- 状态条 -->
-  <div class="status-bar" id="status">正在初始化…</div>
+  <div class="status-bar" id="status">正在加载…</div>
 
-  <!-- 统计面板 -->
-  <div class="stats-bar" id="stats">
-    <div class="stat" title="所有源条目总数"><span class="stat-ico">📰</span><span id="statTotal">0</span><span class="stat-lab">总条目</span></div>
-    <div class="stat stat-high" title="高可信条目（≥85分）"><span class="stat-ico">✔</span><span id="statHigh">0</span><span class="stat-lab">高可信</span></div>
-    <div class="stat stat-mid" title="中等可信条目（60-84分）"><span class="stat-ico">～</span><span id="statMid">0</span><span class="stat-lab">中等</span></div>
-    <div class="stat stat-low" title="低可信条目（<60分，已折叠）"><span class="stat-ico">⚠</span><span id="statLow">0</span><span class="stat-lab">低可信</span></div>
-    <div class="stat" title="已翻译成中文的条目"><span class="stat-ico">译</span><span id="statTr">0</span><span class="stat-lab">已译</span></div>
-    <div class="stat" title="在线数据源数量"><span class="stat-ico">📡</span><span id="statSrc">0</span><span class="stat-lab">在线源</span></div>
+  <!-- 局势综述 -->
+  <section class="digest-section" id="digestSection" hidden>
+    <div class="digest-card">
+      <div class="digest-head">
+        <span class="digest-ico">▣</span>
+        <h2>今日局势综述</h2>
+        <span class="digest-time" id="digestTime"></span>
+      </div>
+      <div class="digest-body" id="digestBody"></div>
+    </div>
+  </section>
+
+  <!-- 分类标签 -->
+  <div class="tabs-wrap" id="tabs">
+    <button class="tab on" data-cat="all">全部<span class="tab-cnt" data-cnt="all"></span></button>
+    <button class="tab" data-cat="international">国际局势<span class="tab-cnt" data-cnt="international"></span></button>
+    <button class="tab" data-cat="domestic">国内要闻<span class="tab-cnt" data-cnt="domestic"></span></button>
+    <button class="tab" data-cat="economy">经济<span class="tab-cnt" data-cnt="economy"></span></button>
+    <button class="tab" data-cat="tech">科技<span class="tab-cnt" data-cnt="tech"></span></button>
+    <button class="tab" data-cat="society">社会<span class="tab-cnt" data-cnt="society"></span></button>
   </div>
 
-  <!-- 卡片网格 -->
-  <main class="grid" id="cards"></main>
+  <!-- 新闻卡片网格 -->
+  <main class="grid" id="cards">
+    <div class="loading-placeholder">正在加载今日热点…</div>
+  </main>
 
-  <!-- 无结果占位 (搜索/过滤无匹配时显示) -->
+  <!-- 无结果占位 -->
   <div id="noResults" class="no-results" style="display:none">
     <div class="empty-ico">🔍</div>
     <div class="nr-title">未找到匹配结果</div>
@@ -94,16 +75,16 @@
 
   <!-- 页脚 -->
   <footer class="foot">
-    数据来源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
-    英文标题由 MyMemory 翻译 API 实时中文化（带本地缓存）· 可信度评分基于来源等级 + 标题党特征 + 关键词黑名单综合判定<br>
-    仅作信息聚合展示，版权归原作者所有 · 静态前端直连公开 API，单源失败不影响其它源 · 部分国内源需在本机网络可达时显示<br>
-    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>1</kbd>-<kbd>4</kbd>切分类 <kbd>R</kbd>刷新 <kbd>T</kbd>主题 <kbd>F</kbd>折叠全部 <kbd>G</kbd>回顶 <kbd>H</kbd>仅未读 <kbd>J</kbd>/<kbd>K</kbd>逐条浏览 <kbd>?</kbd>帮助</span>
+    数据源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
+    AI 筛选与解读由 智谱 GLM-4-Flash 生成 · 每 6 小时自动更新 · 多源交叉印证 · 不代表本站立场<br>
+    仅供信息聚合研究，版权归原作者所有 · 信源失败自动降级 · API key 仅用于 GitHub Actions 后端
+    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>R</kbd>重载 <kbd>T</kbd>主题 <kbd>J</kbd>/<kbd>K</kbd>逐条 <kbd>1</kbd>-<kbd>5</kbd>切分类 <kbd>?</kbd>帮助</span>
   </footer>
 
-  <!-- 回到顶部 -->
+  <!-- 回顶 -->
   <button id="backTop" title="回到顶部" aria-label="回到顶部">↑</button>
 
-  <!-- 快捷键帮助浮层 -->
+  <!-- 帮助浮层 -->
   <div id="helpOverlay" class="help-overlay" aria-hidden="true">
     <div class="help-card">
       <div class="help-head">
@@ -112,22 +93,17 @@
       </div>
       <ul class="help-list">
         <li><kbd>/</kbd><span>聚焦搜索框</span></li>
-        <li><kbd>Esc</kbd><span>清空搜索 / 关闭本面板</span></li>
-        <li><kbd>1</kbd><span>全部</span><kbd>2</kbd><span>国际</span><kbd>3</kbd><span>科技</span><kbd>4</kbd><span>国内</span></li>
-        <li><kbd>R</kbd><span>刷新全部数据源</span></li>
+        <li><kbd>Esc</kbd><span>清空搜索 / 关闭面板</span></li>
+        <li><kbd>1</kbd><span>全部</span><kbd>2</kbd><span>国际</span><kbd>3</kbd><span>国内</span><kbd>4</kbd><span>经济</span><kbd>5</kbd><span>科技</span></li>
+        <li><kbd>R</kbd><span>重新加载数据</span></li>
         <li><kbd>T</kbd><span>切换深色/浅色主题</span></li>
-        <li><kbd>F</kbd><span>折叠/展开所有卡片</span></li>
-        <li><kbd>G</kbd><span>回到顶部</span></li>
-        <li><kbd>H</kbd><span>切换「仅看未读」开关</span></li>
-        <li><kbd>J</kbd> / <kbd>K</kbd><span>下/上一条逐条浏览（自动滚入视口）</span></li>
+        <li><kbd>J</kbd> / <kbd>K</kbd><span>下/上一条逐条浏览</span></li>
         <li><kbd>?</kbd><span>打开本帮助面板</span></li>
       </ul>
-      <div class="help-tip">点击卡片标题栏可折叠单个卡片；点击过的条目标题会自动变暗（已读标记），可用顶栏「未读」开关或快捷键 H 过滤。每个源卡片标题旁有色点显示健康度（绿=快/橙=正常/红=慢/灰=缓存/×=离线）。</div>
+      <div class="help-tip">每条新闻含 AI 深度解读：摘要 + 背景影响分析 + 后续走向。多源印证的事件会在卡片上显示所有来源。每6小时由 GitHub Actions 自动更新。</div>
     </div>
   </div>
 
-  <script src="js/config.js?v=3"></script>
-  <script src="js/api.js?v=3"></script>
-  <script src="js/app.js?v=3"></script>
+  <script src="js/app.js?v=1"></script>
 </body>
 </html>

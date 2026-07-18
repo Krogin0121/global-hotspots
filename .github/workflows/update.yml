@@ -1,0 +1,55 @@
+name: 每日热点深度解读
+
+on:
+  schedule:
+    # 每6小时跑一次 (UTC 时间 00:00, 06:00, 12:00, 18:00 = 北京时间 08:00, 14:00, 20:00, 02:00)
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch:  # 支持手动触发
+
+permissions:
+  contents: write  # 允许推送提交
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出仓库
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 安装依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r scripts/requirements.txt
+
+      - name: 抓取所有信源
+        run: python scripts/fetch.py
+        env:
+          PYTHONUTF8: '1'
+
+      - name: LLM 智能筛选 + 深度解读
+        run: python scripts/curate.py
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          LLM_BASE_URL: ${{ secrets.LLM_BASE_URL }}
+          LLM_MODEL: ${{ secrets.LLM_MODEL }}
+          PYTHONUTF8: '1'
+
+      - name: 提交更新数据
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/raw.json data/top20.json
+          if git diff --staged --quiet; then
+            echo "数据无变化，跳过提交"
+          else
+            git commit -m "chore: 更新热点数据 $(date -u '+%Y-%m-%d %H:%M') UTC"
+            git push
+          fi
+
+# GitHub Pages 直接从 main 分支部署，无需额外步骤
+# 仓库 Settings → Pages → Source: main 分支 / (root)
