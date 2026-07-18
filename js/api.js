@@ -123,12 +123,12 @@ const HotAPI = (() => {
       .slice(0, C.itemsPerSource)
       .map(it => norm({
         title: decode(it.title || '(无标题)'),
-        url: it.url || (C.hnItem.replace('/item/', '') + ''), // 占位, 后面替换
+        url: it.url || '',                  // 无 url 的帖子(Ask/Tell HN)留空, 后面补 HN 讨论链接
         _id: it.id,
         hot: it.score || 0,
         hotLabel: (it.score || 0) + ' 分',
         time: it.time ? it.time * 1000 : null,
-        desc: it.type === 'story' ? '' : stripHtml(it.text || ''),
+        desc: it.text ? decode(stripHtml(it.text)).slice(0, 140) : '',   // Ask HN/Show HN 也是 story 类型但有 text, stripHtml 后 decode 实体
         by: it.by || '',
         meta: (it.descendants || 0) + ' 评论',
       }))

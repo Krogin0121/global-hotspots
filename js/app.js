@@ -42,6 +42,11 @@ const App = (() => {
     bindBackTop();
     bindKeyboard();
     bindHelp();
+    bindNoResults();
+  }
+
+  function bindNoResults() {
+    document.getElementById('nrClear')?.addEventListener('click', clearAllFilters);
   }
 
   /* ---------------- 字体大小 ---------------- */
@@ -349,6 +354,7 @@ const App = (() => {
   function applyFilter() {
     const cards = document.querySelectorAll('#cards .card');
     let counts = {};
+    let visibleCardsTotal = 0;
     cards.forEach(card => {
       const cat = card.dataset.cat;
       const showCat = state.activeCat === 'all' || state.activeCat === cat;
@@ -368,6 +374,7 @@ const App = (() => {
       card.style.display = show ? '' : 'none';
       // 计数
       counts[cat] = (counts[cat] || 0) + (show ? 1 : 0);
+      if (show) visibleCardsTotal++;
     });
     // 标签角标显示该分类卡片数
     document.querySelectorAll('.tab-cnt').forEach(s => {
@@ -376,6 +383,44 @@ const App = (() => {
     });
     // 搜索关键词高亮
     highlightSearch();
+    // 无结果提示: 所有卡片隐藏时显示
+    updateNoResults(visibleCardsTotal);
+  }
+
+  function updateNoResults(visibleCards) {
+    const el = document.getElementById('noResults');
+    if (!el) return;
+    const hasFilter = state.query || state.credFilter || state.activeCat !== 'all';
+    if (hasFilter && visibleCards === 0) {
+      el.hidden = false;
+      const sub = document.getElementById('nrSub');
+      if (sub) {
+        const parts = [];
+        if (state.query) parts.push('关键词「' + state.query + '」');
+        if (state.activeCat !== 'all') {
+          const c = CATS.find(x => x.id === state.activeCat);
+          if (c) parts.push('分类「' + c.name + '」');
+        }
+        if (state.credFilter) parts.push('仅高可信');
+        sub.textContent = parts.length ? '当前筛选：' + parts.join(' · ') : '';
+      }
+    } else {
+      el.hidden = true;
+    }
+  }
+
+  function clearAllFilters() {
+    const si = document.getElementById('searchInput');
+    if (si) si.value = '';
+    state.query = '';
+    state.activeCat = 'all';
+    state.credFilter = false;
+    localStorage.setItem('gh_credfilter', '0');
+    const cf = document.getElementById('credFilterToggle');
+    if (cf) cf.checked = false;
+    document.querySelectorAll('#tabs .tab').forEach(x => x.classList.toggle('on', x.dataset.cat === 'all'));
+    applyFilter();
+    updateStats();
   }
 
   /* ---------------- 搜索高亮 (文本节点级) ---------------- */

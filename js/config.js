@@ -113,7 +113,7 @@ const SPAM_DOMAINS = [
 const SOURCES_NEED_TRANSLATE = ['bbc','nyt','guardian','npr','dw','cnbc','hackernews'];
 
 /* 数据源列表 ----------------------------------------------------
- * kind:   'rss' | 'hn' | 'vvhan'
+ * kind:   'rss' | 'hn' | 'gharchive'
  * cat:    'intl' | 'tech' | 'cn'
  * color:  主题色 (用于卡片头部色条/图标背景)
  * icon:   emoji 或单字标识
