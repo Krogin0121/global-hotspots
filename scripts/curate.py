@@ -190,7 +190,14 @@ def prefilter_section(items, section_type):
                 continue
         else:  # domestic
             if cat == "cn":
-                pass  # 国内源直接收
+                # gn-cn 是 Google 新闻·中文聚合，含大量中文版国际新闻
+                # （如「基辅被炸」「美伊交火」等中译国际新闻）
+                # 仅纳入涉华关键词的，避免国际新闻冒充国内热点
+                if it.get("sourceId") == "gn-cn" and not CHINA_KEYWORDS_RE.search(
+                    it.get("title", "") + " " + it.get("desc", "")
+                ):
+                    continue
+                # 其余 cn 类源（微博/知乎/百度/B站/抖音/今日头条）直接收
             elif cat in ("intl", "economy") and CHINA_KEYWORDS_RE.search(
                 (it.get("title", "") + " " + it.get("desc", ""))
             ):
@@ -294,7 +301,11 @@ def step1_select(candidates, section_type):
 
 {focus_hint}
 
-**关键要求 - 跨语言印证**：候选清单中可能同时含中文源和英文源，对每条选中的新闻，请在 `related` 字段列出**候选清单里**所有报道同一事件的其他源 idx（不限语言，例如中文微博和英文 BBC 报道同一事件时要互相标识）。无其他源时 related 为空数组。
+**⚠ 跨语言事件聚合（最关键，related 字段必填，不可省略）：**
+候选清单中可能同时含中文源和英文源。同一事件常常被多个语言多个源报道。**对每条选中的新闻，必须在 `related` 字段列出候选清单里所有报道同一事件的其他源 idx（不限语言）**。
+- 同一事件**只选一次**（如同一事件被 BBC、NYT、微博都报道，只选主源 1 个为 idx，其他全部放入 related，**不要重复选入 selected**）。
+- 例：候选 5 = 中文「俄军导弹袭击基辅」(微博)，候选 18 = 英文「Russia missile attack on Kyiv」(BBC) → 同一事件，只选其一为主，related 写另一个 idx。
+- 如果某条新闻在候选清单中确实没有同事件其他源，related 写空数组 []。
 
 候选清单（JSON）：
 {json.dumps(cand_list, ensure_ascii=False)}
@@ -307,14 +318,16 @@ def step1_select(candidates, section_type):
   ]
 }}
 
-只输出 JSON，不要任何解释。"""
+related 字段不可缺省，必填。只输出 JSON，不要任何解释。"""
 
     messages = [
-        {"role": "system", "content": "你是资深新闻编辑，擅长识别全球最重要的新闻并做跨语言事件聚合。严格按 JSON 格式输出。"},
+        {"role": "system", "content": "你是资深新闻编辑，擅长识别全球最重要的新闻并做跨语言事件聚合。严格按 JSON 格式输出。related 字段必填，不可省略。"},
         {"role": "user", "content": prompt},
     ]
 
     resp = llm_chat(messages, temperature=0.3, max_tokens=2500)
+    # 详细日志便于线上诊断 LLM 是否遵守 related 字段
+    log(f"  [{section_type}] LLM 原始响应前 400 字: {resp[:400]}")
     data = extract_json(resp)
     # 去重 LLM 可能返回的重复 idx，并过滤越界 idx
     seen = set()
@@ -324,14 +337,67 @@ def step1_select(candidates, section_type):
         if isinstance(idx, int) and 0 <= idx < len(candidates) and idx not in seen:
             seen.add(idx)
             s.setdefault("related", [])
-            # 清洗 related：仅保留合法 idx
+            # 清洗 related：仅保留合法 idx（且 ≠ 自身）
+            raw_related = s.get("related") or []
+            if not isinstance(raw_related, list):
+                raw_related = []
             s["related"] = [
-                r for r in (s.get("related") or [])
+                r for r in raw_related
                 if isinstance(r, int) and 0 <= r < len(candidates) and r != idx
             ][:5]
             selected.append(s)
-    log(f"  [{section_type}] LLM 选中 {len(selected)} 条: {[s['idx'] for s in selected[:10]]}...")
+    log(f"  [{section_type}] LLM 选中 {len(selected)} 条（去重后）:")
+    for s in selected[:5]:
+        log(f"    idx={s['idx']} related={s.get('related', [])} | {candidates[s['idx']]['title'][:40]}")
+    if len(selected) > 5:
+        log(f"    ... 其余 {len(selected)-5} 条")
+    rel_cnt = sum(1 for s in selected if s.get('related'))
+    log(f"  [{section_type}] 含 related 的条数: {rel_cnt}/{len(selected)}")
+
+    # 兜底：基于 related 互指规则强制合并同一事件
+    # 如果 LLM 选了多条本应是一件事的（互为 related），合并为主+配角的关系
+    selected = merge_duplicate_events(selected, candidates)
+    log(f"  [{section_type}] 合并去重后 {len(selected)} 条")
     return selected
+
+
+def merge_duplicate_events(selected, candidates):
+    """基于 related 字段合并重复事件：
+    若 A.related 含 B.idx（或反向），视为同一事件，保留 A 为主，B 的 idx 转入 A.related。
+    """
+    if len(selected) <= 1:
+        return selected
+    sel_map = {s["idx"]: s for s in selected}
+    used = set()
+    merged = []
+    for s in selected:
+        if s["idx"] in used:
+            continue
+        # 收集与 s 同事件的成员（s 单向指向 + 其他 selected 单向指向 s）
+        group = {s["idx"]}
+        for r in s.get("related", []):
+            if r in sel_map and r not in used:
+                group.add(r)
+        for s2 in selected:
+            if s2["idx"] in used or s2["idx"] == s["idx"]:
+                continue
+            if s["idx"] in (s2.get("related") or []):
+                group.add(s2["idx"])
+        # 把配角 source 累积为主源的 related
+        all_related = set()
+        for g in group:
+            if g == s["idx"]:
+                continue
+            all_related.add(g)
+            for r in (sel_map[g].get("related") or []):
+                if r not in group and r not in sel_map:
+                    all_related.add(r)  # 候选池中而非 selected 中的也加入
+        s = dict(s)  # 浅复制，避免修改原 dict
+        s["related"] = sorted(all_related)[:5]
+        merged.append(s)
+        for g in group:
+            used.add(g)
+    return merged
 
 
 # ============ Step 2: LLM 解读 ============
