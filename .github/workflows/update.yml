@@ -24,7 +24,11 @@ jobs:
       - name: 安装依赖
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
+          # 过滤出有效依赖行（应对 AIGC 水印在 .txt 中注入的非依赖内容）
+          grep -E '^[a-zA-Z][a-zA-Z0-9_-]+[><=~]' scripts/requirements.txt > /tmp/clean_req.txt
+          echo "清洗后依赖:"
+          cat /tmp/clean_req.txt
+          pip install -r /tmp/clean_req.txt
 
       - name: 抓取所有信源
         run: python scripts/fetch.py
