@@ -221,8 +221,8 @@ def prefilter_section(items, section_type):
 
 
 # ============ LLM 调用 ============
-def llm_chat(messages, temperature=0.7, max_tokens=4000):
-    """OpenAI 兼容接口调用"""
+def llm_chat(messages, temperature=0.7, max_tokens=4000, retries=2):
+    """OpenAI 兼容接口调用，含 2 次自动重试（连接错误 / 429 限流 / 5xx 服务端错误）"""
     if not API_KEY:
         raise RuntimeError("未配置 ZHIPU_API_KEY 环境变量")
 
@@ -237,15 +237,30 @@ def llm_chat(messages, temperature=0.7, max_tokens=4000):
         "temperature": temperature,
         "max_tokens": max_tokens,
     }
-    try:
-        resp = requests.post(url, headers=headers, json=payload, timeout=REQUEST_TIMEOUT)
-    except requests.exceptions.RequestException as e:
-        raise RuntimeError(f"LLM 请求连接失败 (url={url}): {e}")
-    if resp.status_code != 200:
-        body = resp.text[:300]
-        raise RuntimeError(f"LLM API 返回 HTTP {resp.status_code}: {body}")
-    data = resp.json()
-    return data["choices"][0]["message"]["content"]
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.post(url, headers=headers, json=payload, timeout=REQUEST_TIMEOUT)
+        except requests.exceptions.RequestException as e:
+            last_err = RuntimeError(f"LLM 请求连接失败 (attempt {attempt+1}, url={url}): {e}")
+            if attempt < retries:
+                time.sleep(2 ** attempt)  # 指数退避: 1s, 2s
+                continue
+            raise last_err
+        # 429 限流 / 5xx 服务端错误 → 重试
+        if resp.status_code == 429 or resp.status_code >= 500:
+            last_err = RuntimeError(
+                f"LLM API HTTP {resp.status_code} (attempt {attempt+1}): {resp.text[:200]}"
+            )
+            if attempt < retries:
+                time.sleep(2 ** attempt)
+                continue
+            raise last_err
+        if resp.status_code != 200:
+            raise RuntimeError(f"LLM API 返回 HTTP {resp.status_code}: {resp.text[:300]}")
+        data = resp.json()
+        return data["choices"][0]["message"]["content"]
+    raise last_err or RuntimeError("LLM 调用未知失败")
 
 
 def extract_json(text):
@@ -337,13 +352,22 @@ related 字段不可缺省，必填。只输出 JSON，不要任何解释。"""
         if isinstance(idx, int) and 0 <= idx < len(candidates) and idx not in seen:
             seen.add(idx)
             s.setdefault("related", [])
-            # 清洗 related：仅保留合法 idx（且 ≠ 自身）
+            # 清洗 related：仅保留合法 idx（兼容字符串数字 "12"，且 ≠ 自身）
             raw_related = s.get("related") or []
             if not isinstance(raw_related, list):
                 raw_related = []
+            def _to_idx(r):
+                if isinstance(r, bool):
+                    return None
+                if isinstance(r, int):
+                    return r
+                if isinstance(r, str) and r.strip().lstrip("-").isdigit():
+                    return int(r.strip())
+                return None
             s["related"] = [
-                r for r in raw_related
-                if isinstance(r, int) and 0 <= r < len(candidates) and r != idx
+                ri for r in raw_related
+                for ri in [_to_idx(r)]
+                if ri is not None and 0 <= ri < len(candidates) and ri != idx
             ][:5]
             selected.append(s)
     log(f"  [{section_type}] LLM 选中 {len(selected)} 条（去重后）:")
@@ -358,6 +382,10 @@ related 字段不可缺省，必填。只输出 JSON，不要任何解释。"""
     # 如果 LLM 选了多条本应是一件事的（互为 related），合并为主+配角的关系
     selected = merge_duplicate_events(selected, candidates)
     log(f"  [{section_type}] 合并去重后 {len(selected)} 条")
+    # 强制截断到 TOP_N（LLM 可能超选）
+    if len(selected) > TOP_N:
+        log(f"  [{section_type}] LLM 超选 {len(selected)} 条，截断至 {TOP_N}")
+        selected = selected[:TOP_N]
     return selected
 
 
@@ -535,11 +563,61 @@ def step3_digest(top_items, section_type):
 
 
 # ============ 多源印证构造 ============
-def build_sources(it, candidates, related_idxs, raw_items):
-    """构造 sources 列表：主源 + LLM 指出的 related 源 + 字符串匹配 fallback
+# 中英实体对照（用于跨语言事件匹配：国内轨找国际源涉华报道作印证）
+# 对"中X"类双边关系词补充双向英文变体（US-China / China-US 均可命中）
+CN_ENTITIES = [
+    ("中国", "China"), ("中国", "Chinese"),
+    ("台湾", "Taiwan"), ("香港", "Hong Kong"),
+    ("北京", "Beijing"), ("上海", "Shanghai"), ("深圳", "Shenzhen"),
+    ("广州", "Guangzhou"), ("武汉", "Wuhan"), ("成都", "Chengdu"),
+    ("习近平", "Xi Jinping"),
+    ("中美", "US-China"), ("中美", "China-US"), ("中美", "US China"),
+    ("中美", "China and US"), ("中美", "U.S.-China"),
+    ("中俄", "Sino-Russia"), ("中俄", "Russia-China"),
+    ("中俄", "China-Russia"), ("中俄", "China and Russia"),
+    ("中欧", "China-EU"), ("中欧", "EU-China"), ("中欧", "China and EU"),
+    ("中日", "China-Japan"), ("中日", "Japan-China"), ("中日", "China and Japan"),
+    ("华为", "Huawei"), ("抖音", "TikTok"),
+    ("朝鲜", "North Korea"), ("半岛", "Korea"),
+    ("两岸", "Taiwan Strait"), ("南海", "South China Sea"),
+    ("一带一路", "Belt and Road"),
+]
 
-    LLM 的 related 字段是跨语言印证的主路径；
-    若 LLM 没给 related 或太少，再用字符串匹配在全 raw_items 池里补充。
+
+def cross_lang_match(title, raw_items, seen_urls, limit=3):
+    """跨语言实体匹配：从国际源（intl/economy）里查找含相同中国实体的报道
+
+    用于国内轨：中文标题若含中国实体词，在英文国际源标题里找对应的英文实体，
+    形成「国内事件 + 国际源印证」的跨语言多源结构。
+    """
+    extra = []
+    if not title:
+        return extra
+    # 找出标题命中的中文实体
+    hits = [(cn, en) for cn, en in CN_ENTITIES if cn in title]
+    if not hits:
+        return extra
+    for cand in raw_items:
+        if cand.get("cat") not in ("intl", "economy"):
+            continue
+        c_title = (cand.get("title", "") + " " + cand.get("desc", "")).lower()
+        for cn, en in hits:
+            if en.lower() in c_title:
+                src = {"name": cand.get("source", ""), "url": cand.get("url", "")}
+                if src["url"] and src["url"] not in seen_urls:
+                    seen_urls.add(src["url"])
+                    extra.append(src)
+                    if len(extra) >= limit:
+                        return extra
+                break  # 该候选已命中一个实体，跳出内层循环
+    return extra
+
+
+def build_sources(it, candidates, related_idxs, raw_items, section_type="international"):
+    """构造 sources 列表：主源 + LLM related 源 + 字符串匹配 fallback + 跨语言实体匹配
+
+    LLM 的 related 字段是主路径；
+    若 LLM 没给或太少，再用字符串匹配（同语言）和跨语言实体匹配（国内轨）补充。
     """
     main_src = [{"name": it.get("source", ""), "url": it.get("url", "")}]
     seen_urls = {it.get("url", "")}
@@ -573,6 +651,10 @@ def build_sources(it, candidates, related_idxs, raw_items):
                         related.append(src)
                         if len(related) >= 4:
                             break
+
+    # 3) 跨语言实体匹配（国内轨专用）：找国际源涉华报道作印证
+    if section_type == "domestic" and len(related) < 2:
+        related.extend(cross_lang_match(it.get("title", ""), raw_items, seen_urls, limit=3))
 
     return main_src + related[:4]  # 最多 5 源
 
@@ -634,9 +716,9 @@ def curate_section(raw_items, section_type):
         it["keywords"] = a.get("keywords", [])
         it["category"] = normalize_cat(a.get("category") or it.get("cat", "intl"))
         it["importance"] = a.get("importance", 60)
-        # 多源印证：优先 LLM related，fallback 字符串匹配
+        # 多源印证：优先 LLM related，fallback 字符串匹配 + 跨语言实体匹配
         related_idxs = selected[i].get("related", []) if i < len(selected) else []
-        it["sources"] = build_sources(it, candidates, related_idxs, raw_items)
+        it["sources"] = build_sources(it, candidates, related_idxs, raw_items, section_type)
         # 清理内部字段
         it.pop("_score", None)
 
