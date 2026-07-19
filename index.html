@@ -17,7 +17,7 @@
       } catch(e) {}
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=2">
+  <link rel="stylesheet" href="css/style.css?v=3">
 </head>
 <body>
 
@@ -63,12 +63,28 @@
     </span>
   </div>
 
+  <!-- Section 大 tab：国际热点 20 / 国内热点 20 二选一显示 -->
+  <div class="section-tabs" id="sectionTabs">
+    <div class="section-tabs-inner">
+      <button class="sec-tab on" data-sec="international" aria-label="切换到国际热点">
+        <span class="sec-ico">🌐</span>
+        <span class="sec-name">国际热点</span>
+        <span class="sec-cnt" id="secCntIntl">20</span>
+      </button>
+      <button class="sec-tab" data-sec="domestic" aria-label="切换到国内热点">
+        <span class="sec-ico">🇨🇳</span>
+        <span class="sec-name">国内热点</span>
+        <span class="sec-cnt" id="secCntCn">20</span>
+      </button>
+    </div>
+  </div>
+
   <!-- 局势综述 -->
   <section class="digest-section" id="digestSection" hidden>
     <div class="digest-card">
       <div class="digest-head">
         <span class="digest-ico">▣</span>
-        <h2>今日局势综述</h2>
+        <h2 id="digestTitle">今日局势综述</h2>
         <span class="digest-time" id="digestTime"></span>
       </div>
       <div class="digest-body" id="digestBody"></div>
@@ -117,6 +133,7 @@
         <button class="help-close" id="helpClose" aria-label="关闭">×</button>
       </div>
       <ul class="help-list">
+        <li><kbd>Tab</kbd> 或 <kbd>I</kbd>/<kbd>D</kbd><span>切换国际/国内热点大版块</span></li>
         <li><kbd>/</kbd><span>聚焦搜索框</span></li>
         <li><kbd>Esc</kbd><span>清空搜索 / 关闭面板</span></li>
         <li><kbd>1</kbd><span>全部</span><kbd>2</kbd><span>国际</span><kbd>3</kbd><span>国内</span><kbd>4</kbd><span>经济</span><kbd>5</kbd><span>科技</span></li>
@@ -125,10 +142,10 @@
         <li><kbd>J</kbd> / <kbd>K</kbd><span>下/上一条逐条浏览</span></li>
         <li><kbd>?</kbd><span>打开本帮助面板</span></li>
       </ul>
-      <div class="help-tip">每条新闻含 AI 深度解读：摘要 + 背景影响分析 + 后续走向。多源印证的事件会在卡片上显示所有来源。每6小时由 GitHub Actions 自动更新。</div>
+      <div class="help-tip">两大版块各自独立：每个版块都有自己的局势综述、新闻列表和分类筛选。每条新闻含 AI 深度解读：摘要 + 背景/影响分析 + 后续走向。多源印证的事件会在卡片上显示所有来源（包括 BBC/NYT 等国际源对国内事件的印证）。每6小时由 GitHub Actions 自动更新。</div>
     </div>
   </div>
 
-  <script src="js/app.js?v=2"></script>
+  <script src="js/app.js?v=3"></script>
 </body>
 </html>

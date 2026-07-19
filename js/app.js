@@ -1,6 +1,7 @@
 /* ============================================================
- *  app.js — 全球热点深度解读 · 前端
- *  读取 data/top20.json，渲染局势综述 + 20条带解读的卡片
+ *  app.js — 全球热点深度解读 · 前端（双轨：国际 / 国内）
+ *  读取 data/top20.json 的 sections.{international,domestic}
+ *  顶部大 tab 切换版块；分类标签与搜索按当前版块作用
  * ============================================================ */
 
 (() => {
@@ -8,6 +9,7 @@
 
   const state = {
     data: null,
+    activeSection: 'international',  // 'international' | 'domestic'
     activeCat: 'all',
     query: '',
     theme: localStorage.getItem('gh_theme') || 'dark',
@@ -50,6 +52,11 @@
     society:       { name: '社会',     color: '#0891b2', icon: '👥' },
   };
 
+  // 当前激活版块的 section 数据
+  function currentSection() {
+    return (state.data?.sections?.[state.activeSection]) || null;
+  }
+
   // ============ 初始化 ============
   function init() {
     applyTheme();
@@ -60,6 +67,13 @@
   }
 
   function bindEvents() {
+    // Section 大 tab 切换（国际 / 国内）
+    $('sectionTabs').addEventListener('click', e => {
+      const b = e.target.closest('.sec-tab');
+      if (!b) return;
+      switchSection(b.dataset.sec);
+    });
+
     // 搜索
     const si = $('searchInput');
     si.addEventListener('input', e => {
@@ -125,8 +139,18 @@
     if (helpOpen) return;
     if (inField) return;
     if (e.ctrlKey || e.metaKey || e.altKey) return;
+
+    // Section 切换（Tab / I / D）
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      switchSection(state.activeSection === 'international' ? 'domestic' : 'international');
+      return;
+    }
+
     const k = e.key.toLowerCase();
     switch (k) {
+      case 'i': switchSection('international'); break;
+      case 'd': switchSection('domestic'); break;
       case '/':
         e.preventDefault();
         $('searchInput')?.focus();
@@ -142,6 +166,30 @@
       case 'k': e.preventDefault(); focusItem(-1); break;
       case '?': openHelp(); break;
     }
+  }
+
+  function switchSection(sec) {
+    if (sec !== 'international' && sec !== 'domestic') return;
+    if (sec === state.activeSection && state.data) {
+      // 已激活，仅滚动到顶
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+      return;
+    }
+    state.activeSection = sec;
+    // 切 section 时重置子分类与搜索
+    state.activeCat = 'all';
+    state.query = '';
+    const si = $('searchInput');
+    if (si) si.value = '';
+    // 高亮对应 section tab
+    document.querySelectorAll('#sectionTabs .sec-tab').forEach(t =>
+      t.classList.toggle('on', t.dataset.sec === sec));
+    // 高亮"全部"小分类
+    document.querySelectorAll('#tabs .tab').forEach(t =>
+      t.classList.toggle('on', t.dataset.cat === 'all'));
+    render();
+    // 滚动到顶
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   function switchCat(cat) {
@@ -174,10 +222,19 @@
       const resp = await fetch(url, { cache: 'no-store' });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       state.data = await resp.json();
-      render();
+      // 数据兼容性保护：若旧格式（无 sections），包装
+      if (!state.data.sections) {
+        state.data.sections = {
+          international: {
+            title: '国际热点', digest: state.data.digest || '',
+            totalSelected: state.data.totalSelected || 0,
+            items: state.data.items || [],
+          },
+          domestic: { title: '国内热点', digest: '', totalSelected: 0, items: [] },
+        };
+      }
       status.classList.remove('busy');
-      const genTime = fmtRel(state.data.generatedAt);
-      status.textContent = `已更新 · ${state.data.totalSelected} 条 · 生成于 ${genTime} · 模型 ${state.data.model || 'GLM-4-Flash'}`;
+      render();
     } catch (e) {
       console.error('加载失败', e);
       status.classList.remove('busy');
@@ -193,22 +250,37 @@
   // ============ 渲染 ============
   function render() {
     if (!state.data) return;
+    const sec = currentSection();
 
-    // 局势综述
-    if (state.data.digest) {
+    // 顶部 section 数量徽章
+    const intlCnt = state.data.sections?.international?.totalSelected ?? 0;
+    const cnCnt = state.data.sections?.domestic?.totalSelected ?? 0;
+    const iEl = $('secCntIntl'); if (iEl) iEl.textContent = intlCnt;
+    const cEl = $('secCntCn'); if (cEl) cEl.textContent = cnCnt;
+
+    // 局势综述（随 section 切换）
+    const digestTitle = $('digestTitle');
+    if (sec && sec.digest) {
       $('digestSection').hidden = false;
-      $('digestBody').textContent = state.data.digest;
+      $('digestBody').textContent = sec.digest;
       $('digestTime').textContent = '生成于 ' + fmtRel(state.data.generatedAt);
+      if (digestTitle) {
+        digestTitle.textContent = state.activeSection === 'international'
+          ? '今日国际局势综述'
+          : '今日国内形势综述';
+      }
+    } else {
+      $('digestSection').hidden = true;
     }
 
     // 卡片
     const grid = $('cards');
-    const items = state.data.items || [];
+    const items = sec?.items || [];
     if (items.length === 0) {
       // 数据尚未生成（等待首次 Actions 运行）
       grid.innerHTML = `<div class="error-placeholder">
         <div class="empty-ico">⏳</div>
-        <div>暂无解读数据</div>
+        <div>该版块暂无解读数据</div>
         <div class="err-detail">
           网站首次部署后，GitHub Actions 会在数小时内生成 AI 深度解读数据。<br>
           请确认：<br>
@@ -224,9 +296,15 @@
 
     // 分类角标计数
     updateTabCounts(items);
-    // 数据源健康度
+    // 数据源健康度（全站共用）
     renderSourceStats(state.data.sourceStats);
     applyFilter();
+
+    // 状态条文案
+    const status = $('status');
+    const gen = fmtRel(state.data.generatedAt);
+    const secName = state.activeSection === 'international' ? '国际' : '国内';
+    status.textContent = `${secName}版块 · ${sec?.totalSelected || 0} 条 · 生成于 ${gen} · 模型 ${state.data.model || 'GLM-4-Flash'}`;
   }
 
   function itemHTML(it, idx) {

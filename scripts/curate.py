@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 """
-curate.py — LLM 智能筛选 + 深度解读
+curate.py — LLM 智能筛选 + 深度解读（双轨：国际 / 国内）
 
 输入: data/raw.json（fetch.py 产出，数百条原始新闻）
-输出: data/top20.json（精选20条 + 局势综述 + 每条带AI解读）
+输出: data/top20.json（双 sections：international + domestic，各20条带解读）
 
-流程:
+流程（每轨独立执行）:
   1. 读取 raw.json
-  2. 规则预筛：去重、去标题党、按 tier+时效打分，取 top 40 候选
-  3. LLM 调用：从候选中选 top 20 + 生成局势综述 + 每条解读
-  4. 写入 top20.json
+  2. 规则预筛：按 section 分流 + 去重 + 去标题党 + 按 tier+时效打分 → top 40 候选
+  3. Step 1 LLM 筛选：从候选选 top 20，并标识 related（候选池中同事件其他源，跨语言印证）
+  4. Step 2 LLM 解读：批量生成解读（每批5条）
+  5. Step 3 LLM 综述：基于 top 20 生成局势综述（视角按 section 调整）
+  6. 写入 top20.json 的 sections.{intl,domestic}
 
 LLM: 智谱 GLM-4-Flash（OpenAI 兼容接口，免费）
   环境变量:
@@ -17,10 +19,11 @@ LLM: 智谱 GLM-4-Flash（OpenAI 兼容接口，免费）
     LLM_BASE_URL   - 可选，默认 https://open.bigmodel.cn/api/paas/v4
     LLM_MODEL      - 可选，默认 glm-4-flash
 
-为避免单次请求过长，分两步调用：
-  Step 1: 筛选——输入候选清单，输出 top 20 的 rank 序号
-  Step 2: 解读——对 top 20 批量生成解读（每批5条，避免超时）
-  Step 3: 综述——基于 top 20 生成局势综述
+双轨说明:
+  - international（国际热点）: 候选池 = cat∈{intl, economy, tech}
+    国际源之间相互印证（BBC/NYT/Guardian 等报道同一事件）
+  - domestic（国内热点）: 候选池 = cat=cn 全部 + 含涉华关键词的国际源
+    国内源主导，国际源做跨语言印证（中国事件可能在 BBC/NYT 也有报道）
 """
 import json
 import os
@@ -43,7 +46,7 @@ API_KEY = os.environ.get("ZHIPU_API_KEY") or os.environ.get("LLM_API_KEY")
 # 候选池大小（送入 LLM 筛选的最大条数）
 CANDIDATE_POOL = 40
 
-# 最终精选数量
+# 每轨最终精选数量
 TOP_N = 20
 
 # 每批解读条数（防止单次请求过长）
@@ -70,6 +73,15 @@ CAT_NORMALIZE = {
     "economy": "economy",
     "society": "society",
 }
+
+# 涉华关键词：国内轨候选池纳入英文涉华新闻，供 LLM 做跨语言印证
+CHINA_KEYWORDS_RE = re.compile(
+    r"(中国|北京|台湾|香港|上海|深圳|西安|广州|杭州|南京|武汉|成都|重庆|天津|"
+    r"中美|中俄|中欧|中日|中韩|中印|两岸|半岛|朝鲜|"
+    r"Xi\s?Jinping|China|Chinese|Beijing|Taiwan|Hong\s?Kong|Shanghai|Shenzhen|"
+    r"US[-\s]?China|Sino[-\s]?|CCP|CPC|Xinhua|Peking|Guangdong|TikTok|Huawei)",
+    re.IGNORECASE,
+)
 
 
 def normalize_cat(c):
@@ -147,12 +159,18 @@ def time_score(published_at):
         return 40
 
 
-def prefilter(items):
-    """规则预筛：去标题党 + 去重 + 打分排序"""
+def prefilter_section(items, section_type):
+    """规则预筛：按 section 分流 + 去标题党 + 去重 + 打分排序 → top 40 候选
+
+    section_type:
+      - "international": 候选池 = cat∈{intl, economy, tech}（国际权威源+科技）
+      - "domestic":      候选池 = cat=cn 全部 + 标题含涉华关键词的 intl/economy 源
+                         （国内源主导，国际源涉华新闻作补充供印证）
+    """
     seen_titles = set()
-    cleaned = []
     spam_count = 0
     dup_count = 0
+    cleaned = []
     for it in items:
         title = it.get("title", "").strip()
         if not title or len(title) < 6:
@@ -164,29 +182,34 @@ def prefilter(items):
             dup_count += 1
             continue
         seen_titles.add(re.sub(r"[^\w\u4e00-\u9fa5]", "", title.lower()))
+
+        cat = it.get("cat", "intl")
+        # 分流守门
+        if section_type == "international":
+            if cat not in ("intl", "economy", "tech"):
+                continue
+        else:  # domestic
+            if cat == "cn":
+                pass  # 国内源直接收
+            elif cat in ("intl", "economy") and CHINA_KEYWORDS_RE.search(
+                (it.get("title", "") + " " + it.get("desc", ""))
+            ):
+                pass  # 国际源涉华新闻收入
+            else:
+                continue  # 国际源非涉华 / 科技类不进国内轨
+
         # 综合分：tier 60% + 时效 40%
         score = tier_score(it.get("tier", "c")) * 0.6 + time_score(it.get("publishedAt")) * 0.4
+        # 国内轨对国内源加权，确保国内源在候选中占主导
+        if section_type == "domestic" and cat == "cn":
+            score += 8
         it["_score"] = score
         cleaned.append(it)
 
     cleaned.sort(key=lambda x: x["_score"], reverse=True)
-    log(f"  预筛: {len(items)} 条原始 → 去标题党 {spam_count} + 去重 {dup_count} → 保留 {len(cleaned)} 条")
-
-    # 按分类配额取候选池，确保覆盖面
-    # intl 最多 15、cn 最多 12、tech 最多 8、economy 最多 5
-    quota = {"intl": 15, "cn": 12, "tech": 8, "economy": 5}
-    by_cat = {"intl": [], "cn": [], "tech": [], "economy": []}
-    for it in cleaned:
-        cat = it.get("cat", "intl")
-        if cat in by_cat and len(by_cat[cat]) < quota.get(cat, 10):
-            by_cat[cat].append(it)
-
-    candidates = []
-    for cat_list in by_cat.values():
-        candidates.extend(cat_list)
-    # 限制候选池大小
-    candidates = candidates[:CANDIDATE_POOL]
-    log(f"  候选池: {len(candidates)} 条（按分类配额）")
+    log(f"  [{section_type}] 预筛: 输入 {len(items)} → 去标题党 {spam_count} + 去重 {dup_count} → 分流通过 {len(cleaned)}")
+    candidates = cleaned[:CANDIDATE_POOL]
+    log(f"  [{section_type}] 候选池: {len(candidates)} 条")
     return candidates
 
 
@@ -231,10 +254,11 @@ def extract_json(text):
     return json.loads(text)
 
 
-def step1_select(candidates):
-    """Step 1: 让 LLM 从候选池中选 top 20"""
-    log("\n--- Step 1: LLM 智能筛选 top 20 ---")
-    # 构造候选清单（精简字段以节省 token）
+# ============ Step 1: LLM 筛选 + 跨语言印证 ============
+def step1_select(candidates, section_type):
+    """Step 1: 让 LLM 从候选池中选 top 20，并标识同事件其他源 idx（跨语言印证）"""
+    log(f"\n--- [{section_type}] Step 1: LLM 智能筛选 top {TOP_N} + 跨语言印证 ---")
+
     cand_list = []
     for i, it in enumerate(candidates):
         cand_list.append({
@@ -247,13 +271,30 @@ def step1_select(candidates):
             "hotLabel": it.get("hotLabel", ""),
         })
 
-    prompt = f"""你是一位资深国际新闻编辑。请从以下候选新闻中筛选出全球最重要的 {TOP_N} 条，要求：
+    if section_type == "international":
+        role_intro = "你是一位资深国际新闻编辑。请从以下候选新闻中筛选出全球最重要的国际热点"
+        focus_hint = (
+            "1. **重要性优先**：影响国际格局的事件 > 突发灾害 > 经济动向 > 科技进展\n"
+            "2. **覆盖平衡**：世界主要地区/各类议题都要覆盖，避免全聚焦单一冲突\n"
+            "3. **去重合并**：同一事件多个国际源（BBC/NYT/Guardian/NPR/DW/CNBC/HN）报道的合并为一条\n"
+            "4. **权威源优先**：tier=s/a 权威源 > tier=b 聚合\n"
+            "5. **排除娱乐八卦**"
+        )
+    else:  # domestic
+        role_intro = "你是一位资深中国新闻编辑。请从以下候选新闻中筛选出最重要的国内热点"
+        focus_hint = (
+            "1. **重要性优先**：影响国内政治/经济/民生/社会治理的事件 > 突发事件 > 产业动向\n"
+            "2. **覆盖平衡**：政策/经济/民生/社会/对外议题都要覆盖，避免娱乐化偏食\n"
+            "3. **去重合并**：同一事件多个国内源（微博/知乎/百度/B站/抖音/今日头条/Google新闻中文）报道的合并为一条\n"
+            "4. **国内源主导**：优先选择国内源；同一事件国际源也报道了的，把国际源 idx 加入 related 字段反映「国际关注」\n"
+            "5. **排除娱乐八卦**：明星/综艺/直播打榜类不选"
+        )
 
-1. **重要性优先**：影响国家命运/国际格局的事件 > 突发灾害 > 经济动向 > 科技进展 > 社会话题
-2. **覆盖平衡**：国际局势与中国国内要闻都要覆盖，避免全部来自单一分类
-3. **去重合并**：同一事件多个源报道的，合并为一条，保留所有源信息
-4. **权威源优先**：tier=s/a 的权威源 > tier=c 的社交热搜（社交热搜易娱乐化）
-5. **排除娱乐八卦**：明显娱乐/明星八卦/猎奇内容不选
+    prompt = f"""{role_intro} {TOP_N} 条，要求：
+
+{focus_hint}
+
+**关键要求 - 跨语言印证**：候选清单中可能同时含中文源和英文源，对每条选中的新闻，请在 `related` 字段列出**候选清单里**所有报道同一事件的其他源 idx（不限语言，例如中文微博和英文 BBC 报道同一事件时要互相标识）。无其他源时 related 为空数组。
 
 候选清单（JSON）：
 {json.dumps(cand_list, ensure_ascii=False)}
@@ -261,7 +302,7 @@ def step1_select(candidates):
 输出格式（严格 JSON，不要其他文字）：
 {{
   "selected": [
-    {{"idx": 0, "reason": "50字内说明为何选这条"}},
+    {{"idx": 0, "reason": "50字内说明", "related": [12, 18]}},
     ...
   ]
 }}
@@ -269,25 +310,32 @@ def step1_select(candidates):
 只输出 JSON，不要任何解释。"""
 
     messages = [
-        {"role": "system", "content": "你是资深国际新闻编辑，擅长识别全球最重要的事件。严格按 JSON 格式输出。"},
+        {"role": "system", "content": "你是资深新闻编辑，擅长识别全球最重要的新闻并做跨语言事件聚合。严格按 JSON 格式输出。"},
         {"role": "user", "content": prompt},
     ]
 
-    resp = llm_chat(messages, temperature=0.3, max_tokens=2000)
+    resp = llm_chat(messages, temperature=0.3, max_tokens=2500)
     data = extract_json(resp)
     # 去重 LLM 可能返回的重复 idx，并过滤越界 idx
     seen = set()
-    selected_idxs = []
+    selected = []
     for s in data.get("selected", []):
         idx = s.get("idx")
         if isinstance(idx, int) and 0 <= idx < len(candidates) and idx not in seen:
             seen.add(idx)
-            selected_idxs.append(idx)
-    log(f"  LLM 选中 {len(selected_idxs)} 条（去重后）: {selected_idxs[:10]}...")
-    return selected_idxs, data.get("selected", [])
+            s.setdefault("related", [])
+            # 清洗 related：仅保留合法 idx
+            s["related"] = [
+                r for r in (s.get("related") or [])
+                if isinstance(r, int) and 0 <= r < len(candidates) and r != idx
+            ][:5]
+            selected.append(s)
+    log(f"  [{section_type}] LLM 选中 {len(selected)} 条: {[s['idx'] for s in selected[:10]]}...")
+    return selected
 
 
-def step2_analyze_batch(batch):
+# ============ Step 2: LLM 解读 ============
+def step2_analyze_batch(batch, section_type):
     """Step 2: 对一批（5条）生成深度解读"""
     batch_list = []
     for i, it in enumerate(batch):
@@ -300,7 +348,26 @@ def step2_analyze_batch(batch):
             "desc": it.get("desc", ""),
         })
 
-    prompt = f"""你是国际局势分析师。请为以下每条新闻生成深度解读。
+    if section_type == "international":
+        role = "你是国际局势分析师，擅长深度解读新闻背后的政治经济逻辑。"
+        cat_hint = "international（国际局势）/ domestic（国内要闻）/ tech（科技）/ economy（经济）/ society（社会）"
+        analy_hint = (
+            "3. **analysis**: 200-300字深度解读，包含：\n"
+            "   - 事件背景（为什么发生）\n"
+            "   - 关键影响（对相关国家/国际格局意味着什么）\n"
+            "   - 后续走向（可能的发展趋势）"
+        )
+    else:
+        role = "你是资深中国时事分析师，擅长深挖国内新闻背后的政策意图与社会影响。"
+        cat_hint = "domestic（国内要闻）/ economy（经济）/ society（社会）/ tech（科技）/ international（涉及中国的国际事件）"
+        analy_hint = (
+            "3. **analysis**: 200-300字深度解读，包含：\n"
+            "   - 事件背景（政策意图 / 社会成因）\n"
+            "   - 关键影响（对国内民生 / 经济 / 治理意味着什么）\n"
+            "   - 后续走向（政策或事件可能的发展）"
+        )
+
+    prompt = f"""{role}请为以下每条新闻生成深度解读。
 
 新闻列表：
 {json.dumps(batch_list, ensure_ascii=False)}
@@ -308,12 +375,9 @@ def step2_analyze_batch(batch):
 对每条新闻输出：
 1. **titleCN**: 中文标题。若原标题是英文等外语，翻译为简洁准确的中文标题；若已是中文则原样返回
 2. **summary**: 一句话摘要（30字内，点明核心事件）
-3. **analysis**: 200-300字深度解读，包含：
-   - 事件背景（为什么发生）
-   - 关键影响（对相关国家/领域意味着什么）
-   - 后续走向（可能的发展趋势）
+{analy_hint}
 4. **keywords**: 3-5个关键词
-5. **category**: 重新分类为 international（国际局势）/ domestic（国内要闻）/ tech（科技）/ economy（经济）/ society（社会）
+5. **category**: 重新分类为 {cat_hint}
 6. **importance**: 重要性评分 1-100（影响越深远分越高）
 
 输出格式（严格 JSON 数组，不要其他文字）：
@@ -332,7 +396,7 @@ def step2_analyze_batch(batch):
 只输出 JSON，不要解释。"""
 
     messages = [
-        {"role": "system", "content": "你是国际局势分析师，擅长深度解读新闻背后的政治经济逻辑。严格按 JSON 格式输出。"},
+        {"role": "system", "content": role + " 严格按 JSON 格式输出。"},
         {"role": "user", "content": prompt},
     ]
 
@@ -340,18 +404,18 @@ def step2_analyze_batch(batch):
     return extract_json(resp)
 
 
-def step2_analyze_all(selected_items):
+def step2_analyze_all(selected_items, section_type):
     """分批调用 LLM 生成解读"""
-    log(f"\n--- Step 2: LLM 批量解读 {len(selected_items)} 条 ---")
+    log(f"  [{section_type}] Step 2: 批量解读 {len(selected_items)} 条")
     all_analyses = []
     for i in range(0, len(selected_items), BATCH_SIZE):
         batch = selected_items[i:i + BATCH_SIZE]
-        log(f"  批次 {i // BATCH_SIZE + 1}: 解读第 {i+1}-{i+len(batch)} 条...")
+        log(f"  [{section_type}] 批次 {i // BATCH_SIZE + 1}: 第 {i+1}-{i+len(batch)} 条...")
         try:
-            analyses = step2_analyze_batch(batch)
+            analyses = step2_analyze_batch(batch, section_type)
             all_analyses.extend(analyses)
         except Exception as e:
-            log(f"  [WARN] 批次 {i//BATCH_SIZE+1} 失败: {e}")
+            log(f"  [{section_type}] [WARN] 批次 {i//BATCH_SIZE+1} 失败: {e}")
             # 失败则填充空解读
             for j in range(len(batch)):
                 all_analyses.append({
@@ -367,16 +431,25 @@ def step2_analyze_all(selected_items):
     return all_analyses
 
 
-def step3_digest(top_items):
-    """Step 3: 基于前20条生成局势综述"""
-    log("\n--- Step 3: LLM 生成局势综述 ---")
+# ============ Step 3: 局势综述 ============
+def step3_digest(top_items, section_type):
+    """Step 3: 基于前20条生成局势综述（视角随 section 调整）"""
+    log(f"  [{section_type}] Step 3: 生成局势综述 ---")
     titles = [f"{i+1}. {it['title']} ({it.get('category','')})" for i, it in enumerate(top_items)]
-    prompt = f"""基于以下今日全球最重要的 {len(top_items)} 条新闻，写一段 200-300 字的「今日局势综述」。
+
+    if section_type == "international":
+        sys_role = "你是资深国际评论员，擅长从碎片新闻中提炼宏观国际局势脉络。"
+        ask = "基于以下今日{N}条国际热点新闻，写一段 200-300 字的「今日国际局势综述」。"
+        angle = "- 提炼当前国际形势的主要脉络\n- 指出最值得关注的事件走向\n- 语气客观专业，不煽情"
+    else:
+        sys_role = "你是资深国内时事评论员，擅长从碎片新闻中提炼当前中国社会的内在脉络。"
+        ask = "基于以下今日{N}条国内热点新闻，写一段 200-300 字的「今日国内形势综述」。"
+        angle = "- 提炼当前国内政策与社会动向的主要脉络\n- 指出最值得关注的走向\n- 语气客观专业，不煽情"
+
+    prompt = f"""{ask.replace("{N}", str(len(top_items)))}
 
 要求：
-- 提炼当前国际/国内形势的主要脉络
-- 指出最值得关注的事件走向
-- 语气客观专业，不煽情
+{angle}
 - 不要逐条罗列，而要提炼主线
 
 今日新闻：
@@ -385,14 +458,137 @@ def step3_digest(top_items):
 直接输出综述正文，不要标题和解释。"""
 
     messages = [
-        {"role": "system", "content": "你是资深国际评论员，擅长从碎片新闻中提炼宏观局势脉络。"},
+        {"role": "system", "content": sys_role},
         {"role": "user", "content": prompt},
     ]
     try:
         return llm_chat(messages, temperature=0.6, max_tokens=600).strip()
     except Exception as e:
-        log(f"  [WARN] 综述生成失败: {e}")
+        log(f"  [{section_type}] [WARN] 综述生成失败: {e}")
         return "（局势综述生成失败，请稍后刷新）"
+
+
+# ============ 多源印证构造 ============
+def build_sources(it, candidates, related_idxs, raw_items):
+    """构造 sources 列表：主源 + LLM 指出的 related 源 + 字符串匹配 fallback
+
+    LLM 的 related 字段是跨语言印证的主路径；
+    若 LLM 没给 related 或太少，再用字符串匹配在全 raw_items 池里补充。
+    """
+    main_src = [{"name": it.get("source", ""), "url": it.get("url", "")}]
+    seen_urls = {it.get("url", "")}
+    related = []
+
+    # 1) LLM 指出的 related idx（候选池内）
+    for idx in (related_idxs or []):
+        if isinstance(idx, int) and 0 <= idx < len(candidates):
+            c = candidates[idx]
+            u = c.get("url", "")
+            n = c.get("source", "")
+            if u and u not in seen_urls and n:
+                seen_urls.add(u)
+                related.append({"name": n, "url": u})
+
+    # 2) 字符串匹配 fallback：在全 raw 池查找标题高度相似的项
+    if len(related) < 2:
+        norm = re.sub(r"[^\w\u4e00-\u9fa5]", "",
+                      (it.get("titleOrig") or it.get("title", "")).lower())
+        if len(norm) >= 12:
+            for cand in raw_items:
+                if cand is it:
+                    continue
+                c_norm = re.sub(r"[^\w\u4e00-\u9fa5]", "", cand.get("title", "").lower())
+                if len(c_norm) < 12:
+                    continue
+                if norm in c_norm or c_norm in norm:
+                    src = {"name": cand.get("source", ""), "url": cand.get("url", "")}
+                    if src["url"] and src["url"] not in seen_urls and src not in related:
+                        seen_urls.add(src["url"])
+                        related.append(src)
+                        if len(related) >= 4:
+                            break
+
+    return main_src + related[:4]  # 最多 5 源
+
+
+# ============ 单轨完整流程 ============
+SECTION_TITLE = {
+    "international": "国际热点 20",
+    "domestic": "国内热点 20",
+}
+
+
+def curate_section(raw_items, section_type):
+    """执行单轨完整 LLM 流程，返回 {title, digest, items}"""
+    log(f"\n========== [{section_type.upper()}] 轨开始 ==========")
+
+    candidates = prefilter_section(raw_items, section_type)
+    if not candidates:
+        log(f"  [{section_type}] 候选池为空，返回空 section")
+        return {
+            "title": SECTION_TITLE[section_type],
+            "digest": "（暂无候选数据）",
+            "totalSelected": 0,
+            "items": [],
+        }
+
+    # Step 1: LLM 筛选
+    try:
+        selected = step1_select(candidates, section_type)
+    except Exception as e:
+        print(f"[{section_type}] Step 1 LLM 筛选失败: {e}", file=sys.stderr)
+        # 降级：取预筛 top N
+        selected = [{"idx": i, "reason": "", "related": []} for i in range(min(TOP_N, len(candidates)))]
+        log(f"  [{section_type}] 降级为规则选择前 {len(selected)} 条")
+
+    selected_idxs = [s["idx"] for s in selected]
+    selected_items = [candidates[i] for i in selected_idxs if i < len(candidates)]
+
+    # 不够 TOP_N 则用候选池中剩余高分的补齐
+    if len(selected_items) < TOP_N:
+        for i in range(len(candidates)):
+            if i not in selected_idxs and len(selected_items) < TOP_N:
+                selected.append({"idx": i, "reason": "", "related": []})
+                selected_items.append(candidates[i])
+
+    # Step 2: 批量解读
+    analyses = step2_analyze_all(selected_items, section_type)
+
+    # 合并解读 + sources 到 items
+    for i, it in enumerate(selected_items):
+        a = analyses[i] if i < len(analyses) else {}
+        # 标题翻译：保留原外文为 titleOrig，title 替换为中文
+        title_cn = (a.get("titleCN") or "").strip()
+        if title_cn and title_cn != it.get("title"):
+            if not it.get("titleOrig"):
+                it["titleOrig"] = it["title"]
+            it["title"] = title_cn
+        it["summary"] = a.get("summary", "")
+        it["analysis"] = a.get("analysis", "")
+        it["keywords"] = a.get("keywords", [])
+        it["category"] = normalize_cat(a.get("category") or it.get("cat", "intl"))
+        it["importance"] = a.get("importance", 60)
+        # 多源印证：优先 LLM related，fallback 字符串匹配
+        related_idxs = selected[i].get("related", []) if i < len(selected) else []
+        it["sources"] = build_sources(it, candidates, related_idxs, raw_items)
+        # 清理内部字段
+        it.pop("_score", None)
+
+    # 按 importance 排序 + rank 编号
+    selected_items.sort(key=lambda x: x.get("importance", 0), reverse=True)
+    for i, it in enumerate(selected_items):
+        it["rank"] = i + 1
+
+    # Step 3: 局势综述
+    digest = step3_digest(selected_items, section_type)
+
+    log(f"  [{section_type}] 完成: {len(selected_items)} 条带解读")
+    return {
+        "title": SECTION_TITLE[section_type],
+        "digest": digest,
+        "totalSelected": len(selected_items),
+        "items": selected_items,
+    }
 
 
 # ============ 主流程 ============
@@ -401,7 +597,7 @@ def main():
         print("错误：未配置 ZHIPU_API_KEY 环境变量", file=sys.stderr)
         sys.exit(1)
 
-    log(f"=== LLM 策划开始 {now_iso()} ===")
+    log(f"=== LLM 双轨策划开始 {now_iso()} ===")
     log(f"模型: {LLM_MODEL!r} @ {LLM_BASE_URL!r}")
     log(f"API key: {'***' + API_KEY[-4:] if API_KEY else '(空)'} (长度 {len(API_KEY)})")
 
@@ -414,97 +610,25 @@ def main():
     raw_items = raw.get("items", [])
     log(f"读取 {len(raw_items)} 条原始新闻")
 
-    # 2. 规则预筛
-    candidates = prefilter(raw_items)
-    if not candidates:
-        print("错误：预筛后无候选", file=sys.stderr)
-        sys.exit(1)
+    # 2. 双轨并行执行（国际 + 国内）
+    intl_section = curate_section(raw_items, "international")
+    cn_section = curate_section(raw_items, "domestic")
 
-    # 3. LLM 选 top 20
-    try:
-        selected_idxs, selection_meta = step1_select(candidates)
-    except Exception as e:
-        print(f"Step 1 LLM 筛选失败: {e}", file=sys.stderr)
-        # 降级：直接取预筛 top N
-        selected_idxs = list(range(min(TOP_N, len(candidates))))
-        selection_meta = [{"idx": i, "reason": ""} for i in selected_idxs]
-        log(f"  降级为规则选择前 {len(selected_idxs)} 条")
-
-    selected_items = [candidates[i] for i in selected_idxs if i < len(candidates)]
-    # 不够 TOP_N 则补齐
-    if len(selected_items) < TOP_N:
-        for i in range(len(candidates)):
-            if i not in selected_idxs and len(selected_items) < TOP_N:
-                selected_items.append(candidates[i])
-
-    # 4. LLM 批量解读
-    analyses = step2_analyze_all(selected_items)
-
-    # 5. 多源印证：从全部 raw_items 中查找与每条 selected 标题高度相似的项，
-    #    合并为 sources 列表（实现「X源印证」功能）
-    def find_related_sources(item, pool):
-        main_src = [{"name": item.get("source", ""), "url": item.get("url", "")}]
-        # 用 titleOrig 进行匹配（英文源保留原文），效果更稳定
-        norm = re.sub(r"[^\w\u4e00-\u9fa5]", "",
-                      (item.get("titleOrig") or item.get("title", "")).lower())
-        if len(norm) < 12:
-            return main_src
-        related = []
-        for cand in pool:
-            if cand is item:
-                continue
-            c_norm = re.sub(r"[^\w\u4e00-\u9fa5]", "", cand.get("title", "").lower())
-            if len(c_norm) < 12:
-                continue
-            # 一方标题包含另一方视为同一事件
-            if norm in c_norm or c_norm in norm:
-                src = {"name": cand.get("source", ""), "url": cand.get("url", "")}
-                if src not in main_src and src not in related:
-                    related.append(src)
-        return main_src + related[:4]  # 最多 5 源
-
-    # 6. 合并解读到 items
-    for i, it in enumerate(selected_items):
-        a = analyses[i] if i < len(analyses) else {}
-        # 标题翻译：保留原外文标题为 titleOrig，title 替换为中文
-        title_cn = (a.get("titleCN") or "").strip()
-        if title_cn and title_cn != it.get("title"):
-            if not it.get("titleOrig"):
-                it["titleOrig"] = it["title"]
-            it["title"] = title_cn
-        it["summary"] = a.get("summary", "")
-        it["analysis"] = a.get("analysis", "")
-        it["keywords"] = a.get("keywords", [])
-        # category 规范化：LLM 返回值或降级原 cat 都要规整为前端格式
-        it["category"] = normalize_cat(a.get("category") or it.get("cat", "intl"))
-        it["importance"] = a.get("importance", 60)
-        # 多源印证 sources
-        it["sources"] = find_related_sources(it, raw_items)
-        # 清理内部字段
-        it.pop("_score", None)
-
-    # 按重要性排序
-    selected_items.sort(key=lambda x: x.get("importance", 0), reverse=True)
-    # 重新编号 rank
-    for i, it in enumerate(selected_items):
-        it["rank"] = i + 1
-
-    # 7. 局势综述
-    digest = step3_digest(selected_items)
-
-    # 8. 输出
+    # 3. 输出
     out = {
         "generatedAt": now_iso(),
         "model": LLM_MODEL,
-        "digest": digest,
-        "totalSelected": len(selected_items),
         "sourceStats": raw.get("sourceStats", []),
-        "items": selected_items,
+        "sections": {
+            "international": intl_section,
+            "domestic": cn_section,
+        },
     }
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
-    log(f"\n=== 策划完成: {len(selected_items)} 条带解读 → {OUT_PATH} ===")
+    log(f"\n=== 双轨策划完成 → {OUT_PATH} ===")
+    log(f"  国际 {intl_section['totalSelected']} 条 + 国内 {cn_section['totalSelected']} 条")
 
 
 if __name__ == "__main__":
