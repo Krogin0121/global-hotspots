@@ -59,6 +59,26 @@ SPAM_KEYWORDS = [
 
 REQUEST_TIMEOUT = 60
 
+# 分类规范化映射（raw.json 的 cat → 前端使用的 category）
+# raw 用 intl/cn，前端 CATS 用 international/domestic
+CAT_NORMALIZE = {
+    "intl": "international",
+    "cn": "domestic",
+    "international": "international",
+    "domestic": "domestic",
+    "tech": "tech",
+    "economy": "economy",
+    "society": "society",
+}
+
+
+def normalize_cat(c):
+    """将原始 cat 或 LLM 返回的 category 规范化为前端 category"""
+    if not c:
+        return "international"
+    c = str(c).lower().strip()
+    return CAT_NORMALIZE.get(c, "international")
+
 
 def now_iso():
     return datetime.now(timezone.utc).isoformat()
@@ -255,9 +275,16 @@ def step1_select(candidates):
 
     resp = llm_chat(messages, temperature=0.3, max_tokens=2000)
     data = extract_json(resp)
-    selected_idxs = [s["idx"] for s in data["selected"]]
-    log(f"  LLM 选中 {len(selected_idxs)} 条: {selected_idxs[:10]}...")
-    return selected_idxs, data["selected"]
+    # 去重 LLM 可能返回的重复 idx，并过滤越界 idx
+    seen = set()
+    selected_idxs = []
+    for s in data.get("selected", []):
+        idx = s.get("idx")
+        if isinstance(idx, int) and 0 <= idx < len(candidates) and idx not in seen:
+            seen.add(idx)
+            selected_idxs.append(idx)
+    log(f"  LLM 选中 {len(selected_idxs)} 条（去重后）: {selected_idxs[:10]}...")
+    return selected_idxs, data.get("selected", [])
 
 
 def step2_analyze_batch(batch):
@@ -279,19 +306,21 @@ def step2_analyze_batch(batch):
 {json.dumps(batch_list, ensure_ascii=False)}
 
 对每条新闻输出：
-1. **summary**: 一句话摘要（30字内，点明核心事件）
-2. **analysis**: 200-300字深度解读，包含：
+1. **titleCN**: 中文标题。若原标题是英文等外语，翻译为简洁准确的中文标题；若已是中文则原样返回
+2. **summary**: 一句话摘要（30字内，点明核心事件）
+3. **analysis**: 200-300字深度解读，包含：
    - 事件背景（为什么发生）
    - 关键影响（对相关国家/领域意味着什么）
    - 后续走向（可能的发展趋势）
-3. **keywords**: 3-5个关键词
-4. **category**: 重新分类为 international（国际局势）/ domestic（国内要闻）/ tech（科技）/ economy（经济）/ society（社会）
-5. **importance**: 重要性评分 1-100（影响越深远分越高）
+4. **keywords**: 3-5个关键词
+5. **category**: 重新分类为 international（国际局势）/ domestic（国内要闻）/ tech（科技）/ economy（经济）/ society（社会）
+6. **importance**: 重要性评分 1-100（影响越深远分越高）
 
 输出格式（严格 JSON 数组，不要其他文字）：
 [
   {{
     "i": 0,
+    "titleCN": "...",
     "summary": "...",
     "analysis": "...",
     "keywords": ["...", "..."],
@@ -326,8 +355,12 @@ def step2_analyze_all(selected_items):
             # 失败则填充空解读
             for j in range(len(batch)):
                 all_analyses.append({
-                    "i": j, "summary": "", "analysis": "（解读生成失败）",
-                    "keywords": [], "category": batch[j].get("cat", "intl"),
+                    "i": j,
+                    "titleCN": batch[j].get("title", ""),
+                    "summary": "",
+                    "analysis": "（解读生成失败）",
+                    "keywords": [],
+                    "category": normalize_cat(batch[j].get("cat", "intl")),
                     "importance": 60,
                 })
         time.sleep(1)  # 防 throttle
@@ -407,14 +440,46 @@ def main():
     # 4. LLM 批量解读
     analyses = step2_analyze_all(selected_items)
 
-    # 5. 合并解读到 items
+    # 5. 多源印证：从全部 raw_items 中查找与每条 selected 标题高度相似的项，
+    #    合并为 sources 列表（实现「X源印证」功能）
+    def find_related_sources(item, pool):
+        main_src = [{"name": item.get("source", ""), "url": item.get("url", "")}]
+        # 用 titleOrig 进行匹配（英文源保留原文），效果更稳定
+        norm = re.sub(r"[^\w\u4e00-\u9fa5]", "",
+                      (item.get("titleOrig") or item.get("title", "")).lower())
+        if len(norm) < 12:
+            return main_src
+        related = []
+        for cand in pool:
+            if cand is item:
+                continue
+            c_norm = re.sub(r"[^\w\u4e00-\u9fa5]", "", cand.get("title", "").lower())
+            if len(c_norm) < 12:
+                continue
+            # 一方标题包含另一方视为同一事件
+            if norm in c_norm or c_norm in norm:
+                src = {"name": cand.get("source", ""), "url": cand.get("url", "")}
+                if src not in main_src and src not in related:
+                    related.append(src)
+        return main_src + related[:4]  # 最多 5 源
+
+    # 6. 合并解读到 items
     for i, it in enumerate(selected_items):
         a = analyses[i] if i < len(analyses) else {}
+        # 标题翻译：保留原外文标题为 titleOrig，title 替换为中文
+        title_cn = (a.get("titleCN") or "").strip()
+        if title_cn and title_cn != it.get("title"):
+            if not it.get("titleOrig"):
+                it["titleOrig"] = it["title"]
+            it["title"] = title_cn
         it["summary"] = a.get("summary", "")
         it["analysis"] = a.get("analysis", "")
         it["keywords"] = a.get("keywords", [])
-        it["category"] = a.get("category", it.get("cat", "intl"))
+        # category 规范化：LLM 返回值或降级原 cat 都要规整为前端格式
+        it["category"] = normalize_cat(a.get("category") or it.get("cat", "intl"))
         it["importance"] = a.get("importance", 60)
+        # 多源印证 sources
+        it["sources"] = find_related_sources(it, raw_items)
         # 清理内部字段
         it.pop("_score", None)
 
@@ -424,15 +489,16 @@ def main():
     for i, it in enumerate(selected_items):
         it["rank"] = i + 1
 
-    # 6. 局势综述
+    # 7. 局势综述
     digest = step3_digest(selected_items)
 
-    # 7. 输出
+    # 8. 输出
     out = {
         "generatedAt": now_iso(),
         "model": LLM_MODEL,
         "digest": digest,
         "totalSelected": len(selected_items),
+        "sourceStats": raw.get("sourceStats", []),
         "items": selected_items,
     }
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)

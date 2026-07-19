@@ -27,7 +27,8 @@
     if (!iso) return '';
     try {
       const dt = new Date(iso);
-      const diff = (Date.now() - dt.getTime()) / 1000;
+      let diff = (Date.now() - dt.getTime()) / 1000;
+      if (diff < 0) diff = 0;  // 服务器时钟偏差/未来时间统一为「刚刚」
       if (diff < 60) return '刚刚';
       if (diff < 3600) return Math.floor(diff / 60) + ' 分钟前';
       if (diff < 86400) return Math.floor(diff / 3600) + ' 小时前';
@@ -54,6 +55,7 @@
     applyTheme();
     bindEvents();
     startClock();
+    startCountdown();
     loadData();
   }
 
@@ -87,11 +89,19 @@
       if (e.target === $('helpOverlay')) closeHelp();
     });
 
-    // 回顶
+    // 回顶 + 阅读进度条（共用一个 scroll 监听，passive 提升性能）
     const backTop = $('backTop');
-    window.addEventListener('scroll', () => {
-      backTop.classList.toggle('show', window.scrollY > 400);
-    }, { passive: true });
+    const readProg = $('readProgress');
+    const onScroll = () => {
+      const sy = window.scrollY;
+      backTop.classList.toggle('show', sy > 400);
+      if (readProg) {
+        const sh = document.documentElement.scrollHeight - window.innerHeight;
+        const pct = sh > 0 ? Math.min(100, (sy / sh) * 100) : 0;
+        readProg.style.width = pct + '%';
+      }
+    };
+    window.addEventListener('scroll', onScroll, { passive: true });
     backTop.addEventListener('click', () => {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     });
@@ -110,6 +120,9 @@
       if (si && si.value) { si.value = ''; state.query = ''; applyFilter(); }
       return;
     }
+    // 帮助浮层打开时，除 Esc 外屏蔽所有快捷键
+    const helpOpen = $('helpOverlay') && $('helpOverlay').classList.contains('show');
+    if (helpOpen) return;
     if (inField) return;
     if (e.ctrlKey || e.metaKey || e.altKey) return;
     const k = e.key.toLowerCase();
@@ -206,15 +219,17 @@
         </div>
       </div>`;
     } else {
-      grid.innerHTML = items.map(itemHTML).join('');
+      grid.innerHTML = items.map((it, idx) => itemHTML(it, idx)).join('');
     }
 
     // 分类角标计数
     updateTabCounts(items);
+    // 数据源健康度
+    renderSourceStats(state.data.sourceStats);
     applyFilter();
   }
 
-  function itemHTML(it) {
+  function itemHTML(it, idx) {
     const cat = CATS[it.category] || CATS.international;
     const sources = Array.isArray(it.sources) ? it.sources : [
       { name: it.source || '', url: it.url || '' }
@@ -238,14 +253,16 @@
     const time = it.publishedAt ? fmtRel(it.publishedAt) : '';
 
     return `
-      <article class="news-card cat-${it.category || 'international'}" data-cat="${it.category || 'international'}" style="--cat-color:${cat.color}">
+      <article class="news-card cat-${it.category || 'international'}" data-cat="${it.category || 'international'}" style="--cat-color:${cat.color};--i:${idx || 0}">
         <div class="card-rank ${rankCls}">${rank}</div>
         <div class="card-main">
           <div class="card-head">
             <span class="cat-tag" style="--cat-color:${cat.color}">${cat.icon} ${cat.name}</span>
             ${time ? `<span class="card-time">${time}</span>` : ''}
             ${it.region ? `<span class="card-region">📍 ${esc(it.region)}</span>` : ''}
-            <span class="imp ${impCls}" title="重要度评分">★ ${imp}</span>
+            <span class="imp ${impCls}" title="重要度评分 ${imp}/100">
+              <span class="imp-bar"><i style="width:${imp}%"></i></span>${imp}
+            </span>
           </div>
           <h3 class="card-title">
             <a href="${esc(sources[0].url || it.url || '#')}" target="_blank" rel="noopener">${esc(it.title)}</a>
@@ -272,6 +289,58 @@
       const id = s.dataset.cnt;
       s.textContent = counts[id] || 0;
     });
+  }
+
+  // ============ 数据源健康度 ============
+  function renderSourceStats(stats) {
+    const box = $('sourceStats');
+    if (!box) return;
+    if (!Array.isArray(stats) || !stats.length) {
+      box.innerHTML = '<span class="source-stats-title">信源</span><span class="ss-cnt">（未提供统计）</span>';
+      return;
+    }
+    const okCnt = stats.filter(s => s.ok).length;
+    const chips = stats.map(s => {
+      const dotCls = s.ok ? '' : 'fail';
+      return `<span class="ss-chip" title="${esc(s.name)}: ${s.ok ? s.count + ' 条' : '信源失败'}">
+        <span class="ss-dot ${dotCls}"></span>${esc(s.name)}<span class="ss-cnt">${s.count}</span>
+      </span>`;
+    }).join('');
+    box.innerHTML = `<span class="source-stats-title">信源 ${okCnt}/${stats.length} 在线</span>${chips}`;
+  }
+
+  // ============ 下次更新倒计时 ============
+  function nextUpdateUTC() {
+    // GitHub Actions cron: 0 0,6,12,18 * * *（UTC）
+    const now = new Date();
+    const next = new Date(now);
+    const h = now.getUTCHours();
+    const nextHour = Math.ceil((h + 0.001) / 6) * 6;
+    if (nextHour >= 24) {
+      next.setUTCDate(next.getUTCDate() + 1);
+      next.setUTCHours(0, 0, 0, 0);
+    } else {
+      next.setUTCHours(nextHour, 0, 0, 0);
+    }
+    return next.getTime();
+  }
+
+  function startCountdown() {
+    const num = $('nextUpdateNum');
+    if (!num) return;
+    const nextTs = nextUpdateUTC();
+    const tick = () => {
+      const diff = nextTs - Date.now();
+      if (diff <= 0) {
+        num.textContent = '即将';
+        return;
+      }
+      const h = Math.floor(diff / 3600000);
+      const m = Math.floor((diff % 3600000) / 60000);
+      num.textContent = `${h}h ${m}m`;
+    };
+    tick();
+    setInterval(tick, 30000);  // 每 30 秒刷新足够
   }
 
   // ============ 过滤 ============

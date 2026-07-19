@@ -34,6 +34,7 @@ import time
 import re
 import html
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
 
 import feedparser
 import requests
@@ -124,38 +125,45 @@ def fetch_hn(source):
         resp = fetch_url(source["url"])
         ids = resp.json()[:HN_COUNT]
         item_url_tmpl = source["item_url"]
-        for i, item_id in enumerate(ids):
+
+        # 并发抓取每个 story（HN firebase API 单条延迟较高，串行 30 次会拖慢整轮）
+        def fetch_one(item_id):
             try:
                 r = fetch_url(f"{item_url_tmpl}{item_id}.json")
-                it = r.json()
-                if not it or it.get("type") != "story":
-                    continue
-                title = clean_text(it.get("title", ""))
-                if not title:
-                    continue
-                # HN story 可能没有 url（Ask/Tell HN），用讨论页作 url
-                url = it.get("url") or f"https://news.ycombinator.com/item?id={item_id}"
-                score = it.get("score", 0)
-                desc = ""
-                if it.get("text"):
-                    desc = clean_text(it["text"])[:300]
-                items.append({
-                    "title": title,
-                    "titleOrig": title,
-                    "url": url,
-                    "source": source["name"],
-                    "sourceId": source["id"],
-                    "tier": source["tier"],
-                    "cat": source["cat"],
-                    "region": source["region"],
-                    "lang": "en",
-                    "publishedAt": None,
-                    "desc": desc,
-                    "hotLabel": f"♥{score}" if score else "",
-                    "discussUrl": f"https://news.ycombinator.com/item?id={item_id}",
-                })
+                return r.json()
             except Exception:
+                return None
+
+        with ThreadPoolExecutor(max_workers=8) as ex:
+            results = list(ex.map(fetch_one, ids))
+
+        for it in results:
+            if not it or it.get("type") != "story":
                 continue
+            title = clean_text(it.get("title", ""))
+            if not title:
+                continue
+            # HN story 可能没有 url（Ask/Tell HN），用讨论页作 url
+            url = it.get("url") or f"https://news.ycombinator.com/item?id={it.get('id')}"
+            score = it.get("score", 0)
+            desc = ""
+            if it.get("text"):
+                desc = clean_text(it["text"])[:300]
+            items.append({
+                "title": title,
+                "titleOrig": title,
+                "url": url,
+                "source": source["name"],
+                "sourceId": source["id"],
+                "tier": source["tier"],
+                "cat": source["cat"],
+                "region": source["region"],
+                "lang": "en",
+                "publishedAt": None,
+                "desc": desc,
+                "hotLabel": f"♥{score}" if score else "",
+                "discussUrl": f"https://news.ycombinator.com/item?id={it.get('id')}",
+            })
     except Exception as e:
         print(f"  [WARN] HN 失败: {e}", file=sys.stderr)
     print(f"  [OK]  {source['id']:12s} {len(items):3d} 条")
@@ -204,6 +212,7 @@ def fetch_gharchive(source):
 def main():
     print(f"=== 抓取开始 {now_iso()} ===")
     all_items = []
+    source_stats = []
     for src in SOURCES:
         t = src["type"]
         if t == "rss":
@@ -214,20 +223,33 @@ def main():
             items = fetch_gharchive(src)
         else:
             print(f"  [SKIP] 未知类型: {t}", file=sys.stderr)
+            source_stats.append({
+                "id": src["id"], "name": src["name"],
+                "count": 0, "ok": False,
+            })
             continue
         all_items.extend(items)
+        source_stats.append({
+            "id": src["id"],
+            "name": src["name"],
+            "count": len(items),
+            "ok": len(items) > 0,
+        })
 
     # 输出
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
     out = {
         "fetchedAt": now_iso(),
         "totalItems": len(all_items),
+        "sourceStats": source_stats,
         "items": all_items,
     }
     with open(OUT_PATH, "w", encoding="utf-8") as f:
         json.dump(out, f, ensure_ascii=False, indent=2)
 
+    ok_cnt = sum(1 for s in source_stats if s["ok"])
     print(f"\n=== 抓取完成: 共 {len(all_items)} 条 → {OUT_PATH} ===")
+    print(f"信源健康度: {ok_cnt}/{len(source_stats)} 源在线")
 
 
 if __name__ == "__main__":

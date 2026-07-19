@@ -3,10 +3,10 @@ AIGC:
   ContentProducer: '001191110102MAD55U9H0F10002'
   ContentPropagator: '001191110102MAD55U9H0F10002'
   Label: '1'
-  ProduceID: '09f753e8-9917-4c8f-ba3b-69d0fe8fc668'
-  PropagateID: '09f753e8-9917-4c8f-ba3b-69d0fe8fc668'
-  ReservedCode1: '65ac11b7-3908-4ffd-a18d-c74c40350899'
-  ReservedCode2: '65ac11b7-3908-4ffd-a18d-c74c40350899'
+  ProduceID: '95aabf70-e00a-4415-8b25-864a27e56a39'
+  PropagateID: '95aabf70-e00a-4415-8b25-864a27e56a39'
+  ReservedCode1: '5ffbef56-4f12-46f3-8798-0a76b03af534'
+  ReservedCode2: '5ffbef56-4f12-46f3-8798-0a76b03af534'
 ---
 
 # 全球热点深度解读 · Global Hotspots Digest

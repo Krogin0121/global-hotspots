@@ -20,6 +20,9 @@
   --danger:    #ef4444;
   --warn:      #f59e0b;
   --ok:        #10b981;
+  --gold:      #fbbf24;
+  --silver:    #cbd5e1;
+  --bronze:    #d97706;
   --mono:      'JetBrains Mono', 'Consolas', 'Courier New', monospace;
   --sans:      -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC',
                'Microsoft YaHei', 'Helvetica Neue', sans-serif;
@@ -410,4 +413,185 @@ kbd {
   }
   .digest-section, .tabs-wrap { padding: 0 14px; }
   .foot { padding: 20px 14px 30px; }
+}
+
+/* ============================================================
+ *  Phase 2/3 增强：阅读进度条 · 卡片错峰动画 · Top3奖牌
+ *                · 重要度进度条 · 局势综述引文 · 焦点态
+ *                · 数据源统计 · 更新倒计时
+ * ============================================================ */
+
+/* ============ 阅读进度条 ============ */
+.read-progress {
+  position: fixed; top: 0; left: 0;
+  height: 3px; width: 0;
+  background: linear-gradient(90deg, var(--accent) 0%, #8b5cf6 50%, var(--gold) 100%);
+  z-index: 200;
+  transition: width .1s ease-out;
+  box-shadow: 0 0 8px rgba(59, 130, 246, 0.6);
+}
+
+/* ============ 卡片错峰淡入动画 ============ */
+@keyframes cardIn {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.news-card {
+  animation: cardIn .4s ease-out both;
+  animation-delay: calc(var(--i, 0) * 40ms);
+}
+@media (prefers-reduced-motion: reduce) {
+  .news-card { animation: none; }
+  html { scroll-behavior: auto; }
+}
+
+/* ============ Top3 奖牌增强 ============ */
+.card-rank.rank-top {
+  position: relative;
+  box-shadow: 0 0 0 1px rgba(255,255,255,0.08);
+}
+.card-rank.rank-1 {
+  background: linear-gradient(135deg, #fde68a, #fbbf24 40%, #d97706);
+  color: #422006;
+  box-shadow: 0 4px 14px rgba(251, 191, 36, 0.45), inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.card-rank.rank-2 {
+  background: linear-gradient(135deg, #f1f5f9, #cbd5e1 40%, #94a3b8);
+  color: #1e293b;
+  box-shadow: 0 4px 14px rgba(203, 213, 225, 0.35), inset 0 1px 0 rgba(255,255,255,0.5);
+}
+.card-rank.rank-3 {
+  background: linear-gradient(135deg, #fcd34d, #d97706 40%, #92400e);
+  color: #fff;
+  box-shadow: 0 4px 14px rgba(217, 119, 6, 0.4);
+}
+.card-rank.rank-1::before { content: '👑'; position: absolute; top: -10px; font-size: 13px; }
+
+/* ============ 局势综述引文装饰 ============ */
+.digest-card { position: relative; overflow: hidden; }
+.digest-body { position: relative; }
+.digest-body::before {
+  content: '"';
+  position: absolute;
+  top: -18px; left: -8px;
+  font-size: 72px; line-height: 1;
+  color: var(--accent);
+  opacity: 0.18;
+  font-family: Georgia, serif;
+  pointer-events: none;
+}
+
+/* ============ 重要度进度条 ============ */
+.imp {
+  display: inline-flex; align-items: center; gap: 6px;
+  margin-left: auto; padding: 2px 8px; border-radius: 4px;
+  font-weight: 600; font-size: 10.5px; font-family: var(--mono);
+}
+.imp-bar {
+  display: inline-block;
+  width: 36px; height: 4px;
+  background: var(--line-2); border-radius: 2px;
+  overflow: hidden; vertical-align: middle;
+}
+.imp-bar > i {
+  display: block; height: 100%;
+  background: var(--gold);
+  border-radius: 2px;
+  transition: width .3s ease;
+}
+.imp-high > .imp-bar > i { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+.imp-mid  > .imp-bar > i { background: linear-gradient(90deg, #64748b, #94a3b8); }
+.imp-low  > .imp-bar > i { background: var(--text-mute); }
+
+/* ============ 无障碍焦点 ============ */
+.btn:focus-visible,
+.tab:focus-visible,
+.src-badge:focus-visible,
+a:focus-visible,
+.search input:focus-visible,
+#backTop:focus-visible,
+.help-close:focus-visible {
+  outline: 2px solid var(--accent-2);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* ============ 元信息行 ============ */
+.meta-bar {
+  max-width: 1400px; margin: 0 auto;
+  padding: 8px 22px;
+  display: flex; justify-content: space-between; align-items: center;
+  gap: 12px; flex-wrap: wrap;
+  border-bottom: 1px solid var(--line);
+  font-size: 11px;
+}
+
+/* ============ 数据源统计条 ============ */
+.source-stats {
+  display: flex; gap: 6px; flex-wrap: wrap;
+  font-size: 11px; color: var(--text-mute);
+  font-family: var(--mono);
+  align-items: center;
+}
+.source-stats-title { color: var(--text-dim); font-weight: 600; margin-right: 4px; }
+.ss-chip {
+  display: inline-flex; align-items: center; gap: 5px;
+  padding: 3px 9px; border-radius: 12px;
+  background: var(--card); border: 1px solid var(--line);
+}
+.ss-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--ok); flex-shrink: 0;
+}
+.ss-dot.fail { background: var(--danger); }
+.ss-dot.warn { background: var(--warn); }
+.ss-cnt { color: var(--text-dim); }
+
+/* ============ 更新倒计时 ============ */
+.countdown {
+  font-family: var(--mono); font-size: 11px;
+  color: var(--text-mute);
+  padding: 3px 9px; border-radius: 12px;
+  background: var(--card); border: 1px solid var(--line);
+  display: inline-flex; align-items: center; gap: 5px;
+}
+.countdown-ico { color: var(--accent-2); }
+.countdown-num { color: var(--text); font-weight: 600; }
+
+/* ============ 平板（768-1024px）============ */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .search input { width: 160px; }
+  .brand .sub { display: none; }
+  .grid { grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); }
+}
+
+/* ============ 移动端细化 ============ */
+@media (max-width: 480px) {
+  .topbar-inner { padding: 8px 12px; }
+  .brand-logo { width: 32px; height: 32px; font-size: 18px; border-radius: 8px; }
+  .brand h1 { font-size: 14px; }
+  .search { padding: 5px 8px; }
+  .search input { width: 110px; font-size: 12px; }
+  .btn { padding: 5px 9px; font-size: 12px; }
+  .digest-card { padding: 16px 18px; }
+  .digest-body { font-size: 13.5px; line-height: 1.7; }
+  .grid { padding: 0 10px 24px; gap: 12px; }
+  .news-card { padding: 14px 14px; gap: 10px; }
+  .card-rank { width: 26px; height: 26px; font-size: 12px; }
+  .card-title { font-size: 14.5px; }
+  .card-analysis { font-size: 13px; line-height: 1.7; }
+  #backTop { width: 36px; height: 36px; bottom: 18px; right: 18px; font-size: 17px; }
+  .source-stats { padding: 0 10px; }
+  .tab { padding: 5px 11px; font-size: 12px; }
+}
+
+/* ============ 浅色主题细节 ============ */
+html[data-theme="light"] .digest-card {
+  box-shadow: 0 4px 16px rgba(15, 23, 42, 0.08);
+}
+html[data-theme="light"] .news-card:hover {
+  box-shadow: 0 6px 18px rgba(15, 23, 42, 0.10);
+}
+html[data-theme="light"] .news-card.focused {
+  box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.25);
 }

@@ -6,9 +6,23 @@
   <meta name="description" content="全球热点深度解读 · AI 策划 · 多源印证 · 每日20条">
   <title>全球热点深度解读 · Global Hotspots Digest</title>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>◈</text></svg>">
-  <link rel="stylesheet" href="css/style.css?v=1">
+  <script>
+    // 在 CSS 渲染前同步读取主题，避免 FOUC（首次渲染闪烁）
+    (function() {
+      try {
+        var t = localStorage.getItem('gh_theme') || 'dark';
+        if (t === 'light' || t === 'dark') {
+          document.documentElement.setAttribute('data-theme', t);
+        }
+      } catch(e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="css/style.css?v=2">
 </head>
 <body>
+
+  <!-- 阅读进度条 -->
+  <div class="read-progress" id="readProgress"></div>
 
   <!-- 顶部导航 -->
   <header class="topbar">
@@ -37,6 +51,17 @@
 
   <!-- 状态条 -->
   <div class="status-bar" id="status">正在加载…</div>
+
+  <!-- 元信息行：数据源健康度 · 下次更新倒计时 -->
+  <div class="meta-bar">
+    <div class="source-stats" id="sourceStats">
+      <span class="source-stats-title">信源</span>
+    </div>
+    <span class="countdown" id="nextUpdate" title="GitHub Actions 每 6 小时（UTC 00/06/12/18）自动更新">
+      <span class="countdown-ico">⏰</span>
+      下次更新 <span class="countdown-num" id="nextUpdateNum">—</span>
+    </span>
+  </div>
 
   <!-- 局势综述 -->
   <section class="digest-section" id="digestSection" hidden>
@@ -104,6 +129,6 @@
     </div>
   </div>
 
-  <script src="js/app.js?v=1"></script>
+  <script src="js/app.js?v=2"></script>
 </body>
 </html>
