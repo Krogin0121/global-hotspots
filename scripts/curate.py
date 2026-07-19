@@ -617,6 +617,10 @@ def cross_lang_match(title, raw_items, seen_urls, limit=3):
     extra = []
     if not title:
         return extra
+    # 清理标题末尾的媒体名后缀，避免"中国网"/"荆楚网"等媒体名误触发"中国"实体
+    # 仅当后缀形如 "- xxx网/报/社/客户端/.cn/.com" 时清理（精准匹配，避免误伤副标题）
+    title = re.sub(r"\s+[-—|·]\s+\S{1,25}(网|报|社|客户端|新闻|时报|财经|TV|\.cn|\.com)\s*$",
+                   "", title.strip())
     # 找出标题命中的中文实体
     hits = [(cn, en) for cn, en in CN_ENTITIES if cn in title]
     if not hits:
