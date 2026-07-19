@@ -494,8 +494,22 @@ def step2_analyze_batch(batch, section_type):
         {"role": "user", "content": prompt},
     ]
 
-    resp = llm_chat(messages, temperature=0.5, max_tokens=3000)
-    return extract_json(resp)
+    last_err = None
+    for attempt in range(2):  # 整批重试 1 次（处理 LLM 偶发 JSON 格式错误）
+        try:
+            resp = llm_chat(messages, temperature=0.5, max_tokens=3000, retries=2)
+            analyses = extract_json(resp)
+            if isinstance(analyses, list):
+                if len(analyses) < len(batch):
+                    log(f"  [{section_type}] [WARN] batch 返回 {len(analyses)} 条 < 期望 {len(batch)}")
+                return analyses
+            raise RuntimeError(f"LLM 返回非数组 JSON: {type(analyses).__name__}")
+        except Exception as e:
+            last_err = e
+            log(f"  [{section_type}] [WARN] batch attempt {attempt+1}/2 失败: {e}")
+            if attempt < 1:
+                time.sleep(3)
+    raise last_err
 
 
 def step2_analyze_all(selected_items, section_type):
@@ -527,7 +541,11 @@ def step2_analyze_all(selected_items, section_type):
 
 # ============ Step 3: 局势综述 ============
 def step3_digest(top_items, section_type):
-    """Step 3: 基于前20条生成局势综述（视角随 section 调整）"""
+    """Step 3: 基于前20条生成局势综述（视角随 section 调整）
+
+    外层重试 3 轮（每轮含 llm_chat 内部 2 次重试），共最多 9 次尝试，
+    兜底智谱 GLM-4-Flash 偶发限流/超时/5xx 导致的综述失败。
+    """
     log(f"  [{section_type}] Step 3: 生成局势综述 ---")
     titles = [f"{i+1}. {it['title']} ({it.get('category','')})" for i, it in enumerate(top_items)]
 
@@ -555,11 +573,17 @@ def step3_digest(top_items, section_type):
         {"role": "system", "content": sys_role},
         {"role": "user", "content": prompt},
     ]
-    try:
-        return llm_chat(messages, temperature=0.6, max_tokens=600).strip()
-    except Exception as e:
-        log(f"  [{section_type}] [WARN] 综述生成失败: {e}")
-        return "（局势综述生成失败，请稍后刷新）"
+    last_err = None
+    for attempt in range(3):
+        try:
+            return llm_chat(messages, temperature=0.6, max_tokens=600, retries=2).strip()
+        except Exception as e:
+            last_err = e
+            log(f"  [{section_type}] [WARN] 综述第 {attempt+1}/3 轮失败: {e}")
+            if attempt < 2:
+                time.sleep(5)
+    log(f"  [{section_type}] [WARN] 综述 3 轮均失败，使用降级文本")
+    return "（局势综述生成失败，请稍后刷新）"
 
 
 # ============ 多源印证构造 ============
