@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T08:12:23.150577+00:00",
+  "generatedAt": "2026-07-24T13:21:42.209975+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 16,
+      "count": 20,
       "ok": true
     },
     {
@@ -90,84 +90,120 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多领域紧张与冲突交织的态势。中东地区伊朗拒绝美国停火提议，特朗普提出沙特须承认以色列以促成核能协议，凸显地区紧张局势。美国新一轮关税政策及油价突破百美元大关，反映出全球经济压力与地缘政治风险。同时，中美等多国支持开源AI，强调安全，显示出国际社会在科技领域的合作意愿。韩国对美沙核协议的双重标准揭露，德国内阁改组，法国野火蔓延等事件，亦反映出国际局势的复杂性与不确定性。此外，乌克兰、澳大利亚、肯尼亚、印度等国发生的政治、社会事件，进一步加剧了国际局势的紧张。总体而言，当前国际局势呈现出多极化、复杂化、不稳定化的特点，各方需保持冷静与克制，共同维护世界和平与稳定。",
+      "digest": "今日国际局势呈现出多方面的紧张与变化。美伊在波斯湾的交火事件加剧了地区安全风险，伊朗拒绝停火协议表明局势可能进一步升级。美国对多国实施新一轮关税，以及甲骨文与五角大楼签订巨额合同，反映出全球经济与政治力量的角力。加拿大野火肆虐、德国寻求非洲能源伙伴等事件，则揭示了全球气候变化和能源安全挑战。此外，科技巨头离婚案、巴基斯坦克什米尔地区选举、印尼婴儿贩卖等社会问题也值得关注。整体而言，国际局势复杂多变，各方利益博弈加剧，地区安全与全球治理面临严峻挑战。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "伊朗拒绝美国通过伊拉克提出的停火提议",
-          "titleOrig": "Iran War Live Updates: Iran Rejected a U.S. Cease-Fire Offer Delivered by Iraq, Officials Say",
-          "url": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-24T07:48:18+00:00",
-          "desc": "The prime minister of Iraq, who recently visited the White House, carried the proposal to Tehran. The U.S. military said it conducted a 13th consecutive night of strikes on Iran in the early hours of Friday local time.",
-          "hotLabel": "",
-          "summary": "伊拉克总理将美国停火提议转交伊朗，但伊朗拒绝接受。",
-          "analysis": "这一事件表明中东地区紧张局势持续升级，美国和伊朗之间的对抗可能进一步加剧。这将对中东地区的安全格局产生深远影响，并可能引发更大规模的冲突。",
-          "keywords": [
-            "伊朗",
-            "美国",
-            "停火",
-            "伊拉克",
-            "中东冲突"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/07/23/world/iran-war-strikes-oil-trump"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/middleeast/what-to-know-iran-houthis.html"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/23/nx-s1-5904515/congress-iran-war-powers-vote"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "特朗普称沙特须承认以色列以促成核能协议",
-          "titleOrig": "Saudis must recognise Israel for nuclear deal, says Trump",
-          "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss",
+          "title": "美伊在波斯湾交火，升级风险加剧",
+          "titleOrig": "US and Iran trade more strikes in Gulf as fears of escalation mount",
+          "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-23T17:58:02+00:00",
-          "desc": "The US president says the landmark agreement to help Saudis develop nuclear energy is dependent on it joining the Abraham Accords.",
+          "publishedAt": "2026-07-24T09:20:07+00:00",
+          "desc": "It comes as Iran condemned the US plan to use frozen Iranian assets to pay for war damages.",
           "hotLabel": "",
-          "summary": "美国总统特朗普表示，沙特若想加入阿布扎克协议以发展核能，必须先承认以色列。",
-          "analysis": "这一声明反映了美国在中东地区的战略调整，即通过推动以色列与阿拉伯国家的和解来稳定该地区。对沙特而言，这可能意味着在地区政治和宗教立场上做出妥协。对以色列而言，这可能是外交上的胜利。后续可能影响中东地区的政治格局和地区安全。",
+          "summary": "随着伊朗谴责美国计划使用冻结的伊朗资产支付战争赔偿，美伊在波斯湾的紧张局势升级。",
+          "analysis": "美伊之间的紧张关系可能进一步升级，对中东地区的稳定构成威胁。这一事件反映了地缘政治竞争的加剧，以及美国对伊朗制裁的坚持。后续走向可能包括军事冲突的升级或外交解决的尝试，对整个中东地区的安全格局产生深远影响。",
           "keywords": [
-            "沙特",
-            "以色列",
-            "核能协议",
-            "阿布扎克协议",
-            "中东局势"
+            "美伊关系",
+            "波斯湾",
+            "地缘政治",
+            "制裁",
+            "中东"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwye71yq8wwo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/c05ql5llj4do?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/24/world/middleeast/iran-war-cycle.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "伊朗拒绝伊拉克领导人提出的美国停火协议",
+          "titleOrig": "Iran Rejects U.S. Cease-Fire Deal Presented by Iraqi Leader",
+          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/iran-iraq-cease-fire-proposal.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-23T23:39:28+00:00",
+          "desc": "The details of the proposal were not immediately clear, but Iranian officials said that it was the only offer on the table.",
+          "hotLabel": "",
+          "summary": "伊朗官员表示，这是目前桌上的唯一提议，但伊朗拒绝了。",
+          "analysis": "伊朗拒绝停火协议可能加剧中东地区的紧张局势，并影响美伊关系。后续可能引发军事冲突或进一步的国际制裁，对地区稳定和全球能源市场产生重大影响。",
+          "keywords": [
+            "伊朗",
+            "美国",
+            "停火协议",
+            "中东局势",
+            "国际制裁"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/23/world/middleeast/iran-iraq-cease-fire-proposal.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "美国对数十个贸易伙伴实施新一轮关税",
-          "titleOrig": "US hits dozens of trading partners with new wave of tariffs",
+          "title": "甲骨文与五角大楼签订高达70亿美元的十年软件合同",
+          "titleOrig": "Oracle signs 10-year software contract with Pentagon worth up to $7 billion",
+          "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-23T21:56:31+00:00",
+          "desc": "Oracle will supply on-premises software to the U.S. Department of Defense.",
+          "hotLabel": "",
+          "summary": "甲骨文将向美国国防部提供本地软件。",
+          "analysis": "事件背景：这是美国国防部与私营企业的重要合作，反映了国防信息化趋势。关键影响：这可能加强美国国防部的技术能力，对国防科技产业产生影响。后续走向：合同执行情况将影响未来国防科技发展。",
+          "keywords": [
+            "甲骨文",
+            "五角大楼",
+            "软件合同",
+            "国防",
+            "技术"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/23/oracle-wins-10-year-pentagon-software-contract-worth-up-to-7-billion.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/23/open-ai-hugging-face-hack-kill-switch-bill-congress.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "美国对数十个国家实施新一轮关税",
+          "titleOrig": "US hits dozens of countries with new wave of tariffs",
           "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
@@ -175,17 +211,17 @@
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-24T07:12:13+00:00",
+          "publishedAt": "2026-07-24T12:40:44+00:00",
           "desc": "Imposed citing forced labour concerns, the levies replace a temporary global duty brought in after the US Supreme Court struck down tariffs in February.",
           "hotLabel": "",
-          "summary": "美国以强制劳动问题为由对多个贸易伙伴实施关税。",
-          "analysis": "这一举措反映了美国对全球供应链的担忧，以及对某些国家劳动标准的质疑。这可能导致全球贸易紧张局势升级，影响全球供应链和经济增长。后续可能涉及更多国家的加入或退出，以及对全球贸易规则的重塑。",
+          "summary": "美国以强制劳动问题为由对多个国家加征关税，取代了2月份美国最高法院废除的临时全球关税。",
+          "analysis": "此次关税措施反映了美国对全球供应链中强制劳动问题的关注，同时也可能加剧国际贸易紧张关系。这将对受影响国家的出口造成压力，并可能引发全球范围内的报复性关税。长期来看，这可能促使全球供应链的重新评估和调整。后续走向可能包括其他国家对美国的反击，以及全球贸易规则的重新谈判。",
           "keywords": [
-            "美国",
             "关税",
-            "贸易战",
+            "强制劳动",
+            "国际贸易",
             "供应链",
-            "全球贸易"
+            "美国"
           ],
           "category": "international",
           "importance": 85,
@@ -195,154 +231,140 @@
               "url": "https://www.bbc.co.uk/news/articles/cvgj61j6l08o?at_medium=RSS&at_campaign=rss"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4gkxppljpyo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "油价自5月以来首次突破每桶100美元",
-          "titleOrig": "Oil prices hit $100 for the first time since May",
-          "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T15:31:00+00:00",
-          "desc": "The price of Brent crude rose more than 6% on Thursday as the war in the Middle East continues to escalate.",
-          "hotLabel": "",
-          "summary": "由于中东地区战争升级，布伦特原油价格周四上涨超过6%。",
-          "analysis": "油价上涨将对全球经济产生广泛影响，特别是对那些依赖石油进口的国家。这可能会加剧全球通胀压力，并对能源市场产生长期影响。",
-          "keywords": [
-            "油价",
-            "中东战争",
-            "通胀",
-            "能源市场",
-            "全球影响"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2djnzrqk2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/oil-prices-jump-as-hormuz-red-sea-crises-deepen/a-78078835?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/23/treasury-yields-oil-prices-jobless-claims.html"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/24/g-s1-135418/up-first-newsletter-iran-war-oil-prices-tariffs-wisconsin-corey-ruiz"
             }
           ],
           "rank": 4
         },
         {
-          "title": "印尼婴儿被贩卖至新加坡，未来命运成谜",
-          "titleOrig": "Indonesian babies were trafficked to Singapore. What happens to them now?",
-          "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T23:19:58+00:00",
-          "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
-          "hotLabel": "",
-          "summary": "至少12名印尼婴儿被贩卖至新加坡，其未来命运尚不明朗。",
-          "analysis": "此事件揭示了东南亚地区人口贩卖问题的严重性。贩卖婴儿不仅是对人权的严重侵犯，也反映了地区安全和社会治理的挑战。对印尼而言，这可能是对国家形象和儿童保护政策的打击。对新加坡而言，可能需要加强边境安全和打击人口贩卖的力度。后续可能引发国际社会的关注和援助。",
-          "keywords": [
-            "人口贩卖",
-            "印尼",
-            "新加坡",
-            "儿童权利",
-            "国际安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "特朗普财富增长对全球反腐败的影响",
-          "titleOrig": "Trump, His Money, and the World",
-          "url": "https://www.nytimes.com/2026/07/23/world/trump-foreign-deals-wealth-saudi.html",
+          "title": "西岸发生枪击事件，五人死亡，为近几个月来最严重",
+          "titleOrig": "5 Killed in West Bank Shooting, Officials Say, Among the Deadliest in Months",
+          "url": "https://www.nytimes.com/2026/07/24/world/middleeast/west-bank-shooting-tell-israelis-palestinians.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-24T04:18:45+00:00",
-          "desc": "Donald Trump’s growing wealth while in office could have an impact on anti-corruption efforts around the world.",
+          "publishedAt": "2026-07-24T11:02:08+00:00",
+          "desc": "The authorities said four Palestinians and an Israeli were killed in the incident. The details of events remain unclear, with officials offering differing accounts.",
           "hotLabel": "",
-          "summary": "特朗普在任期间财富增长可能影响全球反腐败努力。",
-          "analysis": "特朗普在任期间财富的增长引发了对其政治行为可能受到经济利益影响的质疑。这可能会削弱国际社会对美国的反腐败努力的支持，并可能影响美国在国际反腐败合作中的立场。关键影响包括对国际反腐败合作的影响，以及可能对特朗普个人形象和执政合法性的影响。后续走向可能包括对特朗普财富来源的进一步调查，以及国际社会对此事件的反应。",
+          "summary": "西岸发生枪击事件，造成四名巴勒斯坦人和一名以色列人死亡。",
+          "analysis": "此次事件反映了巴以冲突的持续性和复杂性。背景是巴以双方在领土、安全和经济等方面的长期对立。事件的关键影响是加剧了地区紧张局势，可能引发更大规模冲突。后续走向取决于双方能否通过外交途径缓和紧张关系。",
           "keywords": [
-            "特朗普",
-            "财富",
-            "反腐败",
-            "国际影响",
-            "政治"
+            "巴以冲突",
+            "枪击事件",
+            "地区安全",
+            "外交关系"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/trump-foreign-deals-wealth-saudi.html"
+              "url": "https://www.nytimes.com/2026/07/24/world/middleeast/west-bank-shooting-tell-israelis-palestinians.html"
             }
           ],
-          "rank": 6
+          "rank": 5
         },
         {
-          "title": "中美等多国在峰会支持开源AI，强调安全",
-          "titleOrig": "U.S., other nations back open-source AI with 'strong security' at China summit",
-          "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
+          "title": "美国国债收益率回落，10年期国债收益率徘徊于2025年1月高点附近",
+          "titleOrig": "Treasury yields retreat, 10-year hovers around January 2025 highs",
+          "url": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-24T02:42:21+00:00",
-          "desc": "The APEC statement is the first to include open-source cooperation at a minister level, said Li Lecheng, China's industry and information technology minister.",
+          "publishedAt": "2026-07-24T11:53:34+00:00",
+          "desc": "U.S. Treasury yields retreated on Friday after briefly hitting the highest level since January 2025 the day before.",
           "hotLabel": "",
-          "summary": "在峰会期间，中美等多国支持开源AI，强调安全性。",
-          "analysis": "这一举措可能标志着国际社会在人工智能领域的合作加强，同时也强调了在技术发展过程中对安全的重视。这可能对全球AI技术的发展和应用产生重要影响。",
+          "summary": "美国国债收益率在周五回落，此前一天曾短暂触及自2025年1月以来的最高水平。",
+          "analysis": "美国国债收益率的波动反映了市场对经济前景的担忧。收益率回落可能表明投资者对经济增长放缓的担忧加剧，或者对美联储未来加息的预期减弱。这对全球经济和货币政策有重要影响。后续走势可能取决于美国经济数据、美联储政策以及全球市场情绪。",
           "keywords": [
-            "开源AI",
-            "中美关系",
-            "技术安全",
-            "国际合作",
-            "人工智能"
+            "国债收益率",
+            "美国经济",
+            "美联储政策",
+            "市场情绪",
+            "经济增长"
           ],
-          "category": "international",
-          "importance": 80,
+          "category": "economy",
+          "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+              "url": "https://www.cnbc.com/2026/07/24/treasury-yields-bonds-us-debt.html"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "澳大利亚药品监管局警告奥泽米普等GLP-1药物与罕见严重眼病相关",
+          "titleOrig": "Australian regulator TGA warns of ‘rare but severe’ eye disorder linked to GLP-1 drugs like Ozempic",
+          "url": "https://www.theguardian.com/australia-news/2026/jul/24/tga-warning-gpl1-eye-disorder-drugs-ozempic-wegovy-mounjaro",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T06:39:09+00:00",
+          "desc": "TGA says product information for some diabetes and weight loss drugs updated with warning of NAION disorderFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAustralia’s medicines regulator has issued warnings for several type 2 diabetes ",
+          "hotLabel": "",
+          "summary": "澳大利亚药品监管局更新部分糖尿病和减肥药物信息，警告与NAION疾病相关。",
+          "analysis": "事件背景：TGA更新药物信息，反映了GLP-1类药物潜在的安全风险。关键影响：这可能影响相关药物的全球销售和监管政策，对糖尿病和减肥治疗领域产生影响。后续走向：全球监管机构可能加强对这类药物的审查，患者和医生需更加谨慎使用。",
+          "keywords": [
+            "澳大利亚",
+            "药品监管",
+            "GLP-1药物",
+            "眼病",
+            "监管政策"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/24/tga-warning-gpl1-eye-disorder-drugs-ozempic-wegovy-mounjaro"
             }
           ],
           "rank": 7
         },
         {
-          "title": "对美国-沙特核协议，韩国揭露双重标准",
+          "title": "加拿大900多场野火肆虐，西北地区和安大略省火势未受控制",
+          "titleOrig": "Weather tracker: More than 900 wildfires rage across Canada",
+          "url": "https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T08:11:31+00:00",
+          "desc": "Fires remain out of control in Northwest Territories and Ontario, while Argentina endures record night-time heatRecent hot, dry weather in Canada has triggered hundreds of wildfires across the country. As of Wednesday, more than 900 were burning, scorching about 3m hectares of land. While fires have",
+          "hotLabel": "",
+          "summary": "加拿大发生超过900场野火，烧毁约300万公顷土地。",
+          "analysis": "加拿大野火频发是气候变化和极端天气事件的体现。这对当地生态环境和居民生活造成严重影响。长期来看，气候变化可能加剧此类事件，对全球环境安全构成挑战。",
+          "keywords": [
+            "气候变化",
+            "野火",
+            "环境安全",
+            "加拿大"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/environment/2026/jul/24/weather-tracker-wildfires-canada-argentina-heat"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "对美国-沙特核协议，韩国感到双重标准",
           "titleOrig": "For South Korea, U.S.-Saudi Nuclear Deal Exposes a Double Standard",
           "url": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html",
           "source": "NYT World",
@@ -354,14 +376,14 @@
           "publishedAt": "2026-07-23T14:24:40+00:00",
           "desc": "President Trump has put Saudi Arabia on the path to enriching uranium on its own soil, a demand South Korea has been making for years.",
           "hotLabel": "",
-          "summary": "特朗普政府支持沙特在本土提炼铀，而韩国寻求这一权利多年。",
-          "analysis": "这一事件揭示了美国在核政策上的双重标准，可能影响韩国与美国的关系。关键影响包括对韩国核政策的影响，以及可能对地区安全格局的影响。后续走向可能包括韩国对美国的抗议，以及对核扩散问题的国际反应。",
+          "summary": "特朗普总统使沙特阿拉伯走上在本土富集铀的道路，而韩国已寻求多年。",
+          "analysis": "这一事件反映了美国在中东地区的战略调整，以及其对盟友政策的差异。韩国可能感到被忽视，这可能会影响韩美关系和韩国的能源政策。后续可能引发地区战略格局的变化。",
           "keywords": [
-            "美国",
-            "沙特",
-            "核协议",
+            "美国-沙特核协议",
             "韩国",
-            "双重标准"
+            "战略调整",
+            "盟友政策",
+            "地区安全"
           ],
           "category": "international",
           "importance": 80,
@@ -371,362 +393,365 @@
               "url": "https://www.nytimes.com/2026/07/23/world/asia/us-saudi-nuclear-deal-south-korea.html"
             }
           ],
-          "rank": 8
+          "rank": 9
         },
         {
-          "title": "德国：弗里德里希·梅尔茨宣布内阁改组",
-          "titleOrig": "Germany: Friedrich Merz announces Cabinet reshuffle",
-          "url": "https://www.dw.com/en/germany-friedrich-merz-announces-cabinet-reshuffle/a-78094538?maca=en-rss-en-all-1573-rdf",
+          "title": "德国寻求在非洲寻找能源和贸易伙伴",
+          "titleOrig": "Germany seeks energy and trading partners in Africa",
+          "url": "https://www.dw.com/en/germany-seeks-energy-and-trading-partners-in-africa/a-78084153?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-07-24T07:38:00+00:00",
-          "desc": "Friedrich Merz has announced a Cabinet reshuffle in the wake of the resignation of conservative heavyweight Jens Spahn over a surrogacy controversy. More changes are expected in the coming days.",
+          "publishedAt": "2026-07-23T18:55:00+00:00",
+          "desc": "Germany wants to boost relations with Africa. During his trip, German Foreign Minister Johann Wadephul has promoted cooperation on energy, infrastructure and the economy. He also criticized US treatment of South Africa.",
           "hotLabel": "",
-          "summary": "德国总理弗里德里希·梅尔茨在保守派重量级人物延斯·斯潘辞职后宣布内阁改组。",
-          "analysis": "斯潘的辞职和梅尔茨的改组可能反映了德国国内政治的动荡，特别是在移民和难民政策上的分歧。这可能会影响德国政府的稳定性和政策方向。",
+          "summary": "德国外长Wadephul访问非洲，寻求加强能源、基础设施和经济合作。",
+          "analysis": "事件背景：德国寻求在非洲扩大影响力，以应对能源危机和地缘政治变化。关键影响：这可能改变非洲地区的地缘政治格局，对欧洲能源安全产生重要影响。后续走向：德国与非洲的合作可能带来新的经济和能源合作模式。",
           "keywords": [
             "德国",
-            "内阁改组",
-            "政治动荡",
-            "难民政策",
-            "弗里德里希·梅尔茨"
+            "非洲",
+            "能源",
+            "贸易",
+            "地缘政治"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-friedrich-merz-announces-cabinet-reshuffle/a-78094538?maca=en-rss-en-all-1573-rdf"
-            },
             {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/germany-seeks-energy-and-trading-partners-in-africa/a-78084153?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 9
-        },
-        {
-          "title": "法国西南部野火蔓延，疏散20,000人",
-          "titleOrig": "France evacuates 20,000 as wildfires spread in south-west",
-          "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T19:17:42+00:00",
-          "desc": "Most of those evacuated were tourists from campsites around Arcachon Bay in France's Gironde region.",
-          "hotLabel": "",
-          "summary": "法国西南部野火蔓延，导致约20,000人被疏散，其中大部分为游客。",
-          "analysis": "野火事件凸显了气候变化对欧洲国家的影响。对法国而言，这可能是对国家应急响应能力的考验。对全球而言，这可能是对气候变化应对措施的警示。后续可能引发对环境保护和气候变化应对策略的讨论。",
-          "keywords": [
-            "野火",
-            "气候变化",
-            "法国",
-            "疏散",
-            "环境保护"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cy4kmr82n44o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
           "rank": 10
         },
         {
-          "title": "埃隆·马斯克表示‘让我们享受这场旅行’，随着人工智能恐惧加剧",
-          "titleOrig": "'Let's enjoy the ride' says Elon Musk, as AI fears mount",
-          "url": "https://www.bbc.co.uk/news/articles/c4gkxppljpyo?at_medium=RSS&at_campaign=rss",
+          "title": "科技巨头离婚案中前妻获赔6.44亿美元",
+          "titleOrig": "Tech titan ordered to pay ex-wife $644m in divorce settlement",
+          "url": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-23T11:39:11+00:00",
-          "desc": "Talking to The Economist, Musk said he doesn't care if people hate him and said he was not a racist.",
+          "publishedAt": "2026-07-24T08:30:58+00:00",
+          "desc": "The divorce, involving the chairman of one of South Korea's biggest companies, has gripped the nation.",
           "hotLabel": "",
-          "summary": "马斯克在接受采访时表示不关心他人对他的看法，并否认自己是种族主义者。",
-          "analysis": "马斯克的态度反映了科技界对人工智能发展的不同看法。关键影响包括对人工智能伦理和监管的讨论，以及马斯克个人品牌的影响。后续走向可能包括对人工智能伦理标准的制定，以及公众对人工智能的担忧。",
+          "summary": "涉及韩国最大公司之一的董事长，这起离婚案吸引了全国关注。",
+          "analysis": "这起离婚案揭示了韩国商业精英中财富分配不均的问题，同时也反映了法律对个人财产权的保护。此案可能对韩国商业伦理和法律体系产生长远影响。后续走向可能包括对商业道德的讨论和对法律体系的审查。",
           "keywords": [
-            "马斯克",
-            "人工智能",
-            "伦理",
-            "监管",
-            "科技"
+            "离婚案",
+            "商业道德",
+            "财产权",
+            "韩国",
+            "法律体系"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4gkxppljpyo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/ckg68jky65eo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 11
         },
         {
-          "title": "乌克兰前国防部长坚持要求复职",
-          "titleOrig": "Ukraine's ousted defence minister insists on being reinstated",
-          "url": "https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss",
+          "title": "巴基斯坦控制的克什米尔地区选举能否平息紧张局势？",
+          "titleOrig": "Can Pakistan-administered Kashmir elections calm tensions?",
+          "url": "https://www.dw.com/en/can-pakistan-administered-kashmir-elections-calm-tensions/a-78101422?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T12:46:00+00:00",
+          "desc": "Pakistan-administered Kashmir heads to the polls after weeks of deadly protests over seats reserved for displaced people from India-administered Kashmir. One local group has called for the election to be boycotted.",
+          "hotLabel": "",
+          "summary": "巴基斯坦控制的克什米尔地区举行选举，以解决印度控制的克什米尔地区居民席位问题。",
+          "analysis": "此次选举是巴基斯坦试图通过民主途径解决克什米尔问题的尝试。然而，由于印度控制的克什米尔地区居民的抗议，选举面临挑战。这反映了南亚地区复杂的民族和宗教问题，以及地区安全的不确定性。",
+          "keywords": [
+            "克什米尔",
+            "选举",
+            "南亚安全",
+            "民族问题"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/can-pakistan-administered-kashmir-elections-calm-tensions/a-78101422?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "印尼婴儿被贩卖到新加坡，他们现在的情况如何？",
+          "titleOrig": "Indonesian babies were trafficked to Singapore. What happens to them now?",
+          "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-23T17:37:59+00:00",
-          "desc": "Mykhailo Fedorov refuses President Zelensky's offer to accept an alternative post, as the battle of wills continues.",
+          "publishedAt": "2026-07-23T23:19:58+00:00",
+          "desc": "At least 12 babies have been trafficked from Indonesia to Singapore, but what will happen to them remains unclear.",
           "hotLabel": "",
-          "summary": "乌克兰前国防部长米哈伊洛·费多罗夫拒绝接受总统泽连斯基提供的其他职位。",
-          "analysis": "这一事件反映了乌克兰国内政治斗争的激烈。对乌克兰而言，这可能影响政府稳定和军事领导层的稳定性。对国际社会而言，这可能是对乌克兰政治局势的担忧。后续可能影响乌克兰的国防政策和国际关系。",
+          "summary": "至少12名婴儿从印尼被贩卖到新加坡，但其未来命运尚不明朗。",
+          "analysis": "这起婴儿贩卖事件揭示了东南亚地区的人口贩卖问题。事件对印尼和新加坡的社会稳定以及两国关系可能产生负面影响。后续可能需要两国加强合作，打击人口贩卖，并关注受害者的安置和权益。",
           "keywords": [
-            "乌克兰",
-            "政治斗争",
-            "国防部长",
-            "泽连斯基",
+            "人口贩卖",
+            "印尼",
+            "新加坡",
+            "社会稳定",
             "国际关系"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c7vgeredvlgo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "中国动物保护者斗争转向线下和海外",
+          "titleOrig": "Blocked by censors, China's animal lovers take fight against abuse offline and overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-23T05:46:09+00:00",
+          "desc": "The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.",
+          "hotLabel": "",
+          "summary": "广东狗只被杀事件引发国内外关注。",
+          "analysis": "这一事件反映了动物保护意识的提升和动物福利问题的凸显。社会成因包括公众意识的提高和动物保护组织的努力。后续可能推动相关法律法规的完善，加强动物保护。",
+          "keywords": [
+            "动物保护",
+            "动物福利",
+            "社会意识",
+            "法律法规",
+            "公众关注"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "委内瑞拉地震显示财富差距，即使在死亡面前",
+          "titleOrig": "Venezuela’s Earthquakes Show Wealth Divide, Even in Death",
+          "url": "https://www.nytimes.com/2026/07/24/world/americas/venezuela-earthquake-dead-costs-la-guaira.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T09:02:18+00:00",
+          "desc": "Latin America’s deep-seated inequalities prevailed over the grimly equalizing force of the Venezuela earthquakes, and set even the dead apart.",
+          "hotLabel": "",
+          "summary": "拉丁美洲根深蒂固的不平等在委内瑞拉地震中依然存在，甚至将死者也区分开来。",
+          "analysis": "这则新闻揭示了委内瑞拉社会的不平等问题，即使在自然灾害面前，财富差距依然显著。这反映了拉丁美洲国家在经济发展和社会公正方面的挑战。后续走向可能包括对贫困和不平等问题的关注，以及对政策改革的讨论。",
+          "keywords": [
+            "委内瑞拉",
+            "地震",
+            "不平等",
+            "拉丁美洲",
+            "社会问题"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ce97nm53pgxo?at_medium=RSS&at_campaign=rss"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/24/world/americas/venezuela-earthquake-dead-costs-la-guaira.html"
             }
           ],
-          "rank": 12
+          "rank": 15
         },
         {
-          "title": "澳大利亚新闻：利伯尔党议员表示儿子在犹太活动感到不安全；巴纳比·乔伊斯的妻子禁止ABC的7.30节目在农场播放",
-          "titleOrig": "Australia news live: Julian Leeser says his son no longer feels safe at Jewish events; Barnaby Joyce’s wife bans ABC’s 7.30 from farm",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb",
+          "title": "加拿大开通戈登·豪国际桥，美国人被告知居家隔离",
+          "titleOrig": "As Canada Opens Gordie Howe International Bridge, Americans Are Told to Stay Home",
+          "url": "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T09:05:17+00:00",
+          "desc": "After a delay ordered by President Trump and new tariffs against Canada, the bridge between Windsor, Ontario, and Detroit opens in “underwhelming” fashion on Friday.",
+          "hotLabel": "",
+          "summary": "加拿大与美国的戈登·豪国际桥开通，但美国游客被建议避免前往。",
+          "analysis": "该桥的开通原本是美加关系改善的象征，但特朗普时期的关税政策和特朗普的干预使得开通仪式变得尴尬。这反映了美加关系的复杂性，以及美国国内政治对国际关系的影响。后续可能影响两国贸易和人员往来。",
+          "keywords": [
+            "美加关系",
+            "关税政策",
+            "国际桥",
+            "政治干预"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/24/world/canada/canada-gordie-howe-bridge-trump.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "两名俄罗斯男子在安哥拉因恐怖主义和间谍活动被监禁",
+          "titleOrig": "Two Russian men jailed in Angola for terrorism and spying",
+          "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-24T07:54:26+00:00",
-          "desc": "Liberal MP tells royal commission he remembers his son’s fear when the news broke of the Bondi terror attack. Follow today’s news liveGet our breaking news email, free app or daily news podcastAustralian exports sent to the US will be hit with a 12.5% tariff as the US president imposes levies on mor",
+          "publishedAt": "2026-07-23T14:24:01+00:00",
+          "desc": "The men were convicted over alleged plan to stage coup and organise deadly demonstrations over fuel prices last yearTwo Russian men have been found guilty by an Angolan court of terrorism and spying after being accused of planning a coup and helping to organise deadly demonstrations in the southern ",
           "hotLabel": "",
-          "summary": "澳大利亚议员表示儿子在犹太活动感到不安全，同时一名政治家的妻子禁止媒体节目在其农场播放。",
-          "analysis": "这起事件反映了澳大利亚社会对恐怖主义和种族主义的担忧，以及媒体在政治争议中的角色。关键影响包括对澳大利亚社会安全感的冲击，以及对媒体自由和政府透明度的讨论。后续走向可能包括对恐怖主义威胁的应对措施，以及对媒体监管的讨论。",
+          "summary": "两人被指控去年策划政变和组织针对燃料价格的致命示威。",
+          "analysis": "这一事件可能加剧俄罗斯与安哥拉以及西方国家的关系紧张。后续可能引发外交争端，并影响两国在非洲的势力范围。",
           "keywords": [
-            "澳大利亚",
+            "俄罗斯",
+            "安哥拉",
             "恐怖主义",
-            "种族主义",
-            "媒体自由",
-            "政治争议"
+            "间谍活动",
+            "外交关系"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/live/2026/jul/24/australia-news-live-jim-chalmers-anthony-albanese-labor-conference-gas-tax-gambling-reform-one-nation-pauline-hanson-ntwnfb"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "肯尼亚前省长因谋杀怀孕学生被判有罪",
-          "titleOrig": "Ex-governor convicted of murdering a pregnant student in Kenya",
-          "url": "https://www.bbc.co.uk/news/articles/cvg9l039ljyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T16:07:24+00:00",
-          "desc": "Okoth Obado was found guilty of killing Sharon Otieno with whom he had had an affair.",
-          "hotLabel": "",
-          "summary": "肯尼亚前省长奥科特·奥巴多因谋杀与其有染的怀孕学生沙伦·奥蒂埃诺被判有罪。",
-          "analysis": "此案件揭示了肯尼亚社会治安和司法系统的挑战。对肯尼亚而言，这可能是对政府公信力和司法公正的考验。对国际社会而言，这可能是对肯尼亚人权状况的关注。后续可能引发对肯尼亚社会治安和司法改革的讨论。",
-          "keywords": [
-            "肯尼亚",
-            "谋杀案",
-            "司法公正",
-            "社会治安",
-            "人权"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvg9l039ljyo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "印度著名活动家在饥饿罢工26天后打破绝食",
-          "titleOrig": "Prominent Indian Activist Breaks Hunger Strike After 26 Days",
-          "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T23:46:35+00:00",
-          "desc": "The activist, Sonam Wangchuk, said that he had broken his fast “after long negotiations” with officials and “in view of possible violence in the country.”",
-          "hotLabel": "",
-          "summary": "活动家Sonam Wangchuk在经过长时间谈判后结束绝食。",
-          "analysis": "这一事件反映了印度社会对某些政治问题的关注，以及活动家在推动社会变革中的作用。关键影响包括对印度政治和社会问题的关注，以及可能对政府政策的压力。后续走向可能包括对活动家诉求的进一步讨论，以及政府对此事件的回应。",
-          "keywords": [
-            "印度",
-            "活动家",
-            "饥饿罢工",
-            "政治诉求",
-            "社会变革"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/asia/sonam-wangchuk-india-hunger-strike-protests-modi.html"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "South Korea woman acquitted of murdering newborn after hospital delivery",
-          "titleOrig": "South Korea woman acquitted of murdering newborn after hospital delivery",
-          "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T10:04:56+00:00",
-          "desc": "The woman, who had wanted to end her pregnancy at 36 weeks, gave birth to a baby who doctors later killed.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyrj7ww1gko?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "Oil-Rich Saudi Arabia Isn’t Short on Energy. Here’s Why It Wants to Go Nuclear.",
-          "titleOrig": "Oil-Rich Saudi Arabia Isn’t Short on Energy. Here’s Why It Wants to Go Nuclear.",
-          "url": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T15:57:43+00:00",
-          "desc": "Opponents warn that a U.S.-Saudi deal could be a step toward the kingdom building an atomic bomb. But there are other reasons for the world’s largest oil exporter to diversify its energy mix.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/middleeast/saudi-arabia-nuclear.html"
+              "url": "https://www.theguardian.com/world/2026/jul/23/two-russian-men-jailed-angola-terrorism-and-spying"
             }
           ],
           "rank": 17
         },
         {
-          "title": "A New Target for Ukraine’s Long-Range Attacks: Russia’s Version of Amazon",
-          "titleOrig": "A New Target for Ukraine’s Long-Range Attacks: Russia’s Version of Amazon",
-          "url": "https://www.nytimes.com/2026/07/23/world/europe/russia-ukraine-wildberries-attacks.html",
+          "title": "印度活动家Sonam Wangchuk结束绝食抗议",
+          "titleOrig": "Indian activist Sonam Wangchuk ends hunger strike",
+          "url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-23T20:07:00+00:00",
+          "desc": "Sonam Wangchuk has ended his hunger strike after 26 days, saying the decision follows a \"long negotiation\" on various conditions and \"in view of possible violence in the country.\"",
+          "hotLabel": "",
+          "summary": "Sonam Wangchuk结束26天的绝食抗议，称是经过长期谈判和考虑国内暴力可能。",
+          "analysis": "事件背景：Sonam Wangchuk为争取权益而绝食，引起了国际关注。关键影响：此事件反映了印度社会和政治问题，可能影响国内外对印度社会状况的看法。后续走向：其诉求是否得到满足将影响印度社会和政治动态。",
+          "keywords": [
+            "印度",
+            "活动家",
+            "绝食",
+            "政治",
+            "社会问题"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/indian-activist-sonam-wangchuk-ends-hunger-strike/a-78076216?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "德国最高法院驳回大规模录取撤销",
+          "titleOrig": "Germany news: Top court rules out mass admission revocations",
+          "url": "https://www.dw.com/en/germany-news-top-court-rules-out-mass-admission-revocations/live-78101249?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T12:21:00+00:00",
+          "desc": "An Afghan woman has won victory over Germany's Interior Ministry after it cancelled her admission. Elsewhere, consumer confidence and VW profits are down, while violent extremist crime is up. Follow DW for the latest.",
+          "hotLabel": "",
+          "summary": "德国最高法院驳回德国内政部撤销一名阿富汗女性录取的决定。",
+          "analysis": "该案件反映了德国在移民和难民政策上的争议。德国法院的判决可能对德国的移民政策产生长远影响，同时影响德国与阿富汗等国的外交关系。",
+          "keywords": [
+            "德国",
+            "移民政策",
+            "法院判决",
+            "难民问题"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-news-top-court-rules-out-mass-admission-revocations/live-78101249?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "吉尔吉斯斯坦，女孩们在科克-博尔游戏中竞争，这种游戏类似于马球",
+          "titleOrig": "In Kyrgyzstan, Girls Compete at Kok-Boru, a Game Like Polo",
+          "url": "https://www.nytimes.com/2026/07/24/world/europe/first-girls-polo-team-breaks-with-tradition-but-keeps-the-goat-carcass.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-23T13:05:19+00:00",
-          "desc": "Kyiv is escalating its air war by striking commercial warehouses, trying to bring the conflict closer to home for ordinary Russians.",
+          "publishedAt": "2026-07-24T09:00:26+00:00",
+          "desc": "Here’s what happened when some teenage girls dared to compete in the dangerous sport of “kok-boru.”",
           "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
+          "summary": "一些少女勇敢地参加了危险的“科克-博尔”运动，展示了当地文化和社会习俗。",
+          "analysis": "这则新闻揭示了吉尔吉斯斯坦独特的文化和社会现象，展示了女性在传统体育活动中的参与。这反映了该地区文化的多样性和女性地位的逐渐提高。后续走向可能包括对当地文化的更多关注和对性别平等议题的讨论。",
+          "keywords": [
+            "吉尔吉斯斯坦",
+            "文化",
+            "体育",
+            "女性",
+            "社会习俗"
+          ],
           "category": "international",
           "importance": 60,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/23/world/europe/russia-ukraine-wildberries-attacks.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "Egyptian warrior princesses, ancient avocados, and more science news",
-          "titleOrig": "Egyptian warrior princesses, ancient avocados, and more science news",
-          "url": "https://www.npr.org/2026/07/23/nx-s1-5897598/egyptian-warrior-princesses-ancient-avocados-and-more-science-news",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-23T20:36:23+00:00",
-          "desc": "Hannah Chin and Nate Rott of NPR's Short Wave podcast talk about the building blocks of birdsong, the evolutionary history of avocados and Egyptian warrior princesses.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/23/nx-s1-5897598/egyptian-warrior-princesses-ancient-avocados-and-more-science-news"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "India's 'cockroach' protesters and government to hold talks as stalemate continues",
-          "titleOrig": "India's 'cockroach' protesters and government to hold talks as stalemate continues",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-24T06:30:34+00:00",
-          "desc": "The meeting comes hours after activist Sonam Wangchuk announced he was ending his 26-day hunger strike.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cjwx4x04yqzo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.nytimes.com/2026/07/24/world/europe/first-girls-polo-team-breaks-with-tradition-but-keeps-the-goat-carcass.html"
             }
           ],
           "rank": 20
@@ -735,59 +760,59 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述：在国内外事务方面，我国在科技、教育、经济等领域取得显著成就。科技方面，我国数学家邓煜获得菲尔兹奖，彰显我国数学研究实力。教育领域，高素质教师队伍的支撑下，基础教育扩优提质。经济方面，证监会严查违法违规行为，推动高质量发展。社会方面，重庆山体崩塌事故引发关注，无人机合规飞行指南发布，社保“家底”亮相。国际方面，我国油轮成功离开沙特，应对美关税威胁。总体而言，我国在多领域展现积极态势，值得关注。",
+      "digest": "今日国内形势综述显示，我国在应对自然灾害、推动教育发展、促进经济全球化等方面取得积极进展。政策层面，水利部部署台风防范工作，证监会明确监管重点，体现了对市场稳定和风险防控的重视。社会动向方面，教师队伍建设、美丽中国建设、动物保护等议题受到关注，反映出社会进步和民生改善的趋势。国际方面，我国在维护国家利益、推动国际合作等方面表现活跃，同时，科技领域的发展和国际交流合作也取得新成果。总体来看，我国正朝着更加开放、稳定、和谐的方向发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "知友邓煜获得菲尔兹奖",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E5%8F%8B%E9%82%93%E7%85%9C%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "中国数学家邓煜获得国际数学界最高荣誉菲尔兹奖。",
-          "analysis": "事件背景：邓煜获得菲尔兹奖，标志着中国数学研究在国际上的认可。关键影响：提升中国数学研究在国际上的地位，激励国内数学研究发展。后续走向：预计将推动中国数学研究进一步发展，提升国家科技实力。",
-          "keywords": [
-            "菲尔兹奖",
-            "数学家",
-            "邓煜",
-            "数学研究",
-            "科技实力"
-          ],
-          "category": "tech",
-          "importance": 95,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E5%8F%8B%E9%82%93%E7%85%9C%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "高素质教师队伍支撑基础教育扩优提质",
-          "titleOrig": "【光明论坛】以高素质教师队伍支撑基础教育扩优提质 - 荆楚网",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YdW9YZkVmaHJxZDBwQzlXSldtRS0wYnRnTDladVBIa0dUa2ljbWlZZmVlVU5abzRXVkVpV1lINjVzNG9ZeHJiTlpzRDNuMVJ1dk1PNnZTWXVrNDZTalQ3akFSOTBLaHplYmtCemZmSUJLQQ?oc=5",
+          "title": "水利部安排部署台风“红霞”暴雨洪水防范应对工作",
+          "titleOrig": "水利部安排部署台风“红霞”暴雨洪水防范应对工作 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5MTJSZDcxQUk4eS1ORWUxUUd5bDRiQlFNYklpNVJNSkZIOHhGa2NIR0gtOFNUc2FicXpHQ2FuU0xheFN5V0FYZDdfVFFjU3Y2ZlVuQ3V4Rkh3c2x1c3o5T2poY2pEaTZJS25OaDJZeUJfNDFxWmlOV3h0d0hpQQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-24T04:13:00+00:00",
-          "desc": "【光明论坛】以高素质教师队伍支撑基础教育扩优提质 荆楚网习近平总书记的重要论述指引基础教育改革发展开创新局面 北京市人民政府时政微观察丨培养全面发展的时代新人 光明网镜观中国丨推进基础教育扩优提质 新浪财经落实立德树人根本任务 推进基础教育扩优提质 人民日报",
+          "publishedAt": "2026-07-24T10:47:45+00:00",
+          "desc": "水利部安排部署台风“红霞”暴雨洪水防范应对工作 新华网广东、福建多地停工停运停航 台风“红霞”最新影响→ 央广网受台风“红霞”影响，广东省内铁路即将全线停运 新浪财经第12号台风“红霞”将生成，中国气象局启动重大气象灾害Ⅲ级应急响应 观察者福建省提升防台风应急响应为三级 新浪财经",
           "hotLabel": "",
-          "summary": "强调教师队伍建设，推动基础教育质量提升",
-          "analysis": "习近平总书记的论述为我国基础教育改革发展指明了方向。政策意图在于提升教育质量，培养全面发展的时代新人。这对国内民生意义重大，有助于提高国民整体素质，对社会长期发展具有深远影响。后续可能通过政策支持，加强教师培训，提高教师待遇，吸引更多优秀人才进入教育行业。",
+          "summary": "台风“红霞”来袭，水利部部署防范应对措施。",
+          "analysis": "事件背景：台风季节来临，防灾减灾工作至关重要。关键影响：对保障人民生命财产安全具有重要意义。后续走向：各级政府将加强应急响应，减少灾害损失。",
+          "keywords": [
+            "台风红霞",
+            "暴雨洪水",
+            "防灾减灾",
+            "水利部",
+            "应急响应"
+          ],
+          "category": "domestic",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA5MTJSZDcxQUk4eS1ORWUxUUd5bDRiQlFNYklpNVJNSkZIOHhGa2NIR0gtOFNUc2FicXpHQ2FuU0xheFN5V0FYZDdfVFFjU3Y2ZlVuQ3V4Rkh3c2x1c3o5T2poY2pEaTZJS25OaDJZeUJfNDFxWmlOV3h0d0hpQQ?oc=5"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "高素质教师队伍支撑基础教育发展",
+          "titleOrig": "以高素质教师队伍支撑基础教育扩优提质 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvdGNPSVlwTXJZSVhPMl9UcE9WYjdLMWlHUG52VUxfbi0zR1dBMXVTX0F4SEdiSFR1Mmk1aFVQblU2Q1Q2TWN2dC10UnhXcW1YZGhkMDZzOUpHY3owVXVqLWhhbzNsLUJNcWc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T05:32:34+00:00",
+          "desc": "以高素质教师队伍支撑基础教育扩优提质 chinanews.com.cn习近平总书记的重要论述指引基础教育改革发展开创新局面 北京市人民政府总书记为新时代新征程基础教育工作指明方向 中国网新闻中心时政微观察丨培养全面发展的时代新人 光明网镜观中国丨推进基础教育扩优提质 新浪财经",
+          "hotLabel": "",
+          "summary": "强调高素质教师队伍对基础教育质量提升的重要性。",
+          "analysis": "这体现了中国政府对于教育质量的重视，尤其是基础教育的质量。高素质教师队伍的建设对于提升教育水平、培养未来人才至关重要。对国内民生有深远影响，有助于提高国民整体素质，对教育治理意味着持续投入和改革。后续可能看到更多关于教师培养和评价体系改革的政策出台。",
           "keywords": [
             "基础教育",
-            "教师队伍建设",
+            "教师队伍",
             "教育质量",
             "人才培养"
           ],
@@ -796,213 +821,301 @@
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1YdW9YZkVmaHJxZDBwQzlXSldtRS0wYnRnTDladVBIa0dUa2ljbWlZZmVlVU5abzRXVkVpV1lINjVzNG9ZeHJiTlpzRDNuMVJ1dk1PNnZTWXVrNDZTalQ3akFSOTBLaHplYmtCemZmSUJLQQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBvdGNPSVlwTXJZSVhPMl9UcE9WYjdLMWlHUG52VUxfbi0zR1dBMXVTX0F4SEdiSFR1Mmk1aFVQblU2Q1Q2TWN2dC10UnhXcW1YZGhkMDZzOUpHY3owVXVqLWhhbzNsLUJNcWc?oc=5"
             }
           ],
           "rank": 2
         },
         {
-          "title": "伊朗遭美军袭击，德黑兰启动防空系统",
-          "titleOrig": "伊朗多地遭美军袭击 德黑兰启动防空系统 - 光明网",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOX01HMkdrNEh2TmI4TUpXTmF5UGF4N0pOdHF2WDRWX3BQLUpZb2lzN2w2NTlna1YzVjZFam5RUFQ4VkZWU1lhOGpVVUVXNkhfV29LZ0VhYUU1TDhralhR?oc=5",
+          "title": "上半年我国汽车出口超6000亿元",
+          "titleOrig": "今年上半年我国汽车出口超6000亿元 同比增长48.3% - 央广网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoaU9NRVcwcnRvR2dWMm84ck8yM2xfUWNEUVNwMWQyUDl3U1FjaU55aXpucW95V1I2dVV5RVc4TU10UVEtOGpaVHc1eWk3YzltUlY4YndxT3RqOUFwazR2T01zRWxOamRpX0I2ZllmRQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-24T05:16:00+00:00",
-          "desc": "伊朗多地遭美军袭击 德黑兰启动防空系统 光明网当美军重回中东战场 新浪新闻_手机新浪网“五个月没能让伊朗屈服，美国空袭逼近极限” 观察者消息人士称伊朗已准备好应对美军地面入侵 中国日报网凤凰女记者：伊朗现在真正严重的问题，或许正是利益集团太多 凤凰网",
+          "publishedAt": "2026-07-23T23:24:08+00:00",
+          "desc": "今年上半年我国汽车出口超6000亿元 同比增长48.3% 央广网崔东树：6月中国汽车实现出口同比增73% 环比走势超预期正增长 新浪财经新浪网· 新浪网上半年全球车市复盘：电动化加速中，中国品牌撬动海外增量 搜狐网出口暴增车企不赚钱|中国汽车出口|车企|海外建厂|利润回流_新浪新闻 新浪网",
           "hotLabel": "",
-          "summary": "伊朗遭美军袭击，德黑兰启动防空系统",
-          "analysis": "伊朗遭受美军袭击，引发地区紧张。这对国际局势意味着中东地区安全形势严峻，可能引发更大冲突。后续可能加剧地区紧张局势，对国际和平与稳定构成威胁。",
+          "summary": "我国汽车出口额同比增长48.3%，实现大幅增长。",
+          "analysis": "这一增长反映了我国汽车产业的国际竞争力提升。对经济而言，汽车出口的增长有助于稳定经济增长，促进产业升级。后续可能继续扩大出口市场，推动汽车产业的全球化布局。",
           "keywords": [
-            "伊朗",
-            "美军袭击",
-            "地区冲突",
-            "国际局势"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBOX01HMkdrNEh2TmI4TUpXTmF5UGF4N0pOdHF2WDRWX3BQLUpZb2lzN2w2NTlna1YzVjZFam5RUFQ4VkZWU1lhOGpVVUVXNkhfV29LZ0VhYUU1TDhralhR?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "证监会依法严查违法违规行为",
-          "titleOrig": "证监会：依法严查严处财务造假、内幕交易、操纵市场等违法违规行为 - 第一财经",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10SldIcjR2cTVYWGVKZTNucmVXNkYyZDI2YkNVNkkyWXVNZlBkRTc1Q0RERFFzUzdvc0tnT01ydTh3WmkxanJIWVBFQ2ZYZnJrVDhB?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-23T13:22:22+00:00",
-          "desc": "证监会：依法严查严处财务造假、内幕交易、操纵市场等违法违规行为 第一财经证监会：更大力度推动上市公司规范治理 持续释放并购重组活力 新浪财经证监会：确保资本市场“十五五”良好开局 经济频道稳定、制度、信心证监会系列座谈会释放三大信号- 中国日报网 China DailyA股市场，再传利好 东方财富",
-          "hotLabel": "",
-          "summary": "证监会加强监管，严查财务造假、内幕交易等违法行为。",
-          "analysis": "事件背景：证监会加大监管力度，旨在维护资本市场秩序，保护投资者利益。关键影响：有利于提高市场透明度，增强投资者信心，促进经济健康发展。后续走向：预计将持续加强监管，推动市场规范化，可能引发相关企业合规调整。",
-          "keywords": [
-            "证监会",
-            "财务造假",
-            "内幕交易",
-            "市场秩序",
-            "投资者信心"
+            "汽车出口",
+            "经济增长",
+            "产业升级",
+            "全球化",
+            "汽车产业"
           ],
           "category": "economy",
           "importance": 90,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE10SldIcjR2cTVYWGVKZTNucmVXNkYyZDI2YkNVNkkyWXVNZlBkRTc1Q0RERFFzUzdvc0tnT01ydTh3WmkxanJIWVBFQ2ZYZnJrVDhB?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBoaU9NRVcwcnRvR2dWMm84ck8yM2xfUWNEUVNwMWQyUDl3U1FjaU55aXpucW95V1I2dVV5RVc4TU10UVEtOGpaVHc1eWk3YzltUlY4YndxT3RqOUFwazR2T01zRWxOamRpX0I2ZllmRQ?oc=5"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "伊朗打击多地美军基地 特朗普称考虑对伊发动大规模袭击",
+          "titleOrig": "伊朗打击多地美军基地 特朗普称考虑对伊发动大规模袭击 - Shangbao Indonesia",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTlIxWDVTeXBLOEpGS3Myd1ZYbUp1dWxzaFV4WVdkY21GaTdtbzExYXR0SGtxT1c4dlpkWlpOeXBHRU9URmw4SEhYVENTWnFFUEN0WmdDMzJPZVZkUWxFbEw3eTZ4NVdCNFBmWkNDNnUzcXM2OUQ2TTRvWGNiMVZYWlhGQ1U?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T12:06:00+00:00",
+          "desc": "伊朗打击多地美军基地 特朗普称考虑对伊发动大规模袭击 Shangbao Indonesia特朗普：伊朗每向船只开火，美国就摧毁它一座桥梁或发电厂 新浪财经美威胁发动空前打击 伊朗、胡塞武装：已做好应战准备 中国日报网记者追问战事不停美方作何打算 特朗普怒怼：你比我了解情况？ 东方财富美国总统为何盯上了伊朗“镐山”核设施？ 央视网",
+          "hotLabel": "",
+          "summary": "伊朗打击美军基地，特朗普考虑对伊发动大规模袭击。",
+          "analysis": "该事件体现了中东地区紧张局势的加剧，以及美国与伊朗之间的对抗。这将对地区安全稳定产生重大影响，并可能引发更大规模的冲突。对中国而言，需关注地区局势变化，并做好应对可能的外部冲击。后续可能引发国际社会对中东地区安全形势的关注和介入。",
+          "keywords": [
+            "伊朗",
+            "美军基地",
+            "特朗普",
+            "大规模袭击",
+            "地区安全"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOTlIxWDVTeXBLOEpGS3Myd1ZYbUp1dWxzaFV4WVdkY21GaTdtbzExYXR0SGtxT1c4dlpkWlpOeXBHRU9URmw4SEhYVENTWnFFUEN0WmdDMzJPZVZkUWxFbEw3eTZ4NVdCNFBmWkNDNnUzcXM2OUQ2TTRvWGNiMVZYWlhGQ1U?oc=5"
             }
           ],
           "rank": 4
         },
         {
-          "title": "推进基础教育扩优提质",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E6%8E%A8%E8%BF%9B%E5%9F%BA%E7%A1%80%E6%95%99%E8%82%B2%E6%89%A9%E4%BC%98%E6%8F%90%E8%B4%A8",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "政府提出推进基础教育扩优提质。",
-          "analysis": "这是对教育政策的一次重要调整，旨在提高教育质量，缩小城乡、区域差距。对国内民生和教育发展具有重要意义，长期来看将提升国民整体素质。",
-          "keywords": [
-            "基础教育",
-            "教育政策",
-            "教育质量",
-            "城乡差距",
-            "教育发展"
-          ],
-          "category": "society",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E6%8E%A8%E8%BF%9B%E5%9F%BA%E7%A1%80%E6%95%99%E8%82%B2%E6%89%A9%E4%BC%98%E6%8F%90%E8%B4%A8"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "第九届环境与发展智库论坛探讨AI+科学研究新范式",
-          "titleOrig": "第九届环境与发展智库论坛：共探“AI+科学研究”新范式 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ueXpMNWQyUTg2REU3ZnRsNUhQRVhQQlVUNlkzUEVicTAxMFBSSjd0Y1B1dThCNTczcXhZRFJlSC1sT3RveURCa2NuNEYzVTRrR096a0hlcEhhM0lsUmdTVDUza3hGQXkx?oc=5",
+          "title": "菲律宾船只在中国黄岩岛海域侵权挑衅，外交部、中国海警局回应",
+          "titleOrig": "菲律宾船只在中国黄岩岛海域侵权挑衅，外交部、中国海警局回应 - 中国科技网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zNk9EYmFocFZ5VV9XenBoMkhSZmlWZXRfSUprSHdHWm1ZV1hMbUhvRzluZV93QmxueU9YUl94WkI3NVZHRDEwRk0wRkNkTURXQTFJcEpTU1QtSVJTaGZZbkhyZmZOWm5DR09XRERMZDE?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-24T06:18:11+00:00",
-          "desc": "第九届环境与发展智库论坛：共探“AI+科学研究”新范式 chinanews.com.cn",
+          "publishedAt": "2026-07-24T08:55:06+00:00",
+          "desc": "菲律宾船只在中国黄岩岛海域侵权挑衅，外交部、中国海警局回应 中国科技网外交部：菲方应立即停止侵权挑衅和炒作 中国日报网仁爱礁上的“烂军舰”一条“晾衣绳”暴露的菲律宾式焦虑 手机网易网中美频繁高层互动，菲律宾好自为之 凤凰网视频丨中国海警水炮喷射驱离菲侵权船只，现场画面公布 thepaper.cn",
           "hotLabel": "",
-          "summary": "环境与发展智库论坛探讨AI+科学研究新范式",
-          "analysis": "论坛探讨AI在科学研究中的应用，标志着我国在AI与科研结合方面迈出重要步伐。对科技领域意味着推动科技创新，提升科研效率。后续可能加强AI在科研领域的应用，促进科研发展。",
+          "summary": "菲律宾船只侵犯中国领海，中国官方强硬回应。",
+          "analysis": "事件背景：黄岩岛主权争议长期存在，此次事件是菲律宾方面对南海主权的挑战。关键影响：对南海地区的稳定构成威胁，可能引发地区紧张局势。后续走向：中国可能采取更强硬的立场，包括外交和法律手段维护主权。",
           "keywords": [
-            "AI",
-            "科学研究",
-            "科技创新",
-            "智库论坛"
-          ],
-          "category": "tech",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5ueXpMNWQyUTg2REU3ZnRsNUhQRVhQQlVUNlkzUEVicTAxMFBSSjd0Y1B1dThCNTczcXhZRFJlSC1sT3RveURCa2NuNEYzVTRrR096a0hlcEhhM0lsUmdTVDUza3hGQXkx?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "中国两艘油轮成功离开沙特",
-          "titleOrig": "中国2艘油轮成功离开沙特 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE42LXZuSUJSTE1fd1JfQWtmX1FpamtHQW9IV1ptOFNTUzNHMHpBWXNvSTRMTHhhdUFuV2E0REd6M1RWTDdBWUVzdDJLbzg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T00:51:23+00:00",
-          "desc": "中国2艘油轮成功离开沙特 凤凰网沙特油轮遇袭起火 布油时隔两月重新站上100美元关口 东方财富古特雷斯警告中东局势正处于“难以想象的边缘” 央视网胡塞武装袭击红海油轮，特朗普威胁：再打就追究伊朗责任 观察者【银河专题】胡塞武装对沙特海上封锁对集运市场的影响分析 新浪财经",
-          "hotLabel": "",
-          "summary": "中国两艘油轮在沙特成功离开，国际油市受中东局势影响波动。",
-          "analysis": "事件背景：此次油轮离开沙特可能与中东地区紧张局势有关，沙特是中国的石油供应国之一，此次事件可能反映了国际能源市场对地缘政治的敏感。关键影响：对国内民生影响较小，但对国际油价及中国经济有一定影响。后续走向：需关注中东局势及国际能源市场动态，可能影响我国能源进口政策及经济稳定。",
-          "keywords": [
-            "油轮",
-            "沙特",
-            "中东局势",
-            "国际油价",
-            "能源进口"
+            "菲律宾",
+            "黄岩岛",
+            "主权争议",
+            "中国海警",
+            "外交回应"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE42LXZuSUJSTE1fd1JfQWtmX1FpamtHQW9IV1ptOFNTUzNHMHpBWXNvSTRMTHhhdUFuV2E0REd6M1RWTDdBWUVzdDJLbzg?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zNk9EYmFocFZ5VV9XenBoMkhSZmlWZXRfSUprSHdHWm1ZV1hMbUhvRzluZV93QmxueU9YUl94WkI3NVZHRDEwRk0wRkNkTURXQTFJcEpTU1QtSVJTaGZZbkhyZmZOWm5DR09XRERMZDE?oc=5"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12TE5OM3JTVFU5WnA1YmpqYXhDenFqY3lpZ21BSVF1b1Fma3l4c2pSTXdqM05rVUw2ZDdoZDJrX1pfNG50b2tXVUFkV1VaY1RfYU1zTU5JSUpKV1ZYUWVwbHFrQ1ZJRjh4bTg3aTJvNm5GVUowUUhTUFIzV3Nnc2c?oc=5"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C11%E6%AD%BB50%E5%A4%B1%E8%81%94%23&t=31&band_rank=7&Refer=top"
             },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "菲律宾方面撞击中国巡逻艇",
-          "titleOrig": "菲方围顶冲撞中方巡逻艇",
-          "url": "https://www.zhihu.com/search?q=%E8%8F%B2%E6%96%B9%E5%9B%B4%E9%A1%B6%E5%86%B2%E6%92%9E%E4%B8%AD%E6%96%B9%E5%B7%A1%E9%80%BB%E8%89%87",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "菲方巡逻艇与中国巡逻艇发生冲撞。",
-          "analysis": "此次事件反映了南海地区的紧张局势。背景是菲律宾与中国在南海领土争端上的长期对立。事件对两国关系和地区稳定产生负面影响。后续可能引发外交交涉或进一步军事冲突。",
-          "keywords": [
-            "南海争端",
-            "外交关系",
-            "军事冲突",
-            "领土争端",
-            "菲中关系"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E8%8F%B2%E6%96%B9%E5%9B%B4%E9%A1%B6%E5%86%B2%E6%92%9E%E4%B8%AD%E6%96%B9%E5%B7%A1%E9%80%BB%E8%89%87"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%BC%94%E5%91%98%E5%AF%87%E5%8D%A0%E6%96%87%E8%A2%AB%E6%B3%95%E9%99%A2%E6%82%AC%E8%B5%8F694%20%E4%B8%87"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "张磊：义乌发展经验启示全球城市发展",
+          "titleOrig": "[中国新闻网]张磊：“义乌发展经验”怎样启示全球城市发展？｜东西问 - 人大新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52YV9mT1M4dzJNWV9Jb3lGMjRZWkJHWWt3THd1cjV3c2d3SDB0WDhkb2tmOTFlTU1GVkFlbHVvNDBvcWxTTzRoVDJEbUxCV1RaYkdxbVZUZkRCUllM?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T00:34:37+00:00",
+          "desc": "[中国新闻网]张磊：“义乌发展经验”怎样启示全球城市发展？｜东西问 人大新闻网因地制宜走出高质量发展之路 人民日报央视《新闻联播》推出《“义乌发展经验”启示》 系列报道（二）：给成长快的孩子换上一件大衣服 新浪财经开局之年看中国｜“世界超市”的另一面：感受藏在义乌三挺路的夜经济活力 中国青年网【“义乌发展经验”启示】因地制宜 探索县域经济发展 央视网",
+          "hotLabel": "",
+          "summary": "张磊探讨义乌发展经验对全球城市发展的启示。",
+          "analysis": "义乌的发展模式为其他城市提供了借鉴，尤其是在县域经济发展方面。这体现了中国地方经济发展模式的创新和成功。对国内经济有积极影响，有助于推动县域经济的高质量发展。对国际关系也有意义，可能吸引更多国际关注和合作。",
+          "keywords": [
+            "义乌发展",
+            "县域经济",
+            "全球城市",
+            "经济发展模式"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE52YV9mT1M4dzJNWV9Jb3lGMjRZWkJHWWt3THd1cjV3c2d3SDB0WDhkb2tmOTFlTU1GVkFlbHVvNDBvcWxTTzRoVDJEbUxCV1RaYkdxbVZUZkRCUllM?oc=5"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "美丽中国建设取得新进展",
+          "titleOrig": "推动美丽中国建设不断取得新进展 - 光明网理论",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aYWV0cUQzckgtR3Q1Q294QVdjVGJCLUZCbFFLeUNxRHhUa0xmeGJRSzFDM3VpQThmZkhNYWJZZjFONC1ZMFAtcGFQWGZZUWxEVXRtMmVMenk5R0prbUhQTHROSQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T02:30:00+00:00",
+          "desc": "推动美丽中国建设不断取得新进展 光明网理论【智库圆桌】推动美丽中国建设不断取得新进展 新浪财经《美在东方》丨乡村有“颜”更有“质” 人民网解读监测“十五五”规划 | 加快建设现代化海洋生态环境监测体系 中华人民共和国生态环境部人民论坛网评| 美丽乡村“绿”动起来_评论 人民论坛网",
+          "hotLabel": "",
+          "summary": "推动美丽中国建设，加强生态环境监测。",
+          "analysis": "这一系列新闻反映了我国对生态文明建设的重视。政策意图在于推动绿色发展和可持续发展，提高生态环境质量。对社会而言，这有利于改善民生，提升人民生活质量。后续可能加强环保法规的实施，推动绿色技术创新和产业升级。",
+          "keywords": [
+            "美丽中国",
+            "生态环境",
+            "绿色发展",
+            "生态文明",
+            "监测体系"
+          ],
+          "category": "society",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5aYWV0cUQzckgtR3Q1Q294QVdjVGJCLUZCbFFLeUNxRHhUa0xmeGJRSzFDM3VpQThmZkhNYWJZZjFONC1ZMFAtcGFQWGZZUWxEVXRtMmVMenk5R0prbUhQTHROSQ?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "中国证监会原副主席方星海接受审查调查",
+          "titleOrig": "中国证监会原副主席方星海接受审查调查 - 珠海网",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xSnJWWUNhakFkM2VkWFU2WWRON0FpQU5WZ2YxVHplWG1JY2Zyc0x1S3VKYS1TUDFHVjVsa3kxX3Z5RzVKVXlxcWhyQ0JBYi1FUGVvNTYyRkdRZnIwOFpYTzFIVTFpS2lVbUI1STBlZlZUWWN3eXFj?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T12:59:00+00:00",
+          "desc": "中国证监会原副主席方星海接受审查调查 珠海网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "中国证监会前副主席方星海涉嫌违纪违法接受审查。",
+          "analysis": "事件背景：反腐斗争持续深入，证监会高层接受审查。关键影响：显示中国政府对金融监管的重视，对金融市场的稳定和健康发展有积极意义。后续走向：可能引发金融监管体系的进一步改革。",
+          "keywords": [
+            "证监会",
+            "方星海",
+            "审查调查",
+            "反腐斗争",
+            "金融监管"
+          ],
+          "category": "domestic",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5xSnJWWUNhakFkM2VkWFU2WWRON0FpQU5WZ2YxVHplWG1JY2Zyc0x1S3VKYS1TUDFHVjVsa3kxX3Z5RzVKVXlxcWhyQ0JBYi1FUGVvNTYyRkdRZnIwOFpYTzFIVTFpS2lVbUI1STBlZlZUWWN3eXFj?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "伊朗称对驻科威特美军基地发动新一轮无人机袭击",
+          "titleOrig": "伊朗称对驻科威特美军基地发动新一轮无人机袭击 - 京报网",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjcW11Vjcxbks5SUprZlJBeG5UNmZncDBqS0xSSjNWeTZTMjZjZ1dCYUY3R25IMWJTN3FUQ2hMTzZtSjRNSWJ3cE5PTnpzQk5oOHZKcjAweXl3VnpHWEE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T08:42:38+00:00",
+          "desc": "伊朗称对驻科威特美军基地发动新一轮无人机袭击 京报网伊朗对科威特美军发动新一轮打击 新浪财经伊朗称袭击美国亚马逊公司在巴林的数据基础设施 中国日报网伊朗革命卫队：感谢约旦人民提供情报，助伊朗精准打击美军 观察者伊朗瞄准亚马逊云设施！目标越过军营，海湾算力警报拉响 新浪财经",
+          "hotLabel": "",
+          "summary": "伊朗对驻科威特美军基地发动无人机袭击。",
+          "analysis": "事件背景：伊朗与美国在中东地区的紧张关系。关键影响：可能加剧地区冲突，影响中东地区的稳定。后续走向：美国可能采取报复行动，局势可能进一步恶化。",
+          "keywords": [
+            "伊朗",
+            "无人机袭击",
+            "美军基地",
+            "中东冲突",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBjcW11Vjcxbks5SUprZlJBeG5UNmZncDBqS0xSSjNWeTZTMjZjZ1dCYUY3R25IMWJTN3FUQ2hMTzZtSjRNSWJ3cE5PTnpzQk5oOHZKcjAweXl3VnpHWEE?oc=5"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "中国峰会支持开源AI，强调安全",
+          "titleOrig": "U.S., other nations back open-source AI with 'strong security' at China summit",
+          "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-24T02:42:21+00:00",
+          "desc": "The APEC statement is the first to include open-source cooperation at a minister level, said Li Lecheng, China's industry and information technology minister.",
+          "hotLabel": "",
+          "summary": "亚太经合组织（APEC）峰会上，各国支持中国开源AI合作，强调安全性。",
+          "analysis": "这表明中国在人工智能领域的国际合作正在加强，同时也强调了安全的重要性。这可能意味着中国在国际AI领域的影响力正在提升，同时也体现了中国对于AI安全的重视。对国内经济有积极影响，有助于推动AI技术的发展和应用，对国际关系也有重要意义。后续可能看到更多国际合作项目的推进。",
+          "keywords": [
+            "开源AI",
+            "APEC峰会",
+            "国际合作",
+            "AI安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
             },
             {
               "name": "The Guardian",
@@ -1013,10 +1126,86 @@
               "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 8
+          "rank": 10
         },
         {
-          "title": "菲尔兹奖得主邓煜：回到数学研究起点",
+          "title": "中国汽车加速全球化布局",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%8A%A0%E9%80%9F%E5%85%A8%E7%90%83%E5%8C%96%E5%B8%83%E5%B1%80%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中国汽车企业加快海外布局。",
+          "analysis": "这表明我国汽车产业正积极拓展国际市场，提升国际竞争力。对经济而言，有助于推动产业升级和经济增长。后续可能看到更多汽车企业海外建厂，拓展全球市场。",
+          "keywords": [
+            "汽车产业",
+            "全球化",
+            "市场拓展",
+            "产业升级",
+            "经济增长"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%8A%A0%E9%80%9F%E5%85%A8%E7%90%83%E5%8C%96%E5%B8%83%E5%B1%80%23&t=31&band_rank=3&Refer=top"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "稳市场居首位 证监会明确监管工作七大重点",
+          "titleOrig": "稳市场居首位 证监会明确监管工作七大重点 - 中国服务贸易指南网",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12TE5OM3JTVFU5WnA1YmpqYXhDenFqY3lpZ21BSVF1b1Fma3l4c2pSTXdqM05rVUw2ZDdoZDJrX1pfNG50b2tXVUFkV1VaY1RfYU1zTU5JSUpKV1ZYUWVwbHFrQ1ZJRjh4bTg3aTJvNm5GVUowUUhTUFIzV3Nnc2c?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T07:08:55+00:00",
+          "desc": "稳市场居首位 证监会明确监管工作七大重点 中国服务贸易指南网中国证监会召开党的建设暨监管工作座谈会 新浪财经证监会：确保资本市场“十五五”良好开局 经济频道稳定、制度、信心证监会系列座谈会释放三大信号- 中国日报网 China Daily配合科技与产业变革，资本市场改革持续推进 第一财经",
+          "hotLabel": "",
+          "summary": "证监会明确监管工作七大重点，以稳定市场。",
+          "analysis": "该事件表明中国证监会对于维护资本市场稳定的高度重视。七大重点涵盖了市场稳定、制度完善、信心增强等方面，体现了监管层对资本市场健康发展的政策意图。对国内资本市场稳定和投资者信心有积极影响。后续可能引发资本市场改革和监管政策的进一步实施。",
+          "keywords": [
+            "证监会",
+            "监管政策",
+            "资本市场",
+            "市场稳定",
+            "制度改革"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12TE5OM3JTVFU5WnA1YmpqYXhDenFqY3lpZ21BSVF1b1Fma3l4c2pSTXdqM05rVUw2ZDdoZDJrX1pfNG50b2tXVUFkV1VaY1RfYU1zTU5JSUpKV1ZYUWVwbHFrQ1ZJRjh4bTg3aTJvNm5GVUowUUhTUFIzV3Nnc2c?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "菲尔兹奖得主邓煜：数学研究回归起点",
           "titleOrig": "专访菲尔兹奖得主、北大校友邓煜：一次次回到数学研究最朴素的起点 - 京报网",
           "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RczZtREpqNk1pMGNRNkRhaGdOTURidm1QblhLNzgtczMwQXd5QjUxcWh2UDlPb05QVVZ3M2EyT0Mtb193QkpUV2ZoVi1GTkdYVndFZktVakp3UG5Wd0E?oc=5",
           "source": "Google 新闻 · 中文",
@@ -1026,62 +1215,38 @@
           "region": "中国",
           "lang": "zh",
           "publishedAt": "2026-07-24T06:29:51+00:00",
-          "desc": "专访菲尔兹奖得主、北大校友邓煜：一次次回到数学研究最朴素的起点 京报网北大校友王虹、邓煜荣获菲尔兹奖 北京大学新闻网新闻分析丨中国籍数学家首获菲尔兹奖说明了什么 新浪财经刚拿完菲尔兹奖，他扭头加盟 OpenAI 爱范儿大量解题手稿曝光，中学老师还原邓煜如何从深圳校园走向菲尔兹奖 凤凰网",
+          "desc": "专访菲尔兹奖得主、北大校友邓煜：一次次回到数学研究最朴素的起点 京报网北大校友王虹、邓煜荣获菲尔兹奖 北京大学新闻网有人质疑王虹、邓煜如果留在国内大学是否还能获得菲尔兹奖，胡锡进发声 凤凰网王虹的逆袭：不必成为别人眼中的“天才”，只需成为自己故事里的“破壁者” 新浪财经别用“回不回国”消解王虹邓煜成就 培养体系需反思 中华网",
           "hotLabel": "",
-          "summary": "菲尔兹奖得主邓煜专访，探讨数学研究初心。",
-          "analysis": "邓煜获得菲尔兹奖体现了中国数学研究的国际认可。这背后反映了中国在数学教育与研究上的投入和成果。对国内而言，这激励了更多年轻人投身数学研究，对提升国家科技实力具有重要意义。后续可能推动国内数学教育的改革和创新。",
+          "summary": "菲尔兹奖得主、北大校友邓煜强调数学研究应回归最朴素的起点。",
+          "analysis": "邓煜的观点反映了数学研究的基本原则，即回归基础和本质。这对国内科技研究和教育有启示意义，强调了基础研究的重要性。对国内科技发展有积极影响，有助于推动科技创新和人才培养。后续可能看到更多关于基础研究的政策和投入。",
           "keywords": [
             "菲尔兹奖",
             "数学研究",
-            "邓煜",
-            "中国数学",
-            "教育改革"
+            "基础研究",
+            "科技创新"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "tech",
+          "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
               "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9RczZtREpqNk1pMGNRNkRhaGdOTURidm1QblhLNzgtczMwQXd5QjUxcWh2UDlPb05QVVZ3M2EyT0Mtb193QkpUV2ZoVi1GTkdYVndFZktVakp3UG5Wd0E?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "因地制宜走出高质量发展之路 ——对“义乌发展经验”的调研",
-          "titleOrig": "因地制宜走出高质量发展之路 ——对“义乌发展经验”的调研 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMVVrVkRKM1o3VzFxSXFqWVhqaUMtcy1YUTMyT0hQbm10N0hxQ2U2MXFtX1VvYld1ZXNQU0w3RXZ3QldfaTRjSXFlQTQzR1VzTEtfUklXZmZhUS1fSzE5SlJPa3ZCSlhp?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T02:35:37+00:00",
-          "desc": "因地制宜走出高质量发展之路 ——对“义乌发展经验”的调研 chinanews.com.cn为什么是义乌 光明网走出符合各自实际的高质量发展之路 人民日报一串手链的“全球旅行” thepaper.cn探索走出符合实际的高质量发展之路 新浪财经",
-          "hotLabel": "",
-          "summary": "调研义乌发展经验，探索高质量发展路径",
-          "analysis": "义乌发展经验强调因地制宜，走出符合当地实际的高质量发展之路。这对国内其他地区具有重要的借鉴意义，有助于推动全国经济均衡发展。对经济意味着各地可根据自身特点，制定差异化的发展战略。后续可能在全国范围内推广类似经验，促进区域协调发展。",
-          "keywords": [
-            "义乌发展经验",
-            "高质量发展",
-            "区域协调发展",
-            "经济战略"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
+            },
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBTMVVrVkRKM1o3VzFxSXFqWVhqaUMtcy1YUTMyT0hQbm10N0hxQ2U2MXFtX1VvYld1ZXNQU0w3RXZ3QldfaTRjSXFlQTQzR1VzTEtfUklXZmZhUS1fSzE5SlJPa3ZCSlhp?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E5%8F%8B%E9%82%93%E7%85%9C%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%82%93%E7%85%9C%E7%8E%8B%E8%99%B9%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96"
             }
           ],
-          "rank": 10
+          "rank": 13
         },
         {
-          "title": "重庆山体崩塌11死50失联",
+          "title": "丘成桐希望王虹邓煜回国任教",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C11%E6%AD%BB50%E5%A4%B1%E8%81%94%23&t=31&band_rank=7&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%98%E6%88%90%E6%A1%90%E5%B8%8C%E6%9C%9B%E7%8E%8B%E8%99%B9%E9%82%93%E7%85%9C%E5%9B%9E%E5%9B%BD%E4%BB%BB%E6%95%99%23&t=31&band_rank=5&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1091,54 +1256,133 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "重庆发生山体崩塌，造成11人死亡，50人失联。",
-          "analysis": "事件背景：山体崩塌是自然灾害，反映了我国部分地区地质灾害风险。关键影响：对当地居民生命财产安全造成严重威胁，考验应急管理体系。后续走向：预计政府将加强地质灾害防治，提高应急响应能力。",
+          "summary": "数学家丘成桐呼吁两位学者回国。",
+          "analysis": "这反映了我国对高层次人才的重视和人才争夺的激烈。对教育和科研领域而言，有助于提升我国的教育和科研水平。后续可能看到更多海外人才回国工作。",
           "keywords": [
-            "山体崩塌",
-            "自然灾害",
-            "地质灾害",
-            "应急响应",
-            "生命安全"
+            "人才争夺",
+            "高层次人才",
+            "教育和科研",
+            "人才回流",
+            "丘成桐"
           ],
           "category": "society",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C11%E6%AD%BB50%E5%A4%B1%E8%81%94%23&t=31&band_rank=7&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%98%E6%88%90%E6%A1%90%E5%B8%8C%E6%9C%9B%E7%8E%8B%E8%99%B9%E9%82%93%E7%85%9C%E5%9B%9E%E5%9B%BD%E4%BB%BB%E6%95%99%23&t=31&band_rank=5&Refer=top"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%98%E6%88%90%E6%A1%90%EF%BC%9A%E5%B8%8C%E6%9C%9B%E7%8E%8B%E8%99%B9%E9%82%93%E7%85%9C%E5%9B%9E%E5%9B%BD%E4%BB%BB%E6%95%99"
             }
           ],
-          "rank": 11
+          "rank": 14
         },
         {
-          "title": "中国籍数学家首次获得菲尔兹奖",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%B1%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E9%A6%96%E6%AC%A1%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
+          "title": "斯洛伐克总统将访华，中国外交部介绍此访安排和期待",
+          "titleOrig": "斯洛伐克总统将访华 中国外交部介绍此访安排和期待 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KYVVxOEdNVXZTZ0g4aEtHSE1HRVZDbnRUbzlSU2gtaC14MGFpbHVoUnA4X2ZjamJ4elFkTGs3ZXpURHpSSVhWZ1FpZGxKaWUwenRuSFg0UnNxcTJsanlIeDlNeVJwM05B?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "中国籍数学家首次获得国际数学界的最高奖项菲尔兹奖。",
-          "analysis": "这是中国数学界的一大突破，标志着中国数学研究在国际上的地位提升。对提升国家科技实力和影响力有积极作用。",
+          "publishedAt": "2026-07-24T07:46:40+00:00",
+          "desc": "斯洛伐克总统将访华 中国外交部介绍此访安排和期待 chinanews.com.cn外交部：中方愿同斯洛伐克拓展各领域交流合作 新浪财经下周前瞻：美联储议息；秘鲁新总统就职 china.caixin.com外交部介绍斯洛伐克总统访华有关安排 新浪财经2026年7月24日外交部发言人林剑主持例行记者会 中华人民共和国驻慕尼黑总领事馆",
+          "hotLabel": "",
+          "summary": "斯洛伐克总统即将访问中国，双方期待拓展合作。",
+          "analysis": "事件背景：斯洛伐克总统访华体现了中国对欧洲外交的重视。关键影响：有助于加强中斯两国在政治、经济、文化等领域的合作。后续走向：可能签署多项合作协议，推动双边关系进一步发展。",
           "keywords": [
-            "数学家",
-            "菲尔兹奖",
-            "中国科技",
-            "国际地位",
-            "数学研究"
+            "斯洛伐克",
+            "总统访华",
+            "中斯合作",
+            "外交关系",
+            "欧洲外交"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 70,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E7%B1%8D%E6%95%B0%E5%AD%A6%E5%AE%B6%E9%A6%96%E6%AC%A1%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1KYVVxOEdNVXZTZ0g4aEtHSE1HRVZDbnRUbzlSU2gtaC14MGFpbHVoUnA4X2ZjamJ4elFkTGs3ZXpURHpSSVhWZ1FpZGxKaWUwenRuSFg0UnNxcTJsanlIeDlNeVJwM05B?oc=5"
             },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/jul/22/australia-to-warn-china-it-wont-be-bulled-by-provocative-actions-as-it-builds-military-and-nuclear-arsenal"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "恒生科技指数下跌，香港银行股涨幅居前",
+          "titleOrig": "恒生科技指数下跌1.47%，香港银行股板块涨幅居前｜港股收评 - 东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GaWVVUm1ueUNodGlVeko1WmNuUEFnVFZaeXlVU2M0amtxUjFQR0pNRUNkSHpCSmRfMVlvYnJSM1UtbU1DTUp2UjdobzBFOTJUODZuZTAzeEZPZ2tMRXBySlhDZHh0UQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-24T09:40:51+00:00",
+          "desc": "恒生科技指数下跌1.47%，香港银行股板块涨幅居前｜港股收评 东方财富快讯：恒指低开1.1% 科指跌1.86% 科网股、黄金股普跌 存储概念低开 油气股逆势上涨 新浪财经港股收评：恒指、恒科齐跌，半导体上涨，有色全天重挫 凤凰网财经港股速报 | 港股早盘低开 张忆东：港股A股硬核资产值得“流泪撒种、左侧布局” 搜狐网腾讯、快手、阿里、百度、京东，集体下跌 手机网易网",
+          "hotLabel": "",
+          "summary": "恒生科技指数下跌1.47%，香港银行股板块表现强劲。",
+          "analysis": "恒生科技指数下跌可能反映了市场对于科技板块的担忧，或是对宏观经济前景的担忧。香港银行股的涨幅可能反映了市场对于金融板块的信心，尤其是在经济不确定性增加的背景下。这可能是由于香港作为国际金融中心，其银行股在资金流动性方面具有优势。对国内民生影响有限，但对经济有间接影响，可能反映出国内外经济环境的不确定性。后续可能需要关注市场对于科技板块的进一步反应以及宏观经济政策的变化。",
+          "keywords": [
+            "恒生科技指数",
+            "香港银行股",
+            "市场担忧",
+            "经济不确定性"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5GaWVVUm1ueUNodGlVeko1WmNuUEFnVFZaeXlVU2M0amtxUjFQR0pNRUNkSHpCSmRfMVlvYnJSM1UtbU1DTUp2UjdobzBFOTJUODZuZTAzeEZPZ2tMRXBySlhDZHh0UQ?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/22/british-woman-jailed-hong-kong-false-allegations"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "中国动物保护者斗争转向线下和海外",
+          "titleOrig": "Blocked by censors, China's animal lovers take fight against abuse offline and overseas",
+          "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-23T05:46:09+00:00",
+          "desc": "The killing of a dog and her puppies in Guangdong has sparked outrage inside and outside the country.",
+          "hotLabel": "",
+          "summary": "广东狗只被杀事件引发国内外关注。",
+          "analysis": "这一事件反映了动物保护意识的提升和动物福利问题的凸显。社会成因包括公众意识的提高和动物保护组织的努力。后续可能推动相关法律法规的完善，加强动物保护。",
+          "keywords": [
+            "动物保护",
+            "动物福利",
+            "社会意识",
+            "法律法规",
+            "公众关注"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cqx7wd3x420o?at_medium=RSS&at_campaign=rss"
@@ -1150,172 +1394,17 @@
             {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/sweden-eases-mining-permits-to-cut-china-minerals-reliance/a-78087394?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "习近平党建思想传承传统文化",
-          "titleOrig": "深入学习领会习近平党建思想㉓对中华优秀传统文化的传承和转化 - 南粤清风网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qMGkwRnJIVzM2TWRxUS1SN01EUTVHMXROR3V1WTNaSFdUVnV3ME9EYmZsd3F4dUV3SWhmd3lIZmlPdnZNYV9sbTA5WlVDUFg0eGl6SkRIdDI4dGhhUzlGRWFsdkxkZUxW?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T01:09:31+00:00",
-          "desc": "深入学习领会习近平党建思想㉓对中华优秀传统文化的传承和转化 南粤清风网习近平党建思想的重大时代价值（深入学习贯彻习近平新时代中国特色社会主义思想） 人民日报深入学习领会习近平党建思想丨坚持党中央集中统一领导 新京报市委理论学习中心组召开学习交流会，深入学习贯彻习近平党建思想 ycnews.cn北京大学口腔医院召开党委理论学习中心组学习会 深入学习贯彻习近平党建思想 北京大学医学部",
-          "hotLabel": "",
-          "summary": "深入学习习近平党建思想，强调传承和转化中华优秀传统文化。",
-          "analysis": "习近平党建思想强调传承和转化中华优秀传统文化，体现了中国共产党对文化自信的重视。这对于弘扬民族文化、增强国家文化软实力具有重要意义。后续可能推动相关文化政策的出台和实施。",
-          "keywords": [
-            "习近平党建思想",
-            "传统文化",
-            "文化自信",
-            "政策导向",
-            "文化传承"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
+            },
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9qMGkwRnJIVzM2TWRxUS1SN01EUTVHMXROR3V1WTNaSFdUVnV3ME9EYmZsd3F4dUV3SWhmd3lIZmlPdnZNYV9sbTA5WlVDUFg0eGl6SkRIdDI4dGhhUzlGRWFsdkxkZUxW?oc=5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "无人机合规飞行指南发布",
-          "titleOrig": "如何做到无人机合规飞行？公安部：一登二查三申请 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhVGVpZ3hNV0dKbWVCY3ZOTmtBbW82Q29uaWM2NE1MaElWTzNWVjVKNWdJV3pVR3p6N0pieFdFWFVxNHZGQ3BOU0Vwa0NMUHpjb2RUSFN2UXN6SG1XTV9iMU1ER1FaT0Fv?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T05:43:04+00:00",
-          "desc": "如何做到无人机合规飞行？公安部：一登二查三申请 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "公安部发布无人机合规飞行指南",
-          "analysis": "公安部发布无人机合规飞行指南，旨在规范无人机飞行，保障公共安全。这对社会治理意味着提升无人机管理，减少安全隐患。后续可能加强无人机监管，推广合规飞行，降低无人机事故风险。",
-          "keywords": [
-            "无人机",
-            "合规飞行",
-            "公共安全",
-            "社会治理"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBhVGVpZ3hNV0dKbWVCY3ZOTmtBbW82Q29uaWM2NE1MaElWTzNWVjVKNWdJV3pVR3p6N0pieFdFWFVxNHZGQ3BOU0Vwa0NMUHpjb2RUSFN2UXN6SG1XTV9iMU1ER1FaT0Fv?oc=5"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "暑期档电影票房超50亿",
-          "titleOrig": "今年暑期档电影票房超50亿 《功夫女足》居首 - 中国网",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzaGRKVXpUZWNmX1diMG1DRnRvV19EcHFsR2NISERJOXFSejlNWHlJeTZYNGlXdUUtS2xOVl9ndG44UVBBdXEwMnZZMlVEUzBBQ3hzODNSMmlJWEZacW1BSUFFUTdaZFdSUFMwbWRPTXVCRTg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T01:27:00+00:00",
-          "desc": "今年暑期档电影票房超50亿 《功夫女足》居首 中国网2026暑期档票房超50亿 新浪财经暑期档票房破50亿 《功夫女足》领跑 多类型影片竞艳 中华网2026暑期档电影总票房破50亿元 今年头部影片爆发力更强 中国青年网电影暑期档已经不存在了 手机网易网",
-          "hotLabel": "",
-          "summary": "今年暑期档电影票房突破50亿，票房冠军为《功夫女足》。",
-          "analysis": "事件背景：暑期档电影票房表现反映了中国电影市场的活跃度。关键影响：对电影产业及文化产业有积极推动作用，促进消费，带动相关产业链发展。后续走向：预计电影市场将持续活跃，推动电影产业升级。",
-          "keywords": [
-            "电影票房",
-            "暑期档",
-            "文化产业",
-            "电影产业",
-            "消费"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzaGRKVXpUZWNmX1diMG1DRnRvV19EcHFsR2NISERJOXFSejlNWHlJeTZYNGlXdUUtS2xOVl9ndG44UVBBdXEwMnZZMlVEUzBBQ3hzODNSMmlJWEZacW1BSUFFUTdaZFdSUFMwbWRPTXVCRTg?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "人社部亮出社保“家底”",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E7%A4%BE%E9%83%A8%E4%BA%AE%E5%87%BA%E7%A4%BE%E4%BF%9D%E2%80%9C%E5%AE%B6%E5%BA%95%E2%80%9D",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "人力资源和社会保障部公布社保基金情况。",
-          "analysis": "社保基金是保障民生的重要支柱。公布“家底”有助于提高透明度，增强公众信心。对稳定社会预期和促进经济发展有积极作用。",
-          "keywords": [
-            "社保基金",
-            "民生保障",
-            "透明度",
-            "社会预期",
-            "经济发展"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E7%A4%BE%E9%83%A8%E4%BA%AE%E5%87%BA%E7%A4%BE%E4%BF%9D%E2%80%9C%E5%AE%B6%E5%BA%95%E2%80%9D"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "加拿大总理应对美关税威胁",
-          "titleOrig": "加拿大总理：针对美关税威胁 将“不惜一切”维护本国利益 - myzaker.com",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFbzBMT2VKT0VSLVE1Z2hzWXU5YWZSLTlOU3pyTWRnWXV6bVBzUkwybUxBNHp6aThFTjVPMEZJRFdCQURfNmNvZzR6YkRIZjVrbEtybmZxVk5SRHNPU1dnUXFyMTZQbVk?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-24T02:30:59+00:00",
-          "desc": "加拿大总理：针对美关税威胁 将“不惜一切”维护本国利益 myzaker.com加总理：针对美国关税威胁，将“不惜一切代价”捍卫利益 观察者加拿大总理称将考虑对美加征关税的反制选项 新浪财经加拿大总理：若美方关税生效 将考虑全面回应 新京报遭美国加征关税 加拿大取消与美共同庆祝大桥通车 中国日报网",
-          "hotLabel": "",
-          "summary": "加拿大总理表示将不惜一切代价应对美国关税威胁。",
-          "analysis": "加拿大总理的表态反映了中美贸易摩擦对加拿大经济的影响。加拿大作为美国的邻国，其经济与美国的紧密联系使其在贸易战中处于不利地位。这将对加拿大国内经济和国际贸易格局产生重要影响，并可能加剧全球贸易紧张。",
-          "keywords": [
-            "加拿大",
-            "关税",
-            "美国",
-            "贸易战",
-            "经济影响"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBFbzBMT2VKT0VSLVE1Z2hzWXU5YWZSLTlOU3pyTWRnWXV6bVBzUkwybUxBNHp6aThFTjVPMEZJRFdCQURfNmNvZzR6YkRIZjVrbEtybmZxVk5SRHNPU1dnUXFyMTZQbVk?oc=5"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/24/china-ai-open-source-apec.html"
             }
           ],
           "rank": 17
         },
         {
-          "title": "644分考生误报厦大分校将复读",
-          "titleOrig": "",
+          "title": "高分考生误报厦大分校将复读",
+          "titleOrig": "644分考生误报厦大分校将复读",
           "url": "https://www.zhihu.com/search?q=644%E5%88%86%E8%80%83%E7%94%9F%E8%AF%AF%E6%8A%A5%E5%8E%A6%E5%A4%A7%E5%88%86%E6%A0%A1%E5%B0%86%E5%A4%8D%E8%AF%BB",
           "source": "知乎热榜",
           "sourceId": "zhihu",
@@ -1326,14 +1415,14 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "一位高考644分的考生误报厦门大学分校，决定复读。",
-          "analysis": "事件反映了当前高考制度下考生和家长对高校选择的高度重视。误报可能源于信息不对称或决策失误。对社会而言，这提醒了教育部门和学校在招生宣传和咨询方面的责任。",
+          "summary": "考生因误报被要求复读，引发关注。",
+          "analysis": "该事件反映了当前教育选拔制度中存在的漏洞和不足，以及家长和学生对于教育资源的渴求。这可能会促使教育部门对招生政策进行审查和调整，以避免类似事件再次发生。对国内教育公平和选拔制度的改革具有重要意义。后续可能引发对高考制度、教育资源分配等问题的讨论和改革措施。",
           "keywords": [
             "高考",
             "误报",
-            "教育制度",
-            "招生咨询",
-            "家长压力"
+            "教育改革",
+            "招生政策",
+            "教育资源"
           ],
           "category": "society",
           "importance": 70,
@@ -1346,33 +1435,33 @@
           "rank": 18
         },
         {
-          "title": "《八仙！》全球上映",
-          "titleOrig": "《八仙！》将“出海”登陆全球 创新演绎传统神话 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LcHJXNzBhQ0duQ2ZoU1lPY2NaeDRfREE4eHFCaWJNelp2Vl83LVQzMXVtQ3FiVkt4SjlMdmNWZ3dlYVc3NV9PZ1NPR2FjQktzVFFsbGNMTVNsbmhzWTJla1hBUk5uRmktWm5paDN5T0U?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "新能源车跨境自驾遭远程锁车30小时",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E8%B7%A8%E5%A2%83%E8%87%AA%E9%A9%BE%E9%81%AD%E8%BF%9C%E7%A8%8B%E9%94%81%E8%BD%A630%E5%B0%8F%E6%97%B6",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-24T05:43:43+00:00",
-          "desc": "《八仙！》将“出海”登陆全球 创新演绎传统神话 中华网《八仙！》热映 中国神话故事再次闪耀银幕 新浪财经从《哪吒2》到《八仙》，国产动画找到了万能公式 thepaper.cn浙江宣传 | 八仙？八仙！ 浙江新闻《八仙！》导演牟正洋：凡人亦能立仙名 新华网",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "国产动画电影《八仙！》将全球上映。",
-          "analysis": "《八仙！》的全球上映是国产动画走向国际市场的又一尝试。这体现了中国文化产业的发展和对国际市场的开拓。对于国内文化产业而言，这是提升国际影响力的重要途径，同时也有助于推动国产动画的创新发展。",
+          "summary": "新能源车在跨境自驾过程中遭遇远程锁车，持续30小时。",
+          "analysis": "该事件揭示了新能源车在技术和服务方面的不足，以及跨境自驾可能面临的风险。这可能会促使相关企业加强技术研发和服务保障，同时也提醒消费者在选择新能源车时应考虑其实际使用场景。对新能源产业的发展和消费者权益保护有重要影响。后续可能引发对新能源车技术标准和服务的关注。",
           "keywords": [
-            "八仙！",
-            "国产动画",
-            "文化输出",
-            "国际市场",
-            "文化产业"
+            "新能源车",
+            "远程锁车",
+            "跨境自驾",
+            "技术问题",
+            "消费者权益"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "tech",
+          "importance": 65,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5LcHJXNzBhQ0duQ2ZoU1lPY2NaeDRfREE4eHFCaWJNelp2Vl83LVQzMXVtQ3FiVkt4SjlMdmNWZ3dlYVc3NV9PZ1NPR2FjQktzVFFsbGNMTVNsbmhzWTJla1hBUk5uRmktWm5paDN5T0U?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%96%B0%E8%83%BD%E6%BA%90%E8%BD%A6%E8%B7%A8%E5%A2%83%E8%87%AA%E9%A9%BE%E9%81%AD%E8%BF%9C%E7%A8%8B%E9%94%81%E8%BD%A630%E5%B0%8F%E6%97%B6"
             }
           ],
           "rank": 19
@@ -1390,17 +1479,17 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "微博热搜话题，探讨迷信与科学。",
-          "analysis": "这一热搜话题反映了社会对迷信和科学的关注。它体现了公众对科学精神和理性思考的重视，同时也提醒相关部门加强科普教育，提高公众科学素养。",
+          "summary": "网络热议左眼跳财右眼跳是否科学。",
+          "analysis": "该事件反映了社会对于迷信和科学的认知差异。虽然看似无足轻重，但背后体现了公众对于科学精神和理性思考的重视。后续可能引发对迷信现象的讨论，以及科学普及和理性教育的推广。",
           "keywords": [
             "迷信",
             "科学",
-            "科普教育",
             "理性思考",
-            "社会现象"
+            "社会认知",
+            "科学普及"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 50,
           "sources": [
             {
               "name": "微博热搜",
