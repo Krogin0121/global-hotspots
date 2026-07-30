@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-30T13:35:21.990088+00:00",
+  "generatedAt": "2026-07-30T19:17:14.255636+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 12,
       "ok": true
     },
     {
@@ -90,74 +90,43 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出紧张与动荡的态势。俄罗斯与乌克兰的冲突持续升级，双方在军事行动中造成平民伤亡，引发国际关注。美国对伊朗的回应表明地区安全形势依然严峻。同时，欧洲经济呈现复苏迹象，但希腊野火和克里特岛火灾等自然灾害给当地带来严重影响。此外，全球人工智能发展带来的新风险不容忽视，而尼加拉瓜领导人提议延长总统任期等事件也值得关注。总体而言，国际局势复杂多变，各方需保持冷静与克制，共同维护世界和平与稳定。",
+      "digest": "今日国际局势呈现多领域紧张态势。中东地区，沙特阿拉伯组建新联盟应对红海袭击，美国对伊朗实施报复，俄罗斯与乌克兰冲突持续，导弹误入波兰引发紧张。欧洲方面，德国热浪导致死亡人数激增，欧元区经济二季度强劲增长，但多瑙河低水位影响核电站运行。全球范围内，人工智能发展引发关注，欧盟计划建立AI工厂，尼加拉瓜总统任期提议引发争议。此外，肯尼亚大象死亡事件、澳大利亚起诉Telegram、非洲地图标注错误等事件亦值得关注。整体而言，国际局势复杂多变，各方需保持克制，共同维护世界和平与稳定。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "俄罗斯对乌克兰的袭击造成至少8名平民死亡和多人受伤",
-          "titleOrig": "Russian strikes across Ukraine kill at least 8 civilians and wound dozens",
-          "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "沙特阿拉伯组建新联盟以阻止红海袭击",
+          "titleOrig": "Saudi Arabia Aims to Deter Red Sea Attacks With New Coalition",
+          "url": "https://www.nytimes.com/2026/07/30/world/middleeast/saudi-arabia-red-sea-houthis.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-30T09:53:10+00:00",
-          "desc": "The blitz expanded Russia's almost daily bombardment of Ukrainian cities as Moscow apparently looked to exploit Kyiv's critical shortage of Western-supplied anti-ballistic missile defenses.",
+          "publishedAt": "2026-07-30T18:53:15+00:00",
+          "desc": "Facing attacks by Yemen’s Houthi militia, Saudi Arabia has invited dozens of countries to assist it in protecting shipping in the Red Sea, diplomats say.",
           "hotLabel": "",
-          "summary": "俄罗斯对乌克兰的袭击加剧了莫斯科对基辅的攻击，同时乌克兰面临西方反导弹防御系统的短缺。",
-          "analysis": "这一事件加剧了乌克兰局势的紧张，对欧洲安全格局产生重大影响。后续可能引发国际社会的强烈反应和外交努力。",
+          "summary": "面对也门胡塞武装的袭击，沙特阿拉伯邀请多国协助保护红海航运。",
+          "analysis": "沙特阿拉伯的这一举措表明了其在也门冲突中的困境，以及保护其关键海上通道的必要性。组建新联盟可能是为了增强沙特在红海地区的军事存在，并寻求国际支持来应对胡塞武装的威胁。这一事件可能对中东地区的安全格局产生重大影响，并可能加剧该地区的紧张局势。",
           "keywords": [
-            "俄罗斯",
-            "乌克兰",
-            "军事冲突",
-            "国际安全"
+            "沙特阿拉伯",
+            "红海",
+            "胡塞武装",
+            "航运安全",
+            "中东局势"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/middleeast/saudi-arabia-red-sea-houthis.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "波兰称俄罗斯弹道导弹违反领空",
-          "titleOrig": "Poland says Russian ballistic missile violated airspace",
-          "url": "https://www.dw.com/en/poland-says-russian-ballistic-missile-violated-airspace/a-78172288?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T11:25:00+00:00",
-          "desc": "Polish authorities have said that a Russian ballistic missile crashed within its borders during Moscow's overnight attacks on Ukraine. No injuries were reported as Kyiv warned air defense in the region needs boosting.",
-          "hotLabel": "",
-          "summary": "波兰称俄罗斯导弹在乌克兰袭击中误入其境内。",
-          "analysis": "这一事件可能加剧俄罗斯与北约国家之间的紧张关系，对乌克兰冲突的局势产生新的影响。波兰的反应可能引发国际社会的关注，并可能促使北约加强在该地区的空中防御。",
-          "keywords": [
-            "波兰",
-            "俄罗斯",
-            "导弹",
-            "领空",
-            "乌克兰冲突"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/poland-says-russian-ballistic-missile-violated-airspace/a-78172288?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "美国对伊朗发动重击，回应针对美军袭击",
+          "title": "美国对伊朗实施重击报复袭击美军行动",
           "titleOrig": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
           "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -169,32 +138,92 @@
           "publishedAt": "2026-07-30T10:49:14+00:00",
           "desc": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
           "hotLabel": "",
-          "summary": "美国对伊朗发动导弹袭击，回应此前针对美军的不成功袭击。",
-          "analysis": "此次袭击标志着美伊关系的进一步紧张，背景是双方在短暂停火后再次重启导弹攻击。这表明双方在地区安全上的对立加剧，可能引发更大规模的冲突。对国际格局而言，这可能加剧中东地区的紧张局势，影响全球能源供应和地缘政治平衡。后续走向可能包括更多的军事行动和外交谈判。",
+          "summary": "美国对伊朗实施重击报复袭击美军行动，双方导弹攻击重启。",
+          "analysis": "美伊关系紧张，双方在经历一段相对平静期后再次爆发冲突。此次袭击可能加剧美伊紧张关系，并可能引发中东地区进一步的动荡。后续可能关注美伊关系的发展，以及该冲突对中东地区和全球安全的影响。",
           "keywords": [
             "美国",
             "伊朗",
-            "导弹袭击",
+            "军事冲突",
             "中东",
-            "地缘政治"
+            "国际安全"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "俄罗斯空袭乌克兰致10人死亡，导弹落入波兰",
+          "titleOrig": "Russian strikes across Ukraine kill 10 and a missile falls in Poland",
+          "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T09:53:10+00:00",
+          "desc": "A Russian missile and drone barrage across Ukraine killed at least 10 civilians, including children, and NATO scrambled jets after one of the missiles crossed the border into Poland.",
+          "hotLabel": "",
+          "summary": "俄罗斯空袭乌克兰，造成平民伤亡，导弹误入波兰。",
+          "analysis": "俄罗斯对乌克兰的空袭加剧了地区紧张局势，并可能引发北约的军事反应。导弹误入波兰表明了冲突的不可预测性和潜在的外溢效应。未来，乌克兰冲突可能进一步升级，对欧洲安全格局产生深远影响。",
+          "keywords": [
+            "俄罗斯",
+            "乌克兰",
+            "空袭",
+            "平民伤亡",
+            "北约"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/30/g-s1-136276/russia-ukraine-war"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "伊朗可能认为有限战争比和平更适合其战略",
+          "titleOrig": "Why limited war with the US may suit Iran better than peace",
+          "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T17:26:01+00:00",
+          "desc": "Iran may believe it can control its conflict carefully enough to keep pressure on the US while avoiding an all-out war.",
+          "hotLabel": "",
+          "summary": "伊朗可能认为有限战争可以控制冲突，同时避免全面战争。",
+          "analysis": "伊朗与美国之间的紧张关系可能促使伊朗寻求有限的冲突来施加压力，而不是全面战争。这可能是伊朗对当前国际形势和自身军事能力的评估。如果伊朗能够成功控制冲突，这将对其在地区和全球政治中的地位产生重要影响。然而，这种策略的风险在于可能加剧地区不稳定，并导致美国采取更加强硬的立场。后续走向可能包括伊朗与美国的进一步互动，以及该地区其他国家的反应。",
+          "keywords": [
+            "伊朗",
+            "美国",
+            "有限战争",
+            "政治策略",
+            "地区稳定"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/video/world/americas/100000011014208/cubas-bet-on-solar.html"
+              "url": "https://www.bbc.co.uk/news/articles/c78gnyq3wvdo?at_medium=RSS&at_campaign=rss"
             },
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-s-heat-death-toll-nears-10-000/a-78175743?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/are-iran-and-ukraine-wars-getting-tangled-in-caspian-sea/a-78178784?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 3
+          "rank": 4
         },
         {
           "title": "俄罗斯导弹和无人机袭击乌克兰，造成至少8人死亡",
@@ -206,17 +235,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-30T10:37:17+00:00",
-          "desc": "President Volodymyr Zelensky of Ukraine said that a family of five had been killed at home in the latest in a series of large-scale aerial assaults by Moscow.",
+          "publishedAt": "2026-07-30T14:46:50+00:00",
+          "desc": "President Volodymyr Zelensky of Ukraine said five members of a family had been killed in the latest large-scale aerial assault by Moscow.",
           "hotLabel": "",
           "summary": "俄罗斯对乌克兰进行大规模空袭，造成平民伤亡。",
-          "analysis": "事件背景：乌克兰与俄罗斯之间的紧张关系持续升级，俄罗斯采取军事行动可能旨在对乌克兰政府施加压力。关键影响：此次袭击加剧了乌克兰局势的不稳定性，可能引发国际社会的谴责和干预。后续走向：乌克兰局势可能进一步恶化，国际社会可能加大对俄罗斯的制裁力度。",
+          "analysis": "背景：乌克兰冲突持续升级，俄罗斯对乌克兰的军事行动表明其对乌克兰主权的不承认。关键影响：加剧地区紧张局势，对国际和平与安全构成威胁。后续走向：可能引发更大规模冲突，国际社会可能加大制裁力度。",
           "keywords": [
             "俄罗斯",
             "乌克兰",
-            "空袭",
-            "平民伤亡",
-            "国际关系"
+            "军事冲突",
+            "国际关系",
+            "制裁"
           ],
           "category": "international",
           "importance": 85,
@@ -226,41 +255,42 @@
               "url": "https://www.nytimes.com/2026/07/30/world/europe/russia-ukraine-war-missiles-drones-attacks.html"
             }
           ],
-          "rank": 4
+          "rank": 5
         },
         {
-          "title": "加拿大法庭因用户名错误将男子误判入狱18个月",
-          "titleOrig": "Mistaken Username Sent Man to Prison for 18 Months, Court Finds",
-          "url": "https://www.nytimes.com/2026/07/30/world/canada/wrongful-conviction-kik-username-underscore.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "墨西哥旅游业背后的奴隶贸易黑暗面",
+          "titleOrig": "Human trafficking in Mexico: the dark side of tourism",
+          "url": "https://www.dw.com/en/human-trafficking-in-mexico-the-dark-side-of-tourism/a-78178890?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-07-30T09:03:25+00:00",
-          "desc": "An appeals court in Canada acquitted Brandon Klayme of child pornography-related charges. His Kik username had one less underscore than another account that was involved.",
+          "publishedAt": "2026-07-30T15:00:00+00:00",
+          "desc": "By May, a record-breaking 20 million tourists had visited Mexico so far in 2026. But with increased tourism comes a heightened risk of human trafficking and sexual exploitation. Women and children are most vulnerable.",
           "hotLabel": "",
-          "summary": "加拿大上诉法庭宣判布兰登·克莱梅因儿童色情相关指控无罪。",
-          "analysis": "此案揭示了技术错误可能导致严重后果，对司法公正提出挑战。它强调了在数字时代身份验证的重要性，并对国际法律合作提出了新的要求。后续可能引发对跨国司法合作和数字身份认证系统的审查。",
+          "summary": "2026年墨西哥游客数量创新高，但旅游业增长带来人口贩卖风险。",
+          "analysis": "墨西哥旅游业蓬勃发展，但随之而来的是人口贩卖和性剥削的风险增加，尤其是妇女和儿童。这反映了旅游业发展与当地社会问题的冲突，以及国际社会对旅游目的地人权状况的关注。事件可能加剧对墨西哥旅游业的负面影响，并促使国际社会加强对旅游业的监管。",
           "keywords": [
-            "加拿大",
-            "司法错误",
-            "数字身份",
-            "国际法律合作"
+            "墨西哥",
+            "旅游业",
+            "人口贩卖",
+            "性剥削",
+            "国际监管"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/canada/wrongful-conviction-kik-username-underscore.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/human-trafficking-in-mexico-the-dark-side-of-tourism/a-78178890?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 5
+          "rank": 6
         },
         {
-          "title": "中国人工智能发展带来新风险",
+          "title": "中国AI崛起引发北京新困境",
           "titleOrig": "As China’s A.I. Gets Stronger, It Poses New Risks to Beijing",
           "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html",
           "source": "NYT World",
@@ -272,39 +302,123 @@
           "publishedAt": "2026-07-30T09:02:20+00:00",
           "desc": "China’s A.I. rise is creating a new dilemma for Beijing. The open models that win influence abroad may pose risks to the country’s security and geopolitical strategy.",
           "hotLabel": "",
-          "summary": "中国人工智能的快速发展引发新的安全与地缘政治挑战。",
-          "analysis": "中国人工智能的快速发展不仅带来了技术优势，也引发了安全担忧和地缘政治风险。这要求中国在发展人工智能的同时，加强相关法律法规的制定和执行，确保技术发展不会损害国家安全和战略利益。对国内民生和经济意味着需要平衡技术进步与风险控制，对治理意味着需要加强科技伦理和国家安全。",
+          "summary": "中国AI技术发展带来安全风险和地缘政治挑战。",
+          "analysis": "中国AI技术的快速发展，一方面提升了国家科技实力，另一方面也带来了安全风险和地缘政治挑战。北京面临的困境在于如何平衡AI技术的国际推广与国内安全。开放模型可能被用于间谍活动或网络攻击，对国家安全和地缘战略构成威胁。未来，中国可能需要在技术开放与安全保护之间寻找平衡点。",
           "keywords": [
-            "人工智能",
-            "风险",
-            "国家安全",
+            "中国AI",
+            "安全风险",
             "地缘政治",
-            "科技伦理"
+            "技术开放",
+            "平衡"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 85,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
             }
           ],
-          "rank": 2
+          "rank": 7
         },
         {
-          "title": "欧元区GDP增长0.4%，为2025年初以来最高",
+          "title": "德国热浪死亡人数接近万人",
+          "titleOrig": "Germany's heat death toll nears 10,000",
+          "url": "https://www.dw.com/en/germany-s-heat-death-toll-nears-10-000/a-78175743?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T12:51:00+00:00",
+          "desc": "Germany's heat-related death toll for 2026 has already surpassed every full-year total since 2016 — and is expected to climb as another spell of extreme temperatures takes hold.",
+          "hotLabel": "",
+          "summary": "德国热浪导致死亡人数逼近万人。",
+          "analysis": "德国热浪导致的死亡人数上升，揭示了气候变化对人类健康和环境的严重威胁。这一事件强调了应对气候变化的重要性，以及极端天气事件对经济和社会的潜在影响。未来，全球需要加强气候适应和减缓措施。",
+          "keywords": [
+            "德国",
+            "热浪",
+            "死亡人数",
+            "气候变化",
+            "极端天气"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-s-heat-death-toll-nears-10-000/a-78175743?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "克里特岛野火威胁旅游胜地，数千人被迫疏散",
+          "titleOrig": "Thousands evacuated in Crete as wildfires threaten tourist resorts",
+          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T16:04:53+00:00",
+          "desc": "Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.",
+          "hotLabel": "",
+          "summary": "克里特岛野火蔓延，强风助燃，数千名游客和居民被迫疏散。",
+          "analysis": "克里特岛的野火事件揭示了全球气候变化对地中海地区的影响，以及极端天气事件对旅游业和社区安全构成的威胁。火灾的蔓延可能导致经济损失和人员伤亡，同时也可能影响希腊的旅游业。未来，类似的极端天气事件可能会更加频繁，对全球旅游业和地区安全构成挑战。",
+          "keywords": [
+            "克里特岛",
+            "野火",
+            "气候变化",
+            "旅游业",
+            "安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "埃及港口袭击暴露苏伊士运河脆弱性",
+          "titleOrig": "Attack on Egyptian Port Shows Suez Canal’s Vulnerability",
+          "url": "https://www.nytimes.com/2026/07/30/world/middleeast/egyptian-port-attack-suez-canal-vulnerability.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T15:21:47+00:00",
+          "desc": "The port where the Wednesday strike occurred is near the Suez Canal, through which a significant amount of the world’s shipping moves.",
+          "hotLabel": "",
+          "summary": "埃及港口遭受袭击，凸显苏伊士运河的安全风险。",
+          "analysis": "背景：苏伊士运河是全球重要航运通道，此次袭击可能影响全球贸易。关键影响：可能引发对全球供应链的担忧，影响国际能源价格。后续走向：可能加剧对地区安全的关注，加强运河的安全措施。",
+          "keywords": [
+            "苏伊士运河",
+            "埃及",
+            "港口袭击",
+            "全球贸易",
+            "安全风险"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/middleeast/egyptian-port-attack-suez-canal-vulnerability.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "欧元区经济二季度增长0.4%，为2025年初以来最强",
           "titleOrig": "Eurozone sees GDP growth of 0.4%, most since early 2025",
           "url": "https://www.dw.com/en/eurozone-sees-gdp-growth-of-0-4-most-since-early-2025/a-78177668?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
@@ -316,14 +430,14 @@
           "publishedAt": "2026-07-30T13:12:00+00:00",
           "desc": "Eurozone economies expanded by 0.4% in the second quarter of 2026, exceeding expectations and marking the strongest quarterly growth since early 2025.",
           "hotLabel": "",
-          "summary": "欧元区在2026年第二季度实现0.4%的GDP增长，超出预期。",
-          "analysis": "欧元区经济复苏强劲，显示出区域经济一体化的优势。这一增长可能受到全球经济环境改善的推动，对欧元区国家及全球经济有积极影响。未来，欧元区的经济增长可能继续受到全球经济形势和内部政策的影响。",
+          "summary": "欧元区经济二季度增长0.4%，超出预期，为2025年初以来最强季度增长。",
+          "analysis": "欧元区经济复苏强劲，超出市场预期，显示出欧元区经济的韧性和增长潜力。这可能对全球经济产生积极影响，并可能改变欧元区在国际经济中的地位。后续可能继续观察欧元区经济能否持续增长，以及增长是否可持续。",
           "keywords": [
             "欧元区",
-            "GDP增长",
+            "经济增长",
             "经济复苏",
-            "欧元一体化",
-            "全球经济"
+            "国际经济",
+            "欧元地位"
           ],
           "category": "economy",
           "importance": 80,
@@ -333,232 +447,74 @@
               "url": "https://www.dw.com/en/eurozone-sees-gdp-growth-of-0-4-most-since-early-2025/a-78177668?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 7
+          "rank": 11
         },
         {
-          "title": "希腊野火造成3名消防员死亡，法国和西班牙仍在灭火",
-          "titleOrig": "Wildfires in Greece Kill 3 Firefighters as Blazes Still Burn in France and Spain",
-          "url": "https://www.nytimes.com/2026/07/30/world/europe/wildfires-europe-greece.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T11:57:57+00:00",
-          "desc": "Greece also worked to contain blazes on Lesbos and in the Peloponnese, where another firefighter died, in the midst of a brutal wildfire season for Europe.",
-          "hotLabel": "",
-          "summary": "欧洲野火季节，希腊和法国、西班牙发生严重火灾。",
-          "analysis": "事件背景：全球气候变化导致极端天气事件增多，野火频发。关键影响：火灾对欧洲社会和环境造成严重影响，救援和预防措施受到考验。后续走向：欧洲可能加强应对气候变化和野火的措施。",
-          "keywords": [
-            "野火",
-            "希腊",
-            "消防员",
-            "法国",
-            "西班牙"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/europe/wildfires-europe-greece.html"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "库马纳伊小宝宝谋杀案审判推迟至12月",
-          "titleOrig": "Kumanjayi Little Baby murder trial delayed until December – as it happened",
-          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T08:08:59+00:00",
-          "desc": "This blog is now closedGet our breaking news email, free app or daily news podcastMinister says meeting Closing the Gap target a major step, but more work needed on othersMalarndirri McCarthy, the minister for Indigenous Australians, said early childhood education enrolment for First Nations childre",
-          "hotLabel": "",
-          "summary": "澳大利亚原住民婴儿谋杀案审判因故推迟至12月。",
-          "analysis": "此案反映了澳大利亚原住民面临的严峻社会问题，包括犯罪和司法不公。审判的推迟可能意味着对案件调查的深入和对原住民权益的关注。",
-          "keywords": [
-            "澳大利亚",
-            "原住民",
-            "司法不公",
-            "社会问题"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "德国扩大对阿富汗的遣返",
-          "titleOrig": "Germany widens deportations to Afghanistan",
-          "url": "https://www.dw.com/en/germany-widens-deportations-to-afghanistan/a-78173466?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T12:28:00+00:00",
-          "desc": "For the first time, Germany has deported a man with no criminal record to Kabul. Faridoon Tofan, who is currently in deportation detention, fears the same fate.",
-          "hotLabel": "",
-          "summary": "德国首次遣返无犯罪记录者至喀布尔。",
-          "analysis": "德国的这一行动可能反映了其对难民政策的调整，以及对阿富汗安全形势的评估。此举可能影响德国与阿富汗的关系，并对欧洲难民问题产生连锁反应。",
-          "keywords": [
-            "德国",
-            "遣返",
-            "阿富汗",
-            "难民政策",
-            "欧洲安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-widens-deportations-to-afghanistan/a-78173466?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "克里特岛野火肆虐，数千人被迫撤离",
-          "titleOrig": "Thousands evacuated in Crete as Europe battles wildfires",
-          "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss",
+          "title": "多瑙河创纪录低水位迫使匈牙利唯一核电站关闭",
+          "titleOrig": "Danube's record low levels force shutdown of Hungary's only nuclear plant",
+          "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-30T12:46:16+00:00",
-          "desc": "Strong winds have fanned the flames in the Rethymno region as wildfires continue to ravage the Greek island.",
+          "publishedAt": "2026-07-30T17:55:24+00:00",
+          "desc": "Romania, Bulgaria and Serbia are also grappling with the effects of a series of prolonged heatwaves and low rainfall.",
           "hotLabel": "",
-          "summary": "克里特岛发生严重野火，数千居民被迫撤离。",
-          "analysis": "克里特岛的野火是欧洲近期极端天气事件的又一例证，反映了全球气候变化对欧洲的影响。此次火灾对当地居民生活造成严重影响，同时也对欧洲的旅游业和生态环境构成威胁。后续可能需要大规模的救援和恢复工作。",
+          "summary": "多瑙河低水位导致匈牙利唯一核电站关闭，罗马尼亚、保加利亚和塞尔维亚也面临热浪和低雨量的影响。",
+          "analysis": "多瑙河的低水位是由于连续的热浪和低降雨量导致的，这反映了全球气候变化对水资源的影响。匈牙利核电站的关闭不仅影响了该国的能源供应，还可能对整个欧洲的能源安全构成威胁。这一事件凸显了气候变化对基础设施和能源安全的重要性，以及各国需要采取紧急措施应对此类极端天气事件。",
           "keywords": [
-            "克里特岛",
-            "野火",
+            "多瑙河",
             "气候变化",
-            "欧洲",
-            "救援"
+            "能源安全",
+            "核电站",
+            "欧洲"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c9w01781981o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "日本地震死亡人数升至34人",
-          "titleOrig": "Japan Earthquake Death Toll Rises to 34",
-          "url": "https://www.nytimes.com/2026/07/30/world/asia/japan-earthquake-kumamoto-death-toll.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T08:41:57+00:00",
-          "desc": "Rescue crews were working to find people who might still be trapped in a collapsed shopping mall, as the region faced sweltering heat.",
-          "hotLabel": "",
-          "summary": "日本地震造成多人死亡，救援工作正在进行。",
-          "analysis": "事件背景：地震是自然灾害，通常难以预测和预防。关键影响：地震对日本社会和经济造成严重影响，救援和重建工作将耗费大量资源。后续走向：日本政府将面临巨大的救援和重建压力。",
-          "keywords": [
-            "日本",
-            "地震",
-            "死亡",
-            "救援",
-            "重建"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/japan-earthquake-kumamoto-death-toll.html"
+              "url": "https://www.bbc.co.uk/news/articles/cn0nqv05g0do?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 12
         },
         {
-          "title": "同一夜晚观看两次夏季流星雨的高潮",
-          "titleOrig": "How to Watch Two Summer Meteor Showers Peak On the Same Night",
-          "url": "https://www.nytimes.com/2026/07/30/science/meteors-capricornids-aquarids.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "欧盟计划建立自己的AI巨型工厂",
+          "titleOrig": "EU aims to build AI gigafactories of its own",
+          "url": "https://www.dw.com/en/eu-aims-to-build-ai-gigafactories-of-its-own/a-78179533?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-07-30T09:00:36+00:00",
-          "desc": "The end of July brings the Alpha Capricornids and the Southern Delta Aquarids, both of which will be most active on Thursday night into Friday morning.",
+          "publishedAt": "2026-07-30T15:15:00+00:00",
+          "desc": "The EU has unveiled a plan to raise state and private funds to hyperscale AI capabilities and gain independence from non-European governments. The plan calls for the construction of seven new sites across the bloc.",
           "hotLabel": "",
-          "summary": "7月底，Alpha Capricornids和Southern Delta Aquarids流星雨将在周四晚上至周五早上达到最活跃。",
-          "analysis": "这一天文现象是自然界的奇迹，对公众具有科普和教育意义。它反映了宇宙的神秘和人类对未知的好奇心。后续可能吸引更多天文爱好者关注流星雨观测活动。",
+          "summary": "欧盟计划筹集资金建设AI巨型工厂，以减少对非欧洲政府的依赖。",
+          "analysis": "背景：AI技术的发展对全球经济和政治格局具有重要影响。关键影响：可能增强欧盟在AI领域的竞争力，减少对外部技术的依赖。后续走向：欧盟的AI战略可能推动全球AI技术的竞争与合作。",
           "keywords": [
-            "流星雨",
-            "天文现象",
-            "科普教育",
-            "宇宙探索"
+            "欧盟",
+            "AI技术",
+            "巨型工厂",
+            "竞争力",
+            "技术独立"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 75,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/science/meteors-capricornids-aquarids.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/eu-aims-to-build-ai-gigafactories-of-its-own/a-78179533?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 13
         },
         {
-          "title": "数字习惯如何耗尽注意力和精力——以及如何对抗它们",
-          "titleOrig": "Digital habits that rob attention and energy — and how to combat them",
-          "url": "https://www.npr.org/2026/07/30/nx-s1-5891818/digital-habits-that-rob-attention-and-energy-and-how-to-combat-them",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T09:00:00+00:00",
-          "desc": "There's a reason why double- or triple-screening your devices makes you feel tired, says NPR's Manoush Zomorodi. She explains the science of information overload and how to reclaim calm and focus.",
-          "hotLabel": "",
-          "summary": "NPR新闻探讨了信息过载的科学及其对注意力和专注力的影响。",
-          "analysis": "随着数字设备的普及，人们面临信息过载的问题，这影响了他们的注意力和精力。NPR的报道揭示了这一现象的科学原理，并提供了应对策略。这对个人心理健康和社会生产力有重要影响，可能促使企业和政府采取措施减少数字依赖。",
-          "keywords": [
-            "信息过载",
-            "注意力",
-            "专注力",
-            "数字习惯",
-            "心理健康"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/30/nx-s1-5891818/digital-habits-that-rob-attention-and-energy-and-how-to-combat-them"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "尼加拉瓜领导人提议延长总统任期",
+          "title": "尼加拉瓜领导人提议延长总统任期一年",
           "titleOrig": "Nicaraguan leader proposes extending presidential term by another year",
           "url": "https://www.bbc.co.uk/news/articles/c0m78k3k31jo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -570,122 +526,59 @@
           "publishedAt": "2026-07-30T10:34:07+00:00",
           "desc": "It is not the first time the constitution has been amended to allow Daniel Ortega, 80, to stay in power for longer.",
           "hotLabel": "",
-          "summary": "尼加拉瓜领导人提议修宪延长总统任期。",
-          "analysis": "尼加拉瓜领导人丹尼尔·奥尔特加提议延长总统任期，这引发了对其权力巩固和民主进程的担忧。此举可能加剧国内政治对立，并对尼加拉瓜的民主制度构成挑战。后续可能引发国内外的政治反应和外交压力。",
+          "summary": "尼加拉瓜领导人提议延长总统任期一年，引发宪法修正争议。",
+          "analysis": "尼加拉瓜领导人寻求延长任期，反映出该国政治体制的稳定性和领导人的权力欲望。此举可能引发国内政治动荡，并加剧国际社会对尼加拉瓜民主进程的担忧。后续可能关注尼加拉瓜国内政治局势的发展。",
           "keywords": [
             "尼加拉瓜",
+            "政治改革",
             "总统任期",
-            "民主",
-            "政治对立",
-            "外交压力"
+            "民主进程",
+            "国际关系"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/c0m78k3k31jo?at_medium=RSS&at_campaign=rss"
             }
           ],
+          "rank": 14
+        },
+        {
+          "title": "日本地震死亡人数上升至34人",
+          "titleOrig": "Japan Earthquake Death Toll Rises to 34",
+          "url": "https://www.nytimes.com/2026/07/30/world/asia/japan-earthquake-kumamoto-death-toll.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T08:41:57+00:00",
+          "desc": "Rescue crews were working to find people who might still be trapped in a collapsed shopping mall, as the region faced sweltering heat.",
+          "hotLabel": "",
+          "summary": "日本发生地震，死亡人数上升，救援工作在进行中。",
+          "analysis": "日本地震死亡人数上升反映了自然灾害的残酷性。在救援过程中，极端高温增加了救援难度，对被困者构成额外威胁。此事件凸显了自然灾害对人类生活的影响，以及应对此类事件时社会救援体系的脆弱性。未来，日本和周边国家可能需要加强地震预警和救援能力。",
+          "keywords": [
+            "日本地震",
+            "死亡人数",
+            "救援工作",
+            "自然灾害",
+            "高温"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/asia/japan-earthquake-kumamoto-death-toll.html"
+            }
+          ],
           "rank": 15
         },
         {
-          "title": "一本150年前归还的澳大利亚图书馆书籍",
-          "titleOrig": "Book returned to Australian library – 150 years overdue",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/book-returned-to-australian-library-150-years-overdue",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T10:59:19+00:00",
-          "desc": "The book, Antiquities of Athens, was handed back to Kiama library by a man who found it bricked into a wallAn Australian public library has had a book returned an estimated 150 years late after being found behind a wall during a home renovation.The book, Antiquities of Athens, published in 1858, was",
-          "hotLabel": "",
-          "summary": "一本1858年出版的《雅典古迹》在澳大利亚基马图书馆被归还，此前被发现被砌入一堵墙中。",
-          "analysis": "这起事件揭示了历史文献的珍贵性和图书馆在保存文化遗产中的重要作用。它可能促使图书馆加强文献保护和公众教育。",
-          "keywords": [
-            "图书馆",
-            "历史文献",
-            "文化遗产",
-            "公众教育"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/jul/30/book-returned-to-australian-library-150-years-overdue"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "古巴的太阳能赌注",
-          "titleOrig": "Cuba’s Bet on Solar",
-          "url": "https://www.nytimes.com/video/world/americas/100000011014208/cubas-bet-on-solar.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T10:23:54+00:00",
-          "desc": "President Trump keeps predicting Cuba will collapse after he cut off its oil. But it’s still standing. Our reporter Jack Nicas visited to see how Cubans are adopting solar to offset the power shortage.",
-          "hotLabel": "",
-          "summary": "古巴在特朗普切断其石油供应后，转向太阳能以解决电力短缺。",
-          "analysis": "古巴的这一举措展示了其在能源独立和可持续发展方面的努力。尽管面临外部压力，古巴仍在寻求替代能源，这可能对其他资源受限的国家具有借鉴意义。",
-          "keywords": [
-            "古巴",
-            "太阳能",
-            "能源短缺",
-            "特朗普政策",
-            "可持续发展"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/video/world/americas/100000011014208/cubas-bet-on-solar.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "教皇利奥十四世表示希望在未来几年访问美国",
-          "titleOrig": "Pope Leo Says He Hopes to Visit U.S. Within ‘Next Couple of Years’",
-          "url": "https://www.nytimes.com/2026/07/30/world/europe/pope-leo-visit-us-american.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T10:31:38+00:00",
-          "desc": "When asked about a possible trip, Leo XIV said that he had been looking at the calendar for the “next couple of years.”",
-          "hotLabel": "",
-          "summary": "教皇利奥十四世表示希望在未来几年访问美国。",
-          "analysis": "教皇访问美国具有重要的宗教和文化意义，可能加强美梵之间的联系。此次表态反映了美梵关系可能进一步改善，对国际宗教事务产生一定影响。后续可能包括具体的访问安排和宗教交流活动。",
-          "keywords": [
-            "教皇",
-            "美国",
-            "宗教",
-            "美梵关系",
-            "国际事务"
-          ],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/europe/pope-leo-visit-us-american.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "古巴向特朗普表示：我们欢迎投资",
+          "title": "古巴向特朗普表示：我们欢迎商业投资",
           "titleOrig": "Cuba to Trump: We’re Open for Business",
           "url": "https://www.nytimes.com/2026/07/30/world/americas/cuba-deputy-foreign-minister-interview-trump.html",
           "source": "NYT World",
@@ -694,56 +587,152 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-30T11:57:41+00:00",
+          "publishedAt": "2026-07-30T13:28:23+00:00",
           "desc": "A top Cuban official says the island won’t negotiate its politics, but it is willing to talk investment, including from President Trump.",
           "hotLabel": "",
-          "summary": "古巴表示愿意与特朗普政府进行投资谈判。",
-          "analysis": "事件背景：古巴与美国的关系长期紧张，古巴寻求改善经济状况。关键影响：古巴的这一姿态可能为两国关系带来新的转机，但政治分歧仍需解决。后续走向：双方可能就投资和贸易展开谈判，但政治问题可能成为障碍。",
+          "summary": "古巴官员表示，古巴不会就政治问题进行谈判，但愿意讨论包括特朗普在内的投资。",
+          "analysis": "古巴的这一声明反映了该国在政治和经济改革方面的立场。尽管古巴坚持其政治立场，但开放商业投资可能标志着古巴在经济领域的一定程度的开放。这可能会吸引外国投资者，并可能对古巴的经济复苏产生积极影响。然而，古巴的政治改革仍然是国际社会关注的焦点。",
           "keywords": [
             "古巴",
-            "投资",
             "特朗普",
-            "美古关系",
-            "经济合作"
+            "商业投资",
+            "政治改革",
+            "经济复苏"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/30/world/americas/cuba-deputy-foreign-minister-interview-trump.html"
             }
           ],
+          "rank": 16
+        },
+        {
+          "title": "肯尼亚15头大象疑似被氰化物毒杀",
+          "titleOrig": "Kenya: 15 dead elephants likely poisoned by cyanide",
+          "url": "https://www.dw.com/en/kenya-15-dead-elephants-likely-poisoned-by-cyanide/a-78181878?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T17:31:00+00:00",
+          "desc": "The elephants ate contaminated tomatoes from nearby farms. It was unclear if the poisoning was deliberate or accidental.",
+          "hotLabel": "",
+          "summary": "肯尼亚15头大象疑似因食用受污染的番茄而中毒死亡。",
+          "analysis": "背景：野生动物保护问题日益严重，此次事件可能涉及人为破坏或意外中毒。关键影响：对肯尼亚的生态平衡和旅游业造成影响。后续走向：可能引发对野生动物保护的更多关注和行动。",
+          "keywords": [
+            "肯尼亚",
+            "大象",
+            "氰化物中毒",
+            "生态平衡",
+            "野生动物保护"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/kenya-15-dead-elephants-likely-poisoned-by-cyanide/a-78181878?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "澳大利亚起诉Telegram未移除恐怖主义材料",
+          "titleOrig": "Australia takes Telegram to court over alleged failure to remove 'pro-terror' material",
+          "url": "https://www.bbc.co.uk/news/articles/crmrv4pnexmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T03:03:12+00:00",
+          "desc": "Telegram told the BBC it rejects the allegations and will contest them in court.",
+          "hotLabel": "",
+          "summary": "澳大利亚起诉Telegram未移除恐怖主义材料，Telegram否认指控。",
+          "analysis": "澳大利亚政府与Telegram之间的法律纠纷反映了全球对社交媒体监管的争议。Telegram的立场可能对全球社交媒体监管趋势产生影响。后续可能关注该案件的发展，以及社交媒体监管的国际趋势。",
+          "keywords": [
+            "澳大利亚",
+            "Telegram",
+            "社交媒体监管",
+            "恐怖主义",
+            "国际法律"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/crmrv4pnexmo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "93岁领导人缺席53天引发健康猜测",
+          "titleOrig": "Fifty-three days and counting: 93-year-old leader’s record absence fuels health speculation",
+          "url": "https://www.theguardian.com/world/2026/jul/30/record-absence-paul-biya-cameroon-president-health-speculation",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T12:36:02+00:00",
+          "desc": "Cameroon’s Paul Biya has not made a statement or been seen since leaving for ‘brief private stay’ at Swiss hotel on 7 JuneA record 53-day absence by the world’s oldest head of state has renewed speculation in his native Cameroon about whether he is dead or alive, even though discussing his health is",
+          "hotLabel": "",
+          "summary": "喀麦隆总统比亚长时间缺席引发健康猜测。",
+          "analysis": "喀麦隆总统比亚长时间缺席，引发了对其健康状况的广泛猜测。这反映了非洲国家领导人长期执政的现象，以及政治权力交接的不确定性。未来，比亚亚的健康状况将影响喀麦隆的政治稳定和区域政治格局。",
+          "keywords": [
+            "喀麦隆",
+            "比亚亚",
+            "健康猜测",
+            "政治稳定",
+            "权力交接"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/30/record-absence-paul-biya-cameroon-president-health-speculation"
+            }
+          ],
           "rank": 19
         },
         {
-          "title": "这里是最新消息",
-          "titleOrig": "Here’s the latest.",
-          "url": "https://www.nytimes.com/live/2026/07/30/world/iran-war-strikes-trump/heres-the-latest",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "美国政府在非洲会议上的地图错误标注所有国家",
+          "titleOrig": "US government map of Africa mislabels every country at global conference",
+          "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-30T13:08:49+00:00",
-          "desc": "",
+          "publishedAt": "2026-07-30T13:59:32+00:00",
+          "desc": "State department ‘takes full responsibility’ for erroneous, widely shared chart displayed at Aids conference in BrazilA US government map of Africa mislabeled every country during a state department presentation at a ⁠global conference in Brazil ⁠this week, ​causing a stir among attenders who took s",
           "hotLabel": "",
-          "summary": "提供最新国际新闻更新。",
-          "analysis": "事件背景：新闻更新反映当前国际局势的动态。关键影响：新闻内容可能涉及重大国际事件，影响国际关系和全球局势。后续走向：关注后续报道以了解事件发展。",
+          "summary": "美国政府在巴西艾滋病会议上展示的非洲地图错误标注所有国家。",
+          "analysis": "背景：此次事件反映了美国政府在某些领域的专业性和沟通能力问题。关键影响：可能损害美国在国际舞台上的形象，影响其外交关系。后续走向：美国政府可能采取措施纠正错误，并加强地图制作的专业性。",
           "keywords": [
-            "新闻",
-            "国际局势",
-            "更新",
-            "事件",
-            "动态"
+            "美国",
+            "地图错误",
+            "艾滋病会议",
+            "外交关系",
+            "形象"
           ],
           "category": "international",
-          "importance": 50,
+          "importance": 60,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/07/30/world/iran-war-strikes-trump/heres-the-latest"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/30/government-map-mislabels-african-countries"
             }
           ],
           "rank": 20
@@ -752,196 +741,127 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，国内政策与社会动向呈现出多方面的发展脉络。在政治领域，习近平主持党外人士座谈会并发表重要讲话，体现了高层对内外政策的关注和指导。经济方面，面对经济放缓，政策支持谨慎，同时倡导告别“中国冲击”拥抱“中国机遇”，显示出对经济转型的重视。社会层面，上海6岁女孩基因编辑试验后死亡事件引发社会对医疗伦理的讨论，而泸溪河桃酥被曝吃出异物则揭示了食品安全问题。科技领域，工信部成立量子信息标准化技术委员会，辅助驾驶小蓝灯或被禁，显示出对科技创新和标准化的重视。国际方面，中泰空军联合训练、美国航母访问越南等事件，体现了中国在国际舞台上的积极参与和影响力。总体而言，当前国内形势复杂多变，值得关注的走向包括政策调整、经济转型、科技创新以及国际关系的发展。",
+      "digest": "今日国内形势综述显示，我国在科技领域取得重大突破，重量级模型领先全球，但国际局势依然复杂，俄乌冲突持续，伊朗袭击美军基地，我国南部战区在黄岩岛周边组织战备警巡，显示维护国家主权和安全的决心。国内方面，资本市场政策定调从“稳信心”到“提韧性”，释放积极信号。同时，社会事件频发，重庆山体崩塌致重大人员伤亡，上海6岁女孩基因编辑试验后死亡引发社会关注。经济方面，韩国股市连续熔断，美联储维持利率不变，债息上行等效加息。总体来看，我国在应对内外挑战中保持定力，同时注重民生保障和社会稳定。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "习近平主持党外人士座谈会并发表重要讲话",
-          "titleOrig": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话 - 中国共产党新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zVThsUmJfN1RjRGlpSkE2QTFheXEtS3BCZlh1b3V1UHZQUmItYVV0azRZNmhubVVlM1FBYm5iWkhXZ3RxZGxkZDhQYU1maVUwQlBXS1hPM0ZWaFpkc1hjSlNRQkI5VS1aRUE?oc=5",
+          "title": "中国开放重量级模型领先，暴露美国AI盲点",
+          "titleOrig": "China’s open-weight model lead exposes America’s AI blind spot",
+          "url": "https://www.cnbc.com/2026/07/30/china-open-source-trump-ai.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T18:51:42+00:00",
+          "desc": "The future of AI may be dictated not by who builds the smartest model, but who builds the models everyone runs on. Right now, that's China.",
+          "hotLabel": "",
+          "summary": "中国开放重量级AI模型领先，暴露美国AI领域盲点。",
+          "analysis": "此事件显示了中国在AI领域的快速发展，对美国在AI领域的领先地位构成挑战。对国内而言，这表明了科技创新的重要性，对国家战略科技布局提出了更高要求。后续可能加强AI领域的研发投入，提升国家科技竞争力。",
+          "keywords": [
+            "AI模型",
+            "科技创新",
+            "国家战略",
+            "科技竞争力"
+          ],
+          "category": "tech",
+          "importance": 95,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-open-source-trump-ai.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "俄罗斯致命空袭对乌克兰多座城市造成破坏",
+          "titleOrig": "袭击愈演愈烈：俄罗斯致命空袭对乌克兰多座城市造成破坏 - news.un.org",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1Z0RaTmQ5SEhtRE9OQVBiZHFaRU9TQnlXaW56T0FWT25ia0g2dWI5WktUNXl6MF9zRW1sOEM1ZktWazIzWHlFSGhOcFR2UUstOGtuellNOA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-30T08:06:00+00:00",
-          "desc": "中共中央召开党外人士座谈会 习近平主持并发表重要讲话 中国共产党新闻网中共中央召开党外人士座谈会习近平主持并发表重要讲话- 中国日报网 China Daily连平：下半年如何促进内需发展 新浪财经中国经济年中观察之五 chinanews.com.cn习近平：中国经济运行面临一些挑战 要坚定信心攻坚克难 星岛环球网",
+          "publishedAt": "2026-07-30T17:54:05+00:00",
+          "desc": "袭击愈演愈烈：俄罗斯致命空袭对乌克兰多座城市造成破坏 news.un.org乌克兰首都基辅连续传出强烈爆炸声 防空警报已拉响 新浪财经泽连斯基称俄军大规模袭击乌克兰 造成至少8人死亡 中国网俄罗斯实施大规模打击，泽连斯基：一家五口遇难，包括父母和三名儿童 nbd.com.cn一锅端了！乌克兰公开办无人机展会，被俄罗斯导弹炸成平地 凤凰网",
           "hotLabel": "",
-          "summary": "习近平主持党外人士座谈会，强调坚定信心攻坚克难。",
-          "analysis": "此次座谈会体现了中国共产党领导的多党合作和政治协商制度。习近平的讲话旨在凝聚共识，推动经济发展，应对当前经济运行中的挑战。这表明政策意图在于稳定经济预期，促进内需发展，同时也反映了社会对经济形势的担忧。后续可能出台更多政策措施以刺激经济增长。",
+          "summary": "俄罗斯对乌克兰进行致命空袭，多座城市遭受破坏。",
+          "analysis": "此事件是乌克兰危机的最新发展，对国际局势产生重大影响。背景是乌克兰危机持续升级，双方冲突不断。此次空袭可能加剧局势紧张，对乌克兰民众生活造成严重影响。对国内民生影响有限，但对国际治理意味着国际社会需要关注乌克兰危机，推动和平解决。后续走向可能包括国际社会的介入和调解。",
           "keywords": [
-            "党外人士座谈会",
-            "习近平",
-            "经济挑战",
-            "政策意图",
-            "内需发展"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zVThsUmJfN1RjRGlpSkE2QTFheXEtS3BCZlh1b3V1UHZQUmItYVV0azRZNmhubVVlM1FBYm5iWkhXZ3RxZGxkZDhQYU1maVUwQlBXS1hPM0ZWaFpkc1hjSlNRQkI5VS1aRUE?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wckpYa1hhUmJMT0pNUUx1aUdGVlNTclpYWHc2OXFwZ2h6T1NkNGplTkR0ZGtxaGMtV0J4YWVnU1BSdm92SmJkcA?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80LVRkNl96LXltbTVIdnhpZ3k2NEFJQzdVd013RFZJUXlUbllEc0h6eWdfUjItUHNBaUlPUXl4bzg1OTFKRjdLQjI3Ui1pSm5IWmJYb0pFYjEwR0xCNmlxZUFLS2pUTXZqbllwNklZUlg?oc=5"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "中国人工智能发展带来新风险",
-          "titleOrig": "As China’s A.I. Gets Stronger, It Poses New Risks to Beijing",
-          "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T09:02:20+00:00",
-          "desc": "China’s A.I. rise is creating a new dilemma for Beijing. The open models that win influence abroad may pose risks to the country’s security and geopolitical strategy.",
-          "hotLabel": "",
-          "summary": "中国人工智能的快速发展引发新的安全与地缘政治挑战。",
-          "analysis": "中国人工智能的快速发展不仅带来了技术优势，也引发了安全担忧和地缘政治风险。这要求中国在发展人工智能的同时，加强相关法律法规的制定和执行，确保技术发展不会损害国家安全和战略利益。对国内民生和经济意味着需要平衡技术进步与风险控制，对治理意味着需要加强科技伦理和国家安全。",
-          "keywords": [
-            "人工智能",
-            "风险",
-            "国家安全",
-            "地缘政治",
-            "科技伦理"
+            "俄罗斯",
+            "乌克兰",
+            "空袭",
+            "国际局势",
+            "和平解决"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFB1Z0RaTmQ5SEhtRE9OQVBiZHFaRU9TQnlXaW56T0FWT25ia0g2dWI5WktUNXl6MF9zRW1sOEM1ZktWazIzWHlFSGhOcFR2UUstOGtuellNOA?oc=5"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sbWgtSlhGandZTUJpeHgtbExSSmhZUUJmNlRCZWZYXzVaUVdsQzVwMnpLY2lHWm5fR3h6bjJkdy1tUHliREw2U09qWHhFM1pXdUQtRlFjOGxEZ3NnZi0tTg?oc=5"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TU05meGVqSWN0YVdvd2s5SFJBaGFlbFhnWk1LT2k5V0dUa3MwR2dFM3ZnU19HV2xCRWc4WjYxb0lsYmljV2FKLWJqYVlSYVpRbXlvM3hqelREejRLTkJJS3ctUVFHemhQSW5pWXhaNE1rQQ?oc=5"
             }
           ],
           "rank": 2
         },
         {
-          "title": "台湾大规模抗议活动",
-          "titleOrig": "台湾爆发大规模抗议",
-          "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "title": "重庆彭水山体崩塌致51人遇难10人失联",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E8%87%B451%E4%BA%BA%E9%81%87%E9%9A%BE10%E4%BA%BA%E5%A4%B1%E8%81%94%23&t=31&band_rank=17&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#1",
-          "summary": "台湾地区发生大规模抗议活动。",
-          "analysis": "此次抗议活动可能源于台湾地区民众对某些政策或政治立场的反对。背景上，这可能反映了台湾地区政治局势的紧张和民众对政策不满的累积。对国内民生而言，可能加剧两岸关系的紧张，对经济和治理意味着需要更加谨慎处理两岸关系，后续走向可能包括两岸关系的进一步紧张或缓和。",
+          "hotLabel": "",
+          "summary": "重庆彭水山体崩塌，造成重大人员伤亡。",
+          "analysis": "山体崩塌事件是自然灾害的体现，对当地居民生活造成严重影响。事件暴露了自然灾害防范和应急救援体系的重要性，对政府应急管理能力提出了更高要求。",
           "keywords": [
-            "台湾",
-            "抗议",
-            "两岸关系",
-            "政治局势",
-            "政策"
+            "重庆",
+            "山体崩塌",
+            "自然灾害",
+            "应急管理",
+            "人员伤亡"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "society",
+          "importance": 90,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E8%87%B451%E4%BA%BA%E9%81%87%E9%9A%BE10%E4%BA%BA%E5%A4%B1%E8%81%94%23&t=31&band_rank=17&Refer=top"
+            },
+            {
+              "name": "今日头条",
+              "url": "https://www.toutiao.com/trending/7668338615017016882/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%225%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227668338615017016882%22%2C%22hot_board_impr_id%22%3A%22202607310113571BB9D31CD678DB49F4E6%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E9%87%8D%E5%BA%86%E5%BD%AD%E6%B0%B4%E5%B1%B1%E4%BD%93%E5%B4%A9%E5%A1%8C%E8%87%B451%E4%BA%BA%E9%81%87%E9%9A%BE10%E4%BA%BA%E5%A4%B1%E8%81%94%22%7D&rank=&style_id=40132&topic_id=7668338615017016882"
             }
           ],
           "rank": 3
-        },
-        {
-          "title": "韩国股市熔断",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E7%86%94%E6%96%AD",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "韩国股市连续第九次触发熔断机制。",
-          "analysis": "韩国股市的连续熔断反映了全球金融市场的不稳定性和投资者对经济前景的担忧。这可能与中国与韩国的经济关系紧密相关，尤其是考虑到两国在供应链和贸易方面的相互依赖。此外，这也可能反映了全球经济放缓和政策不确定性对市场的影响。对国内民生和经济意味着可能增加投资者对国内市场的信心，对治理意味着需要加强金融市场的监管和风险控制。",
-          "keywords": [
-            "韩国股市",
-            "熔断",
-            "金融市场",
-            "经济不确定性",
-            "投资者信心"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E7%86%94%E6%96%AD"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "美国航母罕见访问越南，释放合作信号",
-          "titleOrig": "U.S. Aircraft Carrier Makes a Rare Port Call in Vietnam",
-          "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T12:56:22+00:00",
-          "desc": "The visit, the longest since the two countries restored relations, is a show of mutual cooperation and a signal from the U.S. to China. But it comes during tensions over tariffs.",
-          "hotLabel": "",
-          "summary": "美国航母访问越南，意在展示合作并对中国发出信号。",
-          "analysis": "此次访问是两国关系正常化以来的最长访问，反映了美国在亚太地区的战略调整，同时也体现了对中国的战略遏制意图。在当前中美贸易摩擦的背景下，此行可能加剧地区紧张局势，对中国的外交政策和国际形象产生影响。后续可能引发更多区域合作与竞争。",
-          "keywords": [
-            "美国航母",
-            "越南",
-            "中美关系",
-            "战略遏制",
-            "地区紧张"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
-            }
-          ],
-          "rank": 5
         },
         {
           "title": "上海6岁女孩基因编辑试验后死亡",
@@ -956,24 +876,199 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "上海一名6岁女孩在基因编辑试验后不幸去世。",
-          "analysis": "基因编辑技术作为前沿科技，其安全性一直是公众关注的焦点。此次事件可能引发对基因编辑技术安全性的重新评估，对国内民生意味着需要更加严格监管生物技术实验，对经济和治理意味着可能对相关领域的研究和应用产生限制，后续走向可能包括对基因编辑技术的更严格监管。",
+          "summary": "上海6岁女孩参与基因编辑试验不幸去世。",
+          "analysis": "此事件凸显了基因编辑技术的伦理争议和风险。基因编辑试验的监管不严可能导致严重后果，对国内生物科技行业和伦理审查提出了警示。后续可能加强基因编辑技术的监管，提高伦理审查标准。",
           "keywords": [
             "基因编辑",
-            "试验",
-            "死亡",
-            "生物技术",
+            "伦理争议",
+            "生物科技",
             "监管"
           ],
           "category": "society",
-          "importance": 80,
+          "importance": 90,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E4%B8%8A%E6%B5%B7%206%20%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E8%AF%95%E9%AA%8C%E5%90%8E%E6%AD%BB%E4%BA%A1"
             }
           ],
+          "rank": 4
+        },
+        {
+          "title": "“极其危险的军事升级”",
+          "titleOrig": "“极其危险的军事升级” - myzaker.com",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HR055eUZSbTYwbVlBemx4VzlKanRWU2lpZlc5bzZZbmV2N09sWHpYWDRTa01YaWFyd0JiY1ZReDB6cnR6cTJtZnVNTXZmQTVMRVFiTFVBWElRaHVQci0xVU1vcDM1Unc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T16:35:43+00:00",
+          "desc": "“极其危险的军事升级” myzaker.com美国和沙特打击伊拉克境内伊朗支持的武装组织，伊朗冲突再度升级 voachinese.com美沙袭击伊拉克民兵武装致20死32伤 China Daily美中央司令部：与沙特联合空袭伊拉克境内武装 凤凰网美国沙特联手打击伊朗支持的伊拉克民兵组织，报复其袭击沙特石油设施 thepaper.cn",
+          "hotLabel": "",
+          "summary": "美沙联合打击伊拉克境内伊朗支持的武装组织",
+          "analysis": "此次军事行动可能加剧中东地区紧张局势，对地区稳定和伊朗与沙特之间的关系产生重大影响。同时，这也可能引发伊朗的报复行动，进一步升级地区冲突。后续可能看到中东地区军事冲突的进一步升级。",
+          "keywords": [
+            "美沙联合行动",
+            "伊拉克",
+            "伊朗",
+            "军事冲突",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9HR055eUZSbTYwbVlBemx4VzlKanRWU2lpZlc5bzZZbmV2N09sWHpYWDRTa01YaWFyd0JiY1ZReDB6cnR6cTJtZnVNTXZmQTVMRVFiTFVBWElRaHVQci0xVU1vcDM1Unc?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "伊朗称袭击美军在科威特的空军基地",
+          "titleOrig": "伊朗称袭击美军在科威特的空军基地 - jrj.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TU05meGVqSWN0YVdvd2s5SFJBaGFlbFhnWk1LT2k5V0dUa3MwR2dFM3ZnU19HV2xCRWc4WjYxb0lsYmljV2FKLWJqYVlSYVpRbXlvM3hqelREejRLTkJJS3ctUVFHemhQSW5pWXhaNE1rQQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T13:10:28+00:00",
+          "desc": "伊朗称袭击美军在科威特的空军基地 jrj.com.cn美国对伊朗发动新一波“猛烈打击” voachinese.com美国对伊朗发动新一轮打击 冲突在中东蔓延 新浪财经美军中央司令部：伊朗发射多枚导弹袭击驻中东美军 guancha.cn美军称结束对伊朗实施的新一轮大规模打击 china.zjol.com.cn",
+          "hotLabel": "",
+          "summary": "伊朗称袭击美军在科威特的空军基地",
+          "analysis": "此次袭击可能加剧美伊之间的紧张关系，对中东地区的安全形势产生严重影响。后续可能看到美伊之间的对抗升级，甚至可能引发更大规模的冲突。",
+          "keywords": [
+            "伊朗",
+            "美军",
+            "科威特",
+            "空军基地",
+            "美伊冲突"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE9TU05meGVqSWN0YVdvd2s5SFJBaGFlbFhnWk1LT2k5V0dUa3MwR2dFM3ZnU19HV2xCRWc4WjYxb0lsYmljV2FKLWJqYVlSYVpRbXlvM3hqelREejRLTkJJS3ctUVFHemhQSW5pWXhaNE1rQQ?oc=5"
+            }
+          ],
           "rank": 6
+        },
+        {
+          "title": "商务部反驳“中国冲击2.0”论调：不符合事实",
+          "titleOrig": "有关国家炒作“中国冲击2.0”论调 商务部答每经问：不符合事实 - 同花顺",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00U1YwTUNBX1Z1Wm9NVGlwcEljX0VNTnlnYkNNclQ5eFUwU2NwTGFUdE5ENUx1OHZ2c1pncm81cUxMUHBpWkJ4bHA5VFFDTXJ6cUtEOWc2alMxakczRjZTQg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T14:38:27+00:00",
+          "desc": "有关国家炒作“中国冲击2.0”论调 商务部答每经问：不符合事实 同花顺北京反驳“中国产能过剩” 西方会买账吗？ DW.com商务部发万字长文表明中方立场 其中有何深意？一文读懂 新浪财经小螺号 | 产能过剩？中国新能源车走向全球靠的是创新 新京报把“产能过剩论”的根刨了 新浪财经",
+          "hotLabel": "",
+          "summary": "商务部回应“中国冲击2.0”论调，强调不符合事实。",
+          "analysis": "此事件反映了国际舆论对中国的误解和偏见。商务部反驳论调，旨在澄清事实，维护国家形象。背景是当前国际经济形势复杂，一些国家试图通过炒作不实信息来遏制中国发展。此事件对国内民生影响较小，但对经济和治理意味着中国需要加强国际传播能力，提高国际话语权。后续走向可能包括更多国际交流和对话，以消除误解。",
+          "keywords": [
+            "商务部",
+            "中国冲击2.0",
+            "国际舆论",
+            "国家形象",
+            "国际传播"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE00U1YwTUNBX1Z1Wm9NVGlwcEljX0VNTnlnYkNNclQ5eFUwU2NwTGFUdE5ENUx1OHZ2c1pncm81cUxMUHBpWkJ4bHA5VFFDTXJ6cUtEOWc2alMxakczRjZTQg?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tdnIwNHMxVWJ5Y3V5dlRudnNGUmFxak9pdFFjQUJhckRhUFlibW9DbWxiaGRvZnlNVHhnUXN5aDdYdFNBS0M3eFF1ajRCcFg5aHFwSWMxM3dUOE9ndnM1NXk3aTBhRjcx?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "美联储维持利率不变，债息上行等效加息",
+          "titleOrig": "美联储五连停维持3.5%-3.75%利率，三张反对票，中银称债息上行等效加息-观察君 - jrj.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKckdNTTZwdUhUZDd6Q1pmRUp3dFZzZ3BFM0gxSksyRjc0cnBuYWRnX296Zi1OX25LS2lyWTNraVRBUW4yOXJHd3ZSanZhZGN2THZHYlM2ZUhkUGlwQ0pacnEwV3h2RkZSZWQyRVRJU1J2ZC11?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T12:58:52+00:00",
+          "desc": "美联储五连停维持3.5%-3.75%利率，三张反对票，中银称债息上行等效加息-观察君 jrj.com.cn美联储发布联邦公开市场委员会声明：维持利率不变 新浪财经沃什任内第二份美联储声明有哪些变化？ 新浪财经美联储年内连续第5次维持利率不变内部分歧明显- 中国日报网 China Daily业内：下半年美联储降息概率几乎为零 但加息同样面临门槛 第一财经",
+          "hotLabel": "",
+          "summary": "美联储连续第五次维持利率不变，债息上行。",
+          "analysis": "美联储维持利率不变表明其对美国经济前景的谨慎态度，债息上行则意味着实际加息，对全球金融市场产生影响。对中国而言，美元加息可能加剧资本外流压力，人民币汇率面临压力，同时对中国出口和金融市场稳定性构成挑战。后续美联储政策调整将影响全球资金流动和风险偏好。",
+          "keywords": [
+            "美联储",
+            "利率",
+            "债息",
+            "加息",
+            "汇率"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBKckdNTTZwdUhUZDd6Q1pmRUp3dFZzZ3BFM0gxSksyRjc0cnBuYWRnX296Zi1OX25LS2lyWTNraVRBUW4yOXJHd3ZSanZhZGN2THZHYlM2ZUhkUGlwQ0pacnEwV3h2RkZSZWQyRVRJU1J2ZC11?oc=5"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "解放军南部战区在黄岩岛领海领空及周边区域组织战备警巡",
+          "titleOrig": "解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tdnIwNHMxVWJ5Y3V5dlRudnNGUmFxak9pdFFjQUJhckRhUFlibW9DbWxiaGRvZnlNVHhnUXN5aDdYdFNBS0M3eFF1ajRCcFg5aHFwSWMxM3dUOE9ndnM1NXk3aTBhRjcx?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T15:56:24+00:00",
+          "desc": "解放军南部战区位中国黄岩岛领海领空及周边区域组织战备警巡 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "解放军在黄岩岛附近海域进行战备警巡",
+          "analysis": "此次战备警巡可能旨在展示中国对南海领土主权的坚定立场，同时也是对周边局势的回应。这反映了我国维护国家主权和海洋权益的决心，同时也可能对地区稳定产生一定影响。后续可能继续有类似行动，以维护我国在南海的利益。",
+          "keywords": [
+            "解放军",
+            "黄岩岛",
+            "战备警巡",
+            "领土主权",
+            "南海"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8tdnIwNHMxVWJ5Y3V5dlRudnNGUmFxak9pdFFjQUJhckRhUFlibW9DbWxiaGRvZnlNVHhnUXN5aDdYdFNBS0M3eFF1ajRCcFg5aHFwSWMxM3dUOE9ndnM1NXk3aTBhRjcx?oc=5"
+            }
+          ],
+          "rank": 9
         },
         {
           "title": "韩国股市今年第九次熔断",
@@ -988,16 +1083,15 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "韩国股市年内第九次触发熔断。",
-          "analysis": "韩国股市的频繁熔断揭示了全球金融市场的脆弱性，以及投资者对经济前景的担忧。这可能与全球经济放缓、地缘政治风险以及政策不确定性有关。对国内民生和经济可能意味着需要关注国际金融市场波动对国内市场的影响，对治理意味着需要加强金融监管和风险防范。",
+          "summary": "韩国股市年内第九次熔断。",
+          "analysis": "韩国股市连续熔断反映了全球经济的不稳定性。对国内而言，这可能影响投资者信心，对金融市场稳定构成挑战。后续可能加强金融监管，提高市场抗风险能力。",
           "keywords": [
             "韩国股市",
             "熔断",
             "全球经济",
-            "地缘政治",
             "金融监管"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 80,
           "sources": [
             {
@@ -1005,204 +1099,116 @@
               "url": "https://www.zhihu.com/search?q=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E4%BB%8A%E5%B9%B4%E7%AC%AC%E4%B9%9D%E6%AC%A1%E7%86%94%E6%96%AD"
             }
           ],
-          "rank": 7
+          "rank": 10
         },
         {
-          "title": "工信部成立量子信息标准化技术委员会",
-          "titleOrig": "工信部量子信息标准化技术委员会成立 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wckpYa1hhUmJMT0pNUUx1aUdGVlNTclpYWHc2OXFwZ2h6T1NkNGplTkR0ZGtxaGMtV0J4YWVnU1BSdm92SmJkcA?oc=5",
+          "title": "政治局会议深读｜资本市场定调从“稳信心”到“提韧性”，什么信号？",
+          "titleOrig": "政治局会议深读｜资本市场定调从“稳信心”到“提韧性”，什么信号？ - thepaper.cn",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sbWgtSlhGandZTUJpeHgtbExSSmhZUUJmNlRCZWZYXzVaUVdsQzVwMnpLY2lHWm5fR3h6bjJkdy1tUHliREw2U09qWHhFM1pXdUQtRlFjOGxEZ3NnZi0tTg?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-30T11:39:52+00:00",
-          "desc": "工信部量子信息标准化技术委员会成立 凤凰网工业和信息化部量子信息标准化技术委员会成立 新浪财经工信部量子信息标准化技术委员会成立 秘书处设在中国信通院 观点网工信部成立量子信息标准化技术委员会 秘书处设在中国信通院 观点网",
+          "publishedAt": "2026-07-30T14:02:00+00:00",
+          "desc": "政治局会议深读｜资本市场定调从“稳信心”到“提韧性”，什么信号？ thepaper.cn中国对出台大规模刺激政策意愿不强，尽管增长面临逆风 华尔街日报中文网决定召开二十届五中全会分析研究当前经济形势和经济工作 新浪财经从中央政治局会议看下半年经济工作着力点 中国网新闻中心重磅会议继续将房地产置于防风险的位置 凤凰网财经",
           "hotLabel": "",
-          "summary": "工信部成立量子信息标准化技术委员会，推动量子信息产业发展。",
-          "analysis": "量子信息标准化技术委员会的成立标志着中国在量子信息领域标准化工作的开始，有助于推动量子信息技术的研发和应用。这符合国家战略布局，对提升我国在量子科技领域的国际地位具有重要意义。后续将促进相关产业链的成熟和市场的扩大。",
+          "summary": "政治局会议定调资本市场从“稳信心”到“提韧性”",
+          "analysis": "此次会议定调可能意味着中国政府对资本市场的态度转变，从短期稳定转向长期韧性。这反映了政府对经济形势的判断，以及对资本市场在经济发展中作用的重视。后续可能出台更多政策支持资本市场发展。",
           "keywords": [
-            "工信部",
-            "量子信息",
-            "标准化",
-            "产业发展",
-            "国家战略"
+            "政治局会议",
+            "资本市场",
+            "经济形势",
+            "政策调整",
+            "市场韧性"
           ],
-          "category": "tech",
+          "category": "economy",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9wckpYa1hhUmJMT0pNUUx1aUdGVlNTclpYWHc2OXFwZ2h6T1NkNGplTkR0ZGtxaGMtV0J4YWVnU1BSdm92SmJkcA?oc=5"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "中泰将举行“鹰击-2026”空军联合训练",
-          "titleOrig": "中泰将举行“鹰击-2026”空军联合训练 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ILTJnbVRaTnl6SHZQV2cwZTNpZ1I5VF9URldoc2I1ekV5emVob0FmQ0UxOUJWSDI4UlhvRDRaU1hseHN5RFlWdGVvc19BVE4yX2dnbV9yTmhMUFIzREpfVGxaeEFZeG5H?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T07:19:30+00:00",
-          "desc": "中泰将举行“鹰击-2026”空军联合训练 chinanews.com.cn国防部：中泰将举行“鹰击-2026”空军联合训练 新浪财经中国军队国际形象网宣片《当红》正式发布 京报网2026年6月国防部例行记者会文字实录_ 国防信息 福建省退役军人事务厅2026年7月国防部例行记者会将于今日下午3时举行 新浪财经",
-          "hotLabel": "",
-          "summary": "中泰将举行“鹰击-2026”空军联合训练。",
-          "analysis": "中泰空军联合训练体现了两国军事合作的加强，有助于提升两国在区域安全事务中的合作水平。这也反映了国际关系中的竞争与合作并存的特点，以及中国在国际事务中维护地区和平稳定的决心。",
-          "keywords": [
-            "中泰联合训练",
-            "军事合作",
-            "区域安全",
-            "国际关系",
-            "中国外交"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ILTJnbVRaTnl6SHZQV2cwZTNpZ1I5VF9URldoc2I1ekV5emVob0FmQ0UxOUJWSDI4UlhvRDRaU1hseHN5RFlWdGVvc19BVE4yX2dnbV9yTmhMUFIzREpfVGxaeEFZeG5H?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "中国，经济放缓，政策支持谨慎",
-          "titleOrig": "China, Its Economy Stumbling, Signals Only Cautious Support",
-          "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-07-30T12:32:33+00:00",
-          "desc": "The ruling Politburo called for “more proactive” tax and spending policies but did not endorse broad action to address weak consumer spending.",
-          "hotLabel": "",
-          "summary": "中国政治局会议呼吁更加积极的财政和货币政策，但未支持大规模刺激措施。",
-          "analysis": "中国政治局会议的表态反映了政府对当前经济形势的审慎态度。在经济增长放缓的背景下，政府倾向于采取更为谨慎的政策措施，以避免经济过热或过冷。对国内民生和经济意味着可能面临经济结构调整的挑战，对治理意味着需要平衡经济增长与风险控制。",
-          "keywords": [
-            "中国经济",
-            "政策支持",
-            "谨慎态度",
-            "经济增长",
-            "结构调整"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "告别“中国冲击”拥抱“中国机遇”",
-          "titleOrig": "告别“中国冲击”旧叙事 拥抱“中国机遇”新答案 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcnVVSEpmM1RkSzZOenkwLXlVTFByWDNxaVl4aHE1dkp1SElmZ2NGMTE4cXdTVzZkdl9IRFl4dk80aFluTUhIbk52ME9UV0xnai1EWm5kUFM0S0NoTHVaZzJ3SlQ2QjBRYTU4VVhhcUt1X2dpbV9oWTlvZ2J5WlNBMTVvc3hwNFRw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T00:13:31+00:00",
-          "desc": "告别“中国冲击”旧叙事 拥抱“中国机遇”新答案 新华网北京反驳“中国产能过剩” 西方会买账吗？ DW.com把“产能过剩论”的根刨了 cn.chinadaily.com.cn视频丨商务部发万字长文表明中方立场 其中有何深意？一文读懂 光明网成本降低、技术进步 产业发展背后的“中国机遇2.0” 中青网",
-          "hotLabel": "",
-          "summary": "新华网上文反驳“中国产能过剩”，强调“中国机遇”。",
-          "analysis": "文章反驳了“中国产能过剩”的论调，强调中国经济的潜力和发展机遇。这反映了我国对经济结构调整和转型升级的信心，同时也向国际社会传递了积极信号。后续可能促进国内外对“中国机遇”的认知和合作。",
-          "keywords": [
-            "中国冲击",
-            "产能过剩",
-            "中国机遇",
-            "经济结构调整",
-            "国际合作"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcnVVSEpmM1RkSzZOenkwLXlVTFByWDNxaVl4aHE1dkp1SElmZ2NGMTE4cXdTVzZkdl9IRFl4dk80aFluTUhIbk52ME9UV0xnai1EWm5kUFM0S0NoTHVaZzJ3SlQ2QjBRYTU4VVhhcUt1X2dpbV9oWTlvZ2J5WlNBMTVvc3hwNFRw?oc=5"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c0jl8v23qwgo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/as-chinas-ai-gets-stronger-it-poses-new-risks-to-beijing.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1sbWgtSlhGandZTUJpeHgtbExSSmhZUUJmNlRCZWZYXzVaUVdsQzVwMnpLY2lHWm5fR3h6bjJkdy1tUHliREw2U09qWHhFM1pXdUQtRlFjOGxEZ3NnZi0tTg?oc=5"
             }
           ],
           "rank": 11
         },
         {
-          "title": "印尼旱情加剧，厄尔尼诺现象预计持续至2027年初",
-          "titleOrig": "印尼旱情加剧 厄尔尼诺预计持续至2027年初 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pR3NGbEl2MTFUMU9KaHlNamdqSnNfNWZJWUYtZ0FWV2I3TnBMVXplT3hjS3lWZjlCeWRlNDA1V2VjVU8xNHh1R3RBSldYemQ2ZEkwNjc3aVVHdmF4WlJMbWtWblotRzJW?oc=5",
+          "title": "何立峰与美国财政部长、贸易代表举行视频通话",
+          "titleOrig": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 - 中国日报网",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBheEdJUXVjRHVtR3ZLRWZrTzk5RlIxeGJSM2RpbF9UZkZzX3BtakFHWVZZelNxMm9WYU9pNkoxWk9RbF9hT19LdzBIY3ZTc1FYNlUxVXZ4UHdfYy1ZRlZxcFUtYUpLVUY1M1dlQ2xldUdPZVpWS3FtTGRpSQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-30T12:27:42+00:00",
-          "desc": "印尼旱情加剧 厄尔尼诺预计持续至2027年初 chinanews.com.cn印度尼西亚：厄尔尼诺现象加剧干旱 搜狐网印尼气象局预测旱季更长 高峰持续至9月 shangbaoindonesia.com印尼准备5.6万台抽水机应对旱灾 和平日报水自给自足，面对厄尔尼诺现象和极端天气威胁 VOI.ID",
+          "publishedAt": "2026-07-30T16:32:28+00:00",
+          "desc": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 中国日报网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "印尼旱情加剧，厄尔尼诺现象预计持续至2027年初。",
-          "analysis": "印尼旱情加剧是由厄尔尼诺现象引起的，这对当地农业生产和民生造成严重影响。中国作为印尼的重要贸易伙伴，受此影响，可能需要调整对印尼的援助和贸易政策。此外，全球气候变化对中国的农业和水资源管理也提出了挑战。",
+          "summary": "何立峰与美国财政部长、贸易代表举行视频通话。",
+          "analysis": "此事件表明中国与美国在经贸领域的沟通与合作仍在继续。背景是中美关系复杂多变，双方在经贸问题上存在分歧。此次通话可能旨在就共同关心的经贸问题进行沟通，寻求共识。对国内民生影响有限，但对经济和治理意味着中国将继续推动开放型世界经济，维护多边贸易体系。后续走向可能包括更多高层交流和合作。",
           "keywords": [
-            "印尼旱情",
-            "厄尔尼诺",
-            "气候变化",
-            "农业影响",
-            "国际关系"
+            "何立峰",
+            "美国财政部长",
+            "经贸合作",
+            "中美关系",
+            "多边贸易"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5pR3NGbEl2MTFUMU9KaHlNamdqSnNfNWZJWUYtZ0FWV2I3TnBMVXplT3hjS3lWZjlCeWRlNDA1V2VjVU8xNHh1R3RBSldYemQ2ZEkwNjc3aVVHdmF4WlJMbWtWblotRzJW?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XbDZvQUpiSDB1aHVuVkEyWFZpcFBuUml6WVpZcnpBY21udWJVSWlIRndWampONjF6MkFnU3Y2V3k0YUFjSDMtUmwwdVE5QTdfUDFyVzQzWi1BMnc4Vk1rbzBmdGlHeHdZZkE?oc=5"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%207.1%20%E7%BA%A7%E5%9C%B0%E9%9C%87"
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBheEdJUXVjRHVtR3ZLRWZrTzk5RlIxeGJSM2RpbF9UZkZzX3BtakFHWVZZelNxMm9WYU9pNkoxWk9RbF9hT19LdzBIY3ZTc1FYNlUxVXZ4UHdfYy1ZRlZxcFUtYUpLVUY1M1dlQ2xldUdPZVpWS3FtTGRpSQ?oc=5"
             }
           ],
           "rank": 12
         },
         {
-          "title": "辅助驾驶小蓝灯或被禁",
+          "title": "陕西公公强奸儿媳案二审维持原判",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E5%B0%8F%E8%93%9D%E7%81%AF%E6%88%96%E8%A2%AB%E7%A6%81",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%99%95%E8%A5%BF%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E4%BA%8C%E5%AE%A1%E7%BB%B4%E6%8C%81%E5%8E%9F%E5%88%A4%23&t=31&band_rank=11&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "陕西公公强奸儿媳案二审维持原判。",
+          "analysis": "此案件体现了中国司法对性侵案件的严肃处理态度，维护了法律的尊严和受害者的权益。案件的处理对提高公众对性侵问题的关注度，推动社会对性侵问题的预防和治理有积极作用。",
+          "keywords": [
+            "陕西",
+            "强奸案",
+            "二审",
+            "司法",
+            "社会问题"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%99%95%E8%A5%BF%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E4%BA%8C%E5%AE%A1%E7%BB%B4%E6%8C%81%E5%8E%9F%E5%88%A4%23&t=31&band_rank=11&Refer=top"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E9%99%95%E8%A5%BF%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E4%BA%8C%E5%AE%A1%E7%BB%B4%E6%8C%81%E5%8E%9F%E5%88%A4"
+            },
+            {
+              "name": "今日头条",
+              "url": "https://www.toutiao.com/trending/7668278439698972678/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227668278439698972678%22%2C%22hot_board_impr_id%22%3A%22202607310113571BB9D31CD678DB49F4E6%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E2%80%9C%E5%85%AC%E5%85%AC%E5%BC%BA%E5%A5%B8%E5%84%BF%E5%AA%B3%E6%A1%88%E2%80%9D%E4%BA%8C%E5%AE%A1%E7%BB%B4%E6%8C%81%E5%8E%9F%E5%88%A4%22%7D&rank=&style_id=40132&topic_id=7668278439698972678"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "美国通缉重犯在华东师范大学任职",
+          "titleOrig": "美通缉重犯在华东师范大学任职",
+          "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E9%80%9A%E7%BC%89%E9%87%8D%E7%8A%AF%E5%9C%A8%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%BB%E8%81%8C",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1211,133 +1217,196 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "辅助驾驶小蓝灯可能面临禁用。",
-          "analysis": "辅助驾驶小蓝灯的禁用可能源于对交通安全和法规的考虑。对国内民生意味着可能增加驾驶安全风险，对经济和治理意味着需要平衡技术创新与安全法规，后续走向可能包括对辅助驾驶技术的重新评估和法规的调整。",
+          "hotLabel": "#2",
+          "summary": "美国通缉犯在知名高校任职引发关注。",
+          "analysis": "此事件暴露了国际引渡合作的复杂性。华东师范大学作为知名高等学府，其校园安全与对外合作可能受到质疑。对国内而言，这表明了在全球化背景下，国际犯罪分子跨国作案的可能性增加，对国内安全治理提出了更高要求。后续可能加强国际警务合作，提高对高等学府安全防范措施。",
           "keywords": [
-            "辅助驾驶",
-            "小蓝灯",
-            "禁用",
-            "交通安全",
-            "法规"
+            "美国通缉犯",
+            "华东师范大学",
+            "国际引渡",
+            "安全治理"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E9%80%9A%E7%BC%89%E9%87%8D%E7%8A%AF%E5%9C%A8%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%BB%E8%81%8C"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "外媒：美军或要求部分驻中东军人上交手机",
+          "titleOrig": "外媒：美军或要求部分驻中东军人上交手机 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QTi1kdU9JTnQ5WEZjWE1RcVVsQzNMSFdwbldJZUxiOVB2UmNYTmJWSEczUTZvRTFZUDVOSUVvVllEWWx6c3BSbWQxdEswZEg1T05HbVlZTURCcnBUYlNsUHRZRnpjTGo3?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T13:37:04+00:00",
+          "desc": "外媒：美军或要求部分驻中东军人上交手机 chinanews.com.cn美军警告驻中东士兵勿分享遇袭视频 凤凰网美军警告士兵：别上传视频 SOHU美军拟收缴中东驻军手机 防基地情报外泄 联合早报美军考虑收回中东驻军士兵的手机，称可能向伊朗提供信息 亚洲日报",
+          "hotLabel": "",
+          "summary": "美军可能要求驻中东军人上交手机",
+          "analysis": "此举可能是为了防止情报泄露和避免士兵通过社交媒体分享敏感信息。这反映了美军对中东地区安全形势的担忧，同时也可能加剧该地区的不稳定因素。后续可能对美军在中东的军事行动和地区安全产生深远影响。",
+          "keywords": [
+            "美军",
+            "中东",
+            "情报泄露",
+            "手机禁令",
+            "安全形势"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1QTi1kdU9JTnQ5WEZjWE1RcVVsQzNMSFdwbldJZUxiOVB2UmNYTmJWSEczUTZvRTFZUDVOSUVvVllEWWx6c3BSbWQxdEswZEg1T05HbVlZTURCcnBUYlNsUHRZRnpjTGo3?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "总台党组传达学习习近平总书记对侨务工作的重要指示",
+          "titleOrig": "总台党组传达学习习近平总书记对侨务工作的重要指示和全国侨务工作会议精神 - 央视网",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9odWRHclFYcUhOOUN6dUNpYm1CckxJUDdEMXZnY1gyeTg4MWV5dlhJc1ZGZ0xJT2ZiN1I1TnVlX3lsUkppU19PRnlPZWl1LUJiNm13dkxuTF9WdE9YaDBfNHlibFBVS0NMaUhmM2lIWlRXQWExMHBF?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T11:11:00+00:00",
+          "desc": "总台党组传达学习习近平总书记对侨务工作的重要指示和全国侨务工作会议精神 央视网第一观察 | 凝聚侨心侨力 同圆共享中国梦 新浪新闻_手机新浪网促进海内外中华儿女团结奋斗 人民日报一见·做好新时代侨务工作，总书记重要指示深意何在？ 中青网6000万海外侨胞如何发挥作用？时隔9年，中央再定调 中国网",
+          "hotLabel": "",
+          "summary": "总台党组传达学习习近平总书记对侨务工作的重要指示。",
+          "analysis": "此事件表明中国政府对侨务工作的重视。背景是习近平总书记对侨务工作作出重要指示，强调侨务工作的重要性。此举有助于凝聚侨心侨力，促进海内外中华儿女团结奋斗。对国内民生影响有限，但对治理意味着中国将继续加强侨务工作，发挥海外侨胞的作用。后续走向可能包括更多侨务政策的出台和实施。",
+          "keywords": [
+            "总台党组",
+            "习近平总书记",
+            "侨务工作",
+            "海外侨胞",
+            "团结奋斗"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9odWRHclFYcUhOOUN6dUNpYm1CckxJUDdEMXZnY1gyeTg4MWV5dlhJc1ZGZ0xJT2ZiN1I1TnVlX3lsUkppU19PRnlPZWl1LUJiNm13dkxuTF9WdE9YaDBfNHlibFBVS0NMaUhmM2lIWlRXQWExMHBF?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9FRXh6aDZ3NHIwT0drSlZUMzJyOVpZRG00TlVnWGozNTFBM2xsTWo3SmxubUZfV0YyZE5BajNSazdaYkZyU25uWjVjQU5tcVZQTFY3QWFjOTNPTTBXQkctRG94TnMtajN2a1RF?oc=5"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "小米澎程技术发布会",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B8%83%E4%BC%9A",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "小米举办技术发布会。",
+          "analysis": "小米的技术发布会通常涉及新产品和技术发布，体现了中国科技企业的创新能力和市场竞争力。对消费者而言，可能带来新的选择和升级体验；对行业而言，可能推动技术创新和市场竞争。",
+          "keywords": [
+            "小米",
+            "技术发布会",
+            "创新",
+            "市场竞争",
+            "科技企业"
           ],
           "category": "tech",
           "importance": 70,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E5%B0%8F%E8%93%9D%E7%81%AF%E6%88%96%E8%A2%AB%E7%A6%81"
+              "url": "https://www.zhihu.com/search?q=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E6%8A%80%E6%9C%AF%E5%8F%91%E5%B8%83%E4%BC%9A"
             }
           ],
-          "rank": 13
+          "rank": 17
         },
         {
-          "title": "泸溪河桃酥被曝吃出牙冠等异物",
+          "title": "中国领馆启动应急保障应对日本熊本地震",
+          "titleOrig": "驻外记者连线丨日本熊本7.1级地震灾后：防范余震次生灾害，中国领馆启动应急保障 - focus.scol.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IME5zaXNjakxzd3o5YWxLTFY0Q0JfSk85ZFhBdVZodTIydURmQVM4WUk4aFp1SmJObVlhVFdwRzRNZEppbVRHOFh5NmxON015MHlEUmNRdURBNkRHcGN5WA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T12:37:21+00:00",
+          "desc": "驻外记者连线丨日本熊本7.1级地震灾后：防范余震次生灾害，中国领馆启动应急保障 focus.scol.com.cn日本熊本震后救援持续 超2万户家庭停电 新浪财经日本熊本地震已致17人死亡 中国日报网日本网上又现阴谋论 极右翼借地震煽动排外 中华网熊本再遇强震冲击半导体产业链，日本“硅岛九州”复兴面临灾害风险考验 thepaper.cn",
+          "hotLabel": "",
+          "summary": "中国领馆启动应急保障应对日本熊本地震。",
+          "analysis": "此事件体现了中国对国际友人的关心和支持。背景是日本熊本地震后，中国领馆启动应急保障，协助受灾中国公民。这有助于提升中国在国际社会中的形象，展示中国负责任的大国担当。对国内民生影响有限，但对国际关系和治理意味着中国将继续积极参与国际救援合作。后续走向可能包括更多国际救援和援助。",
+          "keywords": [
+            "中国领馆",
+            "日本熊本地震",
+            "应急保障",
+            "国际救援",
+            "大国担当"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5IME5zaXNjakxzd3o5YWxLTFY0Q0JfSk85ZFhBdVZodTIydURmQVM4WUk4aFp1SmJObVlhVFdwRzRNZEppbVRHOFh5NmxON015MHlEUmNRdURBNkRHcGN5WA?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE4zWDVIMVloR05FNldWTGl4WGZKaFBvWTVueDk2Z0xFXzhYQllBaFpzUjRfWHhmWWFKYkYzU212VGdKUE5hb1VJTnJWQkdybHdVdDJIbk5hTE1yMnVIaW9oOQ?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNN196ME5WRUJUdl95a1NmRmdGSi1MNk82WUJiSDFELXVyOWxubW5hcVFBc1pFbEROZUxkNHFfS3ByZzRLWG92SEoxbmdELXljUXItdzhvWnlVakdEb0F4aXFQSU9iMk9VSzdlakFwaXBBWi1zdW9oWGVRbWtzM2xWQQ?oc=5"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "豆包究竟见过多少人的糗事",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3%E6%A1%83%E9%85%A5%E8%A2%AB%E6%9B%9D%E5%90%83%E5%87%BA%E7%89%99%E5%86%A0%E7%AD%89%E5%BC%82%E7%89%A9",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E7%A9%B6%E7%AB%9F%E8%A7%81%E8%BF%87%E5%A4%9A%E5%B0%91%E4%BA%BA%E7%9A%84%E7%B3%97%E4%BA%8B&t=31&band_rank=1&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "泸溪河桃酥产品被消费者发现含有牙冠等异物。",
-          "analysis": "这起食品安全事件反映了食品安全监管的不足，以及消费者对食品安全的高度关注。对国内民生意味着需要提高食品安全标准，对经济意味着可能损害相关企业的声誉和销售，对治理意味着需要加强食品安全监管和惩罚违规行为。",
+          "hotLabel": "#1",
+          "summary": "微博热搜话题，讨论豆包的糗事。",
+          "analysis": "此新闻为网络热点，反映了社交媒体时代下公众对日常生活趣事的关注。豆包的糗事可能成为网络段子，传播文化娱乐价值，但也可能引发关于网络暴力和隐私保护的讨论。",
           "keywords": [
-            "食品安全",
-            "泸溪河桃酥",
-            "异物",
-            "监管不足",
-            "消费者信心"
+            "微博热搜",
+            "豆包",
+            "糗事",
+            "网络文化",
+            "隐私"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 60,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%B3%B8%E6%BA%AA%E6%B2%B3%E6%A1%83%E9%85%A5%E8%A2%AB%E6%9B%9D%E5%90%83%E5%87%BA%E7%89%99%E5%86%A0%E7%AD%89%E5%BC%82%E7%89%A9"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E8%B1%86%E5%8C%85%E7%A9%B6%E7%AB%9F%E8%A7%81%E8%BF%87%E5%A4%9A%E5%B0%91%E4%BA%BA%E7%9A%84%E7%B3%97%E4%BA%8B&t=31&band_rank=1&Refer=top"
             }
           ],
-          "rank": 14
-        },
-        {
-          "title": "日本熊本县地震死亡人数上升至34人",
-          "titleOrig": "日本熊本县地震死亡人数上升至34人 - 大洋网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XbDZvQUpiSDB1aHVuVkEyWFZpcFBuUml6WVpZcnpBY21udWJVSWlIRndWampONjF6MkFnU3Y2V3k0YUFjSDMtUmwwdVE5QTdfUDFyVzQzWi1BMnc4Vk1rbzBmdGlHeHdZZkE?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T11:56:00+00:00",
-          "desc": "日本熊本县地震死亡人数上升至34人 大洋网中国驻日本大使馆提醒中国公民注意防范地震灾害 央视网熊本震后建筑损毁严重 震源地断水断电 新浪财经日本熊本7.1级地震致34死，商场30分钟疏散3000人 风闻日本网上又现阴谋论 极右翼借地震煽动排外 中华网",
-          "hotLabel": "",
-          "summary": "日本熊本县地震死亡人数上升，中国驻日本大使馆提醒中国公民注意防范。",
-          "analysis": "熊本县地震再次提醒地震灾害的严重性，对日本及邻近地区造成严重影响。中国驻日本大使馆的提醒反映了我国对海外公民安全的重视。地震灾害对当地经济和社会稳定造成冲击，后续可能引发人道主义援助和国际合作。",
-          "keywords": [
-            "日本地震",
-            "死亡人数",
-            "灾害防范",
-            "中国公民",
-            "国际合作"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XbDZvQUpiSDB1aHVuVkEyWFZpcFBuUml6WVpZcnpBY21udWJVSWlIRndWampONjF6MkFnU3Y2V3k0YUFjSDMtUmwwdVE5QTdfUDFyVzQzWi1BMnc4Vk1rbzBmdGlHeHdZZkE?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "福建侨务工作者学习全国侨务工作会议精神",
-          "titleOrig": "继续当好侨胞“贴心人”——福建侨务工作者认真学习领会全国侨务工作会议精神 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16ZDdJekJSOXhiQU8zUjRHY3lYSkpkU1VtbzhLUThRM3YxMXpaVEVWNXhLVDh4QUhueEVKNUFMT044cHpnRmN2VmQ4emI0bkJkNXFsQ1hyWE44bDFCWjJzcWRocVFLZXdGYmc?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T06:16:24+00:00",
-          "desc": "继续当好侨胞“贴心人”——福建侨务工作者认真学习领会全国侨务工作会议精神 chinanews.com.cn涵养侨界新生代 上海黄浦搭建海内外融通新桥梁 新浪财经一见·做好新时代侨务工作，总书记重要指示深意何在？ 光明网促进海内外中华儿女团结奋斗 人民日报第一观察| 凝聚侨心侨力同圆共享中国梦- 中国日报网 China Daily",
-          "hotLabel": "",
-          "summary": "福建侨务工作者学习全国侨务工作会议精神。",
-          "analysis": "此次会议强调了侨务工作的重要性，旨在加强侨务工作者对侨务政策的理解和执行。这反映了国家对于侨务工作的重视，以及对海外华侨华人的关怀。后续可能出台更多政策以促进侨务工作的发展。",
-          "keywords": [
-            "侨务工作",
-            "全国侨务工作会议",
-            "海外华侨",
-            "政策执行",
-            "国家关怀"
-          ],
-          "category": "domestic",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE16ZDdJekJSOXhiQU8zUjRHY3lYSkpkU1VtbzhLUThRM3YxMXpaVEVWNXhLVDh4QUhueEVKNUFMT044cHpnRmN2VmQ4emI0bkJkNXFsQ1hyWE44bDFCWjJzcWRocVFLZXdGYmc?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/business/china-economy-politburo.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/30/world/asia/vietnam-aircraft-carrier.html"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcnVVSEpmM1RkSzZOenkwLXlVTFByWDNxaVl4aHE1dkp1SElmZ2NGMTE4cXdTVzZkdl9IRFl4dk80aFluTUhIbk52ME9UV0xnai1EWm5kUFM0S0NoTHVaZzJ3SlQ2QjBRYTU4VVhhcUt1X2dpbV9oWTlvZ2J5WlNBMTVvc3hwNFRw?oc=5"
-            }
-          ],
-          "rank": 16
+          "rank": 19
         },
         {
           "title": "343斤博主良子峨眉山徒步晕倒",
@@ -1352,121 +1421,20 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "一名体重343斤的博主在峨眉山徒步时晕倒。",
-          "analysis": "此事件可能引发对健康生活方式的讨论。对国内社会意味着可能提高公众对健康问题的关注，对经济和治理意味着可能促进健康产业的发展，后续走向可能包括对健康生活方式的推广。",
+          "summary": "体重超重的博主峨眉山徒步晕倒。",
+          "analysis": "此事件反映了社会对健康生活方式的关注。过重体重与生活方式问题日益受到重视，对公共卫生和健康政策提出了挑战。后续可能加强健康教育和公共卫生宣传，鼓励健康生活方式。",
           "keywords": [
-            "体重",
-            "徒步",
-            "健康",
-            "生活方式",
-            "社会关注"
+            "健康生活方式",
+            "公共卫生",
+            "体重问题",
+            "健康教育"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 60,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=343%20%E6%96%A4%E5%8D%9A%E4%B8%BB%E8%89%AF%E5%AD%90%E5%B3%A8%E7%9C%89%E5%B1%B1%E5%BE%92%E6%AD%A5%E6%99%95%E5%80%92"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "李强会见斯洛伐克总统",
-          "titleOrig": "李强会见斯洛伐克总统 - 中国之声",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80LVRkNl96LXltbTVIdnhpZ3k2NEFJQzdVd013RFZJUXlUbllEc0h6eWdfUjItUHNBaUlPUXl4bzg1OTFKRjdLQjI3Ui1pSm5IWmJYb0pFYjEwR0xCNmlxZUFLS2pUTXZqbllwNklZUlg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T03:00:43+00:00",
-          "desc": "李强会见斯洛伐克总统 中国之声李强会见斯洛伐克总统佩列格里尼 新浪财经天天学习｜中斯友谊之树根深叶茂 央视网布鲁塞尔拼命筑高墙，中国看向东欧，斯洛伐克敞开大门 观察者习近平同斯洛伐克总统佩列格里尼会谈 北京市人民政府",
-          "hotLabel": "",
-          "summary": "李强会见斯洛伐克总统，中斯关系进一步深化。",
-          "analysis": "李强会见斯洛伐克总统表明中国对加强与东欧国家关系的重视。中斯友谊的深化有助于中国在欧洲的布局，同时也为斯洛伐克提供了发展机遇。后续可能推动两国在经贸、科技等领域的合作。",
-          "keywords": [
-            "李强",
-            "斯洛伐克总统",
-            "中斯关系",
-            "东欧合作",
-            "国际合作"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE80LVRkNl96LXltbTVIdnhpZ3k2NEFJQzdVd013RFZJUXlUbllEc0h6eWdfUjItUHNBaUlPUXl4bzg1OTFKRjdLQjI3Ui1pSm5IWmJYb0pFYjEwR0xCNmlxZUFLS2pUTXZqbllwNklZUlg?oc=5"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "中影进口发行“银幕碰头计划”跨城落地",
-          "titleOrig": "中影进口发行“银幕碰头计划”跨城落地 北京南京影迷畅叙“蜘蛛侠” - 国际在线",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMjlrcDMyYlptc1duWEwzY1JjMVA5czNEU21Lc2hJaERBN2hTQ094Y0hES3FSM1hOZGNnMi1UWVozUUZ3NHFrbjZrMmhYcEhPdEZuNk53Rm5BbnY3SkFDLXpUck1sREZNUUE5NG1BZEtkaFJYZXM1Zg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T10:34:05+00:00",
-          "desc": "中影进口发行“银幕碰头计划”跨城落地 北京南京影迷畅叙“蜘蛛侠” 国际在线在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "中影进口发行“银幕碰头计划”在北京南京落地。",
-          "analysis": "该计划旨在促进电影文化的交流与传播，提高电影市场的活跃度。跨城落地有助于平衡区域电影市场的发展，提升电影观众的观影体验。这反映了文化政策对电影产业的支持，以及对文化产业发展的重视。",
-          "keywords": [
-            "银幕碰头计划",
-            "电影文化",
-            "区域发展",
-            "文化产业",
-            "政策支持"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5PMjlrcDMyYlptc1duWEwzY1JjMVA5czNEU21Lc2hJaERBN2hTQ094Y0hES3FSM1hOZGNnMi1UWVozUUZ3NHFrbjZrMmhYcEhPdEZuNk53Rm5BbnY3SkFDLXpUck1sREZNUUE5NG1BZEtkaFJYZXM1Zg?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1wUFBiVVFfR2hxWE04T0NaT1lSY3VCZF9FRFdHejBrX2pIamVWX2xULW9STThCM2I4elF0QzZPNDVkbW5PRVlFSkJVUEJPTjRySFIzSlFzZDFVUjZEZk9INElQVEpfRWY5NlppcFlrbms?oc=5"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "人生选择模拟器",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E7%94%9F%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "出现一款名为‘人生选择模拟器’的应用。",
-          "analysis": "人生选择模拟器作为一种新兴的娱乐产品，可能反映了人们对未来选择和决策的焦虑。对国内社会意味着可能引发对人生规划和决策的讨论，对经济和治理意味着可能促进相关产业的发展，后续走向可能包括更多类似产品的出现。",
-          "keywords": [
-            "人生选择",
-            "模拟器",
-            "娱乐",
-            "决策",
-            "社会讨论"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E7%94%9F%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8"
             }
           ],
           "rank": 20
