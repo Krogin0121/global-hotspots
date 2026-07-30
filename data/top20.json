@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-30T01:25:22.210137+00:00",
+  "generatedAt": "2026-07-30T08:12:53.410833+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
       "id": "bbc",
       "name": "BBC World",
-      "count": 20,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "id": "nyt",
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 14,
+      "count": 17,
       "ok": true
     },
     {
@@ -90,11 +90,11 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多领域紧张态势。欧洲面临高温野火和移民问题双重挑战，克里特岛大火导致两名消防员丧生，意大利警方暴力执法引发争议。中东地区局势紧张，以色列空袭加沙城清真寺，伊朗战争波及更多国家，美伊紧张升级。日本遭遇强震，埃及油轮疑似遭无人机袭击。经济领域，微软股价上涨，增加资本支出计划。同时，全球反犹太主义袭击加剧，澳大利亚奥运划船比赛选址引发争议。总体来看，国际局势复杂多变，多领域紧张局势值得关注。",
+      "digest": "今日国际局势呈现出多方面的紧张与挑战。地缘政治风险加剧，美沙联军袭击伊拉克民兵可能引发战争，埃及油轮遭遇无人机袭击，北爱尔兰忠诚派拥抱反移民意识形态，数百名约旦人公开反对美军驻扎。自然灾害频发，欧洲炎热夏季、日本地震、印度洪水均造成严重损失。经济领域，微软提高资本支出计划，股价上涨，而中国光通信设备供应商在香港IPO后股价下跌。此外，气候变化和关税问题引发国际关注，美国国际开发署削减资金引发非洲年轻人对未来的担忧。总体来看，国际局势复杂多变，地缘政治、自然灾害和经济问题交织，各国需共同努力应对挑战。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "欧洲夏日危机：高温野火肆虐",
+          "title": "炎热夏季打破欧洲",
           "titleOrig": "The Summer That Broke Europe",
           "url": "https://www.nytimes.com/2026/07/29/world/europe-summer-heat-fires-saudi.html",
           "source": "NYT World",
@@ -103,17 +103,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T20:58:16+00:00",
+          "publishedAt": "2026-07-30T04:57:30+00:00",
           "desc": "Record heat and wildfires are devastating the continent, and scientists warn the climate crisis is getting worse.",
           "hotLabel": "",
-          "summary": "极端气候事件导致欧洲大陆遭受严重破坏。",
-          "analysis": "事件背景：全球气候变化加剧。关键影响：对欧洲经济和社会造成重大影响。后续走向：可能促使各国加强气候政策。",
+          "summary": "极端高温和野火肆虐欧洲，科学家警告气候危机加剧。",
+          "analysis": "极端天气事件频发，表明气候危机正在加剧。这对欧洲的农业、生态系统和居民生活造成严重影响。后续可能包括欧洲各国对气候变化的应对措施加强，以及全球气候治理的进一步讨论。",
           "keywords": [
-            "气候变化",
-            "极端天气",
             "欧洲",
-            "经济影响",
-            "政策调整"
+            "高温",
+            "野火",
+            "气候危机",
+            "全球治理"
           ],
           "category": "international",
           "importance": 90,
@@ -121,67 +121,79 @@
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/29/world/europe-summer-heat-fires-saudi.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/europe/scotland-wildfire-cairngorms-highlands.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/29/world/europe/wildfires-spain-france.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "基辅爆炸事件：泽连斯基警告俄罗斯袭击",
-          "titleOrig": "Explosions in Kyiv after Zelenskyy warns of Russian strikes",
-          "url": "https://www.dw.com/en/explosions-in-kyiv-after-zelenskyy-warns-of-russian-strikes/a-78167375?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "title": "霍尔木兹海峡只是面临新时代海上战争的一个贸易瓶颈",
+          "titleOrig": "The Strait of Hormuz is just one trade chokepoint facing a new era of maritime warfare",
+          "url": "https://www.cnbc.com/2026/07/30/strait-hormuz-drone-shipping-risks.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
-          "region": "德国",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T22:38:00+00:00",
-          "desc": "At least one person was killed in a Russian air strike on Ukraine's capital, Kyiv. President Volodymyr Zelenskyy had warned that Russia had \"prepared a massive attack,\" citing air force reports.",
+          "publishedAt": "2026-07-30T05:55:02+00:00",
+          "desc": "Attacks near the Strait of Hormuz, Red Sea and Black Sea are pushing shipowners to reroute cargo and rethink global trade risks.",
           "hotLabel": "",
-          "summary": "俄罗斯空袭乌克兰首都基辅，至少一人死亡，泽连斯基警告将有大规模攻击。",
-          "analysis": "俄罗斯对乌克兰的空袭事件表明了乌克兰冲突的激烈程度。这一事件对乌克兰国内局势、俄罗斯与西方国家的关系以及欧洲安全格局产生了深远影响。后续可能进一步加剧冲突，并对地区稳定和全球能源市场造成冲击。",
+          "summary": "霍尔木兹海峡附近袭击推动船东重新规划航线。",
+          "analysis": "霍尔木兹海峡的紧张局势揭示了全球海上贸易的脆弱性，并可能促使各国加强海上安全合作。此外，这可能会对全球能源市场产生重大影响，特别是对依赖中东石油的国家。未来，海上安全将成为国际关系中的一个重要议题。",
           "keywords": [
-            "乌克兰冲突",
-            "俄罗斯空袭",
-            "基辅爆炸",
-            "国际关系",
-            "欧洲安全"
+            "霍尔木兹海峡",
+            "海上安全",
+            "全球贸易",
+            "能源市场",
+            "国际关系"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/explosions-in-kyiv-after-zelenskyy-warns-of-russian-strikes/a-78167375?maca=en-rss-en-all-1573-rdf"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/strait-hormuz-drone-shipping-risks.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "以色列空袭加沙城清真寺",
-          "titleOrig": "Israel Strikes Mosque in Gaza City",
-          "url": "https://www.nytimes.com/2026/07/29/world/israel-strikes-mosque-gaza-city.html",
+          "title": "美沙联军袭击伊拉克民兵可能引发战争",
+          "titleOrig": "U.S.-Saudi Attack on Iraqi Militias Risks Drawing Them into War",
+          "url": "https://www.nytimes.com/2026/07/30/world/europe/iraqi-militias-iran-war-saudi-arabia-us.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T14:04:49+00:00",
-          "desc": "The Israeli military accused Hamas of using the mosque to store weapons. The Hamas-run government’s media office said Israel’s claims aimed to justify its attacks on mosques.",
+          "publishedAt": "2026-07-30T06:20:03+00:00",
+          "desc": "Iran-aligned militias in Iraq were under growing pressure to disarm, but the latest strikes may embolden them to get more deeply involved in the war.",
           "hotLabel": "",
-          "summary": "以色列空袭加沙城清真寺，称其被哈马斯用作武器库。",
-          "analysis": "以色列空袭清真寺加剧了巴以冲突的紧张局势。这一事件可能引发地区冲突升级，对中东地区的和平与稳定构成威胁。后续可能需要国际社会的介入和调解，以避免冲突进一步扩大。",
+          "summary": "美沙联军对伊拉克民兵的袭击可能加剧地区紧张局势。",
+          "analysis": "此次袭击背景是伊朗支持的伊拉克民兵在伊拉克受到压力要求解除武装。美沙联军此举可能激发民兵进一步介入战争，加剧伊拉克局势的不稳定性。这对中东地区的安全格局构成威胁，并可能引发伊朗与沙特之间的对抗升级。后续走向可能包括伊拉克国内冲突的进一步升级，以及地区大国之间的紧张关系。",
           "keywords": [
-            "以色列",
-            "空袭",
-            "清真寺",
-            "巴以冲突",
+            "美沙联军",
+            "伊拉克",
+            "民兵",
+            "战争",
             "中东"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 85,
           "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/world/europe/iraqi-militias-iran-war-saudi-arabia-us.html"
+            },
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/29/world/israel-strikes-mosque-gaza-city.html"
@@ -190,144 +202,129 @@
           "rank": 3
         },
         {
-          "title": "伊朗战争波及更多国家，美伊紧张升级",
-          "titleOrig": "New Strikes Engulf More Countries in the Iran War",
-          "url": "https://www.nytimes.com/2026/07/29/world/middleeast/iran-war-us-jordan-saudi-iraq.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "日本地震死亡人数上升至30人，余震和高温阻碍救援工作",
+          "titleOrig": "Death toll in Japan earthquake rises to 30 as aftershock and heat hamper rescue efforts",
+          "url": "https://www.theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-29T21:26:57+00:00",
-          "desc": "President Trump threatened retribution after Iran fired missiles at U.S. military bases in Jordan. Strikes by U.S. and Saudi warplanes on Iranian-linked militias in Iraq were a further escalation after a lull.",
+          "publishedAt": "2026-07-30T06:49:55+00:00",
+          "desc": "Soldiers and emergency teams search devastated shopping centre, paper mill and homes for survivorsEarthquake rocks southern Japanese island of Kyushu – in picturesThe death toll from the powerful earthquake that hit Japan on Tuesday has risen to 30, as the search for survivors trapped in a badly dam",
           "hotLabel": "",
-          "summary": "伊朗发射导弹袭击美军基地，美沙联军对伊盟友进行打击。",
-          "analysis": "事件背景：美伊关系紧张，双方在伊拉克的军事行动升级。关键影响：加剧中东地区不稳定，可能引发更大规模冲突。后续走向：双方可能进一步升级对抗，国际社会呼吁和平解决。",
+          "summary": "日本九州岛发生强震，死亡人数上升，救援工作受余震和高温影响。",
+          "analysis": "此次地震反映了日本地震频发的地质环境，对当地居民生活造成严重影响。地震对日本的经济和社会稳定构成挑战，可能加剧对基础设施重建的需求。国际社会对日本的救援和支持将影响地区和国际关系。未来，日本可能加强地震预警和应急响应系统。",
           "keywords": [
-            "美伊关系",
-            "中东冲突",
-            "军事行动",
-            "国际局势",
-            "紧张升级"
+            "日本地震",
+            "救援工作",
+            "地震预警"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/29/world/middleeast/iran-war-us-jordan-saudi-iraq.html"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/jul/30/japan-earthquake-death-toll-rises"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/29/world/middleeast/saudi-arabia-us-iran-war.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/30/us-iran-war-hormuz-centcom-trump-.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/jul/29/sanae-takaichi-rescue-trapped-shopping-centre-mall-japan-earthquake-latest-news-updates"
             }
           ],
           "rank": 4
         },
         {
-          "title": "COVID-19病毒起源：科学家的看法",
-          "titleOrig": "Animal spillover? Lab leak? What the science says about the origins of COVID-19",
-          "url": "https://www.npr.org/2026/07/29/g-s1-136142/rand-paul-anthony-fauci-lab-leak-spillover-pandemic-origin",
+          "title": "印度阿萨姆邦洪水死亡人数升至78人，更多降雨预计到来",
+          "titleOrig": "India news: Assam flood toll rises to 78, more rain predicted",
+          "url": "https://www.dw.com/en/india-news-assam-flood-toll-rises-to-78-more-rain-predicted/live-78168101?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T07:43:00+00:00",
+          "desc": "Monsoon floods in Assam have left 78 people dead so far as thousands remain displaced. Opposition lawmakers have staged a protest in the Indian parliament. DW has the latest.",
+          "hotLabel": "",
+          "summary": "阿萨姆邦洪水死亡人数上升，议会反对派抗议。",
+          "analysis": "阿萨姆邦洪水反映了气候变化对南亚地区的影响，凸显了基础设施脆弱性和灾害管理不足。这可能会加剧印度国内的政治紧张，并对受灾地区的经济恢复造成长期影响。未来，随着气候变化加剧，类似事件可能更加频繁，对国际援助和地区稳定构成挑战。",
+          "keywords": [
+            "印度",
+            "洪水",
+            "气候变化",
+            "灾害管理",
+            "政治紧张"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/india-news-assam-flood-toll-rises-to-78-more-rain-predicted/live-78168101?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "2022年刺杀作家萨尔曼·鲁西迪的恐怖主义审判中，一名男子被判有罪",
+          "titleOrig": "Man convicted in terrorism trial over the 2022 stabbing of author Salman Rushdie",
+          "url": "https://www.npr.org/2026/07/30/g-s1-136257/stabbing-conviction-salman-rushdie",
           "source": "NPR News",
           "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T23:02:53+00:00",
-          "desc": "The release of Dr. Anthony Fauci's pandemic diaries has rekindled the debate over the origins of SARS-CoV-2. Here's how scientists have weighed in.",
+          "publishedAt": "2026-07-30T05:33:00+00:00",
+          "desc": "A man was convicted of federal terrorism charges in the 2022 stabbing of Salman Rushdie, the author who has faced a decades-old death threat over his novel \"The Satanic Verses.\"",
           "hotLabel": "",
-          "summary": "福奇日记引发对新冠病毒起源的讨论，科学家们如何分析。",
-          "analysis": "福奇日记的发布再次点燃了关于新冠病毒起源的辩论。科学家们分析了可能的动物传播和实验室泄漏两种假设，并讨论了现有证据和未来研究方向。这一事件对全球公共卫生政策、国际关系以及科学合作具有重要意义。后续可能需要更多科学证据来明确病毒起源，并可能引发国际政治博弈。",
+          "summary": "在美国对2022年刺杀作家萨尔曼·鲁西迪的恐怖主义审判中，一名男子被判有罪。",
+          "analysis": "此案反映了恐怖主义对言论自由的威胁，以及对作家安全的关注。判决可能会对恐怖主义活动产生威慑作用，同时强调保护言论自由的重要性。这将对国际社会处理恐怖主义问题产生深远影响。",
           "keywords": [
-            "COVID-19",
-            "病毒起源",
-            "福奇日记",
-            "科学分析",
-            "国际关系"
+            "恐怖主义",
+            "萨尔曼·鲁西迪",
+            "言论自由"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/29/g-s1-136142/rand-paul-anthony-fauci-lab-leak-spillover-pandemic-origin"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "克里特岛大火致两名消防员丧生，欧洲南部多地受威胁",
-          "titleOrig": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
-          "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-29T16:23:41+00:00",
-          "desc": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tackle fires.",
-          "hotLabel": "",
-          "summary": "克里特岛大火导致消防员丧生，欧洲南部多地火灾持续。",
-          "analysis": "克里特岛大火反映了全球气候变化对欧洲南部地区的影响，极端天气事件频发。这将对当地居民生活、旅游业和生态环境造成严重影响。同时，也考验了欧洲应对自然灾害的能力。后续可能需要加强地区间的合作，共同应对气候变化带来的挑战。",
-          "keywords": [
-            "克里特岛",
-            "大火",
-            "气候变化",
-            "欧洲",
-            "自然灾害"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.npr.org/2026/07/30/g-s1-136257/stabbing-conviction-salman-rushdie"
             }
           ],
           "rank": 6
         },
         {
-          "title": "意大利警方暴力执法引发移民问题争议",
-          "titleOrig": "Moroccan Man’s Death While Restrained by Police Reverberates Across Italy",
-          "url": "https://www.nytimes.com/2026/07/29/world/europe/fakir-moroccan-death-italy-police.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "澳大利亚因Telegram未移除恐怖内容面临法律行动",
+          "titleOrig": "Australia: Telegram faces legal action over failure to remove terrorist content",
+          "url": "https://www.dw.com/en/australia-telegram-faces-legal-action-over-failure-to-remove-terrorist-content/a-78167487?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-07-29T16:01:40+00:00",
-          "desc": "Abderrahim Fakir died after police officers pinned him to the ground. His death has evolved into a broader standoff over the treatment and role of immigrants in Italy.",
+          "publishedAt": "2026-07-30T03:56:00+00:00",
+          "desc": "Australia says videos of terrorist executions and mass shootings weren't removed from Telegram after they were reported. The move comes a day after Russia charged founder Pavel Durov with facilitating terrorist activity.",
           "hotLabel": "",
-          "summary": "摩洛哥男子在警方制服下死亡，引发意大利对移民待遇的广泛讨论。",
-          "analysis": "事件背景：意大利作为欧洲主要移民入境国，移民问题一直是其社会和政治的敏感点。Abderrahim Fakir的死亡成为导火索，揭示了意大利警方对待移民的粗暴态度。关键影响：此事件可能加剧意大利国内对移民政策的反对声音，影响欧盟的移民政策协调。后续走向：预计将引发意大利国内对警方执法的审查，并对欧洲移民政策产生长远影响。",
+          "summary": "澳大利亚指控Telegram未移除恐怖视频。",
+          "analysis": "Telegram在澳大利亚面临的法律行动反映了国际社会对社交媒体平台在恐怖主义传播中的责任问题。这一事件可能促使各国加强监管，并对社交媒体公司的运营模式产生深远影响。俄罗斯对Telegram创始人的指控可能引发全球范围内的言论自由和隐私权争议。",
           "keywords": [
-            "意大利",
-            "移民问题",
-            "警方暴力",
-            "欧洲移民政策"
+            "澳大利亚",
+            "Telegram",
+            "恐怖主义",
+            "社交媒体监管",
+            "言论自由"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/29/world/europe/fakir-moroccan-death-italy-police.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/australia-telegram-faces-legal-action-over-failure-to-remove-terrorist-content/a-78167487?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 7
@@ -345,14 +342,14 @@
           "publishedAt": "2026-07-29T21:41:20+00:00",
           "desc": "An explosion at a port on Egypt’s Mediterranean coast set fire to two ships, including a U.S. gas storage tanker, according to maritime tracking firms.",
           "hotLabel": "",
-          "summary": "埃及港口爆炸，两艘船只起火，包括一艘美国油轮。",
-          "analysis": "事件背景：可能涉及恐怖主义或区域冲突。关键影响：对国际能源运输安全构成威胁。后续走向：需调查袭击原因，可能引发地区紧张。",
+          "summary": "埃及地中海沿岸港口发生爆炸，两艘油轮被击中，其中一艘为美国天然气储存油轮。",
+          "analysis": "此次袭击可能表明埃及地区安全形势的恶化，同时也可能对国际能源市场产生影响。袭击事件可能涉及地区冲突或恐怖主义活动，对埃及乃至整个中东地区的稳定构成威胁。后续可能需要关注事件的调查结果以及地区安全局势的发展。",
           "keywords": [
             "埃及",
-            "油轮袭击",
-            "无人机",
-            "能源安全",
-            "区域冲突"
+            "油轮",
+            "无人机袭击",
+            "能源市场",
+            "地区安全"
           ],
           "category": "international",
           "importance": 80,
@@ -365,78 +362,69 @@
           "rank": 8
         },
         {
-          "title": "日本强震后发生百次余震，已致13人死亡",
-          "titleOrig": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
-          "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "四分之一非洲年轻人认为美国国际开发署削减资金可能带来积极影响",
+          "titleOrig": "A quarter of young Africans believe USAID cuts could be positive, survey finds",
+          "url": "https://www.theguardian.com/global-development/2026/jul/30/a-quarter-of-young-africans-believe-usaid-cuts-could-be-positive-survey-finds",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-29T11:47:05+00:00",
-          "desc": "People are being urged to stay alert, with earthquake aftershocks potentially reaching magnitude 7, officials say",
+          "publishedAt": "2026-07-30T05:00:53+00:00",
+          "desc": "Losing funds should force leaders to confront their own challenges, they said, while many voiced concerns over increasing foreign influence A quarter of young Africans believe aid cuts by the US could have a positive impact, saying that losing foreign money will force leaders to confront and solve t",
           "hotLabel": "",
-          "summary": "日本发生强震后，余震频繁，已造成13人死亡。",
-          "analysis": "日本地震频发反映了该地区地震活动的高风险。此次地震及其余震对日本社会和经济造成严重影响，包括基础设施损坏、人员伤亡和恐慌情绪。后续可能需要投入大量资源进行灾后重建和防震减灾工作。",
+          "summary": "非洲年轻人对美削减援助资金看法不一。",
+          "analysis": "尽管部分非洲年轻人认为美国削减援助资金可能促使非洲领导人面对自身挑战，但也有人对增加的外国影响力表示担忧。这反映了非洲国家在依赖外部援助与自主发展之间的矛盾。后续可能包括非洲国家在国际援助和自主发展方面的策略调整。",
           "keywords": [
-            "日本",
-            "地震",
-            "余震",
-            "灾害",
-            "重建"
+            "非洲",
+            "美国",
+            "援助资金",
+            "国际开发署",
+            "自主发展"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/28/world/asia/japan-earthquake-kumamoto-rescue-survivors.html"
-            },
-            {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/live/2026/jul/29/sanae-takaichi-rescue-trapped-shopping-centre-mall-japan-earthquake-latest-news-updates"
+              "url": "https://www.theguardian.com/global-development/2026/jul/30/a-quarter-of-young-africans-believe-usaid-cuts-could-be-positive-survey-finds"
             }
           ],
           "rank": 9
         },
         {
-          "title": "萨尔曼·鲁西迪袭击者被判恐怖主义罪名成立",
-          "titleOrig": "Salman Rushdie attacker convicted of terror offenses",
-          "url": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "安东尼·福奇日记抨击新闻集团记者莎莉·马克森的Covid-19调查",
+          "titleOrig": "Anthony Fauci’s diaries take aim at News Corp journalist Sharri Markson’s ‘nonsense’ Covid-19 investigation",
+          "url": "https://www.theguardian.com/us-news/2026/jul/30/anthony-faucis-diaries-take-aim-at-news-corp-journalist-sharri-marksons-nonsense-covid-19-investigation",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-29T22:15:33+00:00",
-          "desc": "Hadi Matar, 28, was convicted of attempting to help Hezbollah by attacking the British-Indian author.",
+          "publishedAt": "2026-07-30T04:10:53+00:00",
+          "desc": "US former top health official, who was subpoenaed to appear at a Senate hearing into Covid-19, says Markson’s reporting about virus’s origin ‘does not make any sense’Get our breaking news email, free app or daily news podcastDr Anthony Fauci, the US’s chief medical adviser at the start of the pandem",
           "hotLabel": "",
-          "summary": "28岁的Hadi Matar因攻击英国-印度作家萨尔曼·鲁西迪而被定罪。",
-          "analysis": "事件背景：萨尔曼·鲁西迪是一位知名作家，其作品曾引发争议。Hadi Matar的袭击事件是对言论自由和作家安全的挑战。关键影响：此事件突显了言论自由和宗教敏感性的冲突，对全球作家和言论自由倡导者产生警示。后续走向：预计将引发关于言论自由和宗教冲突的全球讨论。",
+          "summary": "美国前顶级卫生官员福奇抨击记者马克森对新冠病毒起源的调查为“胡说八道”。",
+          "analysis": "福奇的言论揭示了科学界与媒体在新冠病毒起源问题上的分歧。这可能会影响公众对病毒起源的理解，并对国际关系产生间接影响。未来，关于病毒起源的讨论可能更加激烈。",
           "keywords": [
-            "萨尔曼·鲁西迪",
-            "恐怖主义",
-            "言论自由",
-            "宗教冲突"
+            "福奇",
+            "新冠病毒",
+            "媒体调查"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/30/anthony-faucis-diaries-take-aim-at-news-corp-journalist-sharri-marksons-nonsense-covid-19-investigation"
             }
           ],
           "rank": 10
         },
         {
-          "title": "微软股价上涨8%，增加资本支出计划",
+          "title": "微软因需求增加提高资本支出计划，股价上涨8%",
           "titleOrig": "Microsoft jumps 8% as it boosts capital spending plans, citing demand",
           "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html",
           "source": "CNBC World",
@@ -445,17 +433,17 @@
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-30T01:15:08+00:00",
+          "publishedAt": "2026-07-30T03:09:11+00:00",
           "desc": "Microsoft sees positive free cash flow for the new fiscal year as it changes accounting for data centers and office buildings.",
           "hotLabel": "",
-          "summary": "微软因需求增加而提高数据中心和办公楼投资，预计新财年自由现金流为正。",
-          "analysis": "微软的资本支出增加表明公司对未来市场需求的信心。这一举措可能对科技行业产生示范效应，同时也反映了全球经济增长和技术创新的趋势。后续可能看到更多科技公司增加投资，以应对市场竞争。",
+          "summary": "微软因数据中心和办公楼投资增加而股价上涨。",
+          "analysis": "微软的资本支出增加反映了企业对云计算和数据中心的持续投资趋势。这表明技术行业对增长前景的信心，并可能推动全球对相关技术的需求。微软的举措可能激励其他科技公司加大投资，从而影响整个行业的发展。",
           "keywords": [
             "微软",
             "资本支出",
-            "科技行业",
-            "市场需求",
-            "经济趋势"
+            "云计算",
+            "数据中心",
+            "技术行业"
           ],
           "category": "economy",
           "importance": 75,
@@ -463,28 +451,76 @@
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/07/29/microsoft-msft-q4-earnings-report-2026.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/29/fed-meeting-interest-rates-warsh-stocks-bonds.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/29/spacex-memphis-ai-data-centers-face-house-energy-committee-demands.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/29/were-raising-our-price-target-on-starbucks-after-a-home-run-quarter-.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/07/29/openai-cfo-sarah-friar-tells-employees-arr-in-july-topped-all-of-q2.html"
             }
           ],
           "rank": 11
         },
         {
-          "title": "北爱尔兰一些忠诚派拥抱反移民意识形态",
+          "title": "中国光通信设备供应商中际旭创香港IPO后股价下跌",
+          "titleOrig": "China AI supplier Zhongji Innolight slips in Hong Kong debut after $6.8 billion IPO",
+          "url": "https://www.cnbc.com/2026/07/30/china-ai-supplier-zhongji-innolight-hong-kong-debut.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T02:15:40+00:00",
+          "desc": "Shares of Zhongji Innolight fell on Thursday after the Chinese optical transceiver maker made its trading debut on the Hong Kong Stock Exchange.",
+          "hotLabel": "",
+          "summary": "中际旭创在香港交易所上市后，股价出现下跌。",
+          "analysis": "中际旭创作为一家中国光通信设备制造商，在香港IPO后股价下跌可能反映了市场对其增长前景的担忧。这可能与全球经济不确定性、中美贸易摩擦以及香港股市整体表现不佳有关。该事件可能影响中国科技股在香港的表现，并对投资者信心产生一定影响。后续可能需要关注公司业绩和行业发展趋势。",
+          "keywords": [
+            "中际旭创",
+            "香港IPO",
+            "股价下跌",
+            "光通信设备",
+            "市场担忧"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-ai-supplier-zhongji-innolight-hong-kong-debut.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "俄勒冈州面临史上最严重野火季",
+          "titleOrig": "Oregon is on track for its worst wildfire season yet",
+          "url": "https://www.npr.org/2026/07/29/nx-s1-5910624/oregon-is-on-track-for-its-worst-wildfire-season-yet",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-29T20:28:44+00:00",
+          "desc": "Wildfires in central and eastern Oregon are prompting evacuations and forcing ranchers to scramble to move cattle and find feed as public range land burns. More than a million acres have burned so far. Most fires have little or no containment.",
+          "hotLabel": "",
+          "summary": "俄勒冈州中部和东部野火频发，导致居民疏散和牧场损失。",
+          "analysis": "俄勒冈州的野火问题反映了全球气候变化对自然环境和人类生活的影响。野火不仅对当地居民造成威胁，也可能对农业和旅游业产生负面影响。这要求各国加强应对气候变化的能力，并采取有效措施减少野火风险。后续可能需要关注野火控制情况以及气候变化对全球的影响。",
+          "keywords": [
+            "俄勒冈州",
+            "野火",
+            "气候变化",
+            "环境灾害",
+            "灾害应对"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/nx-s1-5910624/oregon-is-on-track-for-its-worst-wildfire-season-yet"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "一些北爱尔兰忠诚派拥抱反移民意识形态",
           "titleOrig": "Some Northern Ireland Loyalists Embrace an Anti-Immigrant Ideology",
           "url": "https://www.nytimes.com/2026/07/29/world/europe/northern-ireland-belfast-protestant-loyalists-immigration-violence.html",
           "source": "NYT World",
@@ -493,125 +529,198 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T14:57:51+00:00",
+          "publishedAt": "2026-07-30T04:16:58+00:00",
           "desc": "Northern Ireland’s Protestant loyalists have long felt their identity was under siege. Now anti-immigrant ideology has found a new toehold here.",
           "hotLabel": "",
-          "summary": "北爱尔兰一些忠诚派拥抱反移民意识形态。",
-          "analysis": "北爱尔兰忠诚派拥抱反移民意识形态反映了该地区社会矛盾的加剧。这一趋势可能对英国国内政治和北爱尔兰的和平进程产生负面影响。后续可能需要采取措施缓解社会矛盾，维护地区稳定。",
+          "summary": "北爱尔兰忠诚派开始接受反移民思想。",
+          "analysis": "北爱尔兰的忠诚派长期以来感到他们的身份受到威胁。随着反移民意识形态的兴起，这一群体开始接受这种思想。这反映了全球范围内民族主义和排外情绪的抬头，对欧洲的多元文化社会构成挑战。后续可能包括北爱尔兰内部的社会紧张和民族冲突加剧。",
           "keywords": [
             "北爱尔兰",
             "忠诚派",
             "反移民",
-            "意识形态",
-            "社会矛盾"
+            "民族主义",
+            "欧洲"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/29/world/europe/northern-ireland-belfast-protestant-loyalists-immigration-violence.html"
             }
           ],
-          "rank": 12
+          "rank": 14
         },
         {
-          "title": "四名女性指控杰瑞德·莱托性侵",
-          "titleOrig": "Four women accuse Jared Leto of criminal sexual conduct",
-          "url": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "澳大利亚新闻：Kumanjayi Little Baby谋杀案审判推迟至12月；两名维多利亚州工党部长将辞职",
+          "titleOrig": "Australia news live: Kumanjayi Little Baby murder trial delayed until December; two Victorian Labor ministers to quit politics",
+          "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-07-29T21:36:06+00:00",
-          "desc": "The actor and musician faces allegations from 10 women in total who say he mistreated them as teenagers.",
+          "publishedAt": "2026-07-30T07:59:08+00:00",
+          "desc": "Follow updates liveGet our breaking news email, free app or daily news podcastMinister says meeting Closing the Gap target a major step, but more work needed on othersMalarndirri McCarthy, the minister for Indigenous Australians, said early childhood education enrolment for First Nations children wa",
           "hotLabel": "",
-          "summary": "演员和音乐家杰瑞德·莱托面临10名女性的性侵指控。",
-          "analysis": "事件背景：杰瑞德·莱托是好莱坞知名演员，其性侵指控引发公众对名人道德和性侵问题的关注。关键影响：此事件可能影响好莱坞的名人形象，推动性侵问题的公开讨论。后续走向：预计将引发对名人道德和性侵问题的更广泛讨论。",
+          "summary": "澳大利亚Kumanjayi Little Baby谋杀案审判推迟，两名维多利亚州工党部长宣布辞职。",
+          "analysis": "此事件反映了澳大利亚社会对暴力犯罪的关注，以及政治人物面临的道德和职业压力。审判推迟可能影响公众对司法系统的信任。两位部长的辞职可能对工党政府构成挑战，影响政策制定和执行。",
           "keywords": [
-            "杰瑞德·莱托",
-            "性侵",
-            "好莱坞",
-            "名人道德"
+            "澳大利亚",
+            "谋杀案",
+            "政治辞职"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/live/2026/jul/30/antisemitism-royal-commission-nsw-icac-inquiry-closing-the-gap-data-torres-strait-climate-appeal-anthony-albanese-labor-angus-taylor-coalition-ntwnfb"
             }
           ],
-          "rank": 13
+          "rank": 15
         },
         {
-          "title": "特朗普对古巴施压，计划将古巴移民遣送至乌拉圭",
-          "titleOrig": "As Trump Squeezes Cuba, He Plans to Send Cuban Deportees to Uruguay",
-          "url": "https://www.nytimes.com/2026/07/29/us/politics/trump-cuban-deportees-uruguay.html",
+          "title": "参议院司法委员会推迟Blanche AG提名投票，因特朗普与IRS和解问题",
+          "titleOrig": "Senate Judiciary postpones Blanche AG nomination vote over Trump-IRS settlement concerns",
+          "url": "https://www.cnbc.com/2026/07/29/todd-blanche-attorney-general-trump-irs-audit-cornyn.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T04:16:32+00:00",
+          "desc": "Sen. John Cornyn, R-Texas, says the DOJ has failed to satisfy his concerns about a deal to shield President Donald Trump and others from IRS tax audits.",
+          "hotLabel": "",
+          "summary": "参议院推迟对Blanche AG的提名投票。",
+          "analysis": "参议院司法委员会推迟投票反映了美国政治中关于税收和司法独立的问题。这一事件可能影响美国司法系统的运作，并对特朗普政府的政策实施产生间接影响。未来，税收问题可能会成为政治斗争的焦点。",
+          "keywords": [
+            "美国",
+            "司法系统",
+            "税收问题",
+            "政治斗争",
+            "司法独立"
+          ],
+          "category": "domestic",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/29/todd-blanche-attorney-general-trump-irs-audit-cornyn.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "数百名约旦人公开反对美军驻扎",
+          "titleOrig": "Some Jordanians Dare to Speak Out Against U.S. Troop Presence",
+          "url": "https://www.nytimes.com/2026/07/29/world/middleeast/jordan-us-military-iran-war.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T22:57:48+00:00",
-          "desc": "The State Department under Secretary of State Marco Rubio has deported Cubans to Africa. Now it’s negotiating with a South American country.",
+          "publishedAt": "2026-07-29T12:57:59+00:00",
+          "desc": "Hundreds of political, legal and other figures signed a public letter warning that Jordan’s close alliance with the United States poses a risk.",
           "hotLabel": "",
-          "summary": "美国计划将古巴移民遣送至乌拉圭。",
-          "analysis": "事件背景：美古关系紧张。关键影响：可能加剧古巴移民问题。后续走向：可能引发国际关注和争议。",
+          "summary": "约旦数百名政治、法律和其他界别人士签署公开信，警告约旦与美国紧密联盟的风险。",
+          "analysis": "约旦与美国的关系一直是中东地区的一个重要政治因素。此次反对美军驻扎的公开信可能反映了约旦国内对美军存在的不满，以及对美国政策的不信任。这可能会影响约旦与美国的关系，并对整个中东地区的地缘政治格局产生影响。后续可能需要关注约旦国内政治动态以及美约关系的走向。",
           "keywords": [
-            "美古关系",
-            "移民问题",
-            "古巴",
-            "乌拉圭",
-            "国际争议"
+            "约旦",
+            "美军驻扎",
+            "反对",
+            "地缘政治",
+            "中东"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/07/29/us/politics/trump-cuban-deportees-uruguay.html"
+              "url": "https://www.nytimes.com/2026/07/29/world/middleeast/jordan-us-military-iran-war.html"
             }
           ],
-          "rank": 14
+          "rank": 17
         },
         {
-          "title": "2025年反犹太主义袭击最严重年份",
-          "titleOrig": "Report finds 2025 was deadliest year for antisemitic attacks outside Israel",
-          "url": "https://www.dw.com/en/report-finds-2025-was-deadliest-year-for-antisemitic-attacks-outside-israel/a-78166044?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "气候变化和关税如何帮助中国养更多牛",
+          "titleOrig": "How Climate Change and Tariffs Help China Raise More Cattle",
+          "url": "https://www.nytimes.com/2026/07/30/business/china-beef-imports-tariffs.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-07-29T20:42:00+00:00",
-          "desc": "Germany had the highest number of antisemitic incidents in 2025, both in absolute and relative terms, a report has found.",
+          "publishedAt": "2026-07-30T04:00:12+00:00",
+          "desc": "As increased rain makes grasslands and cornfields possible in areas that once were deserts, the world’s largest beef importer is becoming more self-reliant by expanding domestic herds.",
           "hotLabel": "",
-          "summary": "报告称2025年以色列以外地区反犹太主义袭击最为严重，德国数量最多。",
-          "analysis": "这一报告揭示了反犹太主义在全球范围内的严重性，特别是德国作为历史上反犹太主义问题严重的国家，这一问题至今仍存在。这反映了社会偏见和极端主义思想的挑战，对国际社会提出了维护和平与多元文化的责任。",
+          "summary": "气候变化和关税政策影响中国牛肉进口。",
+          "analysis": "气候变化导致草地和农田增加，使得中国牛肉进口依赖度降低。对国内而言，这可能促进国内畜牧业发展，提高自给自足能力。对国际社会，这反映了全球气候变化对农业和贸易的影响。后续可能加强国内畜牧业支持政策，提高农业抗风险能力。",
           "keywords": [
-            "反犹太主义",
-            "德国",
-            "袭击",
-            "社会问题",
-            "国际关系"
+            "气候变化",
+            "牛肉进口",
+            "畜牧业",
+            "自给自足",
+            "农业政策"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/report-finds-2025-was-deadliest-year-for-antisemitic-attacks-outside-israel/a-78166044?maca=en-rss-en-all-1573-rdf"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/business/china-beef-imports-tariffs.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
             }
           ],
-          "rank": 15
+          "rank": 19
         },
         {
-          "title": "古巴能源危机下，他用巨型电池举办派对",
+          "title": "2026年阿奇博尔德奖：邦迪恐怖袭击后犹太领袖肖像获人民选择奖",
+          "titleOrig": "Archibald prize 2026: portrait of Jewish leader after Bondi terror attack wins people’s choice award",
+          "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T06:22:20+00:00",
+          "desc": "Artist Michael Zavros says he was inspired by a deep respect for Alex Ryvchin’s leadership, as well as an uncanny likeness between the two menAn artist’s portrayal of a Jewish leader produced just weeks after the Bondi massacre has won the Archibald people’s choice category.Michael Zavros won the $5",
+          "hotLabel": "",
+          "summary": "艺术家迈克尔·扎沃斯的作品，描绘犹太领袖的肖像，在邦迪恐怖袭击后获得人民选择奖。",
+          "analysis": "该奖项反映了社会对恐怖主义事件的记忆和对领导者的尊敬。艺术作品成为社会情绪的载体，影响公众对恐怖主义和领导力的看法。这表明艺术在处理社会冲突和促进社会团结方面的重要作用。",
+          "keywords": [
+            "阿奇博尔德奖",
+            "犹太领袖",
+            "恐怖袭击"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/artanddesign/2026/jul/30/archibald-prize-2026-portrait-of-jewish-leader-after-bondi-terror-attack-wins-peoples-choice-award"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "古巴电力短缺，他用巨型电池举办派对",
           "titleOrig": "With Little Electricity in Cuba, He Uses a Giant Battery to Throw Parties",
           "url": "https://www.nytimes.com/2026/07/29/world/americas/havana-cuba-parties-david-gonzalez.html",
           "source": "NYT World",
@@ -623,147 +732,21 @@
           "publishedAt": "2026-07-29T15:28:02+00:00",
           "desc": "David González has suddenly become the host of Havana’s hottest parties amid its energy crisis. Can he turn them into a movement?",
           "hotLabel": "",
-          "summary": "古巴能源危机下，David González用巨型电池举办派对。",
-          "analysis": "古巴能源危机反映了该国的经济困境和能源供应不足。David González利用创新方式举办派对，反映了古巴人民在困境中的乐观和创造力。这一事件可能引发对古巴能源政策和经济发展模式的讨论。",
+          "summary": "古巴能源危机中，David González利用巨型电池举办派对，成为哈瓦那最热门的派对主持人。",
+          "analysis": "古巴的能源危机揭示了该国的经济困境和基础设施不足。David González利用创新方式举办派对，反映了古巴人在困境中的创造力。这一事件可能成为古巴社会变革的一个象征，并引发对国家能源政策和经济发展模式的讨论。后续可能需要关注古巴的能源改革和经济结构调整。",
           "keywords": [
             "古巴",
             "能源危机",
+            "巨型电池",
             "派对",
-            "创新",
-            "经济困境"
+            "社会变革"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 65,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/07/29/world/americas/havana-cuba-parties-david-gonzalez.html"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "反对风能太阳能运动削弱可再生能源支持",
-          "titleOrig": "‘Extremely effective’ organised campaigns against wind and solar undermining support for renewable energy",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/australians-value-batteries-and-evs-but-renewables-industry-must-earn-trust-of-regions-summit-told",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-29T15:00:36+00:00",
-          "desc": "Clean Energy Council calls for a national, legislated scheme to funnel benefits of hosting renewables projects back to local councilsSign up for climate and environment editor Adam Morton’s free Clear Air newsletter hereFollow our Australia news live blog for latest updatesOrganised campaigns agains",
-          "hotLabel": "",
-          "summary": "英国清洁能源委员会呼吁立法方案，将可再生能源项目收益返还给地方议会。",
-          "analysis": "事件背景：英国在推动可再生能源方面取得显著进展，但反对运动影响了公众对可再生能源的支持。关键影响：此事件可能减缓英国在可再生能源领域的进展，影响其气候目标实现。后续走向：预计将引发关于如何平衡能源政策与公众意见的讨论。",
-          "keywords": [
-            "英国",
-            "可再生能源",
-            "反对运动",
-            "能源政策"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/jul/30/australians-value-batteries-and-evs-but-renewables-industry-must-earn-trust-of-regions-summit-told"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "澳大利亚奥运划船比赛选址引发争议",
-          "titleOrig": "Gina Rinehart lobbied for controversial plan to move 2032 Olympic rowing to crocodile-inhabited river",
-          "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-29T23:23:23+00:00",
-          "desc": "Decision to host event on Fitzroy River at Rockhampton, 600km north of host city Brisbane, prompted significant backlashFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAustralia’s richest person, Gina Rinehart, lobbied for controversia",
-          "hotLabel": "",
-          "summary": "澳大利亚最富有人士Gina Rinehart推动将奥运划船比赛移至鳄鱼栖息地。",
-          "analysis": "事件背景：奥运选址引发环保和生态保护争议。关键影响：可能影响奥运会的形象和可持续性。后续走向：需考虑生态保护和赛事安排。",
-          "keywords": [
-            "奥运选址",
-            "生态争议",
-            "澳大利亚",
-            "Gina Rinehart",
-            "可持续性"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/jul/30/gina-rinehart-fitzroy-river-rowing-crocodiles-brisbane-olympics-2032"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "欧洲LGBTQ+权利保护状况",
-          "titleOrig": "How well are LGBTQ+ rights protected across Europe?",
-          "url": "https://www.dw.com/en/how-well-are-lgbtq-rights-protected-across-europe/a-78166254?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-07-29T19:53:00+00:00",
-          "desc": "After the attack on Berlin’s Pride event on Saturday, the situation of the LGBTQ+ community in Germany is a topic of conversation. How well are queer rights protected in other European countries? An overview.",
-          "hotLabel": "",
-          "summary": "柏林骄傲活动袭击后，探讨欧洲LGBTQ+社区权利保护状况。",
-          "analysis": "这一事件凸显了LGBTQ+群体在欧洲面临的挑战。不同国家对LGBTQ+权利的保护程度不一，反映了社会价值观和立法差异。这一话题可能引发对人权和性别平等的全球讨论，并对欧洲社会和政治产生影响。",
-          "keywords": [
-            "LGBTQ+",
-            "欧洲",
-            "人权",
-            "社会问题",
-            "政治影响"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/how-well-are-lgbtq-rights-protected-across-europe/a-78166254?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "Zendaya谈与汤姆·赫兰德合作拍《蜘蛛侠》",
-          "titleOrig": "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
-          "url": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-07-29T20:21:46+00:00",
-          "desc": "The couple walked the white carpet at the London premiere of their latest film, Spiderman: Brand New Day.",
-          "hotLabel": "",
-          "summary": "Zendaya和汤姆·赫兰德在伦敦首映式上亮相。",
-          "analysis": "事件背景：电影《蜘蛛侠：新纪元》是蜘蛛侠系列的最新作品，Zendaya和汤姆·赫兰德的合作备受关注。关键影响：此事件可能提升《蜘蛛侠》系列的知名度和影响力。后续走向：预计将推动电影票房和粉丝活动。",
-          "keywords": [
-            "蜘蛛侠",
-            "Zendaya",
-            "汤姆·赫兰德",
-            "电影首映"
-          ],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -772,56 +755,204 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势呈现出政策导向与民生热点交织的特点。一方面，国内政策持续强调马克思主义的生命力，展现了对国家发展的坚定信心。经济领域，地方国企利润总额持续增长，显示经济基本面稳健。另一方面，社会事件频发，如基因编辑试验引发的争议、暴雨预警下的公共安全挑战，以及网络舆情对消费行为的影响，均提示社会管理需与时俱进。在国际关系方面，中国积极与多国领导人会晤，展现大国担当。综合来看，当前国内形势在稳定中求进，最值得关注的是如何平衡政策导向与民生需求，确保社会和谐稳定。",
+      "digest": "今日国内形势综述显示，我国政策与社会动向呈现出多方面的发展脉络。经济领域，上半年全国社会物流总额达到181.1万亿元，携程被罚51.79亿，反映出市场竞争规则的改写。同时，我国全面驳斥“产能过剩”论调，特朗普关税政策导致部分企业回流中国，显示出我国经济的韧性和国际竞争力。在科技领域，加快构建人工智能安全治理体系，体现了我国对科技创新的重视。社会方面，长治市委原副书记陈向阳接受审查调查，上海6岁女孩基因编辑试验后死亡等事件，提醒社会关注公共安全和伦理问题。国际方面，欧洲山火、台湾大规模抗议活动、日本熊本县地震等事件，表明国际形势复杂多变，我国在国际事务中发挥着越来越重要的作用。总体来看，我国正以坚定的步伐迈向全面建设社会主义现代化国家的新征程。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "新时代伟大实践彰显马克思主义强大生命力",
-          "titleOrig": "新时代伟大实践彰显马克思主义强大生命力 - 求是",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iZEdTUVIwMnBzNjFzQVJibk5wbW16ZTVNLW41dUpNRkxHRUNBVy1XRUxsckN0WDl5RTY5OWo0Ylg0QlpLVzgxNTNyZHdxVXFjbE82T3BIRUVBZEhTZC1IZ1JXcEVCS1VURmdGdkIwOXdXNkpiR052Z3pZQ3Y?oc=5",
+          "title": "长治市委原副书记陈向阳接受审查调查",
+          "titleOrig": "山西省长治市委原副书记，市政府原党组书记、市长陈向阳接受审查调查 - 第一财经",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kSDFOTzNNVjMzVGRWRzVUOVNXMXhlTnVfNV9YVno4Y0NzdjA3ZlBvMHpLM1NHZ2dpcVpNeFE3cXlMTEFyTHJhaEpGdm1WdnVDbTJoNA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-30T00:38:42+00:00",
-          "desc": "新时代伟大实践彰显马克思主义强大生命力 求是“始终同人民同呼吸、共命运、心连心”（总书记的人民情怀） 人民日报理响中国｜文献里的党史密码：“把准前进方向”靠什么？ 新浪财经把党的优秀特质不断发扬光大 中国经济网画里有话丨经典重绘之《提拔之后》-新闻 北国网",
+          "publishedAt": "2026-07-30T06:05:00+00:00",
+          "desc": "山西省长治市委原副书记，市政府原党组书记、市长陈向阳接受审查调查 第一财经长治市委原副书记，市政府原党组书记、市长陈向阳接受纪律审查和监察调查- 中国日报网 China Daily任内发生82死矿难，山西长治市原市长陈向阳被查 guancha.cn山西长治原市长陈向阳被查 瓦斯爆炸事故后致歉 中华网山西省长治市原市长陈向阳被查，曾在82人遇难煤矿事故发布会上鞠躬致歉 Sohu",
           "hotLabel": "",
-          "summary": "强调马克思主义在新时代的重要性",
-          "analysis": "该新闻体现了中国共产党对马克思主义理论的坚持和发展。在新时代背景下，通过实践来彰显马克思主义的生命力，表明了党的理论指导地位。这反映了党在理论创新上的决心，以及对社会主义核心价值观的坚守。对国内民生意味着继续深化改革开放，对经济意味着坚持高质量发展，对治理意味着强化党的领导。后续走向可能包括进一步的理论创新和实践活动。",
+          "summary": "长治市委原副书记陈向阳被审查调查。",
+          "analysis": "此事件反映了中国共产党在反腐败斗争中的坚定决心。陈向阳的接受审查调查，说明政府对于官员腐败的零容忍态度，对国内官员产生警示作用，有助于提升政府形象和公信力。后续可能引发一系列反腐行动，进一步净化政治生态。",
           "keywords": [
-            "马克思主义",
-            "新时代",
-            "理论创新",
-            "党的领导",
-            "高质量发展"
+            "反腐败",
+            "官员审查",
+            "政治生态",
+            "政府形象",
+            "反腐斗争"
           ],
-          "category": "domestic",
+          "category": "society",
           "importance": 90,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1iZEdTUVIwMnBzNjFzQVJibk5wbW16ZTVNLW41dUpNRkxHRUNBVy1XRUxsckN0WDl5RTY5OWo0Ylg0QlpLVzgxNTNyZHdxVXFjbE82T3BIRUVBZEhTZC1IZ1JXcEVCS1VURmdGdkIwOXdXNkpiR052Z3pZQ3Y?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KSkRBbDlvVVhWd0J6SktVUXdoZXVmN2JxeGxPcEpPakdNMm5ITkltdmV5REhaaF84MnZUWS14SWdkTXhOOU9TMDZrWUdGdTZ1dllnTHFXREk2cXNVbXUyNlNLNjliY013?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmdRVE5jZEZCUVM3VUtwNHlEQ0wyOVRSbl9Ba2MwOU12Z2FubnNvc0h6ZHFONjAzNTdIbTlvRUxHS1hwdFZJMTVJbWNOWDhnYWpJam9aNkRtSVdqR0lic0p3cS1MSkJ2Mk1odWVVOHZ5U2dJZm1zaGNfbE5INEpib292YWpIQl9uQi1hYg?oc=5"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%BF%83%E8%BF%9B%E5%9B%A2%E7%BB%93%E5%A5%8B%E6%96%97%20%E6%B1%87%E8%81%9A%E7%A3%85%E7%A4%B4%E5%8A%9B%E9%87%8F"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E9%80%83%E7%8A%AF%E6%BD%9C%E9%80%83%E4%B8%8A%E6%B5%B7%20%E4%BB%BB%E9%AB%98%E6%A0%A1%E5%A4%96%E6%95%99%E9%A2%87%E5%8F%97%E6%AC%A2%E8%BF%8E"
+              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5kSDFOTzNNVjMzVGRWRzVUOVNXMXhlTnVfNV9YVno4Y0NzdjA3ZlBvMHpLM1NHZ2dpcVpNeFE3cXlMTEFyTHJhaEpGdm1WdnVDbTJoNA?oc=5"
             }
           ],
           "rank": 1
+        },
+        {
+          "title": "上半年全国社会物流总额为181.1万亿元",
+          "titleOrig": "上半年全国社会物流总额为181.1万亿元 - 中国服务贸易指南网",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PODFrd1pkMm5FcmtNUk5XMElxRHhWNVU3ckNiUmYxWXdNNmZTRmoyQk0talNhb2pBTVBZcTkySm52QVFGZE1sZXNxSkdCQTR5eGEwRWNJQ1BlS2FVc0Nha2tWaFowUExweXk3SkI3RVlQSU1QTDlWWVB1NlE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T01:54:42+00:00",
+          "desc": "上半年全国社会物流总额为181.1万亿元 中国服务贸易指南网超大规模市场支撑经济向新向优 新浪网物流运行平稳 结构优化升级——透视我国上半年物流运行发展 经济频道物流需求“含新量”“含绿量”提升 智能科技在物流行业“大显身手” Sohu上半年居民消费物流保持韧性增长 线上消费是核心动力 手机网易网",
+          "hotLabel": "",
+          "summary": "上半年全国社会物流总额达181.1万亿元。",
+          "analysis": "上半年社会物流总额的增长反映了国内经济的活跃和物流行业的快速发展。这一数据表明，物流行业在促进经济增长和优化产业结构中发挥着重要作用。未来，随着物流需求的进一步提升，智能科技在物流行业的应用将更加广泛。",
+          "keywords": [
+            "物流总额",
+            "经济增长",
+            "物流行业",
+            "智能科技",
+            "产业结构"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5PODFrd1pkMm5FcmtNUk5XMElxRHhWNVU3ckNiUmYxWXdNNmZTRmoyQk0talNhb2pBTVBZcTkySm52QVFGZE1sZXNxSkdCQTR5eGEwRWNJQ1BlS2FVc0Nha2tWaFowUExweXk3SkI3RVlQSU1QTDlWWVB1NlE?oc=5"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "携程被罚51.79亿：梁建章催生与平台竞争规则改写",
+          "titleOrig": "携程的吸血与梁建章的催生 - 红歌会网",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiazhMYnJ0S2ZHdWg3a25ISXd5QU9EY3hZX0YyRXdGUnhtSlN6Q0loOFFSbTd2NHNGb2k0NGozUlMzMnJTRnlmRDVrbWZiMURLT3FvYXZYMkFaNFY1X3FJWFZwTS1fbTRuZnJQbDhxazdvWVhr?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T01:32:27+00:00",
+          "desc": "携程的吸血与梁建章的催生 红歌会网携程被罚51.79亿后，应重点关注这些后续 新浪网携程垄断案将改写平台竞争规则 中国经济网携程被罚后，最大股东被扒 凤凰网财经52亿罚单：携程的流量游戏算是玩到头了 Sohu",
+          "hotLabel": "",
+          "summary": "携程因垄断被罚巨额，引发行业关注。",
+          "analysis": "携程被罚背后反映了中国政府对互联网垄断的严格监管态度。此事件可能促使平台经济领域竞争规则的调整，对行业健康发展有深远影响。对消费者而言，可能带来更公平的市场环境。后续可能出台更多反垄断政策，规范市场秩序。",
+          "keywords": [
+            "携程",
+            "垄断",
+            "罚款",
+            "平台经济",
+            "竞争规则"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiazhMYnJ0S2ZHdWg3a25ISXd5QU9EY3hZX0YyRXdGUnhtSlN6Q0loOFFSbTd2NHNGb2k0NGozUlMzMnJTRnlmRDVrbWZiMURLT3FvYXZYMkFaNFY1X3FJWFZwTS1fbTRuZnJQbDhxazdvWVhr?oc=5"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "加快构建人工智能安全治理体系",
+          "titleOrig": "加快构建人工智能安全治理体系 - cppcc.gov.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10aHJLU0lqazhRVk5ET0Qya3U0WGMzd0VFdkIwdGpmQUNmU1JYU3d5aUY2MERFNG04NzlVQTZZMkI3MGY0d1FUMDRMNzlDRWgtRHM2SW1QY2NNX2xmQm1TRGRyc1NhbkRU?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T03:26:55+00:00",
+          "desc": "加快构建人工智能安全治理体系 cppcc.gov.cn“中国方案”推动人工智能向善普惠发展 新浪网上海超原脑科学产业研究院联合实验室网络暨国家脑库计划在2026世界人工智能大会正式启动 中华网当鸿沟不断拉大，普惠如何实现？（求解时代之问④） 人民日报中亚专家：世界人工智能合作组织成立是“里程碑” 中青网",
+          "hotLabel": "",
+          "summary": "推动人工智能向善普惠发展。",
+          "analysis": "该新闻体现了中国政府对人工智能发展的重视，强调安全治理体系的重要性。随着人工智能技术的快速发展，构建安全治理体系对于防范风险、保护公民权益至关重要。这表明中国将推动人工智能技术健康发展，并可能在政策和法规层面加强监管。",
+          "keywords": [
+            "人工智能",
+            "安全治理",
+            "技术发展",
+            "政策监管",
+            "风险防范"
+          ],
+          "category": "tech",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE10aHJLU0lqazhRVk5ET0Qya3U0WGMzd0VFdkIwdGpmQUNmU1JYU3d5aUY2MERFNG04NzlVQTZZMkI3MGY0d1FUMDRMNzlDRWgtRHM2SW1QY2NNX2xmQm1TRGRyc1NhbkRU?oc=5"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "欧洲山火持续蔓延，希腊3名消防员殉职",
+          "titleOrig": "欧洲山火持续蔓延 希腊3名消防员殉职 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OWXktS3E2Nmw5RXpsajhyV1VBVy1EZnJIcFNlY1NYOV9Idk05MTRaWUJYelNMMDR2bEhsZC1UVE9DajRBQjlZUU9Vbi1zRGlreElFWURiOTVFVFBrT3VEdk9BalY5Y09k?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T06:01:44+00:00",
+          "desc": "欧洲山火持续蔓延 希腊3名消防员殉职 chinanews.com.cn希腊多地爆发野火 两名消防员殉职 新华网视频丨希腊南部山火致3名消防员死亡 Sohu两名消防员在克里特岛的植被火灾中遇难。多个地方已被疏散。 Informat.ro帕罗斯岛野火连续第二日蔓延当局紧急疏散并增派灭火力量| 乌克兰新闻 Межа. Новини України.",
+          "hotLabel": "",
+          "summary": "希腊多地爆发山火，消防员英勇牺牲。",
+          "analysis": "欧洲山火频发反映了气候变化对全球生态环境的严重影响。希腊消防员的牺牲凸显了自然灾害对公共安全的挑战。事件背后反映的是全球气候变化政策的不确定性，以及各国应对自然灾害能力的差异。对国内而言，这提醒了加强防灾减灾体系和国际合作的必要性。后续可能引发全球对气候变化和防灾能力的关注。",
+          "keywords": [
+            "山火",
+            "气候变化",
+            "消防员",
+            "公共安全",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OWXktS3E2Nmw5RXpsajhyV1VBVy1EZnJIcFNlY1NYOV9Idk05MTRaWUJYelNMMDR2bEhsZC1UVE9DajRBQjlZUU9Vbi1zRGlreElFWURiOTVFVFBrT3VEdk9BalY5Y09k?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "台湾大规模抗议活动",
+          "titleOrig": "台湾爆发大规模抗议",
+          "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "台湾爆发大规模抗议活动。",
+          "analysis": "台湾抗议活动反映了台湾社会对某些政策的强烈不满。此事件可能影响两岸关系，对地区稳定构成挑战。中国政府可能采取措施维护两岸关系和平稳定。",
+          "keywords": [
+            "台湾",
+            "抗议",
+            "两岸关系",
+            "稳定",
+            "政策"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            }
+          ],
+          "rank": 6
         },
         {
           "title": "上海6岁女孩基因编辑试验后死亡",
@@ -836,252 +967,116 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "上海6岁女孩基因编辑试验后不幸去世。",
-          "analysis": "基因编辑技术临床试验存在伦理和风险问题。该事件引发社会对生物医学研究的伦理审查和监管的讨论。后续可能加强临床试验监管，提高伦理审查标准。",
+          "summary": "上海6岁女孩基因编辑试验出现意外，导致死亡。",
+          "analysis": "基因编辑技术作为前沿科技，其伦理和安全问题是全球关注的焦点。此次事件凸显了基因编辑技术在临床试验阶段的风险管理和伦理审查的重要性。对国内而言，这可能会促使政府加强相关领域的监管，并推动生物伦理法规的完善。对国际社会，此事件可能引发对基因编辑技术应用的重新审视。后续可能出台更严格的临床试验规范和伦理审查标准。",
           "keywords": [
             "基因编辑",
             "临床试验",
-            "伦理审查",
-            "生物医学研究",
-            "监管"
+            "伦理",
+            "监管",
+            "安全"
           ],
-          "category": "society",
-          "importance": 90,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E4%B8%8A%E6%B5%B7%206%20%E5%B2%81%E5%A5%B3%E5%AD%A9%E5%9F%BA%E5%9B%A0%E7%BC%96%E8%BE%91%E8%AF%95%E9%AA%8C%E5%90%8E%E6%AD%BB%E4%BA%A1"
             }
           ],
-          "rank": 2
+          "rank": 7
         },
         {
-          "title": "伊朗官员称美沙空袭致伊朗革命卫队成员身亡",
-          "titleOrig": "伊朗官员：美沙空袭伊拉克致4名伊朗革命卫队成员身亡 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsVDNNMjc2cmViYkFZRGlQMVFxNHhJOHViU0tyVk1xbVh5cmp4X01UT29NQ3QxcUh2TEVpZHdEblNoR0g3U0lJVW16TjI2Snl6YUZvYzI4eG5sU3RoZlJKVGNTaUpQRi16?oc=5",
+          "title": "中国全面驳斥“产能过剩”论调",
+          "titleOrig": "全球媒体聚焦｜中国全面驳斥“产能过剩”论调 - 中国网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pZTFYQVZONHFUaGJEWGFjdHRCS0doRjU0RTcxdkE1QWZwUXVvaS05RldMVklFZmhlS0FWYjEwQzZKUnktNFpYWnM0cHA1SEs1ZXhIYzZNbzdobldta09IUTdBVDl1QVZrOGpXeWtITQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-29T22:51:22+00:00",
-          "desc": "伊朗官员：美沙空袭伊拉克致4名伊朗革命卫队成员身亡 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-07-30T02:42:00+00:00",
+          "desc": "全球媒体聚焦｜中国全面驳斥“产能过剩”论调 中国网北京反驳“中国产能过剩” 西方会买账吗？ DW.com商务部发万字长文表明中方立场 其中有何深意？一文读懂 新浪网成本降低、技术进步 产业发展背后的“中国机遇2.0” 中青网“中国冲击2.0”论调站不住脚 光明网",
           "hotLabel": "",
-          "summary": "伊朗官员称美国和沙特阿拉伯空袭伊拉克导致伊朗革命卫队成员死亡。",
-          "analysis": "这一事件加剧了中东地区的紧张局势，可能引发更大规模的冲突。对国际政治和地区安全有重大影响。后续可能包括伊朗的报复行动或国际社会的调解。",
+          "summary": "中国网反驳“中国产能过剩”论调。",
+          "analysis": "这一事件背景是中国经济结构调整和转型升级的关键时期，西方媒体对“产能过剩”的论调反映了国际社会对中国经济形势的关注和质疑。中国全面驳斥此论调，表明政府对于经济结构调整的信心，以及对国内外舆论引导的重视。这对国内外市场信心有正面影响，后续政策可能更加注重供需平衡和产业升级。",
           "keywords": [
-            "伊朗",
-            "美国",
-            "沙特",
-            "空袭",
-            "中东冲突"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBsVDNNMjc2cmViYkFZRGlQMVFxNHhJOHViU0tyVk1xbVh5cmp4X01UT29NQ3QxcUh2TEVpZHdEblNoR0g3U0lJVW16TjI2Snl6YUZvYzI4eG5sU3RoZlJKVGNTaUpQRi16?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "美国通缉重犯在华东师范大学任职",
-          "titleOrig": "美通缉重犯在华东师范大学任职",
-          "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E9%80%9A%E7%BC%89%E9%87%8D%E7%8A%AF%E5%9C%A8%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%BB%E8%81%8C",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "美国通缉犯在知名高校任职引发关注。",
-          "analysis": "该事件反映了国际司法合作与教育机构安全管理的复杂性。一方面，表明我国在司法合作方面取得一定成果，但同时也暴露出高校安全管理漏洞。这对我国教育体系的声誉和国家安全构成挑战。后续可能加强国际合作，提高高校安全管理。",
-          "keywords": [
-            "美国通缉犯",
-            "华东师范大学",
-            "司法合作",
-            "高校安全",
-            "国家安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E9%80%9A%E7%BC%89%E9%87%8D%E7%8A%AF%E5%9C%A8%E5%8D%8E%E4%B8%9C%E5%B8%88%E8%8C%83%E5%A4%A7%E5%AD%A6%E4%BB%BB%E8%81%8C"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "内塔尼亚胡与特朗普讨论对伊策略",
-          "titleOrig": "内塔尼亚胡被曝与特朗普讨论三种对伊策略 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KSkRBbDlvVVhWd0J6SktVUXdoZXVmN2JxeGxPcEpPakdNMm5ITkltdmV5REhaaF84MnZUWS14SWdkTXhOOU9TMDZrWUdGdTZ1dllnTHFXREk2cXNVbXUyNlNLNjliY013?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-29T22:28:53+00:00",
-          "desc": "内塔尼亚胡被曝与特朗普讨论三种对伊策略 chinanews.com.cn国际观察丨这边谈罢那边打，美以伊渐入新博弈 新华网内塔尼亚胡称与特朗普进行了一次“极佳的会晤” 新浪财经对伊朗军事行动以来 美以领导人首次会晤 央视网以媒：内塔尼亚胡向特朗普阐述对伊“三种情景” 新京报",
-          "hotLabel": "",
-          "summary": "以色列总理内塔尼亚胡与美国前总统特朗普讨论对伊朗的三种策略。",
-          "analysis": "此次会晤反映了美以两国在伊朗问题上的紧密合作，旨在通过外交和军事手段遏制伊朗的影响力。这一事件背景是美国对伊朗的制裁和军事压力，以及以色列对伊朗核计划的担忧。对国内民生和经济影响有限，但对国际政治格局有重要影响。后续走向可能包括进一步的军事行动或外交谈判。",
-          "keywords": [
-            "内塔尼亚胡",
-            "特朗普",
-            "伊朗",
-            "美国",
-            "以色列"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5KSkRBbDlvVVhWd0J6SktVUXdoZXVmN2JxeGxPcEpPakdNMm5ITkltdmV5REhaaF84MnZUWS14SWdkTXhOOU9TMDZrWUdGdTZ1dllnTHFXREk2cXNVbXUyNlNLNjliY013?oc=5"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "凝心聚力学精神笃行实干担使命：西班牙青田同乡会学习全国侨务工作会议精神",
-          "titleOrig": "凝心聚力学精神笃行实干担使命｜西班牙青田同乡会举办全国侨务工作会议精神专题学习座谈会 - ouhua.info",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvQVFhTU91WVJXdXE4UURKa2FzZFlnaHBWMDdpMWpvLVNhQVhaNTVaN3VXMndsVVBBcW5CZWI2TEsyZ19STHBoQUZIM05MZWdPMk9LTg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-29T15:39:00+00:00",
-          "desc": "凝心聚力学精神笃行实干担使命｜西班牙青田同乡会举办全国侨务工作会议精神专题学习座谈会 ouhua.info一见·做好新时代侨务工作，总书记重要指示深意何在？ 光明网促进海内外中华儿女团结奋斗 人民日报习言道｜看到一封封侨批，习近平一席话意味深长 新浪新闻_手机新浪网把华侨华人当威胁，到底是谁心虚？ 中国网新闻中心",
-          "hotLabel": "",
-          "summary": "西班牙青田同乡会举办学习座谈会，探讨新时代侨务工作。",
-          "analysis": "此事件反映了国家对侨务工作的重视，旨在加强海外华侨华人的团结与合作。通过学习全国侨务工作会议精神，有助于提升侨务工作的针对性和实效性，对促进中外文化交流、维护国家利益具有重要意义。后续可能出台更多政策支持海外华侨华人参与国家建设。",
-          "keywords": [
-            "侨务工作",
-            "华侨华人",
-            "团结奋斗",
-            "文化交流",
-            "国家利益"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBvQVFhTU91WVJXdXE4UURKa2FzZFlnaHBWMDdpMWpvLVNhQVhaNTVaN3VXMndsVVBBcW5CZWI2TEsyZ19STHBoQUZIM05MZWdPMk9LTg?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "上半年地方国企实现利润总额8126.8亿元",
-          "titleOrig": "上半年地方国企实现利润总额8126.8亿元 - 中国网新闻中心",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dmxsRFlpOTdSUmNuZksyRnBsWl9MUGM2OGRKRnBCLUR6Y05oQlhEWW1ZSE42OHlMVDZRZU9SeHRaTks3STdwR1RGTWFhWllkTm9LZDNJRXd6RDRxYWUzYkdYcTdlZWVyLTA4?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-29T17:16:00+00:00",
-          "desc": "上半年地方国企实现利润总额8126.8亿元 中国网新闻中心在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "地方国企上半年利润增长",
-          "analysis": "该新闻反映了我国地方国企的经济表现。地方国企利润的增长表明了我国经济结构调整和转型升级的成效，对经济意味着国企在国民经济中的重要作用。对国内民生意味着国企的稳定发展有助于保障就业和民生，对治理意味着国企改革的重要性。后续走向可能包括国企改革的深化和结构调整的持续。",
-          "keywords": [
-            "地方国企",
-            "利润增长",
-            "经济表现",
-            "国企改革",
-            "结构调整"
+            "产能过剩",
+            "经济结构调整",
+            "国际舆论",
+            "市场信心",
+            "产业升级"
           ],
           "category": "economy",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE15dmxsRFlpOTdSUmNuZksyRnBsWl9MUGM2OGRKRnBCLUR6Y05oQlhEWW1ZSE42OHlMVDZRZU9SeHRaTks3STdwR1RGTWFhWllkTm9LZDNJRXd6RDRxYWUzYkdYcTdlZWVyLTA4?oc=5"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "辅助驾驶小蓝灯或被禁",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E5%B0%8F%E8%93%9D%E7%81%AF%E6%88%96%E8%A2%AB%E7%A6%81",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "辅助驾驶小蓝灯可能面临禁令。",
-          "analysis": "该事件反映了我国对自动驾驶技术的监管态度。禁止小蓝灯可能旨在减少交通事故，保障交通安全。后续可能推动自动驾驶技术规范化和标准化。",
-          "keywords": [
-            "辅助驾驶",
-            "小蓝灯",
-            "自动驾驶",
-            "交通安全",
-            "监管"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5pZTFYQVZONHFUaGJEWGFjdHRCS0doRjU0RTcxdkE1QWZwUXVvaS05RldMVklFZmhlS0FWYjEwQzZKUnktNFpYWnM0cHA1SEs1ZXhIYzZNbzdobldta09IUTdBVDl1QVZrOGpXeWtITQ?oc=5"
+            },
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%BE%85%E5%8A%A9%E9%A9%BE%E9%A9%B6%E5%B0%8F%E8%93%9D%E7%81%AF%E6%88%96%E8%A2%AB%E7%A6%81"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
             }
           ],
           "rank": 8
         },
         {
-          "title": "唐山：活出精彩人生",
-          "titleOrig": "“我们活出了精彩人生” - 环渤海新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PcUMtd3JXVVU4eWdrOWx2Y2FDU2c4LWI5Ym1sSXdiY2hsMzJYWHN5aGJ6a3BKZkk2Yl83ejV0U01lejc3Y3h1ek9JaUs2a3N1VC12dnh6UGdRcTU1R0xPbTU4U1NOZE0zOC01Z29sS1FyRGNhMlRndWdR?oc=5",
+          "title": "特朗普关税政策正让一些企业“回流”中国",
+          "titleOrig": "特朗普关税政策正让一些企业“回流”中国 - 纽约时报中文网",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORldIMEo5MVg0TUh1Tmk2M1EzLUdHeFJRcVF1TTd0U21XaEE3a2YyZW03LXUwcXRBODY5WWRDUG1TWFl6QlVuUDNOSWNPXzc3M3c1VTdqbm1qb3NLdVdjcUNwNWtzR01NbkJxWmtidmxkX1E4TTJrSmVpTndzSWlkbk1jR09SNnJxRzQtYm96VnFwd2ZiRUplYWRGNGQ2Zw?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-29T23:38:46+00:00",
-          "desc": "“我们活出了精彩人生” 环渤海新闻网这座50年前“重生”的城市，和铁路的缘分很深…… 新浪财经万亿GDP新城崛起背后 有一群与它同龄的“震生” 光明网三问唐山：何以“震”不倒，跑出令世界侧目的加速度？ 凤凰网李强在河北唐山调研慰问时强调持续提升防灾减灾救灾能力切实保障人民群众生命财产安全- 中国日报网 china.chinadaily.com.cn",
+          "publishedAt": "2026-07-30T01:19:48+00:00",
+          "desc": "特朗普关税政策正让一些企业“回流”中国 纽约时报中文网单边对华加征关税，企图筑起“贸易围墙”，中方坚决反对美滥施301关税 新浪网美国对贸易伙伴征收新关税引发多方反对 中青网美对华加征12.5%的301关税，商务部表态 新京报特朗普“关税墙”背后藏着什么 全球贸易规则新变量 中华军事",
           "hotLabel": "",
-          "summary": "报道唐山城市发展和人民生活。",
-          "analysis": "唐山市的快速发展是中国城市化的缩影，体现了中国经济的强劲动力。对国内民生和经济有直接影响，提升了人民生活水平。后续可能继续关注其可持续发展和社会治理。",
+          "summary": "特朗普关税政策导致部分企业选择“回流”中国。",
+          "analysis": "特朗普的关税政策对全球贸易产生重大影响，迫使一些企业重新考虑供应链布局。中国企业可能因此获得更多发展机会，但也面临国际竞争加剧的挑战。这反映了国际贸易政策对全球供应链的深远影响。",
           "keywords": [
-            "唐山",
-            "GDP",
-            "城市化",
-            "民生",
-            "经济发展"
+            "关税政策",
+            "供应链",
+            "国际贸易",
+            "企业回流",
+            "特朗普"
           ],
-          "category": "domestic",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9PcUMtd3JXVVU4eWdrOWx2Y2FDU2c4LWI5Ym1sSXdiY2hsMzJYWHN5aGJ6a3BKZkk2Yl83ejV0U01lejc3Y3h1ek9JaUs2a3N1VC12dnh6UGdRcTU1R0xPbTU4U1NOZE0zOC01Z29sS1FyRGNhMlRndWdR?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxORldIMEo5MVg0TUh1Tmk2M1EzLUdHeFJRcVF1TTd0U21XaEE3a2YyZW03LXUwcXRBODY5WWRDUG1TWFl6QlVuUDNOSWNPXzc3M3c1VTdqbm1qb3NLdVdjcUNwNWtzR01NbkJxWmtidmxkX1E4TTJrSmVpTndzSWlkbk1jR09SNnJxRzQtYm96VnFwd2ZiRUplYWRGNGQ2Zw?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
             }
           ],
           "rank": 9
         },
         {
-          "title": "小区电梯失控从31楼下坠到负2楼",
-          "titleOrig": "",
+          "title": "小区电梯失控坠楼事件",
+          "titleOrig": "小区电梯失控从31楼下坠到负2楼",
           "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%8C%BA%E7%94%B5%E6%A2%AF%E5%A4%B1%E6%8E%A7%E4%BB%8E31%E6%A5%BC%E4%B8%8B%E5%9D%A0%E5%88%B0%E8%B4%9F2%E6%A5%BC%23&t=31&band_rank=6&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
@@ -1092,14 +1087,14 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "小区电梯发生严重事故，从31楼下坠至负2楼。",
-          "analysis": "此事件暴露了住宅电梯安全问题，对居民生命财产安全构成威胁。政府可能加强电梯安全监管，要求物业公司提升服务质量。后续可能看到更多关于住宅电梯安全的相关报道和措施。",
+          "summary": "小区电梯失控坠楼，引发安全担忧。",
+          "analysis": "此事件暴露了住宅电梯安全问题，对居民生命财产安全构成威胁。政府可能加强住宅电梯安全监管，企业需提高安全意识，消费者应增强安全防范意识。",
           "keywords": [
-            "电梯事故",
-            "住宅安全",
-            "生命财产安全",
-            "政府监管",
-            "物业公司"
+            "电梯",
+            "失控",
+            "坠楼",
+            "安全",
+            "监管"
           ],
           "category": "society",
           "importance": 80,
@@ -1116,138 +1111,6 @@
           "rank": 10
         },
         {
-          "title": "暴雨黄色预警：多地有大暴雨",
-          "titleOrig": "暴雨黄色预警：四川、甘肃、河南、山东、广西、广东等地部分地区有大暴雨 - 央视网",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wUFd5Q0ZxYk0yeUFqa0FVSFRuWFVITFFSeTZHY3dKbm5pcGh2OEFJVFl2MEJvQXZZU2QxRFdsaXZGR0Y3QWhpMUx2eERJVFNwSlJNQ20tc2hHZ2tUeE44TnRYRU02S29wQTR1a2RHSTdMVTYwelBPVQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-30T00:07:36+00:00",
-          "desc": "暴雨黄色预警：四川、甘肃、河南、山东、广西、广东等地部分地区有大暴雨 央视网华中华南四川盆地等地有较强降水 黑龙江等地多强对流天气 新浪财经大范围降雨将贯穿南北 中东部多地暑热连轴转 china.zjol.com.cn全国大范围降雨持续 各地积极应对 中国经济网东北地区高温需警惕强对流 南方多地昼夜连轴热 Sohu",
-          "hotLabel": "",
-          "summary": "多省发布暴雨黄色预警",
-          "analysis": "该新闻反映了我国自然灾害频发的现状。暴雨预警的发布体现了政府对社会公共安全的重视，以及对自然灾害的预警和应对能力。对国内民生意味着可能造成人员伤亡和财产损失，对经济意味着可能影响农业生产和基础设施，对治理意味着需要加强防灾减灾体系建设。后续走向可能包括灾后重建和防灾减灾措施的加强。",
-          "keywords": [
-            "暴雨",
-            "预警",
-            "自然灾害",
-            "公共安全",
-            "防灾减灾"
-          ],
-          "category": "domestic",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9wUFd5Q0ZxYk0yeUFqa0FVSFRuWFVITFFSeTZHY3dKbm5pcGh2OEFJVFl2MEJvQXZZU2QxRFdsaXZGR0Y3QWhpMUx2eERJVFNwSlJNQ20tc2hHZ2tUeE44TnRYRU02S29wQTR1a2RHSTdMVTYwelBPVQ?oc=5"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "敦煌融媒体90万招聘外籍主播",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%95%A6%E7%85%8C%E8%9E%8D%E5%AA%92%E4%BD%9390%E4%B8%87%E6%8B%9B%E8%81%98%E5%A4%96%E7%B1%8D%E4%B8%BB%E6%92%AD",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "敦煌融媒体高薪招聘外籍主播。",
-          "analysis": "该事件反映了我国文化旅游产业的发展趋势。高薪招聘外籍主播可能旨在提升文化旅游的国际影响力。后续可能推动文化旅游产业国际化。",
-          "keywords": [
-            "敦煌融媒体",
-            "外籍主播",
-            "文化旅游",
-            "国际化",
-            "产业"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%95%A6%E7%85%8C%E8%9E%8D%E5%AA%92%E4%BD%9390%E4%B8%87%E6%8B%9B%E8%81%98%E5%A4%96%E7%B1%8D%E4%B8%BB%E6%92%AD"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "李强赵乐际会见斯洛伐克总统",
-          "titleOrig": "李强赵乐际分别会见斯洛伐克总统佩列格里尼 - Sohu",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmdRVE5jZEZCUVM3VUtwNHlEQ0wyOVRSbl9Ba2MwOU12Z2FubnNvc0h6ZHFONjAzNTdIbTlvRUxHS1hwdFZJMTVJbWNOWDhnYWpJam9aNkRtSVdqR0lic0p3cS1MSkJ2Mk1odWVVOHZ5U2dJZm1zaGNfbE5INEpib292YWpIQl9uQi1hYg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-07-29T22:14:00+00:00",
-          "desc": "李强赵乐际分别会见斯洛伐克总统佩列格里尼 Sohu赵乐际会见斯洛伐克总统佩列格里尼 新华网李强会见斯洛伐克总统佩列格里尼- 中国日报网 china.chinadaily.com.cn以深化合作书写中斯战略伙伴关系新篇章 中国网新闻中心中国机器人会弹琴、跳舞、打太极！斯洛伐克总统：里面是不是藏了个人？ 新浪财经",
-          "hotLabel": "",
-          "summary": "中国领导人会见斯洛伐克总统，深化中斯关系。",
-          "analysis": "此次会见体现了中国在国际舞台上的外交努力，旨在加强与欧洲国家的合作。对国内外交政策和国际关系有重要影响。后续可能带来中斯两国在多个领域的合作机会。",
-          "keywords": [
-            "李强",
-            "赵乐际",
-            "斯洛伐克",
-            "中斯关系",
-            "国际合作"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQQmdRVE5jZEZCUVM3VUtwNHlEQ0wyOVRSbl9Ba2MwOU12Z2FubnNvc0h6ZHFONjAzNTdIbTlvRUxHS1hwdFZJMTVJbWNOWDhnYWpJam9aNkRtSVdqR0lic0p3cS1MSkJ2Mk1odWVVOHZ5U2dJZm1zaGNfbE5INEpib292YWpIQl9uQi1hYg?oc=5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "台湾爆发大规模抗议",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "台湾发生大规模抗议活动",
-          "analysis": "该新闻反映了台湾地区的政治动荡。大规模抗议活动可能对台湾地区的政治稳定和两岸关系产生影响。对国内民生意味着可能影响两岸关系的发展，对治理意味着需要关注台湾地区的政治动态。后续走向可能包括两岸关系的紧张和抗议活动的持续。",
-          "keywords": [
-            "台湾",
-            "抗议",
-            "政治动荡",
-            "两岸关系",
-            "治理"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%8F%B0%E6%B9%BE%E7%88%86%E5%8F%91%E5%A4%A7%E8%A7%84%E6%A8%A1%E6%8A%97%E8%AE%AE"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
-            }
-          ],
-          "rank": 14
-        },
-        {
           "title": "日本熊本县7.1级地震",
           "titleOrig": "日本熊本县 7.1 级地震",
           "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%207.1%20%E7%BA%A7%E5%9C%B0%E9%9C%87",
@@ -1261,91 +1124,235 @@
           "desc": "",
           "hotLabel": "",
           "summary": "日本熊本县发生7.1级地震。",
-          "analysis": "地震事件体现了自然灾害的不可预测性和破坏力。我国可能加强地震预警和应急救援体系建设，提高防灾减灾能力。",
+          "analysis": "地震是自然灾害，对当地居民生活和基础设施造成严重影响。对国内而言，这提醒了我国在防灾减灾方面的不足，可能促使政府加强地震预警系统和基础设施建设。对国际社会，日本地震的应对措施和灾后重建经验值得学习。后续可能加强地震预警系统的研发和应用，提高防灾减灾能力。",
           "keywords": [
-            "日本地震",
+            "地震",
             "自然灾害",
-            "地震预警",
-            "应急救援",
-            "防灾减灾"
+            "防灾减灾",
+            "基础设施建设",
+            "预警系统"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 80,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E7%86%8A%E6%9C%AC%E5%8E%BF%207.1%20%E7%BA%A7%E5%9C%B0%E9%9C%87"
             }
           ],
-          "rank": 15
+          "rank": 11
         },
         {
-          "title": "探秘景德镇：一窑烈火燃千年",
-          "titleOrig": "探秘景德镇｜一窑烈火何以燃千年？ - 中国网",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OT1JSXzNWd19HQ19PY0lKSUNFdE9ySmtxaWhmOHdBeVlBampnR0p0Yl9BWXBEeFRYQlNleVpQaVgyOF9HMlpZWmdCd01zWS1LV2FDc2YzdkZSOERvSnl4OGdSLVVRZG1ybWl1aG9Qcw?oc=5",
+          "title": "熊本地震重创企业，索尼等半导体工厂停工",
+          "titleOrig": "熊本地震重创企业，索尼等半导体工厂停工 - 日经中文网",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMEI0MDJMZS1WdkZ6QWJ1Nmh2cGpWWDRKek9FWnVsbUdwV2xYZmtQRGxWVzA4b1lraWdJX3R3RjJkSVpoOXlIc1J5NW8yYVJYOVVZZ1d2S2ZqNUhESDA2UGxqdmhXV0RYZjdSbzdCVGRDSlZFaWRNZVlQZC1OUWlYQ2d3WlpuZ0FlaTFWQ01POA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-07-29T23:24:00+00:00",
-          "desc": "探秘景德镇｜一窑烈火何以燃千年？ 中国网构建面向全球的“瓷的未来”（策展手记） --国际 人民网新遗产对景德镇旅游经济有何影响？ 新浪旅游访《忆窑柴》作者张烈：年近百岁，他为千年瓷业补上一块“活化石” 凤凰网江西近两层楼高的花瓶 景德镇大件瓷技艺展现 中华网",
+          "publishedAt": "2026-07-30T03:08:21+00:00",
+          "desc": "熊本地震重创企业，索尼等半导体工厂停工 日经中文网凤凰深入日本震区八代市：居民称震感比2016年更猛烈 凤凰网中国驻日本大使馆提醒中国公民注意防范地震灾害 央视网日本地震香港200名旅客安全 全员平安归队 中华网台积电：日本地震未对JASM 熊本晶圆厂人员与建筑安全造成影响|九州岛|熊本县|停产|供应商|工地_手机新浪网 新浪网",
           "hotLabel": "",
-          "summary": "报道景德镇瓷器的千年传承和技艺。",
-          "analysis": "景德镇作为中国瓷都，其瓷器制作技艺的传承和发展体现了中国文化的深厚底蕴。对国内经济有积极影响，促进了文化旅游业的发展。后续可能继续推动相关文化遗产的保护和传承。",
+          "summary": "熊本地震导致索尼等半导体工厂停工。",
+          "analysis": "地震对当地企业造成严重打击，特别是对半导体产业的影响较大。对国内而言，这可能影响供应链稳定，对电子产业构成挑战。对国际社会，日本地震对全球半导体产业的影响值得关注。后续可能加强供应链多元化，提高产业抗风险能力。",
           "keywords": [
-            "景德镇",
-            "瓷器",
-            "文化遗产",
-            "旅游",
-            "技艺传承"
+            "地震",
+            "企业影响",
+            "半导体产业",
+            "供应链",
+            "抗风险能力"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9OT1JSXzNWd19HQ19PY0lKSUNFdE9ySmtxaWhmOHdBeVlBampnR0p0Yl9BWXBEeFRYQlNleVpQaVgyOF9HMlpZWmdCd01zWS1LV2FDc2YzdkZSOERvSnl4OGdSLVVRZG1ybWl1aG9Qcw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNMEI0MDJMZS1WdkZ6QWJ1Nmh2cGpWWDRKek9FWnVsbUdwV2xYZmtQRGxWVzA4b1lraWdJX3R3RjJkSVpoOXlIc1J5NW8yYVJYOVVZZ1d2S2ZqNUhESDA2UGxqdmhXV0RYZjdSbzdCVGRDSlZFaWRNZVlQZC1OUWlYQ2d3WlpuZ0FlaTFWQ01POA?oc=5"
             }
           ],
-          "rank": 16
+          "rank": 12
         },
         {
-          "title": "网友曝胖东来直饮水成免费取水点",
+          "title": "文献里的党史密码：人民是党的坚实根基",
+          "titleOrig": "理响中国｜文献里的党史密码：人民是党的坚实根基 - 新华网客户端",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVc2TEVLS2dxYjlTMURQdEZYclZyUzBvLTBiRmZwUG8wYWNMU0RGUnJiQ2NUdkNtcTM1VE90VkVWWW80UUhCZWlzM3NLWnhxckwtcnl4MnROWlF4X3F2ZWctTkpSSjZwa294eGRlN3lDN0ZzSmJZelA0UEpUYTU0a2duQUxMSTZsMk1XYjAxV0NibmRtNzNyTUNB?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T03:11:15+00:00",
+          "desc": "理响中国｜文献里的党史密码：人民是党的坚实根基 新华网客户端在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "新华客户端强调人民是党的坚实根基。",
+          "analysis": "该新闻体现了中国共产党的群众路线和历史观的传承。通过文献回顾党史，强调人民是党的力量源泉，反映了当前政策意图强调政治稳定和社会和谐，以及对历史经验的重视。这表明政府在社会治理中将继续坚持人民至上的原则，注重民生改善和群众满意度提升。后续可能加强相关教育和宣传，强化党的群众基础。",
+          "keywords": [
+            "党史",
+            "人民路线",
+            "政策意图",
+            "社会和谐",
+            "群众基础"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQLVc2TEVLS2dxYjlTMURQdEZYclZyUzBvLTBiRmZwUG8wYWNMU0RGUnJiQ2NUdkNtcTM1VE90VkVWWW80UUhCZWlzM3NLWnhxckwtcnl4MnROWlF4X3F2ZWctTkpSSjZwa294eGRlN3lDN0ZzSmJZelA0UEpUYTU0a2duQUxMSTZsMk1XYjAxV0NibmRtNzNyTUNB?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "外交部提醒避免危险抵近中国海军舰艇",
+          "titleOrig": "外交部：提醒有关方面避免危险抵近中国海军舰艇 - 同花顺财经",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84LWNKc3htOHVCY3liaDkxMDV6RWE5U3VxYWIzWWoySFdGR1B4ckswSjJvRXFNN1FyMFVGalA2elJWU01fc19ubi1QdE40d2xIRHJqOUU5cks5eHRvUlE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T07:26:26+00:00",
+          "desc": "外交部：提醒有关方面避免危险抵近中国海军舰艇 同花顺财经在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "外交部提醒有关方面避免危险行为。",
+          "analysis": "该事件反映了国际关系中的紧张局势和军事安全关切。外交部的提醒表明中国对于维护国家安全和海洋权益的决心，以及对潜在威胁的警惕。后续可能涉及国际外交和军事层面的互动，对地区稳定和国际关系有重要影响。",
+          "keywords": [
+            "军事安全",
+            "海洋权益",
+            "国际关系",
+            "外交政策",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE84LWNKc3htOHVCY3liaDkxMDV6RWE5U3VxYWIzWWoySFdGR1B4ckswSjJvRXFNN1FyMFVGalA2elJWU01fc19ubi1QdE40d2xIRHJqOUU5cks5eHRvUlE?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "涵养侨界新生代，上海黄浦搭建海内外融通新桥梁",
+          "titleOrig": "涵养侨界新生代 上海黄浦搭建海内外融通新桥梁 - chinaqw.com",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QSW9qRWR1RmcxY3FVWE5BVjVCTUdSWV9HNFpoaHdxTmNRODRNM2VhN24zUXViLVYydUdfczk1dnZ1MGVpSHptUmwxOVhBUTZIcExoQS05cE9EOUdoenc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T02:07:00+00:00",
+          "desc": "涵养侨界新生代 上海黄浦搭建海内外融通新桥梁 chinaqw.com第一观察| 凝聚侨心侨力同圆共享中国梦- 中国日报网 China Daily时政微观察丨以侨为桥，同心筑梦 新浪网一见·做好新时代侨务工作，总书记重要指示深意何在？ 光明网促进海内外中华儿女团结奋斗 人民日报",
+          "hotLabel": "",
+          "summary": "上海黄浦推动侨界新生代交流。",
+          "analysis": "上海黄浦搭建的融通桥梁旨在凝聚侨心侨力，促进海内外中华儿女团结奋斗。这反映了国家对侨务工作的重视，以及对海外华人社群的整合。此举有助于增强国家软实力，促进国际交流与合作。",
+          "keywords": [
+            "侨务工作",
+            "海外华人",
+            "国家软实力",
+            "国际交流",
+            "上海黄浦"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9QSW9qRWR1RmcxY3FVWE5BVjVCTUdSWV9HNFpoaHdxTmNRODRNM2VhN24zUXViLVYydUdfczk1dnZ1MGVpSHptUmwxOVhBUTZIcExoQS05cE9EOUdoenc?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "韩国股市熔断",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E7%86%94%E6%96%AD",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#2",
-          "summary": "网友爆料胖东来超市直饮水免费提供。",
-          "analysis": "胖东来超市提供免费直饮水体现了企业社会责任，可能引发其他商家效仿，促进公共设施建设。这一举措对提升消费者生活品质、推动社会文明进步有积极影响。后续可能看到更多公共场所提供免费服务。",
+          "hotLabel": "",
+          "summary": "韩国股市出现熔断。",
+          "analysis": "股市熔断反映了市场对经济前景的担忧。对国内而言，这可能影响投资者信心，对股市稳定构成压力。对国际社会，韩国股市的波动可能引发对亚洲其他股市的连锁反应。后续可能出台稳定股市的政策措施，如降低交易费用、加强市场监管等。",
           "keywords": [
-            "胖东来",
-            "免费直饮水",
-            "企业社会责任",
-            "公共设施",
-            "消费者生活"
+            "股市熔断",
+            "投资者信心",
+            "市场监管",
+            "经济前景",
+            "亚洲股市"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%9F%A9%E5%9B%BD%E8%82%A1%E5%B8%82%E7%86%94%E6%96%AD"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "北京南京开启《蜘蛛侠4》友好邻居派对，中影进口发行“银幕碰头计划”跨城落地",
+          "titleOrig": "北京南京开启《蜘蛛侠4》友好邻居派对，中影进口发行“银幕碰头计划”跨城落地 - 紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03LWxEejZYa1Ftb0p1NUVYSFdTSGJrTmdHcGJGWktQdmpJUlVZTEt4Wlk0aFdTaVdPaUZsUjdYU2JfUk1xaUszV01Uc0RQbFhUSDVEWmJsUnFYSDBUcUFFNjVmbG5jcUdj?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-07-30T03:12:00+00:00",
+          "desc": "北京南京开启《蜘蛛侠4》友好邻居派对，中影进口发行“银幕碰头计划”跨城落地 紫牛新闻中影进口发行“银幕碰头计划”跨城落地 北京南京影迷畅叙“蜘蛛侠” 中国日报网蜘蛛侠新片有佛性|蜘蛛侠|成家班|张鹏|彼得帕克|动作指导_新浪新闻 新浪网电影《蜘蛛侠：崭新之日》总票房破2亿 Jiemian.com导演克里顿：新作让蜘蛛侠“下沉”，直面脆弱而非追求更强大 thepaper.cn",
+          "hotLabel": "",
+          "summary": "北京南京举办《蜘蛛侠4》跨城观影活动。",
+          "analysis": "《蜘蛛侠4》的跨城观影活动体现了电影市场的区域合作和文化交流。中影进口发行的“银幕碰头计划”有助于推动电影产业的区域均衡发展，同时也丰富了民众的文化生活。这一事件反映了国内电影市场的活跃和电影产业政策的支持。",
+          "keywords": [
+            "电影",
+            "文化交流",
+            "区域合作",
+            "电影产业",
+            "中影"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=2&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE03LWxEejZYa1Ftb0p1NUVYSFdTSGJrTmdHcGJGWktQdmpJUlVZTEt4Wlk0aFdTaVdPaUZsUjdYU2JfUk1xaUszV01Uc0RQbFhUSDVEWmJsUnFYSDBUcUFFNjVmbG5jcUdj?oc=5"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
             }
           ],
           "rank": 17
         },
         {
-          "title": "千万不要把手机交给商家写好评",
-          "titleOrig": "",
+          "title": "警惕商家诱导好评",
+          "titleOrig": "千万不要把手机交给商家写好评",
           "url": "https://s.weibo.com/weibo?q=%E5%8D%83%E4%B8%87%E4%B8%8D%E8%A6%81%E6%8A%8A%E6%89%8B%E6%9C%BA%E4%BA%A4%E7%BB%99%E5%95%86%E5%AE%B6%E5%86%99%E5%A5%BD%E8%AF%84&t=31&band_rank=1&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
@@ -1356,17 +1363,17 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "提醒消费者注意商家好评的真实性",
-          "analysis": "该新闻揭示了网络购物中存在的不良现象。提醒消费者不要轻易相信商家的好评，反映了消费者权益保护意识的提高。对社会意味着需要加强网络购物的监管，对经济意味着可能影响电商行业的健康发展。后续走向可能包括消费者权益保护法规的完善和电商平台的自律。",
+          "summary": "消费者需警惕商家诱导好评行为。",
+          "analysis": "此新闻揭示了当前网络购物中存在的诚信问题。商家诱导好评可能误导消费者，损害消费者权益。社会需要加强诚信建设，提高消费者维权意识，政府可能出台相关法规规范市场。",
           "keywords": [
-            "消费者权益",
-            "网络购物",
+            "商家",
             "好评",
-            "监管",
-            "电商"
+            "诚信",
+            "消费者",
+            "维权"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
@@ -1376,41 +1383,53 @@
           "rank": 18
         },
         {
-          "title": "制胜预告片震撼首发",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%B6%E8%83%9C%E9%A2%84%E5%91%8A%E7%89%87%E9%9C%87%E6%92%BC%E9%A6%96%E5%8F%91%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "某产品或电影的制胜预告片首次发布。",
-          "analysis": "预告片发布是营销策略的一部分，旨在吸引消费者关注。预告片的质量和内容对产品或电影的宣传效果至关重要。后续可能看到相关产品或电影的票房和关注度提升。",
+          "title": "气候变化和关税如何帮助中国养更多牛",
+          "titleOrig": "How Climate Change and Tariffs Help China Raise More Cattle",
+          "url": "https://www.nytimes.com/2026/07/30/business/china-beef-imports-tariffs.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-07-30T04:00:12+00:00",
+          "desc": "As increased rain makes grasslands and cornfields possible in areas that once were deserts, the world’s largest beef importer is becoming more self-reliant by expanding domestic herds.",
+          "hotLabel": "",
+          "summary": "气候变化和关税政策影响中国牛肉进口。",
+          "analysis": "气候变化导致草地和农田增加，使得中国牛肉进口依赖度降低。对国内而言，这可能促进国内畜牧业发展，提高自给自足能力。对国际社会，这反映了全球气候变化对农业和贸易的影响。后续可能加强国内畜牧业支持政策，提高农业抗风险能力。",
           "keywords": [
-            "预告片",
-            "营销策略",
-            "消费者关注",
-            "产品宣传",
-            "票房"
+            "气候变化",
+            "牛肉进口",
+            "畜牧业",
+            "自给自足",
+            "农业政策"
           ],
-          "category": "economy",
-          "importance": 60,
+          "category": "international",
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%88%B6%E8%83%9C%E9%A2%84%E5%91%8A%E7%89%87%E9%9C%87%E6%92%BC%E9%A6%96%E5%8F%91%23&t=31&band_rank=3&Refer=top"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/07/30/business/china-beef-imports-tariffs.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/jul/28/fcc-ban-humanoid-robots-china"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/07/29/g-s1-136110/taiwan-travelogue-rethinks-history-colonialism-and-identity"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/07/30/china-us-robot-humanoid-ban-trump-visit.html"
             }
           ],
           "rank": 19
         },
         {
-          "title": "赵昭仪演戏一直这样吗",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E6%BC%94%E6%88%8F%E4%B8%80%E7%9B%B4%E8%BF%99%E6%A0%B7%E5%90%97%23&t=31&band_rank=5&Refer=top",
+          "title": "胖东来直饮水成免费取水点",
+          "titleOrig": "网友曝胖东来直饮水成免费取水点",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=2&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1419,22 +1438,22 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "网友讨论演员赵昭仪的演技表现。",
-          "analysis": "此事件反映了公众对演员演技的关注和讨论，是娱乐圈常态。演员的演技表现对作品质量有直接影响。后续可能看到更多关于演员演技的讨论和评价。",
+          "hotLabel": "#2",
+          "summary": "胖东来提供免费直饮水引发关注。",
+          "analysis": "胖东来提供免费直饮水体现了企业社会责任，对提升消费者生活品质有积极作用。此举可能推动更多企业关注社会责任，提升行业整体形象。后续可能看到更多类似的企业行为。",
           "keywords": [
-            "赵昭仪",
-            "演技",
-            "娱乐圈",
-            "演员评价",
-            "作品质量"
+            "胖东来",
+            "直饮水",
+            "免费",
+            "社会责任",
+            "企业行为"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E6%98%AD%E4%BB%AA%E6%BC%94%E6%88%8F%E4%B8%80%E7%9B%B4%E8%BF%99%E6%A0%B7%E5%90%97%23&t=31&band_rank=5&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E7%BD%91%E5%8F%8B%E6%9B%9D%E8%83%96%E4%B8%9C%E6%9D%A5%E7%9B%B4%E9%A5%AE%E6%B0%B4%E6%88%90%E5%85%8D%E8%B4%B9%E5%8F%96%E6%B0%B4%E7%82%B9%23&t=31&band_rank=2&Refer=top"
             }
           ],
           "rank": 20
