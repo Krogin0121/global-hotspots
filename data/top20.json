@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T01:52:01.438170+00:00",
+  "generatedAt": "2026-08-03T09:08:48.508292+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 29,
+      "count": 30,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 13,
+      "count": 15,
       "ok": true
     },
     {
@@ -90,11 +90,43 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，恐怖袭击和冲突仍是焦点。巴基斯坦警察局遭袭，伊朗代理人策划战争，以色列空袭加沙，这些事件表明地区冲突依然激烈。经济领域，阿斯利康与美国企业的大规模并购，以及特朗普取消对伊朗的打击计划，对全球市场产生影响。同时，各国在反恐、移民和社会政策方面也呈现多样化趋势。整体来看，国际局势复杂多变，地区冲突和经济变革交织，值得持续关注。",
+      "digest": "今日国际局势呈现出多方面的紧张与缓和并存。中东地区冲突持续，以色列空袭加沙地带，伊朗策划扩大战争规模，而油价下跌显示紧张局势有所缓和。亚洲地区，韩国气温创新高，日本面临汇率压力，韩国放弃先去核化策略，平壤下一步行动成谜。此外，欧洲、非洲等地也发生了一系列事件，包括莫斯科餐厅炸弹袭击、巴基斯坦警察局遭袭击、加拿大航空罢工等。总体来看，国际局势复杂多变，各方势力博弈激烈，值得关注的事件走向包括伊朗与美国的谈判进展、中东地区冲突的进一步发展以及各国应对气候变化和经济压力的策略。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "伊朗在代理人的帮助下策划更大规模的战争",
+          "title": "韩国气温创新高，当局呼吁停止户外活动",
+          "titleOrig": "‘Stop all outdoor activities’: South Korea records its highest ever temperature",
+          "url": "https://www.theguardian.com/world/2026/aug/03/south-korea-highest-temperature",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T05:17:47+00:00",
+          "desc": "Authorities issue alert saying indoor spaces without airconditioning are ‘dangerous’ as temperatures pass 40C for fifth straight day South Korea has registered its highest temperature since records began more than a century ago, as authorities warned people to “immediately” stop all outdoor activiti",
+          "hotLabel": "",
+          "summary": "韩国连续五天气温超过40摄氏度，当局发出警报。",
+          "analysis": "韩国高温事件反映了全球气候变化对极端天气的影响。这将对公众健康、能源消耗和农业产生深远影响。后续可能看到更多极端天气事件，以及各国在应对气候变化方面的政策调整。",
+          "keywords": [
+            "韩国",
+            "高温",
+            "气候变化",
+            "极端天气",
+            "公众健康"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/03/south-korea-highest-temperature"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "伊朗策划扩大战争规模，利用代理力量",
           "titleOrig": "Iran Plotted Wider War With Help of Its Proxies",
           "url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html",
           "source": "NYT World",
@@ -106,14 +138,14 @@
           "publishedAt": "2026-08-02T18:36:29+00:00",
           "desc": "During a fleeting truce, Iranians covertly devised a plan to raise the war’s costs for President Trump if U.S. forces attacked anew.",
           "hotLabel": "",
-          "summary": "在短暂的停火期间，伊朗秘密制定计划，以增加美国总统特朗普在美军再次攻击时的战争成本。",
-          "analysis": "这表明伊朗在中东地区的军事行动和地缘政治影响力。事件可能加剧地区紧张局势，对中东地区的稳定和国际关系产生重大影响。",
+          "summary": "伊朗在短暂停火期间秘密策划扩大战争规模，以应对美国可能的再次攻击。",
+          "analysis": "伊朗在停火期间策划扩大战争规模，表明该国在美伊冲突中采取强硬立场。这一行为增加了中东地区紧张局势，并对美国在中东的政策构成挑战。后续可能包括美伊之间的进一步冲突和地区其他国家的反应。",
           "keywords": [
             "伊朗",
-            "战争策划",
-            "代理人战争",
-            "中东地区",
-            "国际关系"
+            "战争",
+            "美国",
+            "代理力量",
+            "中东局势"
           ],
           "category": "international",
           "importance": 90,
@@ -123,186 +155,106 @@
               "url": "https://www.nytimes.com/2026/08/01/world/middleeast/iran-proxies-war-oil.html"
             }
           ],
-          "rank": 1
+          "rank": 2
         },
         {
-          "title": "希腊直升机相撞事件致两人死亡，英国飞行员幸存",
-          "titleOrig": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
-          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+          "title": "特朗普建议下周一与伊朗重启谈判",
+          "titleOrig": "Trump suggests new talks with Iran to begin on Monday",
+          "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-03T01:03:31+00:00",
-          "desc": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+          "publishedAt": "2026-08-03T08:03:15+00:00",
+          "desc": "Tehran has not responded to the suggestion that new talks are imminent. Trump has previously said a negotiated end to the war is close, only for strikes to resume.",
           "hotLabel": "",
-          "summary": "希腊直升机相撞，造成两国人员伤亡。",
-          "analysis": "此次事件反映了希腊航空安全问题的严重性，同时也可能对英希两国关系产生一定影响。在当前国际紧张局势下，此类事故可能被政治化，影响地区稳定。后续可能引发对航空安全的全球关注。",
+          "summary": "特朗普提出与伊朗重启谈判，但伊朗尚未回应。",
+          "analysis": "特朗普重启谈判的提议可能反映了美国在伊核问题上的策略调整，旨在缓解地区紧张局势。这一举动可能对中东地区的政治经济格局产生重要影响。后续走向可能包括伊朗的回应以及双方是否能够达成协议。",
           "keywords": [
-            "希腊",
-            "直升机",
-            "事故",
-            "英希关系",
-            "航空安全"
+            "特朗普",
+            "伊朗",
+            "谈判",
+            "中东",
+            "伊核问题"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/01/world/europe/deadly-bombing-moscow-restaurant.html"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 2
+          "rank": 3
         },
         {
-          "title": "阿斯利康与美国百时美施贵宝洽谈4000亿美元并购大案",
-          "titleOrig": "AstraZeneca in talks with Bristol Myers Squibb on $400 billion megadeal, FT reports",
-          "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html",
+          "title": "摩洛哥移民危机暴露年轻人绝望情绪",
+          "titleOrig": "Ceuta Migration Crisis Exposes Despair Among Morocco’s Young People",
+          "url": "https://www.nytimes.com/2026/08/03/world/middleeast/morocco-ceuta-spain-migrants.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T08:14:02+00:00",
+          "desc": "Moroccan migrants described their despair at their economic future, explaining what propelled them across the border with Spain.",
+          "hotLabel": "",
+          "summary": "摩洛哥移民因经济绝望跨越边界至西班牙。",
+          "analysis": "摩洛哥年轻人面临的经济困境导致他们寻求跨境工作机会，反映了北非地区经济不稳定的现状。这一危机可能加剧欧洲对移民问题的关注，并可能影响欧洲与北非的关系。后续可能看到更多类似事件，以及欧洲在移民政策上的调整。",
+          "keywords": [
+            "摩洛哥",
+            "移民危机",
+            "经济困境",
+            "欧洲政策",
+            "北非"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/03/world/middleeast/morocco-ceuta-spain-migrants.html"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "美国罕见联手干预日元贬值，背后动机何在",
+          "titleOrig": "Why the U.S. stepped in after decades to prop up Japan's yen — and what's at stake",
+          "url": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-02T22:17:47+00:00",
-          "desc": "U.K. pharmaceutical giant AstraZeneca is considering a deal to merge with its U.S. rival Bristol Myers Squibb.",
+          "publishedAt": "2026-08-03T07:28:46+00:00",
+          "desc": "Washington's decision to join Japan in supporting the battered yen has prompted questions over what motivated the rare coordinated intervention.",
           "hotLabel": "",
-          "summary": "英国制药巨头阿斯利康考虑与美国竞争对手百时美施贵宝合并。",
-          "analysis": "阿斯利康与百时美施贵宝的潜在合并反映了全球制药行业整合的趋势。这一交易如成，将形成全球最大的制药公司之一，对全球医药市场格局产生重大影响。它可能加剧行业竞争，并推动更多并购活动。后续走向将取决于监管机构的审批和双方的谈判进展。",
+          "summary": "美国加入日本干预日元贬值，引发对动机的疑问。",
+          "analysis": "美国罕见地与日本联手干预日元贬值，背景是日元近期持续贬值，可能影响全球经济稳定。此举表明美国对亚洲货币政策的关注，以及对日本经济健康的担忧。关键影响包括可能加剧全球货币战，以及对亚洲地区经济格局的影响。后续走向可能包括其他国家的反应和可能的全球货币政策调整。",
           "keywords": [
-            "阿斯利康",
-            "并购",
-            "制药行业",
-            "百时美施贵宝",
-            "医药市场"
+            "美国",
+            "日本",
+            "日元",
+            "货币政策",
+            "干预"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/02/astrazeneca-and-bristol-myers-squibb-mull-400-billion-deal-report-.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "巴基斯坦警察局遭炸弹袭击造成至少14人死亡",
-          "titleOrig": "Pakistan Police Station Bombing Kills at Least 14",
-          "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T18:25:12+00:00",
-          "desc": "The authorities said the suicide bombing, which killed at least 14 people in the Swat Valley. The Pakistani Taliban claimed responsibility.",
-          "hotLabel": "",
-          "summary": "巴基斯坦斯瓦特山谷发生自杀式爆炸，造成至少14人死亡，巴基斯坦塔利班宣称负责。",
-          "analysis": "此次袭击反映了巴基斯坦地区安全形势的严峻，塔利班势力在该地区仍具有影响力。事件对巴基斯坦国内政治稳定和地区安全构成威胁，可能加剧该地区冲突。后续可能引发国际社会的关注和干预，对巴基斯坦的外交政策产生深远影响。",
-          "keywords": [
-            "巴基斯坦",
-            "塔利班",
-            "自杀式爆炸",
-            "地区安全",
-            "国际干预"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "特朗普取消对伊朗袭击：因达成协议谈判迅速进行",
-          "titleOrig": "Trump cancels Iran strikes subject to deal being made 'rapidly'",
-          "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T11:12:00+00:00",
-          "desc": "The US president claims Iran and other Middle Eastern countries asked Washington to hold off on any attack as the \"perimeters\" of a deal had been agreed.",
-          "hotLabel": "",
-          "summary": "美国总统特朗普宣布取消对伊朗的袭击，称伊朗及其他中东国家请求暂缓攻击，因已就协议范围达成一致。",
-          "analysis": "特朗普取消对伊朗的袭击可能反映了美伊关系在短期内缓和的趋势。这可能是由于双方在达成某种协议方面取得了进展，或者是为了避免地区紧张局势进一步升级。此举可能对中东地区的稳定产生积极影响，但长期影响尚需观察。后续走向可能取决于美伊双方能否在关键问题上达成共识。",
-          "keywords": [
-            "特朗普",
-            "伊朗",
-            "袭击",
-            "协议",
-            "中东"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.cnbc.com/2026/08/03/japan-yen-intervention-us-treasurys-euros-.html"
             }
           ],
           "rank": 5
         },
         {
-          "title": "西班牙塞塔地区混乱局势分析",
-          "titleOrig": "Unraveling the Chaos in Ceuta",
-          "url": "https://www.nytimes.com/2026/08/02/world/spain-morocco-migration-iran.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T20:54:07+00:00",
-          "desc": "Whatever caused the migrant surge in the Spanish territory, it’s already shaking up European politics.",
-          "hotLabel": "",
-          "summary": "塞塔地区移民潮引发欧洲政治动荡。",
-          "analysis": "塞塔地区的移民问题已成为欧洲政治的敏感点，可能加剧欧洲内部的政治分歧，并对欧盟的移民政策产生深远影响。后续可能引发欧洲各国对移民政策的重新审视。",
-          "keywords": [
-            "西班牙",
-            "塞塔地区",
-            "移民潮",
-            "欧洲政治",
-            "欧盟"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/spain-morocco-migration-iran.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "以色列空袭加沙致至少13人死亡，哈马斯同意解除武装协议后发生",
+          "title": "以色列空袭加沙地带致13死，哈马斯同意解除武装协议后发生",
           "titleOrig": "At least 13 killed in Israeli strikes on Gaza after Hamas agree disarmament deal",
           "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -314,64 +266,188 @@
           "publishedAt": "2026-08-02T15:50:59+00:00",
           "desc": "Israel says it was targeting military operatives in the strikes on Gaza City, Khan Younis and Deir el-Balah.",
           "hotLabel": "",
-          "summary": "以色列空袭加沙，造成至少13人死亡，背景为哈马斯同意解除武装。",
-          "analysis": "此次空袭表明以色列对加沙地带的安全关切，尽管哈马斯同意解除武装。这一事件可能加剧地区紧张局势，并对中东和平进程产生负面影响。后续走向可能包括国际社会的介入和地区冲突的进一步升级。",
+          "summary": "以色列空袭加沙地带，目标军事人员，哈马斯同意解除武装。",
+          "analysis": "以色列空袭加沙地带，背景是哈马斯与以色列达成解除武装协议后，以色列以打击军事目标为名进行空袭。这一事件表明中东地区局势依然紧张，哈马斯与以色列之间的冲突可能进一步升级。对中东地区稳定构成威胁，并对国际社会解决巴以冲突的努力带来挑战。后续可能包括双方进一步的军事行动和外交谈判。",
           "keywords": [
             "以色列",
-            "空袭",
-            "加沙",
+            "加沙地带",
             "哈马斯",
-            "中东和平"
+            "空袭",
+            "中东局势"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "莫斯科餐厅炸弹袭击事件现场报道",
+          "titleOrig": "Outside the Moscow restaurant where bomb killed three",
+          "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T03:53:05+00:00",
+          "desc": "The BBC's Russia editor reports from Kudrinskaya Square, where the blast took place.",
+          "hotLabel": "",
+          "summary": "BBC俄罗斯编辑报道莫斯科餐厅炸弹袭击事件。",
+          "analysis": "莫斯科餐厅炸弹袭击事件表明恐怖主义威胁依然存在，可能对俄罗斯国内安全形势和民众心理产生影响。这一事件对俄罗斯国内安全政策和国际形象有重要影响。",
+          "keywords": [
+            "莫斯科",
+            "餐厅炸弹袭击",
+            "恐怖主义",
+            "俄罗斯安全",
+            "国际形象"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/czjlvvkzj20o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/01/world/middleeast/israel-gaza-strikes-trump-hamas.html"
+              "url": "https://www.bbc.co.uk/news/articles/cdx8qp451lko?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 7
         },
         {
-          "title": "雅典发现英国女子遗体的案件嫌疑人被捕",
-          "titleOrig": "Man arrested over death of British woman found in suitcase in Athens",
-          "url": "https://www.dw.com/en/man-arrested-over-death-of-british-woman-found-in-suitcase-in-athens/a-78210183?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "解密塞塔移民危机混乱",
+          "titleOrig": "Unraveling the Chaos in Ceuta",
+          "url": "https://www.nytimes.com/2026/08/02/world/spain-morocco-migration-iran.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-02T23:50:00+00:00",
-          "desc": "The body of Scottish national Elisabeth-Jane Ross was discovered last month in a suitcase in a derelict building in Athens.",
+          "publishedAt": "2026-08-03T05:13:53+00:00",
+          "desc": "Whatever caused the migrant surge in the Spanish territory, it’s already shaking up European politics.",
           "hotLabel": "",
-          "summary": "雅典发现英国女子遗体，嫌疑人被捕。",
-          "analysis": "此案件可能涉及国际犯罪，对希腊的司法系统提出挑战。同时，也可能影响希腊与英国的关系，以及对希腊旅游业的信心。",
+          "summary": "塞塔地区移民激增引发欧洲政治动荡。",
+          "analysis": "塞塔地区的移民危机不仅影响西班牙，也波及整个欧洲的政治格局。这反映了欧洲在处理移民问题上的挑战，以及地区内部对于移民政策的分歧。后续可能看到欧洲国家在移民政策上的进一步协调或分歧加剧。",
           "keywords": [
-            "雅典",
-            "英国女子",
-            "遗体",
-            "嫌疑人",
-            "希腊司法"
+            "塞塔",
+            "移民危机",
+            "欧洲政治",
+            "移民政策",
+            "西班牙"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/man-arrested-over-death-of-british-woman-found-in-suitcase-in-athens/a-78210183?maca=en-rss-en-all-1573-rdf"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/spain-morocco-migration-iran.html"
             }
           ],
           "rank": 8
         },
         {
-          "title": "特朗普取消对伊朗的打击计划，油价下跌",
-          "titleOrig": "Oil drops over 4% after Trump calls off planned strike on Iran",
+          "title": "巴基斯坦警察局遭炸弹袭击，造成至少14人死亡",
+          "titleOrig": "Pakistan Police Station Bombing Kills at Least 14",
+          "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-02T18:25:12+00:00",
+          "desc": "The authorities said the suicide bombing, which killed at least 14 people in the Swat Valley. The Pakistani Taliban claimed responsibility.",
+          "hotLabel": "",
+          "summary": "巴基斯坦警察局遭自杀式炸弹袭击，塔利班宣称负责。",
+          "analysis": "巴基斯坦警察局遭袭反映了该国安全形势的严峻，塔利班宣称负责表明极端主义势力在该国依然活跃。袭击事件对巴基斯坦国内政治稳定和国家安全构成威胁，并可能加剧该国与塔利班等极端组织的冲突。后续可能包括政府的安全行动和反恐努力。",
+          "keywords": [
+            "巴基斯坦",
+            "警察局",
+            "炸弹袭击",
+            "塔利班",
+            "安全形势"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/asia/pakistan-police-station-bombing.html"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "美日罕见联合行动支撑日元",
+          "titleOrig": "US and Japan take action to prop up yen in rare joint move",
+          "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T07:30:52+00:00",
+          "desc": "Both countries have said that they will not hesitate to conduct joint interventions in the future.",
+          "hotLabel": "",
+          "summary": "美日联合行动以支撑日元，表示未来将不犹豫进行联合干预。",
+          "analysis": "美日联合干预日元可能反映了日元近期过快升值对两国经济的潜在影响。这一举措可能对全球经济稳定产生一定影响。后续可能涉及其他货币市场的动态。",
+          "keywords": [
+            "美日",
+            "日元",
+            "联合干预",
+            "经济稳定",
+            "货币市场"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cglj1pr0wjwo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "韩国放弃‘先去核化’策略，平壤下一步行动成谜",
+          "titleOrig": "South Korea ditches 'denuclearization-first' strategy. What will Pyongyang do next?",
+          "url": "https://www.npr.org/2026/08/03/nx-s1-5917877/south-korea-north-korea-nuclear-peace-analysis",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T06:49:13+00:00",
+          "desc": "South Korea is moving away from its policy of prioritizing the immediate denuclearization of North Korea. But despite that shift, experts doubt Pyongyang will return to the negotiating table.",
+          "hotLabel": "",
+          "summary": "韩国调整对朝鲜政策，专家质疑平壤是否会重返谈判桌。",
+          "analysis": "韩国政策调整可能影响朝鲜半岛无核化进程，以及地区安全格局。后续可能看到朝鲜在政策上的回应，以及国际社会对朝鲜政策的重新评估。",
+          "keywords": [
+            "韩国",
+            "朝鲜",
+            "去核化",
+            "政策调整",
+            "地区安全"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/03/nx-s1-5917877/south-korea-north-korea-nuclear-peace-analysis"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "中东紧张局势缓和，油价下跌",
+          "titleOrig": "Oil prices fall as Middle East tensions ebb on diplomatic efforts",
           "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
@@ -379,17 +455,17 @@
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-02T23:33:07+00:00",
+          "publishedAt": "2026-08-03T08:57:57+00:00",
           "desc": "Oil prices fell on Monday as investors pared geopolitical risk premiums after U.S. President Donald Trump said he had called off a planned strike on Iran.",
           "hotLabel": "",
-          "summary": "特朗普取消对伊朗的打击计划，油价应声下跌。",
-          "analysis": "特朗普的决定降低了中东地区的紧张局势，对全球石油市场产生积极影响。然而，这可能导致伊朗核问题的长期不确定性，对国际能源市场构成潜在风险。",
+          "summary": "美国总统特朗普取消对伊朗的打击计划，油价下跌。",
+          "analysis": "中东地区紧张局势的缓和，尤其是美国总统特朗普取消对伊朗的打击计划，降低了市场对地缘政治风险的担忧，导致油价下跌。这一事件反映了地缘政治对油价的重大影响，以及对全球能源市场稳定的关注。后续走向可能包括中东地区局势的进一步发展以及其对全球油价的影响。",
           "keywords": [
-            "特朗普",
-            "伊朗",
+            "中东",
             "油价",
-            "中东局势",
-            "能源市场"
+            "地缘政治",
+            "特朗普",
+            "伊朗"
           ],
           "category": "international",
           "importance": 75,
@@ -397,142 +473,137 @@
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/08/03/oil-prices-today-wti-brent-hormuz-trump-iran.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "印尼渡轮起火造成5死41人失踪",
-          "titleOrig": "Five dead and 41 missing after Indonesia ferry catches fire",
-          "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T11:49:40+00:00",
-          "desc": "The vessel with at least 250 people on board caught fire off Madura island.",
-          "hotLabel": "",
-          "summary": "印尼一艘载有至少250人的渡轮在马都拉岛附近起火。",
-          "analysis": "渡轮火灾暴露了印尼海上交通安全的薄弱环节。这一悲剧可能引发对印尼海上安全法规的审查，并对旅游业和印尼经济产生负面影响。后续可能包括对事故原因的调查和安全措施的加强。",
-          "keywords": [
-            "印尼",
-            "渡轮火灾",
-            "海上安全",
-            "旅游业",
-            "印尼经济"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c74g0wjvlrxo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "中国如何监控外国人",
-          "titleOrig": "How China Keeps Tabs on Foreigners",
-          "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T04:03:06+00:00",
-          "desc": "An unsecured police dashboard was a rare window into how the authorities track foreigners by collecting and aggregating vast amounts of private data.",
-          "hotLabel": "",
-          "summary": "纽约时报报道，不安全的警察仪表板揭示了当局如何通过收集和汇总大量私人数据来监控外国人。",
-          "analysis": "这揭示了数据监控在国家安全和社会管理中的重要性，同时也引发了隐私保护和数据安全的担忧。中国的监控手段可能影响外国人在中国的活动，对国际关系和商业环境产生潜在影响。",
-          "keywords": [
-            "中国",
-            "监控",
-            "数据安全",
-            "隐私保护",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html"
-            }
-          ],
-          "rank": 11,
-          "_score": 92.0
-        },
-        {
-          "title": "莫斯科爆炸事件现场：致命爆炸导致三人死亡",
-          "titleOrig": "At the scene of deadly Moscow bomb blast",
-          "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T16:52:35+00:00",
-          "desc": "Three people have been killed and 21 injured after an explosive device detonated at an Italian restaurant, Russian media reports.",
-          "hotLabel": "",
-          "summary": "在莫斯科一家意大利餐厅发生爆炸事件，造成三人死亡，21人受伤。",
-          "analysis": "莫斯科爆炸事件可能是一起恐怖袭击，也可能是一起意外事件。无论哪种情况，这都表明俄罗斯国内安全形势依然严峻。事件对俄罗斯国内政治和社会稳定可能产生负面影响，并可能加剧民众对恐怖主义威胁的担忧。后续调查结果将对事件定性及影响产生决定性作用。",
-          "keywords": [
-            "莫斯科",
-            "爆炸",
-            "恐怖袭击",
-            "俄罗斯",
-            "安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 12
         },
         {
-          "title": "莫斯科一家高档餐厅发生自制炸弹袭击，造成三人死亡",
-          "titleOrig": "Improvised Bomb Kills 3 at an Upscale Moscow Restaurant",
-          "url": "https://www.nytimes.com/2026/08/01/world/europe/deadly-bombing-moscow-restaurant.html",
+          "title": "委内瑞拉地震后拉瓜伊拉地区面目全非",
+          "titleOrig": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
+          "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-02T11:55:03+00:00",
-          "desc": "Among the victims of the explosion, which also injured 21 people, were a security guard and a woman who the authorities say had arrived with the suspicious package.",
+          "publishedAt": "2026-08-02T11:05:56+00:00",
+          "desc": "More than a month after the earthquakes, the coastal region of La Guaira — once Venezuela’s main gateway — is completely unrecognizable.",
           "hotLabel": "",
-          "summary": "莫斯科一家高档餐厅发生爆炸，造成三人死亡，21人受伤，包括一名保安和一名携带可疑包裹的女子。",
-          "analysis": "莫斯科餐厅爆炸事件可能是恐怖袭击，也可能是一起针对特定个人的犯罪。事件对俄罗斯国内安全形势和民众安全感产生负面影响。后续调查结果将对事件定性及影响产生决定性作用。",
+          "summary": "委内瑞拉拉瓜伊拉地区地震后，基础设施严重损毁。",
+          "analysis": "委内瑞拉地震导致拉瓜伊拉地区严重损毁，反映了该国的经济困境和基础设施薄弱。地震对当地居民生活造成严重影响，同时也加剧了委内瑞拉的经济和社会问题。后续可能包括国际援助、重建工作以及国内政治动荡。",
           "keywords": [
-            "莫斯科",
-            "餐厅",
-            "爆炸",
-            "恐怖袭击",
-            "俄罗斯"
+            "委内瑞拉",
+            "地震",
+            "拉瓜伊拉",
+            "基础设施",
+            "经济困境"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/01/world/europe/deadly-bombing-moscow-restaurant.html"
+              "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html"
             }
           ],
           "rank": 13
+        },
+        {
+          "title": "昂山素季首次确认的外部接触情况健康",
+          "titleOrig": "Aung San Suu Kyi appears healthy in first confirmed outside contact for 2.5 years",
+          "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T06:53:09+00:00",
+          "desc": "Photos newly released by Myanmar's military government show Suu Kyi meeting with an ICRC official.",
+          "hotLabel": "",
+          "summary": "昂山素季首次确认的外部接触情况健康，与红十字国际委员会官员会面。",
+          "analysis": "昂山素季的首次公开露面可能表明缅甸军事政府对其健康状况的担忧有所缓解，同时也可能意味着政治局势的微妙变化。这一事件对缅甸国内政治和国际社会对缅甸的关注度都有重要影响。后续可能涉及缅甸政治改革的进展。",
+          "keywords": [
+            "昂山素季",
+            "缅甸",
+            "政治局势",
+            "红十字国际委员会",
+            "国际关注"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c1e1d5j6660o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "缅甸：昂山素季会见红十字会官员，军方回应",
+          "titleOrig": "Myanmar: Aung San Suu Kyi meets Red Cross official, junta says",
+          "url": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T08:28:00+00:00",
+          "desc": "Myanmar’s military-led government released images from the 81-year-old Nobel laureate’s meeting with ICRC’s resident representative for Myanmar, Arnaud de Baecque.",
+          "hotLabel": "",
+          "summary": "缅甸军方发布昂山素季与红十字会官员会面的照片。",
+          "analysis": "昂山素季与红十字会官员的会面可能涉及对缅甸人道主义危机的关注。军方回应可能反映了缅甸政治局势的复杂性，以及国际社会对缅甸的关注。",
+          "keywords": [
+            "缅甸",
+            "昂山素季",
+            "红十字会",
+            "政治局势",
+            "人道主义危机"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/myanmar-aung-san-suu-kyi-meets-red-cross-official-junta-says/a-78211532?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "马来西亚男孩涉嫌在学校谋杀女孩受审",
+          "titleOrig": "Malaysian boy on trial for allegedly murdering girl in school",
+          "url": "https://www.bbc.co.uk/news/articles/cgewq549988o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T01:43:16+00:00",
+          "desc": "The high-profile case has shocked Malaysia and sparked debate about the effect of social media on children.",
+          "hotLabel": "",
+          "summary": "马来西亚男孩涉嫌在学校谋杀女孩案件引发社会关注。",
+          "analysis": "这起案件在马来西亚引起了广泛关注，不仅因为其本身的严重性，还因为涉及社交媒体对儿童的影响。关键影响包括对儿童安全的关注，以及对社交媒体监管的讨论。后续走向可能包括对案件审理结果的关注和对儿童保护措施的改进。",
+          "keywords": [
+            "马来西亚",
+            "谋杀",
+            "学校",
+            "社交媒体",
+            "儿童安全"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cgewq549988o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 16
         },
         {
           "title": "加拿大西捷航空因乘务员罢工取消航班",
@@ -547,14 +618,14 @@
           "publishedAt": "2026-08-02T20:32:25+00:00",
           "desc": "Labor talks resumed on Sunday between the airline and union representing 4,400 flight attendants, who want improved wages and compensation for unpaid work.",
           "hotLabel": "",
-          "summary": "西捷航空因乘务员罢工取消航班，劳资谈判继续。",
-          "analysis": "此次罢工反映了加拿大航空业劳资关系的紧张，可能对航空业运营和乘客出行造成影响。长期来看，这可能促使航空公司改善员工待遇，提高行业整体竞争力。",
+          "summary": "加拿大西捷航空因乘务员罢工取消航班，双方就薪资和补偿进行谈判。",
+          "analysis": "西捷航空乘务员罢工反映了加拿大航空业劳资关系的紧张。乘务员要求提高薪资和补偿，这可能会对航空公司的运营成本和乘客服务产生影响。后续可能包括劳资双方达成协议或持续罢工。",
           "keywords": [
             "加拿大",
             "西捷航空",
-            "罢工",
-            "劳资关系",
-            "航空业"
+            "乘务员罢工",
+            "薪资",
+            "劳资关系"
           ],
           "category": "international",
           "importance": 70,
@@ -564,204 +635,100 @@
               "url": "https://www.nytimes.com/2026/08/02/world/canada/westjet-flight-attendants-strike-canada.html"
             }
           ],
-          "rank": 14
+          "rank": 17
         },
         {
-          "title": "莫斯科餐厅爆炸造成3人死亡，一名女子携带爆炸物被阻止",
-          "titleOrig": "Three killed after bomb detonated at Moscow restaurant, state media say",
-          "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss",
+          "title": "新加坡禁演后，英国乐队回应巴勒斯坦展示",
+          "titleOrig": "Massive Attack respond after Singapore ban over Palestine display",
+          "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-02T10:54:44+00:00",
-          "desc": "Security officials said a woman tried to enter the restaurant with explosives but was stopped by a security guard.",
+          "publishedAt": "2026-08-03T01:31:05+00:00",
+          "desc": "The UK band says they are \"surprised and disappointed\" by their treatment over shouting \"free Palestine\" at a concert there.",
           "hotLabel": "",
-          "summary": "莫斯科一餐厅发生爆炸，造成3人死亡。",
-          "analysis": "这起爆炸事件表明恐怖主义威胁依然存在。事件可能对俄罗斯国内安全形势产生负面影响，并可能引发对恐怖主义防范措施的加强。后续可能包括对爆炸原因的调查和对恐怖主义活动的打击。",
+          "summary": "英国乐队在新加坡因展示巴勒斯坦标语被禁演。",
+          "analysis": "英国乐队在新加坡因展示巴勒斯坦标语被禁演，反映了国际社会中关于言论自由和敏感议题的复杂关系。关键影响包括对言论自由的讨论，以及对国际文化交流的影响。后续走向可能包括对类似事件的关注和对文化交流政策的调整。",
           "keywords": [
-            "莫斯科",
-            "餐厅爆炸",
-            "恐怖主义",
-            "俄罗斯安全",
-            "恐怖袭击"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c86n4ljxp63o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/c1719pk0xq8o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/moscow-restaurant-blast-a-brutal-terror-attack-mayor-says/a-78205022?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "西非反LGBTQ+法律增多，活动家警告",
-          "titleOrig": "Anti-LGBTQ+ laws are on the rise across west Africa, campaigners warn",
-          "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T04:00:11+00:00",
-          "desc": "Activists in the region say politicians regard LGBTQ+ people as ‘the easiest scapegoats to maintain their power’A growing number of west African countries are implementing or strengthening anti-LGBTQ+ laws, amid local political pressures and a global pushback against LGBTQ+ rights.In March, Senegal ",
-          "hotLabel": "",
-          "summary": "活动家警告称，西非越来越多的国家正在实施或加强反LGBTQ+法律，这反映了当地政治压力和全球对LGBTQ+权利的抵制。",
-          "analysis": "这反映了LGBTQ+权利在全球范围内的挑战，西非国家的法律变化可能加剧社会分裂，对人权和全球价值观产生深远影响。",
-          "keywords": [
-            "西非",
-            "反LGBTQ+法律",
-            "人权",
-            "社会分裂",
-            "全球价值观"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/02/anti-lgbtq-laws-are-on-the-rise-across-west-africa-campaigners-warn"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "委内瑞拉拉瓜伊拉地震后景象惨不忍睹",
-          "titleOrig": "La Guaira Is Unrecognizable After Venezuela’s Deadly Earthquakes",
-          "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T11:05:56+00:00",
-          "desc": "More than a month after the earthquakes, the coastal region of La Guaira — once Venezuela’s main gateway — is completely unrecognizable.",
-          "hotLabel": "",
-          "summary": "委内瑞拉拉瓜伊拉地区发生地震后，一个月过去了，该地区已面目全非。",
-          "analysis": "委内瑞拉地震暴露了该国的基础设施脆弱性和人道主义危机。地震对当地居民生活造成了巨大影响，加剧了国家的经济和社会问题。国际社会对委内瑞拉的支持和援助可能成为该事件的关键，后续可能引发更多的国际关注和援助。",
-          "keywords": [
-            "委内瑞拉",
-            "地震",
-            "拉瓜伊拉",
-            "基础设施",
-            "人道主义"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/americas/venezuela-earthquakes-la-guaira.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "大多数移民离开西班牙 Ceuta 后，疲惫的滞留者在海滩上找到避难所",
-          "titleOrig": "After Most Migrants Leave Ceuta, Exhausted Holdouts Find Shelter on Beach",
-          "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T16:29:12+00:00",
-          "desc": "Most of the people who surged into Spain on Thursday have since returned to Morocco. A small minority are holed up on a seafront, tired, hungry and vowing to stay.",
-          "hotLabel": "",
-          "summary": "大多数试图进入西班牙 Ceuta 的移民返回摩洛哥，少数人疲惫不堪、饥饿地在海滩上寻求庇护。",
-          "analysis": "这一事件反映了欧洲边境管控的挑战和移民危机的严重性。欧洲国家在处理移民问题上的分歧可能导致地区紧张局势升级。后续可能需要加强边境管控和寻求国际合作，以解决移民危机。",
-          "keywords": [
-            "移民",
-            "Ceuta",
-            "西班牙",
-            "欧洲",
-            "边境管控"
+            "英国乐队",
+            "新加坡",
+            "巴勒斯坦",
+            "言论自由",
+            "文化交流"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/europe/ceuta-spain-morocco-migrant-holdouts-beach.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cr59qe86yj4o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 18
         },
         {
-          "title": "金发肖像揭示美国人的意外“金色纽带”",
-          "titleOrig": "Ginger hair portraits show unexpected 'golden thread' connecting Americans",
-          "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss",
+          "title": "尼泊尔哀悼登山者尼马尔·普尔贾",
+          "titleOrig": "'Your legacy will live forever': Nepal mourns climber Nirmal Purja",
+          "url": "https://www.bbc.co.uk/news/articles/c07rvy4e7mno?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-02T07:58:51+00:00",
-          "desc": "For Kieran Dodds, photographing people with red hair has become something of an obsession over the past decade or more.",
+          "publishedAt": "2026-08-03T05:31:55+00:00",
+          "desc": "Tributes are pouring out across Nepal after an avalanche killed some of the country's best mountaineers.",
           "hotLabel": "",
-          "summary": "摄影师凯兰·多兹拍摄红发人士，发现了一种意想不到的“金色纽带”。",
-          "analysis": "这一现象揭示了美国社会的一个独特文化特征，即对红发人士的普遍认同。这种文化现象可能反映了美国社会的包容性和多样性。后续可能包括对这一文化现象的更多研究和讨论。",
+          "summary": "尼泊尔哀悼在雪崩中丧生的登山者尼马尔·普尔贾。",
+          "analysis": "尼泊尔登山者的丧生事件凸显了登山运动的风险，同时也可能对尼泊尔旅游业产生一定影响。这一事件对尼泊尔国内社会和旅游业的发展具有重要意义。",
           "keywords": [
-            "美国",
-            "金发",
-            "文化现象",
-            "红发",
-            "社会多样性"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ce97nyz4rvmo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "澳大利亚独立音乐场所因成本上升和出席率下降而关闭",
-          "titleOrig": "Australia’s Indie Music Venues Closing as Costs Rise and Attendance Drops",
-          "url": "https://www.nytimes.com/2026/08/02/world/australia/sydney-australia-marys-underground-music-venues-closing.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-02T11:25:31+00:00",
-          "desc": "When Mary’s Underground in Sydney closed, it was a familiar tune for a scene hit by high costs and low attendance. Critics worry about a shrinking space for new talent.",
-          "hotLabel": "",
-          "summary": "悉尼的Mary’s Underground关闭，反映了独立音乐场所面临的高成本和低出席率问题。",
-          "analysis": "这反映了澳大利亚文化产业的挑战，高成本和低出席率可能阻碍新人才的成长。事件可能引发对文化政策和文化产业支持的讨论。",
-          "keywords": [
-            "澳大利亚",
-            "独立音乐",
-            "成本上升",
-            "出席率下降",
-            "文化产业"
+            "尼泊尔",
+            "登山者",
+            "雪崩",
+            "旅游业",
+            "风险"
           ],
           "category": "international",
           "importance": 60,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/02/world/australia/sydney-australia-marys-underground-music-venues-closing.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c07rvy4e7mno?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "希腊直升机相撞，两名机组人员死亡",
+          "titleOrig": "Two crew killed after firefighting helicopters collide in Greece, as British pilot survives",
+          "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-03T01:03:31+00:00",
+          "desc": "One Danish and one Greek national died in the incident, while a British pilot and another Greek crew member survived.",
+          "hotLabel": "",
+          "summary": "希腊直升机相撞事故，造成两名机组人员死亡。",
+          "analysis": "希腊直升机相撞事故反映了航空安全的挑战，同时也可能对希腊的旅游业和公共安全产生负面影响。关键影响包括对航空安全的关注以及对希腊国内安全的评估。后续走向可能包括对事故原因的调查和航空安全的改进措施。",
+          "keywords": [
+            "希腊",
+            "直升机",
+            "事故",
+            "航空安全",
+            "旅游业"
+          ],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c1417713ve6o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -770,69 +737,40 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势，政策与社会动向呈现出多元发展的脉络。一方面，习近平总书记治国理政纪实彰显了国家领导人的智慧与决心，人民军队99载荣光体现了国防实力的增强。另一方面，技术进步如预警机独立指挥空中战场、DeepSeek-V4 Flash正式版发布等，显示了科技创新的力量。经济领域，电影票房突破231亿元与手机销售遇冷形成对比，反映了市场变化的复杂性。社会事件方面，从考试作弊案到人生选择模拟器，反映出社会管理的挑战与机遇。总体来看，中国正以开放包容的态度，在多领域持续推进改革与发展，值得持续关注。",
+      "digest": "今日国内热点新闻反映出我国在多个领域持续发展。政策层面，习近平总书记强调加快建设健康中国，并强调建设高素质干部队伍。经济领域，东海风电产业集群发展，暑期档电影票房创新高。社会方面，甘肃洪水、河南三支一扶案件等事件引发关注。科技领域，我国预警机独立指挥空中战场，科技人才邓煜获得国际大奖。国际方面，美伊谈判、伊朗与阿曼谈判等事件值得关注。总体来看，我国在政策、经济、社会、科技和国际领域均取得积极进展，未来发展值得期待。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "习近平总书记治国理政纪实",
-          "titleOrig": "【奋力开创中国式现代化建设新局面——习近平总书记今年以来治国理政纪实】坚定不移推动高质量发展努力实现“十五五”良好开局--人民视频 - tv.people.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EWFA1U0J4U0JlU2JyN2ROSUJmQXNsZjIwVk9vZnlSdmRjU2hidk1QZnJ4SzNkdGNsbVE0SDlIa0VIMkNKMDFIYTZWNVFXWWJtdmRjMC13eGhIdWRsSUtaUEpxVXJ1dmkt?oc=5",
+          "title": "习近平总书记指引加快建设健康中国",
+          "titleOrig": "第一观察丨习近平总书记指引加快建设健康中国 - politics.people.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQWRKemh3Y3VEMmdkSndJbTZBc1NoelNsb01pcU00OWItVkgzY3VNY2VoWTREY0pMRnJpNnNfT2xCTThuVTZMSmNTSnFRX0piVmFQMk5zUDNFSkNwUkVhY01yZnR2QTNESGlPb0JGSnE0UQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-02T13:45:00+00:00",
-          "desc": "【奋力开创中国式现代化建设新局面——习近平总书记今年以来治国理政纪实】坚定不移推动高质量发展努力实现“十五五”良好开局--人民视频 tv.people.com.cn时政新闻眼丨“十五五”如何开好局起好步？总书记的三句话蕴含深意 中国网李开孟推出最新力作《“十五五”关键棋：核心战略与民生机遇》 news.bjd.com.cn从《“十五五”关键棋：核心战略与民生机遇》看“十五五”破题 bjnews.com.cn申万宏源赵伟：“十五五”时期结构重塑与改革赋能的思考 Sohu",
+          "publishedAt": "2026-08-03T07:25:00+00:00",
+          "desc": "第一观察丨习近平总书记指引加快建设健康中国 politics.people.com.cn《求是》杂志发表习近平总书记重要文章《加快建设健康中国》 北京市人民政府习近平总书记指引加快建设健康中国- 中国日报网 China Daily学习进行时｜健康中国建设，习近平总书记指明科学方法论 光明网好评中国·“经”彩开局｜健康中国的每一步，都与你我息息相关 news.youth.cn",
           "hotLabel": "",
-          "summary": "习近平总书记今年以来治国理政纪实。",
-          "analysis": "习近平总书记的治国理政纪实展现了国家领导层的决心和方向，强调了高质量发展和“十五五”规划的重要性。这一政策意图表明了中国政府致力于推动经济结构优化和转型升级，对国内民生、经济和治理都具有重要意义。",
+          "summary": "习近平总书记发表文章，强调加快建设健康中国。",
+          "analysis": "文章强调了健康中国建设的战略意义，体现了国家对人民健康的高度重视。这将对我国医疗卫生体制改革、公共卫生体系建设等方面产生深远影响，有利于提高国民健康水平。",
           "keywords": [
+            "健康中国",
             "习近平总书记",
-            "治国理政",
-            "高质量发展",
-            "十五五",
-            "政策"
+            "医疗卫生体制改革",
+            "国民健康"
           ],
           "category": "domestic",
-          "importance": 90,
+          "importance": 95,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EWFA1U0J4U0JlU2JyN2ROSUJmQXNsZjIwVk9vZnlSdmRjU2hidk1QZnJ4SzNkdGNsbVE0SDlIa0VIMkNKMDFIYTZWNVFXWWJtdmRjMC13eGhIdWRsSUtaUEpxVXJ1dmkt?oc=5"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "中国预警机独立指挥空中战场",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%A2%84%E8%AD%A6%E6%9C%BA%E7%8B%AC%E7%AB%8B%E6%8C%87%E6%8C%A5%E7%A9%BA%E4%B8%AD%E6%88%98%E5%9C%BA%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "中国预警机实现独立指挥空中战场，展示军事技术进步。",
-          "analysis": "事件背景：预警机是现代战争中的重要装备，独立指挥能力提升体现了中国军事现代化进程。关键影响：对国内军事技术和国际地位有积极意义，有助于提升国防实力。后续走向：可能推动军事装备技术的进一步发展。",
-          "keywords": [
-            "预警机",
-            "军事技术",
-            "独立指挥",
-            "国防",
-            "现代化"
-          ],
-          "category": "tech",
-          "importance": 90,
-          "sources": [
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQWRKemh3Y3VEMmdkSndJbTZBc1NoelNsb01pcU00OWItVkgzY3VNY2VoWTREY0pMRnJpNnNfT2xCTThuVTZMSmNTSnFRX0piVmFQMk5zUDNFSkNwUkVhY01yZnR2QTNESGlPb0JGSnE0UQ?oc=5"
+            },
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%A2%84%E8%AD%A6%E6%9C%BA%E7%8B%AC%E7%AB%8B%E6%8C%87%E6%8C%A5%E7%A9%BA%E4%B8%AD%E6%88%98%E5%9C%BA%23&t=31&band_rank=3&Refer=top"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html"
             },
             {
               "name": "Deutsche Welle",
@@ -843,7 +781,79 @@
               "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
             }
           ],
+          "rank": 1
+        },
+        {
+          "title": "习近平党建思想：建设高素质干部队伍",
+          "titleOrig": "深入学习领会习近平党建思想的科学内涵之九丨坚持建设堪当民族复兴重任的高素质干部队伍 - cppcc.gov.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5US05aTTlUQktIQWZuTFZkOUE4SnQ5U3MxY0pnUmI3cmxxU25waENPMjVudG94SzE3U2NRTU9wWE9qTGN2blNBYUZQQXk2Unh2TXZnME5SUW5nR3VPVXJiTUpKYmsyTTRP?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T08:34:24+00:00",
+          "desc": "深入学习领会习近平党建思想的科学内涵之九丨坚持建设堪当民族复兴重任的高素质干部队伍 cppcc.gov.cn学习新语丨坚持党的全面领导和党中央集中统一领导 新华网中国法官培训网上线“习近平党建思想”课程专区为锻造新时代高素质审判队伍注入思想动力 court.gov.cn习近平强党兴党的故事｜治国之要 首在用人 news.china.com.cn深刻理解习近平党建思想的原创性贡献 天津日报",
+          "hotLabel": "",
+          "summary": "习近平党建思想强调高素质干部队伍建设",
+          "analysis": "习近平党建思想的这一部分强调了对干部队伍素质的要求，旨在确保党的领导地位和民族复兴的重任能够得到有效执行。这反映了党对干部队伍建设的重视，以及对未来领导力的期待。对国内民生而言，高素质干部队伍的建立将有助于提升政府治理能力和公共服务水平，对经济意味着更有效的政策制定和执行，对治理则意味着更加规范和透明的政治生态。后续走向可能包括更多关于干部选拔、培训和考核的改革措施。",
+          "keywords": [
+            "习近平党建思想",
+            "干部队伍建设",
+            "治理能力",
+            "政策执行",
+            "政治生态"
+          ],
+          "category": "domestic",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5US05aTTlUQktIQWZuTFZkOUE4SnQ5U3MxY0pnUmI3cmxxU25waENPMjVudG94SzE3U2NRTU9wWE9qTGN2blNBYUZQQXk2Unh2TXZnME5SUW5nR3VPVXJiTUpKYmsyTTRP?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE4wQWRKemh3Y3VEMmdkSndJbTZBc1NoelNsb01pcU00OWItVkgzY3VNY2VoWTREY0pMRnJpNnNfT2xCTThuVTZMSmNTSnFRX0piVmFQMk5zUDNFSkNwUkVhY01yZnR2QTNESGlPb0JGSnE0UQ?oc=5"
+            }
+          ],
           "rank": 2
+        },
+        {
+          "title": "东海大风助力千亿风电产业集群发展",
+          "titleOrig": "东海大风“刮”出千亿集群 十公里闭环打造风电业 - 中国网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NWkxDcHl5R2N4bzhuNDRLcUNNYkJsUlMxaTlIdmNKRkxSZmlvLW9uaWVVX2dFZGJPamJHeU5XSWNRMlZlVGJqLXktelJXZV8wYXQyaUk0bHVmOUpYcFpqQWtDU2F6M1NybUc3Sk8wbw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T01:46:00+00:00",
+          "desc": "东海大风“刮”出千亿集群 十公里闭环打造风电业 中国网活力中国调研行丨东海大风“刮”出千亿集群 十公里闭环打造风电产业新高地 光明网浙江温州一站式打造海上风机产业链 中华网活力中国调研行丨中国风电出海“捕风” 中国网活力中国调研行｜重器从这里出海 搜狐网",
+          "hotLabel": "",
+          "summary": "东海大风推动风电产业链发展，形成千亿级产业集群。",
+          "analysis": "东海地区风力资源丰富，政府推动风电产业发展，旨在实现能源结构调整和绿色低碳转型。此举有助于提升国内风电产业竞争力，促进区域经济发展。对国内民生改善和环境保护具有重要意义。后续可能继续扩大风电产业规模，推动产业链上下游协同发展。",
+          "keywords": [
+            "风电",
+            "产业集群",
+            "东海",
+            "能源转型",
+            "绿色低碳"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5NWkxDcHl5R2N4bzhuNDRLcUNNYkJsUlMxaTlIdmNKRkxSZmlvLW9uaWVVX2dFZGJPamJHeU5XSWNRMlZlVGJqLXktelJXZV8wYXQyaUk0bHVmOUpYcFpqQWtDU2F6M1NybUc3Sk8wbw?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html"
+            }
+          ],
+          "rank": 3
         },
         {
           "title": "知友邓煜获得菲尔兹奖",
@@ -859,220 +869,378 @@
           "desc": "",
           "hotLabel": "",
           "summary": "中国数学家邓煜获得国际数学界最高奖项菲尔兹奖。",
-          "analysis": "邓煜获得菲尔兹奖是中国数学界的一大突破，展示了我国数学研究的国际影响力。对国内数学教育和研究有积极推动作用，可能激发更多年轻学者投身数学研究。后续可能看到更多中国数学家在国际舞台上崭露头角。",
+          "analysis": "邓煜获得菲尔兹奖是对中国数学界在国际舞台上影响力的肯定，体现了我国数学研究的实力。这有助于提升国家科技实力和国际影响力，激励更多青年投身科研。",
           "keywords": [
-            "邓煜",
             "菲尔兹奖",
-            "数学研究",
-            "国际影响力",
-            "学术成就"
+            "数学家",
+            "科研实力",
+            "国际影响力"
           ],
-          "category": "international",
+          "category": "tech",
           "importance": 90,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E5%8F%8B%E9%82%93%E7%85%9C%E8%8E%B7%E5%BE%97%E8%8F%B2%E5%B0%94%E5%85%B9%E5%A5%96"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "人民军队99载浴血荣光",
-          "titleOrig": "人民军队99载浴血荣光 陆海空三军锚定目标坚守战位 - Sohu",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zMlRBbTdsWFI3QV9tVUpyNnF1R0Y1bnotRUs4WUVLYXg0ZWtBQ0ZCd05odV9FaFlqeUZFZXBSS0paMnRWeG1UUy1NNXdKV3E5SkdRYmhUb0wxREcyMlI3ZUt4SnB3Q3c?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-01T23:26:28+00:00",
-          "desc": "人民军队99载浴血荣光 陆海空三军锚定目标坚守战位 Sohu以“第一”之名赴强军之约（强军路上） 军事频道时政微观察丨军旗永向党 光明网学习进行时｜句句铿锵——总书记的强军号令- 中国日报网 China Daily一习话丨“坚持党指挥枪 建设自己的人民军队” 中国网新闻中心",
-          "hotLabel": "",
-          "summary": "人民军队99周年庆祝活动。",
-          "analysis": "人民军队的庆祝活动体现了国家对军队建设的重视和军队在国家安全和发展中的重要作用。这一事件强调了军队现代化建设和强军目标，对维护国家安全和稳定具有重要意义。",
-          "keywords": [
-            "人民军队",
-            "庆祝活动",
-            "军队建设",
-            "国家安全",
-            "强军"
-          ],
-          "category": "domestic",
-          "importance": 85,
-          "sources": [
+            },
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE0zMlRBbTdsWFI3QV9tVUpyNnF1R0Y1bnotRUs4WUVLYXg0ZWtBQ0ZCd05odV9FaFlqeUZFZXBSS0paMnRWeG1UUy1NNXdKV3E5SkdRYmhUb0wxREcyMlI3ZUt4SnB3Q3c?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E8%94%A1%E5%B4%87%E4%BF%A1%E5%AE%A3%E5%B8%83%E7%A6%BB%E5%A9%9A"
             }
           ],
           "rank": 4
         },
         {
-          "title": "青岛一仓库发生火灾",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%9D%92%E5%B2%9B%E4%B8%80%E4%BB%93%E5%BA%93%E5%8F%91%E7%94%9F%E7%81%AB%E7%81%BE",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "特朗普称美伊将谈判，伊朗划新航线",
+          "titleOrig": "特朗普说美伊将谈判 伊朗称在霍尔木兹海峡划新航线 - 杭州新闻",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkR0dxZHZGLURvVlFvenE2VUxOM1YyT3JQVmZ3NUhjSE5jNTdObGxJb3RQZG1sc3BCbkY0RndOZnYzTC1FcXFaeXVzOTRvSkp4SVRKYm54R2UyU0hSbUxSdGxGRTA4NWxZajlDa3ZLZF9nY19HTDV4dFJDb1Q?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "青岛一仓库发生火灾，情况严重。",
-          "analysis": "事件背景：仓库火灾可能涉及安全隐患和应急管理问题。关键影响：对周边环境和人员安全构成威胁，对城市安全治理提出挑战。后续走向：可能引发对安全生产和应急管理的重视。",
+          "publishedAt": "2026-08-03T06:34:00+00:00",
+          "desc": "特朗普说美伊将谈判 伊朗称在霍尔木兹海峡划新航线 杭州新闻特朗普称美伊3日将举行谈判 新浪新闻_手机新浪网以媒：内塔尼亚胡通过特朗普社媒得知美取消对伊打击 观察者网伊朗军方：特朗普称伊朗要求停止攻击是“谎言” 中国日报网特朗普称同意取消对伊朗的打击 央视网",
+          "hotLabel": "",
+          "summary": "特朗普称美伊将谈判，伊朗在霍尔木兹海峡划新航线",
+          "analysis": "特朗普称美伊将谈判，而伊朗在霍尔木兹海峡划新航线，这一系列事件表明了中东地区紧张局势的复杂性。对国际能源市场和中国能源安全有重要影响，后续可能涉及更多国际干预和地区冲突。",
           "keywords": [
-            "火灾",
-            "仓库",
-            "安全",
-            "应急管理",
-            "城市安全"
+            "特朗普",
+            "美伊谈判",
+            "霍尔木兹海峡",
+            "能源安全",
+            "地缘政治"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%9D%92%E5%B2%9B%E4%B8%80%E4%BB%93%E5%BA%93%E5%8F%91%E7%94%9F%E7%81%AB%E7%81%BE"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBkR0dxZHZGLURvVlFvenE2VUxOM1YyT3JQVmZ3NUhjSE5jNTdObGxJb3RQZG1sc3BCbkY0RndOZnYzTC1FcXFaeXVzOTRvSkp4SVRKYm54R2UyU0hSbUxSdGxGRTA4NWxZajlDa3ZLZF9nY19HTDV4dFJDb1Q?oc=5"
             }
           ],
           "rank": 5
         },
         {
-          "title": "2026年电影总票房突破231亿元",
-          "titleOrig": "2026年电影总票房突破231亿元 - 紫荆网",
-          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTnVYX3RwWlQxWldhLTliY0JTWGtCeW9Sbm9LajZFSmdvWHFjMmwzTjhPZFZmRHZ2bTlockdwYnV5aTFoc2lzTFN4Q0g5d0RjYUhUenlxYU1LQjl6bnNHSkxnVUYtUUR6UU5nOXY3VHhOcWpPWkVkeXRLUndsY18yZ3B1RVZFV252cExvN3NLYUxtMlIw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "中国预警机独立指挥空中战场",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%A2%84%E8%AD%A6%E6%9C%BA%E7%8B%AC%E7%AB%8B%E6%8C%87%E6%8C%A5%E7%A9%BA%E4%B8%AD%E6%88%98%E5%9C%BA%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-02T22:51:52+00:00",
-          "desc": "2026年电影总票房突破231亿元 紫荆网2026年度电影总票房超231亿元 市场热度持续走高 news.sina.cn连续22天单日票房破亿！2026暑期档票房突破70亿 中国网新闻中心2026暑期档电影票房破71亿 “影院+”持续高质量发展 china.zjol.com.cn2026年度电影总票房突破230亿！暑期档连续23天票房过亿 Sohu",
-          "hotLabel": "",
-          "summary": "2026年中国电影总票房突破231亿元。",
-          "analysis": "电影票房的持续增长反映了国内消费市场的活跃和电影产业的繁荣。这一现象对电影产业、相关产业链以及国内经济都有积极影响。同时，这也表明了文化消费在人们生活中的重要性日益增加，对推动文化产业发展具有重要意义。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中国预警机实现独立指挥空中战场。",
+          "analysis": "预警机独立指挥空中战场标志着中国空军信息化和现代化建设取得重要进展。这有助于提升我国空中作战能力，维护国家安全。后续可能进一步发展预警机技术，加强空中防御体系。",
           "keywords": [
-            "电影票房",
-            "电影产业",
-            "消费市场",
-            "文化消费",
-            "经济"
+            "预警机",
+            "独立指挥",
+            "空军",
+            "信息化",
+            "国家安全"
           ],
-          "category": "economy",
-          "importance": 80,
+          "category": "tech",
+          "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTnVYX3RwWlQxWldhLTliY0JTWGtCeW9Sbm9LajZFSmdvWHFjMmwzTjhPZFZmRHZ2bTlockdwYnV5aTFoc2lzTFN4Q0g5d0RjYUhUenlxYU1LQjl6bnNHSkxnVUYtUUR6UU5nOXY3VHhOcWpPWkVkeXRLUndsY18yZ3B1RVZFV252cExvN3NLYUxtMlIw?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%A2%84%E8%AD%A6%E6%9C%BA%E7%8B%AC%E7%AB%8B%E6%8C%87%E6%8C%A5%E7%A9%BA%E4%B8%AD%E6%88%98%E5%9C%BA%23&t=31&band_rank=3&Refer=top"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
             }
           ],
           "rank": 6
         },
         {
-          "title": "河南三支一扶考试作弊案查实",
-          "titleOrig": "河南三支一扶案件查实作弊",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E6%A1%88%E4%BB%B6%E6%9F%A5%E5%AE%9E%E4%BD%9C%E5%BC%8A%23&t=31&band_rank=1&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "河南三支一扶考试作弊事件被查实，引发社会关注。",
-          "analysis": "事件背景：三支一扶考试是选拔基层服务人员的重要途径，作弊行为破坏了公平竞争原则。关键影响：对国内民生和治理意味着对公平正义的维护，对考试诚信体系提出挑战。后续走向：可能引发对考试监管的加强和诚信教育的重视。",
+          "title": "中国如何监控外国人",
+          "titleOrig": "How China Keeps Tabs on Foreigners",
+          "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-02T04:03:06+00:00",
+          "desc": "An unsecured police dashboard was a rare window into how the authorities track foreigners by collecting and aggregating vast amounts of private data.",
+          "hotLabel": "",
+          "summary": "纽约时报报道中国监控外国人的方式。",
+          "analysis": "报道揭示了外国人在中国面临的数据监控问题，这可能影响中国在国际社会的形象和关系。后续可能引发对个人信息保护和隐私权的更多讨论。",
           "keywords": [
-            "作弊",
-            "考试",
-            "公平",
-            "治理",
-            "三支一扶"
+            "中国",
+            "外国人",
+            "数据监控",
+            "隐私权",
+            "国际关系"
           ],
-          "category": "society",
-          "importance": 80,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E6%A1%88%E4%BB%B6%E6%9F%A5%E5%AE%9E%E4%BD%9C%E5%BC%8A%23&t=31&band_rank=1&Refer=top"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/02/world/asia/china-surveillance-foreigners-database.html"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
             }
           ],
           "rank": 7
         },
         {
-          "title": "DeepSeek-V4 Flash正式版发布",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=DeepSeek-V4%20Flash%E6%AD%A3%E5%BC%8F%E7%89%88%E5%8F%91%E5%B8%83",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "DeepSeek公司发布DeepSeek-V4 Flash存储产品正式版。",
-          "analysis": "DeepSeek-V4 Flash的发布标志着国内存储技术的进步，有助于提升我国在存储领域的国际竞争力。对国内科技产业和数字经济有积极影响，可能推动相关产业链的发展。后续可能看到更多国产存储产品的推出和应用。",
-          "keywords": [
-            "DeepSeek",
-            "Flash存储",
-            "存储技术",
-            "科技产业",
-            "数字经济"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=DeepSeek-V4%20Flash%E6%AD%A3%E5%BC%8F%E7%89%88%E5%8F%91%E5%B8%83"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "国产动画与你相约暑期档",
-          "titleOrig": "国产动画与你相约暑期档 - Sohu",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTDJuWFhXRkFYM1ExY1U3SHRrOWZPQXRUSTVWdTUweWZkVGkzNVdHcTU0S29Vb2VMb2h1RjhkQWdiX19lMFcyS3ZRVkt2VFFaRjBwVHljcUk2M3NyUUxEdUxsVUV0RWs1a2huVHFfS1JLai1LYW50UmJnc1VGWWdaZWtSamFTUzgz?oc=5",
+          "title": "伊朗与阿曼谈判建立中间航线",
+          "titleOrig": "伊朗外交部发言人称与阿曼谈判建立中间航线 - 同花顺财经",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LWGR2QUNqOV9NMVNuRjV6RWxwVGRqT01BUDExVmYwcnhqZlR0NzRDUzlTVFJPb3g0Vm1IeWxwY0VYWVlGRHlhbmlodGFyVnB3R0hsc2hZMVlQOVF1bHc?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-03T01:32:06+00:00",
-          "desc": "国产动画与你相约暑期档 Sohu寻找电影中的“彩蛋” 跟着《八仙！》游四川 新浪财经国漫夯爆了！除了《八仙！》，这些动画电影也值得N刷 光明网《八仙！》路演来了何仙姑老家！电影票别扔，看完游广州增城！ Sohu5亿票房！“八仙”原型其实长这样 thepaper.cn",
+          "publishedAt": "2026-08-03T08:45:30+00:00",
+          "desc": "伊朗外交部发言人称与阿曼谈判建立中间航线 同花顺财经伊朗重申：霍尔木兹海峡不会恢复至战前状态，将与阿曼协商确定新航道 观察者网伊朗：正与阿曼讨论划定一条霍尔木兹海峡新航线 新京报对话｜七问中东航运危机：双海峡承压如何重塑全球贸易格局 thepaper.cn国际能源署呼吁全面开放霍尔木兹海峡 中国经济网",
           "hotLabel": "",
-          "summary": "国产动画电影在暑期档受到关注。",
-          "analysis": "国产动画电影在暑期档的表现反映了国内动画产业的进步和文化自信的提升。这一现象有助于推动国产动画电影的发展，同时也为青少年提供了丰富的文化产品。国产动画的崛起对国内文化产业的发展具有重要意义。",
+          "summary": "伊朗与阿曼谈判建立霍尔木兹海峡中间航线",
+          "analysis": "伊朗与阿曼谈判建立中间航线是为了应对霍尔木兹海峡的航运安全问题。这一事件反映了中东地区地缘政治的复杂性，对国际能源市场和中国能源安全有重要影响。后续可能涉及更多国家在这一地区的航运合作与竞争。",
           "keywords": [
-            "国产动画",
-            "暑期档",
-            "文化产业",
-            "动画电影",
-            "文化自信"
+            "伊朗",
+            "阿曼",
+            "霍尔木兹海峡",
+            "航运安全",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1LWGR2QUNqOV9NMVNuRjV6RWxwVGRqT01BUDExVmYwcnhqZlR0NzRDUzlTVFJPb3g0Vm1IeWxwY0VYWVlGRHlhbmlodGFyVnB3R0hsc2hZMVlQOVF1bHc?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04WmExeGdRa196SU1Oc21xaVZ6QTFHNjB0eWVEV0ZwMThWM2VhWEplRXIyTFdUREtubXozUGpQaWRXTXgtVUlfR1dkbG5BVk0?oc=5"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "甘肃突发洪水造成多人遇难",
+          "titleOrig": "China: Dozens dead in Gansu flash floods",
+          "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-02T08:03:00+00:00",
+          "desc": "Chinese authorities will launch an investigation into the floods, amid warnings of further landslides as the rainy weather continues.",
+          "hotLabel": "",
+          "summary": "甘肃地区发生洪水，造成人员伤亡。",
+          "analysis": "甘肃地区洪水事件反映了气候变化和极端天气事件对人民生命财产安全的威胁。政府将对此展开调查，并采取措施预防未来类似事件。对当地社会稳定和经济发展产生负面影响。后续可能加强防灾减灾体系建设。",
+          "keywords": [
+            "甘肃",
+            "洪水",
+            "人员伤亡",
+            "防灾减灾",
+            "气候变化"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "上海鼓励归国留学人员参与实践锻炼，助力城区发展",
+          "titleOrig": "上海推动归国留学人员实践锻炼 与城区发展共成长 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UNkVUVDVLVkpIb0FuZ3Q3VnFnTE0wWHlBM2dfc1QzemRiNjFtdEMxam8yOUlkUzR3RVVPY2JHMmxpd2F5Ti12cHRwLVVxRmI4bEpueEtSSk41SDVYLXo5Ynl0TEJUWXhl?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T06:37:55+00:00",
+          "desc": "上海推动归国留学人员实践锻炼 与城区发展共成长 chinanews.com.cn",
+          "hotLabel": "",
+          "summary": "上海推动归国留学人员实践锻炼，与城区发展相结合。",
+          "analysis": "上海此举旨在吸引和留住高层次人才，通过实践锻炼提升归国留学人员的专业技能，同时促进城区经济和社会发展。这反映了国家对于人才战略的重视，以及对国际人才引进和培养的长期规划。对于国内民生而言，这有助于提高整体人力资源水平，推动科技创新和产业升级。后续可能进一步推广此类政策，以吸引更多海外人才。",
+          "keywords": [
+            "归国留学人员",
+            "实践锻炼",
+            "城区发展",
+            "人才战略",
+            "政策"
+          ],
+          "category": "domestic",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UNkVUVDVLVkpIb0FuZ3Q3VnFnTE0wWHlBM2dfc1QzemRiNjFtdEMxam8yOUlkUzR3RVVPY2JHMmxpd2F5Ti12cHRwLVVxRmI4bEpueEtSSk41SDVYLXo5Ynl0TEJUWXhl?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "南航建设副总经理胡继红接受审查调查",
+          "titleOrig": "广州南航建设有限公司副总经理胡继红接受审查调查 - 第一财经",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KQzFiVU0xODJVNFJvcTllc3Q2LWJLMHZuYzVacHV0RkFiS01yN3VFdHZ4RUp6ZE5iLVdXUUlUYXhyNHBjM1RyM04wR1dIM2JSREJV?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T07:34:06+00:00",
+          "desc": "广州南航建设有限公司副总经理胡继红接受审查调查 第一财经广州南航建设有限公司副总经理胡继红被查 chinanews.com.cn广州南航建设有限公司党委委员、副总经理胡继红被查 奥一网",
+          "hotLabel": "",
+          "summary": "南航建设副总经理胡继红涉嫌违纪接受审查",
+          "analysis": "胡继红接受审查调查表明了政府对反腐工作的决心。这一事件反映了政府对企业高管行为的监管加强，对国内经济和社会治理意味着对权力滥用的零容忍态度。后续可能涉及更广泛的企业内部审查，以及对反腐政策的进一步强化。",
+          "keywords": [
+            "南航建设",
+            "反腐",
+            "审查调查",
+            "企业治理",
+            "权力监督"
+          ],
+          "category": "domestic",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1KQzFiVU0xODJVNFJvcTllc3Q2LWJLMHZuYzVacHV0RkFiS01yN3VFdHZ4RUp6ZE5iLVdXUUlUYXhyNHBjM1RyM04wR1dIM2JSREJV?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UNkVUVDVLVkpIb0FuZ3Q3VnFnTE0wWHlBM2dfc1QzemRiNjFtdEMxam8yOUlkUzR3RVVPY2JHMmxpd2F5Ti12cHRwLVVxRmI4bEpueEtSSk41SDVYLXo5Ynl0TEJUWXhl?oc=5"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "西安培华学院学子故事：八一建军节，致敬最可爱的人",
+          "titleOrig": "西安培华学院学子故事：八一建军节，致敬最可爱的人 - 教育在线",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBU0FvRkpVR1Bia2tDblAwVkNRS1VXWUdncXhFc0xfdDNqcmNLMzFHWXFBbzlReHRoTXBNcXY1MExBaWp0ak1NdU42ajVQWVRlX0hZcDMzNng3MHdNUmhyMWhuaFFITzA4ZC04?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T04:34:00+00:00",
+          "desc": "西安培华学院学子故事：八一建军节，致敬最可爱的人 教育在线以“第一”之名赴强军之约（强军路上） 军事频道一习话丨“坚持党指挥枪 建设自己的人民军队” China Daily时政微观察丨军旗永向党 光明网学习进行时｜句句铿锵——总书记的强军号令 news.youth.cn",
+          "hotLabel": "",
+          "summary": "西安培华学院学子在八一建军节致敬军人。",
+          "analysis": "此事件体现了高校对爱国主义教育的重视，以及青年一代对军人的尊重。有助于弘扬爱国主义精神，增强国家凝聚力。",
+          "keywords": [
+            "八一建军节",
+            "西安培华学院",
+            "爱国主义教育",
+            "军人"
           ],
           "category": "society",
           "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTDJuWFhXRkFYM1ExY1U3SHRrOWZPQXRUSTVWdTUweWZkVGkzNVdHcTU0S29Vb2VMb2h1RjhkQWdiX19lMFcyS3ZRVkt2VFFaRjBwVHljcUk2M3NyUUxEdUxsVUV0RWs1a2huVHFfS1JLai1LYW50UmJnc1VGWWdaZWtSamFTUzgz?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBBU0FvRkpVR1Bia2tDblAwVkNRS1VXWUdncXhFc0xfdDNqcmNLMzFHWXFBbzlReHRoTXBNcXY1MExBaWp0ak1NdU42ajVQWVRlX0hZcDMzNng3MHdNUmhyMWhuaFFITzA4ZC04?oc=5"
             }
           ],
-          "rank": 9
+          "rank": 12
         },
         {
-          "title": "手机销售遇冷 芯片出货量暴跌",
-          "titleOrig": "手机不好卖 芯片出货量暴跌",
-          "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E4%B8%8D%E5%A5%BD%E5%8D%96%20%E8%8A%AF%E7%89%87%E5%87%BA%E8%B4%A7%E9%87%8F%E6%9A%B4%E8%B7%8C&t=31&band_rank=9&Refer=top",
+          "title": "2026暑期档电影票房破70亿，多部新片上映",
+          "titleOrig": "2026暑期档电影票房破70亿 8月多部新片上映 - 中青网",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yb2hXZ1JXT05PUkpPRTdCOEpJejVCU2IyalRObHVHS3E0TUtKQ1JnMVR3TjY2czlIeUdHLWhkOThXcGtKeG9xbV9mNUxtMzFua1pIaEVvVUF3OEQ3NGFLZEQ2SkNNdw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T05:20:00+00:00",
+          "desc": "2026暑期档电影票房破70亿 8月多部新片上映 中青网2026年度电影总票房超231亿元 市场热度持续走高 新浪新闻_手机新浪网连续22天单日票房破亿！2026暑期档票房突破70亿 news.china.com.cn2026暑期档电影票房破71亿 “影院+”持续高质量发展 china.zjol.com.cn2026年度电影总票房突破230亿！暑期档连续23天票房过亿 搜狐网",
+          "hotLabel": "",
+          "summary": "2026暑期档电影票房突破70亿，多部新片上映。",
+          "analysis": "电影票房的持续增长反映了国内电影市场的繁荣，以及消费者娱乐需求的旺盛。这对于电影产业来说是一个积极的信号，预示着未来市场的潜力。后续可能继续推动电影产业的多元化发展。",
+          "keywords": [
+            "电影票房",
+            "暑期档",
+            "电影产业",
+            "市场繁荣",
+            "多元化"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9yb2hXZ1JXT05PUkpPRTdCOEpJejVCU2IyalRObHVHS3E0TUtKQ1JnMVR3TjY2czlIeUdHLWhkOThXcGtKeG9xbV9mNUxtMzFua1pIaEVvVUF3OEQ3NGFLZEQ2SkNNdw?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "黄河水利委员会启动洪水防御应急响应",
+          "titleOrig": "黄河水利委员会针对内蒙古启动洪水防御Ⅳ级应急响应 - news.china.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16N1NWdVV5X0lnWmhiR082N2dzUFMwcHN1UmFCenlhUnplRUVHOGljSG1vXzgzSnFXV1lHRERzNGx4VFhkZUtsdGt1NU9hb3lxWXZHajJ2Z2tNMi1EMmNsZkVQWjZReW1KdmU4?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-03T07:26:00+00:00",
+          "desc": "黄河水利委员会针对内蒙古启动洪水防御Ⅳ级应急响应 news.china.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "黄河水利委员会启动洪水防御Ⅳ级应急响应",
+          "analysis": "黄河水利委员会启动洪水防御应急响应是对内蒙古地区可能发生的洪水事件的预防措施。这反映了政府对自然灾害的重视和应急管理的加强。对国内民生而言，有效的洪水防御措施能够减少灾害损失，对经济意味着减少基础设施损害和恢复成本，对治理则意味着提高应对自然灾害的能力。",
+          "keywords": [
+            "黄河水利委员会",
+            "洪水防御",
+            "应急管理",
+            "自然灾害",
+            "民生安全"
+          ],
+          "category": "domestic",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE16N1NWdVV5X0lnWmhiR082N2dzUFMwcHN1UmFCenlhUnplRUVHOGljSG1vXzgzSnFXV1lHRERzNGx4VFhkZUtsdGt1NU9hb3lxWXZHajJ2Z2tNMi1EMmNsZkVQWjZReW1KdmU4?oc=5"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "河南三支一扶案件相关负责人停职",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E6%A1%88%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%B4%9F%E8%B4%A3%E4%BA%BA%E5%81%9C%E8%81%8C%23&t=31&band_rank=17&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1082,88 +1250,24 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "手机市场销售遇冷，芯片出货量大幅下降。",
-          "analysis": "事件背景：手机行业受全球经济环境影响，需求下降导致芯片出货量暴跌。关键影响：对国内经济和产业链产生负面影响，可能引发行业调整。后续走向：可能促使企业加大研发投入，寻求新的增长点。",
+          "summary": "河南三支一扶案件相关负责人被停职。",
+          "analysis": "此事件反映了政府对社会管理工作的重视，对违法违纪行为的零容忍态度。对加强政府公信力和社会公平正义有积极影响。后续可能对案件进行深入调查，严肃处理相关责任人。",
           "keywords": [
-            "手机",
-            "芯片",
-            "出货量",
-            "经济",
-            "产业链"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E4%B8%8D%E5%A5%BD%E5%8D%96%20%E8%8A%AF%E7%89%87%E5%87%BA%E8%B4%A7%E9%87%8F%E6%9A%B4%E8%B7%8C&t=31&band_rank=9&Refer=top"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "巴西劳工党确认卢拉为总统候选人",
-          "titleOrig": "巴西劳工党正式确认卢拉为总统候选人 - china.zjol.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rRlU2WVMxdGtnRzdqcUlTZnVKbXAzdWNtLU56cTdQM0pmeC0xQ2hhMC1GWDdVMUFfeVd1RmdobTdvWEZhQXJQc3Y2TnlWQmlsQWozOG5sY1BIeTRiVUlfOVBkbDN3Rl8zNW56b2Zn?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-03T00:43:02+00:00",
-          "desc": "巴西劳工党正式确认卢拉为总统候选人 china.zjol.com.cn在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "巴西劳工党正式宣布卢拉为总统候选人。",
-          "analysis": "卢拉作为巴西劳工党的候选人，其政治立场和执政理念将对巴西国内政策产生重要影响。这一事件反映了巴西国内政治力量的变化，同时也可能对巴西与中国的关系产生影响。中国与巴西在经贸、能源等领域有广泛的合作，卢拉的当选可能会带来政策上的调整，影响两国关系的发展。",
-          "keywords": [
-            "巴西",
-            "劳工党",
-            "总统候选人",
-            "卢拉",
-            "政治"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5rRlU2WVMxdGtnRzdqcUlTZnVKbXAzdWNtLU56cTdQM0pmeC0xQ2hhMC1GWDdVMUFfeVd1RmdobTdvWEZhQXJQc3Y2TnlWQmlsQWozOG5sY1BIeTRiVUlfOVBkbDN3Rl8zNW56b2Zn?oc=5"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "张颖颖发博骂马筱梅夫妇",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%BC%A0%E9%A2%96%E9%A2%96%E5%8F%91%E5%8D%9A%E9%AA%82%E9%A9%AC%E7%AD%B1%E6%A2%85%E5%A4%AB%E5%A6%87",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "张颖颖微博发文骂马筱梅夫妇，引发网友热议。",
-          "analysis": "事件背景：网络言论自由与道德约束之间的冲突。关键影响：对网络言论环境和社会道德观念产生影响。后续走向：可能引发对网络言论监管的讨论和规范。",
-          "keywords": [
-            "网络言论",
-            "道德",
-            "争议",
-            "微博",
-            "社会影响"
+            "河南",
+            "三支一扶",
+            "停职",
+            "政府公信力",
+            "社会公平"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%BC%A0%E9%A2%96%E9%A2%96%E5%8F%91%E5%8D%9A%E9%AA%82%E9%A9%AC%E7%AD%B1%E6%A2%85%E5%A4%AB%E5%A6%87"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%B2%B3%E5%8D%97%E4%B8%89%E6%94%AF%E4%B8%80%E6%89%B6%E6%A1%88%E4%BB%B6%E7%9B%B8%E5%85%B3%E8%B4%9F%E8%B4%A3%E4%BA%BA%E5%81%9C%E8%81%8C%23&t=31&band_rank=17&Refer=top"
             }
           ],
-          "rank": 12
+          "rank": 15
         },
         {
           "title": "哥哥冒用弟弟高考成绩一路读到博士",
@@ -1178,14 +1282,13 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "哥哥冒用弟弟高考成绩，长期使用弟弟身份升学。",
-          "analysis": "此事件揭示了教育公平问题，背后可能涉及家庭伦理、教育资源分配不均等社会成因。对国内教育治理提出挑战，可能促使教育部门加强对高考成绩的监管，以及家庭伦理教育的重视。后续可能引发关于教育公平的更广泛讨论和改革措施。",
+          "summary": "哥哥冒用弟弟高考成绩，长期冒名上学至博士。",
+          "analysis": "此事件揭示了我国教育体系中的漏洞，如高考成绩认证和管理机制不健全。这不仅影响了教育公平，也对社会诚信体系造成冲击。事件背后反映出家庭伦理教育和法制观念的重要性。后续可能促使教育部门加强监管，完善高考成绩认证体系。",
           "keywords": [
             "高考成绩",
-            "冒用身份",
+            "冒名上学",
             "教育公平",
-            "家庭伦理",
-            "教育治理"
+            "诚信体系"
           ],
           "category": "society",
           "importance": 70,
@@ -1195,166 +1298,76 @@
               "url": "https://www.zhihu.com/search?q=%E5%93%A5%E5%93%A5%E5%86%92%E7%94%A8%E5%BC%9F%E5%BC%9F%E9%AB%98%E8%80%83%E6%88%90%E7%BB%A9%E4%B8%80%E8%B7%AF%E8%AF%BB%E5%88%B0%E5%8D%9A%E5%A3%AB"
             }
           ],
-          "rank": 13
-        },
-        {
-          "title": "中国法官培训网上线“习近平党建思想”课程专区 为锻造新时代高素质审判队伍注入思想动力 - court.gov.cn",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qOUkzcVY3RDF4VC00anpjUUh0enBUN1dGYXh1OGpQX09KZTNMZnRpMFkyN2IxN2Vod0Fjd2p5bjF5S1pIUXlveHFBRGJGNHpTMHFYRkNRdTJaLTZHbHk0c2ln?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-03T01:25:37+00:00",
-          "desc": "中国法官培训网上线“习近平党建思想”课程专区 为锻造新时代高素质审判队伍注入思想动力 court.gov.cn学习新语丨坚持党的全面领导和党中央集中统一领导 新华网习近平强党兴党的故事｜治国之要 首在用人 中国网新闻中心北京安贞医院举办学习贯彻习近平党建思想专题辅导报告会 北京市卫生健康委员会深刻理解习近平党建思想的原创性贡献 天津日报",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1qOUkzcVY3RDF4VC00anpjUUh0enBUN1dGYXh1OGpQX09KZTNMZnRpMFkyN2IxN2Vod0Fjd2p5bjF5S1pIUXlveHFBRGJGNHpTMHFYRkNRdTJaLTZHbHk0c2ln?oc=5"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "超强台风“白海豚”逐渐靠近 浙江多地发布防御通知 - 新蓝网",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdE9MSURYZE9kdlQ1WVhWeUItQ1RnMWkycEhHZkl1NjVjTmg3YkZPanZEc0dVOUVwcEQ4c3JacjR2YUdxamRmcXB1UWxYQWM?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-02T23:07:00+00:00",
-          "desc": "超强台风“白海豚”逐渐靠近 浙江多地发布防御通知 新蓝网特大暴雨、雷暴大风！超强台风“白海豚”正向我国靠近 新浪财经台风白海豚可能要上演“海豚吃鲸鱼\"! 强者吞噬弱者 中华网广州天气：大概一周后，就没啥雨了 Sohu“白海豚”维持超强台风级别，江浙多地部署防御准备工作 thepaper.cn",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1IdE9MSURYZE9kdlQ1WVhWeUItQ1RnMWkycEhHZkl1NjVjTmg3YkZPanZEc0dVOUVwcEQ4c3JacjR2YUdxamRmcXB1UWxYQWM?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "吉利以绿色甲醇探索能源创新“中国路径”——李书福出席2026企业家太阳岛年会 - 新华网",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcUJVMEt0RVQxNnFxWnFacThMbFFPcVlINXFCU2FfY0pGb3Z6SnJMX0FFV2ZteGRpLThjTWNINFJvUENrN3ZaQVR0SVByQXJGclp2ODh6RzIyQW4wcXZPc01mT3lxazJQcXgxVTBDdEV5em5SVjVFV2s5YXVPMm9kekJ4OA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-03T00:11:27+00:00",
-          "desc": "吉利以绿色甲醇探索能源创新“中国路径”——李书福出席2026企业家太阳岛年会 新华网太阳岛新观察｜冰城的“多元之景” 新华网2026企业家太阳岛年会在哈尔滨举办 人民网2026企业家太阳岛年会聚焦产业发展新路径 中国网2026 企业家太阳岛年会：BE 范德安四十一载深耕 领航中国泳装产业全球化升维 中华网科技频道",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcUJVMEt0RVQxNnFxWnFacThMbFFPcVlINXFCU2FfY0pGb3Z6SnJMX0FFV2ZteGRpLThjTWNINFJvUENrN3ZaQVR0SVByQXJGclp2ODh6RzIyQW4wcXZPc01mT3lxazJQcXgxVTBDdEV5em5SVjVFV2s5YXVPMm9kekJ4OA?oc=5"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
-            }
-          ],
           "rank": 16
         },
         {
-          "title": "中国海警在黄岩岛海域组织维权执法管控演练 - 中国科技网",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fU2xzYVRrUWZxdzlfZm9IdVZqYVFrS1pBU25qdlhWMHhhQTl4ZnNTc0x3QURlYnpxYmpWSmcxbU9uR3lZOHNBNkItWUFBN1U1Nnk4T0trQW5OOTFOcjFkSWt5ZFcxS2x3OU1oWEJ6RV8?oc=5",
+          "title": "希腊两架消防直升机相撞致两人死亡",
+          "titleOrig": "希腊两架消防直升机相撞造成两人死亡 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14eF9tODhTNXRzRHNYLWlqNXZnYTNLZ0hxRUJpZ1RmLWlNOVNvcGh4LTBtaWJJR19CTVJUMUFHRzZkYURjLVh3cVlxbG1FTnJJUXBCZkhEbkdtNVBPTHlZV1plZ0oyODVt?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-03T00:03:15+00:00",
-          "desc": "中国海警在黄岩岛海域组织维权执法管控演练 中国科技网在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-08-03T08:05:21+00:00",
+          "desc": "希腊两架消防直升机相撞造成两人死亡 chinanews.com.cn希腊野火逼近首都雅典 强风助燃形势严峻 中华网希腊直升机救火相撞|希腊消防局|直升机|飞行员|阿提卡_新浪新闻 手机新浪网（外代一线）希腊：野火肆虐 搜狐网希腊多地发生野火 两架消防直升机救火时相撞 联合早报",
           "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
+          "summary": "希腊两架消防直升机相撞，造成两人死亡。",
+          "analysis": "此次事故反映了希腊在应对野火等自然灾害时的挑战，以及消防设备的不足。这对希腊的公共安全和社会稳定产生负面影响。后续可能加强消防设备投入和人员培训，提高应对紧急情况的能力。",
+          "keywords": [
+            "希腊",
+            "消防直升机",
+            "野火",
+            "事故",
+            "公共安全"
+          ],
+          "category": "international",
+          "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5fU2xzYVRrUWZxdzlfZm9IdVZqYVFrS1pBU25qdlhWMHhhQTl4ZnNTc0x3QURlYnpxYmpWSmcxbU9uR3lZOHNBNkItWUFBN1U1Nnk4T0trQW5OOTFOcjFkSWt5ZFcxS2x3OU1oWEJ6RV8?oc=5"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/china-dozens-dead-in-gansu-flash-floods/a-78206328?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/02/ai-model-competition-us-china.html"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE14eF9tODhTNXRzRHNYLWlqNXZnYTNLZ0hxRUJpZ1RmLWlNOVNvcGh4LTBtaWJJR19CTVJUMUFHRzZkYURjLVh3cVlxbG1FTnJJUXBCZkhEbkdtNVBPTHlZV1plZ0oyODVt?oc=5"
             }
           ],
           "rank": 17
         },
         {
-          "title": "巴基斯坦遭遇自杀式袭击致14死 “巴基斯坦塔利班”宣称负责 - chinanews.com.cn",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yWXlqa2hoVndqbnpZZTUzTkJlMjdiTmNSNzBpb0VySTNnak5YWVFqNmZxdE5hR05JRndGcUh0VU02VG1Hdmp5Q24wWGVuQ2hQTHcwQm0zRFBtYjN6VWRwdHlicEx5cWJw?oc=5",
+          "title": "日本熊本气温破40度，气象厅呼吁民众警惕中暑",
+          "titleOrig": "日媒：熊本气温首破40度达危险水平，气象厅呼吁当地民众警惕中暑 - 新浪财经",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04WmExeGdRa196SU1Oc21xaVZ6QTFHNjB0eWVEV0ZwMThWM2VhWEplRXIyTFdUREtubXozUGpQaWRXTXgtVUlfR1dkbG5BVk0?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-03T01:38:32+00:00",
-          "desc": "巴基斯坦遭遇自杀式袭击致14死 “巴基斯坦塔利班”宣称负责 chinanews.com.cn巴基斯坦和平集会发生自杀式炸弹袭击 酿七死20多人伤 联合早报巴基斯坦军方：今年反恐行动已击毙2084名恐怖分子 news.bjd.com.cn巴基斯坦北部武装分子攻击 9警身亡 swissinfo.ch巴基斯坦警察局外自殺式炸彈襲擊 至少14死 epochtimes.com",
+          "publishedAt": "2026-08-03T07:43:13+00:00",
+          "desc": "日媒：熊本气温首破40度达危险水平，气象厅呼吁当地民众警惕中暑 新浪财经日本女子地震后返回商场遇爆炸身亡 家属讲述最后时刻 中华网直击日本熊本地震灾区：余震、高温、断水等带来多重考验 人民网-日本频道日本熊本县灾害对策总部通报称地震已致38人死亡 china.zjol.com.cn地震+高温，日本一70多岁女性灾民在车上避难过夜，疑似中暑死亡 观察者网",
           "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
+          "summary": "日本熊本气温创历史新高，气象厅呼吁民众警惕中暑。",
+          "analysis": "高温天气对日本居民的生活和健康构成威胁，尤其是在灾后重建的熊本县。这反映了全球气候变化对人类生活的影响，以及对极端天气事件应对能力的考验。后续可能加强高温天气的预警和应对措施。",
+          "keywords": [
+            "日本",
+            "熊本",
+            "高温",
+            "中暑",
+            "气候变化"
+          ],
+          "category": "international",
+          "importance": 65,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8yWXlqa2hoVndqbnpZZTUzTkJlMjdiTmNSNzBpb0VySTNnak5YWVFqNmZxdE5hR05JRndGcUh0VU02VG1Hdmp5Q24wWGVuQ2hQTHcwQm0zRFBtYjN6VWRwdHlicEx5cWJw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE04WmExeGdRa196SU1Oc21xaVZ6QTFHNjB0eWVEV0ZwMThWM2VhWEplRXIyTFdUREtubXozUGpQaWRXTXgtVUlfR1dkbG5BVk0?oc=5"
             }
           ],
           "rank": 18
         },
         {
-          "title": "人生选择模拟器",
+          "title": "青岛一仓库发生火灾",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E7%94%9F%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8",
+          "url": "https://www.zhihu.com/search?q=%E9%9D%92%E5%B2%9B%E4%B8%80%E4%BB%93%E5%BA%93%E5%8F%91%E7%94%9F%E7%81%AB%E7%81%BE",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1363,30 +1376,34 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "一款模拟人生选择的软件引发关注。",
-          "analysis": "人生选择模拟器的出现反映了人们对于未来规划和决策的探索需求。对社会心理有一定影响，可能引发关于人生规划和决策的讨论。后续可能看到更多类似软件的推出，影响人们的生活方式。",
+          "hotLabel": "#2",
+          "summary": "青岛一仓库发生火灾。",
+          "analysis": "仓库火灾事件提醒了社会对安全生产的重视。政府将对此进行调查，并采取措施防止类似事件再次发生。对当地经济和民生有一定影响。后续可能加强安全生产监管。",
           "keywords": [
-            "人生选择",
-            "模拟软件",
-            "决策规划",
-            "社会心理",
-            "生活方式"
+            "青岛",
+            "仓库火灾",
+            "安全生产",
+            "经济损失",
+            "民生影响"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E7%94%9F%E9%80%89%E6%8B%A9%E6%A8%A1%E6%8B%9F%E5%99%A8"
+              "url": "https://www.zhihu.com/search?q=%E9%9D%92%E5%B2%9B%E4%B8%80%E4%BB%93%E5%BA%93%E5%8F%91%E7%94%9F%E7%81%AB%E7%81%BE"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%95%BF%E6%B2%99%E4%B8%80%E9%AB%98%E5%B1%82%E4%BD%8F%E5%AE%85%E7%81%AB%E7%81%BE%204%20%E6%AD%BB%202%20%E4%BC%A4"
             }
           ],
           "rank": 19
         },
         {
-          "title": "蔡崇信宣布离婚",
+          "title": "精神科医生10级美颜证件照火了",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%94%A1%E5%B4%87%E4%BF%A1%E5%AE%A3%E5%B8%83%E7%A6%BB%E5%A9%9A",
+          "url": "https://www.zhihu.com/search?q=%E7%B2%BE%E7%A5%9E%E7%A7%91%E5%8C%BB%E7%94%9F10%E7%BA%A7%E7%BE%8E%E9%A2%9C%E8%AF%81%E4%BB%B6%E7%85%A7%E7%81%AB%E4%BA%86",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1396,21 +1413,24 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "知名企业家蔡崇信宣布与妻子离婚。",
-          "analysis": "此事件为私人事务，对公众影响有限。但作为知名企业家，其个人生活选择可能对公众有一定示范效应。后续可能引发关于名人隐私和婚姻观的讨论。",
+          "summary": "精神科医生使用10级美颜拍摄证件照走红网络。",
+          "analysis": "此事件反映了网络时代下，人们对美的追求和审美观念的多样性。同时，也引发了对医疗行业形象和医生个人形象的思考。这或许会促使医疗行业更加关注医生个人形象的塑造。",
           "keywords": [
-            "蔡崇信",
-            "离婚",
-            "名人隐私",
-            "婚姻观",
-            "社会影响"
+            "美颜",
+            "精神科医生",
+            "网络走红",
+            "医疗行业"
           ],
           "category": "society",
-          "importance": 40,
+          "importance": 60,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%94%A1%E5%B4%87%E4%BF%A1%E5%AE%A3%E5%B8%83%E7%A6%BB%E5%A9%9A"
+              "url": "https://www.zhihu.com/search?q=%E7%B2%BE%E7%A5%9E%E7%A7%91%E5%8C%BB%E7%94%9F10%E7%BA%A7%E7%BE%8E%E9%A2%9C%E8%AF%81%E4%BB%B6%E7%85%A7%E7%81%AB%E4%BA%86"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%96%91%E4%BC%BC%E7%91%9E%E5%B9%B8%E5%91%98%E5%B7%A5%E5%AF%B9%E5%98%B4%E5%96%B7%E5%A5%B6%E6%B2%B9"
             }
           ],
           "rank": 20
