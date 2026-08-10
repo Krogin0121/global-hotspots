@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-08-10T12:47:18.157421+00:00",
+  "generatedAt": "2026-08-10T18:48:13.671385+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
       "id": "bbc",
       "name": "BBC World",
-      "count": 20,
+      "count": 19,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 13,
       "ok": true
     },
     {
@@ -90,11 +90,512 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多领域紧张与变革交织的态势。乌克兰无人机袭击俄罗斯引发地区安全担忧，美选民对政治体制的反思预示着政治格局可能调整。极端高温对全球能源安全构成挑战，欧洲核能设施面临威胁。伊朗与美国在谈判中的对峙，以及南非特种部队涉嫌谋杀事件，均凸显国际关系中的紧张与冲突。同时，全球气候变化问题日益严峻，极端天气事件频发，如中国台风疏散百万民众、欧洲创下高温纪录等。此外，科技领域的发展与投资亦成为关注焦点，波音出售子公司并投资新领域，反映出全球产业结构的调整。总体而言，国际局势复杂多变，各国在应对挑战中寻求变革与发展。",
+      "digest": "今日国际局势呈现出多方面的紧张与挑战。经济领域，英特尔筹资应对AI需求增长，美国战略石油储备降至历史低位，黄金价格持续上涨，SpaceX股价反弹。国际安全方面，乌克兰无人机袭击俄罗斯，哥伦比亚地震造成人员伤亡，加拿大野火导致大规模疏散，中东战乱持续，美国轰炸伊朗南部，巴基斯坦面临极端高温。此外，全球公共卫生面临挑战，世卫组织警告埃博拉病毒，泰国前议员承认杀害官员，东盟加强合作应对网络诈骗。这些事件反映了当前国际形势的复杂性和不确定性，其中乌克兰局势、中东战乱和全球公共卫生问题尤为值得关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "世界海洋7月温度创历史新高",
+          "title": "英特尔计划筹资150亿美元应对AI需求增长",
+          "titleOrig": "Intel plans $15 billion stock offering as AI demand accelerates",
+          "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T18:20:44+00:00",
+          "desc": "Technology giants have shelled out trillions to support insatiable AI demand and the infrastructure buildout.",
+          "hotLabel": "",
+          "summary": "英特尔计划通过股票发行筹集150亿美元，以应对人工智能需求的增长。",
+          "analysis": "事件背景：人工智能需求激增，科技巨头投入巨资支持AI发展和基础设施建设。关键影响：英特尔此举可能加速全球AI产业竞争，推动技术创新。后续走向：AI产业可能迎来新一轮投资热潮。",
+          "keywords": [
+            "英特尔",
+            "AI需求",
+            "股票发行",
+            "技术创新"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/10/intel-intc-stock-offering-ai.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "乌克兰无人机袭击俄罗斯致13死75伤",
+          "titleOrig": "At least 13 killed in Ukrainian drone strike deep into Russia",
+          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T14:34:25+00:00",
+          "desc": "Russian officials say another 75 people were injured by the attack - one of the deadliest Ukrainian drone attacks since Moscow's full-scale invasion.",
+          "hotLabel": "",
+          "summary": "乌克兰无人机袭击俄罗斯，造成重大人员伤亡。",
+          "analysis": "乌克兰无人机袭击俄罗斯表明冲突升级，加剧地区紧张局势。对俄罗斯而言，此次袭击可能加剧民众对战争的不满，对乌克兰则是展示军事实力的手段。国际社会可能进一步介入，影响国际关系格局。后续可能进一步升级，引发更大规模冲突。",
+          "keywords": [
+            "乌克兰",
+            "俄罗斯",
+            "无人机袭击",
+            "冲突升级",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "哥伦比亚发生7.4级强震，造成数十人死亡",
+          "titleOrig": "Live Updates: Powerful 7.4 Earthquake Strikes Colombia, Killing Dozens",
+          "url": "https://www.nytimes.com/live/2026/08/10/world/colombia-earthquake-bogota-cali",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T18:37:28+00:00",
+          "desc": "The quake shook several major cities, including Bogotá, Cali and Medellín. More than 70 people have died, and the death toll appeared likely to rise as rescuers continued to search damaged buildings.",
+          "hotLabel": "",
+          "summary": "哥伦比亚发生强震，多座大城市受影响，死亡人数可能上升。",
+          "analysis": "此次地震发生在哥伦比亚西部，与近期邻国委内瑞拉发生的强震相呼应，可能反映了该地区地质活动加剧的趋势。地震对哥伦比亚的经济和社会稳定造成严重影响，可能导致基础设施损坏和人员伤亡增加。国际援助和重建工作将对该国恢复产生关键影响。后续可能面临更多地质活动，需要加强地震预警和灾害管理。",
+          "keywords": [
+            "哥伦比亚",
+            "地震",
+            "灾害",
+            "重建",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/live/2026/08/10/world/colombia-earthquake-bogota-cali"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "印度：杰尔坎德州民众抗议考试舞弊",
+          "titleOrig": "India: Anger over exam irregularities spreads to Jharkhand",
+          "url": "https://www.dw.com/en/india-anger-over-exam-irregularities-spreads-to-jharkhand/a-78304059?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T12:52:00+00:00",
+          "desc": "Inspired by the Cockroach movement, young people in India's eastern state of Jharkhand are marching on the state assembly to demand transparency and a probe into alleged irregularities in civil service recruitment exams.",
+          "hotLabel": "",
+          "summary": "印度杰尔坎德州民众受蟑螂运动启发，抗议公务员考试舞弊。",
+          "analysis": "事件背景：印度公务员考试舞弊问题长期存在，民众对政府的不信任感加剧。关键影响：此事件可能引发对政府公信力的进一步质疑，影响印度政治稳定。后续走向：政府可能面临更大压力，需采取有效措施恢复民众信任。",
+          "keywords": [
+            "印度",
+            "考试舞弊",
+            "政治稳定",
+            "蟑螂运动"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/india-anger-over-exam-irregularities-spreads-to-jharkhand/a-78304059?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "世卫组织警告：埃博拉病毒追上我们",
+          "titleOrig": "We are chasing Ebola virus - it is ahead of us, WHO warns",
+          "url": "https://www.bbc.co.uk/news/articles/c5ydx7m8gzeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T17:50:29+00:00",
+          "desc": "Infection rates are high, adding to concern that authorities are struggling to get to grips with the disease.",
+          "hotLabel": "",
+          "summary": "世卫组织警告埃博拉病毒感染率上升，防控形势严峻。",
+          "analysis": "埃博拉病毒疫情再次爆发，对受影响地区和全球公共卫生构成严重威胁。国际社会需加强合作，共同应对疫情。后续可能影响地区稳定和全球卫生安全。",
+          "keywords": [
+            "埃博拉病毒",
+            "世卫组织",
+            "疫情",
+            "公共卫生",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c5ydx7m8gzeo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "哥伦比亚西部发生7.4级地震，邻近委内瑞拉地区受影响",
+          "titleOrig": "Here’s the latest.",
+          "url": "https://www.nytimes.com/live/2026/08/10/world/colombia-earthquake-bogota-cali/colombia-earthquake",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T18:23:32+00:00",
+          "desc": "The magnitude 7.4 quake hit the western part of the country, shaking Bogotá, Cali, Medellín and other cities, just weeks after quakes of similar intensity devastated parts of neighboring Venezuela.",
+          "hotLabel": "",
+          "summary": "哥伦比亚西部发生强震，邻近城市及委内瑞拉部分地区受影响。",
+          "analysis": "此次地震与近期委内瑞拉发生的地震相隔不远，可能表明该地区地质活动频繁。地震对哥伦比亚和委内瑞拉的经济和社会稳定构成威胁，可能加剧两国间的难民问题和地区安全风险。国际社会可能加强对此地区的关注和援助。",
+          "keywords": [
+            "哥伦比亚",
+            "地震",
+            "委内瑞拉",
+            "地质活动",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/live/2026/08/10/world/colombia-earthquake-bogota-cali/colombia-earthquake"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "美国战略石油储备降至1983年以来最低",
+          "titleOrig": "Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983",
+          "url": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T17:33:34+00:00",
+          "desc": "U.S. presidents have increasingly ordered massive releases from the SPR in recent years.",
+          "hotLabel": "",
+          "summary": "美国战略石油储备量降至3亿桶以下，创1983年以来新低。",
+          "analysis": "事件背景：近年来，美国总统下令大量释放战略石油储备。关键影响：此举可能影响全球石油市场供需平衡，对油价产生影响。后续走向：全球石油市场可能面临波动，各国需关注能源安全。",
+          "keywords": [
+            "美国",
+            "战略石油储备",
+            "石油市场",
+            "能源安全"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/10/oil-in-strategic-petroleum-reserve-falls-below-300-million-barrels-lowest-since-1983.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "加拿大野火导致1.2万人疏散",
+          "titleOrig": "'Total incinerated destruction': Canada wildfire evacuees wonder if they still have homes",
+          "url": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T16:10:56+00:00",
+          "desc": "More than 12,000 people have been forced to evacuate over the weekend after a wildfire quickly tore through Canada's picturesque Okanagan region.",
+          "hotLabel": "",
+          "summary": "加拿大野火导致超过1.2万人被迫疏散。",
+          "analysis": "加拿大野火是极端气候变化的体现，对当地居民生活造成严重影响。事件凸显气候变化对人类居住环境的影响，可能促使各国加强应对气候变化的政策。",
+          "keywords": [
+            "加拿大",
+            "野火",
+            "疏散",
+            "气候变化",
+            "极端天气"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2lwv032j9o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "加拿大不列颠哥伦比亚省野火导致1人死亡，约2万人被迫疏散",
+          "titleOrig": "Explosive Canada Wildfire Leaves 1 Dead in British Columbia",
+          "url": "https://www.nytimes.com/2026/08/10/world/canada/western-canada-wildfires-british-columbia-bc.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T17:58:42+00:00",
+          "desc": "About 20,000 people were ordered to evacuate over the weekend from the Bald Range fire. Weather conditions were not expected to provide much relief on Monday.",
+          "hotLabel": "",
+          "summary": "加拿大不列颠哥伦比亚省野火导致死亡，数千人被迫疏散。",
+          "analysis": "野火对加拿大不列颠哥伦比亚省的生态环境和居民生活造成严重影响。随着气候变化加剧，此类自然灾害可能变得更加频繁和严重。政府需要加强森林管理和应急响应能力，以减少野火对人民生命财产的威胁。",
+          "keywords": [
+            "加拿大",
+            "野火",
+            "气候变化",
+            "灾害管理",
+            "环境保护"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/canada/western-canada-wildfires-british-columbia-bc.html"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "黄金价格连续七个月最佳周度涨幅",
+          "titleOrig": "Gold just had its best week in 7 months. Here’s why Mike Khouw is buying more",
+          "url": "https://www.cnbc.com/2026/08/10/gold-just-had-its-best-week-in-7-months-heres-why-mike-khouw-is-buying-more.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T16:09:32+00:00",
+          "desc": "Gold logged its best weekly gain in seven months driven by several forces.",
+          "hotLabel": "",
+          "summary": "黄金价格录得七个月最佳周度涨幅，引发投资者关注。",
+          "analysis": "事件背景：多因素推动黄金价格上涨。关键影响：黄金作为避险资产，其价格上涨可能反映市场对经济不确定性的担忧。后续走向：黄金价格可能继续受到市场情绪影响。",
+          "keywords": [
+            "黄金",
+            "价格涨幅",
+            "避险资产",
+            "市场情绪"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/10/gold-just-had-its-best-week-in-7-months-heres-why-mike-khouw-is-buying-more.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "内塔尼亚胡拒绝特朗普15点加沙计划",
+          "titleOrig": "Netanyahu's rejection of Trump's 15-point Gaza plan unlikely to be final word",
+          "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T14:43:08+00:00",
+          "desc": "The Trump administration is said to be unbothered by the Israeli prime minister's rejection of the deal, viewing it as campaign rhetoric ahead of a general election.",
+          "hotLabel": "",
+          "summary": "以色列总理内塔尼亚胡拒绝特朗普提出的加沙计划。",
+          "analysis": "内塔尼亚胡的拒绝反映了以色列内部对和平计划的分歧。特朗普计划可能因内塔尼亚胡的选举策略而暂时搁置，但长期来看，加沙地带的和平仍需国际社会共同努力。后续可能影响中东地区和平进程。",
+          "keywords": [
+            "以色列",
+            "特朗普",
+            "加沙计划",
+            "中东和平",
+            "选举策略"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/ce3q5282ep3o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "中东战乱中，2000万朝圣者齐聚伊拉克参加什叶派朝圣",
+          "titleOrig": "Despite Mideast wars, 20 million gather in Iraq for Shia pilgrimage",
+          "url": "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T16:08:06+00:00",
+          "desc": "Despite wars ranging across the Middle East, more than 20 million Shia pilgrims gather in Iraq shrine city for Arbaeen festival",
+          "hotLabel": "",
+          "summary": "尽管中东战乱，仍有数千万朝圣者参加伊拉克什叶派朝圣。",
+          "analysis": "此次朝圣活动反映了伊拉克什叶派社区的团结和对和平的渴望。尽管地区冲突不断，但宗教和文化活动仍然在伊拉克等国家中扮演着重要的社会角色。这表明宗教文化在冲突中的缓冲作用，以及对和平的向往。",
+          "keywords": [
+            "伊拉克",
+            "朝圣",
+            "什叶派",
+            "中东冲突",
+            "宗教文化"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/10/g-s1-137832/iraq-shia-pilgrimage-shia-war"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "特朗普海外许可业务激增至5950万美元",
+          "titleOrig": "Trump’s foreign licensing business booms to $59.5 million as Gulf developers pay",
+          "url": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T15:06:58+00:00",
+          "desc": "Nearly two-thirds of Trump’s foreign licensing fees came from two Gulf developers, in the UAE and Qatar, including one pursuing a $20 billion U.S. expansion.",
+          "hotLabel": "",
+          "summary": "特朗普海外许可业务收入激增至5950万美元，主要来自海湾地区开发商。",
+          "analysis": "事件背景：特朗普在海湾地区获得大量许可费用。关键影响：此事件可能引发对特朗普商业利益与政治角色的争议。后续走向：可能影响特朗普的政治形象和公众对其政策的支持。",
+          "keywords": [
+            "特朗普",
+            "海外许可",
+            "海湾地区",
+            "商业利益"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/10/trump-foreign-real-estate-licensing-income-gulf-deals.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "泰国前议员直播承认杀害官员",
+          "titleOrig": "Former Thai MP allegedly kills official and confesses on YouTube",
+          "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T15:21:27+00:00",
+          "desc": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
+          "hotLabel": "",
+          "summary": "泰国前议员在YouTube直播中承认杀害政府官员。",
+          "analysis": "此事件暴露了泰国政治动荡和社会治安问题。泰国政府可能加强治安措施，同时引发对政治暴力的关注。后续可能影响泰国政治稳定。",
+          "keywords": [
+            "泰国",
+            "政治暴力",
+            "直播承认",
+            "政府官员",
+            "社会治安"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "东盟加强合作应对网络诈骗威胁",
+          "titleOrig": "ASEAN closing ranks as cyberscam threat escalates",
+          "url": "https://www.dw.com/en/asean-closing-ranks-as-cyberscam-threat-escalates/a-78304710?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T12:56:00+00:00",
+          "desc": "Southeast Asian governments are searching for a joint strategy against cyberscammers, a criminal industry that has grown too big, too connected and too embedded in ASEAN economies to be solved just by policing.",
+          "hotLabel": "",
+          "summary": "东南亚国家加强合作，共同应对网络诈骗威胁。",
+          "analysis": "随着网络诈骗在东盟地区日益猖獗，各国政府意识到需要共同应对这一跨国犯罪问题。加强区域合作有助于提高打击网络诈骗的效率，同时也有助于保护东盟国家的经济和社会稳定。",
+          "keywords": [
+            "东盟",
+            "网络诈骗",
+            "跨国犯罪",
+            "区域合作",
+            "经济安全"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/asean-closing-ranks-as-cyberscam-threat-escalates/a-78304710?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "SpaceX stock rebounds to near $135 IPO price",
+          "titleOrig": "SpaceX stock rebounds to near $135 IPO price",
+          "url": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T17:20:14+00:00",
+          "desc": "SpaceX reported better-than-expected revenue in its second-quarter earnings report last week.",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "economy",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/10/spacex-spcx-stock-ipo-price.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "World's oceans hit record-high July temperatures",
           "titleOrig": "World's oceans hit record-high July temperatures",
           "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -106,455 +607,6 @@
           "publishedAt": "2026-08-10T10:24:46+00:00",
           "desc": "Global oceans recorded their hottest July on record, partly fuelled by developing El Niño conditions, as wildfires continue to ravage western Europe.",
           "hotLabel": "",
-          "summary": "全球海洋7月温度创新高，部分原因在于正在发展的厄尔尼诺现象。",
-          "analysis": "海洋温度的升高是全球气候变化的一个关键指标，表明全球气候变暖趋势仍在持续。对于全球而言，这要求各国加强应对气候变化的措施。",
-          "keywords": [
-            "海洋温度",
-            "厄尔尼诺",
-            "气候变化",
-            "全球变暖",
-            "应对措施"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "乌克兰无人机袭击俄罗斯城市尼日内卡姆斯克，造成12人死亡",
-          "titleOrig": "Ukrainian drone attack on the Russian city of Nizhnekamsk kills 12, authorities say",
-          "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T08:58:22+00:00",
-          "desc": "Ukraine has targeted Russian oil facilities with long-range drones almost daily in recent months. The barrage has caused fuel shortages in Russia and unsettled the Russian public.",
-          "hotLabel": "",
-          "summary": "乌克兰无人机连续袭击俄罗斯石油设施，造成人员伤亡。",
-          "analysis": "这一事件加剧了俄乌冲突的紧张局势，对俄罗斯经济和安全构成威胁。长期来看，可能引发更大规模的冲突或国际干预。后续可能加剧能源危机和地缘政治紧张。",
-          "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "无人机袭击",
-            "能源危机",
-            "地缘政治"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/10/nx-s1-5927024/ukrainian-drone-attack-russia"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "乌克兰无人机袭击俄罗斯境内造成至少13人死亡",
-          "titleOrig": "At least 13 killed in Ukrainian drone strike deep into Russia",
-          "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T12:13:22+00:00",
-          "desc": "Russian officials say another 75 people were injured by the attack in the Tatarstan region, one of the deadliest Ukrainian drone attacks on Russia since Moscow's full-scale invasion.",
-          "hotLabel": "",
-          "summary": "乌克兰无人机袭击俄罗斯，造成重大人员伤亡。",
-          "analysis": "此次袭击表明乌克兰在冲突中采取了更为积极的军事行动，可能预示着冲突升级。对俄罗斯而言，此类袭击可能加剧国内对乌克兰战争的不满情绪，对国际社会而言，这可能会加剧对乌克兰冲突的关注和介入。",
-          "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "无人机袭击",
-            "冲突升级",
-            "国际关注"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvgjvgv926po?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "美国选民对两党制感到厌倦，支持转向比例代表制",
-          "titleOrig": "Voters are sick of the 2-party system. A new poll shows they're open to big changes",
-          "url": "https://www.npr.org/2026/08/10/nx-s1-5920312/proportional-representation-poll",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T09:00:00+00:00",
-          "desc": "A new poll shows support for moving the U.S. toward proportional representation, a system that elects multiple representatives in a single district in rough proportion to a party's vote share.",
-          "hotLabel": "",
-          "summary": "美国选民对现行选举制度不满，倾向于比例代表制。",
-          "analysis": "这一趋势反映了美国选民对政治极化的不满。比例代表制可能增加小党派在国会中的影响力，改变政治格局。长期来看，这可能促使政治更加多元化和包容。后续可能引发关于选举改革的讨论和立法。",
-          "keywords": [
-            "美国",
-            "选举制度",
-            "比例代表制",
-            "政治改革",
-            "选民不满"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/10/nx-s1-5920312/proportional-representation-poll"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "波音出售eVTOL子公司，对Archiver公司进行投资",
-          "titleOrig": "Boeing sells eVTOL subsidiaries, takes stake in Archer",
-          "url": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T12:03:25+00:00",
-          "desc": "Boeing is selling three of its subsidiaries to Archer Aviation in exchange for an undisclosed stake in the eVTOL startup.",
-          "hotLabel": "",
-          "summary": "波音将其三家子公司出售给Archiver航空，以换取对电动垂直起降（eVTOL）初创公司的不公开股份。",
-          "analysis": "波音的这一举措反映了其战略调整，将资源集中在核心业务上，同时通过投资新兴领域保持竞争力。此举可能推动eVTOL技术的发展，并对全球航空市场产生深远影响。后续可能看到更多传统航空企业涉足新兴航空领域。",
-          "keywords": [
-            "波音",
-            "eVTOL",
-            "Archiver",
-            "投资",
-            "航空市场"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/10/boeing-evtol-archer-stake.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "极端高温威胁欧洲核能",
-          "titleOrig": "When extreme heat threatens Europe's nuclear power",
-          "url": "https://www.dw.com/en/when-extreme-heat-threatens-europe-s-nuclear-power/a-78297778?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T07:04:00+00:00",
-          "desc": "Warm rivers and low water levels are forcing nuclear power plants to reduce output across Europe. Over a year, the losses are minimal, but on critical days the loss of power has consequences for grids and prices.",
-          "hotLabel": "",
-          "summary": "欧洲高温导致核电站减产，影响电网和能源价格。",
-          "analysis": "极端天气事件对能源基础设施的影响日益显著。长期来看，可能推动欧洲对可再生能源的依赖。后续可能引发关于气候变化和能源安全的讨论。",
-          "keywords": [
-            "欧洲",
-            "核能",
-            "极端天气",
-            "能源安全",
-            "气候变化"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/when-extreme-heat-threatens-europe-s-nuclear-power/a-78297778?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "以色列拒绝特朗普的加沙15点计划，内塔尼亚胡表示",
-          "titleOrig": "Israel rejects Trump's 15-point plan for Gaza, Netanyahu says",
-          "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-09T21:25:04+00:00",
-          "desc": "Israel's PM says its military will not pull out from Gaza until Hamas is \"genuinely\" disarmed.",
-          "hotLabel": "",
-          "summary": "以色列总理内塔尼亚胡表示，以色列军队不会从加沙撤出，直到哈马斯真正解除武装。",
-          "analysis": "这表明以色列对加沙问题的强硬立场，可能加剧地区紧张局势。后续可能对中东和平进程产生重大影响，并可能引发国际社会的关注和干预。",
-          "keywords": [
-            "以色列",
-            "加沙",
-            "特朗普计划",
-            "内塔尼亚胡",
-            "中东局势"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c5yw4lpe0yeo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "中国因台风疏散百万民众",
-          "titleOrig": "China evacuates one million from homes as massive storm arrives",
-          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T07:23:54+00:00",
-          "desc": "Typhoon Dolphin has made landfall, bringing strong winds and heavy rain across eastern China including Shanghai.",
-          "hotLabel": "",
-          "summary": "台风“杜鹏”登陆中国东部，上海等地受影响。",
-          "analysis": "台风“杜鹏”造成的疏散反映了气候变化对人类居住环境的影响。对于中国而言，这要求政府加强防灾减灾能力，对于全球而言，这可能是气候变化加剧的又一例证。",
-          "keywords": [
-            "台风",
-            "中国",
-            "疏散",
-            "气候变化",
-            "防灾减灾"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 8,
-          "_score": 100.0
-        },
-        {
-          "title": "伊朗在谈判中施压特朗普，美国劳工部将发布通胀报告，艺术学校与爱泼斯坦丑闻相关",
-          "titleOrig": "Morning news brief",
-          "url": "https://www.npr.org/2026/08/10/nx-s1-5921277/morning-news-brief",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T08:41:46+00:00",
-          "desc": "Iran aims to put pressure on Trump amid negotiations with Oman, Labor Department to release new report on inflation, new report reveals decades of abuse at arts school linked to Epstein.",
-          "hotLabel": "",
-          "summary": "伊朗在谈判中施压美国，同时美国发布通胀报告，艺术学校与爱泼斯坦丑闻曝光。",
-          "analysis": "伊朗的施压可能影响中东地区的政治稳定和能源市场。美国通胀报告将影响货币政策，艺术学校丑闻可能引发社会对精英教育的质疑。后续可能引发更多政治和经济讨论。",
-          "keywords": [
-            "伊朗",
-            "美国",
-            "通胀",
-            "政治谈判",
-            "教育丑闻"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/10/nx-s1-5921277/morning-news-brief"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "南非特种部队涉嫌谋杀顶级侦探的证据被BBC分享",
-          "titleOrig": "Evidence that South African special forces murdered top detective shared with BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-09T23:05:29+00:00",
-          "desc": "Frans Mathipa was shot while driving - we got access to the prosecution case against eight accused men.",
-          "hotLabel": "",
-          "summary": "南非顶级侦探在驾驶途中被枪杀，BBC获得了对八名嫌疑人指控案的访问权限。",
-          "analysis": "这起事件揭示了南非国内安全和执法的深层次问题，可能引发对南非军队和政府公信力的质疑。后续可能对南非的司法体系和国防安全产生重大影响。",
-          "keywords": [
-            "南非",
-            "特种部队",
-            "谋杀",
-            "BBC",
-            "司法体系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cly8djwgem0o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "印度警方对要求考试改革的学生和求职者使用催泪瓦斯",
-          "titleOrig": "India police fire tear gas at protesters seeking exam reforms",
-          "url": "https://www.bbc.co.uk/news/articles/c89nkz4vjyxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T10:41:04+00:00",
-          "desc": "Thousands of students and job seekers have gathered in Jharkhand state, weeks after the \"cockroach\" protests took place in Delhi.",
-          "hotLabel": "",
-          "summary": "印度警方在达拉特邦对要求考试改革的学生和求职者使用催泪瓦斯。",
-          "analysis": "这起事件反映了印度社会对教育改革的需求与政府应对之间的矛盾。对于印度而言，这可能是一个社会稳定和经济发展的重要议题。",
-          "keywords": [
-            "印度",
-            "考试改革",
-            "催泪瓦斯",
-            "社会稳定",
-            "经济发展"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c89nkz4vjyxo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "谁真正需要睾酮治疗？",
-          "titleOrig": "Who really needs testosterone?",
-          "url": "https://www.npr.org/2026/08/10/nx-s1-5920359/health-men-safety-testosterone-fda-hormone-therapy",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T09:00:00+00:00",
-          "desc": "The military plans to start screening service members for low testosterone, and social media is overflowing with claims about testosterone therapy. But who actually needs it?",
-          "hotLabel": "",
-          "summary": "美国军事计划筛查低睾酮士兵，引发睾酮治疗的讨论。",
-          "analysis": "这一举措可能源于对军事人员健康和战斗力的关注。然而，睾酮治疗的普及可能带来健康风险，需要严格评估。后续可能引发关于军事健康和性别平等问题的讨论。",
-          "keywords": [
-            "美国",
-            "军事",
-            "睾酮治疗",
-            "健康",
-            "性别平等"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/10/nx-s1-5920359/health-men-safety-testosterone-fda-hormone-therapy"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "前泰国议员在YouTube上承认杀害官员",
-          "titleOrig": "Former Thai MP allegedly kills official and confesses on YouTube",
-          "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T09:51:07+00:00",
-          "desc": "Chalong Riewrang called a YouTube livestream to say he had shot a government official.",
-          "hotLabel": "",
-          "summary": "前泰国议员在YouTube直播中承认射杀政府官员。",
-          "analysis": "这起事件揭示了泰国政治局势的紧张，以及政治暴力可能带来的严重后果。对于泰国而言，这可能是政治改革和社会稳定的挑战。",
-          "keywords": [
-            "泰国",
-            "政治暴力",
-            "YouTube直播",
-            "政治改革",
-            "社会稳定"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqx7lje8l79o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "在莱比锡炸弹事件发生后几天，德国基地上空发现无人机",
-          "titleOrig": "Drones spotted over German base days after Leipzig bomb incident",
-          "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-09T16:18:10+00:00",
-          "desc": "Police are investigating a drone sighting over a miltary base reportedly used for housing Patriot missile system parts.",
-          "hotLabel": "",
-          "summary": "警方正在调查在疑似用于存放爱国者导弹系统部件的军事基地上空发现的无人机。",
-          "analysis": "这起无人机事件增加了对德国军事安全的担忧，可能对德国国防政策和欧洲安全形势产生影响。后续可能引发对无人机安全和反恐措施的重新评估。",
-          "keywords": [
-            "德国",
-            "无人机",
-            "莱比锡炸弹",
-            "军事基地",
-            "反恐"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyeg1ljp2eo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "Battle for Mali base has killed dozens of militants, army says",
-          "titleOrig": "Battle for Mali base has killed dozens of militants, army says",
-          "url": "https://www.bbc.co.uk/news/articles/cly8j7ygwvlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T12:32:26+00:00",
-          "desc": "The army says it was involved in fierce fighting but disputes that Islamists took control of the garrison.",
-          "hotLabel": "",
           "summary": "",
           "analysis": "（解读生成失败）",
           "keywords": [],
@@ -563,10 +615,10 @@
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cly8j7ygwvlo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cpvw8vmmgrwo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 15
+          "rank": 17
         },
         {
           "title": "Southern Iran Bears Brunt of U.S. Bombing",
@@ -590,6 +642,630 @@
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/10/world/middleeast/iran-south-bombing-strait-hormuz.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "Extreme Heat Comes for the Red Chile Capital of Pakistan",
+          "titleOrig": "Extreme Heat Comes for the Red Chile Capital of Pakistan",
+          "url": "https://www.nytimes.com/2026/08/10/world/asia/pakistan-red-chiles-climate-change.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T04:01:20+00:00",
+          "desc": "The traditional ways of cultivating the peppers may not survive the challenges of climate change and soaring costs, so Pakistani farmers are trying to adapt.",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/pakistan-red-chiles-climate-change.html"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "How Taiwan Simulated a Potential Chinese Attack",
+          "titleOrig": "How Taiwan Simulated a Potential Chinese Attack",
+          "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T11:08:25+00:00",
+          "desc": "The 30-minute simulated disruption was part of the island’s effort to test and build people’s resilience in the face of a potential Chinese attack.",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
+            }
+          ],
+          "rank": 17
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "今日国内形势综述显示，我国在应对自然灾害、推动经济发展和加强国际合作等方面展现出积极态势。政策层面，国家强化煤炭产能储备，规划2030年煤炭产能储备每年1亿吨以上，同时，上海2030年服贸规模目标突破3000亿美元，展现经济转型升级的决心。社会动态方面，台风“白海豚”影响华北黄淮地区，北京启动防汛二级响应，彰显对民生的重视。文化领域，《哪吒2》获百花奖最佳影片奖，百花奖获奖名单公布，体现文化繁荣发展。此外，中国黑科技圈粉老外，展现我国科技创新实力。值得关注的是，国际合作与外交关系方面，我国在处理国际事务中展现出负责任大国的担当。",
+      "totalSelected": 20,
+      "items": [
+        {
+          "title": "21世纪末全球高温日极端高温时长可能增加4小时",
+          "titleOrig": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zTEpacVNMdkVUd3RnUTkzdzJtOWJIeTkyN3lTRHlGT0FrcWg0Z29DbGVKckpwNnJjRUhhX3o0QlUxa0RTZVZwcWFkNmhyUWdKUE84a21iaWFvMkY0OUc4QlhqbDhvcjlZ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T15:07:48+00:00",
+          "desc": "中国学者领衔研究：21世纪末全球高温日极端高温时长或增加4小时 chinanews.com.cn",
+          "hotLabel": "",
+          "summary": "中国学者研究显示，21世纪末全球高温日极端高温时长可能增加4小时。",
+          "analysis": "这一研究揭示了全球气候变化对极端天气的影响，高温日极端高温时长的增加将对人类健康、农业生产和生态环境产生深远影响。这要求各国政府采取更加积极的措施应对气候变化，加强环境保护和可持续发展。后续走向可能包括全球气候治理的加强、环保政策的调整以及公众环保意识的提升。",
+          "keywords": [
+            "气候变化",
+            "高温",
+            "极端天气",
+            "全球治理",
+            "环保政策"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0zTEpacVNMdkVUd3RnUTkzdzJtOWJIeTkyN3lTRHlGT0FrcWg0Z29DbGVKckpwNnJjRUhhX3o0QlUxa0RTZVZwcWFkNmhyUWdKUE84a21iaWFvMkY0OUc4QlhqbDhvcjlZ?oc=5"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "中国百万居民因台风疏散",
+          "titleOrig": "China evacuates one million from homes as massive storm arrives",
+          "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T07:23:54+00:00",
+          "desc": "Typhoon Dolphin has made landfall, bringing strong winds and heavy rain across eastern China including Shanghai.",
+          "hotLabel": "",
+          "summary": "台风“杜文迪”登陆中国东部，上海等地区受影响，百万居民被疏散。",
+          "analysis": "台风“杜文迪”登陆中国东部，造成严重灾害，政府迅速采取疏散措施，体现了我国在自然灾害应对方面的快速反应和高效治理能力。这一事件对当地居民生活造成影响，同时也考验了我国应急管理体系。后续可能加强防灾减灾工作，提高城市抗灾能力。",
+          "keywords": [
+            "台风",
+            "灾害应对",
+            "疏散",
+            "应急管理"
+          ],
+          "category": "domestic",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/05/us-state-department-consulate-closures"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "泰国电诈园区",
+          "titleOrig": "泰国 电诈园区",
+          "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%20%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA&t=31&band_rank=5&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "微博热搜关注泰国电诈园区问题。",
+          "analysis": "电诈园区问题反映了跨境犯罪和网络安全的挑战。背后的政策意图是加强国际合作打击跨境犯罪，社会成因是网络犯罪的高发。对国内民生意味着个人信息安全受到威胁，对治理意味着需要提升网络安全防护能力。后续走向可能包括国际合作的加强和国内法律法规的完善。",
+          "keywords": [
+            "电诈",
+            "泰国",
+            "跨境犯罪",
+            "网络安全",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E6%B3%B0%E5%9B%BD%20%E7%94%B5%E8%AF%88%E5%9B%AD%E5%8C%BA&t=31&band_rank=5&Refer=top"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "中国规划到2030年建成煤炭产能储备每年1亿吨以上",
+          "titleOrig": "中国规划到2030年建成煤炭产能储备每年1亿吨以上 - Shangbao Indonesia",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRnB1N2VrWHF5Zk9McmNHaVJ6QjBFYUNrb3R2X19NcXhKNzhaRUVzVVZrRUtCanNzTVhZU1hOSnJtNVgwMDlRa3FDanc3OFF0LUtIaDVvekRLTV9PeDNjZlgtOEJHRm9wdF9oMk9uRGlody1ycTk4NEVaSnI5T2t1eUctVmZMQQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T14:21:00+00:00",
+          "desc": "中国规划到2030年建成煤炭产能储备每年1亿吨以上 Shangbao Indonesia两部门：到2030年煤层气产量260亿立方米 瓦斯利用量65亿立方米 新浪财经盘后利好来了！两部门重磅发布！事关2万亿板块 东方财富两部门发文提出到2030年我国现代煤炭产业体系基本建成 thepaper.cn两部门：健全完善煤炭产业政策，严格产业准入要求 搜狐网",
+          "hotLabel": "",
+          "summary": "中国计划到2030年建成煤炭产能储备每年1亿吨以上。",
+          "analysis": "这一规划体现了中国政府在能源安全方面的考虑，通过增加煤炭产能储备来保障能源供应的稳定性。此举对国内能源市场、煤炭产业以及环境保护产生重要影响。后续走向可能包括煤炭产业的转型升级、能源结构的调整以及环境保护政策的加强。",
+          "keywords": [
+            "煤炭",
+            "产能储备",
+            "能源安全",
+            "产业结构",
+            "环境保护"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRnB1N2VrWHF5Zk9McmNHaVJ6QjBFYUNrb3R2X19NcXhKNzhaRUVzVVZrRUtCanNzTVhZU1hOSnJtNVgwMDlRa3FDanc3OFF0LUtIaDVvekRLTV9PeDNjZlgtOEJHRm9wdF9oMk9uRGlody1ycTk4NEVaSnI5T2t1eUctVmZMQQ?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "上海2030年服贸规模目标破3000亿美元",
+          "titleOrig": "上海重磅方案明确目标：2030年服贸规模破3000亿美元 - 第一财经",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zVWdyR2hIYnJFWjBJaVZ2UjAwcTJzaTVqeFRfVDBNT0FGakpPbGtOSEUxTWdmVy05VC1HYXJwTldWaDctWnlhU3ZhbDFiT1c0SzhZ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T12:02:04+00:00",
+          "desc": "上海重磅方案明确目标：2030年服贸规模破3000亿美元 第一财经上海明确服贸规模目标： 到2030年突破3000亿美元 新浪财经利好来了，上海最新发布 凤凰网财经上海：在自贸试验区开展基因诊断与治疗技术开发和应用扩大开放试点 新浪财经上海：到2030年全市服务贸易规模突破3000亿美元，努力建成具有全球影响力的服务贸易枢纽 36 Kr",
+          "hotLabel": "",
+          "summary": "上海发布方案，提出到2030年服务贸易规模突破3000亿美元。",
+          "analysis": "上海提出到2030年服务贸易规模突破3000亿美元的目标，体现了我国服务业发展的战略意图。这一目标有助于推动上海建设成为具有全球影响力的服务贸易中心，促进经济结构转型升级。后续可能出台一系列政策支持服务贸易发展，包括扩大开放、优化营商环境等。",
+          "keywords": [
+            "上海",
+            "服务贸易",
+            "经济目标",
+            "开放政策"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4zVWdyR2hIYnJFWjBJaVZ2UjAwcTJzaTVqeFRfVDBNT0FGakpPbGtOSEUxTWdmVy05VC1HYXJwTldWaDctWnlhU3ZhbDFiT1c0SzhZ?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "华北黄淮局地受台风“白海豚”影响将有大暴雨",
+          "titleOrig": "警惕台风“白海豚”后半程！华北黄淮局地将有特大暴雨 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oWXAtWXd3aGVtaC1HNTdmdkRqY2Z6SFUzNXpMZTcxTVpDNjhKbFlreGpOcGFJQldfRUtYenFqVVZjV1drYy02cDN1VVN4VzBnOThDT2JOTDU0c2dMYTdpMHZfRHRwYmFCMERraFRGYw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T14:40:00+00:00",
+          "desc": "警惕台风“白海豚”后半程！华北黄淮局地将有特大暴雨 中国经济网台风“白海豚”真的给河南带来大雨了！河南从“大片空白”变成强降雨中心之一 新浪网国家防总、应急管理部增派工作组赴河北、河南 thepaper.cn保障跑在台风登陆前，中国人寿财险浙江省分公司高效开展“白海豚”理赔工作 凤凰网小新说丨台风“白海豚”风雨影响仍在持续 千万不能掉以轻心 浙江新闻",
+          "hotLabel": "",
+          "summary": "台风“白海豚”影响华北黄淮，局地将出现特大暴雨。",
+          "analysis": "台风“白海豚”对华北黄淮地区的影响，体现了气候变化对极端天气事件的影响加剧。特大暴雨可能引发洪水、泥石流等次生灾害，对当地居民生命财产安全和农业生产造成严重影响。国家防总和应急管理部增派工作组赴灾区，表明政府高度重视此次灾害应对。后续走向可能包括灾后重建、农业恢复以及加强防灾减灾能力的建设。",
+          "keywords": [
+            "台风",
+            "暴雨",
+            "华北黄淮",
+            "灾害应对",
+            "气候变化"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5oWXAtWXd3aGVtaC1HNTdmdkRqY2Z6SFUzNXpMZTcxTVpDNjhKbFlreGpOcGFJQldfRUtYenFqVVZjV1drYy02cDN1VVN4VzBnOThDT2JOTDU0c2dMYTdpMHZfRHRwYmFCMERraFRGYw?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QaHJlTUNVWmxidUtPVlJQMnEyMWMtY0RHRkNMWFNRbnpUMWJNNlNtd1ZvWlAzQllXSE9hajZBaXhabmlEeENIWVk4cnE2LWFfQi1KRUFobW4?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fQXRKaTFXZklnMU1ETzFsMmx0M2lVYWc0QWd0QkplTDVhd2pvOFNPZ29rZFZnTE5NM0RpZEdaOC1qaV81emRfMnRLWW1fS3hnQUM1OXNhbTJIbk9rNnc?oc=5"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "《哪吒2》获百花奖最佳影片奖",
+          "titleOrig": "“成都高新造”《哪吒2》获百花奖最佳影片奖 - 央广网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lZnEzV1NvRUpiMno2blNmMG5oNUtMMDlYVHlqVmZBMHVUS05ibU41LTFFR3Rnc1pPZ2VjaExpa2E0OGFxN3dSRWx0UDNWYVZaUktGVC1uNGowdjJoc0VMY08yRUVQTFFLYnBQLWgwOA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T15:54:19+00:00",
+          "desc": "“成都高新造”《哪吒2》获百花奖最佳影片奖 央广网“流量”变“留量” 百花奖带动京城暑期文旅消费 新浪财经第38届大众电影百花奖揭晓(5) 凤凰网《哪吒之魔童闹海》获最佳影片奖，百花奖首次颁给动画片 thepaper.cn第38届大众电影百花奖揭晓 人民网",
+          "hotLabel": "",
+          "summary": "动画电影《哪吒2》荣获第38届大众电影百花奖最佳影片奖。",
+          "analysis": "《哪吒2》获得百花奖最佳影片奖，反映了我国动画电影产业的崛起和成熟。这一奖项的获得，既是对电影本身艺术价值的认可，也是对动画电影产业政策支持和市场培育的肯定。此举有助于推动我国动画电影走向更广阔的市场，提升国际影响力。后续可能进一步推动动画电影产业链的发展，包括人才培养、技术提升和市场拓展等方面。",
+          "keywords": [
+            "动画电影",
+            "百花奖",
+            "产业崛起",
+            "文化输出"
+          ],
+          "category": "domestic",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lZnEzV1NvRUpiMno2blNmMG5oNUtMMDlYVHlqVmZBMHVUS05ibU41LTFFR3Rnc1pPZ2VjaExpa2E0OGFxN3dSRWx0UDNWYVZaUktGVC1uNGowdjJoc0VMY08yRUVQTFFLYnBQLWgwOA?oc=5"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "百花奖获奖名单公布",
+          "titleOrig": "百花奖获奖名单",
+          "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95&t=31&band_rank=2&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "第XX届百花奖获奖名单在微博热搜上公布。",
+          "analysis": "百花奖作为中国电影的重要奖项，其获奖名单的公布体现了中国电影行业的发展趋势和观众喜好。背后的政策意图是推动电影产业的繁荣，社会成因是大众对电影文化的关注和参与。对国内民生意味着文化生活的丰富，对经济意味着电影产业的潜在增长，后续走向可能包括更多优质电影的产出。",
+          "keywords": [
+            "百花奖",
+            "电影",
+            "奖项",
+            "文化",
+            "产业"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95&t=31&band_rank=2&Refer=top"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "北京启动防汛二级响应，全面清掏雨水口应对降雨",
+          "titleOrig": "北京排水集团启动防汛二级响应，雨前全面清掏6300余个雨水口 - 京报网",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJTVprT0c5c1ppai1NR0lITFJDR2VESEFzYXZRTEw2VkRnS3FiLUJVQ3Z3aGgtMUdMVnBBNDZacm54amgyY0djUjlsbEN4ZmtCU21DZmt6MnV6c09BelE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T14:40:57+00:00",
+          "desc": "北京排水集团启动防汛二级响应，雨前全面清掏6300余个雨水口 京报网市防汛办发布重要提示信息 beijing.gov.cn北京降雨强度有多大？明起多条市郊铁路停运 凤凰网气象台回应台风“白海豚”影响北京 新浪新闻_手机新浪网北京发布暴雨橙色预警，4个区发布暴雨红色预警 thepaper.cn",
+          "hotLabel": "",
+          "summary": "北京排水集团启动防汛二级响应，全面清掏雨水口以应对即将到来的降雨。",
+          "analysis": "北京排水集团启动防汛二级响应，表明北京市政府高度重视即将到来的降雨可能带来的城市内涝风险。此举体现了政府对于城市基础设施管理的重视，以及对居民生命财产安全的保护。全面清掏雨水口是预防城市内涝的重要措施，有助于提高城市排水系统的效率。这一事件反映了我国在城市防汛工作上的积极态度和应对能力，同时也提醒了公众关注极端天气可能带来的影响。后续走向可能包括对城市排水系统的进一步改造和升级。",
+          "keywords": [
+            "防汛",
+            "雨水口",
+            "北京",
+            "内涝",
+            "城市排水"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBJTVprT0c5c1ppai1NR0lITFJDR2VESEFzYXZRTEw2VkRnS3FiLUJVQ3Z3aGgtMUdMVnBBNDZacm54amgyY0djUjlsbEN4ZmtCU21DZmt6MnV6c09BelE?oc=5"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E7%99%BE%E8%8A%B1%E5%A5%96%E8%8E%B7%E5%A5%96%E5%90%8D%E5%8D%95&t=31&band_rank=2&Refer=top"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "中国黑科技圈粉老外",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%BB%91%E7%A7%91%E6%8A%80%E5%9C%88%E7%B2%89%E8%80%81%E5%A4%96%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中国黑科技在国内外引发关注，吸引外国人士兴趣。",
+          "analysis": "中国黑科技的崛起，体现了我国科技创新能力的提升。这些科技不仅在国内市场受到欢迎，也在国际舞台上获得了认可，有助于提升我国科技产业的国际地位。后续可能进一步推动科技创新，加强与国际科技合作。",
+          "keywords": [
+            "黑科技",
+            "科技创新",
+            "国际合作",
+            "国际地位"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E9%BB%91%E7%A7%91%E6%8A%80%E5%9C%88%E7%B2%89%E8%80%81%E5%A4%96%23&t=31&band_rank=3&Refer=top"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "旅游发朋友圈为什么要带定位",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E6%97%85%E6%B8%B8%E5%8F%91%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%B8%A6%E5%AE%9A%E4%BD%8D&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "微博热搜讨论旅游发朋友圈带定位的原因。",
+          "analysis": "这一现象反映了社交媒体对人们生活方式的影响。背后的政策意图是鼓励分享和互动，社会成因是社交媒体的普及。对国内社会意味着社交习惯的改变，对治理意味着需要关注个人信息保护。后续走向可能包括对社交媒体使用的规范和引导。",
+          "keywords": [
+            "旅游",
+            "朋友圈",
+            "定位",
+            "社交媒体",
+            "个人信息"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E6%97%85%E6%B8%B8%E5%8F%91%E6%9C%8B%E5%8F%8B%E5%9C%88%E4%B8%BA%E4%BB%80%E4%B9%88%E8%A6%81%E5%B8%A6%E5%AE%9A%E4%BD%8D&t=31&band_rank=7&Refer=top"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "伊朗最高领袖任命6人担任高级军事指挥官",
+          "titleOrig": "伊朗最高领袖任命6人担任高级军事指挥官 - news.cn",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpU3k0ZlpWdXFWNi1yNUFncE9xUTM5LWktWDJNeVk0NS04aFFXZWptdmpOVUduTzI3a0RBcFpHMk0teHFpZlQzMmNHMVhFUFZIT3VXd18zYUlQNTQ4NDhuMUFNYjc5RFQ2Wk5LalpJZWRVX0pmakk2Z3JUZm5zMHc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-10T15:55:13+00:00",
+          "desc": "伊朗最高领袖任命6人担任高级军事指挥官 news.cn伊朗最高领袖拍板，对高层进行重大调整 新浪财经伊朗高层人事变动 中国日报网伊朗任命雷扎伊为最高国家安全委员会秘书，曾任革命卫队总司令-观察者网 观察者最敏感时刻，伊朗知名“野心家”上位 凤凰网",
+          "hotLabel": "",
+          "summary": "伊朗最高领袖任命6人担任高级军事指挥官。",
+          "analysis": "伊朗最高领袖对军事高层的人事调整，反映了伊朗国内政治和军事力量的变化。此举可能旨在加强军事力量，应对外部压力或内部挑战。伊朗的军事人事变动对中东地区的安全形势和伊朗的国际关系产生重要影响。后续走向可能包括伊朗与周边国家的关系变化以及国际社会对伊朗政策的调整。",
+          "keywords": [
+            "伊朗",
+            "军事",
+            "人事变动",
+            "中东安全",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBpU3k0ZlpWdXFWNi1yNUFncE9xUTM5LWktWDJNeVk0NS04aFFXZWptdmpOVUduTzI3a0RBcFpHMk0teHFpZlQzMmNHMVhFUFZIT3VXd18zYUlQNTQ4NDhuMUFNYjc5RFQ2Wk5LalpJZWRVX0pmakk2Z3JUZm5zMHc?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "中星4B卫星发射失利",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E6%98%9F4B%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E5%A4%B1%E5%88%A9&t=31&band_rank=13&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "中星4B卫星发射失败，引发关注。",
+          "analysis": "中星4B卫星发射失利，反映了我国航天科技在发射技术上的挑战。这一事件对航天产业的发展和航天器的发射任务造成一定影响。后续可能加强航天科技研发，提高发射成功率。",
+          "keywords": [
+            "航天科技",
+            "发射失败",
+            "研发挑战",
+            "航天产业"
+          ],
+          "category": "tech",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E4%B8%AD%E6%98%9F4B%E5%8D%AB%E6%98%9F%E5%8F%91%E5%B0%84%E5%A4%B1%E5%88%A9&t=31&band_rank=13&Refer=top"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "陈思诚在家里气哭了",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%80%9D%E8%AF%9A%E5%9C%A8%E5%AE%B6%E9%87%8C%E6%B0%94%E5%93%AD%E4%BA%86&t=31&band_rank=4&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "导演陈思诚因某事件在家里情绪失控。",
+          "analysis": "这一事件可能涉及个人情感或工作压力，反映了娱乐圈中高强度工作环境下的心理压力。对国内社会意味着公众人物的心理健康问题受到关注，对治理意味着需要关注娱乐圈从业者的心理健康。后续走向可能包括公众对心理健康问题的讨论和关注。",
+          "keywords": [
+            "陈思诚",
+            "娱乐圈",
+            "心理健康",
+            "压力",
+            "社会"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E9%99%88%E6%80%9D%E8%AF%9A%E5%9C%A8%E5%AE%B6%E9%87%8C%E6%B0%94%E5%93%AD%E4%BA%86&t=31&band_rank=4&Refer=top"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "刘耀文看到易烊千玺拿影帝的反应",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E7%9C%8B%E5%88%B0%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E6%8B%BF%E5%BD%B1%E5%B8%9D%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=31&band_rank=6&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "刘耀文对易烊千玺获得影帝的反应引发关注。",
+          "analysis": "这一事件反映了娱乐圈中年轻艺人的竞争关系和粉丝文化。对国内社会意味着娱乐圈生态的多样性和粉丝文化的盛行，对治理意味着需要关注娱乐圈的健康发展。后续走向可能包括对娱乐圈生态的讨论和反思。",
+          "keywords": [
+            "刘耀文",
+            "易烊千玺",
+            "影帝",
+            "娱乐圈",
+            "粉丝文化"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%80%80%E6%96%87%E7%9C%8B%E5%88%B0%E6%98%93%E7%83%8A%E5%8D%83%E7%8E%BA%E6%8B%BF%E5%BD%B1%E5%B8%9D%E7%9A%84%E5%8F%8D%E5%BA%94%23&t=31&band_rank=6&Refer=top"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "外交部：百余名菲律宾公民被依法处理",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E7%99%BE%E4%BD%99%E5%90%8D%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%85%AC%E6%B0%91%E8%A2%AB%E4%BE%9D%E6%B3%95%E5%A4%84%E7%90%86",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%A4%96%E4%BA%A4%E9%83%A8%EF%BC%9A%E7%99%BE%E4%BD%99%E5%90%8D%E8%8F%B2%E5%BE%8B%E5%AE%BE%E5%85%AC%E6%B0%91%E8%A2%AB%E4%BE%9D%E6%B3%95%E5%A4%84%E7%90%86"
             }
           ],
           "rank": 16
@@ -618,803 +1294,82 @@
               "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
             }
           ],
-          "rank": 17,
-          "_score": 100.0
-        },
-        {
-          "title": "Weather tracker: Europe breaks more heat records as temperatures soar",
-          "titleOrig": "Weather tracker: Europe breaks more heat records as temperatures soar",
-          "url": "https://www.theguardian.com/environment/2026/aug/10/weather-tracker-europe-break-heat-records-temperatures-drought-wildfires",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T09:32:54+00:00",
-          "desc": "Drought and wildfires intensify across continent, while tropical storms bring heavy rain and disruption to east AsiaEurope live – latest updatesHigh pressure has dominated central and eastern Europe in early August, breaking temperature records across the region. Austria recorded a high of 41.2C (10",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/aug/10/weather-tracker-europe-break-heat-records-temperatures-drought-wildfires"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "Two workers temporarily stood down after near-miss collision at Sydney airport",
-          "titleOrig": "Two workers temporarily stood down after near-miss collision at Sydney airport",
-          "url": "https://www.theguardian.com/australia-news/2026/aug/10/jetstar-plane-qatar-near-miss-aircraft-proximity-event-sydney-airport",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T07:22:55+00:00",
-          "desc": "Transport minister says improved staff rostering will be in place from next month after ‘unacceptable’ delays and incident involving Qatar Airways and Jetstar planesFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastThe transport minister",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/aug/10/jetstar-plane-qatar-near-miss-aircraft-proximity-event-sydney-airport"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "在澳大利亚发现的“手提箱中的尸体”实际上是一个逼真的玩偶",
-          "titleOrig": "'Body in suitcase' found in Australia turns out to be lifelike doll",
-          "url": "https://www.bbc.co.uk/news/articles/clyqg4w3gz9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-10T05:16:40+00:00",
-          "desc": "Forensics revealed that the 'realistic' looking body was in fact not human.",
-          "hotLabel": "",
-          "summary": "法医鉴定显示，看起来逼真的“尸体”实际上是一个假人。",
-          "analysis": "这一事件揭示了犯罪现场调查和法医学的重要性，同时也提醒了公众对于不实信息的警惕。后续可能对相关领域的专业性和准确性提出更高要求。",
-          "keywords": [
-            "澳大利亚",
-            "尸体",
-            "玩偶",
-            "法医",
-            "犯罪调查"
-          ],
-          "category": "international",
-          "importance": 50,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/clyqg4w3gz9o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，政策与社会动向呈现多元化趋势。国家领导人发表重要文章，强调健康中国建设，体现了对民生的关注。同时，中国制造硬核瞬间展现国家科技实力，而经济领域，雪佛兰退出中国市场和期货市场价格上涨，反映了市场动态。社会层面，定位纠纷、家庭悲剧等事件引发关注，反映出社会问题的复杂性。国际方面，中国在国际舞台上的影响力持续扩大，同时也有个别事件引发争议。总体来看，国内政策与社会动向呈现出积极与挑战并存的态势，值得持续关注。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "习近平发表《加快建设健康中国》重要文章",
-          "titleOrig": "《求是》杂志发表习近平总书记重要文章《加快建设健康中国》 - dfmc.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pZjZBaTZFUmdiX0tIb09mc1RCWWxLRGN5cnhmTzBhbnNrUEcyVHJ4XzYxbHU3b3lqaGx0YzlUOGgtY1RPcl8wbmlzcGtVOTE1bEROcXgweVNFVTQ1UGpHSENnMldoaGlETHhqckEzNVlwM3c?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-10T10:21:12+00:00",
-          "desc": "《求是》杂志发表习近平总书记重要文章《加快建设健康中国》 dfmc.com.cn述评：以全民健身托举健康中国 中青网学习时节｜“大力发展以人民为中心的体育事业” China Daily人民的健康、体质、幸福一脉相承 中国网一习话丨“全民健身计划就是国民幸福计划” 新浪财经",
-          "hotLabel": "",
-          "summary": "《求是》杂志发表习近平总书记关于健康中国建设的重要文章。",
-          "analysis": "习近平总书记的文章强调了健康中国建设的重要性，体现了国家对于提高人民健康水平的政策意图。文章提出的发展以人民为中心的体育事业，意味着国家将加大对体育事业的投入，提高人民体质，从而提升国民健康水平。这对国内民生有着深远影响，意味着国家将更加注重人民的健康和幸福。后续走向可能包括出台更多相关政策，推动健康中国建设。",
-          "keywords": [
-            "健康中国",
-            "体育事业",
-            "人民健康",
-            "政策意图",
-            "国民幸福"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pZjZBaTZFUmdiX0tIb09mc1RCWWxLRGN5cnhmTzBhbnNrUEcyVHJ4XzYxbHU3b3lqaGx0YzlUOGgtY1RPcl8wbmlzcGtVOTE1bEROcXgweVNFVTQ1UGpHSENnMldoaGlETHhqckEzNVlwM3c?oc=5"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "中国制造硬核瞬间",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%A1%AC%E6%A0%B8%E7%9E%AC%E9%97%B4%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "展现中国制造业实力瞬间。",
-          "analysis": "这反映了我国制造业的快速发展和技术创新。政策意图在于强调制造业的重要性，推动产业升级。对社会而言，这提升了国家形象，对经济有积极影响，预示着制造业的进一步发展。后续可能继续推动相关政策，支持制造业创新。",
-          "keywords": [
-            "中国制造",
-            "制造业",
-            "技术创新",
-            "产业升级",
-            "国家形象"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%A1%AC%E6%A0%B8%E7%9E%AC%E9%97%B4%23&t=31&band_rank=3&Refer=top"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "我国首次证实「胶球」存在",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%88%91%E5%9B%BD%E9%A6%96%E6%AC%A1%E8%AF%81%E5%AE%9E%E3%80%8C%E8%83%B6%E7%90%83%E3%80%8D%E5%AD%98%E5%9C%A8",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "我国科学家首次证实胶球的存在。",
-          "analysis": "这一发现可能标志着我国在微观物质研究领域的重大突破，对物理学、化学等领域的研究具有深远影响。政策意图可能在于推动科技创新，提升国家在相关领域的国际地位。对社会而言，这有助于提高公众对科学研究的兴趣，促进科技人才的培养。后续可能引发相关领域的深入研究和技术应用。",
-          "keywords": [
-            "胶球",
-            "科学研究",
-            "科技创新",
-            "物理学",
-            "化学"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%88%91%E5%9B%BD%E9%A6%96%E6%AC%A1%E8%AF%81%E5%AE%9E%E3%80%8C%E8%83%B6%E7%90%83%E3%80%8D%E5%AD%98%E5%9C%A8"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "中国一重集团原党委常委陆文俊受贿案一审宣判",
-          "titleOrig": "中国一重集团有限公司原党委常委、副总经理陆文俊受贿案一审宣判 - 新华网客户端",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaDBBZ21PTHlCQTJhNHZNR0dQMXlnRHB4WDNBbzcyd0tWOVNfRGQtT3VGUXdvTjA5ZkJvd2prSGRPMS1XZkVmUVBOdm1WX2daeEtyc0pLcy13NGZJU1NHODFRWXFCNXNqOXk4cTF0aHB6akVfeVIxSDJCWnhxNkdMai10dVdmQTBrdVcxYUYxbFR2eXRMYTRtd1lR?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-10T09:11:15+00:00",
-          "desc": "中国一重集团有限公司原党委常委、副总经理陆文俊受贿案一审宣判 新华网客户端在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "中国一重集团原党委常委、副总经理陆文俊受贿案一审宣判。",
-          "analysis": "此案宣判体现了我国在反腐败斗争中的坚定决心。陆文俊作为国有企业的高级管理人员，其受贿行为损害了国家和人民的利益，被依法惩处。这表明我国在治理国有企业、加强党风廉政建设方面的决心。后续走向可能包括继续加大对国有企业腐败行为的打击力度，加强监管，防止类似事件再次发生。",
-          "keywords": [
-            "受贿案",
-            "反腐败",
-            "国有企业",
-            "党风廉政建设",
-            "法律惩处"
-          ],
-          "category": "domestic",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQaDBBZ21PTHlCQTJhNHZNR0dQMXlnRHB4WDNBbzcyd0tWOVNfRGQtT3VGUXdvTjA5ZkJvd2prSGRPMS1XZkVmUVBOdm1WX2daeEtyc0pLcy13NGZJU1NHODFRWXFCNXNqOXk4cTF0aHB6akVfeVIxSDJCWnhxNkdMai10dVdmQTBrdVcxYUYxbFR2eXRMYTRtd1lR?oc=5"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "极氪7X充电起火",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E6%B0%AA7X%E5%85%85%E7%94%B5%E8%B5%B7%E7%81%AB&t=31&band_rank=10&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "极氪7X电动汽车充电时发生起火事件。",
-          "analysis": "事件背景：随着新能源汽车的普及，充电安全问题日益受到关注。关键影响：此事件可能引发公众对新能源汽车安全性的担忧，对新能源汽车行业产生负面影响。后续走向：可能促使政府加强新能源汽车安全监管，企业加大安全技术研发投入。关键词：新能源汽车，充电安全，极氪7X，行业影响。category：tech，importance：85",
-          "keywords": [
-            "新能源汽车",
-            "充电安全",
-            "极氪7X",
-            "行业影响"
-          ],
-          "category": "tech",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%9E%81%E6%B0%AA7X%E5%85%85%E7%94%B5%E8%B5%B7%E7%81%AB&t=31&band_rank=10&Refer=top"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "国铁成都局因台风“白海豚”临时停运115趟列车",
-          "titleOrig": "防范台风“白海豚”国铁成都局临时停运列车115趟 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0M3aUV0WnMtdzk4MlItZGY1S2wzNjVRWGNuSGRaaTNmeFd1b3lMSUpHQmdDTk5VSHlJTzJMTEJPYUFfYnQwanFNeG1XbDJzNlozOUdpVGhWN1UxOG1xZDNScFZlanVDN1RxTnRLUm5JWkY0TktpY0FkM3Q1NjUzcG1Gaw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-10T10:40:29+00:00",
-          "desc": "防范台风“白海豚”国铁成都局临时停运列车115趟 新华网上海发布关于台风“白海豚”过境特种设备与食品安全告知书 新浪财经苏州升级启动防汛二级应急响应 thepaper.cn登陆≠结束！直击白海豚过境后的浙江玉环 #台风 view.inews.qq.com奔袭超6000公里登陆中国，台风“白海豚”太能活了 凤凰网",
-          "hotLabel": "",
-          "summary": "为防范台风“白海豚”，国铁成都局临时停运115趟列车。",
-          "analysis": "此次停运体现了我国对自然灾害的防范意识和应对能力。在台风季节，铁路部门会根据气象预警及时调整列车运行计划，确保旅客安全。这反映了我国在自然灾害应对方面的政策意图，即以人为本，确保人民群众的生命财产安全。同时，也展示了我国在自然灾害预警和应急响应方面的社会成因，即我国幅员辽阔，自然灾害频发，需要建立完善的预警和应急体系。后续走向可能包括加强自然灾害预警系统的建设，提高应急响应能力。",
-          "keywords": [
-            "台风",
-            "铁路停运",
-            "自然灾害",
-            "应急响应",
-            "旅客安全"
-          ],
-          "category": "domestic",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX0M3aUV0WnMtdzk4MlItZGY1S2wzNjVRWGNuSGRaaTNmeFd1b3lMSUpHQmdDTk5VSHlJTzJMTEJPYUFfYnQwanFNeG1XbDJzNlozOUdpVGhWN1UxOG1xZDNScFZlanVDN1RxTnRLUm5JWkY0TktpY0FkM3Q1NjUzcG1Gaw?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "定位纠纷致外卖员被砍成植物人",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%AE%9A%E4%BD%8D%E7%BA%A0%E7%BA%B7%E8%87%B4%E5%A4%96%E5%8D%96%E5%91%98%E8%A2%AB%E7%A0%8D%E6%88%90%E6%A4%8D%E7%89%A9%E4%BA%BA",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "外卖员因定位纠纷被砍成植物人。",
-          "analysis": "此事件反映了外卖行业在快速发展的同时，也面临着安全风险和权益保护问题。政策意图可能在于加强对外卖行业的监管，保障从业人员的合法权益。对社会而言，这警示了行业规范和人员安全的重要性。后续可能促使政府和企业采取措施改善行业环境。",
-          "keywords": [
-            "外卖员",
-            "安全风险",
-            "权益保护",
-            "行业监管",
-            "社会问题"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%AE%9A%E4%BD%8D%E7%BA%A0%E7%BA%B7%E8%87%B4%E5%A4%96%E5%8D%96%E5%91%98%E8%A2%AB%E7%A0%8D%E6%88%90%E6%A4%8D%E7%89%A9%E4%BA%BA"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "江苏上海等6省市部分地区中小河流洪水气象风险预警",
-          "titleOrig": "中小河流洪水气象风险预警：江苏上海等6省市部分地区风险较高 - 天气网",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56NUFzMDZRN1RjdGxXcnpiR0h6czM1WDdQbkpmTWVDYVdaRlFjM2lVYWdUS0pESF94VWRya3VyMTNjWTczTTMyUVcxcXRCOUNpVmpLb2xRNXF6QjdM?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-10T10:00:12+00:00",
-          "desc": "中小河流洪水气象风险预警：江苏上海等6省市部分地区风险较高 天气网市水务局与市气象局联合发布全市山洪灾害风险橙色预警 北京市人民政府门户网站大流量泵车驰援椒江！省水利抢险总队彻夜不眠抢排积水 台州新闻浙江局部地区强降雨持续 部分江河水位超保 新浪财经受台风影响，浙江甬江、椒江、苕溪、运河水系发生编号洪水 thepaper.cn",
-          "hotLabel": "",
-          "summary": "江苏、上海等6省市部分地区发布中小河流洪水气象风险预警。",
-          "analysis": "此次预警反映了我国在自然灾害预警和应急响应方面的能力。在洪水季节，气象部门会及时发布预警信息，提醒民众做好防范措施。这体现了我国在自然灾害应对方面的政策意图，即提高公众的防灾减灾意识。对国内民生的影响是提醒民众关注洪水风险，做好防范工作。后续走向可能包括加强洪水预警系统的建设，提高应急响应能力。",
-          "keywords": [
-            "洪水预警",
-            "气象风险",
-            "防灾减灾",
-            "政策意图",
-            "公众安全"
-          ],
-          "category": "domestic",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE56NUFzMDZRN1RjdGxXcnpiR0h6czM1WDdQbkpmTWVDYVdaRlFjM2lVYWdUS0pESF94VWRya3VyMTNjWTczTTMyUVcxcXRCOUNpVmpLb2xRNXF6QjdM?oc=5"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "龙餐馆 奥斯卡",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E9%BE%99%E9%A4%90%E9%A6%86%20%E5%A5%A5%E6%96%AF%E5%8D%A1&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "中国餐馆获得奥斯卡奖项。",
-          "analysis": "这表明中国饮食文化在国际上的影响力。对国内餐饮业有积极影响，有助于提升国家软实力。后续可能促进中国饮食文化的国际传播。",
-          "keywords": [
-            "龙餐馆",
-            "奥斯卡",
-            "中国饮食",
-            "国家软实力",
-            "国际传播"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E9%BE%99%E9%A4%90%E9%A6%86%20%E5%A5%A5%E6%96%AF%E5%8D%A1&t=31&band_rank=8&Refer=top"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "新华日报评竹知了事件",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%96%B0%E5%8D%8E%E6%97%A5%E6%8A%A5%E8%AF%84%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "新华日报对竹知了事件进行评论。",
-          "analysis": "事件背景：竹知了事件引发社会关注。关键影响：新华日报的评论可能对事件产生导向性影响，对公众舆论产生影响。后续走向：可能促使事件得到进一步关注和处理。关键词：新华日报，竹知了事件，评论，舆论导向。category：society，importance：75",
-          "keywords": [
-            "新华日报",
-            "竹知了事件",
-            "评论",
-            "舆论导向"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%96%B0%E5%8D%8E%E6%97%A5%E6%8A%A5%E8%AF%84%E7%AB%B9%E7%9F%A5%E4%BA%86%E4%BA%8B%E4%BB%B6"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "雪佛兰退出中国市场",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%9B%AA%E4%BD%9B%E5%85%B0%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "雪佛兰宣布退出中国市场。",
-          "analysis": "雪佛兰的退出反映了我国汽车市场的竞争加剧和外资品牌战略调整。政策意图可能在于推动国内汽车产业的自主创新和升级。对社会而言，这可能导致国内汽车品牌市场份额的增加。后续可能见证国内汽车产业的进一步发展。",
-          "keywords": [
-            "雪佛兰",
-            "汽车市场",
-            "外资品牌",
-            "产业升级",
-            "市场竞争"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%9B%AA%E4%BD%9B%E5%85%B0%E9%80%80%E5%87%BA%E4%B8%AD%E5%9B%BD%E5%B8%82%E5%9C%BA"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/taiwan-internet-china-invasion-drill.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/10/world/asia/typhoon-dolphin-china-evacuations.html"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "期货市场收盘：沪银涨3.34%，纯碱涨3.21%，碳酸锂涨2.87%",
-          "titleOrig": "期货收盘：沪银涨3.34%，纯碱涨3.21%，碳酸锂涨2.87%，37涨23跌 - 金融界",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVDkweHZ3SndzRzQ5dVJBVm1QbDFrNE9MS3JaTGkzV0hfQUJ0U0tQRUhuSFdzbEpKS0lJU0hmRFpqRUhEYmZPcVFhU3lfSUplcjc5Q2ZfQk1NSmp4OW1peE11OFN3Mlc5WDhqb0J2ZzFpa1dj?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-10T07:28:25+00:00",
-          "desc": "期货收盘：沪银涨3.34%，纯碱涨3.21%，碳酸锂涨2.87%，37涨23跌 金融界收评|国内期货主力合约涨跌不一 沪银、纯碱涨超3% 新浪财经金属涨跌互现 沪锌沪锡跌超1% 沪银涨超3% 碳酸锂、沪金涨逾2%【SMM日评】 同花顺财经商品日报（8月10日）：沪银领涨纯碱减仓反弹 集运欧线显著回落 搜狐网美元两连跌 金属多上行 伦锌、伦锡、氧化铝涨逾2% 金银飙涨【隔夜行情】 上海有色金属",
-          "hotLabel": "",
-          "summary": "期货市场收盘，沪银、纯碱、碳酸锂等商品价格上涨。",
-          "analysis": "期货市场的价格变动反映了市场供需关系和投资者预期。此次价格上涨可能与市场对相关商品的供需变化有关，也可能受到宏观经济政策、国际贸易等因素的影响。对国内经济的影响是可能影响相关产业链的价格和成本。后续走向可能包括市场进一步调整，价格波动加剧。",
-          "keywords": [
-            "期货市场",
-            "价格上涨",
-            "市场供需",
-            "宏观经济政策",
-            "产业链"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBjVDkweHZ3SndzRzQ5dVJBVm1QbDFrNE9MS3JaTGkzV0hfQUJ0U0tQRUhuSFdzbEpKS0lJU0hmRFpqRUhEYmZPcVFhU3lfSUplcjc5Q2ZfQk1NSmp4OW1peE11OFN3Mlc5WDhqb0J2ZzFpa1dj?oc=5"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "上海地铁停运",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81%E5%81%9C%E8%BF%90&t=31&band_rank=6&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "上海地铁因故停运。",
-          "analysis": "这可能是由于设备故障、自然灾害或其他紧急情况导致的。对社会交通造成影响，可能反映了城市基础设施的挑战。后续可能加强城市交通管理，提高应急处理能力。",
-          "keywords": [
-            "上海地铁",
-            "停运",
-            "基础设施",
-            "交通管理",
-            "应急处理"
-          ],
-          "category": "domestic",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E4%B8%8A%E6%B5%B7%E5%9C%B0%E9%93%81%E5%81%9C%E8%BF%90&t=31&band_rank=6&Refer=top"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2rgzyplg2o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/10/typhoon-dolphin-china-shanghai-flooding-evacuations"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/china-typhoon-dolphin-prompts-mass-evacuation-canceled-flights/a-78299416?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "儿子去世孙子不捧骨灰盒被查出非亲生",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AD%90%E5%8E%BB%E4%B8%96%E5%AD%99%E5%AD%90%E4%B8%8D%E6%8D%A7%E9%AA%A8%E7%81%B0%E7%9B%92%E8%A2%AB%E6%9F%A5%E5%87%BA%E9%9D%9E%E4%BA%B2%E7%94%9F%23&t=31&band_rank=11&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "一男子去世后，其孙子拒绝捧骨灰盒，经查实非亲生。",
-          "analysis": "事件背景：反映家庭伦理和亲子关系问题。关键影响：可能引发社会对家庭伦理和亲子关系的讨论，对家庭和谐产生负面影响。后续走向：可能促使社会对家庭伦理教育加强关注。关键词：家庭伦理，亲子关系，非亲生，社会影响。category：society，importance：70",
-          "keywords": [
-            "家庭伦理",
-            "亲子关系",
-            "非亲生",
-            "社会影响"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%84%BF%E5%AD%90%E5%8E%BB%E4%B8%96%E5%AD%99%E5%AD%90%E4%B8%8D%E6%8D%A7%E9%AA%A8%E7%81%B0%E7%9B%92%E8%A2%AB%E6%9F%A5%E5%87%BA%E9%9D%9E%E4%BA%B2%E7%94%9F%23&t=31&band_rank=11&Refer=top"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "日本一医院错把患者脑部当肿瘤切除",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E4%B8%80%E5%8C%BB%E9%99%A2%E9%94%99%E6%8A%8A%E6%82%A3%E8%80%85%E8%84%91%E9%83%A8%E5%BD%93%E8%82%BF%E7%98%A4%E5%88%87%E9%99%A4",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "日本一医院误将患者脑部当肿瘤切除。",
-          "analysis": "这一医疗事故凸显了医疗行业在诊断和治疗过程中的风险。政策意图可能在于加强医疗质量管理，提高医疗服务水平。对社会而言，这警示了医疗安全的重要性。后续可能促使医疗行业加强监管和培训。",
-          "keywords": [
-            "医疗事故",
-            "医疗安全",
-            "诊断错误",
-            "医疗服务",
-            "行业监管"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E4%B8%80%E5%8C%BB%E9%99%A2%E9%94%99%E6%8A%8A%E6%82%A3%E8%80%85%E8%84%91%E9%83%A8%E5%BD%93%E8%82%BF%E7%98%A4%E5%88%87%E9%99%A4"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "张本智和说和妹妹同时夺冠意义重大",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C%E8%AF%B4%E5%92%8C%E5%A6%B9%E5%A6%B9%E5%90%8C%E6%97%B6%E5%A4%BA%E5%86%A0%E6%84%8F%E4%B9%89%E9%87%8D%E5%A4%A7%23&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "张本智和与妹妹同时夺冠。",
-          "analysis": "这体现了体育竞技家庭的成就，对体育精神和家庭价值观有积极影响。对社会而言，这激发了人们对体育运动的兴趣，对体育产业的发展有推动作用。后续可能促进体育家庭文化的传播。",
-          "keywords": [
-            "张本智和",
-            "体育竞技",
-            "家庭成就",
-            "体育精神",
-            "体育产业"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C%E8%AF%B4%E5%92%8C%E5%A6%B9%E5%A6%B9%E5%90%8C%E6%97%B6%E5%A4%BA%E5%86%A0%E6%84%8F%E4%B9%89%E9%87%8D%E5%A4%A7%23&t=31&band_rank=9&Refer=top"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "白海豚 居家办公",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A%20%E5%B1%85%E5%AE%B6%E5%8A%9E%E5%85%AC&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "白海豚成为居家办公的代表。",
-          "analysis": "这可能是网络上的一个幽默话题，反映了疫情期间居家办公的普遍现象。对社会而言，这体现了灵活的工作方式，对经济有一定的促进作用。后续可能推动远程办公的发展。",
-          "keywords": [
-            "白海豚",
-            "居家办公",
-            "灵活工作",
-            "远程办公",
-            "疫情影响"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%B5%B7%E8%B1%9A%20%E5%B1%85%E5%AE%B6%E5%8A%9E%E5%85%AC&t=31&band_rank=7&Refer=top"
-            }
-          ],
           "rank": 17
         },
         {
-          "title": "女演员朱锐自曝破产失业",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%BC%94%E5%91%98%E6%9C%B1%E9%94%90%E8%87%AA%E6%9B%9D%E7%A0%B4%E4%BA%A7%E5%A4%B1%E4%B8%9A%23&t=31&band_rank=12&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "Hong Kong records hottest day ever as Typhoon Dolphin fuels heatwave",
+          "titleOrig": "Hong Kong records hottest day ever as Typhoon Dolphin fuels heatwave",
+          "url": "https://www.theguardian.com/world/2026/aug/10/hong-kong-heat-record-hottest-day-ever-typhoon-dolphin",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-10T01:24:13+00:00",
+          "desc": "Observatory says 36.9C posted on Sunday is city’s highest official temperature since its records began 142 years ago, with storm driving intense heat in regionHong Kong has officially recorded its highest ever temperature as Typhoon Dolphin swept warm air over the city, the meteorological service sa",
           "hotLabel": "",
-          "summary": "女演员朱锐公开表示自己破产失业。",
-          "analysis": "事件背景：娱乐圈明星经济状况问题。关键影响：可能引发公众对娱乐圈经济状况的关注，对娱乐圈产生一定影响。后续走向：可能促使娱乐圈加强财务管理。关键词：娱乐圈，经济状况，朱锐，行业影响。category：society，importance：60",
-          "keywords": [
-            "娱乐圈",
-            "经济状况",
-            "朱锐",
-            "行业影响"
-          ],
-          "category": "society",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "international",
           "importance": 60,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%BC%94%E5%91%98%E6%9C%B1%E9%94%90%E8%87%AA%E6%9B%9D%E7%A0%B4%E4%BA%A7%E5%A4%B1%E4%B8%9A%23&t=31&band_rank=12&Refer=top"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/10/hong-kong-heat-record-hottest-day-ever-typhoon-dolphin"
             }
           ],
           "rank": 18
         },
         {
-          "title": "梅西父亲去世",
+          "title": "山东省防范应对第13号台风“白海豚”工作调度会议召开 - 青岛日报",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%A2%85%E8%A5%BF%E7%88%B6%E4%BA%B2%E5%8E%BB%E4%B8%96",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QaHJlTUNVWmxidUtPVlJQMnEyMWMtY0RHRkNMWFNRbnpUMWJNNlNtd1ZvWlAzQllXSE9hajZBaXhabmlEeENIWVk4cnE2LWFfQi1KRUFobW4?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-08-10T11:10:06+00:00",
+          "desc": "山东省防范应对第13号台风“白海豚”工作调度会议召开 青岛日报顺义区召开防汛防台风专题调度会议 beijing.gov.cn全力确保百姓平安、城市安全！陈吉宁今天两次检查调度台风防御工作 新浪财经王浩在全省防御应对13号台风“白海豚”工作视频会议上强调毫不松懈科学组织连续作战夺取防汛防台工作全面胜利 浙江新闻尹力、殷勇调度部署防汛防台风工作，要求切实维护人民群众生命财产安全 新京报",
           "hotLabel": "",
-          "summary": "足球明星梅西的父亲去世。",
-          "analysis": "梅西父亲的去世对梅西个人和家庭都是巨大的打击。虽然这一事件与国内政策和社会影响关系不大，但对足球迷和体育界有一定的影响。后续可能引发对梅西个人生活和职业生涯的关注。",
-          "keywords": [
-            "梅西",
-            "足球",
-            "家庭",
-            "体育",
-            "去世"
-          ],
-          "category": "international",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
           "importance": 60,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%A2%85%E8%A5%BF%E7%88%B6%E4%BA%B2%E5%8E%BB%E4%B8%96"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1QaHJlTUNVWmxidUtPVlJQMnEyMWMtY0RHRkNMWFNRbnpUMWJNNlNtd1ZvWlAzQllXSE9hajZBaXhabmlEeENIWVk4cnE2LWFfQi1KRUFobW4?oc=5"
             }
           ],
           "rank": 19
         },
         {
-          "title": "第一批抱冬瓜睡觉受害者出现",
+          "title": "浙江杭州发布暴雨橙色预警 - 10jqka.com.cn",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E7%AC%AC%E4%B8%80%E6%89%B9%E6%8A%B1%E5%86%AC%E7%93%9C%E7%9D%A1%E8%A7%89%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fQXRKaTFXZklnMU1ETzFsMmx0M2lVYWc0QWd0QkplTDVhd2pvOFNPZ29rZFZnTE5NM0RpZEdaOC1qaV81emRfMnRLWW1fS3hnQUM1OXNhbTJIbk9rNnc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "网络流行语“抱冬瓜睡觉”引发受害者出现。",
-          "analysis": "事件背景：网络流行语引发的社会现象。关键影响：可能引发公众对网络流行语背后含义的探讨，对网络文化产生影响。后续走向：可能促使网络文化更加健康。关键词：网络流行语，社会现象，抱冬瓜睡觉，网络文化。category：society，importance：50",
-          "keywords": [
-            "网络流行语",
-            "社会现象",
-            "抱冬瓜睡觉",
-            "网络文化"
-          ],
-          "category": "society",
-          "importance": 50,
+          "publishedAt": "2026-08-10T11:26:00+00:00",
+          "desc": "浙江杭州发布暴雨橙色预警 10jqka.com.cn市水务局与市气象局联合发布全市山洪灾害风险橙色预警 beijing.gov.cn浙江局部地区强降雨持续 部分江河水位超保 新浪财经台风登陆≠危险解除 浙江9地45个县（市、区）仍为地质灾害红色预警 浙江新闻受台风影响，浙江甬江、椒江、苕溪、运河水系发生编号洪水 thepaper.cn",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%AC%AC%E4%B8%80%E6%89%B9%E6%8A%B1%E5%86%AC%E7%93%9C%E7%9D%A1%E8%A7%89%E5%8F%97%E5%AE%B3%E8%80%85%E5%87%BA%E7%8E%B0"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5fQXRKaTFXZklnMU1ETzFsMmx0M2lVYWc0QWd0QkplTDVhd2pvOFNPZ29rZFZnTE5NM0RpZEdaOC1qaV81emRfMnRLWW1fS3hnQUM1OXNhbTJIbk9rNnc?oc=5"
             }
           ],
           "rank": 20
