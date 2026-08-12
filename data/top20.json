@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-12T12:46:25.261770+00:00",
+  "generatedAt": "2026-08-12T18:49:54.628214+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 30,
+      "count": 29,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 14,
       "ok": true
     },
     {
@@ -90,43 +90,305 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多方面的紧张与挑战。非洲埃博拉疫情加剧，死亡人数突破2000，凸显全球公共卫生安全风险。欧洲持续面临极端气候挑战，第五次热浪来袭，引发社会疲惫。中东地区冲突持续，胡塞武装袭击致红海地区首起死亡事件，美军介入打击集装箱船。阿富汗女孩教育权受严重侵犯，近240万女孩被禁止上学。乌克兰在军事冲突中寻求替代方案，利比亚最大炼油厂遭无人机袭击。此外，国际政治、经济、社会等领域也出现诸多值得关注的事件，如特朗普更换飞机、黎巴嫩废除死刑、泰国暂停枪支许可证等。整体而言，全球局势复杂多变，诸多问题亟待解决。",
+      "digest": "今日国际局势呈现出多极化与冲突交织的特点。俄罗斯黑海港口袭击事件凸显地缘政治紧张，厄尔尼诺现象影响三大洲，显示全球气候变化挑战。美国与中国关系的动态引人关注，伊拉克资金短缺问题暴露地区安全困境。美国通胀放缓，经济领域出现积极信号。此外，社会事件如加拿大航空和解性骚扰诉讼，以及文化事件如莫扎特纪念活动提前结束，也反映了国际社会的多元面貌。总体而言，国际局势复杂多变，值得持续关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "刚果（金）埃博拉疫情死亡人数超过2000",
-          "titleOrig": "Ebola: Over 2,000 dead in DR Congo as virus gathers pace",
-          "url": "https://www.dw.com/en/ebola-over-2-000-dead-in-dr-congo-as-virus-gathers-pace/a-78327706?maca=en-rss-en-all-1573-rdf",
+          "title": "俄罗斯主要粮食出口码头在乌克兰黑海港口遭袭击",
+          "titleOrig": "Major Russian grain export terminals hit in Ukraine Black Sea port attack",
+          "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T17:47:01+00:00",
+          "desc": "Grain exports from both Russia and Ukraine are falling as both countries attack each other's shipping facilities and ports.",
+          "hotLabel": "",
+          "summary": "俄罗斯和乌克兰的粮食出口都在下降，因为两国相互攻击对方的航运设施和港口。",
+          "analysis": "这次袭击可能会加剧全球粮食危机，影响依赖俄罗斯和乌克兰粮食出口的国家。这可能会推动国际社会寻求多元化粮食供应链，并对全球粮食安全产生长期影响。",
+          "keywords": [
+            "俄罗斯",
+            "乌克兰",
+            "粮食出口",
+            "袭击",
+            "全球粮食危机"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c5y49xp2wrno?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "创纪录的厄尔尼诺现象影响三大洲",
+          "titleOrig": "Effects of Record-Breaking El Niño Are Happening on 3 Continents",
+          "url": "https://www.nytimes.com/2026/08/12/climate/el-nino-early-onset-effects.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T17:04:10+00:00",
+          "desc": "The recurring climate phenomenon is expected to peak later this year, but it is already causing dry spells and crop failures on three continents.",
+          "hotLabel": "",
+          "summary": "虽然厄尔尼诺现象预计今年晚些时候达到顶峰，但它已导致三大洲出现干旱和作物歉收。",
+          "analysis": "厄尔尼诺现象加剧了全球气候变化的影响，对农业生产和粮食安全构成威胁。这可能导致全球粮食价格波动，加剧贫困和饥饿问题。后续可能看到各国加强气候适应和粮食安全措施。",
+          "keywords": [
+            "厄尔尼诺现象",
+            "气候变化",
+            "粮食安全",
+            "全球粮食价格",
+            "气候适应"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/12/climate/el-nino-early-onset-effects.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "美国是否失去了对中国的优势？",
+          "titleOrig": "Has the U.S. lost its dominance to China?",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5928224/has-the-u-s-lost-its-dominance-to-china",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T18:24:48+00:00",
+          "desc": "Beijing may be benefiting from the war in Iran and Trump's tariffs and has an edge in the competition for tech supremacy. The New Yorker's Evan Osnos discusses his story \"The Future, Made in China.\"",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5928224/has-the-u-s-lost-its-dominance-to-china"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "由于伊朗战争，伊拉克面临资金短缺",
+          "titleOrig": "Due to the Iran war, Iraq is running out of money",
+          "url": "https://www.dw.com/en/due-to-the-iran-war-iraq-is-running-out-of-money/a-78341409?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-08-11T17:46:00+00:00",
-          "desc": "Authorities in the DRC say the Ebola virus is killing faster than any outbreak on record. Scientists have also said the outbreak may have started earlier than previously thought.",
+          "publishedAt": "2026-08-12T17:00:00+00:00",
+          "desc": "Because of the blockage of the Strait of Hormuz, Iraq cannot export enough oil to fund the country's huge public sector. Protests have already started. Will the Iran war destabilize Iraq again?",
           "hotLabel": "",
-          "summary": "刚果（金）埃博拉疫情死亡人数超过2000，病毒传播速度加快。",
-          "analysis": "刚果（金）的埃博拉疫情对公共卫生构成严重威胁，可能对当地社会和经济造成巨大影响。国际社会需要加强合作，以控制疫情并防止其进一步扩散。",
+          "summary": "由于霍尔木兹海峡封锁，伊拉克无法出口足够的石油来资助庞大的公共部门，已引发抗议。",
+          "analysis": "伊拉克的经济依赖石油出口，霍尔木兹海峡的封锁导致其收入锐减。这不仅加剧了伊拉克的经济困难，还可能引发社会动荡。伊拉克的政治稳定对整个中东地区的安全格局至关重要，因此，伊拉克的资金短缺可能会对该地区的稳定产生严重影响。",
           "keywords": [
-            "刚果（金）",
-            "埃博拉疫情",
-            "公共卫生",
-            "病毒传播",
-            "国际合作"
+            "伊拉克",
+            "伊朗战争",
+            "石油出口",
+            "中东安全",
+            "经济困境"
           ],
           "category": "international",
-          "importance": 95,
+          "importance": 90,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/ebola-over-2-000-dead-in-dr-congo-as-virus-gathers-pace/a-78327706?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/due-to-the-iran-war-iraq-is-running-out-of-money/a-78341409?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 1
+          "rank": 4
         },
         {
-          "title": "欧洲人面对2026年的第五次热浪感到疲惫",
+          "title": "特朗普内阁成员在总统悄然离开后仍留在备用飞机上",
+          "titleOrig": "Members of Trump's cabinet remained on decoy plane, after president's quiet exit",
+          "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T16:34:01+00:00",
+          "desc": "Trump boarded a different plane in Turkey during a Nato summit for security reasons involving Iran.",
+          "hotLabel": "",
+          "summary": "特朗普在土耳其北约峰会期间因涉及伊朗的安全原因，登上另一架飞机。",
+          "analysis": "特朗普的这一举动可能表明美国对伊朗问题的关注和紧张局势。这可能会影响美伊关系以及中东地区的稳定。特朗普的突然离开可能预示着美国政策的重大转变，特别是对伊朗的外交政策。后续可能看到美国在伊朗问题上的新行动和反应。",
+          "keywords": [
+            "特朗普",
+            "伊朗",
+            "北约峰会",
+            "安全",
+            "外交政策"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c4g306eln8wo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "威斯康星州选举挫败民主党左翼连赢势头",
+          "titleOrig": "Wisconsin result dents winning streak for Democratic Party's left wing",
+          "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T13:35:12+00:00",
+          "desc": "Centrist David Crowley is projected to have beaten democratic socialist Francesca Hong, breaking a recent nationwide trend.",
+          "hotLabel": "",
+          "summary": "民主党左翼候选人弗朗西斯卡·洪在威斯康星州选举中败给中间派大卫·克劳利。",
+          "analysis": "此事件标志着民主党左翼在全国范围内连胜趋势的终结。它反映了美国政治中中间派力量的崛起，以及选民对极端政治立场的逐渐疏远。这一变化可能影响未来美国政治的走向，尤其是对民主党的政策制定和选举策略产生影响。后续可能看到民主党内部关于政治立场的更多讨论和调整。",
+          "keywords": [
+            "民主党",
+            "选举",
+            "政治立场",
+            "美国政治",
+            "中间派"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c9347ezzwljo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "科学家如何利用日食进行研究",
+          "titleOrig": "How Scientists Use Eclipses for Research",
+          "url": "https://www.nytimes.com/2026/08/12/world/europe/eclipse-scientists.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T16:11:33+00:00",
+          "desc": "It’s a chance not just to study the sun but also space weather, light pollution and even animal behavior.",
+          "hotLabel": "",
+          "summary": "科学家利用日食研究太阳、太空天气、光污染和动物行为。",
+          "analysis": "日食作为自然现象，为科学家提供了独特的研究机会。这不仅有助于我们更好地理解太阳和太空天气，还能对地球上的光污染和动物行为产生影响。这一事件反映了科学研究的国际性和对自然现象的利用，同时也强调了国际合作在科学研究中的重要性。后续可能会出现更多类似的研究项目，进一步推动科学进步。",
+          "keywords": [
+            "日食",
+            "科学研究",
+            "太空天气",
+            "光污染",
+            "动物行为"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/12/world/europe/eclipse-scientists.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "7月通胀放缓，汽油和食品价格下降",
+          "titleOrig": "Inflation eases in July as gasoline and grocery prices fall",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5929122/inflation-cpi-economy-gas-grocery",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T14:00:29+00:00",
+          "desc": "Consumer prices in July were up 3.4% from a year ago — a smaller annual increase than in May or June. The news makes it less likely the Fed will feel the need to raise interest rates in September.",
+          "hotLabel": "",
+          "summary": "美国7月消费者价格同比上涨3.4%，低于5月和6月，降低美联储9月加息可能性。",
+          "analysis": "美国通胀放缓反映了经济活动减缓，尤其是能源和食品价格的下降。这可能会减轻美联储加息的压力，对全球金融市场产生积极影响。然而，通胀的持续性和未来的经济数据将决定美联储是否会在未来几个月内调整货币政策。此外，通胀放缓可能对新兴市场国家产生压力，因为它们可能面临更高的债务负担和货币贬值风险。",
+          "keywords": [
+            "通胀",
+            "美联储",
+            "利率",
+            "美国经济",
+            "金融市场"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5929122/inflation-cpi-economy-gas-grocery"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "洛杉矶湖人队以125亿美元创纪录交易出售",
+          "titleOrig": "LA Lakers to be sold in record $12.5bn deal",
+          "url": "https://www.bbc.co.uk/sport/basketball/articles/c04k2dn422xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T16:11:04+00:00",
+          "desc": "The Los Angeles Lakers is to be sold for a reported record $12.5bn - less than a year after Mark Walter took a majority stake in the NBA franchise.",
+          "hotLabel": "",
+          "summary": "洛杉矶湖人队将在不到一年后，以125亿美元的价格被出售。",
+          "analysis": "这笔交易反映了体育产业的价值和投资者的兴趣。它可能会引发其他体育俱乐部的出售和估值上升，对体育产业产生深远影响。",
+          "keywords": [
+            "洛杉矶湖人队",
+            "出售",
+            "体育产业",
+            "投资者",
+            "交易"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/sport/basketball/articles/c04k2dn422xo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "欧洲人应对2026年第5次热浪感到疲惫",
           "titleOrig": "Europeans, Braced for 5th Heat Wave of 2026, Have Had Enough",
           "url": "https://www.nytimes.com/2026/08/12/world/europe/europe-fifth-heat-wave.html",
           "source": "NYT World",
@@ -135,272 +397,112 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-12T12:08:01+00:00",
+          "publishedAt": "2026-08-12T12:50:01+00:00",
           "desc": "With temperatures set to soar as high as 109 degrees Fahrenheit (43 Celsius) this week, Europeans and tourists say that summer in Europe has lost its appeal.",
           "hotLabel": "",
-          "summary": "欧洲面临第五次热浪，高温天气使夏季失去吸引力。",
-          "analysis": "欧洲连续的热浪暴露了全球气候变化的严峻性。这将对欧洲的旅游业、农业生产和居民生活产生深远影响。国际社会需要采取行动应对气候变化，减少温室气体排放，以减轻未来极端天气事件的影响。",
+          "summary": "随着本周气温可能升至109华氏度（43摄氏度），欧洲人和游客表示欧洲的夏季已失去吸引力。",
+          "analysis": "欧洲持续的热浪加剧了全球气候变化的影响，凸显了应对气候变化的紧迫性。这可能导致欧洲在能源政策、环境保护和应对极端天气事件方面的进一步改革。后续可能看到欧洲国家加强气候适应和减排措施。",
           "keywords": [
             "欧洲",
             "热浪",
             "气候变化",
-            "旅游业",
-            "农业生产"
+            "能源政策",
+            "环境保护"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 80,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/12/world/europe/europe-fifth-heat-wave.html"
             }
           ],
-          "rank": 2
+          "rank": 10
         },
         {
-          "title": "胡塞武装袭击致红海一年内首起死亡事件；美军打击集装箱船",
-          "titleOrig": "Houthi attack kills six in first fatalities in Red Sea in over a year; U.S. strikes container ship",
-          "url": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
+          "title": "加拿大航空西捷航空同意和解女乘务员性骚扰集体诉讼",
+          "titleOrig": "Canadian airline WestJet agrees to settle flight attendants’ sexual harassment class action",
+          "url": "https://www.theguardian.com/world/2026/aug/12/canadian-airline-westjet-settle-flight-attendants-sexual-harassment-class-action",
+          "source": "The Guardian",
+          "sourceId": "guardian",
           "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T12:28:39+00:00",
-          "desc": "A cargoship and containership have been hit in the Red Sea and Gulf of Oman as the war inflicts a toll on the world's critical shipping lanes.",
-          "hotLabel": "",
-          "summary": "红海和波斯湾发生袭击，美军打击集装箱船，造成人员伤亡。",
-          "analysis": "胡塞武装的袭击威胁到全球航运安全，美军打击可能加剧地区冲突。这将对全球贸易和能源市场产生重大影响，并可能引发国际社会的干预。",
-          "keywords": [
-            "胡塞武装",
-            "袭击",
-            "红海",
-            "美军",
-            "航运安全"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/12/us-iran-war-trump-hormuz-houthi-attack-blockade-.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "阿富汗近240万女孩被禁止上学",
-          "titleOrig": "UNESCO: 2.4 million girls barred from school in Afghanistan",
-          "url": "https://www.dw.com/en/unesco-2-4-million-girls-barred-from-school-in-afghanistan/a-78328926?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-11T22:49:00+00:00",
-          "desc": "Five years after the Taliban returned to power, millions of Afghan girls remain excluded from secondary education. UNESCO warns of lasting social and economic consequences.",
-          "hotLabel": "",
-          "summary": "联合国教科文组织警告，塔利班回归后，阿富汗近240万女孩被禁止接受中学教育。",
-          "analysis": "阿富汗女孩教育权的剥夺将导致长期的社会和经济后果，影响阿富汗乃至整个地区的未来。国际社会对此表示关注，并可能采取措施支持阿富汗女孩的教育。",
-          "keywords": [
-            "阿富汗",
-            "教育",
-            "塔利班",
-            "社会后果",
-            "国际关注"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/unesco-2-4-million-girls-barred-from-school-in-afghanistan/a-78328926?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "巴厘岛努力恢复萤火虫的神圣光辉",
-          "titleOrig": "In Bali, a Quest to Restore the Sacred Glow of Fireflies",
-          "url": "https://www.nytimes.com/2026/08/12/world/asia/bali-restore-fireflies.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T07:35:12+00:00",
-          "desc": "The insects, revered in local culture, are disappearing for many reasons, including rapid development to cater to tourists.",
-          "hotLabel": "",
-          "summary": "巴厘岛萤火虫因旅游业发展而消失，当地文化面临挑战。",
-          "analysis": "巴厘岛萤火虫的消失反映了旅游业发展与自然保护之间的矛盾。快速发展的旅游业牺牲了自然环境，这对当地文化传承和生态平衡构成威胁。未来，巴厘岛可能需要平衡旅游业发展与生态保护，以实现可持续发展。对于国际社会而言，这提醒了我们在追求经济增长的同时，不应忽视生态保护的重要性。",
-          "keywords": [
-            "巴厘岛",
-            "萤火虫",
-            "旅游业",
-            "生态保护",
-            "文化传承"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/12/world/asia/bali-restore-fireflies.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "欧洲为下一波热浪做准备",
-          "titleOrig": "Europe braces for next heat wave",
-          "url": "https://www.dw.com/en/europe-braces-for-next-heat-wave/a-78334723?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T11:41:00+00:00",
-          "desc": "More than half the continent, including much of Germany, is set for a third wave of extreme heat this summer. The prolonged hot weather has significantly worsened wildfires and drought conditions across Europe.",
-          "hotLabel": "",
-          "summary": "欧洲多地预计将迎来第三波极端高温，干旱和野火风险增加。",
-          "analysis": "欧洲的热浪加剧了干旱和野火风险，对农业和生态环境构成威胁。这要求欧洲各国加强合作，共同应对气候变化带来的挑战。同时，这也可能对欧洲的能源供应和居民生活产生重大影响。",
-          "keywords": [
-            "欧洲",
-            "热浪",
-            "干旱",
-            "野火",
-            "气候变化"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/europe-braces-for-next-heat-wave/a-78334723?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "赞比亚2026年选举：关键议题",
-          "titleOrig": "Zambia's 2026 election: Key issues to watch",
-          "url": "https://www.dw.com/en/zambia-s-2026-election-key-issues-to-watch/a-78320087?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T08:57:00+00:00",
-          "desc": "Economic recovery, youth turnout, women's representation and judicial independence are among the issues shaping Zambia's vote on Thursday.",
-          "hotLabel": "",
-          "summary": "赞比亚即将举行选举，经济复苏、青年投票、女性代表和司法独立成为焦点。",
-          "analysis": "赞比亚选举反映了该国经济和社会挑战，青年和女性参与度将影响政治稳定。经济复苏和司法独立对国家治理至关重要。未来，赞比亚的政治走向将对区域安全和经济合作产生深远影响。",
-          "keywords": [
-            "赞比亚",
-            "选举",
-            "经济复苏",
-            "女性代表",
-            "司法独立"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/zambia-s-2026-election-key-issues-to-watch/a-78320087?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "黎巴嫩议会投票废除死刑",
-          "titleOrig": "Lebanon parliament votes to abolish death penalty",
-          "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-11T15:24:07+00:00",
-          "desc": "The new law - which next goes to the cabinet for approval - would make Lebanon the first country in the Middle East to end capital punishment.",
+          "publishedAt": "2026-08-12T14:40:36+00:00",
+          "desc": "Female staff alleged company failed to maintain safe workplace, after allegations of sexual assault against pilotThe Canadian airline WestJet has agreed to pay C$4.5m (£2.4m) to settle a decade-long sexual harassment class action lawsuit levelled by its female flight attendants, who alleged the comp",
           "hotLabel": "",
-          "summary": "黎巴嫩议会通过法案，废除死刑，成为中东首个废除死刑的国家。",
-          "analysis": "黎巴嫩废除死刑反映了该国在人权和法治方面的进步，同时也可能对中东地区的人权状况产生积极影响。此举可能加剧地区内对死刑的态度分歧，并对国际社会产生示范效应。后续可能面临国内保守势力的反对和国际社会的关注。",
+          "summary": "加拿大航空西捷航空同意支付4500万加元（2400万英镑）和解女乘务员提出的长达十年的性骚扰集体诉讼。",
+          "analysis": "这起诉讼反映了职场性骚扰问题的严重性，以及企业对员工权益的保护责任。西捷航空的和解表明了企业对性骚扰问题的重视，同时也可能引发其他企业对内部性骚扰问题的关注和整改。这一事件对加拿大航空业乃至全球航空业都具有重要意义。",
           "keywords": [
-            "黎巴嫩",
-            "死刑",
-            "中东",
-            "人权",
-            "法治"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c8enj8p1xwgo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "乌克兰缺乏美国爱国者导弹，寻求替代方案",
-          "titleOrig": "Short on US Patriot missiles, Ukraine looks for alternatives",
-          "url": "https://www.dw.com/en/short-on-us-patriot-missiles-ukraine-looks-for-alternatives/a-78328784?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T11:43:00+00:00",
-          "desc": "Russia is putting pressure on Ukraine with ballistic missiles, but Kyiv is short of Patriot interceptors. Domestic production and European alternatives take time. Can Kyiv realistically reduce its dependence on the US?",
-          "hotLabel": "",
-          "summary": "乌克兰面临俄罗斯弹道导弹威胁，但爱国者导弹短缺，寻求欧洲替代。",
-          "analysis": "乌克兰导弹短缺反映了其军事依赖性和对国际支持的需求。寻求欧洲替代方案可能加剧乌克兰与俄罗斯之间的紧张关系，同时也可能影响欧洲与俄罗斯的关系。乌克兰的军事安全将影响地区稳定和全球战略平衡。",
-          "keywords": [
-            "乌克兰",
-            "导弹",
-            "替代方案",
-            "俄罗斯",
-            "军事安全"
+            "性骚扰",
+            "航空业",
+            "集体诉讼",
+            "员工权益",
+            "企业责任"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/short-on-us-patriot-missiles-ukraine-looks-for-alternatives/a-78328784?maca=en-rss-en-all-1573-rdf"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/canadian-airline-westjet-settle-flight-attendants-sexual-harassment-class-action"
             }
           ],
-          "rank": 9
+          "rank": 11
         },
         {
-          "title": "无人机袭击利比亚最大炼油厂",
-          "titleOrig": "Drone attack hits Libya's largest oil refinery",
-          "url": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf",
+          "title": "维多利亚警方调查一辆汽车故意高速冲向反种族主义抗议者的指控",
+          "titleOrig": "Victorian police investigate allegation a car drove deliberately at speed towards anti-racism protester",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/13/anti-racism-protest-melbourne-car-police-response-ntwnfb",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T15:00:33+00:00",
+          "desc": "Exclusive: ‘Peaceful community rally’ of more than 150 people was walking in Broadmeadows when car travelling in same direction allegedly approachedGet our breaking news email, free app or daily news podcastVictorian police are investigating allegations that a car was deliberately driven at speed to",
+          "hotLabel": "",
+          "summary": "独家：超过150人的“和平社区集会”在Broadmeadows游行时，一辆行驶方向的汽车据说故意高速冲向抗议者。",
+          "analysis": "这起事件揭示了种族主义问题的严重性，以及暴力行为对社区和谐的影响。维多利亚警方的调查可能会揭示事件的真相，并对肇事者进行法律追究。这一事件对反种族主义运动和社区安全都具有重要意义。",
+          "keywords": [
+            "种族主义",
+            "暴力",
+            "抗议",
+            "社区安全",
+            "警方调查"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/aug/13/anti-racism-protest-melbourne-car-police-response-ntwnfb"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "埃塞俄比亚：红海沿岸的战略要地使其成为非洲之角的地缘政治关键玩家",
+          "titleOrig": "Eritrea: An emerging key player in the geopolitical gamble at the Horn",
+          "url": "https://www.dw.com/en/eritrea-an-emerging-key-player-in-the-geopolitical-gamble-at-the-horn/a-78335316?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-08-12T00:06:00+00:00",
-          "desc": "Fires broke out at the Zawiya oil complex after explosives-laden drones struck the site. Hours later, fresh violence in Benghazi highlighted Libya's persistent security challenges.",
+          "publishedAt": "2026-08-12T15:40:00+00:00",
+          "desc": "Amid growing tensions and security risks at the Horn of Africa, Eritrea, with its strategically important coastal points on the Red Sea and a perceived lack of conflict, is emerging as important player in the region.",
           "hotLabel": "",
-          "summary": "无人机袭击利比亚扎维耶炼油厂，引发火灾，同时班加西发生新的暴力事件。",
-          "analysis": "无人机袭击表明利比亚的安全局势依然严峻，炼油厂袭击可能影响该国的石油出口，进而影响全球经济。利比亚的持续动荡可能加剧地区不稳定，并对邻国产生负面影响。",
+          "summary": "在非洲之角日益紧张的安全风险中，埃塞俄比亚因其红海沿岸的战略位置和冲突较少而成为地区重要角色。",
+          "analysis": "埃塞俄比亚的地缘政治位置使其成为非洲之角地区的关键玩家。随着该地区安全风险的增加，埃塞俄比亚可能会在地区和国际事务中发挥更加重要的作用。这可能会改变该地区的力量平衡，并对周边国家的政策产生重大影响。",
           "keywords": [
-            "利比亚",
-            "无人机袭击",
-            "炼油厂",
-            "石油出口",
+            "埃塞俄比亚",
+            "非洲之角",
+            "地缘政治",
+            "红海",
             "地区安全"
           ],
           "category": "international",
@@ -408,207 +510,13 @@
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/drone-attack-hits-libya-s-largest-oil-refinery/a-78328962?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "前海军陆战队员吉尔曼在俄罗斯服刑4年后获释回国",
-          "titleOrig": "Ex-Marine Robert Gilman, Freed by Russia After 4 Years in Prison, Arrives in the U.S.",
-          "url": "https://www.nytimes.com/2026/08/11/world/europe/russia-robert-gilman-release.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T07:18:15+00:00",
-          "desc": "Russia released Robert Gilman on “a humanitarian basis,” President Trump said. Mr. Gilman’s family had said he was in dire physical condition.",
-          "hotLabel": "",
-          "summary": "前海军陆战队员吉尔曼在俄罗斯服刑4年后，因人道主义原因获释。",
-          "analysis": "吉尔曼的获释可能反映了俄罗斯与特朗普政府之间的人道主义合作。这一事件可能对两国关系产生积极影响，有助于改善两国在人权问题上的紧张关系。同时，这也可能引发国际社会对人权和外交政策的关注。",
-          "keywords": [
-            "吉尔曼",
-            "俄罗斯",
-            "获释",
-            "人权",
-            "外交政策"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/11/world/europe/russia-robert-gilman-release.html"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "巴基斯坦称3名国民在胡塞红海袭击中丧生",
-          "titleOrig": "Pakistan says 3 nationals killed in Houthi Red Sea attack",
-          "url": "https://www.dw.com/en/pakistan-says-3-nationals-killed-in-houthi-red-sea-attack/a-78330015?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T06:42:00+00:00",
-          "desc": "Pakistan's foreign minister has said Islamabad \"strongly condemns\" Houthi attacks on commercial vessels while offering condolences to the families of the dead.",
-          "hotLabel": "",
-          "summary": "巴基斯坦强烈谴责胡塞武装对商船的袭击，同时对遇难者家属表示哀悼。",
-          "analysis": "巴基斯坦谴责胡塞武装的袭击表明其对地区安全的关注。此次袭击可能加剧地区紧张局势，影响红海地区的航运安全。后续可能引发国际社会的介入和调解。",
-          "keywords": [
-            "巴基斯坦",
-            "胡塞武装",
-            "红海",
-            "袭击",
-            "航运安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/pakistan-says-3-nationals-killed-in-houthi-red-sea-attack/a-78330015?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "泰国暂停枪支许可证，枪击事件后哀悼受害者",
-          "titleOrig": "Thailand suspends gun licences as teen shooter and grandparents he killed are cremated",
-          "url": "https://www.theguardian.com/world/2026/aug/12/thailand-suspends-gun-licences-teenage-shooter-grandparents-cremated",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T05:28:05+00:00",
-          "desc": "Prime minister Anutin Charnvirakul calls for tighter gun controls and ‘decisive penalties’ after nine dead in school shooting Thailand has suspended firearms licences after the deadly Nonthaburi school shooting, as the bodies of the teenage attacker and the grandparents he killed were cremated.The p",
-          "hotLabel": "",
-          "summary": "泰国暂停发放枪支许可证，总理呼吁加强枪支管控，并对校园枪击事件中的受害者进行哀悼。",
-          "analysis": "泰国暂停枪支许可证是对校园枪击事件的直接回应，表明政府加强对枪支管控的决心。此举可能减少枪支暴力，但长期效果取决于政策执行和公众支持。事件可能促使泰国进一步审视其枪支法律。",
-          "keywords": [
-            "泰国",
-            "枪支管控",
-            "校园枪击",
-            "政策",
-            "安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/12/thailand-suspends-gun-licences-teenage-shooter-grandparents-cremated"
+              "url": "https://www.dw.com/en/eritrea-an-emerging-key-player-in-the-geopolitical-gamble-at-the-horn/a-78335316?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 13
         },
         {
-          "title": "7月消费者价格指数上升0.1%，年率3.4%",
-          "titleOrig": "Consumer prices rose 0.1% in July, as expected, putting the annual rate at 3.4%",
-          "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T12:37:51+00:00",
-          "desc": "The consumer price index was expected to increase 0.1% in July, with an annual rate of 3.4%.",
-          "hotLabel": "",
-          "summary": "7月消费者价格指数如预期上升0.1%，年率3.4%。",
-          "analysis": "美国7月CPI数据显示通胀压力持续，但增速放缓。这可能影响美联储的货币政策。未来，通胀趋势将决定美联储是否继续加息。",
-          "keywords": [
-            "美国",
-            "CPI",
-            "通胀",
-            "美联储",
-            "货币政策"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/12/cpi-inflation-report-july-2026.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "特朗普确认因潜在威胁更换飞机",
-          "titleOrig": "Trump confirms he switched planes after Nato summit because of possible threat",
-          "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T03:44:55+00:00",
-          "desc": "Journalists and White House staff who were on board the jet were unaware the president had left.",
-          "hotLabel": "",
-          "summary": "特朗普在北约峰会后更换飞机，原因可能涉及安全威胁。",
-          "analysis": "特朗普更换飞机可能表明美国国内或国际安全形势的紧张。这一事件可能引发对美国总统安全措施的讨论。",
-          "keywords": [
-            "特朗普",
-            "飞机",
-            "安全威胁",
-            "北约峰会",
-            "总统安全"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c980r4wpl9lo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "Woman pulled alive from rubble 36 hours after Colombia quake",
-          "titleOrig": "Woman pulled alive from rubble 36 hours after Colombia quake",
-          "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T11:28:02+00:00",
-          "desc": "Following a 10-hour rescue operation, emergency workers pulled the 32-year-old from beneath slabs of concrete.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cz7d2e5wlgno?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/12/nx-s1-5896356/find-time-for-things-that-matter-time-audit"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-news-cabinet-approves-intelligence-service-reforms/live-78330003?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "Israeli settlers besieging Palestinian families in West Bank village",
+          "title": "以色列定居者在约旦河西岸村庄围困巴勒斯坦家庭",
           "titleOrig": "Israeli settlers besieging Palestinian families in West Bank village",
           "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -617,76 +525,30 @@
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-12T12:16:22+00:00",
+          "publishedAt": "2026-08-12T16:14:08+00:00",
           "desc": "Israeli security forces have reportedly withdrawn and about a dozen settlers are said to remain at the site where two families have been besieged since Sunday.",
           "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
+          "summary": "据报道，以色列安全部队已撤出，约十名定居者仍围困两家人。",
+          "analysis": "这一事件反映了以色列与巴勒斯坦之间的紧张关系。以色列定居者的行为可能加剧地区冲突，对巴以和平进程产生负面影响。国际社会可能会加大对以色列的批评，并呼吁双方通过和平谈判解决争端。",
+          "keywords": [
+            "以色列",
+            "巴勒斯坦",
+            "定居者",
+            "冲突",
+            "和平谈判"
+          ],
           "category": "international",
-          "importance": 60,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cn0npjkqrleo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 17
+          "rank": 14
         },
         {
-          "title": "Danube river's low water levels reveal remains of WWII soldiers and motorcycle",
-          "titleOrig": "Danube river's low water levels reveal remains of WWII soldiers and motorcycle",
-          "url": "https://www.bbc.co.uk/news/articles/cm2gp3zmkpmo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T11:28:05+00:00",
-          "desc": "A remarkably well-preserved motorcycle and identification tags were found alongside the bodies.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cm2gp3zmkpmo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "Zhu Rongji, who helped turn China into a trading giant, dies at 97",
-          "titleOrig": "Zhu Rongji, who helped turn China into a trading giant, dies at 97",
-          "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T12:10:45+00:00",
-          "desc": "Zhu brought China into the WTO and championed reforms that fuelled growth.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "At least 44 die as ferry sinks in Zimbabwe's Lake Kariba",
+          "title": "津巴布韦卡里巴湖渡轮沉没至少44人死亡",
           "titleOrig": "At least 44 die as ferry sinks in Zimbabwe's Lake Kariba",
           "url": "https://www.bbc.co.uk/news/articles/czxe2vyxd7do?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -695,18 +557,184 @@
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-12T12:01:34+00:00",
+          "publishedAt": "2026-08-12T13:55:56+00:00",
           "desc": "The vessel is said to have overturned after being hit by strong waves.",
           "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
+          "summary": "津巴布韦卡里巴湖一艘渡轮在恶劣天气中翻覆，造成至少44人死亡。",
+          "analysis": "此次渡轮事故反映了津巴布韦基础设施的脆弱性和安全监管的不足。事故可能加剧该国经济困难，增加社会不稳定因素。后续可能看到津巴布韦政府加强基础设施建设和安全监管措施，同时国际社会可能提供援助。",
+          "keywords": [
+            "津巴布韦",
+            "渡轮事故",
+            "基础设施",
+            "安全监管",
+            "国际援助"
+          ],
           "category": "international",
-          "importance": 60,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/czxe2vyxd7do?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "津巴布韦卡里巴湖渡轮翻覆造成40多人死亡",
+          "titleOrig": "More Than 40 Dead After a Ferry Capsizes on Zimbabwe’s Lake Kariba",
+          "url": "https://www.nytimes.com/2026/08/12/world/africa/-zimbabwe-lake-kariba-ferry-capsize.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T18:28:48+00:00",
+          "desc": "The vessel was crowded far beyond capacity and was hit by strong waves, the police said. While dozens have been rescued, the search continues for an unknown number of missing people.",
+          "hotLabel": "",
+          "summary": "津巴布韦卡里巴湖一艘超载渡轮在恶劣天气中翻覆，造成40多人死亡，数十人获救。",
+          "analysis": "此次渡轮事故再次凸显了津巴布韦基础设施和监管的薄弱。事故可能引发国际社会对津巴布韦的关注，并可能导致更多援助和改革措施。后续可能看到津巴布韦政府加强基础设施建设和安全监管。",
+          "keywords": [
+            "津巴布韦",
+            "渡轮事故",
+            "基础设施",
+            "安全监管",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/12/world/africa/-zimbabwe-lake-kariba-ferry-capsize.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "太空专家希望将日食作为科学课堂，DJ们却另有计划",
+          "titleOrig": "A Space Expert Hoped to Use the Eclipse as Science Class. The D.J.s Had Other Plans.",
+          "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T16:19:27+00:00",
+          "desc": "Mar Carretero-Castrillo, an astrophysicist, returned to her remote village in Spain to be in the path of totality. Hundreds of partygoers came too.",
+          "hotLabel": "",
+          "summary": "天体物理学家Mar Carretero-Castrillo回到西班牙的偏远村庄，准备在日全食带中观察，但数百名派对者也加入了她的行列。",
+          "analysis": "这则新闻揭示了科学与文化娱乐之间的冲突与融合。Mar Carretero-Castrillo的行为体现了科学家对自然现象的敬畏和对知识的追求，而DJ们的派对则反映了当地文化对日食的庆祝方式。这一事件反映了不同文化背景下人们对科学和自然的不同态度，同时也展示了科学知识普及的挑战。",
+          "keywords": [
+            "日食",
+            "科学",
+            "文化",
+            "娱乐",
+            "科普"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/12/world/europe/spain-eclipse-astrophysicist-festival.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "奥赫里德协议25周年：北马其顿的和平是否稳固？",
+          "titleOrig": "25 years Ohrid Agreement: Is N. Macedonia's peace holding?",
+          "url": "https://www.dw.com/en/25-years-ohrid-agreement-is-n-macedonia-s-peace-holding/a-78340239?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T17:56:00+00:00",
+          "desc": "A quarter of a century after the Ohrid Framework Agreement ended North Macedonia's 2001 conflict, analysts warn that peace between ethnic communities remains fragile.",
+          "hotLabel": "",
+          "summary": "自2001年冲突结束以来，分析师警告北马其顿民族社区的和平仍然脆弱。",
+          "analysis": "奥赫里德协议结束了北马其顿的冲突，但25年后，民族间的紧张关系和信任缺失仍然存在。这表明，即使在冲突后，和平的维持也需要持续的政治努力和社会融合。北马其顿的政治稳定对整个巴尔干地区乃至欧洲的安全和稳定都至关重要。",
+          "keywords": [
+            "北马其顿",
+            "和平",
+            "冲突",
+            "巴尔干",
+            "欧洲安全"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/25-years-ohrid-agreement-is-n-macedonia-s-peace-holding/a-78340239?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "美国通胀率下降，食品和燃料成本降温",
+          "titleOrig": "US inflation eases as food and fuel costs cool",
+          "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T17:03:05+00:00",
+          "desc": "Annual US inflation dipped to 3.4% in July, with food costs slowing and housing keeping prices slightly higher.",
+          "hotLabel": "",
+          "summary": "7月份美国年通胀率降至3.4%，食品成本放缓，住房价格略有上升。",
+          "analysis": "通胀率的下降可能表明美国经济正在逐渐恢复平衡。这可能会影响美联储的货币政策，以及对美国经济前景的预期。",
+          "keywords": [
+            "美国",
+            "通胀率",
+            "经济",
+            "美联储",
+            "货币政策"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c0qv2nn1gpeo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "大量小型雕塑被盗，莫扎特纪念活动提前结束",
+          "titleOrig": "Mozart tribute ends on sour note after mass figurine theft",
+          "url": "https://www.dw.com/en/mozart-tribute-ends-on-sour-note-after-mass-figurine-theft/a-78341647?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T16:11:00+00:00",
+          "desc": "A playful tribute to Mozart has turned into a whodunit after 210 gold-colored figures disappeared from one of Austria's busiest tourist spots. The mass theft forced organizers to end the outdoor display early.",
+          "hotLabel": "",
+          "summary": "210个金色小雕像从奥地利最繁忙的旅游景点被盗，迫使组织者提前结束户外展览。",
+          "analysis": "莫扎特纪念活动的盗窃事件揭示了旅游业中盗窃和犯罪问题。这可能会影响游客对目的地的信心，对奥地利乃至整个欧洲的旅游业产生负面影响。此外，此类事件可能引发对文化遗产保护的更多关注。",
+          "keywords": [
+            "莫扎特",
+            "盗窃",
+            "旅游业",
+            "文化遗产",
+            "奥地利"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/mozart-tribute-ends-on-sour-note-after-mass-figurine-theft/a-78341647?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 20
@@ -719,149 +747,9 @@
       "totalSelected": 20,
       "items": [
         {
-          "title": "总书记探访古祠传递文化启示",
-          "titleOrig": "学习·知行丨这座古祠，藏着总书记传递的文化启示--独家稿件 - cpc.people.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DSXIwN1ZjcjJjWnMzLUZmSGVhRENNdU9FVTFsbG1RM2VlNTRRekNJWi1ub1VkWGh6aFVLaGNKRnIwaXhHREVWT1B2R1BqNjQ5UldtNGFQbEdXZ005LVhPX0RyUFNQSWgwTmZvUA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T00:43:00+00:00",
-          "desc": "学习·知行丨这座古祠，藏着总书记传递的文化启示--独家稿件 cpc.people.com.cn巴风古韵今犹在 千年文脉活起来 四川新闻三苏祠开启“暑期延时模式” 邀您尽享古祠慢时光 四川在线学习·知行丨这座古祠，藏着总书记传递的文化启示 西部网",
-          "hotLabel": "",
-          "summary": "总书记访问四川三苏祠，强调文化传承。",
-          "analysis": "此次访问体现了中国政府对文化传承和保护的重视，以及对传统文化的创新发展的政策意图。三苏祠作为文化遗址，其保护和活化利用，不仅是对历史文化的尊重，也是推动文化旅游产业发展的举措。此举有助于提升国民文化自信，促进文化产业繁荣，同时可能带动地方经济发展。后续可能出台更多相关政策，加强文化遗产保护和传承。",
-          "keywords": [
-            "文化传承",
-            "三苏祠",
-            "文化旅游",
-            "政策意图",
-            "地方经济"
-          ],
-          "category": "society",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DSXIwN1ZjcjJjWnMzLUZmSGVhRENNdU9FVTFsbG1RM2VlNTRRekNJWi1ub1VkWGh6aFVLaGNKRnIwaXhHREVWT1B2R1BqNjQ5UldtNGFQbEdXZ005LVhPX0RyUFNQSWgwTmZvUA?oc=5"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "黄仁勋的5000亿美元AI融资计划面临中国风险",
-          "titleOrig": "Why Jensen Huang’s $500 billion AI financing plan faces a big risk from China",
-          "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-11T21:01:13+00:00",
-          "desc": "Nvidia CEO Jensen Huang is pitching GPUs as long-term collateral to unlock $500 billion in funding. The question is how fast will his chips depreciate?",
-          "hotLabel": "",
-          "summary": "NVIDIA CEO黄仁勋的AI融资计划面临中国风险。",
-          "analysis": "黄仁勋的AI融资计划反映了全球科技巨头对于人工智能领域的重视。然而，中国作为全球最大的半导体市场，对于外国公司的依赖程度较高，这可能导致在技术发展和市场准入方面面临风险。后续，中美在科技领域的竞争可能会进一步加剧。",
-          "keywords": [
-            "黄仁勋",
-            "AI融资",
-            "半导体市场",
-            "技术竞争",
-            "中美关系"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/11/nvidia-ai-funding-jensen-huang-china-risk.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/12/world/asia/zhu-rongji-dead.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "特朗普称向伊朗索赔",
-          "titleOrig": "特朗普：我也要向伊朗索赔，“把过去50年的账一起算了”丨夜观天下·漫话 - 四川新闻",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51Zk1TYXZvRXpyV3hCaThQeGtVMk9TTkJSMUFSZ2ZNa2xQQ0NOZUFTNE1OVUhQQldpNFFVTEFsZEM2ck9DWV84WFVfRl90NTMwRmVLQkdqOGlXNXh0OWVSZTBtZw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T06:31:20+00:00",
-          "desc": "特朗普：我也要向伊朗索赔，“把过去50年的账一起算了”丨夜观天下·漫话 四川新闻特朗普总统阐述美国应对伊朗的策略 美国之音从“接近协议”到互要赔偿 美伊谈判又现反复 中国网因伊朗提出战争赔偿 特朗普称也要向伊朗索赔 新浪财经伊朗革命卫队：将保持对海峡控制至敌方接受全部条件 新京报",
-          "hotLabel": "",
-          "summary": "特朗普表示要向伊朗索赔，美伊关系紧张。",
-          "analysis": "特朗普的这一言论反映了美国对伊朗强硬的立场，以及美伊关系中的经济和政治矛盾。这可能会加剧地区紧张局势，影响中东地区的稳定。对中国而言，美伊关系的紧张可能会影响国际石油市场，进而影响国内经济。后续可能引发国际社会的关注，美伊谈判走向不明。",
-          "keywords": [
-            "特朗普",
-            "伊朗",
-            "索赔",
-            "美伊关系",
-            "中东局势"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE51Zk1TYXZvRXpyV3hCaThQeGtVMk9TTkJSMUFSZ2ZNa2xQQ0NOZUFTNE1OVUhQQldpNFFVTEFsZEM2ck9DWV84WFVfRl90NTMwRmVLQkdqOGlXNXh0OWVSZTBtZw?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "深入学习贯彻习近平党建思想，推进作风建设常态化长效化",
-          "titleOrig": "深入学习贯彻习近平党建思想｜坚持推进作风建设常态化长效化 - 中国军网",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RMF9lYzM5RVFHNjdCQzc2WndiUkZ4Y1FWeUFOdW5MR0YxUV8xYWNDakQ3MUpuNVV2VV9GNG5UVE81OC1fWHFJc3Mzaw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-11T22:52:39+00:00",
-          "desc": "深入学习贯彻习近平党建思想｜坚持推进作风建设常态化长效化 中国军网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "中国军网强调深入学习贯彻习近平党建思想，推进作风建设常态化长效化。",
-          "analysis": "此次强调推进作风建设常态化长效化，体现了中国政府对党风廉政建设和反腐败斗争的坚定决心。这对于加强党的建设、提高政府治理能力具有重要意义。未来，作风建设可能会成为政府工作的重要方面。",
-          "keywords": [
-            "习近平党建思想",
-            "作风建设",
-            "党风廉政建设",
-            "反腐败斗争",
-            "政府治理"
-          ],
-          "category": "domestic",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE5RMF9lYzM5RVFHNjdCQzc2WndiUkZ4Y1FWeUFOdW5MR0YxUV8xYWNDakQ3MUpuNVV2VV9GNG5UVE81OC1fWHFJc3Mzaw?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "暴雨天避险指南",
-          "titleOrig": "请查收这份暴雨天避险指南",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=3&Refer=top",
+          "title": "60万亿元消费蓝海即将到来",
+          "titleOrig": "60万亿元消费蓝海要来了",
+          "url": "https://s.weibo.com/weibo?q=%2360%E4%B8%87%E4%BA%BF%E5%85%83%E6%B6%88%E8%B4%B9%E8%93%9D%E6%B5%B7%E8%A6%81%E6%9D%A5%E4%BA%86%23&t=31&band_rank=3&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -871,61 +759,28 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "发布暴雨天气避险指南。",
-          "analysis": "发布暴雨天气避险指南是政府保障民生、提高防灾减灾能力的体现。这有助于提高公众的防灾减灾意识，减少自然灾害带来的损失。后续可能根据实际情况更新指南，提高公众应对自然灾害的能力。",
+          "summary": "中国消费市场潜力巨大，预计将迎来新一轮消费增长。",
+          "analysis": "这一消息反映了我国政府对于扩大内需、促进消费升级的坚定决心。随着经济结构的优化和居民收入水平的提升，消费市场有望成为拉动经济增长的新引擎。政策上，可能会出台一系列刺激消费的措施，如减税降费、提高社会保障水平等。对社会来说，这意味着居民生活质量有望得到提升，同时也为相关产业提供了发展机遇。后续走向可能包括消费市场的持续增长和消费结构的优化。",
           "keywords": [
-            "暴雨天气",
-            "避险指南",
-            "防灾减灾",
-            "民生保障",
-            "公众意识"
+            "消费市场",
+            "经济增长",
+            "内需扩大",
+            "政策刺激"
           ],
-          "category": "society",
-          "importance": 75,
+          "category": "economy",
+          "importance": 90,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%AF%B7%E6%9F%A5%E6%94%B6%E8%BF%99%E4%BB%BD%E6%9A%B4%E9%9B%A8%E5%A4%A9%E9%81%BF%E9%99%A9%E6%8C%87%E5%8D%97%23&t=31&band_rank=3&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%2360%E4%B8%87%E4%BA%BF%E5%85%83%E6%B6%88%E8%B4%B9%E8%93%9D%E6%B5%B7%E8%A6%81%E6%9D%A5%E4%BA%86%23&t=31&band_rank=3&Refer=top"
             }
           ],
-          "rank": 5
+          "rank": 1
         },
         {
-          "title": "港股市场震荡，科技股下跌，地产股上涨",
-          "titleOrig": "港股继续跌，恒生科技跌近1%，科网股普跌，芯片股逆势上行；地产股大涨，融创中国涨约9%，碧桂园涨约5%｜港股收盘 - 每日经济新闻",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FRUFLLV91TkFNc2dPM3N2UG5nb0NBU0pWMS0wWTR0LW1LdGQ3SlVkdGFpZ2NrMFBEWEVPYnFqZzBxY1NuYWphcEUxSUhjRURLRGpmUERZS0dXNk9oTW56ZHJzRWsxUQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T08:41:00+00:00",
-          "desc": "港股继续跌，恒生科技跌近1%，科网股普跌，芯片股逆势上行；地产股大涨，融创中国涨约9%，碧桂园涨约5%｜港股收盘 每日经济新闻港股收盘：恒生指数跌0.829%，恒生科技指数跌0.995% 新浪财经港股收盘 | 三大指数集体走弱 腾讯音乐绩后重挫超12% 新浪网阿里、京东、网易、腾讯、联想，集体下跌 凤凰网今年上半年腾讯斥资244亿港元回购股票 金融界",
-          "hotLabel": "",
-          "summary": "港股市场科技股普遍下跌，地产股大幅上涨。",
-          "analysis": "此次港股市场的震荡反映了市场对于经济前景的担忧。科技股的下跌可能与全球供应链紧张和半导体行业产能过剩有关，而地产股的上涨则可能受到政策支持的影响。地产市场的稳定对于中国宏观经济至关重要，因此政策支持地产股可能意味着政府有意稳定房地产市场，以避免经济硬着陆。后续，市场可能继续关注政策动向和宏观经济数据，以判断市场走势。",
-          "keywords": [
-            "港股市场",
-            "科技股",
-            "地产股",
-            "政策支持",
-            "经济前景"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1FRUFLLV91TkFNc2dPM3N2UG5nb0NBU0pWMS0wWTR0LW1LdGQ3SlVkdGFpZ2NrMFBEWEVPYnFqZzBxY1NuYWphcEUxSUhjRURLRGpmUERZS0dXNk9oTW56ZHJzRWsxUQ?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "炸鸡店员工因工作过劳离职",
-          "titleOrig": "忙到晕倒炸鸡店员工已结算工资离职",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BF%99%E5%88%B0%E6%99%95%E5%80%92%E7%82%B8%E9%B8%A1%E5%BA%97%E5%91%98%E5%B7%A5%E5%B7%B2%E7%BB%93%E7%AE%97%E5%B7%A5%E8%B5%84%E7%A6%BB%E8%81%8C%23&t=31&band_rank=1&Refer=top",
+          "title": "湖人队价值高达120亿美元",
+          "titleOrig": "湖人售价120亿美元",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B9%96%E4%BA%BA%E5%94%AE%E4%BB%B7120%E4%BA%BF%E7%BE%8E%E5%85%83%23&t=31&band_rank=5&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -934,54 +789,56 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#1",
-          "summary": "炸鸡店员工因工作过劳晕倒后离职。",
-          "analysis": "此事件反映了服务业员工工作强度大、劳动权益保障不足的问题。这可能是服务业普遍存在的劳动密集型特点导致的。对国内服务业而言，提高员工福利和劳动条件，保障劳动者权益，是促进行业健康发展的关键。后续可能引发公众对劳动权益的关注，推动相关政策的出台。",
+          "hotLabel": "",
+          "summary": "湖人队估值达到120亿美元。",
+          "analysis": "湖人队的高估值反映了体育产业和娱乐产业的繁荣，以及体育明星的商业价值。这一现象对国内体育产业具有示范效应，可能激发更多体育项目的商业开发。对社会来说，这可能促进体育产业的发展和体育文化的普及。后续走向可能包括更多体育项目的商业化尝试和国际合作。",
           "keywords": [
-            "工作过劳",
-            "劳动权益",
-            "服务业",
-            "员工福利",
-            "政策关注"
+            "湖人队",
+            "体育产业",
+            "商业价值",
+            "体育文化"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%BF%99%E5%88%B0%E6%99%95%E5%80%92%E7%82%B8%E9%B8%A1%E5%BA%97%E5%91%98%E5%B7%A5%E5%B7%B2%E7%BB%93%E7%AE%97%E5%B7%A5%E8%B5%84%E7%A6%BB%E8%81%8C%23&t=31&band_rank=1&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E6%B9%96%E4%BA%BA%E5%94%AE%E4%BB%B7120%E4%BA%BF%E7%BE%8E%E5%85%83%23&t=31&band_rank=5&Refer=top"
             }
           ],
-          "rank": 7
+          "rank": 2
         },
         {
-          "title": "北京榜样观看大众电影百花奖闭幕式",
-          "titleOrig": "北京榜样走进国家速滑馆 观看第38届大众电影百花奖闭幕式 - bjwmb.gov.cn",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YZ1I2MC1LcHplUEY5dmJ4MDJxcENtYjRfVkhZLTdjclhBZEZxTUlIN3dKc2N3Q0FJYlFPcjE4REJ0NmZTZEJXeXZ6TFZHbkk3eHlB?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "Lululemon竞争对手进入中国市场",
+          "titleOrig": "Lululemon劲敌来中国了",
+          "url": "https://s.weibo.com/weibo?q=%23Lululemon%E5%8A%B2%E6%95%8C%E6%9D%A5%E4%B8%AD%E5%9B%BD%E4%BA%86%23&t=31&band_rank=8&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-12T10:27:28+00:00",
-          "desc": "北京榜样走进国家速滑馆 观看第38届大众电影百花奖闭幕式 bjwmb.gov.cn第38届大众电影百花奖颁奖典礼综述 新浪广东花开朵朵 第38届大众电影百花奖揭晓 新浪财经从第38届大众电影百花奖看新时代中国电影发展创新 凤凰网新世代、新议题、新规则，64岁大众百花拥抱电影新生态 新浪财经",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "北京榜样人物在国家速滑馆观看第38届大众电影百花奖闭幕式。",
-          "analysis": "北京榜样人物的参与体现了电影奖项的普及性和影响力，同时也反映了电影文化在社会中的地位。这一活动有助于提升电影文化的普及度和影响力，促进电影文化的繁荣发展。",
+          "summary": "Lululemon的劲敌进入中国市场。",
+          "analysis": "Lululemon竞争对手的进入，将加剧国内瑜伽运动服饰市场的竞争。这对消费者来说意味着更多选择，也可能推动国内品牌提升产品品质和服务水平。对社会来说，这可能促进体育健身产业的发展和健康生活方式的普及。后续走向可能包括市场竞争加剧，国内品牌寻求差异化竞争策略。",
           "keywords": [
-            "北京榜样",
-            "大众电影百花奖",
-            "电影文化",
-            "社会影响力",
-            "文化活动"
+            "Lululemon",
+            "瑜伽服饰",
+            "市场竞争",
+            "健身产业"
           ],
-          "category": "society",
+          "category": "economy",
           "importance": 65,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1YZ1I2MC1LcHplUEY5dmJ4MDJxcENtYjRfVkhZLTdjclhBZEZxTUlIN3dKc2N3Q0FJYlFPcjE4REJ0NmZTZEJXeXZ6TFZHbkk3eHlB?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23Lululemon%E5%8A%B2%E6%95%8C%E6%9D%A5%E4%B8%AD%E5%9B%BD%E4%BA%86%23&t=31&band_rank=8&Refer=top"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
             },
             {
               "name": "The Guardian",
@@ -992,7 +849,237 @@
               "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
             }
           ],
+          "rank": 3
+        },
+        {
+          "title": "美国是否失去了对中国的优势？",
+          "titleOrig": "Has the U.S. lost its dominance to China?",
+          "url": "https://www.npr.org/2026/08/12/nx-s1-5928224/has-the-u-s-lost-its-dominance-to-china",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T18:24:48+00:00",
+          "desc": "Beijing may be benefiting from the war in Iran and Trump's tariffs and has an edge in the competition for tech supremacy. The New Yorker's Evan Osnos discusses his story \"The Future, Made in China.\"",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5928224/has-the-u-s-lost-its-dominance-to-china"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "朱镕基去世：一个改革者的复杂遗产 - dw.com",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSTBmcWd6dThXOVFoZGFhaE5TTDZDaXFrcTZKc3BIVkdpYXNHNnFsNVdtOEF2bHBEOWhDWDYxRlJrajBaVFFERkl6bmNhcWJCNUNlVlpTLUJDSzB4WWpxN3FLOFZLTDFZZU1BeVNEVnlvN2NUX2NwVDlNaVVGQVJZeWJuLWlRQzlYQmhBeW5YVURwWnRzNGhHRkVGOC1pNUdNbGIwUVBLVVhmSll2VFYzdHJxQXM2a2poU0JuMTBtNFVfOGFhTWhQamxzNUkxdFFJUkJScjNuaVJTZkZOU25vQldLZWNtVC1PWjc4MW9YRVAzV2gyUUlHZmZOZGvSAfwBQVVfeXFMUE5SdVJNS3dQZzBZbFJrdEQtcFJxZEk1bmFEeFZWc1ZYb0E1OWNYdS1qWS1kVnhnMndKXzVJdUhTM2tnSTNGMERTd3JsTjFjSExiSk5OeUJCeU4tdGxUS1VTeWJCcTFycl9TTUJiNUtNMnpxRnNuRmpCVFVpODFiLU9uUTFYMFJuTW0tS3ZRZ1JYWU52Y2htQ3A5TWd6ODRyNkNJTzlPZVZJYU5XaHFUS2tFTXpfLXZWMlZxMnNwWlZ1ZTI5b1dQbHpteW9CQVd1YmpiQjlISDVWQTZrQ1lLdDk4eG5CRE9ESnBOUzZmdk5mOU1zY2ZuNUswU1ZO?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T17:24:38+00:00",
+          "desc": "朱镕基去世：一个改革者的复杂遗产 dw.com受权发布丨中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 新华网中共前總理朱鎔基去世 生前曾與江暗鬥 新唐人電視台（突发）中国国务院前总理朱镕基逝世，享年98岁 – 普通话主页 Radio Free Asia朱镕基遗像发布 新华社发布 news.china.com",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNSTBmcWd6dThXOVFoZGFhaE5TTDZDaXFrcTZKc3BIVkdpYXNHNnFsNVdtOEF2bHBEOWhDWDYxRlJrajBaVFFERkl6bmNhcWJCNUNlVlpTLUJDSzB4WWpxN3FLOFZLTDFZZU1BeVNEVnlvN2NUX2NwVDlNaVVGQVJZeWJuLWlRQzlYQmhBeW5YVURwWnRzNGhHRkVGOC1pNUdNbGIwUVBLVVhmSll2VFYzdHJxQXM2a2poU0JuMTBtNFVfOGFhTWhQamxzNUkxdFFJUkJScjNuaVJTZkZOU25vQldLZWNtVC1PWjc4MW9YRVAzV2gyUUlHZmZOZGvSAfwBQVVfeXFMUE5SdVJNS3dQZzBZbFJrdEQtcFJxZEk1bmFEeFZWc1ZYb0E1OWNYdS1qWS1kVnhnMndKXzVJdUhTM2tnSTNGMERTd3JsTjFjSExiSk5OeUJCeU4tdGxUS1VTeWJCcTFycl9TTUJiNUtNMnpxRnNuRmpCVFVpODFiLU9uUTFYMFJuTW0tS3ZRZ1JYWU52Y2htQ3A5TWd6ODRyNkNJTzlPZVZJYU5XaHFUS2tFTXpfLXZWMlZxMnNwWlZ1ZTI5b1dQbHpteW9CQVd1YmpiQjlISDVWQTZrQ1lLdDk4eG5CRE9ESnBOUzZmdk5mOU1zY2ZuNUswU1ZO?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "北京解除暴雨、积水内涝橙色预警 降级发布山洪灾害黄色预警 - 财联社",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYU0tJT1Y2VEFuREpiTlV3ZVFDMlpVbkZaSXlLTlF1MjRXLVNlZEsxcGZpdHRxenY5b2xrdGQ1aE5nU296aXc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T13:35:54+00:00",
+          "desc": "北京解除暴雨、积水内涝橙色预警 降级发布山洪灾害黄色预警 财联社北京解除暴雨橙色预警、结束防汛二级应急响应 市防汛办感谢广大市民 北京市人民政府门户网站密云穆家峪累计降水达195.6毫米，全市130个站降水量超50毫米，北京多区降雨明显，对早高峰有不利影响 finance.sina.cn下雨天淋雨了，回家一定要先做这件事！北京疾控提醒—— 光明网为何台风“白海豚”会给北京带来降雨？ 中青网",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBYU0tJT1Y2VEFuREpiTlV3ZVFDMlpVbkZaSXlLTlF1MjRXLVNlZEsxcGZpdHRxenY5b2xrdGQ1aE5nU296aXc?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/12/nx-s1-5928224/has-the-u-s-lost-its-dominance-to-china"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "房山区发布地质灾害气象风险黄色（局地）预警 - news.bjd.com.cn",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jc1dzWDlWM2dJN2t0b1ZfVWZWenJTcTd1MVVzZ0FTaFMwei1OUTZNTVd0V0liajBiMVpkUjlhZWVsUFVGYkVvQXVSWVlxbTMwTTNXa1RIdEtVZEVKN1E?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T13:20:35+00:00",
+          "desc": "房山区发布地质灾害气象风险黄色（局地）预警 news.bjd.com.cn地质灾害气象风险预警：京津冀等8省市部分地区风险较高 中青网【受权发布】北京市规划自然资源委提示：山区道路沿线局部路段山体斜坡有发生崩塌灾害的风险请注意防范 凤凰网自然资源部对北京启动地质灾害防御Ⅳ级响应 thepaper.cn北京启动国家地质灾害四级应急响应：密切监视雨情汛情和地质灾害灾情险情 sohu.com",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9jc1dzWDlWM2dJN2t0b1ZfVWZWenJTcTd1MVVzZ0FTaFMwei1OUTZNTVd0V0liajBiMVpkUjlhZWVsUFVGYkVvQXVSWVlxbTMwTTNXa1RIdEtVZEVKN1E?oc=5"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "伊朗多个驻外使馆驳斥特朗普索赔论 - 东方财富",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tQkZabnZrQnNoZ3BMOEU2OGJ2Nms3MnBudU1qRm5QbDN6d2lDSjNtUm9WU1ZDYkt1N3JOWUVXYzhGT1llRjNQNXRhTDVScGJTeGZtT1E5T2djMVpLV1pNcQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T14:49:02+00:00",
+          "desc": "伊朗多个驻外使馆驳斥特朗普索赔论 东方财富特朗普总统阐述美国应对伊朗的策略 voachinese.com因伊朗提出战争赔偿 特朗普称也要向伊朗索赔 finance.sina.cn从“接近协议”到互要赔偿 美伊谈判又现反复 中国网伊朗革命卫队：将保持对海峡控制至敌方接受全部条件 新京报",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8tQkZabnZrQnNoZ3BMOEU2OGJ2Nms3MnBudU1qRm5QbDN6d2lDSjNtUm9WU1ZDYkt1N3JOWUVXYzhGT1llRjNQNXRhTDVScGJTeGZtT1E5T2djMVpLV1pNcQ?oc=5"
+            }
+          ],
           "rank": 8
+        },
+        {
+          "title": "中国地震局：哥伦比亚7.5级地震发生于三大板块交汇区域 为逆冲兼走滑型破裂 - chinanews.com.cn",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCeEh1Sk1IN1JTdDE5V1MwOTQ2b3MxanRfNUFkUmd5U2dMbm9rSnY1Z3ptLU1STGhFVXk0RHBrcDdybGtQYmQ2d2ZVZUVVZXRoWmpYLWtXelAwdmxBb0daQzFlZ3p6c09u?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T14:07:32+00:00",
+          "desc": "中国地震局：哥伦比亚7.5级地震发生于三大板块交汇区域 为逆冲兼走滑型破裂 chinanews.com.cn哥伦比亚地震：捐赠物资支援灾区--国际 人民网哥伦比亚强震死亡人数升至188人 picture.youth.cn哥伦比亚强震：最贫困省份和咖啡产区受灾 finance.sina.cn哥伦比亚强震已致234人死亡 中国日报网",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCeEh1Sk1IN1JTdDE5V1MwOTQ2b3MxanRfNUFkUmd5U2dMbm9rSnY1Z3ptLU1STGhFVXk0RHBrcDdybGtQYmQ2d2ZVZUVVZXRoWmpYLWtXelAwdmxBb0daQzFlZ3p6c09u?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "越南国家主席到访，澳议员竟问：国会大厦为何挂中国国旗？ - 观察者",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlQW10MVN4Y0hlNVdkSnVkelpkUC11M2RKX3JlSi1RY3JrZGpSay1wMFZZSU4wcHZNbjM4M0RCcTZfYkZqcEk0TlozLV9iRzgwR2g0b3ZqVG9RVmM1dGRYZmYyNW9aS2p3Vmc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T14:20:00+00:00",
+          "desc": "越南国家主席到访，澳议员竟问：国会大厦为何挂中国国旗？ 观察者澳洲与越南深化军事合作 承诺力保供应链韧性 联合早报越共中央总书记、国家主席苏林与越南驻新大使馆工作人员和侨胞代表举行见面会 Vietnam+ (VietnamPlus)将科技、创新和数字化转型打造为越澳关系的新动力 VOV World越共中央总书记、国家主席苏林圆满结束对澳大利亚的国事访问- 中文页面- 中文页面 Baolangson.vn",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBlQW10MVN4Y0hlNVdkSnVkelpkUC11M2RKX3JlSi1RY3JrZGpSay1wMFZZSU4wcHZNbjM4M0RCcTZfYkZqcEk0TlozLV9iRzgwR2g0b3ZqVG9RVmM1dGRYZmYyNW9aS2p3Vmc?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+            }
+          ],
+          "rank": 10
         },
         {
           "title": "Zhu Rongji, who helped turn China into a trading giant, dies at 97",
@@ -1005,7 +1092,7 @@
           "region": "英国",
           "lang": "en",
           "publishedAt": "2026-08-12T12:10:45+00:00",
-          "desc": "Zhu brought China into the WTO and championed reforms that fuelled growth.",
+          "desc": "The former premier brought China into the WTO and championed reforms that fuelled growth.",
           "hotLabel": "",
           "summary": "",
           "analysis": "（解读生成失败）",
@@ -1016,112 +1103,48 @@
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "Zhu Rongji, Former Premier Who Pushed China to a Market Economy, Dies at 97",
-          "titleOrig": "Zhu Rongji, Former Premier Who Pushed China to a Market Economy, Dies at 97",
-          "url": "https://www.nytimes.com/2026/08/12/world/asia/zhu-rongji-dead.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-12T10:31:36+00:00",
-          "desc": "As a vice premier and then premier, he helped transform China into the world’s leading manufacturing power and led his country into the World Trade Organization.",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/12/world/asia/zhu-rongji-dead.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练 - 新华网",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcHFndjhHT2l3N2ktMHFWcDlwTUp6Y2YxOGV0Sy1ISGZEV0NhNWM2cUUzWXIxT21QdDE2YTBTdWF5cDByR3ZIVFhOaWw5WGRPSG02QW11MWVlR3FGOTRBeFRURG9abUJYYWlvdjU0MGp3dHd4NWJ1T1lHdw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T11:49:15+00:00",
-          "desc": "中国海军红河舰与印尼海军“莱”号护卫舰位台岛以东海域圆满完成通航演练 新华网国防部：中国印尼海军舰艇，将位台岛以东海域开展通航演练 观察者中国印尼舰艇将在台岛以东海域通航演练 印尼海军称非旨在“作战”，仅是“过航演习” rfi.fr不站队，但也不走远：印尼军队在台岛以东的“精准平衡” 凤凰网台湾学者：中国大陆在台湾岛自家海域演习，有何大惊小怪？ chinanews.com.cn",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9CcHFndjhHT2l3N2ktMHFWcDlwTUp6Y2YxOGV0Sy1ISGZEV0NhNWM2cUUzWXIxT21QdDE2YTBTdWF5cDByR3ZIVFhOaWw5WGRPSG02QW11MWVlR3FGOTRBeFRURG9abUJYYWlvdjU0MGp3dHd4NWJ1T1lHdw?oc=5"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c75g9777wwxo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/12/world/asia/zhu-rongji-dead.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
             }
           ],
           "rank": 11
         },
         {
-          "title": "中共中央全国人大常委会国务院全国政协讣告朱镕基同志逝世 - politics.people.com.cn",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5teEVKLUl3UkczRGhnYmxSQ3hkdy1ZRHFKZ0QzR2N5eEZHVzlwUm9fUlVkLUdPYm5CSDUxUFh3SzE2TWt4UU9ORVRkSXhPb1BoYi0yMlNESlB4TmlNTUR1elhMOE9zYzBGalZMY1NNRlJlZw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T10:08:00+00:00",
-          "desc": "中共中央全国人大常委会国务院全国政协讣告朱镕基同志逝世 politics.people.com.cn受权发布丨中共中央 全国人大常委会 国务院 全国政协讣告 朱镕基同志逝世 新华网快訊：中共前總理朱鎔基去世 大纪元中国前总理朱镕基逝世：市场化改革和“入世”推手 纽约时报中文网曾被开除党籍20年 铁血宰相朱镕基的一生 联合早报",
+          "title": "Zhu Rongji, who drove China's 1990s economic reforms, has died at 97",
+          "titleOrig": "Zhu Rongji, who drove China's 1990s economic reforms, has died at 97",
+          "url": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-12T12:36:30+00:00",
+          "desc": "Zhu was renowned for reforms that sought to transition China from the post-Maoist years to a more global market-oriented financial system, without ceding party control over the economy.",
           "hotLabel": "",
           "summary": "",
           "analysis": "（解读生成失败）",
           "keywords": [],
-          "category": "domestic",
+          "category": "international",
           "importance": 60,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5teEVKLUl3UkczRGhnYmxSQ3hkdy1ZRHFKZ0QzR2N5eEZHVzlwUm9fUlVkLUdPYm5CSDUxUFh3SzE2TWt4UU9ORVRkSXhPb1BoYi0yMlNESlB4TmlNTUR1elhMOE9zYzBGalZMY1NNRlJlZw?oc=5"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/12/1196705508/zhu-rongji-china-former-premier-dead"
             }
           ],
           "rank": 12
         },
         {
-          "title": "北京密云穆家峪降雨量突破200毫米 - hkong.cn",
+          "title": "学习·知行丨这座古祠，藏着总书记传递的文化启示--独家稿件 - 中国共产党新闻网",
           "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XT0E2ZTB0SkZTNVVjMnNJRGVURGZNY2EyYlpTZXJmZlVxZ2stdlBiNHdEY3ZZemlURjA1ZzVyMjNqNFNvSC1zX2RNQXBhaTdnelBDWA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DSXIwN1ZjcjJjWnMzLUZmSGVhRENNdU9FVTFsbG1RM2VlNTRRekNJWi1ub1VkWGh6aFVLaGNKRnIwaXhHREVWT1B2R1BqNjQ5UldtNGFQbEdXZ005LVhPX0RyUFNQSWgwTmZvUA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-12T07:28:00+00:00",
-          "desc": "北京密云穆家峪降雨量突破200毫米 hkong.cn西城区领导主持召开全区防汛防台风工作部署会 要求全力打好防汛防台风这场战斗 坚决守护好核心区安全稳定 北京市人民政府门户网站北京解除暴雨橙色预警 新浪财经北京遭遇强降水天气过程 新华网暴雨、雷电预警生效中 北京最明显降雨时段在今晨至白天 中国日报网",
+          "publishedAt": "2026-08-12T00:43:00+00:00",
+          "desc": "学习·知行丨这座古祠，藏着总书记传递的文化启示--独家稿件 中国共产党新闻网学习·知行丨这座古祠，藏着总书记传递的文化启示- 中国日报网 China Daily巴风古韵今犹在 千年文脉活起来 四川新闻学习·知行丨这座古祠，藏着总书记传递的文化启示_大陆_国内新闻_新闻 齐鲁网学习·知行丨这座古祠，藏着总书记传递的文化启示 西部网",
           "hotLabel": "",
           "summary": "",
           "analysis": "（解读生成失败）",
@@ -1131,31 +1154,23 @@
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XT0E2ZTB0SkZTNVVjMnNJRGVURGZNY2EyYlpTZXJmZlVxZ2stdlBiNHdEY3ZZemlURjA1ZzVyMjNqNFNvSC1zX2RNQXBhaTdnelBDWA?oc=5"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/12/tyhpoon-dolphin-beijing-thousands-evacuated-flooding-rainfall"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/12/comac-c919-chinese-passenger-jet-china-plane-first-international-flight"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1DSXIwN1ZjcjJjWnMzLUZmSGVhRENNdU9FVTFsbG1RM2VlNTRRekNJWi1ub1VkWGh6aFVLaGNKRnIwaXhHREVWT1B2R1BqNjQ5UldtNGFQbEdXZ005LVhPX0RyUFNQSWgwTmZvUA?oc=5"
             }
           ],
           "rank": 13
         },
         {
-          "title": "外交部：有关国家影射中方导弹试射活动 完全是出于政治目的 - 中国日报网",
+          "title": "宇树科技网下打新名单出炉 公私募合计获配超22亿元 - 东方财富",
           "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zaHVLZi1xdzQ4VGNTUW5UWHVCSzZQUmJ6RU80d1gxNkp4WE93ZkZ4RF90U1pDT3dXTnE2ODgzLUE4NUgybFpFaFhldHI5b1E5bTJZMlNVREhPdkp6U1czVVBxd25nNmp3UVZWUy01OG52VnBPTm80MkJwMA?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfUEpGTnA1SVp6cmNPYVhGSDhwMUdCYjY3bmdORW0tZjJvRElCTjhEVjBwNFhZdmpNM2szTHFfNTlucldVWEVFYnVPM1M4SGgtQi1VdllfVjNIVVllOF9Yag?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-12T12:01:16+00:00",
-          "desc": "外交部：有关国家影射中方导弹试射活动 完全是出于政治目的 中国日报网41国联名吓唬谁？中国试射不看谁脸色 新浪财经中方严斥美国炮制“弹道导弹发射通报”涉华共同发言 军事频道美国连同40国发声明 批评中国试射弹道导弹前未给予充分通知 联合早报美等41國聯合聲明 批中共導彈試射通報不足 大纪元",
+          "publishedAt": "2026-08-12T11:36:38+00:00",
+          "desc": "宇树科技网下打新名单出炉 公私募合计获配超22亿元 东方财富散户全员陪跑!宇树IPO撕开A股打新规则遮羞布 新浪网不会画饼的“中国马斯克”，为何赢得200亿身家？ user.guancha.cn靠便宜，宇树还能赢几年？ 凤凰网89家公募打新宇树科技获配近18亿 头部机构抢筹显著 news.china.com",
           "hotLabel": "",
           "summary": "",
           "analysis": "（解读生成失败）",
@@ -1165,118 +1180,14 @@
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0zaHVLZi1xdzQ4VGNTUW5UWHVCSzZQUmJ6RU80d1gxNkp4WE93ZkZ4RF90U1pDT3dXTnE2ODgzLUE4NUgybFpFaFhldHI5b1E5bTJZMlNVREhPdkp6U1czVVBxd25nNmp3UVZWUy01OG52VnBPTm80MkJwMA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBfUEpGTnA1SVp6cmNPYVhGSDhwMUdCYjY3bmdORW0tZjJvRElCTjhEVjBwNFhZdmpNM2szTHFfNTlucldVWEVFYnVPM1M4SGgtQi1VdllfVjNIVVllOF9Yag?oc=5"
             }
           ],
           "rank": 14
         },
         {
-          "title": "重庆建工集团原党委委员、副总经理程亮严重违纪违法被开除党籍和公职 - 12371.gov.cn",
+          "title": "百花奖最佳新人陈丽君：初入江湖，不虚此行 - chinanews.com.cn",
           "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV093Y0IxVGdWSU5tQnFyNWdNMnpaOUNKMkJGVEI5OHZoNmlWa3p2UVF4bXBERFdUU1dTUlpCcWg0c1AtZDN6ZE1sMjczWXpmVDM1ZmRRblg0Z29ZRkI4Zm9OaTNkS3EtcFVyN3JfeERmbnJuUVYyT253UjlkcFFVZkpCVkt6eHpaY09pZDRvLXhLdFdJeEtJWA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T11:15:55+00:00",
-          "desc": "重庆建工集团原党委委员、副总经理程亮严重违纪违法被开除党籍和公职 12371.gov.cn",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNV093Y0IxVGdWSU5tQnFyNWdNMnpaOUNKMkJGVEI5OHZoNmlWa3p2UVF4bXBERFdUU1dTUlpCcWg0c1AtZDN6ZE1sMjczWXpmVDM1ZmRRblg0Z29ZRkI4Zm9OaTNkS3EtcFVyN3JfeERmbnJuUVYyT253UjlkcFFVZkpCVkt6eHpaY09pZDRvLXhLdFdJeEtJWA?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "水利部滚动部署应对台风“白海豚”残余环流影响 - 第一财经",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZT3RuZWgwMm12ejFPUGFCN3ZpNGViQjJHdU1MS2JjMWZtb1VzajJBUjdTT1dMT3Y1YkloZFM0aExERFR4M0YxU2hkaWw3dmN3QUMw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T11:20:56+00:00",
-          "desc": "水利部滚动部署应对台风“白海豚”残余环流影响 第一财经台风“白海豚”登陆后浙江抢险救灾一线见闻 新华网阵风8-10级！暴雨大暴雨落在鄂北鄂西，“白海豚”影响湖北最强时段已定 凤凰网【8点见】台风“白海豚”停止编号 中央气象台提醒 news.cctv.com应对台风“白海豚”北上影响 天津滨海机场海关坚守一线保口岸通关畅通 新浪财经",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9ZT3RuZWgwMm12ejFPUGFCN3ZpNGViQjJHdU1MS2JjMWZtb1VzajJBUjdTT1dMT3Y1YkloZFM0aExERFR4M0YxU2hkaWw3dmN3QUMw?oc=5"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "普京：北约渗透亚太致冲突可能性增加 俄太平洋舰队举行大规模军演 - 中华网",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGSGNJWFRJV0hrOVBIdUNDNHhfMHFMYnF4THpwSG1ObXZlazBqTjFELUI0b2J2LTFOa0IwX0dCczV2N21RUFFHYWRubGtpX20tZXNBQlVNTVMzV3V2Ml95VWdpSzNUc3JEOFV3M1JLYy0?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T11:50:40+00:00",
-          "desc": "普京：北约渗透亚太致冲突可能性增加 俄太平洋舰队举行大规模军演 中华网普京抵达现场，将亲自指挥！ 每日经济新闻普京指挥太平洋舰队军演释放何信号 展示俄战略纵深能力 中华网60艘俄舰围上来时，日本才发现：自己以为的靠山，根本来不及伸手 Sohu普京：俄罗斯不对日本构成威胁亦对日方无任何诉求 chinanews.com.cn",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGSGNJWFRJV0hrOVBIdUNDNHhfMHFMYnF4THpwSG1ObXZlazBqTjFELUI0b2J2LTFOa0IwX0dCczV2N21RUFFHYWRubGtpX20tZXNBQlVNTVMzV3V2Ml95VWdpSzNUc3JEOFV3M1JLYy0?oc=5"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "韩国最高法院终审判决日企赔偿二战遭强征韩劳工 - chinanews.com.cn",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zcDNmQ0hVZEZvUVpVRVNRWUpLM1RUcTJSM1RaTS1uSWlJNGEzWUxINnRtUlNHcVdybDZjeHMzNlVKRzluRWs0Q09tbGxLMHVqaXBMbjU3RmlWb3IzeVlmNEVfaDh1dV9T?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-12T12:26:41+00:00",
-          "desc": "韩国最高法院终审判决日企赔偿二战遭强征韩劳工 chinanews.com.cn韩最高法院终审判决日企赔偿二战遭强征劳工受害者 Sohu日本制铁被判赔偿8000万元给强制动员受害者家属 ajudaily.com大法院：“向强制征用受害者遗属赔偿8000万韩元”……驳回日本制铁上诉- 阿视亚经济 아시아경제日强征韩国劳工遗属索赔案终审再获胜诉 韩联社",
-          "hotLabel": "",
-          "summary": "",
-          "analysis": "（解读生成失败）",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4zcDNmQ0hVZEZvUVpVRVNRWUpLM1RUcTJSM1RaTS1uSWlJNGEzWUxINnRtUlNHcVdybDZjeHMzNlVKRzluRWs0Q09tbGxLMHVqaXBMbjU3RmlWb3IzeVlmNEVfaDh1dV9T?oc=5"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "百花奖最佳新人陈丽君获奖感言",
-          "titleOrig": "百花奖最佳新人陈丽君：初入江湖，不虚此行 - chinanews.com.cn",
           "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zcXRFOFRFTDBGNi1aRklyNElxcXhGbGNpdjFQeWN1QmpRaWRzQVJMVGRHMVgyYVJValpIdU9XRjVnNEl5RDhhWllJTFZaaGhlMllNXzlkUGFBR0RkdjRDOEhIZVgxZHVsYXc?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
@@ -1287,16 +1198,10 @@
           "publishedAt": "2026-08-12T08:19:18+00:00",
           "desc": "百花奖最佳新人陈丽君：初入江湖，不虚此行 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "陈丽君获得百花奖最佳新人奖。",
-          "analysis": "陈丽君的获奖体现了中国电影行业对于新人培养的重视，同时也反映了电影市场对于新鲜血液的渴求。这一事件对于推动中国电影行业的持续发展具有重要意义。未来，电影行业可能会更加注重年轻人才的培养和挖掘。",
-          "keywords": [
-            "百花奖",
-            "新人奖",
-            "电影行业",
-            "人才培养",
-            "行业发展"
-          ],
-          "category": "society",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
           "importance": 60,
           "sources": [
             {
@@ -1304,12 +1209,64 @@
               "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4zcXRFOFRFTDBGNi1aRklyNElxcXhGbGNpdjFQeWN1QmpRaWRzQVJMVGRHMVgyYVJValpIdU9XRjVnNEl5RDhhWllJTFZaaGhlMllNXzlkUGFBR0RkdjRDOEhIZVgxZHVsYXc?oc=5"
             }
           ],
-          "rank": 19
+          "rank": 15
         },
         {
-          "title": "牛肉干价格争议",
-          "titleOrig": "曝赵一鸣4块牛肉干64元复称仅17元",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=2&Refer=top",
+          "title": "电影《欢迎来龙餐馆》豆瓣开分8.4分，上映首日累计票房已超2.33亿 - news.china.com",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhYkhMaXVuTkhYTUtaMFlUM2VuMjZralJtdkVDNXhFaVcyWWJvTVBKLU5vS1Nmd3BmUTlqYWpkcllYejAyUkVvUlg0Wjhmc0dycXZtOFFLZXlaRERES3l3MnlkajBNYlBVTUt6MXhKRC0?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-12T09:49:43+00:00",
+          "desc": "电影《欢迎来龙餐馆》豆瓣开分8.4分，上映首日累计票房已超2.33亿 news.china.com沈腾新片《欢迎来龙餐馆》讲述什么故事？ 新浪网《欢迎来龙餐馆》正式上映日期是什么时候？ 新浪网暑期档 沈腾效应 票房持续攀升引发热议 news.china.com中国人是真的想让全世界人民好好吃饭 user.guancha.cn",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBhYkhMaXVuTkhYTUtaMFlUM2VuMjZralJtdkVDNXhFaVcyWWJvTVBKLU5vS1Nmd3BmUTlqYWpkcllYejAyUkVvUlg0Wjhmc0dycXZtOFFLZXlaRERES3l3MnlkajBNYlBVTUt6MXhKRC0?oc=5"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "朱镕基同志逝世",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%9C%B1%E9%95%95%E5%9F%BA%E5%90%8C%E5%BF%97%E9%80%9D%E4%B8%96%23&t=31&band_rank=1&Refer=top"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "微信群聊可以彻底关闭通知了",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E4%BF%A1%E7%BE%A4%E8%81%8A%E5%8F%AF%E4%BB%A5%E5%BD%BB%E5%BA%95%E5%85%B3%E9%97%AD%E9%80%9A%E7%9F%A5%E4%BA%86&t=31&band_rank=2&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1319,21 +1276,77 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "赵一鸣4块牛肉干64元，复称后仅17元。",
-          "analysis": "此事件揭示了部分商家在商品标价和计量上的不规范行为，损害了消费者权益。这反映了市场监管的不足。对消费者而言，关注商品价格和计量，维护自身权益至关重要。后续可能引发对市场监管的讨论，促使相关部门加强监管。",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%BE%AE%E4%BF%A1%E7%BE%A4%E8%81%8A%E5%8F%AF%E4%BB%A5%E5%BD%BB%E5%BA%95%E5%85%B3%E9%97%AD%E9%80%9A%E7%9F%A5%E4%BA%86&t=31&band_rank=2&Refer=top"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "洞洞鞋潮流或将结束",
+          "titleOrig": "喜欢穿洞洞鞋的人天塌了",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%96%9C%E6%AC%A2%E7%A9%BF%E6%B4%9E%E6%B4%9E%E9%9E%8B%E7%9A%84%E4%BA%BA%E5%A4%A9%E5%A1%8C%E4%BA%86%23&t=31&band_rank=4&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "洞洞鞋流行趋势可能面临挑战。",
+          "analysis": "洞洞鞋的流行反映了社会审美和时尚潮流的变化。如果这一趋势结束，可能是由于消费者口味的变化、时尚周期的更迭或新型产品的出现。对社会来说，这可能意味着时尚产业的调整和消费者购买习惯的改变。后续走向可能包括洞洞鞋市场逐渐萎缩，其他时尚产品取而代之。",
           "keywords": [
-            "牛肉干",
-            "价格争议",
-            "消费者权益",
-            "市场监管",
-            "价格欺诈"
+            "洞洞鞋",
+            "时尚潮流",
+            "消费者习惯",
+            "产业调整"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%9B%9D%E8%B5%B5%E4%B8%80%E9%B8%A34%E5%9D%97%E7%89%9B%E8%82%89%E5%B9%B264%E5%85%83%E5%A4%8D%E7%A7%B0%E4%BB%8517%E5%85%83%23&t=31&band_rank=2&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E5%96%9C%E6%AC%A2%E7%A9%BF%E6%B4%9E%E6%B4%9E%E9%9E%8B%E7%9A%84%E4%BA%BA%E5%A4%A9%E5%A1%8C%E4%BA%86%23&t=31&band_rank=4&Refer=top"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "英仙座流星雨来袭",
+          "titleOrig": "英仙座流星雨",
+          "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BB%99%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "英仙座流星雨在中国上空上演。",
+          "analysis": "英仙座流星雨是天文现象，对科学研究有一定的价值。它也丰富了人们的精神文化生活，提高了公众对天文学的兴趣。对社会来说，这有助于普及科学知识，增强民族自豪感。后续走向可能包括天文观测活动的增加和公众对天文学的关注度提升。",
+          "keywords": [
+            "英仙座流星雨",
+            "天文现象",
+            "科学普及",
+            "民族自豪感"
+          ],
+          "category": "society",
+          "importance": 50,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E8%8B%B1%E4%BB%99%E5%BA%A7%E6%B5%81%E6%98%9F%E9%9B%A8&t=31&band_rank=7&Refer=top"
             }
           ],
           "rank": 20
