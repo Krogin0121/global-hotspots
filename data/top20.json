@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-18T00:42:43.729254+00:00",
+  "generatedAt": "2026-08-18T06:28:39.205622+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "gn-cn",
       "name": "Google 新闻 · 中文",
-      "count": 0,
-      "ok": false
+      "count": 20,
+      "ok": true
     },
     {
       "id": "weibo",
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 14,
+      "count": 16,
       "ok": true
     },
     {
@@ -90,11 +90,75 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多领域紧张与经济波动并存的特点。地缘政治方面，俄罗斯与乌克兰的冲突持续升级，特朗普威胁轰炸盟友以阻挠伊朗协议，显示出地区紧张局势加剧。同时，中国在全球AI发展中的角色日益重要，印尼地震引发国际关注，委内瑞拉与日本地震应对形成对比。经济领域，美国国债收益率触及高点，中国经济放缓迹象明显，科技巨头收入增长迅猛。此外，索马里海盗劫持货轮、美国最高法院拒绝特朗普推翻性侵案等事件也值得关注。整体而言，国际局势复杂多变，需密切关注各领域动态。",
+      "digest": "今日国际局势呈现出多方面的紧张与变化。地缘政治方面，俄罗斯与乌克兰的冲突持续，双方交火导致人员伤亡，同时俄罗斯警告英国不要向乌克兰供应无人机，美俄在结束战争问题上未能达成协议。经济领域，美债收益率创新高，中国经济放缓迹象加剧，加拿大面临避免新美国关税的最后期限。社会事件方面，国际社会关注特朗普在朝鲜问题上的立场转变，以及一系列性侵和误导事件。总体来看，国际局势复杂多变，各方利益冲突与合作关系交织，值得持续关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "俄罗斯与乌克兰交换更致命打击",
+          "title": "俄罗斯警告英国不要向乌克兰供应无人机",
+          "titleOrig": "Russia warns UK over supplying drones to Ukraine",
+          "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T04:59:25+00:00",
+          "desc": "An MoD spokesperson responds by saying Britain stands \"shoulder to shoulder\" with Ukraine.",
+          "hotLabel": "",
+          "summary": "俄罗斯就英国向乌克兰供应无人机发出警告，英国则表示与乌克兰站在一起。",
+          "analysis": "此次事件反映了乌克兰冲突中各方势力的紧张关系，英国此举可能加剧与俄罗斯的对抗。对乌克兰而言，获得无人机可能增强其军事实力，但同时也可能加剧地区紧张局势。后续可能影响欧洲乃至全球的安全格局。",
+          "keywords": [
+            "乌克兰冲突",
+            "无人机",
+            "英国",
+            "俄罗斯",
+            "安全局势"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cy5dz0kkn0wo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "30年期美债收益率创19年新高，三因素可能推高",
+          "titleOrig": "The 30-year Treasury yield just hit a 19-year high. Three things could drive it even higher",
+          "url": "https://www.cnbc.com/2026/08/18/30-year-treasury-yield-three-things-that-could-drive-it-even-higher.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T06:11:52+00:00",
+          "desc": "The yield on the 30-year U.S. Treasury has surged to its highest level in 19 years, and some strategists see scope for the move to go further.",
+          "hotLabel": "",
+          "summary": "30年期美债收益率达到19年最高，未来可能进一步上升。",
+          "analysis": "美债收益率上升反映了市场对经济前景的乐观预期，可能影响全球资本流动和货币政策。对全球经济和金融市场产生重要影响，后续可能引发全球利率调整。",
+          "keywords": [
+            "美债收益率",
+            "经济前景",
+            "全球资本流动",
+            "货币政策",
+            "金融市场"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/18/30-year-treasury-yield-three-things-that-could-drive-it-even-higher.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "俄罗斯与乌克兰交火，双方均有人员伤亡",
           "titleOrig": "Russia and Ukraine trade more deadly strikes",
           "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -106,14 +170,14 @@
           "publishedAt": "2026-08-17T13:16:50+00:00",
           "desc": "Moscow says nine people have been killed in the past 24 hours, while Kyiv reports four deaths.",
           "hotLabel": "",
-          "summary": "俄罗斯和乌克兰在冲突中相互发动更严重的攻击。",
-          "analysis": "俄罗斯与乌克兰的冲突持续升级，双方在军事上的对抗日益激烈。这可能导致地区局势进一步恶化，并对欧洲安全格局产生深远影响。后续可能发展为更大规模的冲突，甚至引发国际社会的干预。",
+          "summary": "俄罗斯和乌克兰在最近24小时内发生更多冲突，造成人员伤亡。",
+          "analysis": "事件背景：乌克兰危机持续，双方关系紧张。关键影响：冲突加剧可能导致地区局势进一步恶化，影响欧洲安全格局。后续走向：双方可能继续交火，国际社会可能介入调解。",
           "keywords": [
+            "乌克兰危机",
             "俄罗斯",
             "乌克兰",
-            "军事冲突",
-            "欧洲安全",
-            "国际干预"
+            "冲突",
+            "欧洲安全"
           ],
           "category": "international",
           "importance": 90,
@@ -123,46 +187,182 @@
               "url": "https://www.bbc.co.uk/news/articles/cn7n4lm11vro?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 1
+          "rank": 3
         },
         {
-          "title": "特朗普威胁轰炸盟友阿曼以阻挠伊朗协议",
-          "titleOrig": "Trump threatens to bomb US ally Oman if it 'gets in the way' over Iran deal",
-          "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss",
+          "title": "美国与伊朗未能达成结束战争的大规模协议",
+          "titleOrig": "U.S. and Iran Blow Through Deadline to Agree to a Broad Deal to End War",
+          "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T14:04:29+00:00",
+          "desc": "President Trump said a cease-fire agreed in June would lead to limits on Iran’s nuclear program and finish the conflict, but the countries appear far apart.",
+          "hotLabel": "",
+          "summary": "特朗普表示6月达成的停火协议将限制伊朗核计划并结束冲突，但两国立场相去甚远。",
+          "analysis": "美国与伊朗之间的紧张关系表明两国在核问题上的分歧依然存在，且难以通过短期协议解决。这一事件反映了中东地区的长期不稳定，以及美国在中东政策中的挑战。关键影响包括伊朗核计划的未来走向，以及中东地区的安全格局。后续走向可能包括伊朗继续推进核计划，以及国际社会对伊朗的进一步制裁。",
+          "keywords": [
+            "美国",
+            "伊朗",
+            "核协议",
+            "中东安全",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/middleeast/iran-mou-deadline.html"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "北塞浦路斯IVF工作人员被指控误导英国父母关于精子和卵子捐赠者",
+          "titleOrig": "IVF staff accused of misleading UK parents about sperm and egg donors in northern Cyprus",
+          "url": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-17T19:25:05+00:00",
-          "desc": "Trump's threat on Oman, which has been holding its own talks with Iran to reopen the Strait of Hormuz, comes as a 60-day window for peace negotiations expires.",
+          "publishedAt": "2026-08-18T05:00:04+00:00",
+          "desc": "Multiple children are feared to have been conceived using sperm and egg donors which were not the ones selected by the parents.",
           "hotLabel": "",
-          "summary": "特朗普威胁阿曼，因其与伊朗谈判重新开放霍尔木兹海峡。",
-          "analysis": "特朗普的威胁反映了美国对伊朗核协议的强硬立场。阿曼作为地区重要国家，其与伊朗的谈判可能影响美国在中东的战略利益。此事件可能加剧地区紧张局势，并对和平谈判产生负面影响。后续可能发展为美国与伊朗的直接对抗，或导致中东地区战略格局的重大变化。",
+          "summary": "英国父母在北塞浦路斯接受辅助生殖服务时，可能使用了非他们所选的精子和卵子捐赠者。",
+          "analysis": "北塞浦路斯的辅助生殖服务行业可能存在监管不严的问题，导致父母权益受损。此事件反映了跨境医疗服务的监管挑战，以及对家庭伦理和隐私的潜在影响。后续可能引发国际社会对辅助生殖服务行业监管的讨论和改进。",
           "keywords": [
-            "特朗普",
-            "阿曼",
-            "伊朗协议",
-            "霍尔木兹海峡",
-            "中东局势"
+            "辅助生殖",
+            "伦理",
+            "跨境医疗",
+            "监管",
+            "隐私"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cy5dzk0ryzdo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/c75gv9xnr3po?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "前广播员艾伦·琼斯被控性侵，受害者称其被“ grooming”十年",
+          "titleOrig": "Alleged victim tells Alan Jones’s barrister he was ‘groomed for 10 years’ and to ‘get real’ during combative cross-examination",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/18/alan-jones-trial-alleged-victim-groomed-10-years-cross-examination-indecent-assault-charges-ntwnfb",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T05:15:27+00:00",
+          "desc": "Former broadcaster has pleaded not guilty to 22 indecent assault and sexual touching charges in relation to six menFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastAlan Jones allegedly groomed a junior staffer at 2GB for a decade, resul",
+          "hotLabel": "",
+          "summary": "艾伦·琼斯被控22项性侵和性触摸罪名，受害者称被长期 grooming。",
+          "analysis": "艾伦·琼斯案件揭示了澳大利亚媒体行业性骚扰问题的严重性，可能引发行业内部改革。对澳大利亚社会和媒体行业产生深远影响。后续可能面临更广泛的调查和公众舆论压力。",
+          "keywords": [
+            "艾伦·琼斯",
+            "性侵",
+            "澳大利亚",
+            "媒体行业",
+            "性骚扰"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/aug/18/alan-jones-trial-alleged-victim-groomed-10-years-cross-examination-indecent-assault-charges-ntwnfb"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "特朗普为何在朝鲜问题上转变立场？",
+          "titleOrig": "Watch: Why has Trump shifted on North Korea?",
+          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T23:42:38+00:00",
+          "desc": "Trump said the US will \"substantially reduce\" joint military exercises with South Korea, citing his \"very good relationship\" with Kim Jong Un.",
+          "hotLabel": "",
+          "summary": "特朗普表示将大幅缩减与韩国的联合军演规模。",
+          "analysis": "特朗普在朝鲜问题上的转变可能基于对朝鲜半岛局势的新认识，以及对朝鲜领导人的个人关系。此举可能旨在通过外交途径解决朝鲜半岛问题，减少地区紧张。对国际局势有重要影响，可能改变朝鲜半岛的地缘政治格局。后续可能包括美朝关系的进一步发展，以及韩国和日本对此的反应。",
+          "keywords": [
+            "特朗普",
+            "朝鲜",
+            "军演缩减",
+            "国际关系",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
             },
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/16/us/politics/trump-south-korea-military-exercises.html"
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-south-korea-alliance"
             }
           ],
-          "rank": 2
+          "rank": 3
         },
         {
-          "title": "中国欲让数据驱动全球AI发展",
+          "title": "俄罗斯知名反战政治家被判11年监禁",
+          "titleOrig": "Russia's prominent anti-war politician jailed for 11 years",
+          "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T16:17:34+00:00",
+          "desc": "Lev Schlosberg is found guilty of \"discrediting\" Russia's army - a verdict he condemns as punishment for his political position.",
+          "hotLabel": "",
+          "summary": "俄罗斯反战活动家因诋毁俄军被判刑，引发国际关注。",
+          "analysis": "事件背景：俄罗斯政治环境日益严峻，对反对声音的打压加剧。关键影响：此判决可能加剧国际社会对俄罗斯人权状况的担忧，对俄国内政治生态产生深远影响。后续走向：可能引发国际社会的更多关注和谴责，对俄罗斯国内外政策产生压力。",
+          "keywords": [
+            "俄罗斯",
+            "政治打压",
+            "反战活动家",
+            "人权",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cj4kjnle2neo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "中国欲将数据驱动全球AI发展",
           "titleOrig": "China Wants Its Data to Power the World’s A.I.",
           "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html",
           "source": "NYT World",
@@ -174,14 +374,14 @@
           "publishedAt": "2026-08-17T11:10:29+00:00",
           "desc": "China is exporting more than A.I. models. It wants its data to influence the world’s chatbots, raising fears that Beijing’s narratives will spread with the technology.",
           "hotLabel": "",
-          "summary": "中国出口AI模型，并希望其数据影响全球聊天机器人。",
-          "analysis": "中国正通过出口AI模型和数据来扩大其技术影响力，这引发了对其技术传播政治叙事的担忧。这一举措可能加剧全球AI领域的竞争，并影响国际数据治理规则。未来，中国可能会继续扩大其在AI领域的全球影响力，同时也可能引发国际社会对数据安全和隐私的更多关注。",
+          "summary": "中国正出口AI模型，并希望其数据影响全球聊天机器人。",
+          "analysis": "中国正通过出口AI模型和数据来扩大其全球影响力，这引发了对北京意识形态可能通过技术传播的担忧。这一举措背后是中国在AI领域的雄心，以及对全球科技标准的潜在影响。关键影响包括加剧全球科技竞争，以及可能导致国际数据治理规则的改变。后续走向可能包括其他国家对数据出口的监管加强，以及全球AI技术的标准之争。",
           "keywords": [
             "中国",
             "AI",
-            "数据",
+            "数据出口",
             "全球影响",
-            "技术传播"
+            "科技竞争"
           ],
           "category": "international",
           "importance": 85,
@@ -189,260 +389,120 @@
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "印尼地震死亡人数上升至68人，数千人等待援助",
-          "titleOrig": "Indonesia: Thousands await aid as quake death toll rises to 68",
-          "url": "https://www.dw.com/en/indonesia-thousands-await-aid-as-quake-death-toll-rises-to-68/a-78395000?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T09:33:00+00:00",
-          "desc": "Indonesia marked its Independence Day on Monday but celebrations have been overshadowed by an earthquake which has left over 60 people dead and thousands homeless. Residents say they need aid as soon as possible.",
-          "hotLabel": "",
-          "summary": "印尼独立日庆祝活动因地震造成重大人员伤亡而受影响。",
-          "analysis": "印尼地震反映了该地区地震频发的地质特点，同时也暴露了灾害应对和救援体系的不足。对于印尼来说，这不仅是人道主义危机，也是对国家治理能力的考验。对于国际社会而言，这一事件凸显了灾害管理和国际援助的重要性。后续可能需要国际援助，并对印尼的地震预防和应对措施进行评估。",
-          "keywords": [
-            "印尼",
-            "地震",
-            "救援",
-            "灾害管理",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/indonesia-thousands-await-aid-as-quake-death-toll-rises-to-68/a-78395000?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/india-temple-stampede-in-bihar-kills-7/a-78390719?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "地震之后：委内瑞拉与日本地震应对差异分析",
-          "titleOrig": "After the Earthquakes",
-          "url": "https://www.nytimes.com/2026/08/17/world/earthquake-response-japan-venezuela.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T21:33:53+00:00",
-          "desc": "Venezuela and Japan both experienced major quakes this summer. Their responses differed, and not just because of money.",
-          "hotLabel": "",
-          "summary": "委内瑞拉和日本近期发生地震，应对措施不同。",
-          "analysis": "委内瑞拉和日本地震后的应对措施差异反映了两国在政治、经济和资源方面的巨大差异。委内瑞拉由于经济困境和基础设施老化，地震后的救援和重建能力受限。而日本则展示了其先进的地震预警系统和高效的政府协调能力。这对国际社会在自然灾害应对方面的策略有重要启示，同时也凸显了资源分配和基础设施投资的重要性。",
-          "keywords": [
-            "地震应对",
-            "委内瑞拉",
-            "日本",
-            "国际救援",
-            "基础设施"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/earthquake-response-japan-venezuela.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "30年期国债收益率触及19年高点",
-          "titleOrig": "30-year Treasury yield tops 5.31%, the highest in 19 years",
-          "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T20:04:53+00:00",
-          "desc": "Treasury yields were higher as traders awaited the latest FOMC minutes due later this week.",
-          "hotLabel": "",
-          "summary": "美国30年期国债收益率创新高。",
-          "analysis": "国债收益率上升反映了市场对美联储加息预期的增强。这可能预示着美国经济可能面临更高的借贷成本，并对全球经济产生连锁反应。后续美联储的货币政策将成为市场关注的焦点。",
-          "keywords": [
-            "国债收益率",
-            "美联储",
-            "加息",
-            "经济预期",
-            "全球经济"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/treasury-yields-federal-reserve-fomc-minutes.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/meta-attorneys-general-california-federal-trial-astronomical-consequences.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "中国经济放缓迹象加剧",
-          "titleOrig": "China’s economy showing signs that slowdown may be extending",
-          "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T15:36:25+00:00",
-          "desc": "Industrial output and retail sales slump in July after one of the country’s weakest quarterly growth rates everChina’s economy is showing signs of extending a slowdown with a slump in industrial output and retail sales in July, adding to pressure on Beijing to intervene with measures to support acti",
-          "hotLabel": "",
-          "summary": "7月工业产出和零售销售下滑，中国经济放缓压力增大。",
-          "analysis": "7月份中国工业产出和零售销售数据下滑，显示出经济放缓的迹象。这可能与国内外多重因素有关，包括全球经济增长放缓、国内需求减弱等。政策层面，这可能促使政府采取更多措施来刺激经济，如减税降费、扩大基础设施投资等。对国内民生和经济意味着可能面临就业压力和消费减少等问题。后续走向可能包括政府出台更多刺激经济的政策，以及经济结构调整的深化。",
-          "keywords": [
-            "中国经济",
-            "经济放缓",
-            "政策干预",
-            "工业产出",
-            "零售销售"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "Anthropic 7月年度化收入跑赢65亿美元，同比增长约7倍",
-          "titleOrig": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July",
-          "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T22:55:31+00:00",
-          "desc": "Anthropic's revenue run rate is up about sevenfold from a year earlier.",
-          "hotLabel": "",
-          "summary": "Anthropic 7月年度化收入达到65亿美元，同比增长约7倍。",
-          "analysis": "Anthropic的收入增长反映了人工智能领域的强劲增长势头。这表明人工智能技术的商业潜力巨大，同时也可能加剧行业竞争和人才争夺。",
-          "keywords": [
-            "Anthropic",
-            "人工智能",
-            "收入增长",
-            "行业竞争",
-            "人才争夺"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/anthropic-says-annualized-revenue-climbed-to-65-billion-in-july.html"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "乌克兰卫星助力其无人机作战",
-          "titleOrig": "How Ukraine’s Satellites Help Drive Its War Drones",
-          "url": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T20:38:44+00:00",
-          "desc": "Ukrainian drone teams have a powerful new tool: near real-time information on troop movements and locations.",
-          "hotLabel": "",
-          "summary": "乌克兰利用卫星技术提升无人机作战能力。",
-          "analysis": "乌克兰利用卫星技术获取实时情报，增强了其无人机作战的精确性和效率。这对乌克兰在冲突中的军事优势具有重要意义。同时，也反映了现代战争中科技的重要性，以及卫星技术在军事领域的应用潜力。",
-          "keywords": [
-            "乌克兰",
-            "无人机",
-            "卫星技术",
-            "情报",
-            "军事冲突"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/europe/from-the-sky-to-the-battlefield.html"
             }
           ],
           "rank": 9
         },
         {
-          "title": "3M公司长期知晓产品有害人体",
-          "titleOrig": "3M knew for more than 50 years that its products could harm humans, Australian government alleges in court documents",
-          "url": "https://www.theguardian.com/environment/2026/aug/18/3m-knew-for-more-than-50-years-that-its-products-could-harm-humans-australian-government-alleges-in-court-documents",
+          "title": "加拿大面临避免新美国关税的最后期限",
+          "titleOrig": "It’s Crunchtime Again for Canada to Avoid New U.S. Tariffs",
+          "url": "https://www.nytimes.com/2026/08/18/world/canada/trade-tariffs-trump-carney.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T04:01:06+00:00",
+          "desc": "Canada is seeking a deal to dodge further economic pain at the hands of the Trump administration on midnight Tuesday. But at what cost?",
+          "hotLabel": "",
+          "summary": "加拿大寻求避免特朗普政府施加的新关税，但代价可能高昂。",
+          "analysis": "加拿大与美国的经济关系紧张，此次关税问题可能加剧两国贸易摩擦。加拿大若想避免关税，可能需要做出让步，这可能影响加拿大国内政策。后续可能影响北美自由贸易区的稳定性。",
+          "keywords": [
+            "加拿大",
+            "美国",
+            "关税",
+            "贸易摩擦",
+            "北美自由贸易区"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/18/world/canada/trade-tariffs-trump-carney.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "必和必拓公司至少109名员工一年内性骚扰同事",
+          "titleOrig": "At least 109 BHP workers sexually harassed colleagues in a single year, mining company says",
+          "url": "https://www.theguardian.com/business/2026/aug/18/113-bhp-workers-sexual-harassment-cases-report-ntwnfb",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-17T15:00:03+00:00",
-          "desc": "Exclusive: Federal government court filings claim internal company documents included warnings about products being toxicFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastManufacturing company 3M knew more than 50 years ago that its fire",
+          "publishedAt": "2026-08-18T04:46:37+00:00",
+          "desc": "Further 104 allegations not investigated due to ‘insufficient information or the wishes of the impacted person’, according to annual reportFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastMore than 100 workers at BHP lost their jobs, or",
           "hotLabel": "",
-          "summary": "澳大利亚政府指控3M公司长期知晓其产品有害。",
-          "analysis": "3M公司长期隐瞒其产品对人类健康的危害，这一事件揭示了全球供应链中产品安全监管的漏洞。未来，全球可能会加强对产品安全监管，并要求企业提高透明度。",
+          "summary": "必和必拓公司报告称，至少109名员工在一年内性骚扰同事，另有104起指控未调查。",
+          "analysis": "此事件暴露了矿业行业性骚扰问题的普遍性，可能促使行业内部和外部监管加强。对矿业行业和澳大利亚社会产生重要影响，后续可能引发更广泛的行业审查。",
           "keywords": [
-            "3M",
-            "产品安全",
-            "监管漏洞",
-            "全球供应链",
-            "透明度"
+            "必和必拓",
+            "性骚扰",
+            "矿业行业",
+            "澳大利亚",
+            "监管"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/aug/18/3m-knew-for-more-than-50-years-that-its-products-could-harm-humans-australian-government-alleges-in-court-documents"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/fatty-food-raises-risk-of-colorectal-cancer/a-78284704?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.theguardian.com/business/2026/aug/18/113-bhp-workers-sexual-harassment-cases-report-ntwnfb"
             }
           ],
-          "rank": 10
+          "rank": 11
         },
         {
-          "title": "库什纳在以色列与内塔尼亚胡会面，试图打破加沙僵局",
+          "title": "特朗普向朝鲜示好，加剧与韩国的联盟紧张",
+          "titleOrig": "Trump’s Overture to North Korea Strains Alliance With the South",
+          "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T10:57:48+00:00",
+          "desc": "President Trump wants to curtail military exercises with South Korea, saying they were hostile to North Korea. But under Mr. Kim, the North has become increasingly belligerent toward the South.",
+          "hotLabel": "",
+          "summary": "特朗普缩减美韩军演规模，加剧与韩国的联盟紧张。",
+          "analysis": "特朗普向朝鲜示好，缩减美韩军演规模，可能引起韩国的不安，加剧与韩国的联盟紧张。这反映了美国在朝鲜半岛政策上的不确定性，以及对韩国盟友关系的挑战。对国际局势和地区安全有重要影响，可能影响韩国的国防政策和地区战略选择。",
+          "keywords": [
+            "特朗普",
+            "美韩关系",
+            "军演缩减",
+            "韩国",
+            "国际局势"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-south-korea-alliance"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "库什纳与内塔尼亚胡在以色列会面，试图打破加沙僵局",
           "titleOrig": "Kushner Meets Netanyahu in Israel in Effort to Break Logjam Over Gaza",
           "url": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html",
           "source": "NYT World",
@@ -454,127 +514,59 @@
           "publishedAt": "2026-08-17T21:23:29+00:00",
           "desc": "Prime Minister Benjamin Netanyahu of Israel has refused to pull back the country’s military until Hamas fully disarms. But the Trump administration is under pressure to show progress.",
           "hotLabel": "",
-          "summary": "库什纳与内塔尼亚胡会面，寻求解决加沙地带的紧张局势。",
-          "analysis": "此次会面反映了美国在解决巴以冲突中的积极作用。加沙地带的僵局不仅影响以色列和巴勒斯坦的关系，也对整个中东地区的和平与稳定构成威胁。后续可能需要国际社会的共同努力，以实现和平解决方案。",
+          "summary": "以色列总理内塔尼亚胡拒绝撤军直到哈马斯完全解除武装。",
+          "analysis": "库什纳访问以色列旨在推动解决加沙冲突，但内塔尼亚胡的强硬立场表明和平进程可能面临重大挑战。这一事件反映了中东地区复杂的地缘政治格局，以及美国在中东政策中的困境。关键影响包括加沙地区局势可能进一步恶化，以及美国在中东的影响力受到考验。后续走向可能包括国际社会对以色列政策的更多批评，以及地区冲突的进一步升级。",
           "keywords": [
+            "以色列",
+            "加沙冲突",
             "库什纳",
-            "内塔尼亚胡",
-            "加沙地带",
-            "巴以冲突",
-            "中东和平"
+            "美国政策",
+            "中东局势"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/17/world/middleeast/kushner-netanyahu-gaza-peace-deal.html"
             }
           ],
-          "rank": 11
-        },
-        {
-          "title": "吉姆·克莱默：现在投资这4只内存股还为时不晚",
-          "titleOrig": "Jim Cramer says it’s not too late to own any one of these 4 soaring memory stocks",
-          "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T22:20:01+00:00",
-          "desc": "CNBC's Jim Cramer said the AI boom has transformed the historically cyclical memory industry, as demand and greater supply discipline support stronger profits.",
-          "hotLabel": "",
-          "summary": "吉姆·克莱默建议投资内存股。",
-          "analysis": "吉姆·克莱默对内存股的看好反映了人工智能和数据中心对高性能内存需求的增长。这可能会推动内存行业的发展，并对相关科技公司产生积极影响。",
-          "keywords": [
-            "内存股",
-            "人工智能",
-            "数据中心",
-            "内存行业",
-            "投资建议"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/cramer-buy-soaring-memory-stocks.html"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "索马里海盗劫持货轮",
-          "titleOrig": "Somalia: Pirates seize commercial cargo ship",
-          "url": "https://www.dw.com/en/somalia-pirates-seize-commercial-cargo-ship/a-78405330?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T18:57:00+00:00",
-          "desc": "Monitors say eight armed men have taken control of a cargo ship off the coast of Somalia. Renewed pirate activity adds to the problems facing shippers in the Middle East.",
-          "hotLabel": "",
-          "summary": "海盗在索马里海岸附近劫持一艘货轮。",
-          "analysis": "索马里海盗活动的复兴表明该地区安全形势依然严峻。这将对中东地区的航运安全构成威胁，并可能影响全球供应链。后续可能需要国际社会的联合行动来打击海盗活动。",
-          "keywords": [
-            "索马里",
-            "海盗",
-            "货轮",
-            "航运安全",
-            "中东局势"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/somalia-pirates-seize-commercial-cargo-ship/a-78405330?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
           "rank": 13
         },
         {
-          "title": "DHS调查批评者并发出警告通知",
-          "titleOrig": "DHS defends investigating agency critics and giving them warning notices",
-          "url": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "哥伦比亚乔科省地震后面临更大困难",
+          "titleOrig": "Chocó, Colombia, Faces Deeper Hardship After an Earthquake",
+          "url": "https://www.nytimes.com/2026/08/18/world/americas/colombia-earthquake-choco.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-17T13:31:13+00:00",
-          "desc": "Federal officials acknowledged that ICE special agents tracked a New York man to his house, the airport and a hotel to question him about a critical email he sent to the former head of ICE in January.",
+          "publishedAt": "2026-08-18T05:17:52+00:00",
+          "desc": "In Chocó, a remote region, “pain, hunger and homelessness await” survivors of last week’s earthquake, the governor said. Shakira visited to help draw awareness.",
           "hotLabel": "",
-          "summary": "DHS调查批评者并对其发出警告通知。",
-          "analysis": "美国国土安全部调查并警告批评者，这可能表明美国政府加强了对言论自由的限制。未来，这可能引发对言论自由和政府监督的更多讨论。",
+          "summary": "乔科省地震幸存者面临痛苦、饥饿和无家可归。",
+          "analysis": "地震暴露了发展中国家在自然灾害应对和重建方面的脆弱性。乔科省的情况可能引发国际社会对灾害响应和重建援助的关注，以及对哥伦比亚政府应对能力的评估。",
           "keywords": [
-            "DHS",
-            "言论自由",
-            "政府监督",
-            "批评者调查",
-            "言论限制"
+            "哥伦比亚",
+            "地震",
+            "灾害响应",
+            "重建",
+            "国际援助"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/17/nx-s1-5934692/dhs-free-speech-investigations"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-news-belgium-blaze-kept-out-of-germany-for-now/live-78391144?maca=en-rss-en-all-1573-rdf"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/18/world/americas/colombia-earthquake-choco.html"
             }
           ],
           "rank": 14
         },
         {
-          "title": "美国最高法院再次拒绝特朗普推翻E Jean Carroll性侵案",
+          "title": "最高法院再次拒绝特朗普推翻E Jean Carroll性侵案",
           "titleOrig": "Supreme Court again rejects Trump's bid to overturn E Jean Carroll sex abuse case",
           "url": "https://www.bbc.co.uk/news/articles/c74gekjgrllo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -586,17 +578,17 @@
           "publishedAt": "2026-08-17T18:45:59+00:00",
           "desc": "The US president has already paid the writer over $5m in damages in the assault and defamation case.",
           "hotLabel": "",
-          "summary": "特朗普因性侵和诽谤案已向E Jean Carroll支付超过500万美元赔偿。",
-          "analysis": "这一判决反映了美国司法体系对性侵案件的严肃处理。对于特朗普来说，这是个人名誉和公共形象的又一次打击。对于美国社会而言，这一事件强调了性别平等和性侵问题的严重性。",
+          "summary": "美国最高法院拒绝特朗普推翻性侵案判决。",
+          "analysis": "事件背景：特朗普面临多起法律诉讼。关键影响：此判决表明美国司法体系对权力人物的约束。后续走向：特朗普可能继续面临法律挑战。",
           "keywords": [
             "特朗普",
             "性侵案",
             "最高法院",
-            "名誉",
-            "性别平等"
+            "法律诉讼",
+            "美国司法"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
@@ -604,276 +596,6 @@
             }
           ],
           "rank": 15
-        },
-        {
-          "title": "L3Harris前CEO因行为不当被解雇，股价下跌4%",
-          "titleOrig": "L3Harris ousts CEO Chris Kubasik over unspecified 'conduct,' stock drops 4%",
-          "url": "https://www.cnbc.com/2026/08/17/l3harris-ceo-chris-kubasik-lhx-defense-mehta.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T22:52:11+00:00",
-          "desc": "Chris Kubasik was ousted as Lockheed Martin's incoming CEO in 2012 after what that company called a \"close personal relationship with a subordinate employee.\"",
-          "hotLabel": "",
-          "summary": "L3Harris前CEO因行为不当被解雇，股价下跌。",
-          "analysis": "L3Harris前CEO Chris Kubasik 的解雇凸显了企业高层道德风险和内部治理的重要性。这类事件可能影响公司声誉和投资者信心，对公司的长期发展构成挑战。同时，这也反映了美国企业界对高管行为规范的重视。",
-          "keywords": [
-            "L3Harris",
-            "CEO解雇",
-            "道德风险",
-            "企业治理",
-            "投资者信心"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/l3harris-ceo-chris-kubasik-lhx-defense-mehta.html"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "德国国防军人数达到13年新高",
-          "titleOrig": "Germany: Bundeswehr troop numbers reach 13-year high",
-          "url": "https://www.dw.com/en/germany-bundeswehr-troop-numbers-reach-13-year-high/a-78400706?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T15:30:00+00:00",
-          "desc": "Germany's Defense Ministry is reporting a comparatively rare success story in its bid to bolster troop numbers. At the end of July, the total stood at around 186,700, roughly 3,700 more than a year earlier — a 2% boost.",
-          "hotLabel": "",
-          "summary": "德国国防军人数达到13年新高。",
-          "analysis": "德国国防军人数增加反映了其加强国防能力的努力。这可能对欧洲安全格局产生影响，并可能引发邻国的反应。未来，德国可能会继续增加国防开支，以应对地缘政治的不确定性。",
-          "keywords": [
-            "德国",
-            "国防军",
-            "国防开支",
-            "欧洲安全",
-            "地缘政治"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-bundeswehr-troop-numbers-reach-13-year-high/a-78400706?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "内政大臣法拉奇的亲密助手乔治·科特雷尔因欺诈罪被判刑",
-          "titleOrig": "‘Posh George,’ the Convicted Fraudster in Nigel Farage’s Inner Circle",
-          "url": "https://www.nytimes.com/2026/08/17/world/europe/posh-george-nigel-farage-reform.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T21:22:13+00:00",
-          "desc": "Scrutiny over the gifts and support provided by George Cottrell to Mr. Farage, the Reform U.K. leader, will continue even after he won last week’s special election in Clacton.",
-          "hotLabel": "",
-          "summary": "乔治·科特雷尔因欺诈罪被判刑，引发对其支持者的质疑。",
-          "analysis": "这一事件揭示了政治人物周围可能存在的腐败问题。对于法拉奇来说，这是对其领导能力和团队选择的质疑。对于英国社会而言，这一事件强调了政治透明度和诚信的重要性。",
-          "keywords": [
-            "法拉奇",
-            "乔治·科特雷尔",
-            "欺诈罪",
-            "政治腐败",
-            "诚信"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/europe/posh-george-nigel-farage-reform.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "派拉蒙寻求州总检察长1.88亿美元债券以覆盖WBD合并延迟成本",
-          "titleOrig": "Paramount seeks $1.88 billion bond from state AGs to cover costs of WBD merger delay",
-          "url": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T22:07:03+00:00",
-          "desc": "Paramount agreed to delay its proposed acquisition of WBD to as late as June 2027 while the state AGs' case heads to trial.",
-          "hotLabel": "",
-          "summary": "派拉蒙寻求债券以覆盖WBD合并延迟成本。",
-          "analysis": "派拉蒙为延迟收购WBD而寻求债券，反映了并购过程中的风险和不确定性。这可能会影响派拉蒙的财务状况和市场地位，同时也对电影行业和媒体市场的并购趋势产生影响。",
-          "keywords": [
-            "派拉蒙",
-            "WBD",
-            "并购延迟",
-            "债券融资",
-            "电影行业"
-          ],
-          "category": "economy",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/paramount-bond-merger-delay-costs.html"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "美国女演员海登·潘妮特里去世，享年36岁",
-          "titleOrig": "US actress Hayden Panettiere dies at 36",
-          "url": "https://www.dw.com/en/us-actress-hayden-panettiere-dies-at-36/a-78391169?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T06:16:00+00:00",
-          "desc": "Hayden Panettiere's death was announced by her father in a statement to US network ABC news. The actress was known for her roles in TV shows such as \"Nashville\" and \"Heroes.\"",
-          "hotLabel": "",
-          "summary": "美国女演员海登·潘妮特里因疾病去世。",
-          "analysis": "海登·潘妮特里的去世是影视界的损失，她的作品在多个领域都有深远影响。这一事件反映了演艺界人才的脆弱性和健康问题的重要性。对于粉丝和业界来说，这是一个悲伤的时刻，同时也提醒人们关注明星的生活和工作压力。",
-          "keywords": [
-            "海登·潘妮特里",
-            "去世",
-            "演艺界",
-            "健康问题",
-            "粉丝"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/us-actress-hayden-panettiere-dies-at-36/a-78391169?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，经济领域政策导向明确，石油天然气“十五五”规划印发，社保全额实缴政策推进，同时经济放缓迹象加剧，引发市场关注。社会层面，王石再创业、韩杰因医疗事故被判刑等事件反映社会进步与法治建设。科技领域，加密暗号技术展现我国技术实力，但AI博主停更现象值得关注。国际关系方面，我国在乌克兰问题上的立场鲜明，同时与印尼等国的交流合作持续推进。总体来看，国内政策与社会动向呈现出经济稳健、法治进步、科技崛起、国际关系稳定的态势。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "石油天然气发展“十五五”规划印发",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E7%9F%B3%E6%B2%B9%E5%A4%A9%E7%84%B6%E6%B0%94%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92%E5%8D%B0%E5%8F%91",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "国家发布石油天然气发展五年规划",
-          "analysis": "该规划的印发标志着国家对于能源安全的高度重视。规划可能涉及增加国内能源供应，提高能源利用效率，以及推动能源产业技术创新。对国内经济而言，这可能促进能源产业的健康发展，对民生和环境保护产生积极影响。后续政策执行将直接影响国家能源安全和经济发展。",
-          "keywords": [
-            "石油天然气",
-            "发展规划",
-            "能源安全",
-            "技术创新"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E7%9F%B3%E6%B2%B9%E5%A4%A9%E7%84%B6%E6%B0%94%E5%8F%91%E5%B1%95%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E8%A7%84%E5%88%92%E5%8D%B0%E5%8F%91"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "美国在AI竞赛中资金或权力：关键因素",
-          "titleOrig": "CNBC's The China Connection newsletter: Money or power? The key to winning the AI race",
-          "url": "https://www.cnbc.com/2026/08/17/money-or-power-the-key-to-winning-the-us-china-ai-race.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T23:00:01+00:00",
-          "desc": "The U.S. can outspend China in financing artificial intelligence development, but is that the only factor that matters?",
-          "hotLabel": "",
-          "summary": "美国在人工智能发展上投入巨大，但资金是否是唯一决定因素？",
-          "analysis": "美国在人工智能领域的投入巨大，反映了其对于科技竞争的重视。这一举措背后是美国政府对于未来科技制高点的战略布局。资金投入是推动技术发展的关键，但并非唯一因素。中国在人工智能领域的快速发展，也表明了其在政策支持、人才培养等方面的综合实力。这场竞赛的关键影响在于，它将推动全球科技竞争格局的变化，对国内民生、经济和治理意味着必须加快科技创新步伐，提升国家竞争力。后续走向可能包括中美两国在人工智能领域的合作与竞争加剧。",
-          "keywords": [
-            "人工智能",
-            "科技竞争",
-            "美国",
-            "中国",
-            "政策"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/17/money-or-power-the-key-to-winning-the-us-china-ai-race.html"
-            },
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%A7%AF%E9%87%91%E7%94%A8%E9%80%94%E5%8F%88%E5%8F%98%E5%A4%9A%E4%BA%86%23&t=31&band_rank=10&Refer=top"
-            },
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E9%87%91%E6%97%BC%E7%82%A1%E5%A7%94%E5%A9%89%E8%A1%A8%E8%BE%BE%E4%B8%8D%E5%96%9C%E6%AC%A2&t=31&band_rank=16&Refer=top"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "3到5年内社保走向全额实缴",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=3%E5%88%B05%E5%B9%B4%E5%86%85%E7%A4%BE%E4%BF%9D%E8%B5%B0%E5%90%91%E5%85%A8%E9%A2%9D%E5%AE%9E%E7%BC%B4",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "我国将在3到5年内实现社保全额实缴。",
-          "analysis": "社保全额实缴政策旨在加强社保基金的管理和征缴，确保社保制度的可持续性。对国内民生而言，这一政策有助于提高社会保障水平。对治理意味着加强社保制度建设，提高社会保障的公平性和有效性。",
-          "keywords": [
-            "社保",
-            "全额实缴",
-            "社会保障",
-            "政策调整",
-            "民生"
-          ],
-          "category": "society",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=3%E5%88%B05%E5%B9%B4%E5%86%85%E7%A4%BE%E4%BF%9D%E8%B5%B0%E5%90%91%E5%85%A8%E9%A2%9D%E5%AE%9E%E7%BC%B4"
-            }
-          ],
-          "rank": 3
         },
         {
           "title": "中国经济放缓迹象加剧",
@@ -888,22 +610,115 @@
           "publishedAt": "2026-08-17T15:36:25+00:00",
           "desc": "Industrial output and retail sales slump in July after one of the country’s weakest quarterly growth rates everChina’s economy is showing signs of extending a slowdown with a slump in industrial output and retail sales in July, adding to pressure on Beijing to intervene with measures to support acti",
           "hotLabel": "",
-          "summary": "7月工业产出和零售销售下滑，中国经济放缓压力增大。",
-          "analysis": "7月份中国工业产出和零售销售数据下滑，显示出经济放缓的迹象。这可能与国内外多重因素有关，包括全球经济增长放缓、国内需求减弱等。政策层面，这可能促使政府采取更多措施来刺激经济，如减税降费、扩大基础设施投资等。对国内民生和经济意味着可能面临就业压力和消费减少等问题。后续走向可能包括政府出台更多刺激经济的政策，以及经济结构调整的深化。",
+          "summary": "7月份工业产出和零售销售下滑，经济增长放缓。",
+          "analysis": "中国经济的放缓可能对全球经济产生连锁反应，特别是在全球供应链中扮演重要角色的背景下。关键影响包括全球经济增速的放缓，以及可能对国际贸易和投资的影响。后续走向可能包括中国政府采取更多刺激措施，以及全球经济对中国的依赖程度。",
           "keywords": [
             "中国经济",
-            "经济放缓",
-            "政策干预",
-            "工业产出",
-            "零售销售"
+            "增长放缓",
+            "全球影响",
+            "供应链",
+            "政策干预"
           ],
           "category": "economy",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
-            },
+            }
+          ],
+          "rank": 16,
+          "_score": 86.0
+        },
+        {
+          "title": "地震之后",
+          "titleOrig": "After the Earthquakes",
+          "url": "https://www.nytimes.com/2026/08/17/world/earthquake-response-japan-venezuela.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T04:13:12+00:00",
+          "desc": "Venezuela and Japan both experienced major quakes this summer. Their responses differed, and not just because of money.",
+          "hotLabel": "",
+          "summary": "委内瑞拉和日本都经历了重大地震，但应对方式不同。",
+          "analysis": "地震后的应对反映了不同国家在灾害管理、经济能力和国际援助方面的差异。委内瑞拉的情况可能凸显其国内政治和经济困境，而日本的应对可能成为其他国家的借鉴。",
+          "keywords": [
+            "地震",
+            "灾害管理",
+            "委内瑞拉",
+            "日本",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/earthquake-response-japan-venezuela.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "Tupac Shakur谋杀案审判中事实与虚构的争议",
+          "titleOrig": "A dispute about fact vs. fiction at the trial over Tupac Shakur's 1996 killing",
+          "url": "https://www.npr.org/2026/08/18/g-s1-139061/tupac-shakur-killing-trial",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-18T05:56:44+00:00",
+          "desc": "A prosecutor said that while few have been willing to speak about the 1996 killing of Tupac Shakur, Duane \"Keffe D\" Davis is the \"one person who has a hard time being silent.\"",
+          "hotLabel": "",
+          "summary": "Tupac Shakur谋杀案审判中，一名关键证人面临沉默的困境。",
+          "analysis": "此事件反映了美国司法系统在处理名人案件时的挑战，可能影响案件走向。对美国的司法公正和公众对案件真相的期待产生影响。",
+          "keywords": [
+            "Tupac Shakur",
+            "谋杀案",
+            "审判",
+            "美国",
+            "司法公正"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/18/g-s1-139061/tupac-shakur-killing-trial"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "动画质量糟糕的电影在中国票房大卖",
+          "titleOrig": "Movie that went viral for terrible animation becomes China box office hit",
+          "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T08:35:07+00:00",
+          "desc": "Niu Lai's confusing plot and laughable animation quality has won ironic fans on the internet.",
+          "hotLabel": "",
+          "summary": "动画质量不佳的电影在中国票房取得成功。",
+          "analysis": "该现象可能反映出中国电影市场的特定需求，即观众对娱乐性的追求可能超过对电影质量的关注。对电影产业的影响复杂，一方面可能鼓励更多低质量电影制作，另一方面也反映出电影市场需要更多高质量作品。后续可能包括电影产业的自我调整，以及观众对电影质量要求的提高。",
+          "keywords": [
+            "电影票房",
+            "动画质量",
+            "电影产业",
+            "观众需求",
+            "市场调整"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
@@ -913,15 +728,242 @@
               "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
             },
             {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
+            },
+            {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "西西里岛梅西纳市庆祝宗教节日时发生艺术品盗窃案",
+          "titleOrig": "Art Heist: 4 Antonello da Messina Paintings Stolen From Sicily",
+          "url": "https://www.nytimes.com/2026/08/16/world/europe/italy-renaissance-art-heist.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T07:31:37+00:00",
+          "desc": "The works, by Antonello da Messina, were taken as the Sicilian city of Messina held a religious celebration.",
+          "hotLabel": "",
+          "summary": "4幅安东内洛·达·梅西纳的画作被盗。",
+          "analysis": "这起艺术品盗窃案揭示了意大利在文化遗产保护方面的脆弱性，尤其是在宗教节日等特殊时期。关键影响包括对意大利文化遗产的威胁，以及可能引发的对艺术品的非法交易和市场需求。后续走向可能包括意大利加强文化遗产保护措施，以及国际社会对意大利的援助。",
+          "keywords": [
+            "艺术品盗窃",
+            "文化遗产",
+            "意大利",
+            "宗教节日",
+            "非法交易"
+          ],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/16/world/europe/italy-renaissance-art-heist.html"
+            }
+          ],
+          "rank": 20
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "今日国内形势呈现多领域发展态势。政策层面，平陆运河通航倒计时，预示着中国西南出海新通道的开启；同时，习近平就印尼地震致慰问电，体现了我国在国际事务中的积极参与。经济领域，宇树科技科创板上市，以及电影票房突破260亿，反映出我国经济的活力与潜力。社会层面，杭州涉事招商蛇口高管被免职，凸显了治理现代化的进程；而程序员集体自费上班等现象，则反映了社会就业压力与个人奋斗精神的并存。总体来看，我国正坚定不移走高质量发展之路，新动能积厚成势，但同时也需关注民生问题，确保社会稳定和谐。",
+      "totalSelected": 20,
+      "items": [
+        {
+          "title": "平陆运河通航倒计时 企业抢滩中国西南出海新通道",
+          "titleOrig": "平陆运河通航倒计时 企业“抢滩”中国西南出海新通道 - br-cn.com",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSGhBNVRsMlBzM0owc0hyemFTZXJvQkV4emxQSUhNaTZ4QmpSMjhOUzRVUHNPaG5PYldXVld6N19yTExPcVh3d0VRcWN3UTZ0TWVUSEtXZWlxM01mYW5VaGdYRldPNy1BOEszc29JY0xjQVZjOXVtcVFubHJ1UEFYbWN2cFoteW5neERNVF9B?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-17T12:21:16+00:00",
+          "desc": "平陆运河通航倒计时 企业“抢滩”中国西南出海新通道 br-cn.com超级工程倒计时，失落的“沿海大省”要翻身了 新浪财经广西灵山：平陆运河马道枢纽护航江海连通 人民网图片频道广西钦州：平陆运河野生动物专属通道桥即将投用 新浪财经耗时多年“打捞”文史建馆 六旬老人在平陆运河起点“复原”千年盐埠 手机网易网",
+          "hotLabel": "",
+          "summary": "平陆运河即将通航，企业积极布局西南出海新通道。",
+          "analysis": "平陆运河的通航对于广西等西南地区具有重要的战略意义，它将缩短西南地区出海距离，降低物流成本，促进区域经济发展。此举体现了国家推动区域协调发展战略的意图，对国内民生、经济和治理都有积极影响。后续可能吸引更多企业投资，推动区域经济结构优化升级。",
+          "keywords": [
+            "平陆运河",
+            "西南出海",
+            "区域经济",
+            "物流成本",
+            "发展战略"
+          ],
+          "category": "domestic",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSGhBNVRsMlBzM0owc0hyemFTZXJvQkV4emxQSUhNaTZ4QmpSMjhOUzRVUHNPaG5PYldXVld6N19yTExPcVh3d0VRcWN3UTZ0TWVUSEtXZWlxM01mYW5VaGdYRldPNy1BOEszc29JY0xjQVZjOXVtcVFubHJ1UEFYbWN2cFoteW5neERNVF9B?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "河南周口迎战防汛大考",
+          "titleOrig": "溃口合龙后——沙颍河畔，河南周口接续迎战防汛大考 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tLW01cnJ6eG14OHN3bW1XWHFhNTZCdFU0TUYxZjlWT0tpcXdlTXdEVG5SWkFIWFZVVUdEVTNYTUhlMU51T25IYjBmQmVFX1l3cjZ5SWZGTFZvYW9VT0JIX29JQWdBTG5w?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T02:54:49+00:00",
+          "desc": "溃口合龙后——沙颍河畔，河南周口接续迎战防汛大考 chinanews.com.cn与贾鲁河溃口决战的39小时…… 新浪网直击河南周口积水排涝作业 中青网应对持续强降雨 多地多部门全力抢险救灾保通畅保民生 光明网周廷锋：堤坝溃口封堵前线“挥旗人” people.cctv.com",
+          "hotLabel": "",
+          "summary": "河南周口沙颍河溃口合龙后继续迎战防汛。",
+          "analysis": "河南周口沙颍河溃口合龙体现了中国在面对自然灾害时的应急处理能力。这一事件背后反映了中国政府高度重视民生安全和公共安全，以及加强基础设施建设以应对自然灾害的政策意图。对国内民生意味着政府在保障人民生命财产安全方面的决心，后续可能加强防洪工程建设。",
+          "keywords": [
+            "河南周口",
+            "防汛",
+            "沙颍河",
+            "溃口合龙",
+            "自然灾害"
+          ],
+          "category": "society",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tLW01cnJ6eG14OHN3bW1XWHFhNTZCdFU0TUYxZjlWT0tpcXdlTXdEVG5SWkFIWFZVVUdEVTNYTUhlMU51T25IYjBmQmVFX1l3cjZ5SWZGTFZvYW9VT0JIX29JQWdBTG5w?oc=5"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "特朗普为何在朝鲜问题上转变立场？",
+          "titleOrig": "Watch: Why has Trump shifted on North Korea?",
+          "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T23:42:38+00:00",
+          "desc": "Trump said the US will \"substantially reduce\" joint military exercises with South Korea, citing his \"very good relationship\" with Kim Jong Un.",
+          "hotLabel": "",
+          "summary": "特朗普表示将大幅缩减与韩国的联合军演规模。",
+          "analysis": "特朗普在朝鲜问题上的转变可能基于对朝鲜半岛局势的新认识，以及对朝鲜领导人的个人关系。此举可能旨在通过外交途径解决朝鲜半岛问题，减少地区紧张。对国际局势有重要影响，可能改变朝鲜半岛的地缘政治格局。后续可能包括美朝关系的进一步发展，以及韩国和日本对此的反应。",
+          "keywords": [
+            "特朗普",
+            "朝鲜",
+            "军演缩减",
+            "国际关系",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/videos/cy45zjw424xo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-south-korea-alliance"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "渤海北部海域执行军事任务",
+          "titleOrig": "航行警告！渤海北部部分海域执行军事任务 禁止驶入 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jWmM2eVhaLXIxRDF3aGlWNGZuVFZyZlZlRUFka1hxR2pjMDVWZHl2ZmlhbDNPWHhPa2xPZGg4VUZGOS1fbm11SDNOVm5oZ3pPX3JRODVCbDRleVZFakMxUWN1amhtcnRCTUZ0XzhZdw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T03:46:00+00:00",
+          "desc": "航行警告！渤海北部部分海域执行军事任务 禁止驶入 中国经济网渤海北部部分海域进行军事演习，禁止驶入 军事频道如何查询未来的禁航通告？ 新浪财经解放軍在渤海海峽黃海北部軍演 16日起一連兩周禁航 世界新聞網航行警告！渤海海峡黄海北部部分海域执行军事任务 紫牛新闻",
+          "hotLabel": "",
+          "summary": "渤海北部部分海域执行军事任务。",
+          "analysis": "渤海北部海域执行军事任务体现了中国维护国家安全和海洋权益的决心。这一事件背后反映了中国加强国防建设和提升军事能力的政策意图。对国内治理意味着中国在维护国家主权和领土完整方面的坚定立场，后续可能加强海洋权益的维护。",
+          "keywords": [
+            "渤海北部",
+            "军事任务",
+            "国家安全",
+            "海洋权益",
+            "国防建设"
+          ],
+          "category": "domestic",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jWmM2eVhaLXIxRDF3aGlWNGZuVFZyZlZlRUFka1hxR2pjMDVWZHl2ZmlhbDNPWHhPa2xPZGg4VUZGOS1fbm11SDNOVm5oZ3pPX3JRODVCbDRleVZFakMxUWN1amhtcnRCTUZ0XzhZdw?oc=5"
             }
           ],
           "rank": 4
         },
         {
-          "title": "宇树科技8月19日科创板上市",
-          "titleOrig": "",
+          "title": "特朗普称金正恩有回应，美韩军演规模缩减",
+          "titleOrig": "详讯：特朗普称金正恩有回应 美国防部正落实缩小美韩军演指示 - 共同网",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBzNGw0Q0JjRXBHZ04zdWpWaDlHZjcxM01zMGxQT0Z2VW9pS285RXJnTGh6YzR5Q2NIX0xsUU1XYkliUHpaNWsxcERxUGRSRHN6UmFHbkRibw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T03:42:14+00:00",
+          "desc": "详讯：特朗普称金正恩有回应 美国防部正落实缩小美韩军演指示 共同网“要帮我们打伊朗吗？”“不了，谢谢” 观察者美国“缩减”美韩联合军演规模暴露政策挫败感 中青网外交部：维护朝鲜半岛和平稳定符合各方共同利益 中国日报网特朗普：已指示国防部“大幅缩减”与韩国联合军演规模 新浪财经",
+          "hotLabel": "",
+          "summary": "特朗普表示将缩减美韩军演规模，金正恩有回应。",
+          "analysis": "特朗普缩减美韩军演规模，背后可能是对朝鲜半岛局势的重新评估，旨在降低紧张局势，寻求和平解决途径。此举可能反映了美国在朝鲜半岛政策上的调整，以及对朝鲜的示好。对国内民生和经济影响有限，但对国际局势和地区安全有重要影响。后续可能包括美朝对话的进一步发展，以及韩国对军演缩减的反应。",
+          "keywords": [
+            "特朗普",
+            "金正恩",
+            "美韩军演",
+            "朝鲜半岛",
+            "和平"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBzNGw0Q0JjRXBHZ04zdWpWaDlHZjcxM01zMGxQT0Z2VW9pS285RXJnTGh6YzR5Q2NIX0xsUU1XYkliUHpaNWsxcERxUGRSRHN6UmFHbkRibw?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "宇树科技科创板上市",
+          "titleOrig": "宇树科技8月19日科创板上市",
           "url": "https://www.zhihu.com/search?q=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%808%E6%9C%8819%E6%97%A5%E7%A7%91%E5%88%9B%E6%9D%BF%E4%B8%8A%E5%B8%82",
           "source": "知乎热榜",
           "sourceId": "zhihu",
@@ -932,8 +974,8 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "宇树科技将于8月19日在科创板上市。",
-          "analysis": "宇树科技科创板上市，体现了我国资本市场对科技创新企业的支持。科创板为科技创新企业提供了融资平台，有助于推动产业升级。对国内经济而言，这有助于提高市场活力。对治理意味着加强资本市场建设，促进创新驱动发展。",
+          "summary": "宇树科技在科创板成功上市。",
+          "analysis": "宇树科技科创板上市体现了中国资本市场对科技创新企业的支持。这一事件背后反映了中国政策意图鼓励创新和科技发展，同时也表明了市场对高科技创新企业的认可。对国内经济意味着资本市场对创新企业的支持，有助于推动经济转型升级。后续可能吸引更多科技企业上市，促进资本市场发展。",
           "keywords": [
             "宇树科技",
             "科创板",
@@ -949,363 +991,151 @@
               "url": "https://www.zhihu.com/search?q=%E5%AE%87%E6%A0%91%E7%A7%91%E6%8A%808%E6%9C%8819%E6%97%A5%E7%A7%91%E5%88%9B%E6%9D%BF%E4%B8%8A%E5%B8%82"
             }
           ],
-          "rank": 5
-        },
-        {
-          "title": "17亿全额付款土地被无偿收回",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=17%E4%BA%BF%E5%85%A8%E9%A2%9D%E4%BB%98%E6%AC%BE%E5%9C%9F%E5%9C%B0%E8%A2%AB%E6%97%A0%E5%81%BF%E6%94%B6%E5%9B%9E",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "巨额土地投资被无偿收回引发争议",
-          "analysis": "这一事件可能涉及地方政府与开发商之间的利益纠纷。全额付款的土地被无偿收回可能暴露了土地管理制度的漏洞，影响投资者信心。对国内经济而言，可能加剧房地产市场的波动，对地方政府财政和土地市场产生深远影响。后续可能引发对土地管理法规的修订。",
-          "keywords": [
-            "土地收回",
-            "投资",
-            "房地产市场",
-            "地方政府"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=17%E4%BA%BF%E5%85%A8%E9%A2%9D%E4%BB%98%E6%AC%BE%E5%9C%9F%E5%9C%B0%E8%A2%AB%E6%97%A0%E5%81%BF%E6%94%B6%E5%9B%9E"
-            }
-          ],
           "rank": 6
         },
         {
-          "title": "75岁王石再创业",
-          "titleOrig": "75岁王石又创业了",
-          "url": "https://www.baidu.com/s?wd=75%E5%B2%81%E7%8E%8B%E7%9F%B3%E5%8F%88%E5%88%9B%E4%B8%9A%E4%BA%86",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "特朗普向朝鲜示好，加剧与韩国的联盟紧张",
+          "titleOrig": "Trump’s Overture to North Korea Strains Alliance With the South",
+          "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T10:57:48+00:00",
+          "desc": "President Trump wants to curtail military exercises with South Korea, saying they were hostile to North Korea. But under Mr. Kim, the North has become increasingly belligerent toward the South.",
           "hotLabel": "",
-          "summary": "前万科董事长王石宣布再次创业。",
-          "analysis": "王石作为商业领袖，再次创业体现了中国企业家精神的传承。这一事件背后反映了中国鼓励创新创业的政策意图，同时也可能激发更多老年人投身创业。对国内经济和社会治理意味着鼓励多元化发展，提高市场活力。后续可能带来新的商业模式和就业机会。",
+          "summary": "特朗普缩减美韩军演规模，加剧与韩国的联盟紧张。",
+          "analysis": "特朗普向朝鲜示好，缩减美韩军演规模，可能引起韩国的不安，加剧与韩国的联盟紧张。这反映了美国在朝鲜半岛政策上的不确定性，以及对韩国盟友关系的挑战。对国际局势和地区安全有重要影响，可能影响韩国的国防政策和地区战略选择。",
           "keywords": [
-            "王石",
-            "创业",
-            "企业家精神",
-            "政策支持",
-            "市场活力"
+            "特朗普",
+            "美韩关系",
+            "军演缩减",
+            "韩国",
+            "国际局势"
           ],
-          "category": "domestic",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=75%E5%B2%81%E7%8E%8B%E7%9F%B3%E5%8F%88%E5%88%9B%E4%B8%9A%E4%BA%86"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/trump-korea-military-kim-jong-un.html"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2lll7zvn0o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/17/trump-south-korea-alliance"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/17/trump-cuts-south-korea-joint-drills-us-military-good-relationship-kim-jong-un"
             }
           ],
           "rank": 7
         },
         {
-          "title": "未来5年我国能源蓝图划重点",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E8%93%9D%E5%9B%BE%E5%88%92%E9%87%8D%E7%82%B9%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "日本、英国6月抛售美国国债",
+          "titleOrig": "日本、英国6月抛售美国国债 - 东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ea3VfYTlhblpNQzFOV1FHbGJMQ3lpdjVVcDdpY2JZTmRuYzlTYUNiTzdwaXN3ejZvaTRMQVdEOHJuNHFwNVc0cUxkUWNKV1VPRkY1XzZWWDM3VUJORjVQUw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "我国发布未来5年能源发展重点规划。",
-          "analysis": "未来5年能源蓝图体现了我国在能源领域的战略规划和政策导向。这包括推动能源结构调整、提高能源利用效率、发展清洁能源等。对国内经济和社会意味着将促进绿色低碳发展，提高能源安全水平。后续走向可能包括具体政策的实施、能源结构的优化，以及相关产业的升级。",
+          "publishedAt": "2026-08-17T21:33:37+00:00",
+          "desc": "日本、英国6月抛售美国国债 东方财富继续减持美债 中国6月持有美债规模较5月下降4% 同花顺财经6月份外国持有的美国国债数量下降，日本减持规模居首 华尔街见闻美债最大海外债主集体撤退？中国持仓创2008年来新低英国终结五连增_债券_全球资讯 bihainews.com隔夜美股 | 中日英6月均减持美债 三大指数收跌 闪迪(SNDK.US)涨近9% Moomoo",
+          "hotLabel": "",
+          "summary": "日本和英国6月减持美国国债，中国持有美债规模下降。",
+          "analysis": "日本和英国减持美国国债可能反映了全球经济形势变化和各国货币政策调整。中国减持美债可能意味着对美元信用的重新评估，以及对多元化投资组合的需求。这对全球经济和金融稳定有潜在影响，也可能推动中国金融市场的发展。",
           "keywords": [
-            "能源蓝图",
-            "能源结构",
-            "清洁能源",
-            "政策导向",
-            "绿色低碳"
+            "美债",
+            "减持",
+            "日本",
+            "英国",
+            "货币政策"
           ],
           "category": "economy",
           "importance": 75,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E8%93%9D%E5%9B%BE%E5%88%92%E9%87%8D%E7%82%B9%23&t=31&band_rank=3&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5Ea3VfYTlhblpNQzFOV1FHbGJMQ3lpdjVVcDdpY2JZTmRuYzlTYUNiTzdwaXN3ejZvaTRMQVdEOHJuNHFwNVc0cUxkUWNKV1VPRkY1XzZWWDM3VUJORjVQUw?oc=5"
             },
-            {
-              "name": "抖音热点",
-              "url": "https://www.douyin.com/search/%E6%9C%AA%E6%9D%A55%E5%B9%B4%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E8%93%9D%E5%9B%BE%E5%88%92%E9%87%8D%E7%82%B9"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "儿科医生韩杰因医疗事故罪被判刑",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E9%9F%A9%E6%9D%B0%E5%9B%A0%E5%8C%BB%E7%96%97%E4%BA%8B%E6%95%85%E7%BD%AA%E8%A2%AB%E5%88%A4%E5%88%91",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "儿科医生韩杰因医疗事故被判刑。",
-          "analysis": "此事件凸显了我国对医疗事故的严肃态度。医疗事故罪入刑，体现了法律对医疗行业的严格监管。对国内民生而言，这一判决有助于提高医疗质量，保障患者权益。对治理意味着强化医疗行业监管，提高医疗服务水平。",
-          "keywords": [
-            "医疗事故",
-            "医生",
-            "判刑",
-            "医疗监管",
-            "患者权益"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E5%84%BF%E7%A7%91%E5%8C%BB%E7%94%9F%E9%9F%A9%E6%9D%B0%E5%9B%A0%E5%8C%BB%E7%96%97%E4%BA%8B%E6%95%85%E7%BD%AA%E8%A2%AB%E5%88%A4%E5%88%91"
             }
           ],
+          "rank": 8
+        },
+        {
+          "title": "习近平就印尼地震致慰问电",
+          "titleOrig": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电 - 中国共产党新闻网",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xYUF3WS1HZ1NJWWhSbzQ1b3F5dXBoZlN1RnV3ZnVESHJQdU1UekswQ3NCOUZPNUtHd0ZjUHpZcVBKVW8xWXlvcV9LcENvVElHM0h0VGt5ZHE5QTRWbnp2SDFVY21qN1NGZm1V?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T00:30:00+00:00",
+          "desc": "习近平就印度尼西亚发生强烈地震向印尼总统普拉博沃致慰问电 中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "习近平就印尼地震向印尼总统致慰问电。",
+          "analysis": "习近平就印尼地震致慰问电体现了中国在国际事务中的负责任态度和对外友好政策。这一事件背后反映了中国在国际社会中的地位和影响力，以及对地区稳定和合作的重视。对国际关系意味着中国积极参与国际事务，推动构建人类命运共同体。",
+          "keywords": [
+            "习近平",
+            "印尼地震",
+            "慰问电",
+            "国际关系",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xYUF3WS1HZ1NJWWhSbzQ1b3F5dXBoZlN1RnV3ZnVESHJQdU1UekswQ3NCOUZPNUtHd0ZjUHpZcVBKVW8xWXlvcV9LcENvVElHM0h0VGt5ZHE5QTRWbnp2SDFVY21qN1NGZm1V?oc=5"
+            }
+          ],
           "rank": 9
         },
         {
-          "title": "日本人在乌克兰成立战斗分队",
-          "titleOrig": "日本人战斗分队在乌成立",
-          "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%88%98%E6%96%97%E5%88%86%E9%98%9F%E5%9C%A8%E4%B9%8C%E6%88%90%E7%AB%8B",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "2026年度电影总票房突破260亿，“龙餐馆”口碑票房双走高",
+          "titleOrig": "2026年度电影总票房突破260亿 “龙餐馆”口碑票房双走高 - hn.chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNnY1ZFlhUF95LTl3NHJuRFpGQzJSbUlMUG9BVmZLLVpUSXFmSXhZTEVpY0dUbWpxVUJOMnFHeFZZaDRyc3lpam1kajhoSUNkbzNMWVBPaGp0ZlVBWE9KTTJSVTJaSmI0Y1Rac0JnNA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-08-18T04:38:00+00:00",
+          "desc": "2026年度电影总票房突破260亿 “龙餐馆”口碑票房双走高 hn.chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "日本在乌克兰成立战斗分队引发关注",
-          "analysis": "这一事件反映了日本在国际事务中日益活跃的姿态。日本成立战斗分队可能是为了在乌克兰危机中支持其盟友，同时展示其国防实力。这一举动可能加剧地区紧张局势，并对中日关系产生影响。对国内而言，可能引发对日本军事扩张的担忧，对国际关系的影响可能进一步影响中国的外交政策。",
+          "summary": "2026年度中国电影总票房突破260亿，其中“龙餐馆”表现突出。",
+          "analysis": "电影总票房突破260亿，显示出中国电影市场的强劲增长。其中“龙餐馆”的口碑和票房双丰收，反映了观众对高质量电影的需求。对经济有正面影响，推动电影产业繁荣，对文化输出也有积极作用。后续可能看到更多高质量电影的推出，以及电影市场的进一步扩大。",
           "keywords": [
-            "日本",
-            "战斗分队",
-            "乌克兰",
-            "国际关系"
+            "电影票房",
+            "龙餐馆",
+            "电影市场",
+            "文化输出",
+            "经济"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 75,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%97%A5%E6%9C%AC%E4%BA%BA%E6%88%98%E6%96%97%E5%88%86%E9%98%9F%E5%9C%A8%E4%B9%8C%E6%88%90%E7%AB%8B"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zNnY1ZFlhUF95LTl3NHJuRFpGQzJSbUlMUG9BVmZLLVpUSXFmSXhZTEVpY0dUbWpxVUJOMnFHeFZZaDRyc3lpam1kajhoSUNkbzNMWVBPaGp0ZlVBWE9KTTJSVTJaSmI0Y1Rac0JnNA?oc=5"
             }
           ],
           "rank": 10
-        },
-        {
-          "title": "只有中国人才能识别的加密暗号",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%8F%AA%E6%9C%89%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%89%8D%E8%83%BD%E8%AF%86%E5%88%AB%E7%9A%84%E5%8A%A0%E5%AF%86%E6%9A%97%E5%8F%B7&t=31&band_rank=5&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "出现了一种只有中国人才能识别的加密暗号。",
-          "analysis": "该事件可能涉及文化差异和语言特点，体现了中国文化的独特性。对科技领域意味着跨文化交流和语言技术的挑战。后续可能促进相关技术的研究和应用。",
-          "keywords": [
-            "加密暗号",
-            "中国文化",
-            "语言技术",
-            "跨文化交流",
-            "科技研究"
-          ],
-          "category": "tech",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%8F%AA%E6%9C%89%E4%B8%AD%E5%9B%BD%E4%BA%BA%E6%89%8D%E8%83%BD%E8%AF%86%E5%88%AB%E7%9A%84%E5%8A%A0%E5%AF%86%E6%9A%97%E5%8F%B7&t=31&band_rank=5&Refer=top"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "高铁咸猪手男子被行政拘留",
-          "titleOrig": "高铁咸猪手男子被拘留",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%93%81%E5%92%B8%E7%8C%AA%E6%89%8B%E7%94%B7%E5%AD%90%E8%A2%AB%E6%8B%98%E7%95%99%23&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "高铁乘客咸猪手事件，男子被拘留。",
-          "analysis": "此事件反映了我国对公共场所秩序的重视。随着社会文明的进步，公众对个人行为规范的要求越来越高。行政拘留是对违法行为的严肃处理，有助于维护社会秩序和公共道德。对国内民生而言，此类事件提醒人们遵守公共秩序，对治理意味着强化法治意识，提高公共安全。",
-          "keywords": [
-            "高铁",
-            "咸猪手",
-            "行政拘留",
-            "公共秩序",
-            "道德"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%93%81%E5%92%B8%E7%8C%AA%E6%89%8B%E7%94%B7%E5%AD%90%E8%A2%AB%E6%8B%98%E7%95%99%23&t=31&band_rank=9&Refer=top"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "习近平向印尼总统普拉博沃致慰问电",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%91%E5%8D%B0%E5%B0%BC%E6%80%BB%E7%BB%9F%E6%99%AE%E6%8B%89%E5%8D%9A%E6%B2%83%E8%87%B4%E6%85%B0%E9%97%AE%E7%94%B5",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "习近平向印尼总统致慰问电，加强双边关系",
-          "analysis": "这一举动体现了中国对印尼的重要性和两国关系的重视。通过慰问电，中国可能旨在加强与印尼的政治互信，促进区域合作。对国内社会而言，这有助于提升中国在国际舞台上的形象，对国际关系的影响可能促进地区稳定和经济发展。",
-          "keywords": [
-            "习近平",
-            "印尼总统",
-            "慰问电",
-            "双边关系"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%90%91%E5%8D%B0%E5%B0%BC%E6%80%BB%E7%BB%9F%E6%99%AE%E6%8B%89%E5%8D%9A%E6%B2%83%E8%87%B4%E6%85%B0%E9%97%AE%E7%94%B5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "中方回应100余名中国公民在巴被拘留",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94100%E4%BD%99%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9C%A8%E5%B7%B4%E8%A2%AB%E6%8B%98%E7%95%99",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "中国公民在巴被拘留，中国外交部回应",
-          "analysis": "中国公民在巴被拘留事件可能涉及外交保护和公民权益。中国外交部的回应体现了中国对海外公民安全的重视。对国内社会而言，这可能引发对海外公民安全的关注，对国际关系的影响可能促使中国加强与其他国家的外交合作。",
-          "keywords": [
-            "中国公民",
-            "巴被拘留",
-            "外交保护",
-            "公民权益"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94100%E4%BD%99%E5%90%8D%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%9C%A8%E5%B7%B4%E8%A2%AB%E6%8B%98%E7%95%99"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "动画质量差的电影在中国票房大卖",
-          "titleOrig": "Movie that went viral for terrible animation becomes China box office hit",
-          "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-17T08:35:07+00:00",
-          "desc": "Niu Lai's confusing plot and laughable animation quality has won ironic fans on the internet.",
-          "hotLabel": "",
-          "summary": "一部动画质量差的电影在中国成为票房黑马。",
-          "analysis": "该事件揭示了市场对娱乐内容的多样性需求，以及中国电影市场的巨大潜力。从社会成因来看，这可能与观众对新鲜内容的追求有关。对国内电影产业意味着需要提高制作质量，同时也可能引发对电影审查制度的讨论。后续可能促进电影产业的自我革新。",
-          "keywords": [
-            "电影",
-            "票房",
-            "动画质量",
-            "市场需求",
-            "电影产业"
-          ],
-          "category": "domestic",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 15
         },
         {
           "title": "杭州涉事招商蛇口高管已被免职",
@@ -1321,23 +1151,63 @@
           "desc": "",
           "hotLabel": "",
           "summary": "杭州招商蛇口涉事高管被免职。",
-          "analysis": "涉事高管被免职体现了我国对于企业违规行为的零容忍态度。这一事件可能涉及公司治理、行业规范等问题。对国内企业治理和行业规范意味着需要加强内部管理，提高合规意识。后续走向可能包括相关部门的调查结果公布，以及行业监管的加强。",
+          "analysis": "高管被免职通常与公司治理、违规操作或负面事件有关。这体现了公司对内部问题的重视和治理结构的完善。后续可能涉及更深入的调查和整改措施。",
           "keywords": [
             "招商蛇口",
             "高管免职",
-            "企业治理",
-            "行业规范",
-            "政策监管"
+            "公司治理",
+            "违规操作",
+            "调查整改"
           ],
-          "category": "society",
-          "importance": 65,
+          "category": "domestic",
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E6%9D%AD%E5%B7%9E%E6%B6%89%E4%BA%8B%E6%8B%9B%E5%95%86%E8%9B%87%E5%8F%A3%E9%AB%98%E7%AE%A1%E5%B7%B2%E8%A2%AB%E5%85%8D%E8%81%8C%23&t=31&band_rank=8&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E9%93%81%E5%92%B8%E7%8C%AA%E6%89%8B%E7%94%B7%E5%AD%90%E8%A2%AB%E6%8B%98%E7%95%99%23&t=31&band_rank=9&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%85%AC%E7%A7%AF%E9%87%91%E7%94%A8%E9%80%94%E5%8F%88%E5%8F%98%E5%A4%9A%E4%BA%86%23&t=31&band_rank=10&Refer=top"
             }
           ],
-          "rank": 16
+          "rank": 11
+        },
+        {
+          "title": "《给阿嬷的情书》触动印尼年轻华裔",
+          "titleOrig": "东西问丨张锦雄、黄愿字：从侨批到身份认同，《给阿嬷的情书》何以触动印尼年轻华裔？ - chinaqw.com",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hZ3FSZmp2MzFkR3IyMTRORS1QT0JBVDlHUFBFUk9SZFVBMDNKSEhpQy1IWXFkYTUtQ1ZMRi1WS1lPQ0tlVGxCOHF0R29HQU51eFZrQzZBMDBxd1o1aS1LUg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T00:58:00+00:00",
+          "desc": "东西问丨张锦雄、黄愿字：从侨批到身份认同，《给阿嬷的情书》何以触动印尼年轻华裔？ chinaqw.com在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "《给阿嬷的情书》触动印尼年轻华裔。",
+          "analysis": "《给阿嬷的情书》触动印尼年轻华裔反映了中华文化在海外的影响力。这一事件背后反映了中国文化软实力的提升，以及华人在海外社群中的文化传承和身份认同。对社会文化意味着中华文化在海外传播的重要性，后续可能促进中华文化在海外的交流与合作。",
+          "keywords": [
+            "给阿嬷的情书",
+            "印尼华裔",
+            "中华文化",
+            "身份认同",
+            "文化传承"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9hZ3FSZmp2MzFkR3IyMTRORS1QT0JBVDlHUFBFUk9SZFVBMDNKSEhpQy1IWXFkYTUtQ1ZMRi1WS1lPQ0tlVGxCOHF0R29HQU51eFZrQzZBMDBxd1o1aS1LUg?oc=5"
+            }
+          ],
+          "rank": 12
         },
         {
           "title": "程序员正在集体自费上班",
@@ -1352,16 +1222,16 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "程序员集体自费上班现象引发关注。",
-          "analysis": "程序员自费上班现象反映了我国互联网行业的竞争激烈。在求职压力和收入期望之间，部分程序员选择自费上班以获得工作经验。对国内经济而言，这一现象可能加剧人才竞争。对治理意味着关注互联网行业健康发展，平衡就业市场。",
+          "summary": "程序员自费上班现象引发关注。",
+          "analysis": "程序员自费上班可能由于就业市场竞争激烈、个人职业发展需求或公司政策调整。这反映了劳动力市场的变化和程序员职业压力的增加。后续可能促使企业调整用工政策，或影响相关行业的发展。",
           "keywords": [
             "程序员",
             "自费上班",
-            "互联网行业",
-            "人才竞争",
-            "就业市场"
+            "就业市场",
+            "职业压力",
+            "行业影响"
           ],
-          "category": "economy",
+          "category": "society",
           "importance": 65,
           "sources": [
             {
@@ -1369,39 +1239,217 @@
               "url": "https://www.zhihu.com/search?q=%E7%A8%8B%E5%BA%8F%E5%91%98%E6%AD%A3%E5%9C%A8%E9%9B%86%E4%BD%93%E8%87%AA%E8%B4%B9%E4%B8%8A%E7%8F%AD"
             }
           ],
-          "rank": 17
+          "rank": 13
         },
         {
-          "title": "曹骏初舞台票数倒挂",
-          "titleOrig": "曹骏初舞台人气票数倒挂",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%B9%E9%AA%8F%E5%88%9D%E8%88%9E%E5%8F%B0%E4%BA%BA%E6%B0%94%E7%A5%A8%E6%95%B0%E5%80%92%E6%8C%82&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "动画质量糟糕的电影在中国票房大卖",
+          "titleOrig": "Movie that went viral for terrible animation becomes China box office hit",
+          "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-17T08:35:07+00:00",
+          "desc": "Niu Lai's confusing plot and laughable animation quality has won ironic fans on the internet.",
           "hotLabel": "",
-          "summary": "艺人曹骏在初舞台票数上出现异常。",
-          "analysis": "票数倒挂可能反映了粉丝投票行为的不正常现象，背后可能存在粉丝经济、网络暴力等社会问题。对娱乐圈和粉丝文化有警示作用，提示行业规范和粉丝行为引导的重要性。后续可能引发行业内部对公平竞争的讨论。",
+          "summary": "动画质量不佳的电影在中国票房取得成功。",
+          "analysis": "该现象可能反映出中国电影市场的特定需求，即观众对娱乐性的追求可能超过对电影质量的关注。对电影产业的影响复杂，一方面可能鼓励更多低质量电影制作，另一方面也反映出电影市场需要更多高质量作品。后续可能包括电影产业的自我调整，以及观众对电影质量要求的提高。",
           "keywords": [
-            "曹骏",
-            "票数倒挂",
-            "粉丝经济",
-            "娱乐圈",
-            "公平竞争"
+            "电影票房",
+            "动画质量",
+            "电影产业",
+            "观众需求",
+            "市场调整"
           ],
           "category": "society",
           "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%9B%B9%E9%AA%8F%E5%88%9D%E8%88%9E%E5%8F%B0%E4%BA%BA%E6%B0%94%E7%A5%A8%E6%95%B0%E5%80%92%E6%8C%82&t=31&band_rank=4&Refer=top"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c4g4r0mrmlpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "首都机场集团党委传达学习习近平总书记在纪念江泽民同志诞辰100周年大会上的重要讲话精神 - 中国民航网",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5admRmaFpteWtRSlZ1TjV5Z01wT2g5SnVnTlh1a3ExbVNkaExCUXRVSXZJM1IzbUF6cGh6aEVYa0g3UjhScmZfYnlSMVdyYnc4cXZUdTYtU3hmb1hKWjJkc24xZTAwelhFdTJISA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T03:26:00+00:00",
+          "desc": "首都机场集团党委传达学习习近平总书记在纪念江泽民同志诞辰100周年大会上的重要讲话精神 中国民航网江泽民纪念规格比肩“开国元老”：中共如何纪念已故领导人？ BBC在江泽民生平和思想研讨会上的讲话 人民日报习近平为何高调纪念江泽民百年诞辰？ 美国之音纪念江泽民同志诞辰100周年大会在京隆重举行（附图片） 新浪财经",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5admRmaFpteWtRSlZ1TjV5Z01wT2g5SnVnTlh1a3ExbVNkaExCUXRVSXZJM1IzbUF6cGh6aEVYa0g3UjhScmZfYnlSMVdyYnc4cXZUdTYtU3hmb1hKWjJkc24xZTAwelhFdTJISA?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0tLW01cnJ6eG14OHN3bW1XWHFhNTZCdFU0TUYxZjlWT0tpcXdlTXdEVG5SWkFIWFZVVUdEVTNYTUhlMU51T25IYjBmQmVFX1l3cjZ5SWZGTFZvYW9VT0JIX29JQWdBTG5w?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4xYUF3WS1HZ1NJWWhSbzQ1b3F5dXBoZlN1RnV3ZnVESHJQdU1UekswQ3NCOUZPNUtHd0ZjUHpZcVBKVW8xWXlvcV9LcENvVElHM0h0VGt5ZHE5QTRWbnp2SDFVY21qN1NGZm1V?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "中国特色城市治理现代化的科学指南 - 求是",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56NmZCbzNqLURrQ1g4a1ZuS0dCX3RYOS16dW1yTzdDaVcxQkROSnM0Z28tZFZpcnN6ZkN3b1JkS3VVcDdtR01nUWR6TUdHcGNKNWxBNkJMYmFqbnpuTXVzUEk3WWJJY3lMMmNFZXhyX2RkQmlpZmtFZ0cxSzU?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T00:46:01+00:00",
+          "desc": "中国特色城市治理现代化的科学指南 求是四川出台城市更新“十五五”规划 新浪财经连片更新 四川城市这样“向新生长” 人民网－四川频道央媒聚焦 | 河北石家庄：城市更新绘就幸福底色 新浪财经做深做细做实，“十五五”时期上海城市更新从这些方面发力 搜狐网",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE56NmZCbzNqLURrQ1g4a1ZuS0dCX3RYOS16dW1yTzdDaVcxQkROSnM0Z28tZFZpcnN6ZkN3b1JkS3VVcDdtR01nUWR6TUdHcGNKNWxBNkJMYmFqbnpuTXVzUEk3WWJJY3lMMmNFZXhyX2RkQmlpZmtFZ0cxSzU?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "强降雨引发四川一处地质灾害 提前避险转移55928人 - chinanews.com.cn",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KQmVCZ04ySFprdDZTV0JoSHJqSGlBRWZfTGFHOTNOSVQzN21KVm51RGpURkhkZUhBckFpckZ2SXV2RkVUQkxSLVAwazdhZXVZSGgwcjBla0pMWW5DUkJlNXRsZGltZjR1?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T04:11:42+00:00",
+          "desc": "强降雨引发四川一处地质灾害 提前避险转移55928人 chinanews.com.cn大暴雨，橙色山洪预警！发现这些征兆速撤离 新浪财经四川云南西藏等地部分地区发生地质灾害的气象风险较高 央视网水利部和中国气象局联合发布黄色山洪灾害气象预警 搜狐网山洪灾害预警：广东四川甘肃等地部分地区发生山洪灾害可能性较大 gmw.cn",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9KQmVCZ04ySFprdDZTV0JoSHJqSGlBRWZfTGFHOTNOSVQzN21KVm51RGpURkhkZUhBckFpckZ2SXV2RkVUQkxSLVAwazdhZXVZSGgwcjBla0pMWW5DUkJlNXRsZGltZjR1?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5jWmM2eVhaLXIxRDF3aGlWNGZuVFZyZlZlRUFka1hxR2pjMDVWZHl2ZmlhbDNPWHhPa2xPZGg4VUZGOS1fbm11SDNOVm5oZ3pPX3JRODVCbDRleVZFakMxUWN1amhtcnRCTUZ0XzhZdw?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "习近平总书记指引企业坚定不移走高质量发展之路- 中国日报网 - China Daily",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVZJU0FkZEFTSzFtNi0yOVJnaXpnazdmSEVheFItTlJ6eklwWkF1YW9hbjFXY3JEUkxIYnF6RkY0SHJsUV95NjMwR3AxRUFjQkxXT2s3c2RXck1EaE5DMUdvODdLbWxQdkc0ZUZPZnV4bU1aUFZVbHpFakpuV2E5Qw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T03:11:53+00:00",
+          "desc": "习近平总书记指引企业坚定不移走高质量发展之路- 中国日报网 China Daily习近平总书记指引企业坚定不移走高质量发展之路 光明网（图表）新华全媒头条｜“推动企业发展更上一层楼，为国家作出更大贡献”——习近平总书记指引企业坚定不移走高质量发展之路 搜狐网新华全媒头条|“推动企业发展更上一层楼，为国家作出更大贡献”——习近平总书记指引企业坚定不移走高质量发展之路 搜狐网“推动企业发展更上一层楼，为国家作出更大贡献” 新浪财经",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNcVZJU0FkZEFTSzFtNi0yOVJnaXpnazdmSEVheFItTlJ6eklwWkF1YW9hbjFXY3JEUkxIYnF6RkY0SHJsUV95NjMwR3AxRUFjQkxXT2s3c2RXck1EaE5DMUdvODdLbWxQdkc0ZUZPZnV4bU1aUFZVbHpFakpuV2E5Qw?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/17/world/asia/china-ai-data-chatbots.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/17/china-economy-slowdown-signs-extending"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/indonesia-neutrality-tested-by-joint-naval-drill-with-china/a-78400288?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 18
+        },
+        {
+          "title": "7月国民经济运行稳中向优 新动能积厚成势、新赛道投资扩围提质 - 新华网",
+          "titleOrig": "",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU24xdWkxMzR1ZTJwbXdoa2F6c1lnSW10ZHhmSFNVOFZhTC1NMmVfemM0bEJTV2R4UXk3aFJPLVV5UmJRT0loaG5nQXBwT3A0cTVyR0lUYmFwOTBQV2RMcGVCRThNTzRSWUVHdE05Z3hiMTRTVldrZmJNbWg4VWpXTHVB?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-18T03:38:16+00:00",
+          "desc": "7月国民经济运行稳中向优 新动能积厚成势、新赛道投资扩围提质 新华网财信宏观丨经济短期走弱，政策加力窗口开启——2026年1-7月份经济数据点评 新浪财经总体平稳向新向优——透视前7个月国民经济数据- 中国日报网 caijing.chinadaily.com.cn国新办举行新闻发布会 介绍2026年7月份国民经济运行情况 scio.gov.cn7月经济数据下的政策进退 华尔街见闻",
+          "hotLabel": "",
+          "summary": "",
+          "analysis": "（解读生成失败）",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPU24xdWkxMzR1ZTJwbXdoa2F6c1lnSW10ZHhmSFNVOFZhTC1NMmVfemM0bEJTV2R4UXk3aFJPLVV5UmJRT0loaG5nQXBwT3A0cTVyR0lUYmFwOTBQV2RMcGVCRThNTzRSWUVHdE05Z3hiMTRTVldrZmJNbWg4VWpXTHVB?oc=5"
+            }
+          ],
+          "rank": 19
         },
         {
           "title": "大批AI博主停更了",
@@ -1416,14 +1464,14 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "众多AI博主停止更新内容。",
-          "analysis": "AI博主停更可能由于多种原因，包括内容监管、市场饱和、个人兴趣变化等。这一现象反映了人工智能内容生产领域可能存在的泡沫和过度竞争。对社交媒体和内容创作行业意味着需要重新审视内容生产模式，可能促使行业向更高质量、更有深度的内容发展。后续走向可能包括行业自律、政策引导，以及市场结构的调整。",
+          "summary": "大量AI博主停止更新内容。",
+          "analysis": "AI博主停更可能由于技术更新、内容监管或市场变化等因素。这反映了AI技术在内容创作领域的应用面临挑战，同时也可能影响相关产业链的发展。后续可能促使行业调整和监管政策的出台。",
           "keywords": [
             "AI博主",
+            "停更",
             "内容创作",
-            "社交媒体",
-            "行业调整",
-            "政策监管"
+            "技术挑战",
+            "行业调整"
           ],
           "category": "society",
           "importance": 60,
@@ -1431,38 +1479,14 @@
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E6%89%B9AI%E5%8D%9A%E4%B8%BB%E5%81%9C%E6%9B%B4%E4%BA%86%23&t=31&band_rank=1&Refer=top"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "榴莲价格暴跌",
-          "titleOrig": "榴莲价格彻底崩了",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "榴莲价格出现大幅下跌。",
-          "analysis": "榴莲价格下跌可能与市场供需关系、季节性因素或产地变化有关。对社会民生而言，这有利于降低消费者成本。对经济影响可能体现在农业产业结构调整和物流成本变化上。后续可能影响相关产业链的稳定。",
-          "keywords": [
-            "榴莲",
-            "价格下跌",
-            "供需关系",
-            "农业",
-            "民生"
-          ],
-          "category": "economy",
-          "importance": 60,
-          "sources": [
+            },
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E6%A6%B4%E8%8E%B2%E4%BB%B7%E6%A0%BC%E5%BD%BB%E5%BA%95%E5%B4%A9%E4%BA%86%23&t=31&band_rank=2&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%9C%AA%E6%9D%A55%E5%B9%B4%E6%88%91%E5%9B%BD%E8%83%BD%E6%BA%90%E8%93%9D%E5%9B%BE%E5%88%92%E9%87%8D%E7%82%B9%23&t=31&band_rank=3&Refer=top"
             }
           ],
           "rank": 20
