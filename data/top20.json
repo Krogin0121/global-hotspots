@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-23T18:18:46.574727+00:00",
+  "generatedAt": "2026-08-24T00:41:39.297732+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "gn-cn",
       "name": "Google 新闻 · 中文",
-      "count": 0,
-      "ok": false
+      "count": 20,
+      "ok": true
     },
     {
       "id": "weibo",
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 12,
+      "count": 14,
       "ok": true
     },
     {
@@ -90,43 +90,74 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多方面的紧张与动荡。美加贸易战持续发酵，关税和谈判成为焦点。缅甸寺庙袭击事件凸显地区安全形势严峻。伊朗警告海湾国家勿加入经济战，中东局势紧张。泰国、印度和黎巴嫩等地发生恐怖袭击和冲突，地区安全面临挑战。特朗普政府签证禁令被判非法，美国内政受到国际关注。加密货币交易所倒闭事件引发行业动荡。澳大利亚发生禽流感疫情，全球公共卫生安全面临考验。此外，股市、能源和体育等领域也出现重要动态。整体来看，国际局势复杂多变，各国需加强合作，共同应对挑战。",
+      "digest": "今日国际局势呈现出多领域紧张与合作的交织格局。中东地区，伊朗警告海湾国家不要加入特朗普的经济战，显示出地区紧张局势加剧。非洲刚果（金）的埃博拉疫情和缅甸寺庙遭空袭事件，凸显了公共卫生和安全问题的严峻性。乌克兰前部长的爆料揭示了政府腐败问题，而印度洋沉没货轮的搜救工作重启则体现了国际救援合作的必要性。经济领域，美国联合航空CEO展望未来，而等权重S&P 500引领市场，显示出全球经济前景的复杂性。此外，法国溺水人数激增、墨西哥州长离职等事件，反映了社会问题与政治动荡的持续影响。整体而言，国际局势复杂多变，各方利益交织，值得关注的事件走向包括中东地区的地缘政治动态、非洲公共卫生安全挑战以及全球经济形势的变化。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "美加贸易战：关税和谈判须知",
-          "titleOrig": "U.S.-Canada Trade War: What to Know About Tariffs and the Negotiations",
-          "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html",
+          "title": "伊朗警告海湾国家不要加入特朗普的经济战",
+          "titleOrig": "Iran Warns Gulf States Not to Join Trump’s Economic War",
+          "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-23T09:47:28+00:00",
-          "desc": "Canada suspended trade negotiations, triggering President Trump’s 50 percent tariffs on a range of Canadian goods. Mark Carney said he would retaliate “dollar for dollar.”",
+          "publishedAt": "2026-08-23T17:00:10+00:00",
+          "desc": "Iran’s new hard-line national security adviser, Mohsen Rezaei, vowed to prevent “a single drop of oil” from leaving the region.",
           "hotLabel": "",
-          "summary": "加拿大暂停贸易谈判，引发美国对加拿大商品征收50%关税。",
-          "analysis": "美加贸易战反映了两国在贸易政策上的分歧。对全球经济而言，这可能加剧贸易紧张局势，影响全球供应链和经济增长。后续可能看到两国在贸易谈判上的进一步对抗或妥协。",
+          "summary": "伊朗国家安全顾问警告海湾国家不要加入特朗普的经济战。",
+          "analysis": "事件背景：伊朗与美国之间的紧张关系持续。关键影响：可能加剧地区紧张局势，影响石油供应。后续走向：海湾国家可能面临来自伊朗的更大压力。关键词：伊朗，经济战，海湾国家，石油供应。",
           "keywords": [
-            "美加贸易战",
-            "关税",
-            "贸易谈判",
-            "全球供应链",
-            "经济增长"
+            "伊朗",
+            "经济战",
+            "海湾国家",
+            "石油供应"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/23/world/canada/canada-us-trade-war-trump-carney.html"
+              "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "缅甸寺庙遭袭击，14人死亡",
+          "title": "关于刚果（金）埃博拉疫情的了解",
+          "titleOrig": "What to Know About the Ebola Outbreak Centered in Congo",
+          "url": "https://www.nytimes.com/2026/05/17/world/africa/what-to-know-ebola-africa.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T18:04:38+00:00",
+          "desc": "The outbreak in the Democratic Republic of Congo was declared 100 days ago and is spreading faster than any on record, officials said.",
+          "hotLabel": "",
+          "summary": "刚果（金）的埃博拉疫情已持续100天，且传播速度创纪录。",
+          "analysis": "刚果（金）的埃博拉疫情反映了该地区公共卫生系统的脆弱性和国际社会应对突发公共卫生事件的能力。对国际格局而言，这凸显了全球公共卫生安全的重要性，以及国际合作在疾病防控中的关键作用。后续可能包括国际援助的增加和地区卫生系统的加强。",
+          "keywords": [
+            "埃博拉",
+            "公共卫生",
+            "刚果（金）",
+            "疫情",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/05/17/world/africa/what-to-know-ebola-africa.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "缅甸寺庙遭空袭，十四人死亡",
           "titleOrig": "Fourteen killed in strike on Myanmar monastery",
           "url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -138,14 +169,14 @@
           "publishedAt": "2026-08-22T13:48:06+00:00",
           "desc": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
           "hotLabel": "",
-          "summary": "缅甸寺庙遭不明武装分子袭击，造成14人死亡。",
-          "analysis": "此次袭击事件表明缅甸国内局势依然动荡，可能影响区域稳定。后续可能需要国际社会介入调解，以避免局势进一步恶化。",
+          "summary": "缅甸寺庙在冥想活动中遭空袭，造成十四人死亡。",
+          "analysis": "此次空袭事件表明缅甸局势的复杂性和暴力程度。这可能会加剧地区紧张局势，并对缅甸政府和反对派的关系产生深远影响。国际社会可能需要加强对缅甸局势的关注。",
           "keywords": [
             "缅甸",
-            "寺庙袭击",
-            "局势动荡",
-            "区域稳定",
-            "国际介入"
+            "寺庙空袭",
+            "冲突",
+            "地区紧张",
+            "国际关注"
           ],
           "category": "international",
           "importance": 90,
@@ -155,199 +186,135 @@
               "url": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 2
-        },
-        {
-          "title": "伊朗警告海湾国家勿加入特朗普的经济战",
-          "titleOrig": "Iran Warns Gulf States Not to Join Trump’s Economic War",
-          "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T17:00:09+00:00",
-          "desc": "Iran’s new hard-line national security adviser, Mohsen Rezaei, vowed to prevent “a single drop of oil” from leaving the region.",
-          "hotLabel": "",
-          "summary": "伊朗警告海湾国家不要参与特朗普的经济战。",
-          "analysis": "伊朗新任国家安全顾问莫森·雷扎伊警告海湾国家不要加入美国的经济制裁，强调伊朗将阻止该地区任何石油出口。这反映了伊朗对美国制裁的强烈反对，以及海湾国家在该地区地缘政治中的重要性。该事件可能加剧地区紧张局势，并对全球石油市场产生重大影响。后续可能包括伊朗采取反制措施，以及国际社会对伊朗立场的反应。",
-          "keywords": [
-            "伊朗",
-            "美国",
-            "经济战",
-            "海湾国家",
-            "石油出口"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html"
-            }
-          ],
           "rank": 3
         },
         {
-          "title": "泰国南部发生多起纵火袭击事件",
-          "titleOrig": "Dozens of co-ordinated arson attacks hit southern Thailand",
-          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss",
+          "title": "乌克兰前部长向BBC透露泽连斯基对政府腐败的了解",
+          "titleOrig": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-23T11:50:59+00:00",
-          "desc": "No group has claimed responsibility for the attacks, which the military said \"aimed at creating unrest\".",
+          "publishedAt": "2026-08-23T12:56:43+00:00",
+          "desc": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
           "hotLabel": "",
-          "summary": "泰国南部发生多起纵火袭击，无人宣称责任。",
-          "analysis": "这些纵火袭击可能是由不满现状的团体所发起，旨在制造社会动荡。这反映了泰国南部长期的安全挑战和民族问题。对泰国而言，这可能加剧国内紧张局势，影响地区稳定。后续可能需要加强安全措施和民族和解努力。",
+          "summary": "乌克兰前部长Mykhailo Fedorov向BBC透露泽连斯基对政府腐败的了解，并呼吁在战时举行选举。",
+          "analysis": "乌克兰政府腐败问题一直是国际关注的焦点。Mykhailo Fedorov的言论可能加剧乌克兰国内的政治紧张，影响政府稳定。战时选举的提议可能引发对乌克兰未来政治走向的担忧。国际社会可能加大对乌克兰的支持力度，以维护地区稳定。",
           "keywords": [
-            "泰国",
-            "纵火袭击",
-            "社会动荡",
-            "民族问题",
-            "安全挑战"
+            "乌克兰",
+            "政府腐败",
+            "泽连斯基",
+            "选举",
+            "国际支持"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 4
         },
         {
-          "title": "印度湾货轮沉没搜救继续，疑似载有印度铁矿石",
-          "titleOrig": "Search resumes for 22 crew after cargo ship sinks off India",
-          "url": "https://www.dw.com/en/search-resumes-for-22-crew-after-cargo-ship-sinks-off-india/a-78472142?maca=en-rss-en-all-1573-rdf",
+          "title": "印第安纳州一城镇电力中断12天，居民生活陷入困境",
+          "titleOrig": "Frustration builds in Indiana town struggling without power for 12 days",
+          "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T15:54:32+00:00",
+          "desc": "In the town of Gary, where a third of residents live in poverty, people say they have been living in \"survival mode\".",
+          "hotLabel": "",
+          "summary": "印第安纳州Gary市因电力中断陷入困境，三分之一居民生活在贫困中。",
+          "analysis": "事件背景：电力中断可能由自然灾害或基础设施故障引起，暴露了该地区的基础设施脆弱性。关键影响：加剧了该市贫困居民的生活困难，可能引发社会不稳定。后续走向：政府需迅速恢复电力供应，并评估基础设施的长期维护需求。关键词：电力中断，基础设施，贫困，社会不稳定，美国。",
+          "keywords": [
+            "电力中断",
+            "基础设施",
+            "贫困",
+            "社会不稳定",
+            "美国"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "四年前的加密货币交易所神秘崩溃，如今其继任者出现",
+          "titleOrig": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
+          "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T09:16:36+00:00",
+          "desc": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
+          "hotLabel": "",
+          "summary": "欧洲加密货币交易所的神秘崩溃揭示了加密货币行业仍被视为犯罪分子的温床。",
+          "analysis": "加密货币行业的背景是技术创新与监管挑战的交织。此次交易所的崩溃可能反映了行业内部的不稳定性和监管的不足，对加密货币的合法性和市场信任构成挑战。对国际格局而言，这表明加密货币监管的国际合作和标准制定的重要性。后续可能包括更严格的监管措施和国际合作加强。",
+          "keywords": [
+            "加密货币",
+            "监管",
+            "犯罪",
+            "欧洲",
+            "市场信任"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "澳大利亚确认本地哺乳动物出现H5N1禽流感病例",
+          "titleOrig": "Australia confirms H5N1 bird flu case in local mammal",
+          "url": "https://www.dw.com/en/australia-confirms-h5n1-bird-flu-case-in-local-mammal/a-78473874?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-08-23T07:49:00+00:00",
-          "desc": "The Panama‑flagged Ocean Winner had 24 people on board when it sank in the Bay of Bengal. The ship is thought to have been carrying iron ore from India to Singapore.",
+          "publishedAt": "2026-08-23T06:58:00+00:00",
+          "desc": "Australian authorities said the deadly virus's spread to mammals was \"concerning\" but \"not unexpected.\"",
           "hotLabel": "",
-          "summary": "货轮在印度湾沉没，搜救工作正在进行中。",
-          "analysis": "此次事件反映了印度与新加坡之间铁矿石贸易的重要性。货轮沉没可能影响区域供应链，对印度和新加坡的经济产生短期影响。长期来看，这可能会促使相关国家加强海上安全合作。后续可能需要国际海事组织介入调查沉没原因。",
+          "summary": "澳大利亚确认H5N1禽流感病毒传播至哺乳动物。",
+          "analysis": "禽流感病毒传播至哺乳动物表明病毒传播途径可能更加复杂，对公共卫生构成潜在威胁。这可能会影响全球禽类养殖业，并可能引发国际公共卫生合作。后续可能需要加强动物疾病监控和预防措施，以及对人类健康的影响评估。",
           "keywords": [
-            "货轮沉没",
-            "印度",
-            "铁矿石",
-            "供应链",
-            "国际海事组织"
+            "H5N1",
+            "禽流感",
+            "哺乳动物",
+            "公共卫生",
+            "病毒传播"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/search-resumes-for-22-crew-after-cargo-ship-sinks-off-india/a-78472142?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "黎巴嫩在以色列入侵中努力遏制真主党受阻",
-          "titleOrig": "Lebanon’s Efforts to Tame Hezbollah Stall Amid Israel War",
-          "url": "https://www.nytimes.com/2026/08/22/world/middleeast/lebanon-hezbollah-israel-diplomacy.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-22T09:02:01+00:00",
-          "desc": "President Joseph Aoun took office with a popular mandate to reassert control after the militant group dragged the country back into war with Israel.",
-          "hotLabel": "",
-          "summary": "黎巴嫩总统就职后试图重新控制国家，但真主党引发与以色列的战争。",
-          "analysis": "黎巴嫩总统约瑟夫·奥恩在得到民众支持后试图恢复对国家的控制，但真主党的军事行动使国家再次卷入与以色列的冲突。这一事件反映了中东地区长期的安全困境，以及外部势力对地区冲突的影响。真主党的存在和影响力对黎巴嫩的政治稳定和地区安全构成挑战，未来可能加剧地区紧张局势。后续走向可能包括国际社会的介入和和平谈判的努力。",
-          "keywords": [
-            "黎巴嫩",
-            "真主党",
-            "以色列",
-            "中东",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/22/world/middleeast/lebanon-hezbollah-israel-diplomacy.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "特朗普政府75国签证禁令被判非法",
-          "titleOrig": "Trump administration's 75-country visa ban was illegal, judge rules",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5941765/trump-immigration-visa-ban-75-countries",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-22T20:53:19+00:00",
-          "desc": "The U.S. stopped issuing visas for citizens of 75 countries because it said they were likely to need public assistance. A judge ruled the policy illegally discriminated on the basis of nationality.",
-          "hotLabel": "",
-          "summary": "美国对75国公民的签证禁令因非法歧视而被判无效。",
-          "analysis": "这一判决强调了国家政策必须遵守法律原则。对美国而言，这可能影响其移民和外交政策。后续可能看到美国在移民政策上的调整。",
-          "keywords": [
-            "签证禁令",
-            "非法歧视",
-            "移民政策",
-            "外交政策",
-            "法律原则"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/22/nx-s1-5941765/trump-immigration-visa-ban-75-countries"
+              "url": "https://www.dw.com/en/australia-confirms-h5n1-bird-flu-case-in-local-mammal/a-78473874?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 7
-        },
-        {
-          "title": "TikTok支付4亿美元解决儿童隐私诉讼",
-          "titleOrig": "TikTok to pay $400m to US in one of largest child privacy settlements",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-21T22:36:12+00:00",
-          "desc": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
-          "hotLabel": "",
-          "summary": "TikTok支付4亿美元解决儿童隐私诉讼。",
-          "analysis": "TikTok支付巨额罚款解决儿童隐私问题，反映了全球对儿童隐私保护的关注。对国内经济影响较小，但对全球科技企业合规经营有警示作用。后续走向可能包括全球范围内对儿童隐私保护法规的加强。",
-          "keywords": [
-            "TikTok",
-            "儿童隐私",
-            "罚款",
-            "科技企业",
-            "合规经营"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
         },
         {
           "title": "刚果（金）和M23叛军同意和平谈判路线图",
@@ -362,251 +329,95 @@
           "publishedAt": "2026-08-23T12:52:08+00:00",
           "desc": "Representatives met in Switzerland to work out next steps to resolve the conflict.",
           "hotLabel": "",
-          "summary": "刚果（金）和M23叛军同意在瑞士进行和平谈判。",
-          "analysis": "刚果（金）政府与M23叛军代表在瑞士会面，旨在制定解决冲突的下一步行动。这标志着该地区长期冲突可能迎来和平解决的曙光。然而，和平谈判的成功取决于各方能否就权力分享和资源分配达成协议。后续可能包括国际社会的支持和介入，以及冲突双方在谈判中的立场变化。",
+          "summary": "刚果（金）和M23叛军在瑞士会面，商讨解决冲突的下一步行动。",
+          "analysis": "刚果（金）内战持续多年，此次和平谈判的同意是地区和平的希望。谈判的成功将有助于稳定刚果（金）局势，减少地区冲突。国际社会可能继续支持和平进程。",
           "keywords": [
             "刚果（金）",
             "M23叛军",
             "和平谈判",
-            "瑞士",
-            "冲突解决"
+            "地区稳定",
+            "国际支持"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cre4e1q3wewo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "欧洲加密货币交易所神秘倒闭，其继任者已上任",
-          "titleOrig": "Four Years Ago, a Crypto Boss Went Missing. Now His Successor Has.",
-          "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T09:16:36+00:00",
-          "desc": "The mysterious collapse of a European cryptocurrency exchange helps to explain why the industry hasn’t shaken off its reputation as a magnet for criminals.",
-          "hotLabel": "",
-          "summary": "欧洲一家加密货币交易所神秘倒闭，其继任者已上任。",
-          "analysis": "这一事件揭示了加密货币行业存在的法律和监管漏洞，使得该行业成为犯罪活动的温床。对加密货币行业而言，这可能促使加强监管和风险管理。后续可能看到行业自律和监管政策的加强。",
-          "keywords": [
-            "加密货币",
-            "交易所倒闭",
-            "监管漏洞",
-            "犯罪活动",
-            "行业自律"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
+            },
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/23/world/europe/poland-estonia-cryptocurrency.html"
+              "url": "https://www.nytimes.com/2026/08/23/world/americas/latin-america-leaders-trump.html"
             }
           ],
-          "rank": 10
+          "rank": 8
         },
         {
-          "title": "澳大利亚确认当地哺乳动物出现H5N1禽流感病例",
-          "titleOrig": "Australia confirms H5N1 bird flu case in local mammal",
-          "url": "https://www.dw.com/en/australia-confirms-h5n1-bird-flu-case-in-local-mammal/a-78473874?maca=en-rss-en-all-1573-rdf",
+          "title": "印度附近沉没货轮搜救工作重启，22名船员下落不明",
+          "titleOrig": "Search resumes for 22 crew after cargo ship sinks off India",
+          "url": "https://www.dw.com/en/search-resumes-for-22-crew-after-cargo-ship-sinks-off-india/a-78472142?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-08-23T06:58:00+00:00",
-          "desc": "Australian authorities said the deadly virus's spread to mammals was \"concerning\" but \"not unexpected.\"",
+          "publishedAt": "2026-08-23T07:49:00+00:00",
+          "desc": "The Panama‑flagged Ocean Winner had 24 people on board when it sank in the Bay of Bengal. The ship is thought to have been carrying iron ore from India to Singapore.",
           "hotLabel": "",
-          "summary": "澳大利亚发现禽流感病毒传播至哺乳动物。",
-          "analysis": "禽流感病毒传播至哺乳动物是公共卫生事件，可能对当地农业和旅游业产生负面影响。同时，这也提醒各国需加强生物安全防控。后续可能需要国际卫生组织提供技术支持。",
+          "summary": "载有铁矿石从印度运往新加坡的巴拿马国旗货轮在孟加拉湾沉没，24人上船。",
+          "analysis": "这一事件突显了海上运输的风险和全球供应链的脆弱性。对国际格局而言，这表明了海上安全和国际救援合作的重要性。后续可能包括对事故原因的调查和全球海上安全的关注。",
           "keywords": [
-            "禽流感",
-            "哺乳动物",
-            "公共卫生",
-            "农业",
-            "生物安全"
+            "货轮",
+            "沉没",
+            "印度",
+            "救援",
+            "供应链"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/australia-confirms-h5n1-bird-flu-case-in-local-mammal/a-78473874?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/search-resumes-for-22-crew-after-cargo-ship-sinks-off-india/a-78472142?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 11
+          "rank": 9
         },
         {
-          "title": "被解职部长告诉BBC，泽连斯基应该就政府腐败问题负责",
-          "titleOrig": "Zelensky should be asked what he knew about government corruption, sacked minister tells BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T12:56:43+00:00",
-          "desc": "Mykhailo Fedorov has also called for wartime elections to be held in Ukraine.",
-          "hotLabel": "",
-          "summary": "乌克兰副总理米哈伊洛·费多罗夫要求泽连斯基就政府腐败问题负责，并呼吁在战争期间举行选举。",
-          "analysis": "费多罗夫的言论揭示了乌克兰政府在战争期间面临的腐败问题，这可能会影响国家的政治稳定和民众对政府的信任。战争期间的选举可能会加剧政治分歧，对乌克兰的政治未来产生重大影响。这一事件可能会引起国际社会对乌克兰政府治理能力的关注。",
-          "keywords": [
-            "乌克兰",
-            "政府腐败",
-            "泽连斯基",
-            "战争",
-            "选举"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "本周股市关注两大焦点",
-          "titleOrig": "Here are the 2 big things we're watching in the stock market this week",
-          "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T16:56:02+00:00",
-          "desc": "Nvidia reports earnings, and Fed Chairman Kevin Warsh is set to deliver his first Jackson Hole speech.",
-          "hotLabel": "",
-          "summary": "本周股市关注英伟达财报和美联储主席讲话。",
-          "analysis": "本周股市将关注英伟达的财报和美联储主席凯文·沃什在杰克逊霍尔会议上的首次讲话。英伟达的财报将影响科技股的表现，而沃什的讲话可能对市场利率和货币政策产生影响。后续可能包括市场对这些事件的反应，以及股市的走势。",
-          "keywords": [
-            "股市",
-            "英伟达",
-            "美联储",
-            "凯文·沃什",
-            "杰克逊霍尔"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/23/here-are-the-2-big-things-were-watching-in-the-stock-market-this-week.html"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "17岁女孩在瑞典遭刀刺身亡",
-          "titleOrig": "Girl, 17, killed in Swedish sword attack, police say",
-          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T01:34:15+00:00",
-          "desc": "Two boys aged 12 and 17 were also injured, while an 18-year-old suspect has been detained.",
-          "hotLabel": "",
-          "summary": "瑞典发生一起刀刺事件，造成一名17岁女孩死亡，两名男孩受伤。",
-          "analysis": "这起事件揭示了瑞典面临的社会安全挑战。瑞典是一个移民接收国，社会多元性可能带来安全风险。对瑞典而言，这可能促使政府加强社会安全和公共秩序维护。",
-          "keywords": [
-            "瑞典",
-            "刀刺事件",
-            "社会安全",
-            "移民问题",
-            "公共秩序"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "法国首位女性权利部长罗迪去世，享年97岁",
-          "titleOrig": "Yvette Roudy, France’s First Minister for Women’s Rights, Dies at 97",
-          "url": "https://www.nytimes.com/2026/08/22/world/europe/yvette-roudy-dead.html",
+          "title": "卡尼抨击美加贸易提议，誓言报复",
+          "titleOrig": "Carney Slams U.S.-Canada Trade Proposal and Vows Retaliation",
+          "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-22T09:02:01+00:00",
-          "desc": "Maintaining that access to abortion was as much a matter of economic equality as women’s rights, she successfully championed state reimbursement for abortions.",
+          "publishedAt": "2026-08-22T20:35:49+00:00",
+          "desc": "Prime Minister Mark Carney gave a powerful speech to Canadians on Saturday morning, hours after ordering negotiators to suspend U.S. trade talks despite President Trump’s punishing tariffs.",
           "hotLabel": "",
-          "summary": "罗迪成功推动国家补偿堕胎费用，强调堕胎权是经济平等和女性权利的一部分。",
-          "analysis": "罗迪女士是法国女性权利运动的重要人物，她的去世是对法国女性权利进步的纪念。她推动的堕胎费用补偿政策反映了法国在性别平等和生殖权利方面的进步。这一政策可能对其他国家的性别平等政策产生示范效应。罗迪的去世可能会引发对女性权利和性别平等问题的进一步讨论。",
+          "summary": "加拿大总理卡尼抨击美加贸易提议，并誓言报复。",
+          "analysis": "卡尼的言论反映了加拿大对美国贸易政策的反对，可能预示着美加贸易关系的紧张。这将对北美自由贸易区乃至全球贸易格局产生重要影响。",
           "keywords": [
-            "法国",
-            "女性权利",
-            "堕胎权",
-            "罗迪",
-            "性别平等"
+            "加拿大",
+            "贸易提议",
+            "美加关系",
+            "贸易紧张",
+            "报复"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 80,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/22/world/europe/yvette-roudy-dead.html"
+              "url": "https://www.nytimes.com/2026/08/22/world/canada/carney-tariffs-trade-trump.html"
             }
           ],
-          "rank": 15
+          "rank": 10
         },
         {
-          "title": "印第安纳州数千人电力中断12天后仍处于生存模式",
-          "titleOrig": "Thousands struggling without power in Indiana 12 days after severe storms",
-          "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T15:54:32+00:00",
-          "desc": "In the town of Gary, where a third of residents live in poverty, people say they have been living in \"survival mode\".",
-          "hotLabel": "",
-          "summary": "印第安纳州数千人因严重风暴后电力中断，生活陷入困境。",
-          "analysis": "印第安纳州Gary市三分之一的居民生活在贫困中，严重风暴后电力中断12天，居民生活陷入困境。这反映了美国基础设施的脆弱性，以及贫困地区在自然灾害面前的脆弱性。后续可能包括政府救援措施的实施，以及社会对基础设施改善的关注。",
-          "keywords": [
-            "印第安纳州",
-            "电力中断",
-            "风暴",
-            "贫困",
-            "基础设施"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/clyly8vdpdwo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "法国将溺水人数激增与热浪联系起来",
+          "title": "法国将溺水人数激增归因于热浪",
           "titleOrig": "France links sharp rise in drownings to heatwaves",
           "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -618,27 +429,154 @@
           "publishedAt": "2026-08-23T17:39:33+00:00",
           "desc": "A government minister says people have been taking risks by going into the water, with 301 deaths since 19 June.",
           "hotLabel": "",
-          "summary": "政府部长表示，自6月19日以来已有301人死亡，人们冒险进入水中。",
-          "analysis": "热浪导致的溺水人数激增反映了极端天气事件对人类活动的影响。这一现象可能加剧对气候变化和公共安全的关注。法国政府可能需要采取措施来减少热浪期间的风险，并提高公众对水安全的认识。",
+          "summary": "法国政府官员表示，自6月19日以来，已有301人因热浪导致的溺水事故死亡。",
+          "analysis": "热浪导致的溺水事故反映了极端天气事件对人类活动的影响。法国政府可能加强应对极端天气的措施，并提高公众对安全的意识。国际社会可能关注气候变化对人类生存的影响。",
           "keywords": [
             "法国",
             "热浪",
             "溺水",
             "气候变化",
-            "公共安全"
+            "极端天气"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cqlxlp4lx9yo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 17
+          "rank": 11
         },
         {
-          "title": "基利查打破男子半程马拉松世界纪录",
+          "title": "17岁少女在瑞典持刀袭击中丧生，两名男孩受伤",
+          "titleOrig": "Girl, 17, killed in Swedish sword attack, police say",
+          "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T01:34:15+00:00",
+          "desc": "Two boys aged 12 and 17 were also injured, while an 18-year-old suspect has been detained.",
+          "hotLabel": "",
+          "summary": "瑞典发生持刀袭击事件，一名17岁少女死亡，两名男孩受伤。",
+          "analysis": "事件背景：袭击事件反映了瑞典社会治安问题。关键影响：可能加剧社会对安全问题的担忧。后续走向：政府可能加强治安措施。关键词：瑞典，持刀袭击，社会治安，少女。",
+          "keywords": [
+            "瑞典",
+            "持刀袭击",
+            "社会治安",
+            "少女"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c8jnjp0lwlwo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "墨西哥州长在美国被指控支持贩毒集团后再次离职",
+          "titleOrig": "Mexican Governor Accused by U.S. of Aiding Cartel Leaves Office, Again",
+          "url": "https://www.nytimes.com/2026/08/23/world/americas/governor-ruben-rocha-moya-sinaloa-mexico.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T14:32:06+00:00",
+          "desc": "Rubén Rocha Moya of Sinaloa reversed course a day after returning to office, amid widespread criticism, including from members of his own party.",
+          "hotLabel": "",
+          "summary": "锡那罗亚州的Rubén Rocha Moya在返回办公室一天后因广泛批评而离职。",
+          "analysis": "这一事件揭示了墨西哥在打击贩毒集团方面的挑战和腐败问题。对国际格局而言，这表明墨西哥国内政治和安全局势的不稳定性，以及美国在打击跨国犯罪中的作用。后续可能包括墨西哥国内政治的进一步动荡和对外部援助的依赖。",
+          "keywords": [
+            "墨西哥",
+            "贩毒集团",
+            "腐败",
+            "政治",
+            "美国"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/23/world/americas/governor-ruben-rocha-moya-sinaloa-mexico.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "美国联合航空CEO斯科特·柯比展望未来，从JFK到AI",
+          "titleOrig": "After 10 years at United, CEO Scott Kirby is thinking big about the future of his airline from JFK to AI",
+          "url": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T12:00:01+00:00",
+          "desc": "United Airlines CEO Scott Kirby talked to CNBC in a wide-ranging interview about his proposed airline megadeals, AI and the future of the carrier.",
+          "hotLabel": "",
+          "summary": "联合航空CEO斯科特·柯比讨论了航空业的未来和大型交易。",
+          "analysis": "柯比的访谈反映了航空业在技术进步和全球市场中的战略调整。航空业的大型交易可能影响全球航空市场格局，而AI的应用可能改变航空运营效率和服务模式。这将对航空业竞争格局产生深远影响。",
+          "keywords": [
+            "联合航空",
+            "CEO",
+            "斯科特·柯比",
+            "航空业",
+            "AI"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/23/united-airlines-ceo-scott-kirby.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "几内亚垃圾填埋场坍塌致30人死亡",
+          "titleOrig": "Guinea rubbish landfill collapse kills 30",
+          "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T18:17:37+00:00",
+          "desc": "A mound of rubbish at a major waste site buried several homes in the capital, the government says.",
+          "hotLabel": "",
+          "summary": "几内亚首都一座主要垃圾填埋场的垃圾山坍塌，导致多座房屋被埋。",
+          "analysis": "此次事故反映了几内亚基础设施的脆弱和环境保护的不足。事故可能加剧国内社会矛盾，对几内亚政府的治理能力提出挑战。国际社会可能提供援助，以帮助几内亚改善基础设施和环境保护。",
+          "keywords": [
+            "几内亚",
+            "垃圾填埋场",
+            "坍塌",
+            "基础设施",
+            "环境保护"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c4g3g36z7p6o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "基耶尔查打破男子半程马拉松世界纪录",
           "titleOrig": "Kejelcha breaks men's half marathon world record by 29 seconds",
           "url": "https://www.bbc.co.uk/sport/athletics/articles/c9989lm0vkro?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -650,85 +588,147 @@
           "publishedAt": "2026-08-23T13:35:06+00:00",
           "desc": "Ethiopia's Yomif Kejelcha breaks the men's half marathon world record in a time of 56 minutes 51 seconds in a World Athletics road race in Buenos Aires.",
           "hotLabel": "",
-          "summary": "埃塞俄比亚选手基利查打破男子半程马拉松世界纪录。",
-          "analysis": "埃塞俄比亚选手Yomif Kejelcha在布宜诺斯艾利斯的国际田联公路比赛中以56分51秒的成绩打破了男子半程马拉松世界纪录。这一成就体现了田径运动的进步和运动员的卓越表现。后续可能包括对基利查和其他运动员的关注，以及田径运动的发展趋势。",
+          "summary": "埃塞俄比亚选手基耶尔查在布宜诺斯艾利斯的田径比赛中打破男子半程马拉松世界纪录。",
+          "analysis": "事件背景：基耶尔查的纪录打破体现了田径运动的竞技水平提升。关键影响：对田径运动和埃塞俄比亚体育产生积极影响。后续走向：可能激发更多运动员追求更高成绩。关键词：田径，世界纪录，基耶尔查，埃塞俄比亚。",
           "keywords": [
-            "基利查",
-            "世界纪录",
             "田径",
-            "埃塞俄比亚",
-            "运动成就"
+            "世界纪录",
+            "基耶尔查",
+            "埃塞俄比亚"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/sport/athletics/articles/c9989lm0vkro?at_medium=RSS&at_campaign=rss"
             }
           ],
+          "rank": 16
+        },
+        {
+          "title": "儿童将在体育服装上看到赌博标志直到2032年，过渡期引发批评",
+          "titleOrig": "‘Absurd’: children to see gambling logos on sports jerseys until 2032 in transition period condemned by Pocock",
+          "url": "https://www.theguardian.com/australia-news/2026/aug/24/gambling-sport-logos-jerseys-pocock-labor",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T15:00:35+00:00",
+          "desc": "Government says it hopes clubs will end jersey deals with wagering companies earlier, but calls it a commercial decisionFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastChildren across Australia will continue to see gambling logos on pr",
+          "hotLabel": "",
+          "summary": "澳大利亚政府表示希望俱乐部提前结束与赌博公司的球衣广告合同，但称其为商业决策。",
+          "analysis": "这一事件反映了赌博行业与体育产业的融合，以及监管与商业利益的冲突。对国际格局而言，这表明了赌博合法化与青少年保护的平衡问题。后续可能包括对赌博广告监管的讨论和公众意见的进一步发酵。",
+          "keywords": [
+            "赌博",
+            "体育",
+            "广告",
+            "青少年",
+            "监管"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/aug/24/gambling-sport-logos-jerseys-pocock-labor"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "等权重S&P 500引领2026年市场，旗舰交易额达1000亿美元",
+          "titleOrig": "Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion",
+          "url": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-23T13:00:01+00:00",
+          "desc": "Money is flooding into equal-weight stock market ETFs this year. Investing experts say it's not a fad.",
+          "hotLabel": "",
+          "summary": "等权重S&P 500 ETF今年资金流入显著，专家称非短期现象。",
+          "analysis": "等权重ETF的资金流入表明投资者对市场分散化投资的兴趣增加，可能反映了市场对风险的重新评估。这一趋势可能影响市场结构，并可能预示着市场对某些行业或公司的重新估值。",
+          "keywords": [
+            "S&P 500",
+            "ETF",
+            "市场投资",
+            "风险分散",
+            "市场结构"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/23/stocks-market-investing-sp500-spx.html"
+            }
+          ],
           "rank": 18
         },
         {
-          "title": "悉尼马拉松奖牌误印德国地标",
-          "titleOrig": "Sydney Marathon medal wrongly shows German landmark",
-          "url": "https://www.dw.com/en/sydney-marathon-medal-wrongly-shows-german-landmark/a-78473705?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "泰国南部发生多起有组织的纵火袭击",
+          "titleOrig": "Dozens of co-ordinated arson attacks hit southern Thailand",
+          "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-23T06:35:00+00:00",
-          "desc": "A medal minted for finishers in the Sydney Marathon features a skyline of the city — with one landmark from rather far away. Organizers say the muddle only makes the medal \"a little more unique.\"",
+          "publishedAt": "2026-08-23T11:50:59+00:00",
+          "desc": "No group has claimed responsibility for the attacks, which the military said \"aimed at creating unrest\".",
           "hotLabel": "",
-          "summary": "悉尼马拉松奖牌出现错误，误印了德国地标。",
-          "analysis": "奖牌错误反映了组织者在细节上的疏忽，但同时也增加了奖牌的独特性。这一事件可能对悉尼马拉松的声誉产生短期影响，但长期来看影响有限。",
+          "summary": "泰国南部发生多起纵火袭击，军方称其目的是制造动荡。",
+          "analysis": "泰国南部长期存在分离主义问题，此次纵火袭击可能加剧地区紧张局势。泰国政府可能加强安全措施，以维护国家稳定。国际社会可能关注泰国局势的发展。",
           "keywords": [
-            "悉尼马拉松",
-            "奖牌错误",
-            "组织疏忽",
-            "声誉",
-            "独特性"
+            "泰国",
+            "纵火袭击",
+            "分离主义",
+            "地区稳定",
+            "国际关注"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/sydney-marathon-medal-wrongly-shows-german-landmark/a-78473705?maca=en-rss-en-all-1573-rdf"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c8enegx4xy3o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 19
         },
         {
-          "title": "观点：罗杰斯先生不断发现新的社区",
-          "titleOrig": "Opinion: Mr. Rogers keeps finding a new neighborhood",
-          "url": "https://www.npr.org/2026/08/22/nx-s1-5932426/opinion-mr-rogers-keeps-finding-a-new-neighborhood",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "男子骑非电动滑板车完成澳大利亚2800英里之旅",
+          "titleOrig": "Man completes 2,800 mile scoot across Australia",
+          "url": "https://www.bbc.co.uk/news/articles/clylqlkq5e5o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-22T12:00:00+00:00",
-          "desc": "MLB catcher Jake Rogers probably didn't know if he was coming or going the last several weeks: he's been a Detroit Tiger, a Baltimore Oriole, a Boston Red Sox, and now he's a Chicago White Sox.",
+          "publishedAt": "2026-08-23T06:01:16+00:00",
+          "desc": "Bob Brown from Saltash has ridden a non-electric scooter from Perth to Sydney.",
           "hotLabel": "",
-          "summary": "MLB捕手杰克·罗杰斯在几个星期内从底特律老虎队转至巴尔的摩金莺队，再到波士顿红袜队，现在成为芝加哥白袜队的一员。",
-          "analysis": "杰克·罗杰斯的转会反映了职业体育界的流动性，同时也揭示了职业运动员在职业生涯中可能面临的挑战。这种转会模式对体育市场、球队管理和运动员个人都有重要影响。未来，类似的情况可能会继续发生，特别是当运动员合同到期时。",
+          "summary": "Bob Brown从珀斯到悉尼骑行非电动滑板车，行程2800英里。",
+          "analysis": "事件背景：Bob Brown的壮举展示了个人毅力和对环保的承诺。关键影响：可能激发更多人关注环保和户外运动。后续走向：Bob Brown可能成为环保运动的代表人物。关键词：滑板车，澳大利亚，环保，个人挑战。",
           "keywords": [
-            "MLB",
-            "杰克·罗杰斯",
-            "体育转会",
-            "职业体育",
-            "运动员"
+            "滑板车",
+            "澳大利亚",
+            "环保",
+            "个人挑战"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/22/nx-s1-5932426/opinion-mr-rogers-keeps-finding-a-new-neighborhood"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/clylqlkq5e5o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -737,73 +737,80 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述：国内政策与社会动向方面，一方面，政府积极推动经济发展，汽车出口激增，新能源汽车召回政策出台，体现了对新兴产业的扶持。另一方面，社会问题也受到关注，如恒大集团创始人因涉欺诈被判无期徒刑，反映出对违法行为的严厉打击。在民生方面，全国推广去世亲人存款查询，中央救灾物资支持广西等举措，体现了政府对民生的关注。国际方面，TikTok支付解决儿童隐私诉讼，哈萨克斯坦选举后未来走向备受关注，显示中国在国际舞台上的影响力。总体来看，国内政策与社会动向呈现出经济与民生并重，法治与道德共进的态势，值得关注的是新兴产业的崛起与民生问题的改善。",
+      "digest": "今日国内形势呈现多元化发展趋势。经济领域，中国机器人产业加速发展，为世界提供新机遇，同时算力全链条绿色化成效初显，成为新的增长极。社会方面，中央救灾物资支持广西，应对自然灾害，同时灵活就业被视为一种福利，反映了政策对民生保障的重视。国际关系方面，中美加外交互动频繁，而中国在世界技能大赛中展现实力，展现国家形象。值得注意的是，科技领域的进步和经济发展成为当前国内形势的主要脉络，值得关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "著名记者唐师曾去世前白血球几乎为零",
-          "titleOrig": "唐师曾去世前白血球几乎为零",
-          "url": "https://www.baidu.com/s?wd=%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "中国恒大集团创始人许家印因欺诈罪被判无期徒刑",
+          "titleOrig": "Founder of China’s Evergrande jailed for life after pleading guilty to fraud",
+          "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-20T12:03:39+00:00",
+          "desc": "Hui Ka Yan also forfeits all his personal property and the company he set up is given hefty finesBusiness live – latest updatesThe founder of Evergrande, one of China’s largest property developers, has been sentenced to life in prison and had all of his personal property confiscated.Hui Ka Yan, 67 a",
           "hotLabel": "",
-          "summary": "著名记者唐师曾因白血病去世，生前白血球几乎为零。",
-          "analysis": "唐师曾的去世再次提醒社会关注白血病患者。社会成因包括环境污染、生活压力等。对国内民生影响深远，意味着需要加强公共卫生体系建设，提高医疗服务水平。后续走向可能包括公共卫生政策的调整和医疗资源的优化配置。",
+          "summary": "中国恒大集团创始人许家印因欺诈罪被判无期徒刑。",
+          "analysis": "许家印的判决标志着中国政府对房地产市场违法违规行为的严厉打击。这一事件对国内房地产市场产生了深远影响，警示了房地产企业必须遵守法律法规，合规经营。同时，这也体现了中国政府维护金融稳定、防范系统性风险的决心。",
           "keywords": [
-            "唐师曾",
-            "白血病",
-            "公共卫生",
-            "医疗服务",
-            "社会关注"
+            "恒大集团",
+            "许家印",
+            "欺诈罪",
+            "房地产市场",
+            "金融稳定"
           ],
-          "category": "society",
-          "importance": 90,
+          "category": "international",
+          "importance": 95,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan"
             },
             {
-              "name": "今日头条",
-              "url": "https://www.toutiao.com/trending/7677211216825241134/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227677211216825241134%22%2C%22hot_board_impr_id%22%3A%2220260824001233DAB8215A9D34B81ECB82%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E5%94%90%E5%B8%88%E6%9B%BE%E5%8E%BB%E4%B8%96%E5%89%8D%E7%99%BD%E8%A1%80%E7%90%83%E5%87%A0%E4%B9%8E%E4%B8%BA%E9%9B%B6%22%7D&rank=&style_id=40132&topic_id=7677211216825241134"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/21/chinese-humanoid-robots-face-challenge-of-their-own-capabilities.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "中国汽车出口激增",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%87%BA%E5%8F%A3%E6%BF%80%E5%A2%9E",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
+          "title": "中国机器人产业“加速跑”为世界提供新机遇",
+          "titleOrig": "中国机器人产业“加速跑”为世界提供新机遇 - 光明网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZN3pyR2YzOEhwZzNzcnotdWVTZFI5Uk1EcVZ6NHdCa3FZVVkyMlNKaFdTZFZhZDZNSHJ1TnZoTTBFVW54UndmbUtUUXl6RDlNNDI0clNxd3ZEanRSWi1NQmFn?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-08-24T00:19:00+00:00",
+          "desc": "中国机器人产业“加速跑”为世界提供新机遇 光明网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "中国汽车出口量大幅增长。",
-          "analysis": "事件背景：汽车出口增长可能与国内外市场需求变化、产业升级有关。政策意图可能在于推动汽车产业国际化。关键影响：对国内汽车产业和经济增长有积极作用。后续走向：可能继续推动汽车产业对外投资和技术合作。",
+          "summary": "中国机器人产业快速发展，为世界提供新机遇",
+          "analysis": "中国机器人产业的快速发展是中国制造业转型升级的重要标志，体现了中国推动科技创新和产业升级的政策意图。对国内而言，有助于提高制造业的自动化水平，促进经济结构调整。后续可能推动中国机器人产业在全球市场的竞争力提升。",
           "keywords": [
-            "汽车出口",
-            "市场需求",
+            "机器人产业",
+            "科技创新",
             "产业升级",
-            "国际化",
-            "经济增长"
+            "经济结构调整"
           ],
-          "category": "economy",
-          "importance": 85,
+          "category": "tech",
+          "importance": 90,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%B1%BD%E8%BD%A6%E5%87%BA%E5%8F%A3%E6%BF%80%E5%A2%9E"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5ZN3pyR2YzOEhwZzNzcnotdWVTZFI5Uk1EcVZ6NHdCa3FZVVkyMlNKaFdTZFZhZDZNSHJ1TnZoTTBFVW54UndmbUtUUXl6RDlNNDI0clNxd3ZEanRSWi1NQmFn?oc=5"
             },
             {
               "name": "The Guardian",
@@ -821,171 +828,118 @@
           "rank": 2
         },
         {
-          "title": "恒大集团创始人许家印因涉欺诈被判无期徒刑",
-          "titleOrig": "Founder of China’s Evergrande jailed for life after pleading guilty to fraud",
-          "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-20T12:03:39+00:00",
-          "desc": "Hui Ka Yan also forfeits all his personal property and the company he set up is given hefty finesBusiness live – latest updatesThe founder of Evergrande, one of China’s largest property developers, has been sentenced to life in prison and had all of his personal property confiscated.Hui Ka Yan, 67 a",
+          "title": "算力全链条绿色化成效初显 词元经济等成新增长极",
+          "titleOrig": "算力全链条绿色化成效初显 词元经济等成新增长极 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYNFVweDJwUWg0QV9oOG5rWUJVc3VQSXViaVFfQkVYam85ZWxzRC1KdzN0dDJfRXFBa3c4RDdXYmkyTlpCSDcxRG4tSXJyRHB0T2xTWHNxYkpRUlFqbFhJUkNzaGQyM2xuMHUzdGN2aw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:00:00+00:00",
+          "desc": "算力全链条绿色化成效初显 词元经济等成新增长极 中国经济网2026绿色算力（人工智能）大会召开|国家能源局|内蒙古自治区|呼和浩特市|产业|数据_手机新浪网 新浪财经1361亿项目集中签约，万亿算力赛道，迎来重磅驱动 凤凰网内蒙古：绿色算力赋能千行百业 搜狐网绿色算力多点开花，激活内蒙古数字经济新动能 人民网",
           "hotLabel": "",
-          "summary": "恒大集团创始人许家印因欺诈罪被判无期徒刑。",
-          "analysis": "此事件背景是近年来中国房地产市场调控政策的加强，特别是对房地产企业债务风险的防范。许家印被判无期徒刑，意味着中国政府对于房地产企业违法违规行为的零容忍态度。这一事件对国内民生影响巨大，可能导致房地产市场进一步降温，对经济稳定产生压力。后续可能引发房地产企业债务危机的连锁反应，政府可能加强监管措施以稳定市场。",
+          "summary": "绿色算力发展初见成效，词元经济成为新增长点。",
+          "analysis": "随着国家能源局等部门的推动，算力全链条绿色化成为我国产业升级的重要方向。这不仅体现了国家对可持续发展的重视，也是对数字经济时代能源需求的响应。词元经济的兴起，意味着我国在人工智能领域的技术创新和应用能力得到提升，对国内民生、经济和治理都具有重要意义。未来，随着绿色算力技术的进一步推广和应用，有望带动相关产业链的发展，推动经济结构优化升级。",
           "keywords": [
-            "恒大集团",
-            "许家印",
-            "欺诈",
-            "房地产市场",
-            "政策监管"
+            "绿色算力",
+            "数字经济",
+            "词元经济",
+            "产业升级",
+            "可持续发展"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "tech",
+          "importance": 90,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBYNFVweDJwUWg0QV9oOG5rWUJVc3VQSXViaVFfQkVYam85ZWxzRC1KdzN0dDJfRXFBa3c4RDdXYmkyTlpCSDcxRG4tSXJyRHB0T2xTWHNxYkpRUlFqbFhJUkNzaGQyM2xuMHUzdGN2aw?oc=5"
             }
           ],
           "rank": 3
         },
         {
-          "title": "富二代强迫女主播同意包养事件",
-          "titleOrig": "富二代以刑案迫使女主播同意包养",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AF%8C%E4%BA%8C%E4%BB%A3%E4%BB%A5%E5%88%91%E6%A1%88%E8%BF%AB%E4%BD%BF%E5%A5%B3%E4%B8%BB%E6%92%AD%E5%90%8C%E6%84%8F%E5%8C%85%E5%85%BB%23&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "美加谈崩！特朗普：加拿大既想要作为一个州的福利又不想加入美国",
+          "titleOrig": "美加谈崩！特朗普：加拿大既想要作为一个州的福利又不想加入美国 - 东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ySlBDTGc5bU5HZnJ0SWJZY0VUWkR3TEh4QmM2SFd4WmZfRlgwRFp6UVBMTHlxQ2tYOTRWVGxxNDVjQXJDSWdIOHQ1SVg4cXBXRGNXaXVJUlRkYU9TczF6cw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-08-23T19:45:49+00:00",
+          "desc": "美加谈崩！特朗普：加拿大既想要作为一个州的福利又不想加入美国 东方财富美加贸易协议谈崩 卡尼在揭穿特朗普虚张声势后面临关键考验 BBC期货早报： 美对加突征50%关税 黄金一周涨5%创阶段新高 同花顺财经社评：加拿大发起“中国式反击”，这是一记重锤 新浪财经闪评 | 美加贸易谈判为何在最后一刻谈崩了？ 央视网",
           "hotLabel": "",
-          "summary": "富二代以刑案迫使女主播同意包养。",
-          "analysis": "此事件揭示了部分社会阶层利用权力和资源进行非法行为的现状。富二代通过刑案手段迫使女主播就范，反映了法治的不完善和社会道德的沦丧。事件可能引发公众对法治和社会公平正义的关注，促使政府加强法治建设和道德教育。",
+          "summary": "美加贸易协议谈判破裂，特朗普批评加拿大。",
+          "analysis": "美加贸易协议谈崩反映了国际贸易关系的复杂性和不确定性。对加拿大经济可能产生负面影响，同时也可能影响北美地区的贸易格局。中国可能成为美加争端中的潜在受益者。后续可能看到美加双方寻求新的谈判途径或采取其他形式的贸易措施。",
           "keywords": [
-            "富二代",
-            "女主播",
-            "包养",
-            "刑案",
-            "法治"
+            "美加贸易",
+            "谈判破裂",
+            "特朗普",
+            "加拿大",
+            "国际贸易"
           ],
-          "category": "society",
-          "importance": 85,
+          "category": "international",
+          "importance": 90,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%AF%8C%E4%BA%8C%E4%BB%A3%E4%BB%A5%E5%88%91%E6%A1%88%E8%BF%AB%E4%BD%BF%E5%A5%B3%E4%B8%BB%E6%92%AD%E5%90%8C%E6%84%8F%E5%8C%85%E5%85%BB%23&t=31&band_rank=9&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ySlBDTGc5bU5HZnJ0SWJZY0VUWkR3TEh4QmM2SFd4WmZfRlgwRFp6UVBMTHlxQ2tYOTRWVGxxNDVjQXJDSWdIOHQ1SVg4cXBXRGNXaXVJUlRkYU9TczF6cw?oc=5"
             }
           ],
           "rank": 4
         },
         {
-          "title": "全国推广去世亲人存款查询",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E6%8E%A8%E5%B9%BF%E5%8E%BB%E4%B8%96%E4%BA%B2%E4%BA%BA%E5%AD%98%E6%AC%BE%E6%9F%A5%E8%AF%A2",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
+          "title": "第48届世界技能大赛中国代表团成立，71名选手将参加全部64个项目比赛",
+          "titleOrig": "第48届世界技能大赛中国代表团成立 71名选手将参加全部64个项目比赛 - 中国青年网",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82dmtEMHVpcFNvLW5hbkk0ajNHSlpnWHNHT0oyeEVZY2tZR1l5eHcwdldYWnEwZ2dNbUFaUnJhV3QySVNYM3cwTG1aaGc5TEpxZVZNY3ZSMm5XdnJWbFhDMXZBeGM?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "全国范围内推广去世亲人存款查询服务。",
-          "analysis": "事件背景：此举旨在方便民众查询和处理去世亲人的财产。政策意图在于简化程序，提高公共服务效率。关键影响：对民众财产权益保护有积极意义，可能减少财产纠纷。后续走向：可能进一步推广至其他类型的财产查询服务。",
+          "publishedAt": "2026-08-23T22:45:00+00:00",
+          "desc": "第48届世界技能大赛中国代表团成立 71名选手将参加全部64个项目比赛 中国青年网第48届世界技能大赛中国代表团成立 新浪财经从焊接到无人机，数说63年世赛如何改写“一技之长” 光明网学习手记丨“走技能成才、技能报国之路” 新华网第48届世赛倒计时 普通人也能零距离体验顶级技能 中国日报网",
+          "hotLabel": "",
+          "summary": "中国代表团将参加世界技能大赛全部项目比赛",
+          "analysis": "这一事件体现了中国对技能人才培养的重视，以及对国际技能竞赛的积极参与。背后反映了中国推动职业教育改革、提升技能人才国际竞争力的政策意图。对国内而言，这有助于提升职业教育的社会地位，激发年轻人学习技能的热情。后续可能推动中国技能人才在国际舞台上的更多交流与合作。",
           "keywords": [
-            "存款查询",
-            "财产处理",
-            "公共服务",
-            "财产权益",
-            "程序简化"
+            "世界技能大赛",
+            "技能人才",
+            "职业教育",
+            "国际交流"
           ],
-          "category": "domestic",
-          "importance": 80,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E6%8E%A8%E5%B9%BF%E5%8E%BB%E4%B8%96%E4%BA%B2%E4%BA%BA%E5%AD%98%E6%AC%BE%E6%9F%A5%E8%AF%A2"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE82dmtEMHVpcFNvLW5hbkk0ajNHSlpnWHNHT0oyeEVZY2tZR1l5eHcwdldYWnEwZ2dNbUFaUnJhV3QySVNYM3cwTG1aaGc5TEpxZVZNY3ZSMm5XdnJWbFhDMXZBeGM?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 5
         },
         {
-          "title": "427万辆汽车召回，全部为新能源汽车",
-          "titleOrig": "427万辆召回 没有一款油车",
-          "url": "https://www.baidu.com/s?wd=427%E4%B8%87%E8%BE%86%E5%8F%AC%E5%9B%9E%20%E6%B2%A1%E6%9C%89%E4%B8%80%E6%AC%BE%E6%B2%B9%E8%BD%A6",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "中国召回427万辆汽车，均为新能源汽车。",
-          "analysis": "此次召回主要针对新能源汽车，反映了我国对新能源汽车质量监管的加强。政策意图在于推动新能源汽车产业健康发展，提升消费者信心。对社会影响方面，有利于规范市场秩序，促进新能源汽车行业良性竞争。后续走向可能包括更加严格的监管措施和产品质量提升。",
-          "keywords": [
-            "新能源汽车",
-            "召回",
-            "监管",
-            "市场秩序",
-            "消费者信心"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=427%E4%B8%87%E8%BE%86%E5%8F%AC%E5%9B%9E%20%E6%B2%A1%E6%9C%89%E4%B8%80%E6%AC%BE%E6%B2%B9%E8%BD%A6"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "女主播被迫包养录音5年自保事件",
-          "titleOrig": "女主播被以案强迫包养录音5年自保",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E4%B8%BB%E6%92%AD%E8%A2%AB%E4%BB%A5%E6%A1%88%E5%BC%BA%E8%BF%AB%E5%8C%85%E5%85%BB%E5%BD%95%E9%9F%B35%E5%B9%B4%E8%87%AA%E4%BF%9D%23&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "女主播因录音自保，揭露富二代强迫包养。",
-          "analysis": "此事件反映了社会道德风险和法治缺失的问题。在当前社会环境下，部分富二代等社会阶层利用自身资源，通过非法手段迫使他人就范，这不仅对受害者造成严重伤害，也对社会风气产生恶劣影响。事件背后可能涉及黑恶势力渗透娱乐圈，对娱乐圈治理提出更高要求。后续可能引发相关法律法规的修订和娱乐圈整治行动。",
-          "keywords": [
-            "女主播",
-            "包养",
-            "录音",
-            "富二代",
-            "社会风气"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E4%B8%BB%E6%92%AD%E8%A2%AB%E4%BB%A5%E6%A1%88%E5%BC%BA%E8%BF%AB%E5%8C%85%E5%85%BB%E5%BD%95%E9%9F%B35%E5%B9%B4%E8%87%AA%E4%BF%9D%23&t=31&band_rank=8&Refer=top"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "2万件中央救灾物资支持广西",
+          "title": "2026世界人形机器人运动会",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -993,76 +947,59 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "中央政府向广西提供2万件救灾物资。",
-          "analysis": "事件背景：中央政府向地方提供救灾物资是应对自然灾害的常规措施。政策意图在于加强中央对地方的支持，提高救灾效率。关键影响：对广西地区灾后重建和民生保障有积极作用。后续走向：可能继续有类似的救灾物资调配，以应对其他地区的灾害。",
+          "summary": "2026年将举办世界人形机器人运动会",
+          "analysis": "世界人形机器人运动会的举办将推动全球人形机器人技术的发展，提升中国在国际机器人领域的地位。这体现了中国对机器人技术的重视，以及对科技创新的推动。后续可能关注赛事筹备情况及机器人技术的应用前景。",
           "keywords": [
-            "中央救灾",
-            "物资支持",
-            "广西",
-            "自然灾害",
-            "救灾效率"
+            "人形机器人",
+            "世界运动会",
+            "机器人技术",
+            "科技创新",
+            "国际地位"
           ],
-          "category": "domestic",
-          "importance": 75,
+          "category": "tech",
+          "importance": 85,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=3&Refer=top"
-            },
-            {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%AE%87%E6%A0%91%E8%82%A1%E4%BB%B7%E8%B7%B3%E6%B0%B4%E5%B8%A6%E5%B4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9D%BF%E5%9D%97"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A7%B0%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E7%A6%8F%E5%88%A9"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E5%BB%B6%E6%9C%9F"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%A4%B1%E4%B8%9A%E7%94%B7%E5%AD%90%E9%A5%BF%2020%20%E5%A4%A9%E8%87%B4%E8%82%BE%E8%A1%B0%E7%AB%AD"
+              "url": "https://www.zhihu.com/search?q=2026%E4%B8%96%E7%95%8C%E4%BA%BA%E5%BD%A2%E6%9C%BA%E5%99%A8%E4%BA%BA%E8%BF%90%E5%8A%A8%E4%BC%9A"
             }
           ],
-          "rank": 8
+          "rank": 6
         },
         {
-          "title": "TikTok支付4亿美元解决儿童隐私诉讼",
-          "titleOrig": "TikTok to pay $400m to US in one of largest child privacy settlements",
-          "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-08-21T22:36:12+00:00",
-          "desc": "The deal stems from a 2024 lawsuit alleging TikTok and its parent company ByteDance collected \"vast amounts of data\" on millions of users under the age of 13.",
+          "title": "欧盟敦促以色列停止“E1区”定居点建设项目",
+          "titleOrig": "欧盟敦促以色列停止“E1区”定居点建设项目 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qWFBSR3ZPZ0t1bEhyVnE4SFdld1ZIbjVmQ3FHVFo5b0o3Z1MxT0NMMkZ2LUZ4Tm51T0JtdmJ1ekFhVHBiODdUUFZWd1FGYnpiaEstZHhwRzNZUzl5ZVFoT2U5cDlLekJF?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:52:41+00:00",
+          "desc": "欧盟敦促以色列停止“E1区”定居点建设项目 chinanews.com.cn八国发表联合声明，谴责以色列非法定居点计划 观察者巴勒斯坦总统呼吁以色列停止并取消“E1区”定居点招标 新浪财经七国敦促以色列撤回“E1区”定居点建设计划 中国日报网以色列，惹众怒！英法德埃巴等15国发声谴责，欧盟拟对以实施制裁，冯德莱恩：以方行为不可接受！土耳其寻求对内塔尼亚胡发红色通缉令 每日经济新闻",
           "hotLabel": "",
-          "summary": "TikTok支付4亿美元解决儿童隐私诉讼。",
-          "analysis": "TikTok支付巨额罚款解决儿童隐私问题，反映了全球对儿童隐私保护的关注。对国内经济影响较小，但对全球科技企业合规经营有警示作用。后续走向可能包括全球范围内对儿童隐私保护法规的加强。",
+          "summary": "欧盟敦促以色列停止在“E1区”的定居点建设项目",
+          "analysis": "这一事件涉及中东地区敏感的巴以冲突问题，欧盟的立场反映了国际社会对以色列定居点政策的关切。对中国而言，可能影响中国在中东地区的政策选择和外交策略。后续可能加剧巴以冲突，影响地区稳定。",
           "keywords": [
-            "TikTok",
-            "儿童隐私",
-            "罚款",
-            "科技企业",
-            "合规经营"
+            "巴以冲突",
+            "以色列定居点",
+            "欧盟立场",
+            "地区稳定"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyr0l45xjro?at_medium=RSS&at_campaign=rss"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1qWFBSR3ZPZ0t1bEhyVnE4SFdld1ZIbjVmQ3FHVFo5b0o3Z1MxT0NMMkZ2LUZ4Tm51T0JtdmJ1ekFhVHBiODdUUFZWd1FGYnpiaEstZHhwRzNZUzl5ZVFoT2U5cDlLekJF?oc=5"
             }
           ],
-          "rank": 9
+          "rank": 7
         },
         {
-          "title": "韩红基金会救护车供应商门紧闭",
-          "titleOrig": "韩红基金会救护车供应商大门紧闭",
+          "title": "韩红基金会救护车供应商大门紧闭",
+          "titleOrig": "",
           "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E6%95%91%E6%8A%A4%E8%BD%A6%E4%BE%9B%E5%BA%94%E5%95%86%E5%A4%A7%E9%97%A8%E7%B4%A7%E9%97%AD%23&t=31&band_rank=1&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
@@ -1073,65 +1010,306 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "韩红基金会救护车供应商公司大门紧闭，引发关注。",
-          "analysis": "事件背景：韩红基金会作为慈善机构，其救护车供应商问题可能涉及慈善资金管理和使用问题。政策意图可能在于加强对慈善机构的监管，确保公益资金合理使用。关键影响：对国内慈善事业和公众信任度有影响，可能促使政府加强慈善监管政策。后续走向：政府可能出台更严格的慈善机构管理措施。",
+          "summary": "韩红基金会救护车供应商大门紧闭。",
+          "analysis": "韩红基金会救护车供应商大门紧闭事件，暴露了慈善组织在资金管理和监督方面的漏洞。这一事件引发了公众对慈善组织透明度和公信力的关注。未来，政府和社会各界将更加重视慈善组织的监管，确保慈善资金用于公益目的。",
           "keywords": [
             "韩红基金会",
             "救护车",
-            "慈善监管",
-            "资金管理",
-            "公众信任"
+            "慈善组织",
+            "透明度",
+            "监管"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 80,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BA%A2%E5%9F%BA%E9%87%91%E4%BC%9A%E6%95%91%E6%8A%A4%E8%BD%A6%E4%BE%9B%E5%BA%94%E5%95%86%E5%A4%A7%E9%97%A8%E7%B4%A7%E9%97%AD%23&t=31&band_rank=1&Refer=top"
-            },
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "中央救灾物资支持广西",
+          "titleOrig": "2万件中央救灾物资支持广西",
+          "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中央向广西提供2万件救灾物资",
+          "analysis": "此次救灾物资的提供体现了中央对地方应急救灾工作的支持。背景是广西近期可能遭遇自然灾害，政策意图在于强化地方应急能力，保障民生。这一举措对国内民生保障具有重要意义，体现了国家在自然灾害面前的人本关怀。后续可能持续关注广西的救灾进展和中央援助的后续效果。",
+          "keywords": [
+            "救灾物资",
+            "中央援助",
+            "广西",
+            "自然灾害",
+            "民生保障"
+          ],
+          "category": "domestic",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%232%E4%B8%87%E4%BB%B6%E4%B8%AD%E5%A4%AE%E6%95%91%E7%81%BE%E7%89%A9%E8%B5%84%E6%94%AF%E6%8C%81%E5%B9%BF%E8%A5%BF%23&t=31&band_rank=3&Refer=top"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "嫦娥七号发射延期",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E5%BB%B6%E6%9C%9F",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "嫦娥七号发射计划被推迟。",
+          "analysis": "嫦娥七号发射延期可能是由于技术原因或项目调整。这表明中国在航天领域的严谨态度和追求技术完美的决心。对国内航天科技发展有积极影响，但短期内可能对相关产业链产生一定影响。后续可能会看到更加详细的延期原因和新的发射时间表。",
+          "keywords": [
+            "嫦娥七号",
+            "发射延期",
+            "航天科技",
+            "影响"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E5%8D%8F%E5%90%A6%E8%AE%A4%E9%9F%A9%E8%B6%B3%E5%8D%8F%E6%8F%90%E4%BE%9B%E8%BF%87%E4%B8%8D%E5%BD%93%E6%8B%9B%E5%BE%85"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E6%80%BB%E4%B9%A6%E8%AE%B0%E4%B8%BA%E4%BD%95%E5%BC%BA%E8%B0%83%E6%96%87%E5%92%8C%E6%97%85%E7%9A%84%E8%9E%8D%E5%90%88"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E8%8A%B15.9%E4%B8%87%E5%85%BB%E5%8F%91%E8%A2%AB%E5%89%83%E5%85%89%E5%A4%B4%E6%8B%94%E7%99%BD%E5%8F%91"
+              "url": "https://www.zhihu.com/search?q=%E5%AB%A6%E5%A8%A5%E4%B8%83%E5%8F%B7%E5%8F%91%E5%B0%84%E5%BB%B6%E6%9C%9F"
             }
           ],
           "rank": 10
         },
         {
-          "title": "哈萨克斯坦选举后未来走向：俄罗斯、欧盟还是中国",
-          "titleOrig": "Kazakhstan's future after the elections: Russia, EU or China",
-          "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-23T04:23:00+00:00",
-          "desc": "Kazakhstan, where power is being continuously consolidated in the president's hands, will have to continue its tough balancing act between the EU, Russia and China following the parliamentary elections this Sunday.",
+          "title": "处暑出伏撞上“三台风共舞” 宁波本周热不热？",
+          "titleOrig": "处暑出伏撞上“三台风共舞” 宁波本周热不热？-新闻中心 - 中国宁波网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80MVJhWU5GVWpvUFc3eHRJazloVXlXRzdqS3VZTDRlYzJ0VldhaEM5LXA1MnZjN255cmxYbEl5aEh3RHB6M0p6QXNxTC01Zk9McjFzUXVzLUVicnk0bmFnT3lEZWw0di1p?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T22:59:00+00:00",
+          "desc": "处暑出伏撞上“三台风共舞” 宁波本周热不热？-新闻中心 中国宁波网省防指启动防汛四级应急响应 新浪财经“三台共舞” 今年台风为何如此活跃 厄尔尼诺影响显著 中华网台风“沙德尔”登陆我国？今年台风为何偏多？ 凤凰网三台风“扎堆”在线 最新路径→ 中国日报网",
           "hotLabel": "",
-          "summary": "哈萨克斯坦选举后，未来可能走向俄罗斯、欧盟或中国。",
-          "analysis": "哈萨克斯坦选举后，其未来外交政策走向备受关注。事件背景涉及地区大国关系和地缘政治。对国内民生影响较小，但对国际政治格局有重要影响。后续走向可能包括加强与俄罗斯的能源合作，或寻求与欧盟、中国的经济合作。",
+          "summary": "处暑时节宁波遭遇三台风共舞。",
+          "analysis": "三台风同时影响宁波表明气候变化对极端天气事件的影响加剧。对宁波地区居民生活和农业生产可能造成影响，同时也对气象预警和应急响应能力提出挑战。后续可能需要加强气象监测和应对措施。",
           "keywords": [
-            "哈萨克斯坦",
-            "选举",
-            "地缘政治",
-            "俄罗斯",
-            "欧盟"
+            "三台风",
+            "气候变化",
+            "宁波",
+            "极端天气",
+            "气象预警"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE80MVJhWU5GVWpvUFc3eHRJazloVXlXRzdqS3VZTDRlYzJ0VldhaEM5LXA1MnZjN255cmxYbEl5aEh3RHB6M0p6QXNxTC01Zk9McjFzUXVzLUVicnk0bmFnT3lEZWw0di1p?oc=5"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "王毅会见约旦副首相兼外交大臣萨法迪",
+          "titleOrig": "王毅会见约旦副首相兼外交大臣萨法迪 - 观察者",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XcGtJcnNweEpUcWJEN0pCUkVWTUZENkczWXdUNDUxaEJNc2pyOFU3NkZTeUdieDl5Ry0tNFB2eldTWHJ0c0FucGdkaGhvZVJHQ2ZHUDJZck9QYTVNWFRWWWZUVDJMUHBuZGc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T22:35:00+00:00",
+          "desc": "王毅会见约旦副首相兼外交大臣萨法迪 观察者赵乐际会见约旦国王阿卜杜拉二世 人民日报约旦国王阿卜杜拉二世接受新华社专访（全文） 新华网高端访谈丨期待拓展约中合作 深化战略伙伴关系——访约旦国王阿卜杜拉二世 上海热线约旦国王莅临智元考察，见证中国具身智能产业化成果 新浪财经",
+          "hotLabel": "",
+          "summary": "中国外长王毅会见约旦副首相兼外交大臣萨法迪",
+          "analysis": "此事件反映了中约两国高层交往的频繁，以及双方在多领域合作的加强。对国内而言，有助于提升中国在中东地区的影响力。后续可能推动两国在政治、经济、文化等领域的深入合作。",
+          "keywords": [
+            "外交关系",
+            "中约合作",
+            "高层交往",
+            "中东地区"
           ],
           "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XcGtJcnNweEpUcWJEN0pCUkVWTUZENkczWXdUNDUxaEJNc2pyOFU3NkZTeUdieDl5Ry0tNFB2eldTWHJ0c0FucGdkaGhvZVJHQ2ZHUDJZck9QYTVNWFRWWWZUVDJMUHBuZGc?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "广东再出“硬招”！首届流行音乐创作大会25日启幕，大湾区新地标同步开“唱”",
+          "titleOrig": "广东再出“硬招”！首届流行音乐创作大会25日启幕，大湾区新地标同步开“唱” - 21财经",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYlFBcy1VblFHR1F3Um5LTTR6ZlBlQ053OGVfZmZBWWVCaS1OdkM1ZTYxUFA1b001U04tTzF3YzNWM01TTG9nR0xyWDJjaWxvU0dRMlBkNjNNamJXWWd5b0lCMi1Da2ZEQVBnMU4tLTIxYXZhdTFJNTJfN3MxZ09qMDl5a29xQnJ6d2Nxcw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:33:00+00:00",
+          "desc": "广东再出“硬招”！首届流行音乐创作大会25日启幕，大湾区新地标同步开“唱” 21财经首届流行音乐创作大会（广东）明日启幕 新浪财经头版头条｜从“爱乐之城”迈向“造乐之都”，广东凭什么 搜狐网广东智造“造”出音乐新场景！广州音乐公园8月25日开园 广东广播电视台星海音乐学院探索“科技+音乐”复合型人才培养新路径——AI浪潮下，音乐人才如何破圈？ 搜狐网",
+          "hotLabel": "",
+          "summary": "广东举办首届流行音乐创作大会，大湾区新地标同步启用。",
+          "analysis": "广东作为音乐大省，此次举办流行音乐创作大会，旨在推动音乐产业创新和发展。此举有助于提升广东音乐产业的国际竞争力，同时通过音乐这一文化载体，加强大湾区内部的文化交流与合作。对于国内音乐产业的发展，广东的尝试具有示范意义，有望推动音乐产业与科技、旅游等产业的融合发展。",
+          "keywords": [
+            "流行音乐",
+            "音乐产业",
+            "大湾区",
+            "文化创新",
+            "产业融合"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNYlFBcy1VblFHR1F3Um5LTTR6ZlBlQ053OGVfZmZBWWVCaS1OdkM1ZTYxUFA1b001U04tTzF3YzNWM01TTG9nR0xyWDJjaWxvU0dRMlBkNjNNamJXWWd5b0lCMi1Da2ZEQVBnMU4tLTIxYXZhdTFJNTJfN3MxZ09qMDl5a29xQnJ6d2Nxcw?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "北大教授称灵活就业是一种福利",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A7%B0%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E7%A6%8F%E5%88%A9",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "北大教授提出灵活就业是福利的观点",
+          "analysis": "灵活就业被视为一种福利，反映了当前就业市场多样化的趋势。这一观点可能对政府制定相关政策有影响，鼓励灵活就业有助于缓解就业压力，促进劳动力市场活力。后续可能关注灵活就业政策的出台和实施效果。",
+          "keywords": [
+            "灵活就业",
+            "北大教授",
+            "就业政策",
+            "劳动力市场",
+            "政策影响"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%8C%97%E5%A4%A7%E6%95%99%E6%8E%88%E7%A7%B0%E7%81%B5%E6%B4%BB%E5%B0%B1%E4%B8%9A%E6%98%AF%E4%B8%80%E7%A7%8D%E7%A6%8F%E5%88%A9"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "跨越20多年，赛·考斯基与殷玉珍温暖重逢",
+          "titleOrig": "跨越20多年，赛·考斯基与殷玉珍温暖重逢 - 京报网",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBteUJvUkpWN042M3diSkpDQmR3eG9jMXZSaXVJT2Q2c0luMHF5Qzh5VzlnU0h0NGotUFdjZUxMVmwtVWVuWTFyTXV1cFVDYzJtb1hVV3JCU0RDMEQybEE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:19:36+00:00",
+          "desc": "跨越20多年，赛·考斯基与殷玉珍温暖重逢 京报网“赛考斯”抵达鄂尔多斯，殷玉珍接机 观察者赛考斯参观康巴什夜景直呼太美了 重逢感动落泪 中华网跨越二十六年的“绿色之约” --国际 人民网特写：“赛考斯”和殷玉珍的热泪流到了一起 中国网",
+          "hotLabel": "",
+          "summary": "国际友人赛·考斯基与殷玉珍在中国重逢。",
+          "analysis": "赛·考斯基与殷玉珍的温暖重逢体现了国际友谊的持久性和跨越国界的情感联系。这一事件有助于增进中外文化交流和理解，对提升中国的国际形象有积极作用。后续可能会看到更多类似的国际友好交流活动。",
+          "keywords": [
+            "国际友人",
+            "重逢",
+            "文化交流",
+            "国际友谊",
+            "中国形象"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBteUJvUkpWN042M3diSkpDQmR3eG9jMXZSaXVJT2Q2c0luMHF5Qzh5VzlnU0h0NGotUFdjZUxMVmwtVWVuWTFyTXV1cFVDYzJtb1hVV3JCU0RDMEQybEE?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "广西宁明遭罕见洪水侵袭，中越边境爱店口岸暂停通关，当地紧急转移群众",
+          "titleOrig": "广西宁明遭罕见洪水侵袭 中越边境爱店口岸暂停通关 当地紧急转移群众 - 华商网",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hVFljcWpXbTJaWWt6SnJDUkpHSFlnN1NCLVViSFpuVzM1WkRmMjVqVE1CRkVJZDE1dXo0MHQyTDdwVWVRbUItd3d4RTlWeXRTWF8wQVV0Qzh6WGk2MnQw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:56:29+00:00",
+          "desc": "广西宁明遭罕见洪水侵袭 中越边境爱店口岸暂停通关 当地紧急转移群众 华商网洪水漫城 救援不歇——广西宁明县抗洪一线见闻 中国青年网两部门发布红色山洪灾害气象预警 新浪财经台风紫檀致广西宁明多处被淹 数千民众转移安置 中华网广西宁明：全力转移被困群众 中国经济网",
+          "hotLabel": "",
+          "summary": "广西宁明发生罕见洪水，口岸暂停通关，群众紧急转移",
+          "analysis": "这起洪水事件突显了自然灾害对边境地区的影响，以及应对自然灾害的应急响应能力。对当地社会稳定和经济发展造成影响，同时也考验了政府的应急管理能力。后续可能加强防洪措施，提高灾害预警系统。",
+          "keywords": [
+            "洪水",
+            "灾害应对",
+            "边境地区",
+            "应急管理"
+          ],
+          "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9hVFljcWpXbTJaWWt6SnJDUkpHSFlnN1NCLVViSFpuVzM1WkRmMjVqVE1CRkVJZDE1dXo0MHQyTDdwVWVRbUItd3d4RTlWeXRTWF8wQVV0Qzh6WGk2MnQw?oc=5"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "光影润春城！第二十一届中国长春电影节开幕",
+          "titleOrig": "光影润春城！第二十一届中国长春电影节开幕 - 中华网",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xRk8tZnhJckNUSThVdkNiS0FQVEJMSjh3ZnAwRHpGTTBKcDQ1bG4xMDV2RklGSEJXSFZhVWhoNUdOLXpSalBQdTJYOUFzaDlpaGx5bzFoQ3BodDFYcnEtVjQ0eVUtT3ZGX0E?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-23T23:58:51+00:00",
+          "desc": "光影润春城！第二十一届中国长春电影节开幕 中华网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "第二十一届中国长春电影节在长春开幕。",
+          "analysis": "长春电影节的举办，不仅是对中国电影产业的推动，也是对长春乃至东北地区文化发展的促进。电影节的举办，有助于提升长春的文化软实力，同时通过电影这一载体，传播中国文化，增强文化自信。对于国内电影产业的发展，长春电影节的举办将起到积极的推动作用。",
+          "keywords": [
+            "长春电影节",
+            "电影产业",
+            "文化自信",
+            "文化发展",
+            "东北地区"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE4xRk8tZnhJckNUSThVdkNiS0FQVEJMSjh3ZnAwRHpGTTBKcDQ1bG4xMDV2RklGSEJXSFZhVWhoNUdOLXpSalBQdTJYOUFzaDlpaGx5bzFoQ3BodDFYcnEtVjQ0eVUtT3ZGX0E?oc=5"
             },
             {
               "name": "The Guardian",
@@ -1140,240 +1318,52 @@
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "梁王世锦赛夺冠",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E6%A2%81%E7%8E%8B%E4%B8%96%E9%94%A6%E8%B5%9B%E5%A4%BA%E5%86%A0&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "中国选手在梁王世锦赛中夺冠。",
-          "analysis": "梁王世锦赛夺冠体现了中国体育事业的蓬勃发展，以及运动员在国际赛场上的竞争力。这一事件对国内体育事业有积极影响，激励更多年轻人投身体育。后续可能推动体育产业的发展，提高国家体育水平。",
-          "keywords": [
-            "梁王世锦赛",
-            "夺冠",
-            "体育事业",
-            "国际赛事",
-            "运动员"
-          ],
-          "category": "domestic",
-          "importance": 70,
-          "sources": [
+            },
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%A2%81%E7%8E%8B%E4%B8%96%E9%94%A6%E8%B5%9B%E5%A4%BA%E5%86%A0&t=31&band_rank=2&Refer=top"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "一代人有一代人的隐形家务",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E9%9A%90%E5%BD%A2%E5%AE%B6%E5%8A%A1&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "探讨不同代际在家庭家务分工上的差异。",
-          "analysis": "事件背景：家务分工问题反映了家庭和社会结构的变化。社会成因包括女性就业率提高和家庭结构变化。关键影响：对家庭关系和社会性别角色有深远影响。后续走向：可能引发对家庭分工和社会政策的讨论。",
-          "keywords": [
-            "家务分工",
-            "代际差异",
-            "家庭关系",
-            "性别角色",
-            "社会政策"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E4%B8%80%E4%BB%A3%E4%BA%BA%E6%9C%89%E4%B8%80%E4%BB%A3%E4%BA%BA%E7%9A%84%E9%9A%90%E5%BD%A2%E5%AE%B6%E5%8A%A1&t=31&band_rank=4&Refer=top"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "3姐弟太饿报警求助民警上门做饭",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "三姐弟因饥饿报警，民警上门提供食物。",
-          "analysis": "这一事件反映了社会救助体系的完善，以及基层民警的责任感。对受助家庭而言，得到了及时的帮助。对社会而言，这一事件体现了社会温暖和互助精神。",
-          "keywords": [
-            "饥饿",
-            "报警",
-            "民警",
-            "救助体系",
-            "社会互助"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%233%E5%A7%90%E5%BC%9F%E5%A4%AA%E9%A5%BF%E6%8A%A5%E8%AD%A6%E6%B1%82%E5%8A%A9%E6%B0%91%E8%AD%A6%E4%B8%8A%E9%97%A8%E5%81%9A%E9%A5%AD%23&t=31&band_rank=7&Refer=top"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "女子从140瘦到95斤事件",
-          "titleOrig": "从140瘦到了95斤",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8E140%E7%98%A6%E5%88%B0%E4%BA%8695%E6%96%A4%23&t=31&band_rank=12&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "女子通过极端方式减肥至95斤。",
-          "analysis": "此事件反映了当前社会对身材的过度关注和审美压力。女子通过极端方式减肥，可能对身体健康造成严重伤害，同时也反映了社会对健康生活方式的忽视。事件可能引发公众对健康生活方式和审美观念的反思。",
-          "keywords": [
-            "减肥",
-            "身材",
-            "健康",
-            "审美",
-            "社会压力"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%BB%8E140%E7%98%A6%E5%88%B0%E4%BA%8695%E6%96%A4%23&t=31&band_rank=12&Refer=top"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "张韶涵演唱会突发不适插氧气管",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9F%B6%E6%B6%B5%E6%BC%94%E5%94%B1%E4%BC%9A%E7%AA%81%E5%8F%91%E4%B8%8D%E9%80%82%E6%8F%92%E6%B0%A7%E6%B0%94%E7%AE%A1",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "歌手张韶涵演唱会期间突发不适，紧急插氧气管。",
-          "analysis": "张韶涵演唱会突发状况反映了艺人工作强度大，需要注意身体健康。对国内社会影响较小，但提醒公众关注艺人健康问题。后续走向可能包括艺人自我保护意识的提高和演出安全保障的加强。",
-          "keywords": [
-            "张韶涵",
-            "演唱会",
-            "艺人健康",
-            "工作强度",
-            "安全保障"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9F%B6%E6%B6%B5%E6%BC%94%E5%94%B1%E4%BC%9A%E7%AA%81%E5%8F%91%E4%B8%8D%E9%80%82%E6%8F%92%E6%B0%A7%E6%B0%94%E7%AE%A1"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "张韶涵演唱会突发心脏不适",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9F%B6%E6%B6%B5%E6%BC%94%E5%94%B1%E4%BC%9A%E7%AA%81%E5%8F%91%E5%BF%83%E8%84%8F%E4%B8%8D%E9%80%82%23&t=31&band_rank=6&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "歌手张韶涵在演唱会期间突发心脏不适。",
-          "analysis": "这一事件提醒公众关注艺人健康问题，以及高强度工作对身心的影响。对张韶涵个人而言，可能影响其未来的工作安排。对社会而言，这一事件促使人们关注艺人工作强度与健康的平衡。",
-          "keywords": [
-            "张韶涵",
-            "演唱会",
-            "心脏不适",
-            "艺人健康",
-            "工作强度"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%BC%A0%E9%9F%B6%E6%B6%B5%E6%BC%94%E5%94%B1%E4%BC%9A%E7%AA%81%E5%8F%91%E5%BF%83%E8%84%8F%E4%B8%8D%E9%80%82%23&t=31&band_rank=6&Refer=top"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 17
         },
         {
-          "title": "傅首尔前夫发文怼留几手事件",
-          "titleOrig": "傅首尔前夫发文怼留几手",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%82%85%E9%A6%96%E5%B0%94%E5%89%8D%E5%A4%AB%E5%8F%91%E6%96%87%E6%80%BC%E7%95%99%E5%87%A0%E6%89%8B%23&t=31&band_rank=11&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "宇树股价跳水带崩机器人板块",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%AE%87%E6%A0%91%E8%82%A1%E4%BB%B7%E8%B7%B3%E6%B0%B4%E5%B8%A6%E5%B4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9D%BF%E5%9D%97",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "傅首尔前夫在微博发文怼留几手。",
-          "analysis": "此事件属于娱乐圈的私域纠纷，反映了娱乐圈内部人际关系复杂。傅首尔前夫的发文可能涉及个人情感纠葛，对傅首尔个人形象和公众对其家庭关系的认知产生影响。事件可能引发公众对娱乐圈婚姻家庭问题的关注。",
+          "hotLabel": "#1",
+          "summary": "宇树股价下跌引发机器人板块波动",
+          "analysis": "宇树股价的下跌可能反映了市场对机器人行业前景的担忧，或是个别事件对板块的影响。这背后可能涉及行业政策调整、市场竞争加剧等因素。对国内机器人行业来说，可能意味着需要加强技术创新和行业自律。后续需关注机器人板块的整体走势及行业政策导向。",
           "keywords": [
-            "傅首尔",
-            "前夫",
-            "微博",
-            "纠纷",
-            "娱乐圈"
+            "宇树股价",
+            "机器人板块",
+            "行业波动",
+            "技术创新",
+            "行业自律"
           ],
-          "category": "society",
-          "importance": 60,
+          "category": "economy",
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%82%85%E9%A6%96%E5%B0%94%E5%89%8D%E5%A4%AB%E5%8F%91%E6%96%87%E6%80%BC%E7%95%99%E5%87%A0%E6%89%8B%23&t=31&band_rank=11&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%AE%87%E6%A0%91%E8%82%A1%E4%BB%B7%E8%B7%B3%E6%B0%B4%E5%B8%A6%E5%B4%A9%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%9D%BF%E5%9D%97"
             }
           ],
           "rank": 18
         },
         {
-          "title": "原来内向的人都是这样交朋友的",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%86%85%E5%90%91%E7%9A%84%E4%BA%BA%E9%83%BD%E6%98%AF%E8%BF%99%E6%A0%B7%E4%BA%A4%E6%9C%8B%E5%8F%8B%E7%9A%84&t=31&band_rank=5&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "韦东奕带货39.8元练习册",
+          "titleOrig": "韦东奕带货卖39.8元练习册",
+          "url": "https://www.zhihu.com/search?q=%E9%9F%A6%E4%B8%9C%E5%A5%95%E5%B8%A6%E8%B4%A7%E5%8D%9639.8%E5%85%83%E7%BB%83%E4%B9%A0%E5%86%8C",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1381,31 +1371,30 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "探讨内向人士交友方式的热门话题。",
-          "analysis": "这一话题反映了社会对内向性格人士的关注和接纳。对个人而言，了解内向人士的交友方式有助于增进人际交往。对社会而言，这一话题有助于消除对内向性格的偏见，促进社会多元化。",
+          "summary": "数学家韦东奕通过直播带货39.8元练习册。",
+          "analysis": "韦东奕带货的行为体现了知识分子的社会责任感，同时也是对教育资源的关注。这一事件可能引发公众对教育资源分配和普及的关注，以及对于名人效应在商业推广中的作用的讨论。后续可能会看到更多知识分子参与公益活动，推动社会正能量。",
           "keywords": [
-            "内向性格",
-            "交友方式",
-            "社会接纳",
-            "心理特征",
-            "人际关系"
+            "韦东奕",
+            "带货",
+            "教育资源",
+            "社会影响"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%8E%9F%E6%9D%A5%E5%86%85%E5%90%91%E7%9A%84%E4%BA%BA%E9%83%BD%E6%98%AF%E8%BF%99%E6%A0%B7%E4%BA%A4%E6%9C%8B%E5%8F%8B%E7%9A%84&t=31&band_rank=5&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%9F%A6%E4%B8%9C%E5%A5%95%E5%B8%A6%E8%B4%A7%E5%8D%9639.8%E5%85%83%E7%BB%83%E4%B9%A0%E5%86%8C"
             }
           ],
           "rank": 19
         },
         {
-          "title": "张元英走路姿势事件",
-          "titleOrig": "张元英走路姿势",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%85%83%E8%8B%B1%E8%B5%B0%E8%B7%AF%E5%A7%BF%E5%8A%BF&t=31&band_rank=13&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "中国足协否认韩足协提供过不当招待",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E5%8D%8F%E5%90%A6%E8%AE%A4%E9%9F%A9%E8%B6%B3%E5%8D%8F%E6%8F%90%E4%BE%9B%E8%BF%87%E4%B8%8D%E5%BD%93%E6%8B%9B%E5%BE%85",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1413,21 +1402,33 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "张元英走路姿势引发热议。",
-          "analysis": "此事件属于娱乐圈的娱乐新闻，反映了公众对明星私生活的关注。张元英的走路姿势成为焦点，可能与其个人形象和公众期待有关。事件可能引发公众对明星私生活与公众形象关系的讨论。",
+          "summary": "中国足协否认韩国足协提供不当招待",
+          "analysis": "此事件涉及国际足球组织的交往，体现了中国足协在处理国际事务时的专业性和原则性。对国内足球环境来说，有助于维护公平竞争的环境。后续可能关注两国足协的交往情况及国际足球规则的执行。",
           "keywords": [
-            "张元英",
-            "走路姿势",
-            "明星",
-            "私生活",
-            "公众形象"
+            "中国足协",
+            "韩国足协",
+            "不当招待",
+            "国际足球",
+            "公平竞争"
           ],
-          "category": "society",
-          "importance": 50,
+          "category": "international",
+          "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%85%83%E8%8B%B1%E8%B5%B0%E8%B7%AF%E5%A7%BF%E5%8A%BF&t=31&band_rank=13&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E5%9B%BD%E8%B6%B3%E5%8D%8F%E5%90%A6%E8%AE%A4%E9%9F%A9%E8%B6%B3%E5%8D%8F%E6%8F%90%E4%BE%9B%E8%BF%87%E4%B8%8D%E5%BD%93%E6%8B%9B%E5%BE%85"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/21/tiananmen-square-vigil-hong-kong-alliance-activists-guilty-verdict-lee-cheuk-yan-chow-hang-tung"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/aug/20/evergrande-founder-jailed-life-fraud-hui-ka-yan"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/kazakhstan-s-future-after-the-elections-russia-eu-or-china/a-78449637?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 20
