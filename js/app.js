@@ -14,11 +14,15 @@
     query: '',
     theme: localStorage.getItem('gh_theme') || 'dark',
     focusIdx: -1,
+    _searchTimer: null,
   };
 
   // 数据文件路径（GitHub Pages 部署后是相对路径）
   // 加 ?v= 时间戳避免 CDN 缓存（手动刷新时）
   const DATA_URL = 'data/top20.json';
+
+  // 静态版本号（每次部署手动递增），用于缓存清理
+  const APP_VERSION = '4';
 
   // ============ 工具 ============
   const $ = id => document.getElementById(id);
@@ -37,6 +41,9 @@
       return Math.floor(diff / 86400) + ' 天前';
     } catch { return ''; }
   }
+
+  // 安全的 rel 属性：所有 target=_blank 的链接都加 noopener noreferrer
+  const SAFE_REL = 'noopener noreferrer';
 
   function fmtClock(d) {
     const pad = n => String(n).padStart(2, '0');
@@ -74,11 +81,14 @@
       switchSection(b.dataset.sec);
     });
 
-    // 搜索
+    // 搜索（300ms 防抖，避免逐字触发 DOM 操作）
     const si = $('searchInput');
     si.addEventListener('input', e => {
-      state.query = e.target.value.trim().toLowerCase();
-      applyFilter();
+      clearTimeout(state._searchTimer);
+      state._searchTimer = setTimeout(() => {
+        state.query = e.target.value.trim().toLowerCase();
+        applyFilter();
+      }, 300);
     });
     $('clearSearch').addEventListener('click', () => {
       si.value = ''; state.query = ''; applyFilter();
@@ -212,16 +222,19 @@
   }
 
   // ============ 数据加载 ============
+  let _loadToken = 0;
   async function loadData(force = false) {
+    const token = ++_loadToken;
     const status = $('status');
     status.textContent = '正在加载最新数据…';
     status.classList.add('busy');
 
     try {
-      const url = force ? `${DATA_URL}?v=${Date.now()}` : DATA_URL;
+      const url = force ? `${DATA_URL}?v=${Date.now()}` : `${DATA_URL}?v=${APP_VERSION}`;
       const resp = await fetch(url, { cache: 'no-store' });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       state.data = await resp.json();
+      if (token !== _loadToken) return; // 被新请求覆盖，丢弃旧数据
       // 数据兼容性保护：若旧格式（无 sections），包装
       if (!state.data.sections) {
         state.data.sections = {
@@ -236,6 +249,7 @@
       status.classList.remove('busy');
       render();
     } catch (e) {
+      if (token !== _loadToken) return;
       console.error('加载失败', e);
       status.classList.remove('busy');
       status.textContent = '加载失败：' + e.message + '（数据每6小时更新一次，初次部署后请耐心等待）';
@@ -313,7 +327,7 @@
       { name: it.source || '', url: it.url || '' }
     ];
     const sourceBadges = sources.map(s =>
-      `<a class="src-badge" href="${esc(s.url)}" target="_blank" rel="noopener" title="查看原文">${esc(s.name)}</a>`
+      `<a class="src-badge" href="${esc(s.url)}" target="_blank" rel="${SAFE_REL}" title="查看原文">${esc(s.name)}</a>`
     ).join('');
 
     const rank = it.rank || 0;
@@ -343,7 +357,7 @@
             </span>
           </div>
           <h3 class="card-title">
-            <a href="${esc(sources[0].url || it.url || '#')}" target="_blank" rel="noopener">${esc(it.title)}</a>
+            <a href="${esc(sources[0].url || it.url || '#')}" target="_blank" rel="${SAFE_REL}">${esc(it.title)}</a>
           </h3>
           ${origTitle}
           ${it.summary ? `<div class="card-summary">${esc(it.summary)}</div>` : ''}
@@ -423,38 +437,41 @@
 
   // ============ 过滤 ============
   function applyFilter() {
-    const cards = document.querySelectorAll('.news-card');
-    let visibleTotal = 0;
-    cards.forEach(card => {
-      const cat = card.dataset.cat;
-      const showCat = state.activeCat === 'all' || state.activeCat === cat;
-      const txt = card.textContent.toLowerCase();
-      const hitQuery = !state.query || txt.indexOf(state.query) >= 0;
-      const show = showCat && hitQuery;
-      card.style.display = show ? '' : 'none';
-      if (show) visibleTotal++;
-    });
+    // 使用 requestAnimationFrame 批量 DOM 操作，避免同步重排
+    requestAnimationFrame(() => {
+      const cards = document.querySelectorAll('.news-card');
+      let visibleTotal = 0;
+      cards.forEach(card => {
+        const cat = card.dataset.cat;
+        const showCat = state.activeCat === 'all' || state.activeCat === cat;
+        const txt = card.textContent.toLowerCase();
+        const hitQuery = !state.query || txt.indexOf(state.query) >= 0;
+        const show = showCat && hitQuery;
+        card.style.display = show ? '' : 'none';
+        if (show) visibleTotal++;
+      });
 
-    // 无结果提示
-    const nr = $('noResults');
-    const hasFilter = state.query || state.activeCat !== 'all';
-    if (hasFilter && visibleTotal === 0) {
-      nr.style.display = 'flex';
-      const sub = $('nrSub');
-      const parts = [];
-      if (state.query) parts.push('关键词「' + state.query + '」');
-      if (state.activeCat !== 'all') {
-        const c = CATS[state.activeCat];
-        if (c) parts.push('分类「' + c.name + '」');
+      // 无结果提示
+      const nr = $('noResults');
+      const hasFilter = state.query || state.activeCat !== 'all';
+      if (hasFilter && visibleTotal === 0) {
+        nr.style.display = 'flex';
+        const sub = $('nrSub');
+        const parts = [];
+        if (state.query) parts.push('关键词「' + state.query + '」');
+        if (state.activeCat !== 'all') {
+          const c = CATS[state.activeCat];
+          if (c) parts.push('分类「' + c.name + '」');
+        }
+        sub.textContent = parts.length ? '当前筛选：' + parts.join(' · ') : '';
+      } else {
+        nr.style.display = 'none';
       }
-      sub.textContent = parts.length ? '当前筛选：' + parts.join(' · ') : '';
-    } else {
-      nr.style.display = 'none';
-    }
 
-    // 重置 j/k 焦点
-    document.querySelectorAll('.news-card.focused').forEach(c => c.classList.remove('focused'));
-    state.focusIdx = -1;
+      // 重置 j/k 焦点
+      document.querySelectorAll('.news-card.focused').forEach(c => c.classList.remove('focused'));
+      state.focusIdx = -1;
+    });
   }
 
   function clearAllFilters() {
@@ -473,8 +490,9 @@
     if (!cards.length) return;
     cards.forEach(c => c.classList.remove('focused'));
     state.focusIdx += dir;
-    if (state.focusIdx < 0) state.focusIdx = 0;
-    if (state.focusIdx >= cards.length) state.focusIdx = cards.length - 1;
+    // 循环导航：超出范围时回绕
+    if (state.focusIdx < 0) state.focusIdx = cards.length - 1;
+    if (state.focusIdx >= cards.length) state.focusIdx = 0;
     const card = cards[state.focusIdx];
     card.classList.add('focused');
     card.scrollIntoView({ block: 'center', behavior: 'smooth' });

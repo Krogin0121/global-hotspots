@@ -9,9 +9,15 @@ on:
 permissions:
   contents: write  # 允许推送提交
 
+# 同一时间只允许一个实例运行，避免并发提交冲突
+concurrency:
+  group: update-hotspots
+  cancel-in-progress: false
+
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 15  # 防止卡死
     steps:
       - name: 检出仓库
         uses: actions/checkout@v4
@@ -20,6 +26,8 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'  # 启用 pip 依赖缓存
+          cache-dependency-path: scripts/requirements.txt
 
       - name: 安装依赖
         run: |

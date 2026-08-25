@@ -34,7 +34,7 @@ import time
 import re
 import html
 from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import feedparser
 import requests
@@ -45,6 +45,11 @@ from sources import (
 )
 
 OUT_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "raw.json")
+
+# 单源最大重试次数
+MAX_RETRIES = 2
+# 重试间隔（秒）
+RETRY_DELAY = 2
 
 
 def now_iso():
@@ -57,6 +62,21 @@ def fetch_url(url, timeout=REQUEST_TIMEOUT):
     resp = requests.get(url, headers=headers, timeout=timeout)
     resp.raise_for_status()
     return resp
+
+
+def fetch_url_with_retry(url, timeout=REQUEST_TIMEOUT, retries=MAX_RETRIES):
+    """带重试的 GET 请求（对网络源更健壮）"""
+    last_err = None
+    for attempt in range(retries + 1):
+        try:
+            return fetch_url(url, timeout)
+        except requests.exceptions.RequestException as e:
+            last_err = e
+            if attempt < retries:
+                time.sleep(RETRY_DELAY * (attempt + 1))
+                continue
+            raise
+    raise last_err
 
 
 def clean_text(s):
@@ -89,7 +109,7 @@ def parse_date(entry):
 def fetch_rss(source):
     items = []
     try:
-        resp = fetch_url(source["url"])
+        resp = fetch_url_with_retry(source["url"])
         # feedparser 可解析字节流
         feed = feedparser.parse(resp.content)
         for i, entry in enumerate(feed.entries[:ITEMS_PER_SOURCE]):
@@ -122,14 +142,14 @@ def fetch_rss(source):
 def fetch_hn(source):
     items = []
     try:
-        resp = fetch_url(source["url"])
+        resp = fetch_url_with_retry(source["url"])
         ids = resp.json()[:HN_COUNT]
         item_url_tmpl = source["item_url"]
 
         # 并发抓取每个 story（HN firebase API 单条延迟较高，串行 30 次会拖慢整轮）
         def fetch_one(item_id):
             try:
-                r = fetch_url(f"{item_url_tmpl}{item_id}.json")
+                r = fetch_url_with_retry(f"{item_url_tmpl}{item_id}.json", retries=1)
                 return r.json()
             except Exception:
                 return None
@@ -176,7 +196,7 @@ def fetch_gharchive(source):
     try:
         name = source["gh_archive_name"]
         url = f"{GH_ARCHIVE_BASE}/{name}/{name}.md"
-        resp = fetch_url(url)
+        resp = fetch_url_with_retry(url)
         text = resp.text
         # 解析 "+ [标题](链接)" 格式
         # 部分归档用 "1. [标题](链接)" 或 "* [标题](链接)"
@@ -208,33 +228,44 @@ def fetch_gharchive(source):
     return items
 
 
+# ============ 源调度器 ============
+def fetch_source(src):
+    """调度单个源抓取，返回 (source_id, name, items, ok)"""
+    t = src["type"]
+    if t == "rss":
+        items = fetch_rss(src)
+    elif t == "hn":
+        items = fetch_hn(src)
+    elif t == "gharchive":
+        items = fetch_gharchive(src)
+    else:
+        print(f"  [SKIP] 未知类型: {t}", file=sys.stderr)
+        return src["id"], src["name"], [], False
+    return src["id"], src["name"], items, len(items) > 0
+
+
 # ============ 主流程 ============
 def main():
     print(f"=== 抓取开始 {now_iso()} ===")
     all_items = []
     source_stats = []
-    for src in SOURCES:
-        t = src["type"]
-        if t == "rss":
-            items = fetch_rss(src)
-        elif t == "hn":
-            items = fetch_hn(src)
-        elif t == "gharchive":
-            items = fetch_gharchive(src)
-        else:
-            print(f"  [SKIP] 未知类型: {t}", file=sys.stderr)
+
+    # 并发抓取所有源（RSS/GH Archive 之间无依赖；HN 内部已有并发）
+    with ThreadPoolExecutor(max_workers=6) as ex:
+        futures = {ex.submit(fetch_source, src): src for src in SOURCES}
+        for future in as_completed(futures):
+            src_id, src_name, items, ok = future.result()
+            all_items.extend(items)
             source_stats.append({
-                "id": src["id"], "name": src["name"],
-                "count": 0, "ok": False,
+                "id": src_id,
+                "name": src_name,
+                "count": len(items),
+                "ok": ok,
             })
-            continue
-        all_items.extend(items)
-        source_stats.append({
-            "id": src["id"],
-            "name": src["name"],
-            "count": len(items),
-            "ok": len(items) > 0,
-        })
+
+    # 按 SOURCES 定义顺序排序统计（并发结果顺序乱）
+    id_order = {s["id"]: i for i, s in enumerate(SOURCES)}
+    source_stats.sort(key=lambda x: id_order.get(x["id"], 999))
 
     # 输出
     os.makedirs(os.path.dirname(OUT_PATH), exist_ok=True)
