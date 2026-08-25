@@ -427,7 +427,9 @@ def merge_duplicate_events(selected, candidates):
 
 # ============ Step 2: LLM 解读 ============
 def step2_analyze_batch(batch, section_type):
-    """Step 2: 对一批（5条）生成深度解读"""
+    """Step 2: 对一批（5条）生成深度解读
+    返回列表长度始终 == len(batch)，不足的条目用降级值补齐。
+    """
     batch_list = []
     for i, it in enumerate(batch):
         batch_list.append({
@@ -497,9 +499,18 @@ def step2_analyze_batch(batch, section_type):
             resp = llm_chat(messages, temperature=0.5, max_tokens=3000, retries=2)
             analyses = extract_json(resp)
             if isinstance(analyses, list):
-                if len(analyses) < len(batch):
-                    log(f"  [{section_type}] [WARN] batch 返回 {len(analyses)} 条 < 期望 {len(batch)}")
-                return analyses
+                # 用 "i" 字段建立索引映射，确保不因 LLM 返回顺序乱/条数少而错位
+                result = [None] * len(batch)
+                for a in analyses:
+                    ai = a.get("i")
+                    if isinstance(ai, int) and 0 <= ai < len(batch):
+                        result[ai] = a
+                # 补齐缺失条目（LLM 漏返回的）
+                for j in range(len(batch)):
+                    if result[j] is None:
+                        log(f"  [{section_type}] [WARN] batch 中 idx={j} 缺失，用降级值补齐")
+                        result[j] = _fallback_analysis(batch[j], section_type)
+                return result
             raise RuntimeError(f"LLM 返回非数组 JSON: {type(analyses).__name__}")
         except Exception as e:
             last_err = e
@@ -509,8 +520,39 @@ def step2_analyze_batch(batch, section_type):
     raise last_err
 
 
+def _fallback_analysis(item, section_type="international"):
+    """单条降级解读：LLM 失败时用原始描述拼接最小可用解读"""
+    title = item.get("title", "")
+    desc = item.get("desc", "")
+    cat = normalize_cat(item.get("cat", "intl"))
+    # 基于 desc 生成简短摘要
+    summary = desc[:30] + "…" if len(desc) > 30 else desc
+    analysis = f"（LLM 解读生成失败，以下为原始摘要）\n{desc}" if desc else "（LLM 解读生成失败，无原始摘要可用）"
+    return {
+        "i": 0,
+        "titleCN": title,  # 保留原标题（可能是英文）
+        "summary": summary,
+        "analysis": analysis,
+        "keywords": [],
+        "category": cat,
+        "importance": 60,
+    }
+
+
+def step2_analyze_single(item, section_type):
+    """单条 LLM 解读（batch 失败后逐条重试用）"""
+    batch = [item]
+    try:
+        result = step2_analyze_batch(batch, section_type)
+        return result[0] if result else _fallback_analysis(item, section_type)
+    except Exception:
+        return _fallback_analysis(item, section_type)
+
+
 def step2_analyze_all(selected_items, section_type):
-    """分批调用 LLM 生成解读"""
+    """分批调用 LLM 生成解读
+    批次失败时逐条重试，确保每条都有解读（而非整批填空）。
+    """
     log(f"  [{section_type}] Step 2: 批量解读 {len(selected_items)} 条")
     all_analyses = []
     for i in range(0, len(selected_items), BATCH_SIZE):
@@ -520,18 +562,18 @@ def step2_analyze_all(selected_items, section_type):
             analyses = step2_analyze_batch(batch, section_type)
             all_analyses.extend(analyses)
         except Exception as e:
-            log(f"  [{section_type}] [WARN] 批次 {i//BATCH_SIZE+1} 失败: {e}")
-            # 失败则填充空解读
-            for j in range(len(batch)):
-                all_analyses.append({
-                    "i": j,
-                    "titleCN": batch[j].get("title", ""),
-                    "summary": "",
-                    "analysis": "（解读生成失败）",
-                    "keywords": [],
-                    "category": normalize_cat(batch[j].get("cat", "intl")),
-                    "importance": 60,
-                })
+            log(f"  [{section_type}] [WARN] 批次 {i//BATCH_SIZE+1} 整批失败: {e}")
+            log(f"  [{section_type}] 逐条重试...")
+            # 整批失败 → 逐条重试（最大限度挽救）
+            for j, item in enumerate(batch):
+                try:
+                    a = step2_analyze_single(item, section_type)
+                    all_analyses.append(a)
+                    log(f"  [{section_type}]   第 {i+j+1} 条逐条重试成功")
+                except Exception as e2:
+                    log(f"  [{section_type}]   第 {i+j+1} 条逐条重试也失败: {e2}")
+                    all_analyses.append(_fallback_analysis(item, section_type))
+                time.sleep(1)  # 防 throttle
         time.sleep(1)  # 防 throttle
     return all_analyses
 
@@ -747,7 +789,7 @@ def curate_section(raw_items, section_type):
         # 清理内部字段
         it.pop("_score", None)
 
-    # 按 importance 排序 + rank 编号
+    # 按 importance 排序 + rank 编号（确保唯一连续，无重复无跳跃）
     selected_items.sort(key=lambda x: x.get("importance", 0), reverse=True)
     for i, it in enumerate(selected_items):
         it["rank"] = i + 1
