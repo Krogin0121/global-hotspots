@@ -51,7 +51,9 @@ CANDIDATE_POOL = 40
 TOP_N = 20
 
 # 每批解读条数（防止单次请求过长）
-BATCH_SIZE = 5
+# 4 条/批：每条解读约 300-400 tokens，4 条约 1600 tokens + 格式开销，
+# 留足余量避免 LLM 截断导致末尾条目丢失
+BATCH_SIZE = 4
 
 # 标题党关键词（预筛阶段过滤）
 SPAM_KEYWORDS = [
@@ -496,7 +498,7 @@ def step2_analyze_batch(batch, section_type):
     last_err = None
     for attempt in range(2):  # 整批重试 1 次（处理 LLM 偶发 JSON 格式错误）
         try:
-            resp = llm_chat(messages, temperature=0.5, max_tokens=3000, retries=2)
+            resp = llm_chat(messages, temperature=0.5, max_tokens=4000, retries=2)
             analyses = extract_json(resp)
             if isinstance(analyses, list):
                 # 用 "i" 字段建立索引映射，确保不因 LLM 返回顺序乱/条数少而错位
@@ -505,11 +507,19 @@ def step2_analyze_batch(batch, section_type):
                     ai = a.get("i")
                     if isinstance(ai, int) and 0 <= ai < len(batch):
                         result[ai] = a
-                # 补齐缺失条目（LLM 漏返回的）
-                for j in range(len(batch)):
-                    if result[j] is None:
-                        log(f"  [{section_type}] [WARN] batch 中 idx={j} 缺失，用降级值补齐")
-                        result[j] = _fallback_analysis(batch[j], section_type)
+                # 对缺失条目逐条重试（而非直接降级），最大限度挽救
+                missing_idxs = [j for j in range(len(batch)) if result[j] is None]
+                if missing_idxs:
+                    log(f"  [{section_type}] [WARN] batch 中 {len(missing_idxs)} 条缺失 (idx={missing_idxs})，逐条重试")
+                    for j in missing_idxs:
+                        try:
+                            single = step2_analyze_single(batch[j], section_type)
+                            result[j] = single
+                            log(f"  [{section_type}]   idx={j} 逐条重试成功")
+                        except Exception as e_single:
+                            log(f"  [{section_type}]   idx={j} 逐条重试失败: {e_single}")
+                            result[j] = _fallback_analysis(batch[j], section_type)
+                        time.sleep(1)  # 防 throttle
                 return result
             raise RuntimeError(f"LLM 返回非数组 JSON: {type(analyses).__name__}")
         except Exception as e:
@@ -520,17 +530,43 @@ def step2_analyze_batch(batch, section_type):
     raise last_err
 
 
+def _translate_title(title, section_type="international"):
+    """降级时单独调用 LLM 翻译标题（外语→中文），失败则原样返回"""
+    if not title:
+        return title
+    # 纯中文标题无需翻译
+    if re.search(r"[\u4e00-\u9fa5]", title) and not re.search(r"[a-zA-Z]{3,}", title):
+        return title
+    try:
+        messages = [
+            {"role": "system", "content": "你是专业新闻翻译。将给定的新闻标题翻译为简洁准确的中文。只输出翻译结果，不要解释。"},
+            {"role": "user", "content": f"翻译为中文标题：{title}"},
+        ]
+        translated = llm_chat(messages, temperature=0.2, max_tokens=200, retries=1)
+        translated = translated.strip().strip('"').strip('"').strip()
+        if translated and re.search(r"[\u4e00-\u9fa5]", translated):
+            return translated
+    except Exception:
+        pass
+    return title
+
+
 def _fallback_analysis(item, section_type="international"):
-    """单条降级解读：LLM 失败时用原始描述拼接最小可用解读"""
+    """单条降级解读：LLM 失败时用原始描述拼接最小可用解读
+
+    降级时仍尝试单独翻译标题（外语→中文），避免前端显示英文标题。
+    """
     title = item.get("title", "")
     desc = item.get("desc", "")
     cat = normalize_cat(item.get("cat", "intl"))
+    # 降级时尝试翻译标题
+    title_cn = _translate_title(title, section_type)
     # 基于 desc 生成简短摘要
-    summary = desc[:30] + "…" if len(desc) > 30 else desc
+    summary = desc[:30] + "…" if len(desc) > 30 else (desc or title_cn[:30])
     analysis = f"（LLM 解读生成失败，以下为原始摘要）\n{desc}" if desc else "（LLM 解读生成失败，无原始摘要可用）"
     return {
         "i": 0,
-        "titleCN": title,  # 保留原标题（可能是英文）
+        "titleCN": title_cn,
         "summary": summary,
         "analysis": analysis,
         "keywords": [],
