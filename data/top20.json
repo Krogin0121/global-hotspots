@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T10:56:28.863754+00:00",
+  "generatedAt": "2026-08-30T15:42:27.716456+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 17,
+      "count": 19,
       "ok": true
     },
     {
@@ -90,418 +90,187 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多方面的动态。经济领域，特朗普与委内瑞拉达成石油储备协议，而固特异进行业务重组和债务偿还。政治层面，乌克兰发生武器库袭击事件，尼日尔军政府动荡加剧，尼泊尔和西藏洪水导致严重人员伤亡，加拿大与特朗普的贸易战风险上升。科技方面，NASA发射最新太空望远镜，OpenAI宣布结束Cursor模型访问。总体来看，国际局势复杂多变，经济、政治、科技等多领域均存在值得关注的事件走向。",
+      "digest": "今日国际局势呈现多极化发展趋势，热点事件涉及政治、经济、社会等多个领域。伊朗加油站长队凸显美国封锁对供应的影响，9/11事件的新线索揭示了沙特与劫机者的联系。欧洲政治版图发生变动，冰岛投票反对重启欧盟入会谈判，柏林遭受黑客勒索事件引发关注。乌克兰军事武器库遭袭，印度学生运动挑战政府学校问责制，尼泊尔发布新的洪水警告。此外，加拿大吸引美国顶尖研究人员，赞比亚反对派领导人被控叛国，维也纳博物馆白天被盗600颗钻石项链，载有260多人渡轮在塞浦路斯翻覆。总体来看，国际局势复杂多变，各国在应对挑战中寻求合作与发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "特朗普宣布与委内瑞拉达成协议，确保超过650亿桶石油储备",
-          "titleOrig": "Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves",
-          "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
+          "title": "伊朗加油站长队显现战争和美国封锁挤压供应",
+          "titleOrig": "Long Lines for Gas in Iran Show War and U.S. Blockade Squeezing Supply",
+          "url": "https://www.nytimes.com/2026/08/30/world/middleeast/iran-fuel-supplies-blockade.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-30T07:27:55+00:00",
-          "desc": "The U.S. struck a deal with Venezuela to get majority control of more than 65 billion barrels of oil reserves, Trump said in a social media post.",
+          "publishedAt": "2026-08-30T10:12:06+00:00",
+          "desc": "The government is struggling to meet a shortfall in fuel and is wary that higher prices at the pump could stir unrest.",
           "hotLabel": "",
-          "summary": "特朗普宣布与委内瑞拉达成石油储备协议。",
-          "analysis": "背景：美国与委内瑞拉达成协议，获取大量石油储备。影响：可能影响全球石油市场。后续走向：协议的具体实施和影响将取决于双方合作情况。",
+          "summary": "伊朗加油站出现长队，显示战争和美国封锁导致供应紧张。",
+          "analysis": "伊朗加油站长队反映了该国在战争和经济制裁下的能源困境。这可能加剧伊朗国内的社会不稳定，并对地区能源安全产生长远影响。后续可能涉及伊朗与国际社会的能源政策调整和外交博弈。",
           "keywords": [
-            "特朗普",
-            "委内瑞拉",
-            "石油储备",
-            "全球石油市场",
-            "经济合作"
+            "伊朗",
+            "加油站长队",
+            "能源供应",
+            "战争",
+            "美国封锁"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/28/trump-announces-deal-with-venezuela-to-secure-more-than-65-billion-barrels-of-oil-reserves.html"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/30/world/middleeast/iran-fuel-supplies-blockade.html"
             },
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/29/world/americas/venezuela-oil-us-takeover.html"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/28/us-venezuela-oil-gas-stake"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/30/world/middleeast/uae-banque-misr-treasury-iran.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "俄军袭击武器库造成37人死亡，乌克兰指责疏忽",
-          "titleOrig": "37 Killed After Russian Strike on Weapons Depot as Ukraine Blames Negligence",
-          "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
+          "title": "9/11劫机者房东揭露其与沙特间谍的联系",
+          "titleOrig": "Landlady to 9/11 hijackers reveals their links to alleged Saudi spy",
+          "url": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-29T21:47:52+00:00",
-          "desc": "The depot, which was in a civilian area near Kyiv, “definitely shouldn’t have been there,” President Volodymyr Zelensky said.",
+          "publishedAt": "2026-08-29T00:32:17+00:00",
+          "desc": "A woman who rented out homes to two al-Qaeda members speaks publicly for the first time - to the BBC.",
           "hotLabel": "",
-          "summary": "位于基辅附近的平民区内的仓库“绝对不应该在那里”，乌克兰总统泽连斯基表示。",
-          "analysis": "这起事件加剧了乌克兰冲突的复杂性和国际社会的紧张局势。乌克兰对俄罗斯的指责可能会加剧两国之间的敌对关系，并对乌克兰的战争局势产生重大影响。国际社会对此事件的反应也可能影响乌克兰冲突的解决进程。",
+          "summary": "9/11劫机者房东首次公开，揭露与沙特间谍的联系。",
+          "analysis": "此事件揭示了恐怖主义与国家情报机构的复杂关系。沙特阿拉伯与美国的关系可能因此受到质疑，影响两国在反恐合作上的立场。同时，这也可能引发对恐怖主义资金来源和跨国情报活动的关注。",
           "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "武器库袭击",
-            "冲突",
-            "国际反应"
+            "9/11",
+            "沙特",
+            "间谍",
+            "恐怖主义",
+            "国际关系"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/europe/russia-ukraine-strike-kyiv-drones.html"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/29/nx-s1-5948714/russian-strike-kyiv"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/russian-strike-on-ammunition-depot-near-kyiv-kills-dozens/a-78556008?maca=en-rss-en-all-1573-rdf"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 2
         },
         {
-          "title": "中国称23国261名外籍人士在西藏洪水失踪",
-          "titleOrig": "China Says 261 Foreigners From 23 Countries Are Missing in Tibet Flood",
-          "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
+          "title": "冰岛投票反对重启欧盟入会谈判",
+          "titleOrig": "Iceland votes against restarting EU membership talks",
+          "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-30T06:25:52+00:00",
-          "desc": "The disclosure offered one of the clearest pictures yet of the disaster on the Chinese side of the border, where authorities have released few details.",
+          "publishedAt": "2026-08-30T14:45:05+00:00",
+          "desc": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume accession talks.",
           "hotLabel": "",
-          "summary": "中国西藏地区发生洪水，大量外籍人士失踪。",
-          "analysis": "背景：西藏地区洪水灾害严重，导致大量人员失踪。影响：事件可能引发国际关注，对中印边界关系产生影响。后续走向：中国可能加强边境地区救援工作，并对外籍人士失踪事件进行详细说明。",
+          "summary": "冰岛多数选民反对政府重启欧盟入会谈判。",
+          "analysis": "冰岛投票反对重启欧盟入会谈判反映了国内对欧盟一体化的疑虑和担忧，可能影响北欧地区对欧盟的态度。这一决定可能减缓欧洲一体化进程，对英国脱欧后的欧洲政治格局产生影响。后续可能引发冰岛与欧盟的进一步谈判和关系调整。",
           "keywords": [
-            "西藏",
-            "洪水",
-            "外籍人士",
-            "失踪",
-            "中印边界"
+            "冰岛",
+            "欧盟",
+            "入会谈判",
+            "欧洲一体化",
+            "政治格局"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/middleeast/israel-settlers-west-bank-attacks-netanyahu-rebuke.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 3
         },
         {
-          "title": "冰岛选民否决加入欧盟谈判",
-          "titleOrig": "Iceland voters reject EU accession talks",
-          "url": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-30T10:21:00+00:00",
-          "desc": "A nationwide referendum failed to win enough support to restart negotiations on European Union membership, despite geopolitical tensions in the North Atlantic.",
-          "hotLabel": "",
-          "summary": "尽管北冰洋地区地缘政治紧张，但全国性公投未能获得足够支持以重启欧盟成员国谈判。",
-          "analysis": "冰岛选民对加入欧盟的抵制反映了欧洲一体化进程中地区差异和公众对欧盟政策的疑虑。这一结果可能影响北欧地区的政治经济格局，并可能对欧盟的扩张战略产生负面影响。后续可能引发欧洲其他国家的类似讨论，对欧盟的内部团结和对外政策造成挑战。",
-          "keywords": [
-            "冰岛",
-            "欧盟",
-            "公投",
-            "地缘政治",
-            "欧洲一体化"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/iceland-voters-reject-eu-accession-talks/a-78560633?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "尼泊尔洪水后900名工人被困，救援人员破隧道搜救",
-          "titleOrig": "Nepal Rescuers Bore Through Tunnels to Try to Reach 900 Workers Missing After Floods",
-          "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T20:07:50+00:00",
-          "desc": "The Nepal Army, which is leading rescue efforts, turned to the trapped workers more than a day after the flood, according to army officials, industry groups and private rescuers.",
-          "hotLabel": "",
-          "summary": "尼泊尔洪水导致900名工人被困，救援人员紧急破隧道搜救。",
-          "analysis": "尼泊尔洪水事件凸显自然灾害对基础设施和人员安全的影响。救援行动的困难性反映了该地区灾害应对能力的挑战。此事件可能加剧尼泊尔国内的经济压力，并对地区稳定产生潜在影响。后续可能需要国际援助和长期重建计划。",
-          "keywords": [
-            "尼泊尔",
-            "洪水",
-            "救援",
-            "工人",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/asia/nepal-flood-hydropower-tunnels-rescue-missing-workers.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "尼日尔士兵袭击总统府和机场，军政府动荡加剧",
-          "titleOrig": "Soldiers in Niger Attack Presidential Palace and Airport, Shaking Junta",
-          "url": "https://www.nytimes.com/2026/08/29/world/africa/niger-special-forces-attack.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T22:14:16+00:00",
-          "desc": "Renegade Nigerien soldiers attacked sites around the capital, the defense ministry said, including a key air base that hosts Russian mercenaries.",
-          "hotLabel": "",
-          "summary": "尼日尔士兵袭击首都周边设施，包括俄罗斯雇佣兵驻扎的空军基地。",
-          "analysis": "尼日尔士兵的袭击反映了该国军政府的内部不稳定和对外部势力依赖的矛盾。这可能会加剧地区动荡，并对俄罗斯在非洲的影响力产生挑战。后续可能引发国内政治变动，影响地区安全格局。",
-          "keywords": [
-            "尼日尔",
-            "军政府",
-            "俄罗斯雇佣兵",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/africa/niger-special-forces-attack.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "德国前总理默克尔呼吁选民捍卫民主",
-          "titleOrig": "Germany news: Merkel tells voters to 'stand up' for democracy",
-          "url": "https://www.dw.com/en/germany-news-merkel-tells-voters-to-stand-up-for-democracy/live-78555302?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T23:09:00+00:00",
-          "desc": "Former German Chancellor Merkel has weighed in on elections in Saxony-Anhalt, where the far-right AfD leads the polls. Meanwhile, German firms paid out a record sum to employees on sick leave last year. DW has more.",
-          "hotLabel": "",
-          "summary": "默克尔就萨克斯-安哈尔特州选举发表讲话，同时德国企业去年向病假员工支付创纪录金额。",
-          "analysis": "默克尔对萨克斯-安哈尔特州选举的评论反映了德国社会对极右翼政党崛起的担忧。德国企业支付的病假金额增加可能反映了劳动力市场的紧张和健康问题的严重性。这些事件对德国的政治稳定和劳动力市场产生了重要影响，并可能影响德国在欧洲和全球的政治角色。后续可能包括政治辩论的加剧和劳动力政策的调整。",
-          "keywords": [
-            "默克尔",
-            "民主",
-            "德国选举",
-            "劳动力市场",
-            "病假"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-news-merkel-tells-voters-to-stand-up-for-democracy/live-78555302?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "直播：NASA最新太空望远镜今日发射",
-          "titleOrig": "WATCH LIVE: NASA's newest space telescope launches today",
-          "url": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-30T10:30:00+00:00",
-          "desc": "The tour-bus-sized telescope aims to unravel cosmic mysteries and identify more than 100,000 planets beyond our solar system.",
-          "hotLabel": "",
-          "summary": "NASA最新太空望远镜发射。",
-          "analysis": "背景：NASA发射新一代太空望远镜，旨在探索宇宙。影响：可能推动天文学和太空科技发展。后续走向：望远镜的性能将决定其科学成果。",
-          "keywords": [
-            "NASA",
-            "太空望远镜",
-            "宇宙探索",
-            "天文学",
-            "科技发展"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/08/30/nx-s1-5948814/launch-nancy-grace-roman-space-telescope-nasa"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "尼泊尔发布新的洪水警告，3000人仍失踪",
-          "titleOrig": "Nepal issues fresh flood warning as 3,000 still missing",
-          "url": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-30T06:59:00+00:00",
-          "desc": "Rescuers are trying to reach dozens of hydropower workers trapped in flooded tunnels, but have been hampered by further rainfall.",
-          "hotLabel": "",
-          "summary": "救援人员试图到达被困在洪水隧道中的数十名水电工人，但进一步降雨阻碍了救援行动。",
-          "analysis": "尼泊尔的洪水事件凸显了气候变化对发展中国家的影响。洪水不仅造成了人员伤亡，还可能对尼泊尔的经济和社会稳定产生长期影响。国际援助和合作对于尼泊尔的灾后重建至关重要。",
-          "keywords": [
-            "尼泊尔",
-            "洪水",
-            "气候变化",
-            "救援",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "加拿大支持特鲁多对抗特朗普，贸易战重启在即",
-          "titleOrig": "Carney Has Canadians’ Support on Trump. Now Comes the Hard Part.",
-          "url": "https://www.nytimes.com/2026/08/29/world/canada/carney-trump-tariffs-trade.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T18:10:38+00:00",
-          "desc": "The U.S.-Canada trade war has galvanized Canadians behind their prime minister’s decision to walk away from negotiations. What happens when the time comes for talks to restart?",
-          "hotLabel": "",
-          "summary": "加拿大民众支持特鲁多退出美加贸易谈判，重启谈判成难题。",
-          "analysis": "美加贸易战导致加拿大国内团结，但重启谈判面临巨大挑战。特鲁多的决策反映了加拿大在国际贸易中的策略调整。美加关系的不确定性可能影响北美地区乃至全球的贸易格局。",
-          "keywords": [
-            "加拿大",
-            "贸易战",
-            "美加关系",
-            "贸易谈判",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/canada/carney-trump-tariffs-trade.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "尼泊尔-西藏洪水死亡人数超过600人",
-          "titleOrig": "Death toll from Nepal-Tibet floods rises to over 600",
-          "url": "https://www.dw.com/en/death-toll-from-nepal-tibet-floods-rises-to-over-600/a-78555290?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T14:32:00+00:00",
-          "desc": "Heavy rain is complicating an already difficult rescue effort, as hundreds remain missing three days after deadly flash floods hit the Nepal-Tibet border region.",
-          "hotLabel": "",
-          "summary": "尼泊尔-西藏边境地区发生致命洪水，死亡人数超过600人，重雨天气加剧了救援难度。",
-          "analysis": "这起洪水事件突显了气候变化对山区国家的影响，以及极端天气事件对人类生命和财产的威胁。救援工作的困难和死亡人数的增加对尼泊尔和西藏的社会稳定和应急管理体系提出了挑战。",
-          "keywords": [
-            "尼泊尔",
-            "西藏",
-            "洪水",
-            "气候变化",
-            "救援工作"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/death-toll-from-nepal-tibet-floods-rises-to-over-600/a-78555290?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "太平洋岛国论坛会议因多位领导人退出帕劳峰会陷入混乱",
-          "titleOrig": "Pacific Islands Forum meeting in turmoil after several leaders pull out of Palau summit",
-          "url": "https://www.theguardian.com/world/2026/aug/30/pacific-islands-forum-meeting-in-turmoil-after-several-leaders-pull-out-of-palau-summit",
+          "title": "罗德里格斯称与特朗普的石油协议带来无尽利益",
+          "titleOrig": "Venezuela’s Delcy Rodríguez says oil deal with Trump has ‘endless’ benefits",
+          "url": "https://www.theguardian.com/world/2026/aug/30/venezuela-delcy-rodriguez-says-oil-deal-with-trump-has-endless-benefits",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-30T07:22:01+00:00",
-          "desc": "Solomon Islands prime minister cancels his appearance, along with leaders from Fiji, Vanuatu and SamoaSeveral leaders have pulled out of a the Pacific Islands Forum leaders’ meeting in Palau at the eleventh hour.Solomon Islands prime minister, Matthew Wale, has cancelled his appearance after a no-co",
+          "publishedAt": "2026-08-30T15:08:33+00:00",
+          "desc": "Deal that will reportedly see US take control of 65bn barrels of Venezuelan oil has provoked outrage in her countryVenezuela’s interim president, Delcy Rodríguez, has defended her government’s highly controversial energy deal with Donald Trump, insisting the South American country will maintain owne",
           "hotLabel": "",
-          "summary": "多位太平洋岛国论坛领导人退出帕劳峰会。",
-          "analysis": "背景：太平洋岛国论坛会议在帕劳举行，但多位领导人临时退出。影响：可能影响太平洋地区政治稳定和岛国间合作。后续走向：会议可能面临挑战，太平洋地区合作前景不明。",
+          "summary": "委内瑞拉临时总统罗德里格斯为其政府与特朗普的石油协议辩护。",
+          "analysis": "委内瑞拉与特朗普政府达成的石油协议引发了国内外的争议。委内瑞拉石油资源丰富，但国内经济困境，需要外部支持。此协议可能有助于缓解委内瑞拉的财政压力，但同时也加剧了国内的政治紧张。对美国而言，控制委内瑞拉的大量石油资源将增强其在中东地区的影响力。未来，这一协议可能会成为委内瑞拉与美国关系中的敏感议题，影响两国在地区事务中的合作。",
           "keywords": [
-            "太平洋岛国论坛",
-            "帕劳峰会",
-            "领导人退出",
-            "政治稳定",
-            "地区合作"
+            "委内瑞拉",
+            "特朗普",
+            "石油协议",
+            "国际关系",
+            "经济合作"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 85,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/aug/30/pacific-islands-forum-meeting-in-turmoil-after-several-leaders-pull-out-of-palau-summit"
+              "url": "https://www.theguardian.com/world/2026/aug/30/venezuela-delcy-rodriguez-says-oil-deal-with-trump-has-endless-benefits"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/aug/28/trump-venezuela-oil-agreement"
             }
           ],
-          "rank": 12
+          "rank": 4
         },
         {
-          "title": "印度公民自发学校审计测试活动主义极限",
+          "title": "基辅武器库遭袭致37死，数百人疏散，乌军事武器储存调查启动",
+          "titleOrig": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
+          "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-29T20:13:16+00:00",
+          "desc": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
+          "hotLabel": "",
+          "summary": "基辅武器库遭袭，造成重大人员伤亡，乌克兰军事武器储存安全引发关注。",
+          "analysis": "事件背景：乌克兰军事武器储存地点位于居民区，可能因管理不善或敌对行动导致事故。关键影响：此事件可能加剧乌克兰与俄罗斯之间的紧张关系，对乌克兰的安全形势和国际社会对乌克兰的支持产生影响。后续走向：乌克兰政府可能加强武器储存管理，国际社会可能对乌克兰提供更多支持。关键词：乌克兰，武器库，袭击，安全，紧张关系。category：international，importance：85",
+          "keywords": [
+            "乌克兰",
+            "武器库",
+            "袭击",
+            "安全",
+            "紧张关系"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "印度学生运动挑战政府学校问责制",
           "titleOrig": "India's citizen-led school audits test limits of activism",
           "url": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
@@ -513,392 +282,56 @@
           "publishedAt": "2026-08-30T09:04:00+00:00",
           "desc": "The student-led \"Cockroach\" movement is taking its campaign for accountability to government schools, but the activists' methods are encountering growing resistance from authorities.",
           "hotLabel": "",
-          "summary": "学生领导的“蟑螂”运动将问责政府学校的活动推向高潮，但活动家的方法正遭遇当局的日益抵制。",
-          "analysis": "这一事件突显了印度公民社会在推动政府透明度和问责制方面的努力。然而，当局的抵制可能表明印度政府对于社会监督的容忍度有限。这可能会影响印度社会运动的发展方向，并对印度的民主进程产生深远影响。",
+          "summary": "印度学生运动要求政府学校问责，遭遇当局阻力。",
+          "analysis": "印度学生运动\"蟑螂\"运动旨在推动政府学校问责制，反映了公民社会对教育质量的关注。当局的抵制可能表明政府在公共服务领域的改革意愿不足。这一事件对印度教育改革和公民社会参与政治进程具有重要意义。后续可能引发更多关于政府透明度和问责制的讨论。",
           "keywords": [
             "印度",
-            "公民社会",
-            "学校审计",
-            "活动主义",
-            "民主"
+            "学生运动",
+            "问责制",
+            "教育改革",
+            "公民社会"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 85,
           "sources": [
             {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/india-s-citizen-led-school-audits-test-limits-of-activism/a-78545789?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 13
+          "rank": 6
         },
         {
-          "title": "维也纳博物馆价值数百万的钻石项链被盗",
-          "titleOrig": "Thieves Smash Museum Case for Diamond Necklace Worth Millions in Vienna",
-          "url": "https://www.nytimes.com/2026/08/29/world/europe/diamond-necklace-theft-vienna.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
+          "title": "柏林市长称柏林遭受黑客勒索",
+          "titleOrig": "Berlin is being blackmailed by hackers, mayor says",
+          "url": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-08-29T19:49:54+00:00",
-          "desc": "The theft of the precious object, once owned by an Egyptian queen and later sold to satisfy her creditors, was the latest in a string of high-profile museum losses.",
+          "publishedAt": "2026-08-28T21:29:01+00:00",
+          "desc": "Kai Wegner says the German capital and city-state would not cave in to a ransom demand for data stolen in a cyber-attack.",
           "hotLabel": "",
-          "summary": "维也纳博物馆价值连城的钻石项链被盗，引发国际关注。",
-          "analysis": "这起盗窃事件凸显了高端艺术品盗窃的严重性，可能涉及复杂的犯罪网络。博物馆的安全措施受到质疑，此事件可能对艺术品市场和国际艺术品交易产生长期影响。",
+          "summary": "柏林市长表示不会屈服于黑客窃取数据后的勒索要求。",
+          "analysis": "柏林遭受黑客攻击，反映出网络安全的严峻挑战。事件背后可能涉及国家间的网络间谍活动。若黑客得逞，将影响德国乃至欧洲的网络安全政策和国际关系。后续可能引发全球范围内的网络安全审查和合作。",
           "keywords": [
-            "钻石项链",
-            "盗窃",
-            "博物馆",
-            "艺术品市场",
-            "安全措施"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/29/world/europe/diamond-necklace-theft-vienna.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "尼泊尔洪水幸存者返回被毁城镇",
-          "titleOrig": "Nepal Flood Survivors Return to Devastated Towns",
-          "url": "https://www.nytimes.com/video/world/asia/100000011120032/nepal-flood-survivors-return-to-devastated-towns.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-30T02:55:01+00:00",
-          "desc": "Our correspondent Anupreeta Das visited Bidur, Nepal, days after floods devastated the region. Residents sifted through thick mud to salvage what remained of their homes.",
-          "hotLabel": "",
-          "summary": "尼泊尔洪水幸存者返回家园，面对被毁城镇。",
-          "analysis": "尼泊尔洪水后幸存者面临的重建挑战反映了自然灾害对社区的影响。重建工作需要大量资金和国际援助，可能对尼泊尔的社会和经济稳定构成威胁。",
-          "keywords": [
-            "尼泊尔",
-            "洪水",
-            "重建",
-            "幸存者",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/video/world/asia/100000011120032/nepal-flood-survivors-return-to-devastated-towns.html"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "OpenAI将在SpaceX收购后结束Cursor模型访问",
-          "titleOrig": "OpenAI to end model access to Cursor after acquisition by Elon Musk's SpaceX",
-          "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T19:06:22+00:00",
-          "desc": "OpenAI plans to end model access through Cursor on Nov. 12, citing concerns after SpaceX’s $60 billion acquisition of the coding startup.",
-          "hotLabel": "",
-          "summary": "OpenAI计划在11月12日结束通过Cursor的模型访问，因SpaceX收购后引发担忧。",
-          "analysis": "SpaceX对OpenAI的收购引发了对其数据安全和商业模式的担忧。此举可能影响OpenAI的技术发展，并引发业界对大型科技公司收购的监管讨论。",
-          "keywords": [
-            "OpenAI",
-            "SpaceX",
-            "收购",
-            "数据安全"
-          ],
-          "category": "tech",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/29/openai-cursor-spacex-model-access.html"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "印度总理莫迪访问乌兹别克斯坦，前往上海合作组织峰会",
-          "titleOrig": "India news: PM Modi in Uzbekistan on way to SCO summit",
-          "url": "https://www.dw.com/en/india-news-pm-modi-in-uzbekistan-on-way-to-sco-summit/live-78554796?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T15:34:00+00:00",
-          "desc": "Indian Prime Minister Narendra Modi is in Uzbekistan for a two-day state visit, after which he will go to Kyrgyzstan for the SCO Summit. Meanwhile, hundreds of Indians are still missing in Nepal. DW has more.",
-          "hotLabel": "",
-          "summary": "印度总理莫迪访问乌兹别克斯坦，之后将前往吉尔吉斯斯坦参加上海合作组织峰会，同时数百名印度人在尼泊尔失踪。",
-          "analysis": "莫迪的访问和参加峰会是印度在国际舞台上的外交努力的一部分，旨在加强与区域国家的联系。印度人在尼泊尔的失踪事件可能反映了该地区跨境人口流动的复杂性和安全问题。这些事件对印度的外交政策和区域安全格局有重要影响。",
-          "keywords": [
-            "莫迪",
-            "印度外交",
-            "上海合作组织",
-            "尼泊尔",
-            "跨境人口流动"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/india-news-pm-modi-in-uzbekistan-on-way-to-sco-summit/live-78554796?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "固特异烧钱转型，持续进行业务重组和债务偿还",
-          "titleOrig": "Goodyear burning rubber and cash as turnaround plan continues",
-          "url": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T13:56:58+00:00",
-          "desc": "The tire maker has an ongoing turnaround plan as the company tries to restructure its business, refinance and pay down years of debt.",
-          "hotLabel": "",
-          "summary": "轮胎制造商固特异在实施转型计划，试图重组业务和偿还长期债务。",
-          "analysis": "固特异面临的挑战反映了全球轮胎行业的竞争压力和成本上升问题。其转型计划的成功与否将影响整个行业的未来。",
-          "keywords": [
-            "固特异",
-            "转型",
-            "债务",
-            "轮胎行业"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/29/goodyear-turnaround-cash-debt.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "津巴布韦教堂微型巴士事故致27人死亡",
-          "titleOrig": "Zimbabwe crash involving church minibus kills 27",
-          "url": "https://www.dw.com/en/zimbabwe-crash-involving-church-minibus-kills-27/a-78558710?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T17:48:00+00:00",
-          "desc": "Dozens of people were killed when a minibus carrying churchgoers collided head-on with a truck in central Zimbabwe. The crash near the town of Chivhu is the latest deadly road accident in the African country.",
-          "hotLabel": "",
-          "summary": "一辆载有教堂信徒的微型巴士在津巴布韦中部与一辆卡车相撞，造成27人死亡。",
-          "analysis": "这起事故突显了津巴布韦交通安全问题的严重性，可能反映了该国的道路基础设施不足和驾驶安全意识的缺乏。事故对津巴布韦的社会稳定和公共安全产生了影响，并可能引发对该国交通政策的关注和改革。",
-          "keywords": [
-            "津巴布韦",
-            "交通事故",
-            "公共安全",
-            "道路基础设施",
-            "社会稳定"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/zimbabwe-crash-involving-church-minibus-kills-27/a-78558710?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "96岁巴菲特活跃如常，但伯克希尔哈撒韦股价表现不佳",
-          "titleOrig": "Buffett remains active at 96, but Berkshire's shares aren't doing much",
-          "url": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-08-29T11:53:36+00:00",
-          "desc": "Warren Buffett will be celebrating his 96th birthday on Sunday, but Berkshire Hathaway investors aren't celebrating the stock's anemic performance.",
-          "hotLabel": "",
-          "summary": "尽管沃伦·巴菲特96岁高龄，但伯克希尔哈撒韦股价表现不佳。",
-          "analysis": "巴菲特的健康和公司的股价表现反映了市场对伯克希尔哈撒韦未来领导力和投资策略的担忧。这可能会影响投资者的信心和市场对价值投资的看法。",
-          "keywords": [
-            "巴菲特",
-            "伯克希尔哈撒韦",
-            "股价",
-            "投资策略"
-          ],
-          "category": "economy",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/08/29/buffett-remains-active-at-96-but-berkshires-shares-arent-doing-much.html"
-            }
-          ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，我国政策与社会动向呈现出多方面发展。经济领域，算电协同推动数字经济高质量发展，房地产新规出台，房贷期限延长至40年，反映了对经济结构的优化调整。社会方面，甲醛白菜事件引发食品安全关注，道交法修订加强交通安全管理。国际层面，习近平出席上合组织峰会，展现我国在国际事务中的积极参与，同时关注到尼泊尔救援物资的运送，体现了我国对国际社会的责任与担当。值得关注的是，人工智能成为货币政策新变量，以及国际关系中的复杂互动，如美国与加拿大关于安大略湖名的争议。整体而言，我国正以稳健的步伐推进内外发展，注重经济、社会和国际关系的协调发展。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "中国推动算电协同促进数字经济高质量发展",
-          "titleOrig": "中国推动算电协同促进数字经济高质量发展 - 求是",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44bHJySEdzM0s5dy0xTHV2bEdQMFFGeXNzSkFYblBHMXg5ZUtXeko4bUgzZGw3My1jQUtoNVdDX3JKY2UwckN5aEZfV01hNmFQWDZIWFlJNTVjbFJYNkw2Um5Ma0d4aTFNU1lZNkdVZFpoeHVVQldaQW1IUXg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T02:10:07+00:00",
-          "desc": "中国推动算电协同促进数字经济高质量发展 求是数博会观察：以“数”赋能加速从展示步入应用 光明网从“数博五感”到产业协同，数博会DATA之夜释放哪些数智经济新信号？ t.cj.sina.cn聚焦2026数博会｜东数西算，贵州算明白了三件事 中国青年网“算电协同”如何让算力不“断电” 搜狐网",
-          "hotLabel": "",
-          "summary": "中国推动算电协同，以促进数字经济的高质量发展。",
-          "analysis": "算电协同旨在通过提升算力资源与电力资源的协同效率，推动数字经济的快速发展。这是国家政策对数字经济重视的体现，有助于优化资源配置，提高产业效率。对国内经济意味着新的增长点，对科技领域意味着技术创新和产业升级，对社会意味着更便捷的服务和生活方式。后续可能看到更多相关政策和项目的实施。",
-          "keywords": [
-            "算电协同",
-            "数字经济",
-            "高质量发展",
-            "算力",
-            "电力资源"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE44bHJySEdzM0s5dy0xTHV2bEdQMFFGeXNzSkFYblBHMXg5ZUtXeko4bUgzZGw3My1jQUtoNVdDX3JKY2UwckN5aEZfV01hNmFQWDZIWFlJNTVjbFJYNkw2Um5Ma0d4aTFNU1lZNkdVZFpoeHVVQldaQW1IUXg?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "甲醛白菜事件 3 名嫌疑人被刑拘",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%E4%BA%8B%E4%BB%B6%203%20%E5%90%8D%E5%AB%8C%E7%96%91%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "涉嫌在白菜中添加甲醛的3名嫌疑人被刑事拘留。",
-          "analysis": "甲醛白菜事件暴露了食品安全监管的漏洞，对消费者健康构成威胁。此事件背后反映了我国食品安全监管的严峻形势，以及社会对食品安全的高度关注。对社会影响而言，这要求政府加强食品安全监管，提高公众食品安全意识。后续走向可能包括更严格的食品安全法规出台，以及相关责任人的追责。",
-          "keywords": [
-            "甲醛白菜",
-            "食品安全",
-            "刑拘",
-            "监管",
-            "消费者健康"
-          ],
-          "category": "society",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%94%B2%E9%86%9B%E7%99%BD%E8%8F%9C%E4%BA%8B%E4%BB%B6%203%20%E5%90%8D%E5%AB%8C%E7%96%91%E4%BA%BA%E8%A2%AB%E5%88%91%E6%8B%98"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "房地产新规：现房销售+房贷延长至40年",
-          "titleOrig": "房地产爆炸性新规：现房销售+房贷延长到40年 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqMTJoMlExd3ZzZXA1dlVNYXNxSFNLRjgtYzJmM0hlUGxfbDVmX2pVcjZTOGd1X2QwbVpIZ2Y3Snd2cFA3NE84TU8tbC0?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-29T13:25:00+00:00",
-          "desc": "房地产爆炸性新规：现房销售+房贷延长到40年 凤凰网现房销售制时代到来 华尔街见闻火速落地！建设银行开放存量个人房贷延期申请，可延不超原贷款期限一半，合计不超40年 新浪财经房贷政策优化 多份房地产相关融资管理办法发布 china.zjol.com.cn暴利时代结束！楼市30年来最大变革，一大批房企要被淘汰了 风闻",
-          "hotLabel": "",
-          "summary": "房地产政策调整，现房销售和房贷期限延长。",
-          "analysis": "这一政策旨在稳定房地产市场，减轻购房者压力，同时也可能对金融机构的资产负债表和房地产市场预期产生影响。长期房贷延长可能带来潜在的金融风险。",
-          "keywords": [
-            "房地产",
-            "政策调整",
-            "房贷",
-            "现房销售",
-            "经济影响"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBqMTJoMlExd3ZzZXA1dlVNYXNxSFNLRjgtYzJmM0hlUGxfbDVmX2pVcjZTOGd1X2QwbVpIZ2Y3Snd2cFA3NE84TU8tbC0?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "习近平出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问",
-          "titleOrig": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问 - 中国共产党新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95SkRRVERiTUhPWXlpdjI5ZmExZ2s4R1MzTVlud0dCYnJUOFlLRTZ1dHF0RHNqTnJGZ3NucEZNc0NGU0ZBWVdfT3pZNEZqQW1hNkdab0JuX2lZdlRGaTF6b0ZNVGVESUVUQWc?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T08:37:00+00:00",
-          "desc": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问 中国共产党新闻网学习手记 | 坚持睦邻友好 携手共享繁荣 光明网东西问丨吉尔吉斯斯坦前总理：走过25年，上合组织的生命力从何而来？ 新浪财经众行致远｜做“上海精神”的火炬手- 中国日报网 China Daily时政Vlog丨欢迎习主席到访！在比什凯克听听大家的期盼！ 中国网新闻中心",
-          "hotLabel": "",
-          "summary": "国家主席习近平出席上合组织峰会并对吉尔吉斯斯坦进行国事访问。",
-          "analysis": "此次访问体现了中国对上合组织的重视，以及对周边国家关系的维护。上合组织作为区域合作平台，对于促进成员国间的经济、安全合作具有重要意义。习近平主席的访问旨在深化与吉尔吉斯斯坦的双边关系，推动区域合作。对国内而言，这体现了中国外交政策的连续性和稳定性，对国际社会则传递出中国积极参与全球治理的信号。后续可能加强区域安全合作，推动经济一体化。",
-          "keywords": [
-            "习近平",
-            "上合组织",
-            "国事访问",
-            "区域合作",
-            "外交政策"
+            "柏林",
+            "黑客攻击",
+            "勒索",
+            "网络安全",
+            "国际关系"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE95SkRRVERiTUhPWXlpdjI5ZmExZ2s4R1MzTVlud0dCYnJUOFlLRTZ1dHF0RHNqTnJGZ3NucEZNc0NGU0ZBWVdfT3pZNEZqQW1hNkdab0JuX2lZdlRGaTF6b0ZNVGVESUVUQWc?oc=5"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cm2q7gv3l5qo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 4
+          "rank": 7
         },
         {
           "title": "中国称23国261名外籍人士在西藏洪水失踪",
@@ -910,17 +343,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-08-30T06:25:52+00:00",
+          "publishedAt": "2026-08-30T14:09:37+00:00",
           "desc": "The disclosure offered one of the clearest pictures yet of the disaster on the Chinese side of the border, where authorities have released few details.",
           "hotLabel": "",
-          "summary": "中国西藏地区发生洪水，大量外籍人士失踪。",
-          "analysis": "背景：西藏地区洪水灾害严重，导致大量人员失踪。影响：事件可能引发国际关注，对中印边界关系产生影响。后续走向：中国可能加强边境地区救援工作，并对外籍人士失踪事件进行详细说明。",
+          "summary": "中国西藏发生洪水，外籍人士失踪情况披露。",
+          "analysis": "此事件反映了西藏地区自然灾害的严重性，以及中国在面对国际关注时的信息透明度。中国政府在处理此类事件时，通常旨在展示其应急管理能力和对国际社会的负责任态度。对国内而言，这强调了自然灾害防范和应急响应的重要性。后续可能包括国际救援合作和灾后重建工作。",
           "keywords": [
             "西藏",
             "洪水",
             "外籍人士",
             "失踪",
-            "中印边界"
+            "应急管理"
           ],
           "category": "international",
           "importance": 85,
@@ -930,46 +363,701 @@
               "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
             },
             {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "尼泊尔发布新的洪水警告，3000人失踪",
+          "titleOrig": "Nepal issues fresh flood warning as 3,000 still missing",
+          "url": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T06:59:00+00:00",
+          "desc": "Rescuers are trying to reach dozens of hydropower workers trapped in flooded tunnels, but have been hampered by further rainfall.",
+          "hotLabel": "",
+          "summary": "尼泊尔因洪水发布新警告，数千人失踪。",
+          "analysis": "尼泊尔连续发生洪水，反映了气候变化对南亚地区的影响。洪水对基础设施和居民生活造成严重影响，可能加剧该国的经济和社会压力。国际援助和灾后重建将成为尼泊尔未来一段时间内的重点。",
+          "keywords": [
+            "尼泊尔",
+            "洪水",
+            "气候变化",
+            "灾后重建",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/nepal-issues-fresh-flood-warning-as-3-000-still-missing/a-78561068?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/zimbabwe-crash-involving-church-minibus-kills-27/a-78558710?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/aug/28/nepal-tibet-flash-floods-hundreds-dead-missing-day-three-live-updates"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/aug/28/nepal-tibet-flash-floods-red-cross-rescuers-death-toll"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "莫迪逐个应对特朗普，一次达成一项交易",
+          "titleOrig": "Modi Is Hedging Against Trump, One Deal at a Time",
+          "url": "https://www.nytimes.com/2026/08/29/world/asia/modi-india-deals-trump.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-29T04:01:07+00:00",
+          "desc": "In a year of globe-trotting, the Indian prime minister has secured deals around the world as the United States becomes less dependable.",
+          "hotLabel": "",
+          "summary": "印度总理在全球范围内进行外交活动，以确保在美关系不稳定的情况下获得更多合作。",
+          "analysis": "莫迪的外交策略反映了印度对美国政策的不确定性。印度通过多元化外交寻求减少对美国的依赖，这可能对印美关系和地区稳定产生影响。后续可能看到更多国家采取类似的外交策略。",
+          "keywords": [
+            "印度",
+            "莫迪",
+            "美国",
+            "外交政策",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/29/world/asia/modi-india-deals-trump.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "瑞士派对枪击事件致1死5伤，警方展开追捕",
+          "titleOrig": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+          "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T12:44:08+00:00",
+          "desc": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+          "hotLabel": "",
+          "summary": "瑞士派对发生枪击，造成1死5伤，警方正在追捕嫌疑人。",
+          "analysis": "这起枪击事件表明瑞士社会治安面临挑战，可能引发对枪支管控和安全措施的讨论。事件对瑞士旅游业和公共安全信心可能产生负面影响。后续可能涉及对事件原因和预防措施的深入调查。",
+          "keywords": [
+            "瑞士",
+            "枪击事件",
+            "公共安全",
+            "社会治安",
+            "枪支管控"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "以色列定居者袭击巴勒斯坦人，引发强烈谴责",
+          "titleOrig": "Israeli Settlers Attack Palestinians, Drawing Sharp Rebukes",
+          "url": "https://www.nytimes.com/2026/08/29/world/middleeast/israel-settlers-west-bank-attacks-netanyahu-rebuke.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-29T23:13:14+00:00",
+          "desc": "The intensity of Saturday’s assault prompted condemnations from Prime Minister Benjamin Netanyahu of Israel and other officials.",
+          "hotLabel": "",
+          "summary": "以色列定居者袭击巴勒斯坦人，以色列总理内塔尼亚胡等官员对此表示谴责。",
+          "analysis": "事件背景：以色列定居者与巴勒斯坦人之间的冲突持续。关键影响：此事件可能加剧巴以冲突，影响中东地区的和平进程。后续走向：巴以双方可能继续进行冲突，国际社会可能介入调解。关键词：以色列，定居者，巴勒斯坦，冲突，中东。category：international，importance：75",
+          "keywords": [
+            "以色列",
+            "定居者",
+            "巴勒斯坦",
+            "冲突",
+            "中东"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/08/29/world/middleeast/israel-settlers-west-bank-attacks-netanyahu-rebuke.html"
             }
           ],
-          "rank": 3
+          "rank": 12
         },
         {
-          "title": "美国欲改安大略湖名，加拿大回呛",
-          "titleOrig": "美国欲给安大略湖改名 加拿大竖广告牌回呛 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xNkh2N3RHX0xiNUdVQ0JBaFFVcTNQWE1hRVFRUTY5ZXA1TFFLYXd6NldTSDVWUkZyZkNmTHlTcURET2RRNi1Scndzd2JiMmRuY1VKZHM0aFY0OXRud2g4RmpYaWJDTVdHRHZLN2Z3bm9MUnItelluMFVrTlJ0emc?oc=5",
+          "title": "加拿大吸引众多美国顶尖研究人员",
+          "titleOrig": "Canada poaches dozens of top US researchers for its universities",
+          "url": "https://www.bbc.co.uk/news/articles/c209gd5jnq1o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-28T23:47:38+00:00",
+          "desc": "Researchers in fields like climate and medicine are being lured north by new research funding.",
+          "hotLabel": "",
+          "summary": "加拿大吸引美国顶尖研究人员，推动科研发展。",
+          "analysis": "加拿大通过增加研究资金吸引美国研究人员，表明该国在科研领域的竞争力提升。这一举措可能促进加拿大在特定领域的科研突破，并加强其国际科研合作网络。对美国而言，研究人员流失可能影响其科研实力。",
+          "keywords": [
+            "加拿大",
+            "美国",
+            "研究人员",
+            "科研",
+            "国际竞争"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c209gd5jnq1o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "下周股市三大关注点",
+          "titleOrig": "Here are the 3 big things we're watching in the stock market in the week ahead",
+          "url": "https://www.cnbc.com/2026/08/30/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T14:54:49+00:00",
+          "desc": "Broadcom and Palo Alto Networks report. Plus, it's jobs week.",
+          "hotLabel": "",
+          "summary": "下周将关注Broadcom和Palo Alto Networks的财报，以及就业数据。",
+          "analysis": "下周股市的关注点集中在大型科技公司的财报和就业数据上。这些数据将影响投资者对经济前景的预期。Broadcom和Palo Alto Networks的财报表现将直接影响科技股的表现，而就业数据则反映了美国经济的健康状况。这些信息将对股市的短期走势产生重要影响。",
+          "keywords": [
+            "股市",
+            "财报",
+            "就业数据",
+            "经济预期",
+            "投资"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/08/30/here-are-the-3-big-things-were-watching-in-the-stock-market-in-the-week-ahead.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "赞比亚反对派领导人被控叛国",
+          "titleOrig": "Zambian opposition leader charged with treason",
+          "url": "https://www.bbc.co.uk/news/articles/c20lwqpx70qo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T09:08:23+00:00",
+          "desc": "Mundubile had previously gone into hiding at a United Nations building in Zambia's capital.",
+          "hotLabel": "",
+          "summary": "赞比亚反对派领导人因叛国罪被起诉。",
+          "analysis": "事件背景：赞比亚反对派领导人因政治反对活动被政府指控。关键影响：此事件可能加剧赞比亚国内的政治对立，影响赞比亚的民主进程。后续走向：赞比亚政府可能面临国际社会的压力，反对派可能继续进行抗议活动。关键词：赞比亚，反对派，叛国，政治对立，民主。category：international，importance：70",
+          "keywords": [
+            "赞比亚",
+            "反对派",
+            "叛国",
+            "政治对立",
+            "民主"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c20lwqpx70qo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "维也纳博物馆白天被盗600颗钻石项链",
+          "titleOrig": "Thieves steal 600-diamond necklace from Vienna museum in broad daylight",
+          "url": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-28T17:29:16+00:00",
+          "desc": "Police are hunting two suspects they believe bought a ticket for the exhibition to get at the jewellery.",
+          "hotLabel": "",
+          "summary": "警方正在追查两名嫌疑人，他们可能通过购买展览门票接近珠宝。",
+          "analysis": "此次盗窃事件暴露了博物馆安保的漏洞，可能涉及有组织的犯罪团伙。事件对维也纳旅游业和博物馆形象造成负面影响。后续可能引发对艺术品保护措施的加强。",
+          "keywords": [
+            "维也纳",
+            "博物馆",
+            "盗窃",
+            "珠宝",
+            "艺术品保护"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqxvwpe0plro?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "载有260多人渡轮在塞浦路斯翻覆",
+          "titleOrig": "Ferry carrying over 260 people capsizes off Cyprus",
+          "url": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus/a-78562769?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T11:32:00+00:00",
+          "desc": "Several people have died after a passenger ⁠boat carrying more than 260 people capsized off ‌northern Cyprus, Turkish media reported. ‌",
+          "hotLabel": "",
+          "summary": "一艘载有260多人的渡轮在塞浦路斯北部翻覆，造成人员伤亡。",
+          "analysis": "渡轮事故通常与安全监管、船只维护等因素有关。这起事故可能引发对塞浦路斯海上安全的关注，并可能导致相关政策的调整。同时，事故造成的伤亡将对受害者家庭和社会产生深远影响。",
+          "keywords": [
+            "渡轮事故",
+            "塞浦路斯",
+            "安全监管",
+            "人员伤亡",
+            "社会影响"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/ferry-carrying-over-260-people-capsizes-off-cyprus/a-78562769?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "格陵兰称针对种族灭绝指控的调查结果尚未最终确定",
+          "titleOrig": "Greenland says findings on genocide allegation not final",
+          "url": "https://www.bbc.co.uk/news/articles/czxzv29p12lo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-28T19:57:50+00:00",
+          "desc": "Experts examined the use of forced contraception on the Inuit community during the 1960s and 70s.",
+          "hotLabel": "",
+          "summary": "专家对20世纪60年代和70年代对因纽特人社区使用强制避孕措施进行了调查。",
+          "analysis": "此事件涉及历史争议和民族问题，可能影响丹麦与格陵兰的关系以及丹麦在国际社会中的形象。后续可能引发更多关于人权和民族政策的讨论。",
+          "keywords": [
+            "格陵兰",
+            "种族灭绝",
+            "强制避孕",
+            "人权",
+            "民族政策"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/czxzv29p12lo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "美国右翼评论员米洛·亚伊安诺普洛斯被遣返回英国",
+          "titleOrig": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+          "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-08-29T17:52:42+00:00",
+          "desc": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+          "hotLabel": "",
+          "summary": "美国右翼评论员因移民问题被遣返回英国。",
+          "analysis": "事件背景：亚伊安诺普洛斯因在美国的移民问题被拘留。关键影响：此事件可能引发对言论自由和移民政策的讨论。后续走向：亚伊安诺普洛斯在英国可能面临新的法律挑战。关键词：美国，右翼评论员，遣返，移民政策，言论自由。category：international，importance：60",
+          "keywords": [
+            "美国",
+            "右翼评论员",
+            "遣返",
+            "移民政策",
+            "言论自由"
+          ],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "首次“肥胖土拨鼠周”冠军揭晓",
+          "titleOrig": "Exclusive: Meet the inaugural winner of Fat Marmot Week",
+          "url": "https://www.npr.org/2026/08/30/nx-s1-5945683/exclusive-meet-the-inaugural-winner-of-fat-marmot-week",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T12:45:00+00:00",
+          "desc": "Dawn was crowned fattest marmot by popular vote.",
+          "hotLabel": "",
+          "summary": "Dawn以高票当选“肥胖土拨鼠周”冠军。",
+          "analysis": "这一新闻看似无关紧要，实则反映了美国社会对动物权益的关注。‘肥胖土拨鼠周’的举办体现了人们对动物福利的重视，同时也可能促进动物保护组织的活动。这一事件虽小，但反映了社会价值观的变化。",
+          "keywords": [
+            "土拨鼠",
+            "动物权益",
+            "社会价值观",
+            "动物保护",
+            "文化活动"
+          ],
+          "category": "society",
+          "importance": 30,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/08/30/nx-s1-5945683/exclusive-meet-the-inaugural-winner-of-fat-marmot-week"
+            }
+          ],
+          "rank": 20
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "今日国内形势综述显示，中国在国际舞台上积极参与多边合作，如习近平出席上海合作组织峰会并对吉尔吉斯斯坦进行国事访问，体现了中国在国际事务中的重要作用。国内经济方面，吕梁白酒产业营收突破700亿元，新电商助推国货“出圈”，个人房贷政策调整，以及电影票房增长，均显示出经济活力的恢复。社会层面，中国长春电影节落幕，南国书香节珠海分会场活动启动，反映出文化生活的丰富。值得关注的是，国际形势的复杂多变，如五角大楼成为委内瑞拉石油“股东”，菲律宾强降雨等事件，提醒我国需密切关注国际局势，维护国家利益。",
+      "totalSelected": 20,
+      "items": [
+        {
+          "title": "习近平出席上海合作组织峰会并对吉尔吉斯斯坦进行国事访问",
+          "titleOrig": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwZUVEM1ZxVHF6eFlGWjFIbGxRNWpuYXF6cXdsanVpV09xWjlDM2d1dW10QW1CN0FmZ1Q1VUlRWHhidV95b09lQkhLZXpac1A1b3VtcU1HZDJmRzZsUWpnSU0yMzBORENzeHZEekx1b0xxRTZna3dfdnJPaDJTUQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-30T06:16:54+00:00",
-          "desc": "美国欲给安大略湖改名 加拿大竖广告牌回呛 新华网在美加关税对峙之际，特朗普总统下令将安大略湖更名 美国之音改名风波再起 加拿大官员在安大略湖畔设立标牌 央视网加拿大会“硬刚”美国吗 中国日报网特朗普擅改安大略湖地名引讥评 加拿大总理直言“美国变了” 财新",
+          "publishedAt": "2026-08-30T12:05:10+00:00",
+          "desc": "习近平抵达比什凯克出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问 新华网近闻·习主席这样展望中吉关系高质量发展新局面 央视网全球媒体聚焦 | 成立25周年之际 上合组织“比以往任何时候都重要” 光明网记者手记：在比什凯克，遇见丝路城市的交流印记 新浪财经众行致远｜做“上海精神”的火炬手- 中国日报网 China Daily",
           "hotLabel": "",
-          "summary": "美国特朗普政府欲改湖名，加拿大回应",
-          "analysis": "此事件反映了美加关系紧张，美国试图通过改名来显示对加拿大主权的不尊重。这一行为可能加剧两国之间的紧张关系，影响双边贸易和外交关系。加拿大通过竖广告牌回呛，展示了对国家主权的坚定立场。后续可能引发更多外交争端。",
+          "summary": "国家主席习近平出席2026年上海合作组织峰会并对吉尔吉斯斯坦进行国事访问。",
+          "analysis": "此次访问是在上合组织成立25周年之际，体现了中国对上合组织重要性的认可。背景上，上合组织作为区域合作平台，对于促进成员国间的经济、安全合作具有重要意义。此次访问将深化中吉关系，推动“一带一路”倡议的进一步实施。对国内而言，意味着中国在国际舞台上的影响力增强，对经济治理和区域安全有积极意义。后续走向可能包括签署更多合作协议，加强区域经济一体化。",
           "keywords": [
-            "美国",
-            "加拿大",
-            "安大略湖",
-            "外交关系",
-            "主权"
+            "习近平",
+            "上海合作组织",
+            "吉尔吉斯斯坦",
+            "国事访问",
+            "一带一路"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1xNkh2N3RHX0xiNUdVQ0JBaFFVcTNQWE1hRVFRUTY5ZXA1TFFLYXd6NldTSDVWUkZyZkNmTHlTcURET2RRNi1Scndzd2JiMmRuY1VKZHM0aFY0OXRud2g4RmpYaWJDTVdHRHZLN2Z3bm9MUnItelluMFVrTlJ0emc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBwZUVEM1ZxVHF6eFlGWjFIbGxRNWpuYXF6cXdsanVpV09xWjlDM2d1dW10QW1CN0FmZ1Q1VUlRWHhidV95b09lQkhLZXpac1A1b3VtcU1HZDJmRzZsUWpnSU0yMzBORENzeHZEekx1b0xxRTZna3dfdnJPaDJTUQ?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ESjNGS29GSXN3YWVYLXJZeEFTeG1aamJmRExMbHhNVE1Pa2xmQW1PM0JnMUdDSm53UzdIaHpnYlNJM0Z6MTN2TjlDUmJKMXRfZk5uX3VETTlRVkYyaXpna3pxV3Y?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95bl9VS1EzLUViWkVueTNOSm9MLUdTZlBXb0kzTzIyNTlXV3lVMUZNTVdGekEwOFpOaFRPU3l2MThwNVB2YzRveGJsRHJONzR4WVFGNXhBMUEtVGxqTlduX2RTcDBZUQ?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SZ2pENTJwWk95N1RTNGFBTlFNYTBDMmlwbVFqU05LNFVJZ1oxb0FydTBibHVYbHF5UWowaG9XWkN5cUNSYTlYTlF2a3k?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50NXJnSlM3TlV5aTVBSjc2YUhiMnZTem1MS2d5WXA5S2JGY1h1b0tGRDlaR1k5VmZnMS15Rjg0VkdSSnhqd2M5YXc4TnNscUxzSWlHdWxQN3hsTHRBRWR6Y25BN1FZZlBaOWJkdHMtYw?oc=5"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "中国称23国261名外籍人士在西藏洪水失踪",
+          "titleOrig": "China Says 261 Foreigners From 23 Countries Are Missing in Tibet Flood",
+          "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-08-30T14:09:37+00:00",
+          "desc": "The disclosure offered one of the clearest pictures yet of the disaster on the Chinese side of the border, where authorities have released few details.",
+          "hotLabel": "",
+          "summary": "中国西藏发生洪水，外籍人士失踪情况披露。",
+          "analysis": "此事件反映了西藏地区自然灾害的严重性，以及中国在面对国际关注时的信息透明度。中国政府在处理此类事件时，通常旨在展示其应急管理能力和对国际社会的负责任态度。对国内而言，这强调了自然灾害防范和应急响应的重要性。后续可能包括国际救援合作和灾后重建工作。",
+          "keywords": [
+            "西藏",
+            "洪水",
+            "外籍人士",
+            "失踪",
+            "应急管理"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "吕梁白酒产业营收突破700亿元，杏花村国际酒业博览会解锁酒业新机遇",
+          "titleOrig": "营收突破700亿元！吕梁白酒产业突围，这场盛会解锁酒业变局新机遇 - 每日经济新闻",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95bl9VS1EzLUViWkVueTNOSm9MLUdTZlBXb0kzTzIyNTlXV3lVMUZNTVdGekEwOFpOaFRPU3l2MThwNVB2YzRveGJsRHJONzR4WVFGNXhBMUEtVGxqTlduX2RTcDBZUQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T10:52:00+00:00",
+          "desc": "营收突破700亿元！吕梁白酒产业突围，这场盛会解锁酒业变局新机遇 每日经济新闻2026中国杏花村国际酒业博览会在汾阳举行 China Daily山西吕梁：锚定世界级清香型白酒核心产区，全产业链营收突破700亿元 thepaper.cn2026中国杏花村国际酒业博览会墨西哥主宾国馆隆重开馆 搜狐网山西汾阳：酒香遇新味 展会话清香 zhshbao.com",
+          "hotLabel": "",
+          "summary": "吕梁白酒产业营收突破700亿元，杏花村国际酒业博览会展示酒业发展新方向。",
+          "analysis": "吕梁白酒产业营收突破700亿元，标志着中国白酒产业的强劲发展。杏花村国际酒业博览会的举办，旨在推动白酒产业升级，提升中国白酒的国际竞争力。这背后反映了中国政府对白酒产业的政策支持，以及对传统产业的转型升级的重视。对国内民生而言，这有助于提高就业率和促进地方经济发展。对经济而言，白酒产业作为我国重要的支柱产业，其增长对GDP的贡献显著。后续可能看到更多地方白酒产业的崛起和国际化进程的加快。",
+          "keywords": [
+            "吕梁白酒",
+            "营收突破",
+            "杏花村国际酒业博览会",
+            "产业升级",
+            "政策支持"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE95bl9VS1EzLUViWkVueTNOSm9MLUdTZlBXb0kzTzIyNTlXV3lVMUZNTVdGekEwOFpOaFRPU3l2MThwNVB2YzRveGJsRHJONzR4WVFGNXhBMUEtVGxqTlduX2RTcDBZUQ?oc=5"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "新电商助推国货“出圈”更“出海”",
+          "titleOrig": "好评中国｜小屏幕撬动大市场：新电商助推国货“出圈”更“出海” - 紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCSDhITVA4RjZZQXd3SWRHVGVqNDdfcWg5WWZFc2FRTEduMEV5UjBhcy0zQWlGZVlKZVFLLTV2RGozdUpMVERmNjEzLTlmNm5jSDBVRzVtYjEySElRTkJUYjVvUEtWWWI2?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T08:37:00+00:00",
+          "desc": "好评中国｜小屏幕撬动大市场：新电商助推国货“出圈”更“出海” 紫牛新闻新电商重塑吉林数字基因 凤凰网聚力数智赋能 焕新电商未来 | 一份写了六年的“新电商”答卷 光明网中少总社与京东达成全面深度合作 共探少儿知识服务与新电商生态 新浪财经第六届中国新电商大会四大分论坛同步举办多维赋能产业高质量发展- 中国日报网 China Daily",
+          "hotLabel": "",
+          "summary": "新电商助力国货“出圈”和“出海”，推动国货品牌发展。",
+          "analysis": "新电商的发展有助于提升国货品牌形象，扩大国内外市场。政策意图在于推动电商行业创新，促进国货品牌国际化。对社会和经济都有积极影响，有助于提升国家软实力。后续可能看到更多政策支持新电商发展，国货品牌将进一步崛起。",
+          "keywords": [
+            "新电商",
+            "国货",
+            "出海",
+            "品牌发展",
+            "电商行业"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBCSDhITVA4RjZZQXd3SWRHVGVqNDdfcWg5WWZFc2FRTEduMEV5UjBhcy0zQWlGZVlKZVFLLTV2RGozdUpMVERmNjEzLTlmNm5jSDBVRzVtYjEySElRTkJUYjVvUEtWWWI2?oc=5"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "五角大楼成为委内瑞拉石油“股东”？",
+          "titleOrig": "装都不装了，五角大楼成委内瑞拉石油“股东”？ - 观察者",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qT2tuS0dqRlhjZERxNGluYURfZWk0czNfVUJmd3VEdnZtNzVNYWJCOHJJVk5BTFZiNW5fLXNwRjNqRHRJWHUxOTFyVU9ZdFpmeHNWQ2ZSYkJEZkk4U2VIMlF2X0toUDdESVE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T06:38:00+00:00",
+          "desc": "装都不装了，五角大楼成委内瑞拉石油“股东”？ 观察者委内瑞拉代总统称与美国石油合作协议将持续25年 中国日报网美获逾650亿桶委石油储量“多数控制权” 新浪财经抢劫委内瑞拉石油那都是小事！特朗普的更大招：用美军给美元化债 搜狐网美国、委内瑞拉达成25年石油协议，目标日产150万桶 华尔街见闻",
+          "hotLabel": "",
+          "summary": "美国与委内瑞拉签订25年石油协议，获得大量石油储量控制权。",
+          "analysis": "这一事件反映了美国在能源领域的战略意图，通过加强与委内瑞拉的合作，确保能源供应安全。同时，这也可能加剧委内瑞拉国内的政治经济矛盾，对委内瑞拉民众生活产生负面影响。后续可能引发国际能源市场的波动，对全球经济产生影响。",
+          "keywords": [
+            "美国",
+            "委内瑞拉",
+            "石油",
+            "能源安全",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qT2tuS0dqRlhjZERxNGluYURfZWk0czNfVUJmd3VEdnZtNzVNYWJCOHJJVk5BTFZiNW5fLXNwRjNqRHRJWHUxOTFyVU9ZdFpmeHNWQ2ZSYkJEZkk4U2VIMlF2X0toUDdESVE?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "菲律宾强降雨致32人死亡，约810万人受影响",
+          "titleOrig": "菲律宾近期强降雨致32人死亡 约810万人受影响 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaFEzcF9PVDdmRktObHl6VnNKZnFyZm5fMlBQZmpCdUJESUltckhRUE5CeDVRM2RYZkZ0d0NscmtmWVhHZEpUVnljMnVLLXFOSXp3N0swVEZ6WTI3SzhDMnhuNmhkWExB?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T12:15:34+00:00",
+          "desc": "菲律宾近期强降雨致32人死亡 约810万人受影响 chinanews.com.cn菲律宾吕宋岛发生山体滑坡至少2人死亡 新浪财经菲律宾布拉干省持续洪涝 历史建筑巴拉索因教堂遭水淹 搜狐网菲律宾8月份洪灾致30多人遇难 联合早报菲律宾卫生部警告洪水增加钩端螺旋体病感染风险 chinanews.com.cn",
+          "hotLabel": "",
+          "summary": "菲律宾强降雨导致32人死亡，约810万人受影响。",
+          "analysis": "菲律宾近期强降雨引发的灾害暴露了该地区自然灾害应对的挑战。这起灾害对当地民众生活和经济造成严重影响。对菲律宾政府而言，加强防灾减灾能力和基础设施建设的紧迫性凸显。对于国际社会，这起事件提醒各国关注气候变化对自然灾害的影响，并加强区域合作。",
+          "keywords": [
+            "菲律宾强降雨",
+            "自然灾害",
+            "防灾减灾",
+            "气候变化",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPaFEzcF9PVDdmRktObHl6VnNKZnFyZm5fMlBQZmpCdUJESUltckhRUE5CeDVRM2RYZkZ0d0NscmtmWVhHZEpUVnljMnVLLXFOSXp3N0swVEZ6WTI3SzhDMnhuNmhkWExB?oc=5"
             }
           ],
           "rank": 6
         },
         {
-          "title": "杰克逊霍尔大会要点：人工智能成货币政策新变量",
+          "title": "个人房贷最长延至40年，建行开放房贷延期申请",
+          "titleOrig": "个人房贷最长延至40年，建行：已开放房贷延期申请 - 凤凰网",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SZ2pENTJwWk95N1RTNGFBTlFNYTBDMmlwbVFqU05LNFVJZ1oxb0FydTBibHVYbHF5UWowaG9XWkN5cUNSYTlYTlF2a3k?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T10:03:37+00:00",
+          "desc": "个人房贷最长延至40年，建行：已开放房贷延期申请 凤凰网专访｜广东省房地产行业协会会长王韶：现房模式大幅抬高行业准入门槛，房企融资开发逻辑将迎来重构 新浪财经凤凰风暴眼 | 楼市新政来了，普通人买房能更安心吗？ 凤凰网财经房贷最新可贷40年，哪些人适合申请？ 同花顺财经个人住房贷款最长至40年意味着什么？专家：有利于释放住房消费 住在杭州网",
+          "hotLabel": "",
+          "summary": "个人房贷最长延至40年，建设银行开放房贷延期申请。",
+          "analysis": "个人房贷延长期限至40年，体现了金融机构对房地产市场的支持。此举可能旨在缓解居民债务压力，稳定房地产市场。对国内民生而言，这可能减轻购房者的经济负担。对经济而言，长期房贷有助于稳定房地产市场，促进消费。后续可能看到更多金融机构推出类似政策。",
+          "keywords": [
+            "房贷延期",
+            "房地产市场",
+            "债务压力",
+            "金融机构",
+            "政策支持"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9SZ2pENTJwWk95N1RTNGFBTlFNYTBDMmlwbVFqU05LNFVJZ1oxb0FydTBibHVYbHF5UWowaG9XWkN5cUNSYTlYTlF2a3k?oc=5"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "2026年电影票房突破280亿元，暑期档带动市场回暖",
+          "titleOrig": "2026年电影票房已突破280亿元 暑期档带动市场回暖 - zqrb.cn",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DTTJqNlBjVGhMOXh1TW1LcXZ3VzlwVVBIWWZMUzVUQkVkY2NHY0ZXbXVVNFdRSEtHb1JjQThaUTRNcW52U3BmLV9CM3NSZVhBUzEtMDEyM0dGUkFRajFNT1JNa201dEZXVGFhMUxJal9NeWpta3BDRA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T12:44:00+00:00",
+          "desc": "2026年电影票房已突破280亿元 暑期档带动市场回暖 zqrb.cn2026年度总票房破280亿 新浪财经超123亿 2026电影暑期档已超去年同档期总票房 中国日报网暑期档票房超121亿元！今年暑期电影市场真正体现了“内容为王” 搜狐网近7成公司亏损，影视股迎来最难上半年 36 Kr",
+          "hotLabel": "",
+          "summary": "2026年电影票房突破280亿元，暑期档成为市场回暖关键。",
+          "analysis": "电影票房的增长反映了消费市场的回暖和电影产业的健康发展。政策意图在于鼓励文化产业的发展，提升国民文化生活质量。对经济有正面影响，有助于推动相关产业链的发展。后续可能看到更多政策支持文化产业，市场将进一步扩大。",
+          "keywords": [
+            "电影票房",
+            "暑期档",
+            "市场回暖",
+            "文化产业",
+            "消费市场"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9DTTJqNlBjVGhMOXh1TW1LcXZ3VzlwVVBIWWZMUzVUQkVkY2NHY0ZXbXVVNFdRSEtHb1JjQThaUTRNcW52U3BmLV9CM3NSZVhBUzEtMDEyM0dGUkFRajFNT1JNa201dEZXVGFhMUxJal9NeWpta3BDRA?oc=5"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "杰克逊霍尔大会要点回顾",
           "titleOrig": "杰克逊霍尔大会结束了，除了沃什“放鹰”，还有这些要点 - 华尔街见闻",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LSzltY3NldmFkUjNneUNOZGRWSGNlem9vNkE4UHBCUnBLWE5vZk51UVpZbjZNMXp2M0RWdm5XWU11NXF4WkZ5UEd2X3BIZGhtSkVB?oc=5",
           "source": "Google 新闻 · 中文",
@@ -979,175 +1067,87 @@
           "region": "中国",
           "lang": "zh",
           "publishedAt": "2026-08-30T00:56:16+00:00",
-          "desc": "杰克逊霍尔大会结束了，除了沃什“放鹰”，还有这些要点 华尔街见闻沃什杰克逊霍尔演讲：将人工智能列为货币政策新变量 新浪财经履职百天 沃什让美联储“更安静” 中国经济网沃什暗示加息 观察者克鲁格曼：沃什“没说的”比“说了的”更重要 华尔街见闻",
+          "desc": "杰克逊霍尔大会结束了，除了沃什“放鹰”，还有这些要点 华尔街见闻光大期货0828黄金点评：关注今晚全球央行年会，短线黄金谨慎对待|黄金连续AU0|COMEX黄金|加息预期|贸易逆差|美联储 新浪财经履职百天 沃什让美联储“更安静” 中国经济网美联储政策范式转换与中国货币金融的战略应对 财新加息预期“一夜变天”，美股下跌、黄金重挫！ 东方财富",
           "hotLabel": "",
-          "summary": "杰克逊霍尔大会结束，美联储官员提出新观点。",
-          "analysis": "美联储官员在杰克逊霍尔大会上的讲话，将人工智能纳入货币政策考量，显示了金融科技对传统经济政策的潜在影响。这可能引导全球货币政策走向调整，对全球经济产生重要影响。",
+          "summary": "杰克逊霍尔大会结束后，美联储官员沃什发表鹰派言论，市场对加息预期升温。",
+          "analysis": "沃什的言论反映了美联储对通胀的担忧，以及对未来经济走势的谨慎态度。这将对全球金融市场产生重要影响，可能导致资金流向变化，对全球经济产生连锁反应。对中国而言，可能需要调整货币政策，以应对外部环境变化。",
           "keywords": [
-            "杰克逊霍尔",
             "美联储",
-            "货币政策",
-            "人工智能",
-            "经济影响"
+            "加息",
+            "杰克逊霍尔",
+            "通胀",
+            "货币政策"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
               "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1LSzltY3NldmFkUjNneUNOZGRWSGNlem9vNkE4UHBCUnBLWE5vZk51UVpZbjZNMXp2M0RWdm5XWU11NXF4WkZ5UEd2X3BIZGhtSkVB?oc=5"
             }
           ],
-          "rank": 7
-        },
-        {
-          "title": "伊朗副外长称未经协调船只无法通过霍尔木兹海峡",
-          "titleOrig": "伊朗副外长：未经协调任何船只无法通过霍尔木兹海峡 - 杭州新闻",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBocFVPQ1lwbXNWeE5TY1NVckFhZlRrMldRTmx5RnAybDU0RndRQWR1VjdjeTF5cFlHQll6T3dGT0EtMF9aREtwbzlNd0ljY1pzb0tSWkRrZndtQUkwX0pXamdEMnJzd2l1OHNJcklyTnoyaENnZU1WV3pYa0k?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T07:14:00+00:00",
-          "desc": "伊朗副外长：未经协调任何船只无法通过霍尔木兹海峡 杭州新闻霍尔木兹海峡，有新消息 新浪财经僵局未解 伊称霍尔木兹海峡完全关闭 美发起“航母车轮战” 中国青年网伊朗缘何“双轨话术”应对海峡僵局 政治与军事的协调配合 中华网伊朗：霍尔木兹海峡临时航线谅解达成 仅限商船通行 观察者",
-          "hotLabel": "",
-          "summary": "伊朗副外长表示，未经协调的船只无法通过霍尔木兹海峡。",
-          "analysis": "霍尔木兹海峡是全球重要的石油运输通道，伊朗的这一表态可能引发地区紧张局势。对国际石油市场而言，海峡的畅通与否直接影响石油供应。对国内而言，这提醒中国关注国际能源安全，加强多元化能源战略。后续可能影响中东地区的地缘政治格局，对全球能源安全构成挑战。",
-          "keywords": [
-            "霍尔木兹海峡",
-            "伊朗",
-            "地缘政治",
-            "能源安全",
-            "石油运输"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBocFVPQ1lwbXNWeE5TY1NVckFhZlRrMldRTmx5RnAybDU0RndRQWR1VjdjeTF5cFlHQll6T3dGT0EtMF9aREtwbzlNd0ljY1pzb0tSWkRrZndtQUkwX0pXamdEMnJzd2l1OHNJcklyTnoyaENnZU1WV3pYa0k?oc=5"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "中国道交法迎来重大修订",
-          "titleOrig": "中国道交法迎“大修” “暴走团”“开门杀”治理受关注 - 求是",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtbkYxZEFNaG5Od3pPb1kxcFFhMkdOa1hvTUZiWGMxTzFpa0ZZNU5GWHVnQUtIV3Q0U3ZSYUxraEJvbXE1TUl2bXc0SllFSnJCVk1oNHRuUU9tZ1VWM0VZdmVGQW5vWFFfcUpFSzFnN0gxQXNiVUthYzVhczU?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T02:06:20+00:00",
-          "desc": "中国道交法迎“大修” “暴走团”“开门杀”治理受关注 求是聚焦“盲驾”“飙车”“暴走团”等，道路交通安全法首次系统性“大修”！ 新浪财经L3自动驾驶权责划定 全国大排查启动！专家：车企再玩文字游戏就别卖车 凤凰网科技揭秘电动自行车灰色改装：新国标限死的时速25公里被偷改到70 仍显示时速25 驱动之家【深圳特区报】既要“管得住”也要“行得通” 法律专业人士呼吁：以法治化精细化治理为电动自行车无序行驶套上缰绳 搜狐网",
-          "hotLabel": "",
-          "summary": "中国道路交通安全法首次系统性修订，重点关注“暴走团”等违法行为。",
-          "analysis": "此次道交法修订反映了国家对道路交通安全的高度重视。背景是近年来交通安全事故频发，特别是“暴走团”等非机动车违章行为对交通安全构成威胁。修订将加强对违法行为的治理，对提升道路交通安全水平具有重要意义。对国内民生意味着更安全的出行环境，对经济意味着减少因交通事故带来的经济损失，对治理意味着法治化精细化管理的提升。后续可能出台更具体的执行措施和监管办法。",
-          "keywords": [
-            "道交法",
-            "修订",
-            "暴走团",
-            "交通安全",
-            "法治管理"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAtbkYxZEFNaG5Od3pPb1kxcFFhMkdOa1hvTUZiWGMxTzFpa0ZZNU5GWHVnQUtIV3Q0U3ZSYUxraEJvbXE1TUl2bXc0SllFSnJCVk1oNHRuUU9tZ1VWM0VZdmVGQW5vWFFfcUpFSzFnN0gxQXNiVUthYzVhczU?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
           "rank": 9
         },
         {
-          "title": "美委达成25年石油协议",
-          "titleOrig": "美国与委内瑞拉达成25年石油协议，涉及650亿桶原油储量控制权 - jpchinapress.com",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWRrRmlNbkk1bHIwZXQ0V25sU1hpbU1pTktGQmIwSWNQb3BrUGd1a0FtclZoVUtNZWtQVFl6bnRMWVpiR0JPaGlSaC1zNE5odnI0VGJPMU5WWGRTc05TNWMxeFNiMG5pTE1HZUxGUmNLbXloSDF0cEt1Z09MYkd5UmdiVFBDbVloQmc?oc=5",
+          "title": "塞浦路斯渡轮倾覆事故，已有159人获救，至少6人死亡",
+          "titleOrig": "塞浦路斯渡轮倾覆事故已有159人获救 至少6人死亡 - 同花顺",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2MGV4dHY0U01Eal9qRUlqNVNLQkJHLVBQVVp0X3ltZkRrRFlZaUh6Y3NidEoyNFU2Yjg5RXBYNkdINWprZVNJdGhqUUdNMmJMd1hzaXpEclc4akJmSWc?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-30T08:14:11+00:00",
-          "desc": "美国与委内瑞拉达成25年石油协议，涉及650亿桶原油储量控制权 jpchinapress.com装都不装了，五角大楼成委内瑞拉石油“股东”？ 观察者委内瑞拉代总统称与美国石油合作协议将持续25年 中国日报网美获逾650亿桶委石油储量“多数控制权” 新浪财经抢劫委内瑞拉石油那都是小事！特朗普的更大招：用美军给美元化债 搜狐网",
+          "publishedAt": "2026-08-30T13:10:05+00:00",
+          "desc": "塞浦路斯渡轮倾覆事故已有159人获救 至少6人死亡 同花顺中国驻塞浦路斯大使馆：暂未发现中国公民乘坐涉事渡轮 央视网塞浦路斯渡轮倾覆事故已有159人获救 中国日报网塞浦路斯附近一载有267人客货渡船沉没 观察者塞浦路斯一艘载有约270名乘客的渡轮倾覆 凤凰网",
           "hotLabel": "",
-          "summary": "美委达成25年石油协议，控制650亿桶储量",
-          "analysis": "美国与委内瑞拉的石油协议可能有助于美国确保其能源供应，但同时也可能加剧委内瑞拉的局势。该协议可能影响国际油价和全球能源市场。委内瑞拉的政治经济状况可能进一步恶化。",
+          "summary": "塞浦路斯渡轮倾覆事故，已有159人获救，至少6人死亡。",
+          "analysis": "塞浦路斯渡轮倾覆事故体现了海上安全监管的重要性。事故发生可能由于天气原因或船只维护不当。对涉事国家而言，这起事故对旅游业和民众心理产生负面影响。对国际社会而言，事故凸显了国际海上安全合作的必要性。后续可能有关方面加强海上安全监管，并提高公众对海上安全的认识。",
           "keywords": [
-            "美国",
-            "委内瑞拉",
-            "石油协议",
-            "能源供应",
-            "全球市场"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWRrRmlNbkk1bHIwZXQ0V25sU1hpbU1pTktGQmIwSWNQb3BrUGd1a0FtclZoVUtNZWtQVFl6bnRMWVpiR0JPaGlSaC1zNE5odnI0VGJPMU5WWGRTc05TNWMxeFNiMG5pTE1HZUxGUmNLbXloSDF0cEt1Z09MYkd5UmdiVFBDbVloQmc?oc=5"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "中国救援物资运抵尼泊尔",
-          "titleOrig": "中国救援物资运抵尼泊尔 - 中国日报网",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90R1NGNFljdTdwZ0didm9xcjA3aU5ha1Bra28xWTFLZzBTQzcyN0w1Rk1icmR5NER3bDZpRU45NlZxVHUxOUpkWTBvQjhEUGhCRzB6RXlWakwzeXQ4N05jc1o5Z2FlSXY3ZmVDTkQzS20wbkFELXB4dm1UNA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T05:37:17+00:00",
-          "desc": "中国救援物资运抵尼泊尔 中国日报网尼泊尔泥石流灾害已致752人遇难2502人失联 新浪新闻_手机新浪网中国援助尼泊尔首批救灾物资运抵加德满都 央视网始料未及的致命山洪，尼泊尔专家谈预警盲区：我们连监测卫星都缺 thepaper.cn尼泊尔泥石流遇难人数升至768人 凤凰网",
-          "hotLabel": "",
-          "summary": "中国向尼泊尔提供救援物资，应对泥石流灾害。",
-          "analysis": "尼泊尔遭遇泥石流灾害，中国及时提供救援物资，体现了中国对邻国人民的关心和支持。此举有助于提升中国在国际社会中的形象，展现中国负责任大国的担当。对尼泊尔而言，救援物资的到达将有助于减轻灾害带来的影响。后续可能加强两国在灾害应对和救援领域的合作。",
-          "keywords": [
-            "中国救援",
-            "尼泊尔泥石流",
-            "国际援助",
-            "邻国关系",
-            "灾害应对"
+            "塞浦路斯渡轮",
+            "倾覆事故",
+            "海上安全",
+            "国际合作",
+            "旅游影响"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90R1NGNFljdTdwZ0didm9xcjA3aU5ha1Bra28xWTFLZzBTQzcyN0w1Rk1icmR5NER3bDZpRU45NlZxVHUxOUpkWTBvQjhEUGhCRzB6RXlWakwzeXQ4N05jc1o5Z2FlSXY3ZmVDTkQzS20wbkFELXB4dm1UNA?oc=5"
-            },
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFA2MGV4dHY0U01Eal9qRUlqNVNLQkJHLVBQVVp0X3ltZkRrRFlZaUh6Y3NidEoyNFU2Yjg5RXBYNkdINWprZVNJdGhqUUdNMmJMd1hzaXpEclc4akJmSWc?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "吉尔吉斯斯坦青年谈上合组织峰会，期待更多交流机会",
+          "titleOrig": "吉尔吉斯斯坦青年谈上合组织峰会 期待更多交流机会 - 中华网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fSlg2ZjNVZWdPS1Ruc3dVU05jLUpPUjlhazdLVWVWUHVPdmFlaWNrSjNScUtOWEN0M2w4Tjlrc1dsdDdTVFJ0emEwNVkwSkkxcVNITUtraERFclRFOHJ5T1lvZURweUpnZDZldVdJMVI?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T09:01:46+00:00",
+          "desc": "吉尔吉斯斯坦青年谈上合组织峰会 期待更多交流机会 中华网吉尔吉斯斯坦青年说：我们眼中的中国 新浪财经中吉友好，写在比什凯克街头 光明网比什凯克国立大学孔院院长：海外中文教育从兴趣走向需求 搜狐网拾光纪·“时尚之选”有牌面！中国车交付，总统亲自到场 china.qianlong.com",
+          "hotLabel": "",
+          "summary": "吉尔吉斯斯坦青年表达对上合组织峰会的期待，希望加强交流。",
+          "analysis": "这反映了上合组织在国际舞台上的影响力增强，以及中国与周边国家关系的友好发展。政策意图在于深化区域合作，推动共同发展。对社会影响正面，有助于增进各国人民之间的友谊和理解。后续可能看到上合组织在多领域合作更加深入。",
+          "keywords": [
+            "上合组织",
+            "峰会",
+            "交流机会",
+            "区域合作",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fSlg2ZjNVZWdPS1Ruc3dVU05jLUpPUjlhazdLVWVWUHVPdmFlaWNrSjNScUtOWEN0M2w4Tjlrc1dsdDdTVFJ0emEwNVkwSkkxcVNITUtraERFclRFOHJ5T1lvZURweUpnZDZldVdJMVI?oc=5"
             }
           ],
           "rank": 11
@@ -1165,17 +1165,17 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "个人房贷最长年限调整至40年。",
-          "analysis": "房贷年限调整是国家调控房地产市场的一项措施，旨在平衡房地产市场的供需关系，降低金融风险。对国内民生意味着购房者的还款压力可能减轻，对经济意味着可能影响房地产市场的整体走势。后续可能看到更多与房贷相关的政策调整。",
+          "summary": "中国调整个人房贷期限，最长不超过40年。",
+          "analysis": "此举旨在优化房贷市场，减轻借款人负担。背景上，房贷期限的调整反映了国家对房地产市场的调控意图。对国内经济而言，可能有助于降低金融风险，稳定房地产市场。后续走向可能包括房贷利率的调整，以及相关金融政策的优化。",
           "keywords": [
             "房贷",
-            "年限",
+            "房贷期限",
             "房地产市场",
             "金融风险",
             "政策调整"
           ],
           "category": "economy",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
               "name": "知乎热榜",
@@ -1185,79 +1185,131 @@
           "rank": 12
         },
         {
-          "title": "出发吧！看山",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%87%BA%E5%8F%91%E5%90%A7%EF%BC%81%E7%9C%8B%E5%B1%B1",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "网络流行语，鼓励人们走出户外，欣赏自然风光。",
-          "analysis": "‘出发吧！看山’作为网络流行语，反映了当前社会对自然环境和户外活动的重视。这一现象背后，是我国生态文明建设成果的体现，以及人们对美好生活追求的反映。对社会影响而言，这有助于提高公众环保意识，促进旅游业和相关产业的发展。后续走向可能包括更多类似活动的举办，以及相关政策支持。",
-          "keywords": [
-            "网络流行语",
-            "自然风光",
-            "环保意识",
-            "旅游业",
-            "生态文明"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%87%BA%E5%8F%91%E5%90%A7%EF%BC%81%E7%9C%8B%E5%B1%B1"
-            },
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%B0%8F%E9%82%AC%E8%AD%A6%E5%AE%98%E7%A1%AE%E8%AE%A4%E5%B9%B3%E5%AE%89%23&t=31&band_rank=1&Refer=top"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "吉尔吉斯斯坦青年谈上合组织峰会",
-          "titleOrig": "吉尔吉斯斯坦青年谈上合组织峰会 期待更多交流机会 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fSlg2ZjNVZWdPS1Ruc3dVU05jLUpPUjlhazdLVWVWUHVPdmFlaWNrSjNScUtOWEN0M2w4Tjlrc1dsdDdTVFJ0emEwNVkwSkkxcVNITUtraERFclRFOHJ5T1lvZURweUpnZDZldVdJMVI?oc=5",
+          "title": "西藏金融监管局：辖内各银行机构库存应急保障现金共约2.03亿",
+          "titleOrig": "西藏金融监管局：辖内各银行机构库存应急保障现金共约2.03亿 - 新京报",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ESjNGS29GSXN3YWVYLXJZeEFTeG1aamJmRExMbHhNVE1Pa2xmQW1PM0JnMUdDSm53UzdIaHpnYlNJM0Z6MTN2TjlDUmJKMXRfZk5uX3VETTlRVkYyaXpna3pxV3Y?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-30T09:01:46+00:00",
-          "desc": "吉尔吉斯斯坦青年谈上合组织峰会 期待更多交流机会 中华网中吉友好，写在比什凯克街头--国际 人民网拾光纪·“时尚之选”有牌面！中国车交付，总统亲自到场- 中国日报网 China Daily中国新能源公交车驶入比什凯克市民日常 搜狐网吉尔吉斯斯坦青年说：我们眼中的中国--国际 人民网",
+          "publishedAt": "2026-08-30T12:06:00+00:00",
+          "desc": "西藏金融监管局：辖内各银行机构库存应急保障现金共约2.03亿 新京报灾难还没结束！中尼土石流后突现多座堰塞湖 文学城信号已能送达救援现场 观察者中国公布外籍失踪者信息：中尼边境灾难的几个最新进展 DW.com高原之上，中国企业万里驰援|应急管理部|西藏自治区|日喀则地区|中国电信|中国联通 新浪财经",
           "hotLabel": "",
-          "summary": "吉尔吉斯斯坦青年期待上合组织峰会交流机会",
-          "analysis": "上合组织峰会为成员国提供了一个交流合作的平台，吉尔吉斯斯坦青年的期待反映了该组织在促进区域合作和交流中的作用。这有助于加强中国与中亚国家的关系，推动共同发展。",
+          "summary": "西藏金融监管局公布银行机构应急保障现金储备。",
+          "analysis": "此举体现了金融监管机构对自然灾害的预防措施，确保金融稳定。在西藏地区，由于地理和环境因素，金融服务的稳定性尤为重要。这反映了政府在自然灾害应对中的金融保障能力，对维护社会稳定和经济运行具有重要意义。",
           "keywords": [
-            "上合组织",
-            "吉尔吉斯斯坦",
-            "峰会",
-            "区域合作",
-            "中亚"
+            "西藏",
+            "金融监管",
+            "应急保障",
+            "现金储备",
+            "自然灾害"
           ],
-          "category": "international",
-          "importance": 75,
+          "category": "domestic",
+          "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9fSlg2ZjNVZWdPS1Ruc3dVU05jLUpPUjlhazdLVWVWUHVPdmFlaWNrSjNScUtOWEN0M2w4Tjlrc1dsdDdTVFJ0emEwNVkwSkkxcVNITUtraERFclRFOHJ5T1lvZURweUpnZDZldVdJMVI?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ESjNGS29GSXN3YWVYLXJZeEFTeG1aamJmRExMbHhNVE1Pa2xmQW1PM0JnMUdDSm53UzdIaHpnYlNJM0Z6MTN2TjlDUmJKMXRfZk5uX3VETTlRVkYyaXpna3pxV3Y?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "中国黄金上半年净利润同比下降12.35%",
+          "titleOrig": "中国黄金上半年归母净利润同比下降12.35% - 央广财经",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50NXJnSlM3TlV5aTVBSjc2YUhiMnZTem1MS2d5WXA5S2JGY1h1b0tGRDlaR1k5VmZnMS15Rjg0VkdSSnhqd2M5YXc4TnNscUxzSWlHdWxQN3hsTHRBRWR6Y25BN1FZZlBaOWJkdHMtYw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T13:14:09+00:00",
+          "desc": "中国黄金上半年归母净利润同比下降12.35% 央广财经中国黄金半年报：高端门店加速落地，拟首次实施中期分红|长沙IFS国金中心|布局|经营|渠道|股东 新浪财经中国黄金：上半年净利润同比下降12.35% 拟10派0.92元 凤凰网财经图解中国黄金中报：第二季度单季净利润同比下降37.22% 搜狐网所得税对中金黄金利润的影响 雪球",
+          "hotLabel": "",
+          "summary": "中国黄金上半年净利润同比下降12.35%，计划实施中期分红。",
+          "analysis": "中国黄金净利润下降可能与宏观经济环境、黄金价格波动及公司成本控制等因素有关。这反映出当前经济环境下，传统黄金行业面临的市场压力。政策意图可能在于引导企业进行产业升级和结构调整，提升行业整体竞争力。对国内民生影响较小，但对经济意义在于提醒投资者关注行业风险。后续可能看到黄金企业加大技术创新和产品研发力度。",
+          "keywords": [
+            "中国黄金",
+            "净利润",
+            "下降",
+            "分红",
+            "经济环境"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE50NXJnSlM3TlV5aTVBSjc2YUhiMnZTem1MS2d5WXA5S2JGY1h1b0tGRDlaR1k5VmZnMS15Rjg0VkdSSnhqd2M5YXc4TnNscUxzSWlHdWxQN3hsTHRBRWR6Y25BN1FZZlBaOWJkdHMtYw?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
             }
           ],
           "rank": 14
         },
         {
-          "title": "西藏日喀则吉隆口岸发生泥石流",
+          "title": "第二十一届中国长春电影节落幕",
+          "titleOrig": "第二十一届中国长春电影节长港影视文化交流系列活动落幕-中国吉林网 - news.cnjiwang.com",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oWlE2aW92M2NmLU9VWG1pNVJHTmhacmgtSm1UaFJXQ1RNSG11eGdETERDRVZObXhhSnVpdERJVWtESFpIRXFTak41Wk1YM25xcTZaaTlac1YzZ0V3Q3Uw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-29T13:23:00+00:00",
+          "desc": "第二十一届中国长春电影节长港影视文化交流系列活动落幕-中国吉林网 news.cnjiwang.com长春电影节闭幕：檀健次封帝，红毯为何临时取消？ 新浪财经长春电影节：为中国电影“守根”的七年之约 凤凰网光影映春城 产兴都市圈 第二十一届中国长春电影节文化产业推介活动举行 央视网“光影筑梦·影艺焕新”影视行业发展主题研讨会在长春举办- 中国日报网 China Daily",
+          "hotLabel": "",
+          "summary": "长春电影节圆满结束，檀健次获最佳男主角，红毯活动取消。",
+          "analysis": "长春电影节作为国内重要的影视文化交流活动，其落幕标志着中国电影产业的持续发展。红毯活动取消可能反映了当前社会对名利的理性看待，以及影视行业对社会责任的重视。未来，电影节将继续推动中国电影文化的传播。",
+          "keywords": [
+            "长春电影节",
+            "影视文化",
+            "电影产业",
+            "檀健次",
+            "社会责任"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9oWlE2aW92M2NmLU9VWG1pNVJHTmhacmgtSm1UaFJXQ1RNSG11eGdETERDRVZObXhhSnVpdERJVWtESFpIRXFTak41Wk1YM25xcTZaaTlac1YzZ0V3Q3Uw?oc=5"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "吉隆口岸小邬警官确认平安",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%A5%BF%E8%97%8F%E6%97%A5%E5%96%80%E5%88%99%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%B0%8F%E9%82%AC%E8%AD%A6%E5%AE%98%E7%A1%AE%E8%AE%A4%E5%B9%B3%E5%AE%89%23&t=31&band_rank=1&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1265,24 +1317,96 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "西藏日喀则吉隆口岸发生泥石流。",
-          "analysis": "泥石流灾害反映了自然灾害对人类活动的破坏性影响。对于西藏地区而言，此类灾害频发，对当地居民生活和经济活动造成严重影响。对于国家来说，需要加强自然灾害的预防和应急响应能力，提高防灾减灾水平。后续可能看到政府加大对灾区救援和重建的支持。",
+          "summary": "吉隆口岸小邬警官在事件中确认平安。",
+          "analysis": "此事件体现了中国边境地区的安全稳定。吉隆口岸作为中尼边境的重要通道，警官的平安确认显示了中国在维护国家安全和社会稳定方面的能力。对国内民生而言，意味着边境地区的安全得到保障，对经济交流和社会秩序有积极影响。后续可能不会有重大变化，继续保持边境稳定。",
           "keywords": [
-            "泥石流",
-            "西藏",
-            "灾害",
-            "救援",
-            "防灾减灾"
+            "吉隆口岸",
+            "小邬警官",
+            "平安",
+            "边境安全",
+            "社会稳定"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 60,
           "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%B0%8F%E9%82%AC%E8%AD%A6%E5%AE%98%E7%A1%AE%E8%AE%A4%E5%B9%B3%E5%AE%89%23&t=31&band_rank=1&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%B9%B8%E5%AD%98%E8%80%85%E7%A7%B0%E6%A0%B9%E6%9C%AC%E6%9D%A5%E4%B8%8D%E5%8F%8A%E9%80%83%E7%94%9F%23&t=31&band_rank=15&Refer=top"
+            },
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E8%A5%BF%E8%97%8F%E6%97%A5%E5%96%80%E5%88%99%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81"
             }
           ],
-          "rank": 15
+          "rank": 16
+        },
+        {
+          "title": "教宗为尼泊尔和西藏的洪水灾民祈祷",
+          "titleOrig": "教宗为尼泊尔和西藏的洪水灾民祈祷- 梵蒂冈新闻网 - Vatican News",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYzNMdzZVNU9UZjB3UXdCdUsxM1hZcUVDM3VNNnR4Wi1ROUo1RlMzY0VzYjN5OGF0eTF2NUQ0amhlSEFzdm9RdTNNbko1b3hCbU9vM0FjWU4zZE9yYURjYmVfbXFobk1TTm1VSEJLQTNGRlJMLUVaZXpibXhhYkZkRy1QdjlTRjVFa2JyZnNMLWJaSjYzX2xsWE5DclNReW5sWDFaZFdZTHlqeEFRYTNYVTExdUVwdw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-08-30T10:58:49+00:00",
+          "desc": "教宗为尼泊尔和西藏的洪水灾民祈祷- 梵蒂冈新闻网 Vatican News现场直击丨尼泊尔泥石流灾区见闻 新华网7分钟，3000多米落差：尼泊尔8·26泥石流灾害还原 中国日报网泥浆封洞3天，尼泊尔一隧道救出208人 凤凰网始料未及的致命山洪，尼泊尔专家谈预警盲区：我们连监测卫星都缺 thepaper.cn",
+          "hotLabel": "",
+          "summary": "教宗为尼泊尔和西藏洪水灾民祈祷。",
+          "analysis": "教宗的祈祷体现了国际社会对灾害的关注和同情。这一事件再次提醒国际社会关注南亚地区的自然灾害频发问题。对尼泊尔和西藏而言，这可能是国际援助和合作的契机。",
+          "keywords": [
+            "教宗",
+            "尼泊尔",
+            "西藏",
+            "洪水",
+            "国际援助"
+          ],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYzNMdzZVNU9UZjB3UXdCdUsxM1hZcUVDM3VNNnR4Wi1ROUo1RlMzY0VzYjN5OGF0eTF2NUQ0amhlSEFzdm9RdTNNbko1b3hCbU9vM0FjWU4zZE9yYURjYmVfbXFobk1TTm1VSEJLQTNGRlJMLUVaZXpibXhhYkZkRy1QdjlTRjVFa2JyZnNMLWJaSjYzX2xsWE5DclNReW5sWDFaZFdZTHlqeEFRYTNYVTExdUVwdw?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "长大后先对什么祛魅了",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E5%A4%A7%E5%90%8E%E5%85%88%E5%AF%B9%E4%BB%80%E4%B9%88%E7%A5%9B%E9%AD%85%E4%BA%86&t=31&band_rank=2&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "探讨成长过程中对某些事物的认知转变。",
+          "analysis": "这一话题反映了社会对成长和认知的思考，可能涉及个人成长、社会变迁、价值观转变等方面。它反映了人们对现实世界的认识逐渐成熟，对个人和社会都有一定的启示意义。",
+          "keywords": [
+            "成长",
+            "认知",
+            "祛魅",
+            "价值观",
+            "社会变迁"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E9%95%BF%E5%A4%A7%E5%90%8E%E5%85%88%E5%AF%B9%E4%BB%80%E4%B9%88%E7%A5%9B%E9%AD%85%E4%BA%86&t=31&band_rank=2&Refer=top"
+            }
+          ],
+          "rank": 18
         },
         {
           "title": "樊振东无缘德国杯8强",
@@ -1297,157 +1421,53 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "乒乓球运动员樊振东在德国杯中止步8强。",
-          "analysis": "樊振东作为我国乒乓球运动员的代表，在德国杯中的表现受到广泛关注。此次无缘8强，可能反映了国际比赛中我国运动员面临的竞争压力增大。从政策意图上看，这或许是我国体育政策鼓励运动员在国际舞台上挑战自我、提升竞技水平的体现。对社会影响而言，这激励了国内体育爱好者对竞技体育的热爱和追求。后续走向可能包括樊振东在后续赛事中的表现以及我国乒乓球运动的发展策略。",
+          "summary": "乒乓球运动员樊振东在德国杯中未能进入8强。",
+          "analysis": "此事件反映了体育竞技的残酷性。樊振东作为我国乒乓球运动员的代表，未能进入8强，对国内体育迷来说是一个遗憾。对国内体育事业而言，意味着运动员需要在训练和比赛中不断提高自身水平。后续可能包括樊振东的调整和改进，以及我国乒乓球运动员在国内外赛事中的表现。",
           "keywords": [
             "樊振东",
-            "乒乓球",
             "德国杯",
-            "竞技体育",
-            "体育政策"
+            "乒乓球",
+            "体育竞技",
+            "运动员表现"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 50,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E6%A8%8A%E6%8C%AF%E4%B8%9C%E6%97%A0%E7%BC%98%E5%BE%B7%E5%9B%BD%E6%9D%AF8%E5%BC%BA"
             }
           ],
-          "rank": 16
-        },
-        {
-          "title": "瑞士枪击事件致1死5伤，警方大规模搜捕",
-          "titleOrig": "瑞士枪击事件已致1死5伤 警方展开大规模搜捕 - 央视网",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9haWp6cmRtUGdYeTFnLUtGNWVGOUVyMElxdE40b0Y2X1NGZFZpSkZzQUtCWU9RbUdxcUNHbVIyQ1ZHbWFHM2ZVeWZHXzRLRHF5bnkxY3B5cVlIT0I2bmlDaFZ0dmhuZDNPZmJ0NFlibTUxMmMydU90dQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T08:32:50+00:00",
-          "desc": "瑞士枪击事件已致1死5伤 警方展开大规模搜捕 央视网（外代一线）瑞士枪击事件已致1死5伤 搜狐网瑞士大型音乐活动现场发生枪击，1人死亡5人受伤 jpchinapress.com瑞士派对惊传枪击事件 一死五伤枪手在逃 8world瑞士阿劳音乐节突发枪击 警方展开大搜捕 DW.com",
-          "hotLabel": "",
-          "summary": "瑞士音乐节发生枪击，造成人员伤亡。",
-          "analysis": "此事件反映了国际安全形势的严峻，对全球旅游和公共安全产生负面影响。瑞士作为中立国，此类事件的发生可能引发国际社会的关注和讨论。对于国内而言，可能促使相关部门加强安全防范和应急处理能力的建设。",
-          "keywords": [
-            "瑞士",
-            "枪击",
-            "安全",
-            "搜捕",
-            "国际影响"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9haWp6cmRtUGdYeTFnLUtGNWVGOUVyMElxdE40b0Y2X1NGZFZpSkZzQUtCWU9RbUdxcUNHbVIyQ1ZHbWFHM2ZVeWZHXzRLRHF5bnkxY3B5cVlIT0I2bmlDaFZ0dmhuZDNPZmJ0NFlibTUxMmMydU90dQ?oc=5"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "上海世纪出版集团亮相2026南国书香节",
-          "titleOrig": "上海世纪出版集团携三千余种精品图书亮相2026南国书香节 - 21财经",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDJocWRWN3p6OW56RmM0RjlqNkNUY1ZfZnhSeDN6T0FDNW5SVjNPZUZNaTAxV2dCaVpiZEtmRUJMMDFzNzNtNzdEZlJaYkNTWEQ1VVY1b3dYMW9VS1BSVmtkblk0WUh0N0poNTUwWlQ2UFA5aG1IdEVydUFwc3FZLWJOdjBWckRMSkt6cw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T06:25:00+00:00",
-          "desc": "上海世纪出版集团携三千余种精品图书亮相2026南国书香节 21财经在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "上海世纪出版集团参加2026南国书香节，展示图书。",
-          "analysis": "南国书香节是展示中国出版业成果的重要平台，上海世纪出版集团的参与体现了中国出版业的繁荣。这有助于推动文化产业发展，提升国民文化素质。对国内文化市场而言，书香节有助于促进图书销售和文化交流。后续可能带动更多出版机构参与此类活动，推动文化产业发展。",
-          "keywords": [
-            "南国书香节",
-            "上海世纪出版集团",
-            "文化产业发展",
-            "图书销售",
-            "文化交流"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbDJocWRWN3p6OW56RmM0RjlqNkNUY1ZfZnhSeDN6T0FDNW5SVjNPZUZNaTAxV2dCaVpiZEtmRUJMMDFzNzNtNzdEZlJaYkNTWEQ1VVY1b3dYMW9VS1BSVmtkblk0WUh0N0poNTUwWlQ2UFA5aG1IdEVydUFwc3FZLWJOdjBWckRMSkt6cw?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCYmpOUG5udkZDSjJ4Nk9XeXVmMmg4X1JCNURMLXBkVnJTaXhhREk3aG9LVmNWTXltek5hVG4yOWstQ1dJV3VLUVdFQjNjX1g2TU1tZTZtN1VoWktPN1Q1XzVCNklmT29zdDhKWGVtMUJzbEhzU0VZ?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVWRrRmlNbkk1bHIwZXQ0V25sU1hpbU1pTktGQmIwSWNQb3BrUGd1a0FtclZoVUtNZWtQVFl6bnRMWVpiR0JPaGlSaC1zNE5odnI0VGJPMU5WWGRTc05TNWMxeFNiMG5pTE1HZUxGUmNLbXloSDF0cEt1Z09MYkd5UmdiVFBDbVloQmc?oc=5"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "西部降雨减弱，斗门区暴雨预警降级",
-          "titleOrig": "西部降雨有所减弱，斗门区部分镇街及金湾区、经开区暴雨预警降级为黄色 - 珠海网",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCYmpOUG5udkZDSjJ4Nk9XeXVmMmg4X1JCNURMLXBkVnJTaXhhREk3aG9LVmNWTXltek5hVG4yOWstQ1dJV3VLUVdFQjNjX1g2TU1tZTZtN1VoWktPN1Q1XzVCNklmT29zdDhKWGVtMUJzbEhzU0VZ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-08-30T06:59:00+00:00",
-          "desc": "西部降雨有所减弱，斗门区部分镇街及金湾区、经开区暴雨预警降级为黄色 珠海网广州多区发布暴雨预警信号，广东“倒水”模式开启！未来十天还将有2个台风生成→ 新浪财经广东省江门市新会区发布雷雨大风黄色预警信号 天气网未来24小时，广州这些地方存在地质灾害气象风险 搜狐网广东省茂名市电白区发布雷雨大风黄色预警信号 手机网易网",
-          "hotLabel": "",
-          "summary": "西部降雨减弱，斗门区暴雨预警降级",
-          "analysis": "此次降雨减弱反映了我国气象预报和防灾减灾能力的提升。斗门区预警降级对当地居民生活影响较小，体现了我国在应对自然灾害方面的积极作为。",
-          "keywords": [
-            "降雨",
-            "预警",
-            "斗门区",
-            "防灾减灾",
-            "气象预报"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCYmpOUG5udkZDSjJ4Nk9XeXVmMmg4X1JCNURMLXBkVnJTaXhhREk3aG9LVmNWTXltek5hVG4yOWstQ1dJV3VLUVdFQjNjX1g2TU1tZTZtN1VoWktPN1Q1XzVCNklmT29zdDhKWGVtMUJzbEhzU0VZ?oc=5"
-            }
-          ],
           "rank": 19
         },
         {
-          "title": "钢琴家郎朗在上海举行大师课",
-          "titleOrig": "钢琴家郎朗在沪带来“特别的大师课” - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Vc09ZT1ZCQkw3LVh0dTd3MTM1ZFZ2OVo3NFBsaURLZmRnN3JDVm9UOFFuRUE1RDE2eUs2WDZuMkwtUEtMb3JLbHhlTWlhM21iYVNmS08wNFJPQXIzRlRIM1V5NE9mdzd6SGc?oc=5",
+          "title": "2026南国书香节珠海分会场“校长荐书”活动来了",
+          "titleOrig": "校长带你读好书！2026南国书香节珠海分会场“校长荐书”活动来了 - 珠海网",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uamlpMzkzenQ0T3VhbUVJWFB3REVKcmhPZEpReWZQaVd1c0tmZ3paZGtsdU9STGg1M05SdVJLS0M0UnlHZ3FMOXdOWjNuam5fUk1mcERFN1lFLU5FcUdMS09VZ1pNSjZ4M0lxNHlYSUlRdDBlS0NJ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-08-30T02:53:24+00:00",
-          "desc": "钢琴家郎朗在沪带来“特别的大师课” chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-08-30T13:14:00+00:00",
+          "desc": "校长带你读好书！2026南国书香节珠海分会场“校长荐书”活动来了 珠海网雅聚南国读懂世界|亚太经合组织|文化馆|埃及|泰国|文化_手机新浪网 新浪财经在这看见湾区活力 在这读懂世界多元 人民网上海出版界首次组团亮相南国书香节，吸引众多读者打卡购书 thepaper.cn马伯庸现身南国书香节，透露新作有望年底亮相 搜狐网",
           "hotLabel": "",
-          "summary": "钢琴家郎朗在上海举办特别大师课。",
-          "analysis": "郎朗大师课的举办体现了文化交流的重要性，有助于提升国内音乐教育水平和国际文化交流。对国内音乐市场和文化产业的发展具有积极作用。",
+          "summary": "2026南国书香节珠海分会场“校长荐书”活动启动。",
+          "analysis": "书香节活动是推动阅读文化、提升国民素质的重要举措。珠海分会场的校长荐书活动，旨在引导公众阅读，特别是青少年群体，对于培养良好的阅读习惯和提升文化软实力有积极作用。",
           "keywords": [
-            "郎朗",
-            "大师课",
-            "文化交流",
-            "音乐教育",
-            "社会影响"
+            "南国书香节",
+            "珠海",
+            "校长荐书",
+            "阅读文化",
+            "国民素质"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 50,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Vc09ZT1ZCQkw3LVh0dTd3MTM1ZFZ2OVo3NFBsaURLZmRnN3JDVm9UOFFuRUE1RDE2eUs2WDZuMkwtUEtMb3JLbHhlTWlhM21iYVNmS08wNFJPQXIzRlRIM1V5NE9mdzd6SGc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5uamlpMzkzenQ0T3VhbUVJWFB3REVKcmhPZEpReWZQaVd1c0tmZ3paZGtsdU9STGg1M05SdVJLS0M0UnlHZ3FMOXdOWjNuam5fUk1mcERFN1lFLU5FcUdMS09VZ1pNSjZ4M0lxNHlYSUlRdDBlS0NJ?oc=5"
             }
           ],
           "rank": 20
