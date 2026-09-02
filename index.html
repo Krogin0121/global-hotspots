@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="全球热点深度解读 · AI 策划 · 多源印证 · 每日20条">
-  <meta name="keywords" content="全球热点,国际新闻,深度解读,AI策刐,多源印证,每日新闻">
+  <meta name="description" content="全球热点实时追踪 · AI 深度解读 + 实时热搜 + 全量新闻流 · 国际/国内热点一站式聚合">
+  <meta name="keywords" content="全球热点,国际新闻,实时热搜,微博热搜,知乎热榜,AI解读,多源印证">
   <meta name="author" content="Global Hotspots Digest">
   <meta name="robots" content="index, follow">
   <meta name="theme-color" content="#0a0e1a" media="(prefers-color-scheme: dark)">
@@ -12,30 +12,30 @@
 
   <!-- Open Graph -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="全球热点深度解读 · Global Hotspots Digest">
-  <meta property="og:description" content="AI 策划的多源新闻深度解读 · 每日 20 条最重要新闻 + 局势综述">
+  <meta property="og:title" content="全球热点实时追踪 · Global Hotspots Tracker">
+  <meta property="og:description" content="AI 深度解读 + 实时热搜 + 全网新闻流 · 全球热点一站式追踪">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:url" content="https://krogin0121.github.io/global-hotspots/">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="全球热点深度解读">
-  <meta name="twitter:description" content="AI 策划的多源新闻深度解读 · 每日 20 条最重要新闻">
+  <meta name="twitter:title" content="全球热点实时追踪">
+  <meta name="twitter:description" content="AI 深度解读 + 多源热搜 + 全网新闻流 · 全球热点一站式追踪">
 
   <!-- 结构化数据 -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "NewsMediaOrganization",
-    "name": "全球热点深度解读",
+    "name": "全球热点实时追踪",
     "url": "https://krogin0121.github.io/global-hotspots/",
-    "description": "AI 策划的多源新闻深度解读网站",
+    "description": "AI 多源新闻深度解读 + 实时热搜 + 全网新闻流聚合网站",
     "inLanguage": "zh-CN"
   }
   </script>
 
-  <title>全球热点深度解读 · Global Hotspots Digest</title>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>◈</text></svg>">
+  <title>全球热点实时追踪 · Global Hotspots Tracker</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><text y='26' font-size='26'>🌍</text></svg>">
   <link rel="manifest" href="manifest.json">
   <script>
     // 在 CSS 渲染前同步读取主题，避免 FOUC（首次渲染闪烁）
@@ -48,7 +48,7 @@
       } catch(e) {}
     })();
   </script>
-  <link rel="stylesheet" href="css/style.css?v=4">
+  <link rel="stylesheet" href="css/style.css?v=5">
 </head>
 <body>
 
@@ -59,10 +59,10 @@
   <header class="topbar">
     <div class="topbar-inner">
       <div class="brand">
-        <div class="brand-logo" aria-hidden="true">◈</div>
+        <div class="brand-logo" aria-hidden="true">🌍</div>
         <div>
-          <h1>全球热点深度解读</h1>
-          <div class="sub">Global Hotspots Digest · AI 智能策划</div>
+          <h1>全球热点实时追踪</h1>
+          <div class="sub">Global Hotspots Tracker · AI 智能策划 + 实时热搜</div>
         </div>
       </div>
       <div class="spacer"></div>
@@ -74,7 +74,7 @@
           <span class="clr" id="clearSearch" title="清空">×</span>
         </div>
         <button class="btn" id="refreshBtn" title="重新加载（R）">↻</button>
-        <button class="btn" id="themeToggle" title="切换主题（T)">🌙</button>
+        <button class="btn" id="themeToggle" title="切换主题（T）">🌙</button>
         <button class="btn" id="helpBtn" title="帮助（?）">?</button>
       </div>
     </div>
@@ -94,15 +94,36 @@
     </span>
   </div>
 
-  <!-- Section 大 tab：国际热点 20 / 国内热点 20 二选一显示 -->
+  <!-- 三大版块切换：深度解读 / 实时热搜 / 全部新闻 -->
   <div class="section-tabs" id="sectionTabs">
     <div class="section-tabs-inner">
-      <button class="sec-tab on" data-sec="international" aria-label="切换到国际热点">
+      <button class="sec-tab on" data-sec="digest" aria-label="切换到深度解读">
+        <span class="sec-ico">🧠</span>
+        <span class="sec-name">深度解读</span>
+        <span class="sec-cnt" id="secCntDigest">40</span>
+      </button>
+      <button class="sec-tab" data-sec="hot" aria-label="切换到实时热搜">
+        <span class="sec-ico">🔥</span>
+        <span class="sec-name">实时热搜</span>
+        <span class="sec-cnt" id="secCntHot">0</span>
+      </button>
+      <button class="sec-tab" data-sec="feed" aria-label="切换到全部新闻">
+        <span class="sec-ico">📰</span>
+        <span class="sec-name">全部新闻</span>
+        <span class="sec-cnt" id="secCntFeed">0</span>
+      </button>
+    </div>
+  </div>
+
+  <!-- 深度解读子 tab：国际/国内 -->
+  <div class="digest-tabs" id="digestTabs">
+    <div class="section-tabs-inner">
+      <button class="sec-tab sec-sub on" data-sec="international" aria-label="切换到国际热点">
         <span class="sec-ico">🌐</span>
         <span class="sec-name">国际热点</span>
         <span class="sec-cnt" id="secCntIntl">20</span>
       </button>
-      <button class="sec-tab" data-sec="domestic" aria-label="切换到国内热点">
+      <button class="sec-tab sec-sub" data-sec="domestic" aria-label="切换到国内热点">
         <span class="sec-ico">🇨🇳</span>
         <span class="sec-name">国内热点</span>
         <span class="sec-cnt" id="secCntCn">20</span>
@@ -132,7 +153,32 @@
     <button class="tab" data-cat="society">社会<span class="tab-cnt" data-cnt="society"></span></button>
   </div>
 
-  <!-- 新闻卡片网格 -->
+  <!-- 实时热搜版块（前端直连 GitHub 热搜归档，每小时更新） -->
+  <section class="hot-section" id="hotSection" hidden>
+    <div class="hot-head">
+      <span class="hot-ico">🔥</span>
+      <h2>多平台实时热搜</h2>
+      <span class="hot-hint">数据来自热搜归档（每小时更新）· 点击条目跳转原平台</span>
+      <span class="spacer"></span>
+      <button class="btn" id="hotRefreshBtn" title="刷新热搜">↻ 刷新</button>
+    </div>
+    <div class="hot-platforms" id="hotPlatforms"></div>
+    <div class="hot-status" id="hotStatus">正在加载热搜…</div>
+  </section>
+
+  <!-- 全部新闻时间流版块 -->
+  <section class="feed-section" id="feedSection" hidden>
+    <div class="feed-head">
+      <span class="feed-ico">📰</span>
+      <h2>全网新闻时间流</h2>
+      <span class="feed-time">15 个信源原始新闻 · 按时间倒序</span>
+      <span class="spacer"></span>
+      <div class="feed-count" id="feedCount">0 条</div>
+    </div>
+    <div class="feed-list" id="feedList"></div>
+  </section>
+
+  <!-- 新闻卡片网格（深度解读） -->
   <main class="grid" id="cards">
     <div class="loading-placeholder">正在加载今日热点…</div>
   </main>
@@ -149,8 +195,8 @@
   <footer class="foot">
     数据源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条<br>
     AI 筛选与解读由 智谱 GLM-4-Flash 生成 · 每 6 小时自动更新 · 多源交叉印证 · 不代表本站立场<br>
-    仅供信息聚合研究，版权归原作者所有 · 信源失败自动降级 · API key 仅用于 GitHub Actions 后端
-    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>R</kbd>重载 <kbd>T</kbd>主题 <kbd>J</kbd>/<kbd>K</kbd>逐条 <kbd>1</kbd>-<kbd>5</kbd>切分类 <kbd>?</kbd>帮助</span>
+    热搜数据来自 iiecho1/hot_searches_for_apps 归档（每小时更新） · 仅供信息聚合研究，版权归原作者所有
+    <span class="kbd-hint">快捷键：<kbd>/</kbd>搜索 <kbd>R</kbd>重载 <kbd>T</kbd>主题 <kbd>1</kbd>-<kbd>3</kbd>切版块 <kbd>J</kbd>/<kbd>K</kbd>逐条 <kbd>?</kbd>帮助</span>
   </footer>
 
   <!-- 回顶 -->
@@ -164,19 +210,25 @@
         <button class="help-close" id="helpClose" aria-label="关闭">×</button>
       </div>
       <ul class="help-list">
-        <li><kbd>Tab</kbd> 或 <kbd>I</kbd>/<kbd>D</kbd><span>切换国际/国内热点大版块</span></li>
+        <li><kbd>1</kbd><span>深度解读</span><kbd>2</kbd><span>实时热搜</span><kbd>3</kbd><span>全部新闻</span></li>
+        <li><kbd>I</kbd> / <kbd>D</kbd><span>深度解读内切换国际/国内</span></li>
         <li><kbd>/</kbd><span>聚焦搜索框</span></li>
         <li><kbd>Esc</kbd><span>清空搜索 / 关闭面板</span></li>
-        <li><kbd>1</kbd><span>全部</span><kbd>2</kbd><span>国际</span><kbd>3</kbd><span>国内</span><kbd>4</kbd><span>经济</span><kbd>5</kbd><span>科技</span></li>
         <li><kbd>R</kbd><span>重新加载数据</span></li>
         <li><kbd>T</kbd><span>切换深色/浅色主题</span></li>
         <li><kbd>J</kbd> / <kbd>K</kbd><span>下/上一条逐条浏览</span></li>
         <li><kbd>?</kbd><span>打开本帮助面板</span></li>
       </ul>
-      <div class="help-tip">两大版块各自独立：每个版块都有自己的局势综述、新闻列表和分类筛选。每条新闻含 AI 深度解读：摘要 + 背景/影响分析 + 后续走向。多源印证的事件会在卡片上显示所有来源（包括 BBC/NYT 等国际源对国内事件的印证）。每6小时由 GitHub Actions 自动更新。</div>
+      <div class="help-tip">
+        三大版块：
+        <b>深度解读</b> — AI 精选的国际/国内各 20 条，含背景影响分析与多源印证，每 6 小时更新；
+        <b>实时热搜</b> — 直连微博/知乎/百度/头条/抖音/B站热搜归档，每小时更新，点条目直达原平台；
+        <b>全部新闻</b> — 15 个信源的全量原始新闻时间流，可搜索筛选。
+        每条深度解读含 AI 摘要 + 背景/影响分析 + 后续走向。
+      </div>
     </div>
   </div>
 
-  <script src="js/app.js?v=4"></script>
+  <script src="js/app.js?v=5"></script>
 </body>
 </html>

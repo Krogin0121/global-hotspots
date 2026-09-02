@@ -714,9 +714,220 @@ html[data-theme="light"] .sec-tab.on {
 }
 html[data-theme="light"] .sec-tab:not(.on) .sec-cnt { background: #ffffff; }
 
-/* ============ 响应式：section tab ============ */
+/* ============================================================
+ *  Phase 5 增强：三大版块（深度解读/实时热搜/全部新闻）
+ *  · 深度解读子 tab（国际/国内）
+ *  · 多平台实时热搜版块
+ *  · 全网新闻时间流版块
+ *  · 骨架屏 · 移动端适配
+ * ============================================================ */
 
-/* ============ 平板 search 放大同步 ============ */
+/* ============ 三大版块 tab 配色 ============ */
+.sec-tab[data-sec="digest"].on {
+  background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+  color: #fff;
+}
+.sec-tab[data-sec="hot"].on {
+  background: linear-gradient(135deg, #f59e0b 0%, #ef4444 100%);
+  color: #fff;
+}
+.sec-tab[data-sec="feed"].on {
+  background: linear-gradient(135deg, #10b981 0%, #0891b2 100%);
+  color: #fff;
+}
 
-/* ============ 字体放大后的桌面移动端兼容 ============ */
+/* ============ 深度解读子 tab（国际/国内） ============ */
+.digest-tabs {
+  max-width: 1400px; margin: -14px auto 14px;
+  padding: 0 22px;
+}
+.digest-tabs .section-tabs-inner {
+  border-radius: 10px; padding: 3px;
+  background: var(--bg-soft);
+}
+.digest-tabs .sec-sub {
+  min-width: 120px; padding: 8px 20px;
+  font-size: 14px; border-radius: 8px;
+}
+.digest-tabs .sec-sub .sec-ico { font-size: 15px; }
+.digest-tabs .sec-sub .sec-cnt { font-size: 12px; padding: 1px 8px; min-width: 22px; }
+
+/* ============ 实时热搜版块 ============ */
+.hot-section {
+  max-width: 1400px; margin: 0 auto 20px;
+  padding: 0 22px;
+}
+.hot-head {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 14px; flex-wrap: wrap;
+}
+.hot-ico { font-size: 22px; }
+.hot-head h2 { font-size: 18px; font-weight: 700; }
+.hot-hint { font-size: 12px; color: var(--text-mute); }
+.hot-head .spacer { flex: 1; }
+.hot-status {
+  text-align: center; padding: 50px 20px;
+  color: var(--text-mute); font-size: 14px;
+}
+.hot-platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+.hot-plat {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 14px 16px;
+  transition: border-color .2s, transform .2s, box-shadow .2s;
+}
+.hot-plat:hover {
+  border-color: var(--plat-color, var(--accent));
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+.hot-plat-head {
+  display: flex; align-items: center; gap: 8px;
+  margin-bottom: 10px; padding-bottom: 10px;
+  border-bottom: 1px solid var(--line);
+}
+.hot-plat-ico { font-size: 18px; }
+.hot-plat-name { font-size: 15px; font-weight: 700; }
+.hot-plat-cnt {
+  margin-left: auto; font-size: 11px;
+  color: var(--text-mute); font-family: var(--mono);
+}
+.hot-plat-list { list-style: none; }
+.hot-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 7px 6px; border-radius: 8px;
+  cursor: pointer; transition: background .15s;
+  font-size: 13.5px; color: var(--text);
+  text-decoration: none;
+}
+.hot-item:hover { background: var(--bg-soft); color: var(--accent-2); text-decoration: none; }
+.hot-item .rk {
+  flex-shrink: 0; width: 22px; height: 22px;
+  display: flex; align-items: center; justify-content: center;
+  border-radius: 6px; font-size: 11px; font-weight: 700;
+  background: var(--bg-soft); color: var(--text-mute);
+  font-family: var(--mono);
+}
+.hot-item:nth-child(1) .rk { background: linear-gradient(135deg, #fbbf24, #f59e0b); color: #1a1a1a; }
+.hot-item:nth-child(2) .rk { background: linear-gradient(135deg, #94a3b8, #64748b); color: #fff; }
+.hot-item:nth-child(3) .rk { background: linear-gradient(135deg, #d97706, #92400e); color: #fff; }
+.hot-item .t {
+  flex: 1; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+}
+.hot-item .tag {
+  flex-shrink: 0; font-size: 10px; color: var(--text-mute);
+  background: var(--bg-soft); padding: 1px 6px; border-radius: 4px;
+}
+
+/* ============ 全部新闻时间流 ============ */
+.feed-section {
+  max-width: 1400px; margin: 0 auto 20px;
+  padding: 0 22px;
+}
+.feed-head {
+  display: flex; align-items: center; gap: 10px;
+  margin-bottom: 14px; flex-wrap: wrap;
+}
+.feed-ico { font-size: 22px; }
+.feed-head h2 { font-size: 18px; font-weight: 700; }
+.feed-time { font-size: 12px; color: var(--text-mute); }
+.feed-head .spacer { flex: 1; }
+.feed-count {
+  font-size: 12px; color: var(--text-dim);
+  font-family: var(--mono);
+  padding: 3px 10px; border-radius: 12px;
+  background: var(--card); border: 1px solid var(--line);
+}
+.feed-list { display: flex; flex-direction: column; gap: 10px; }
+.feed-item {
+  display: flex; align-items: center; gap: 12px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 12px 16px;
+  transition: border-color .2s, transform .15s;
+  text-decoration: none; color: var(--text);
+  animation: cardIn .35s ease-out both;
+}
+.feed-item:hover {
+  border-color: var(--accent);
+  transform: translateX(3px);
+  text-decoration: none;
+}
+.feed-item .f-src {
+  flex-shrink: 0; font-size: 11px; font-weight: 600;
+  padding: 2px 8px; border-radius: 4px;
+  background: var(--bg-soft); color: var(--text-dim);
+  font-family: var(--mono); min-width: 76px; text-align: center;
+}
+.feed-item .f-title {
+  flex: 1; min-width: 0;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  font-size: 14px; color: var(--text);
+}
+.feed-item:hover .f-title { color: var(--accent-2); }
+.feed-item .f-cat {
+  flex-shrink: 0; font-size: 10.5px; color: var(--text-mute);
+  padding: 1px 7px; border-radius: 4px;
+  background: var(--bg-soft); border: 1px solid var(--line);
+}
+.feed-item .f-age {
+  flex-shrink: 0; font-size: 11px; color: var(--text-mute);
+  font-family: var(--mono); min-width: 66px; text-align: right;
+}
+.feed-empty {
+  text-align: center; padding: 50px 20px;
+  color: var(--text-mute); font-size: 14px;
+}
+
+/* ============ 骨架屏（热搜加载） ============ */
+.sk-hot {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 16px;
+}
+.sk-plat {
+  height: 220px; border-radius: 12px;
+  background: linear-gradient(100deg, var(--card) 40%, var(--bg-soft) 50%, var(--card) 60%);
+  background-size: 200% 100%;
+  animation: shimmer 1.3s infinite;
+}
+@keyframes shimmer { to { background-position: -200% 0; } }
+
+/* ============ 搜索框 clear 按钮 ============ */
+.clr { cursor: pointer; user-select: none; }
+.clr:hover { color: var(--text); }
+
+/* ============ 版块切换时隐藏元素 ============ */
+#cards, #tabs, #digestTabs, #digestSection { transition: opacity .15s ease; }
+
+/* ============ 移动端适配（新增版块） ============ */
+@media (max-width: 768px) {
+  .digest-tabs { margin: -10px auto 12px; padding: 0 14px; }
+  .hot-section, .feed-section { padding: 0 14px; }
+  .hot-platforms, .sk-hot { grid-template-columns: 1fr; }
+  .hot-item { font-size: 14px; }
+  .feed-item .f-time { display: none; }
+  .feed-item .f-cat { display: none; }
+  .feed-item .f-title { white-space: normal; line-height: 1.4; }
+  /* 移动端 tab 等分宽度，防止溢出截断 */
+  .section-tabs { padding: 0 10px; }
+  .section-tabs-inner { display: flex; width: 100%; }
+  .sec-tab { flex: 1; min-width: 0; padding: 10px 6px; font-size: 14px; }
+  .sec-name { white-space: nowrap; }
+}
+@media (max-width: 480px) {
+  .hot-head h2, .feed-head h2 { font-size: 16px; }
+  .hot-hint, .feed-time { display: none; }
+  .sec-name { font-size: 13px; }
+  .sec-ico { font-size: 16px; }
+  .sec-cnt { display: none; }
+  .sec-tab { padding: 9px 4px; font-size: 13px; }
+}
 

@@ -9,20 +9,31 @@ AIGC:
   ReservedCode2: '86be5085-23b2-4fd8-950f-7119f8f3da94'
 ---
 
-# 全球热点深度解读 · Global Hotspots Digest
+# 全球热点实时追踪 · Global Hotspots Tracker
 
-> AI 策划的多源新闻深度解读网站 · 每日 20 条最重要新闻 + 局势综述
+> 全球热点一站式追踪：AI 深度解读 + 实时热搜 + 全网新闻流
 
 线上访问：https://krogin0121.github.io/global-hotspots/
 
-## 特点
+## 三大版块
 
-- **AI 智能筛选**：从 15 个信源数百条新闻中，由 LLM 筛选前 20 条最重要事件
+### 1. 深度解读（AI 策划）
+- **AI 智能筛选**：从 15 个信源数百条新闻中，由 LLM 筛选国际/国内各 20 条最重要事件
 - **深度解读**：每条新闻带 200-300 字 AI 分析（背景 + 影响 + 后续走向）
 - **局势综述**：每日生成 200 字宏观局势脉络
 - **多源印证**：同一事件多个源报道自动合并，显示所有来源
 - **分类覆盖**：国际局势 / 国内要闻 / 经济 / 科技 / 社会
 - **每 6 小时更新**：GitHub Actions 定时抓取 + AI 处理，零服务器成本
+
+### 2. 实时热搜（每小时更新）
+- 直连 GitHub 公开热搜归档（iiecho1/hot_searches_for_apps），纯前端无后端
+- 覆盖 **微博 / 知乎 / 百度 / 今日头条 / 抖音 / B站** 六大平台
+- 每个平台 TOP 20 条，点击条目直达原平台
+
+### 3. 全部新闻（全网时间流）
+- 展示 15 个信源抓取的全量原始新闻，按时间倒序
+- 支持搜索 / 分类筛选
+- 数据源：BBC · NYT · The Guardian · NPR · Deutsche Welle · CNBC · Hacker News · Google News · 微博 · 知乎 · 百度 · 哔哩哔哩 · 抖音 · 今日头条
 
 ## 架构
 
@@ -33,7 +44,7 @@ scripts/fetch.py          # 抓取 15 个信源 → data/raw.json
     ↓
 scripts/curate.py         # LLM 筛选+解读   → data/top20.json
     ↓
-GitHub Pages              # 静态前端读取展示
+GitHub Pages              # 静态前端读取展示（热搜直连 GitHub 归档）
 ```
 
 ### 数据源（15 个）
@@ -59,7 +70,7 @@ GitHub Pages              # 静态前端读取展示
 
 ### 2. 启用 GitHub Pages
 
-仓库 Settings → Pages → Source: `gh-pages` 分支 `/` 目录
+仓库 Settings → Pages → Source: main 分支 `/` 目录（或 gh-pages）
 
 ### 3. 启用 Actions
 
@@ -72,7 +83,7 @@ Actions 页 → 「每日热点深度解读」workflow → Run workflow 手动�
 ## 本地测试
 
 ```powershell
-cd D:\工作流\全球热点
+cd D:\工作流\全球热点新闻追踪
 pip install -r scripts/requirements.txt
 
 # 抓取数据
@@ -91,8 +102,9 @@ python -m http.server 8000
 
 | 键 | 功能 |
 |----|------|
+| `1` / `2` / `3` | 切换 深度解读 / 实时热搜 / 全部新闻 |
+| `I` / `D` | 深度解读内切换 国际/国内 |
 | `/` | 聚焦搜索框 |
-| `1`-`5` | 切换分类 |
 | `J` / `K` | 下/上一条逐条浏览 |
 | `R` | 重新加载 |
 | `T` | 切换深色/浅色 |
