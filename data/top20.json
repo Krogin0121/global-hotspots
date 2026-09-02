@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-02T10:09:46.050799+00:00",
+  "generatedAt": "2026-09-02T15:34:45.385769+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 16,
+      "count": 20,
       "ok": true
     },
     {
@@ -90,9 +90,41 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，地缘政治紧张局势持续升级，伊朗对美国空袭的报复行动引发地区紧张，同时美债收益率上升和经济不确定性加剧，全球经济面临压力。网络安全领域持续活跃，企业收购潮涌现。此外，自然灾害、公共卫生和社会问题也在多个地区引发关注，例如墨西哥食肉蝇疫情、尼泊尔水电站工人被困等。各国在应对这些挑战时，人工智能的应用成为焦点。总体而言，当前国际局势呈现出多边冲突、经济波动和科技创新交织的复杂局面。",
+      "digest": "今日国际局势中，地缘政治紧张局势持续发酵。伊朗报复美国空袭，对海湾邻国开火，使得中东地区紧张局势加剧。同时，全球气候问题再次成为焦点，联合国警告全球将错过1.5度气候目标。经济方面，美国私营部门就业增长不及预期，劳动力市场放缓，而加拿大央行在维持利率不变的同时考虑特朗普关税冲击。此外，印度河用水问题引发国际关注，埃及发生巴士事故致至少22人死亡，雪佛龙将在委内瑞拉扩张等事件亦值得关注。总体来看，当前国际局势复杂多变，地缘政治和经济问题交织，各国需保持高度警惕。",
       "totalSelected": 20,
       "items": [
+        {
+          "title": "联合国警告全球将错过1.5度气候目标",
+          "titleOrig": "U.N. Says World Will Miss Its 1.5-Degree Climate Target",
+          "url": "https://www.nytimes.com/2026/09/02/climate/united-nations-climate-target-overshoot.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T13:38:38+00:00",
+          "desc": "Carbon removal combined with emissions reduction is the only remaining pathway to avert catastrophic levels of warming, a new report warns.",
+          "hotLabel": "",
+          "summary": "联合国报告指出，仅靠碳去除与减排无法避免灾难性升温。",
+          "analysis": "这表明全球气候治理面临严峻挑战。1.5度目标是实现气候可持续发展的关键，其未达成将加剧全球气候变化的影响，对各国经济和社会构成威胁。后续可能需要更严格的减排措施和国际合作。",
+          "keywords": [
+            "气候变化",
+            "气候目标",
+            "联合国",
+            "减排",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/02/climate/united-nations-climate-target-overshoot.html"
+            }
+          ],
+          "rank": 1
+        },
         {
           "title": "伊朗称两油轮遭霍尔木兹海峡水雷袭击，报复美国空袭",
           "titleOrig": "Iran says two tankers have hit Hormuz naval mines, attacks regional targets in retaliation to U.S. strikes",
@@ -103,17 +135,17 @@
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T08:51:33+00:00",
-          "desc": "U.S. forces completed another wave of strikes against Iran on Tuesday stateside, hitting multiple Islamic Revolutionary Guard Corps sites across the country.",
+          "publishedAt": "2026-09-02T14:44:38+00:00",
+          "desc": "U.S. forces completed another wave of strikes against Iran on Tuesday stateside, hitting multiple Revolutionary Guard sites across the country.",
           "hotLabel": "",
-          "summary": "美国对伊朗进行新一轮空袭，伊朗声称两油轮遭水雷袭击。",
-          "analysis": "这一事件加剧了中东地区的紧张局势，可能引发更大规模的冲突。美国与伊朗之间的紧张关系可能进一步升级，对全球能源市场产生重大影响。后续可能需要国际社会的介入以缓和紧张局势。",
+          "summary": "伊朗称两油轮在霍尔木兹海峡遭水雷袭击，作为对美国空袭的报复。",
+          "analysis": "背景：美伊关系紧张，双方在地区冲突中相互报复。关键影响：事件可能加剧地区紧张局势，影响全球能源供应。后续走向：美伊关系可能进一步恶化，地区冲突风险上升。",
           "keywords": [
             "伊朗",
-            "美国",
-            "空袭",
             "霍尔木兹海峡",
-            "能源"
+            "美伊关系",
+            "地区冲突",
+            "能源供应"
           ],
           "category": "international",
           "importance": 90,
@@ -123,199 +155,494 @@
               "url": "https://www.cnbc.com/2026/09/02/us-iran-war-trump-hormuz-irgc-jordan-bahrain.html"
             }
           ],
-          "rank": 1
-        },
-        {
-          "title": "10年期美债收益率触及11月来最高水平，全球债券抛售持续",
-          "titleOrig": "10-year U.S. Treasury yield hits highest level since November 2023 as global bond sell-off continues",
-          "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T10:01:31+00:00",
-          "desc": "Treasury yields continued to climb on Wednesday as inflation fears stoked a global rise in borrowing costs.",
-          "hotLabel": "",
-          "summary": "美债收益率攀升，全球债券市场抛售持续。",
-          "analysis": "美债收益率上升反映了市场对通胀的担忧，全球债券抛售可能加剧市场波动。这将对新兴市场国家造成压力，并可能影响全球经济复苏。",
-          "keywords": [
-            "美债收益率",
-            "通胀",
-            "债券市场",
-            "全球经济"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/bond-yields-treasurys-inflation.html"
-            }
-          ],
           "rank": 2
         },
         {
-          "title": "特朗普任内第二任期移民拘留所再增一死",
-          "titleOrig": "ICE detainee dies just hours after he was admitted into detention",
-          "url": "https://www.npr.org/2026/09/02/nx-s1-5953128/ice-detention-death-lianyong-wei",
+          "title": "加沙地带今年超900人遇难，停火协议下仍冲突不断",
+          "titleOrig": "More than 900 killed in Gaza this year despite ceasefire, Hamas-run health ministry says",
+          "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T11:51:46+00:00",
+          "desc": "The ministry says the total number of people killed in the Strip since 10 October is now more than 1,300, including 301 children.",
+          "hotLabel": "",
+          "summary": "尽管停火，加沙地带今年已有超过900人遇难，其中包括301名儿童。",
+          "analysis": "这反映了中东地区持续的紧张局势和冲突。加沙地带的冲突可能加剧地区不稳定，对以色列和巴勒斯坦关系以及整个中东地区安全构成威胁。后续可能需要国际社会介入以促成和平。",
+          "keywords": [
+            "加沙地带",
+            "冲突",
+            "停火协议",
+            "中东",
+            "国际介入"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c7708dy33pdo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "伊朗报复美国空袭，对海湾邻国开火，结束了一个月的平静期",
+          "titleOrig": "Iran fires on its Gulf neighbors, retaliating for U.S. strikes after a monthlong lull",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates",
           "source": "NPR News",
           "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T09:00:00+00:00",
-          "desc": "Lianyong Wei's death marks the 57th death of an immigrant detainee held in the care of the government since the start of President Trump's second term. Twenty-four of those have occurred since Jan. 1.",
+          "publishedAt": "2026-09-02T15:18:09+00:00",
+          "desc": "The six-month war has led to a spike in oil prices, roiled the global economy and posed increasing political problems for President Trump's Republican Party ahead of November midterm elections.",
           "hotLabel": "",
-          "summary": "移民拘留所发生死亡事件，凸显移民政策问题。",
-          "analysis": "特朗普政府移民政策导致拘留所条件恶化，引发人权关注。事件凸显美国移民政策与人权问题的紧张关系，可能加剧国内政治对立，并对国际形象造成负面影响。后续可能引发更多抗议和立法改革。",
+          "summary": "伊朗对美国空袭进行报复，引发海湾地区紧张局势，推高油价。",
+          "analysis": "伊朗对美国的报复行动标志着地区紧张局势的升级，这一行为可能加剧中东地区的冲突，并导致全球油价上涨，对全球经济产生负面影响。对特朗普政府来说，这增加了其在11月中期选举前的政治压力。后续走向可能包括更多的军事冲突或外交努力以缓解紧张局势。",
           "keywords": [
-            "移民政策",
-            "人权问题",
-            "特朗普政府",
-            "拘留所",
-            "政治对立"
+            "伊朗",
+            "美国",
+            "报复",
+            "中东",
+            "油价"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/02/nx-s1-5953128/ice-detention-death-lianyong-wei"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "网络安全公司Palo Alto Networks因AI需求增长而超越季度预期，继续收购潮",
-          "titleOrig": "Palo Alto Networks beats quarterly estimates on AI demand, continues acquisition spree",
-          "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T21:41:15+00:00",
-          "desc": "Palo Alto Networks' stock has nearly doubled this year as AI boosts demand for security detection and response tools",
-          "hotLabel": "",
-          "summary": "Palo Alto Networks股价因AI需求增长而翻倍，公司继续进行收购。",
-          "analysis": "随着人工智能技术的发展，网络安全需求日益增长，Palo Alto Networks作为网络安全领域的领先企业，其股价上涨反映了市场对其产品和服务需求的增加。这一趋势可能预示着网络安全行业将迎来更大的投资和增长。对于国际市场而言，这表明技术进步正在推动特定行业的快速发展，同时也可能引发全球范围内的网络安全竞争加剧。后续可能看到更多网络安全公司通过技术创新和并购来扩大市场份额。",
-          "keywords": [
-            "网络安全",
-            "人工智能",
-            "并购",
-            "市场增长",
-            "Palo Alto Networks"
-          ],
-          "category": "economy",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/01/palo-alto-networks-panw-q4-2026-earnings.html"
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5954013/us-iran-war-latest-updates"
             }
           ],
           "rank": 4
         },
         {
-          "title": "墨西哥对抗食肉蝇疫情，美墨边境部分重新开放",
-          "titleOrig": "Inside the Fight Against a Flesh-Eating Fly in Mexico",
-          "url": "https://www.nytimes.com/2026/09/02/world/americas/screwworm-facility-mexico.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
+          "title": "印度总理在打压年轻一代的同时争取他们的支持",
+          "titleOrig": "India's prime minister is wooing the Gen Z while cracking down on them",
+          "url": "https://www.npr.org/2026/09/02/g-s1-141512/india-genz-protests",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T09:01:07+00:00",
-          "desc": "For the first time in a year, the U.S.-Mexico border partly reopened to cattle imports following a screwworm infestation across the region. The battle against the flesh-eating fly has only just begun deep in Mexico.",
+          "publishedAt": "2026-09-02T11:11:04+00:00",
+          "desc": "Over two months, protesters, most who appeared to be digitally-savvy GenZ, used social media to organize. Government's efforts to respond spotlight how the ruling party appears to be playing catch-up.",
           "hotLabel": "",
-          "summary": "美墨边境因食肉蝇疫情关闭一年后部分重新开放。",
-          "analysis": "食肉蝇疫情对墨西哥农业和边境安全构成威胁，美墨边境重新开放缓解了部分压力。然而，疫情可能持续，对双边贸易和地区稳定构成挑战。后续可能需要加强边境防控和区域合作。",
+          "summary": "印度政府应对抗议活动，凸显执政党在数字化时代的应对不足。",
+          "analysis": "印度总理试图通过社交媒体吸引年轻一代的支持，但同时加强对抗议活动的镇压。这反映了印度政府在面对数字化时代年轻一代的挑战时的两难境地。一方面，政府需要适应年轻一代的沟通方式以争取他们的支持；另一方面，镇压抗议活动可能会加剧社会分裂，影响政府的合法性和稳定性。未来，印度政府可能需要在维护稳定和适应时代变化之间找到平衡。",
           "keywords": [
-            "美墨边境",
-            "食肉蝇疫情",
-            "边境安全",
-            "贸易"
+            "印度",
+            "年轻一代",
+            "社交媒体",
+            "抗议活动",
+            "政府政策"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/02/world/americas/screwworm-facility-mexico.html"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/02/g-s1-141512/india-genz-protests"
             }
           ],
           "rank": 5
         },
         {
-          "title": "美国原油价格突破90美元，伊朗袭击科威特、约旦和巴林报复",
-          "titleOrig": "U.S. crude tops $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain",
-          "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html",
+          "title": "加拿大央行在维持利率不变的同时考虑特朗普关税冲击",
+          "titleOrig": "Bank of Canada mulls Trump tariff shock as it holds interest rates",
+          "url": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T08:50:20+00:00",
-          "desc": "Oil were volatile Wednesday, as Mideast tensions continue to escalate after the U.S. attacked Iran, while Tehran reportedly struck back at U.S. allies.",
+          "publishedAt": "2026-09-02T14:15:58+00:00",
+          "desc": "The U.S.-Canada trade dispute and the descent into a retaliatory tariff blitz complicated the job for the Bank of Canada in its Wednesday decision.",
           "hotLabel": "",
-          "summary": "中东紧张局势升级，美国袭击伊朗后，德黑兰报复盟友。",
-          "analysis": "事件背景：美国对伊朗的袭击引发了中东地区的紧张局势，导致原油市场波动。关键影响：油价上涨可能对全球经济产生负面影响，同时加剧地区不稳定。后续走向：可能引发更大规模的地缘政治冲突，影响全球能源安全。关键词：美国，伊朗，中东，原油价格，地缘政治。category：international，importance：85",
+          "summary": "加拿大央行在面临美加贸易争端和报复性关税的影响下，维持利率不变。",
+          "analysis": "美加贸易争端加剧，加拿大央行面临政策抉择的困境。一方面，加央行需要考虑美国关税对加拿大经济的冲击，另一方面，维持低利率以刺激经济。这一决策将对加拿大及北美地区的经济产生重要影响。后续可能面临更多贸易摩擦，加央行政策调整将受关注。",
           "keywords": [
-            "美国",
-            "伊朗",
-            "中东",
-            "原油价格",
-            "地缘政治"
+            "加拿大央行",
+            "美加贸易",
+            "关税",
+            "经济政策",
+            "利率"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/brent-oil-us-iran-strikes.html"
+              "url": "https://www.cnbc.com/2026/09/02/bank-canada-rate-decision-trump-tariffs.html"
             }
           ],
           "rank": 6
         },
         {
-          "title": "泽连斯基敦促航空公司避免俄罗斯领空，乌克兰扩大无人机行动",
-          "titleOrig": "Zelenskyy says airlines should avoid Russian airspace as Ukraine expands drone operations",
-          "url": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html",
+          "title": "能源部长表示周一有超过1700万桶石油通过霍尔木兹海峡",
+          "titleOrig": "Energy Secretary Chris Wright tells CNBC more than 17 million barrels of oil transited Hormuz on Monday",
+          "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T09:56:26+00:00",
-          "desc": "Zelenskyy urged airlines to avoid Russian airspace, warning that expanding Ukrainian drone operations are making the skies increasingly unsafe.",
+          "publishedAt": "2026-09-02T15:26:01+00:00",
+          "desc": "The Energy secretary spoke to CNBC's Brian Sullivan in Venezuela on Wednesday, after President Donald Trump announced a massive oil deal with Caracas.",
           "hotLabel": "",
-          "summary": "乌克兰扩大无人机行动，泽连斯基呼吁航空公司避免俄罗斯领空。",
-          "analysis": "乌克兰无人机行动可能加剧与俄罗斯的紧张关系，呼吁航空公司避免俄罗斯领空增加了区域安全风险。这将对航空业和区域经济产生负面影响。",
+          "summary": "能源部长在委内瑞拉表示，周一有超过1700万桶石油通过霍尔木兹海峡。",
+          "analysis": "美国能源部长在委内瑞拉宣布的石油交易表明，美国在能源领域的外交政策正在发生变化。霍尔木兹海峡作为全球石油运输的关键通道，其石油流量对全球能源市场具有重要影响。这一交易可能意味着美国在委内瑞拉能源领域的战略利益增加，同时也可能加剧与伊朗的紧张关系。未来，霍尔木兹海峡的局势可能会成为国际关注的焦点。",
           "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "无人机行动",
-            "航空安全"
+            "美国",
+            "能源部长",
+            "霍尔木兹海峡",
+            "石油交易",
+            "委内瑞拉"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/ukraine-zelenskyy-airlines-russia-drone-war.html"
+              "url": "https://www.cnbc.com/2026/09/02/energy-secretary-chris-wright-tells-cnbc-that-more-than-17-million-barrels-of-oil-transited-hormuz-on-monday.html"
             }
           ],
           "rank": 7
         },
         {
-          "title": "地震后，他们利用人工智能动员援助",
+          "title": "美国8月私营部门就业增长不及预期，劳动力市场放缓",
+          "titleOrig": "Private payrolls rose by 38,000 in August, less than expected, ADP reports",
+          "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T14:30:10+00:00",
+          "desc": "Though job creation held positive, August was the smallest gain since January and reflective of a broader slowdown in the labor market.",
+          "hotLabel": "",
+          "summary": "美国8月私营部门就业增长38,000人，低于预期，显示劳动力市场放缓。",
+          "analysis": "背景：美国经济增速放缓，就业市场增长放缓。关键影响：就业增长放缓可能预示经济衰退风险，影响消费者信心和消费支出。后续走向：美联储可能进一步加息以控制通胀，但可能面临经济增长放缓的压力。",
+          "keywords": [
+            "美国经济",
+            "就业市场",
+            "劳动力市场",
+            "经济增长",
+            "美联储"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/02/private-payrolls-rose-by-38000-in-august-fewer-than-expected-adp-reports.html"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "印度拒绝海牙裁决关于印度河用水问题：接下来会怎样？",
+          "titleOrig": "India rejects Hague ruling on Indus waters: What's next?",
+          "url": "https://www.dw.com/en/india-rejects-hague-ruling-on-indus-waters-what-s-next/a-78753249?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T13:40:00+00:00",
+          "desc": "By rejecting an international arbitration panel's ruling, New Delhi has cast fresh doubt on the future of the 1960 Indus Waters Treaty.",
+          "hotLabel": "",
+          "summary": "印度拒绝国际仲裁法庭关于印度河用水的裁决，引发对1960年《印度河用水条约》未来的质疑。",
+          "analysis": "印度拒绝海牙裁决表明其对于国际仲裁的不信任，可能对《印度河用水条约》的执行造成影响。这一事件将加剧印巴之间的紧张关系，并对南亚地区的安全与水资源分配产生深远影响。未来印巴关系和地区安全将受到密切关注。",
+          "keywords": [
+            "印度",
+            "海牙裁决",
+            "印度河用水",
+            "印巴关系",
+            "地区安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/india-rejects-hague-ruling-on-indus-waters-what-s-next/a-78753249?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "埃及发生巴士事故致至少22人死亡",
+          "titleOrig": "Bus Crash in Egypt Kills at Least 22",
+          "url": "https://www.nytimes.com/2026/09/02/world/africa/bus-crash-egypt-sinai.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T11:40:02+00:00",
+          "desc": "The vehicle overturned in an area of the Sinai Peninsula that is popular with tourists. Another 28 people were injured, officials said.",
+          "hotLabel": "",
+          "summary": "埃及西奈半岛发生巴士翻车事故，造成至少22人死亡，28人受伤。",
+          "analysis": "这起事故反映了埃及基础设施的脆弱性和旅游安全风险。西奈半岛作为热门旅游目的地，其交通安全问题可能影响国际游客对埃及旅游的信心。此外，事故可能引发对埃及政府安全监管能力的质疑。后续可能需要加强基础设施建设和安全监管。",
+          "keywords": [
+            "埃及",
+            "巴士事故",
+            "旅游安全",
+            "基础设施",
+            "安全监管"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/02/world/africa/bus-crash-egypt-sinai.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/02/uber-to-cut-10percent-of-workforce-in-bid-to-move-simpler-and-faster.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "雪佛龙将在委内瑞拉扩张，与美国达成石油协议后不久",
+          "titleOrig": "Chevron to expand in Venezuela, days after the U.S. and Venezuela strike oil deal",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T14:08:03+00:00",
+          "desc": "Chevron is the largest foreign oil operator in Venezuela. The deal will expand its footprint at a time of political and economic uncertainty for Venezuela.",
+          "hotLabel": "",
+          "summary": "雪佛龙将在委内瑞拉扩大业务，尽管该国面临政治和经济不确定性。",
+          "analysis": "雪佛龙在委内瑞拉的业务扩张反映了该地区石油资源的吸引力，尽管委内瑞拉目前面临政治和经济危机。这一协议可能加剧委内瑞拉政府的财政压力，并可能影响美国对委内瑞拉的政策。后续走向可能包括雪佛龙在委内瑞拉业务的进一步发展或政治局势的恶化。",
+          "keywords": [
+            "雪佛龙",
+            "委内瑞拉",
+            "石油",
+            "美国",
+            "经济危机"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5952190/chevron-venezuela-oil-deal"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "ICE称已配备足够执法官员的摄像头，国会投票避免中期选举前政府关门",
+          "titleOrig": "ICE says it now has enough body cameras. And, Congress averts shutdown before midterms",
+          "url": "https://www.npr.org/2026/09/02/g-s1-141513/up-first-newsletter-iran-war-ice-body-cameras-massachusetts-ed-markey-government-shutdown",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T11:08:04+00:00",
+          "desc": "Immigration and Customs Enforcement says it now has enough body cameras to equip all of its agents. And, Congress votes to fund the government, averting a government shutdown ahead of the midterms.",
+          "hotLabel": "",
+          "summary": "移民和海关执法局称已配备足够摄像头，国会投票通过政府资金，避免政府在中期选举前关闭。",
+          "analysis": "美国移民和海关执法局（ICE）的摄像头配备完成，显示了美国政府在监控和执法方面的加强。同时，国会的投票避免了政府在中期选举前的关闭，这表明政治分歧在关键时刻得以缓解。然而，这些措施可能引发对隐私权和执法权力的担忧。未来，这些问题可能会成为政治辩论的焦点。",
+          "keywords": [
+            "美国",
+            "ICE",
+            "摄像头",
+            "政府资金",
+            "中期选举"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/02/g-s1-141513/up-first-newsletter-iran-war-ice-body-cameras-massachusetts-ed-markey-government-shutdown"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "苹果股价20年来首次与科技股反向相关，发生了什么",
+          "titleOrig": "Apple shares are doing something they haven't done in 20 years. Here’s what’s happening",
+          "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T12:10:05+00:00",
+          "desc": "Apple stock hasn't been this inversely correlated to its tech peers since 2005.",
+          "hotLabel": "",
+          "summary": "苹果股价与科技股反向相关，20年来首次出现。",
+          "analysis": "背景：苹果作为科技巨头，其股价通常与科技行业同步。关键影响：这可能表明市场对科技行业整体前景的担忧，或苹果自身增长放缓。后续走向：苹果业绩和行业趋势将受到密切关注。",
+          "keywords": [
+            "苹果股价",
+            "科技股",
+            "市场担忧",
+            "行业前景",
+            "经济增长"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/02/apple-shares-are-doing-something-they-havent-done-in-20-years-heres-whats-happening.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "几内亚比绍公投考验民主未来",
+          "titleOrig": "Guinea-Bissau referendum tests democratic future",
+          "url": "https://www.dw.com/en/guinea-bissau-referendum-tests-democratic-future/a-78646043?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T13:44:00+00:00",
+          "desc": "Following voter approval of a constitutional change that expands presidential powers, Guinea-Bissau faces renewed debate over legitimacy, civilian rule and democratic safeguards.",
+          "hotLabel": "",
+          "summary": "几内亚比绍公投通过宪法修正案，扩大总统权力，引发关于合法性、民权和民主保障的辩论。",
+          "analysis": "几内亚比绍公投结果显示出国内政治分歧，宪法修正案可能加剧政治不稳定。这一事件将对几内亚比绍的民主进程产生深远影响，并对西非地区的政治格局产生影响。未来几内亚比绍的政治走向和地区稳定将受到国际关注。",
+          "keywords": [
+            "几内亚比绍",
+            "公投",
+            "宪法修正案",
+            "民主",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/guinea-bissau-referendum-tests-democratic-future/a-78646043?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "新诉讼指控OpenAI高管在加拿大枪击案中忽视安全",
+          "titleOrig": "New lawsuits claim OpenAI execs put image ahead of safety in Canadian mass shooting",
+          "url": "https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T12:22:42+00:00",
+          "desc": "The suits say that recommendations to alert police about the alleged shooter were nixed by OpenAI's global affairs team, led by veteran political strategist Chris Lehane. OpenAI denies the claims.",
+          "hotLabel": "",
+          "summary": "诉讼称OpenAI高管在加拿大枪击案中优先考虑了形象而非安全。",
+          "analysis": "这起诉讼揭示了人工智能公司在处理社会问题时可能面临的风险。OpenAI的行为引发了关于技术公司社会责任的讨论。后续走向可能包括对人工智能伦理和安全的更多关注，以及OpenAI在处理类似事件时的政策调整。",
+          "keywords": [
+            "OpenAI",
+            "枪击案",
+            "安全",
+            "人工智能",
+            "社会责任"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/02/nx-s1-5953021/openai-tumbler-ridge-mass-shooting"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "福特继续增加皮卡生产，但8月销量下降10.3%",
+          "titleOrig": "Ford continues ramping up pickup truck production as sales fall 10.3% in August",
+          "url": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T14:39:21+00:00",
+          "desc": "An increase in the supply of pickup trucks comes as Ford experienced its eighth consecutive month of year-over-year U.S. new vehicle sales declines in August.",
+          "hotLabel": "",
+          "summary": "福特在8月经历了连续八个月的美国新车销量同比下降，但继续增加皮卡生产。",
+          "analysis": "福特汽车公司继续增加皮卡生产，尽管新车销量下降，这表明福特对皮卡市场的信心。然而，销量下降可能反映了美国汽车市场的整体疲软或消费者偏好的变化。未来，福特可能需要调整其产品组合以适应市场需求，并可能面临来自其他汽车制造商的竞争。",
+          "keywords": [
+            "福特",
+            "皮卡",
+            "销量下降",
+            "汽车市场",
+            "消费者偏好"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/02/ford-sales-f-150-production.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "美国航空推出升级版波音飞机，继续提升高端服务",
+          "titleOrig": "American Airlines continues premium push with redesigned Boeing planes",
+          "url": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-02T14:00:01+00:00",
+          "desc": "American Airlines is adding its most premium seats to its largest planes, which it uses for its most popular long international flights.",
+          "hotLabel": "",
+          "summary": "美国航空在其最大飞机上增加高端座位，用于热门长途国际航线。",
+          "analysis": "背景：航空业竞争激烈，美国航空寻求通过提升服务质量来吸引高端旅客。关键影响：此举可能提高航空公司的收入和利润，但也可能增加运营成本。后续走向：其他航空公司可能效仿，推动行业服务升级。",
+          "keywords": [
+            "美国航空",
+            "波音飞机",
+            "高端服务",
+            "航空业",
+            "市场竞争"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/02/american-airlines-flagship-suite.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "地震后，他们用人工智能动员援助",
           "titleOrig": "After the Earthquake, They Used A.I. to Mobilize Aid",
           "url": "https://www.nytimes.com/2026/09/02/world/americas/colombia-earthquake-ai-aid-app.html",
           "source": "NYT World",
@@ -327,405 +654,85 @@
           "publishedAt": "2026-09-02T09:02:30+00:00",
           "desc": "As volunteers struggled to get supplies to quake victims in Colombia, a few tech workers built an app to map and organize the sprawling relief effort.",
           "hotLabel": "",
-          "summary": "哥伦比亚地震后，技术人员开发应用程序以地图和组织援助工作。",
-          "analysis": "这表明人工智能在紧急救援中的作用日益重要。利用技术提高救援效率可以减少灾害造成的损失。这一案例可能推动更多国家采用类似技术，提高应对自然灾害的能力。",
+          "summary": "在哥伦比亚地震救援中，技术人员开发应用以地图和组织方式提高救援效率。",
+          "analysis": "哥伦比亚地震救援中，人工智能技术的应用展示了科技在紧急救援中的作用。这一案例可能推动更多国家在灾难响应中采用科技手段，提高救援效率。未来，人工智能在灾难管理和救援领域的应用将得到进一步推广。",
           "keywords": [
+            "哥伦比亚地震",
             "人工智能",
             "救援",
-            "灾害",
-            "哥伦比亚",
-            "技术"
+            "科技应用",
+            "灾难管理"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/09/02/world/americas/colombia-earthquake-ai-aid-app.html"
             }
           ],
-          "rank": 8
-        },
-        {
-          "title": "尼泊尔水电站工人被困，河水追击20分钟",
-          "titleOrig": "River water smashed into tunnel and chased me for 20 minutes, Nepal worker tells BBC",
-          "url": "https://www.bbc.co.uk/news/articles/cg49590v6k1o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T16:11:18+00:00",
-          "desc": "Major efforts to rescue hydropower workers continue as Nepal's death toll exceeds 1,000.",
-          "hotLabel": "",
-          "summary": "尼泊尔水电站事故死亡人数超千。",
-          "analysis": "尼泊尔水电站事故暴露了基础设施建设的安全问题。事故反映了尼泊尔在水电开发中的安全监管不足，可能引发对水电开发安全性的国际关注，并对尼泊尔经济和社会稳定产生影响。",
-          "keywords": [
-            "水电站事故",
-            "尼泊尔",
-            "基础设施建设",
-            "安全监管",
-            "经济影响"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cg49590v6k1o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "爱尔兰农村工厂成为俄罗斯争议焦点",
-          "titleOrig": "A Factory in Rural Ireland Is at the Center of a Dispute Over Russia",
-          "url": "https://www.nytimes.com/2026/09/01/world/europe/ireland-alumina-aughinish-plant-russia.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T09:00:29+00:00",
-          "desc": "Alumina processed at a refinery in County Limerick may be feeding Russia’s war in Ukraine, an investigation suggested. There is little agreement on what to do about it.",
-          "hotLabel": "",
-          "summary": "爱尔兰某工厂加工的铝可能支持俄罗斯对乌克兰的战争，引发争议。",
-          "analysis": "该事件揭示了全球供应链的复杂性和国际政治之间的相互影响。对于爱尔兰而言，这可能影响其国际形象和与俄罗斯的关系。对于国际格局来说，这表明国际制裁和贸易战可能对全球供应链产生深远影响。后续可能看到更多类似的供应链争议，影响国际关系和全球贸易。",
-          "keywords": [
-            "爱尔兰",
-            "供应链",
-            "俄罗斯",
-            "乌克兰战争",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/europe/ireland-alumina-aughinish-plant-russia.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "习近平在特朗普峰会前与伊朗总统保持距离",
-          "titleOrig": "China's Xi keeps Iranian president at arm's length weeks ahead of Trump summit",
-          "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T07:26:51+00:00",
-          "desc": "China's Xi gave Iran's Pezeshkian a brief, low-profile audience at the SCO summit, as Beijing seeks to avoid appearing close to Tehran ahead of a high-stakes summit with Trump.",
-          "hotLabel": "",
-          "summary": "习近平在SCO峰会期间简短会晤伊朗总统，避免与伊朗过于亲近。",
-          "analysis": "此举体现了中国在国际关系中保持平衡的策略。在特朗普即将到来的峰会前，中国试图避免与伊朗过于亲近，以免被视作挑战美国的外交立场。这反映了中美关系中的战略竞争，以及中国在中东地区的外交政策调整。对国内而言，这可能意味着中国在国际舞台上更加谨慎，对外交政策和能源安全有潜在影响。后续走向可能包括中国在中东地区的进一步外交努力，以及对美国政策的回应。",
-          "keywords": [
-            "习近平",
-            "伊朗",
-            "特朗普",
-            "峰会",
-            "外交政策"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "近半数世界农民每年因农药中毒，专家发现",
-          "titleOrig": "Almost half of world’s farmers poisoned by pesticides every year, experts find",
-          "url": "https://www.theguardian.com/environment/2026/sep/02/50-per-cent-world-farmers-poisoned-pesticides-every-year-experts",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T06:00:25+00:00",
-          "desc": "Study reveals that pesticide poisoning kills 11,000 people each year, with India accounting for nearly 60% of fatalitiesAlmost half of the world’s farmers are poisoned by pesticides every single year, a study has found.Using publicly available data from 2006-2023, the study, which was commissioned b",
-          "hotLabel": "",
-          "summary": "研究发现，每年有11000人因农药中毒死亡，印度占近60%。",
-          "analysis": "事件背景：农药使用对农民健康构成严重威胁。关键影响：这一问题可能影响全球粮食安全和农业可持续发展。后续走向：需要全球合作，加强农药监管和农民保护措施。关键词：农药中毒，农民，粮食安全，可持续发展。category：international，importance：75",
-          "keywords": [
-            "农药中毒",
-            "农民",
-            "粮食安全",
-            "可持续发展"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/sep/02/50-per-cent-world-farmers-poisoned-pesticides-every-year-experts"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "埃及红海海岸发生巴士事故致16人死亡",
-          "titleOrig": "Bus crash on Egypt's Red Sea coast kills 16",
-          "url": "https://www.bbc.co.uk/news/articles/cn8mr1myy2ko?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T08:24:24+00:00",
-          "desc": "Another 28 people are injured in the accident in the South Sinai governorate, officials say.",
-          "hotLabel": "",
-          "summary": "埃及南西奈省发生巴士事故，造成16人死亡，28人受伤。",
-          "analysis": "这起事故反映了埃及基础设施的脆弱性和安全问题。埃及作为旅游热点，其基础设施建设和维护需要加强。事故可能对埃及旅游业造成负面影响，并引发对政府安全管理的质疑。后续可能需要加强安全检查和基础设施投资。",
-          "keywords": [
-            "埃及",
-            "事故",
-            "基础设施",
-            "旅游业",
-            "安全"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cn8mr1myy2ko?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "欧洲如何应对干旱问题",
-          "titleOrig": "What really helps Europe deal with drought",
-          "url": "https://www.dw.com/en/what-really-helps-europe-deal-with-drought/a-78577712?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T07:56:00+00:00",
-          "desc": "Fix leaks, or ban pools? As European countries prepare for hotter, drier years to come, here's what the data says about how to really save water",
-          "hotLabel": "",
-          "summary": "欧洲国家应对干旱，数据揭示节水措施。",
-          "analysis": "欧洲干旱问题日益严重，政府需采取措施应对。数据揭示节水措施的重要性，如修复漏水、限制泳池使用等。事件反映了气候变化对欧洲水资源的影响，以及对可持续发展的需求。",
-          "keywords": [
-            "气候变化",
-            "水资源",
-            "节水措施",
-            "欧洲",
-            "可持续发展"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/what-really-helps-europe-deal-with-drought/a-78577712?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "MapQuest应用在苹果美国应用商店排名第一，无视特朗普对安大略湖的命令",
-          "titleOrig": "MapQuest app reaches No 1 on US Apple list after defying Trump’s Lake Ontario order",
-          "url": "https://www.theguardian.com/us-news/2026/sep/01/mapquest-lake-ontario-trump",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T13:49:33+00:00",
-          "desc": "Navigating app surpasses Google and Apple Maps on top-downloaded US chart after posting ‘we’re not changing it’A pioneering online mapping app that defied Donald Trump by refusing to rename Lake Ontario has become the most in-demand navigation tool in the US.MapQuest, which was openly dismissive of ",
-          "hotLabel": "",
-          "summary": "MapQuest应用在苹果美国应用商店排名第一，拒绝更改安大略湖名称。",
-          "analysis": "MapQuest应用的成功反映了用户对互联网导航服务的需求，同时也体现了对特朗普政策的抵制。这一事件可能引发对互联网自由和言论自由的讨论，对美国的政治环境和社会文化产生一定影响。后续可能看到更多类似的应用和事件，对互联网公司和社会舆论产生深远影响。",
-          "keywords": [
-            "MapQuest",
-            "互联网导航",
-            "特朗普政策",
-            "言论自由",
-            "美国文化"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/sep/01/mapquest-lake-ontario-trump"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "几内亚比绍选民批准新宪法，扩大总统权力",
-          "titleOrig": "Guinea-Bissau voters approve new constitution expanding presidential powers",
-          "url": "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T09:20:55+00:00",
-          "desc": "Changes include fewer seats in parliament and new rules on presidential candidates ahead of December electionsGuinea-Bissau voters have approved a new constitution significantly expanding presidential powers ahead of elections due in December.According to provisional results, 70% of voters approved ",
-          "hotLabel": "",
-          "summary": "几内亚比绍选民通过新宪法，扩大总统权力。",
-          "analysis": "新宪法的通过可能改变几内亚比绍的政治格局，增加总统的权力，可能对国家政治稳定和民主进程产生长远影响。后续可能引发国内政治力量的重新分配和权力斗争。",
-          "keywords": [
-            "几内亚比绍",
-            "宪法",
-            "总统权力",
-            "政治稳定",
-            "民主"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/02/guinea-bissau-voters-approve-constitution-elections"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "埃博拉疫情下的棺材制作仪式",
-          "titleOrig": "The Ritual of Coffin Making in a City Hit by Ebola",
-          "url": "https://www.nytimes.com/2026/09/01/world/africa/congo-ebola-coffins.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T21:26:24+00:00",
-          "desc": "While several coffin makers in Bunia said they were providing a public service, the virus has put them at the center of a debate around safe burials.",
-          "hotLabel": "",
-          "summary": "埃博拉疫情下棺材制作成为公共议题。",
-          "analysis": "埃博拉疫情对当地棺材制作行业产生影响，引发对安全葬礼的讨论。事件反映了疫情对特定地区社会文化的影响，以及对公共卫生安全的重视。",
-          "keywords": [
-            "埃博拉疫情",
-            "棺材制作",
-            "公共卫生",
-            "社会文化",
-            "安全葬礼"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/africa/congo-ebola-coffins.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "为何美国军队有在泰国这个喧嚣城市的历史",
-          "titleOrig": "Why US troops have a history in this raucous Thai city",
-          "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T07:18:39+00:00",
-          "desc": "The BBC's Jonathan Head looks at the historical echoes of US troops arriving in Pattaya, a beach resort famous for its racy bars.",
-          "hotLabel": "",
-          "summary": "BBC分析美国军队在泰国巴吞他尼的历史背景。",
-          "analysis": "该报道回顾了美国与泰国之间长期的历史关系，特别是军事合作的历史。这反映了冷战时期美国在亚洲的军事存在，以及泰国在区域安全中的地位。对于国际局势来说，这有助于理解当前区域安全格局的演变。后续可能看到更多关于美国在亚洲军事存在的讨论。",
-          "keywords": [
-            "美国军队",
-            "泰国",
-            "军事合作",
-            "冷战历史",
-            "区域安全"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/c5yw03jr892o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
           "rank": 18
         },
         {
-          "title": "日本将所有狭窄城市街道的速度限制减半至30公里/小时",
-          "titleOrig": "Japan halves speed limit to 30km/h on all narrow city streets",
-          "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
+          "title": "美国海军陆战队在泰国帕堤亚结束250天海上之旅",
+          "titleOrig": "US sailors arrive in Thailand's Pattaya after record 250 days at sea",
+          "url": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-02T05:15:00+00:00",
-          "desc": "Speed limit dropped from 60km/h for around 70% of general roads in the hope of making narrow streets of crowded cities saferDrivers on residential roads in Japan have been forced to take their foot off the accelerator, after the speed limit was slashed from 60km/h (37mph) to 30km/h in an attempt to ",
+          "publishedAt": "2026-09-02T10:04:28+00:00",
+          "desc": "The USS Abraham Lincoln is docking close to Pattaya, known for its neon-lit nightlife, and for sex tourism.",
           "hotLabel": "",
-          "summary": "日本将道路速度限制从60公里/小时降至30公里/小时，以使拥挤城市的狭窄街道更安全。",
-          "analysis": "事件背景：日本政府采取措施提高道路安全。关键影响：此举可能减少交通事故，但可能对交通效率产生负面影响。后续走向：其他国家和地区可能效仿此措施。关键词：日本，速度限制，道路安全，交通效率。category：international，importance：65",
+          "summary": "美国海军林肯号航母抵达泰国帕堤亚，结束了250天的海上之旅。",
+          "analysis": "美国海军此举可能是展示其全球军事存在，同时也是对地区安全形势的一种表态。帕堤亚作为性旅游热点，此举可能引发对美军与当地社会互动的讨论。后续可能涉及地区安全合作与军事外交。",
           "keywords": [
-            "日本",
-            "速度限制",
-            "道路安全",
-            "交通效率"
+            "美国海军",
+            "帕堤亚",
+            "海上之旅",
+            "军事外交",
+            "地区安全"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/02/japan-new-speed-limit-30kmh-narrow-city-streets"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cg7k09z4lj9o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 19
         },
         {
-          "title": "昆士兰州警方调查价值170万美元的5500只羊被盗案件",
-          "titleOrig": "Queensland police investigate after 5,500 sheep worth $1.7m stolen from farm",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/02/queensland-police-investigate-after-5500-sheep-worth-17m-stolen-from-farm-ntwnfb",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "由于医疗保健失败，感染HIV的儿童发生了什么？",
+          "titleOrig": "Whatever happened to ... children infected with HIV due to failures in healthcare?",
+          "url": "https://www.npr.org/2026/09/02/g-s1-140934/hiv-aids-children-pakistan",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-02T05:55:51+00:00",
-          "desc": "Police say the sheep were stolen from a property 830km west of Brisbane between February and MayGet our breaking news email, free app or daily news podcastQueensland police are investigating after about 5,500 Dorper sheep worth more than $1.7m were allegedly stolen from a western Queensland farm.Pol",
+          "publishedAt": "2026-09-02T11:58:51+00:00",
+          "desc": "For years, Pakistan has seen cases of children infected with HIV due to unsafe treatment in clinics and hospitals. A current outbreak numbers hundreds of cases. Why does this problem keep occurring?",
           "hotLabel": "",
-          "summary": "警方称，这些羊在2月至5月间从位于布里斯班以西830公里的农场被盗。",
-          "analysis": "事件背景：农场盗窃事件在澳大利亚并不罕见。关键影响：此类事件可能对当地农业经济产生负面影响。后续走向：警方可能采取更严格的措施来防止类似事件发生。关键词：澳大利亚，农场盗窃，农业经济。category：international，importance：60",
+          "summary": "巴基斯坦数百名儿童因诊所和医院的不安全治疗感染HIV。",
+          "analysis": "这一事件凸显了发展中国家在医疗保健方面的挑战。巴基斯坦的HIV疫情反映了医疗系统的不完善和公共卫生问题的严重性。后续走向可能包括对医疗保健系统的改革和公共卫生政策的加强。",
           "keywords": [
-            "澳大利亚",
-            "农场盗窃",
-            "农业经济"
+            "HIV",
+            "巴基斯坦",
+            "医疗保健",
+            "公共卫生",
+            "发展中国家"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/sep/02/queensland-police-investigate-after-5500-sheep-worth-17m-stolen-from-farm-ntwnfb"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/02/g-s1-140934/hiv-aids-children-pakistan"
             }
           ],
           "rank": 20
@@ -734,273 +741,9 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，我国在国际舞台上积极参与多边合作，同时深化国内政策与社会发展。习近平出席“上海合作组织+”会议和开罗欢迎仪式，展现了我国在国际事务中的重要作用。国内方面，新版《国防动员法》的实施标志着我国国防建设的进一步加强。经济领域，中国制造“机器鸭”热销，但明星直播带货乱象亦引发关注。社会层面，青藏高原冰川消融问题凸显，救援行动持续进行。此外，综艺节目监管加强，气候变暖对山地冰川的影响引起关注。总体来看，我国正致力于内外兼顾，推动国家全面发展。",
+      "digest": "今日国内形势综述：我国在国防、经济、社会等多个领域均取得积极进展。新版《国防动员法》的实施标志着我国国防建设迈上新台阶，同时，在全球治理改革方面，我国持续推动国际合作与完善。经济领域，中印尼双本币交易额突破388.72亿美元，上合示范区释放区域经贸合作新动能。社会层面，关注“过度托举”问题引发社会热议，知识产权保护得到加强。同时，年轻人断亲潮兴起，传统烹饪技艺受到关注。在国际舞台上，我国积极参与国际事务，维护国家利益。总体来看，我国正朝着更加繁荣、和谐的方向发展。",
       "totalSelected": 20,
       "items": [
-        {
-          "title": "习近平出席“上海合作组织+”会议",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%87%BA%E5%B8%AD%E2%80%9C%E4%B8%8A%E6%B5%B7%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%2B%E2%80%9D%E4%BC%9A%E8%AE%AE",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "习近平出席“上海合作组织+”会议。",
-          "analysis": "此次会议体现了中国在国际事务中的积极参与和影响力。上合组织的发展有助于加强区域安全合作，推动经济一体化。中国作为上合组织的重要成员，其参与对组织的发展具有关键作用。",
-          "keywords": [
-            "上海合作组织",
-            "习近平",
-            "国际会议",
-            "区域安全",
-            "国际合作"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%87%BA%E5%B8%AD%E2%80%9C%E4%B8%8A%E6%B5%B7%E5%90%88%E4%BD%9C%E7%BB%84%E7%BB%87%2B%E2%80%9D%E4%BC%9A%E8%AE%AE"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "深学细悟习近平党建思想“总论”",
-          "titleOrig": "深学细悟习近平党建思想“总论”（深入学习贯彻习近平新时代中国特色社会主义思想） - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zSElmR2lYODljMmVEd1NEbENrOHoteFNnR2tJdFczWjFWSEJuc3FtODRQUDhHU0lhZElwcWJUandxcWRZbWJpWVAzcXF6Z3lGVGpCR2M2clJGS2I4S3JEMnpvRC1tOE1S?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T05:16:44+00:00",
-          "desc": "深学细悟习近平党建思想“总论”（深入学习贯彻习近平新时代中国特色社会主义思想） chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "深入学习习近平党建思想，贯彻习近平新时代中国特色社会主义思想。",
-          "analysis": "这表明中国政府在加强党的建设，推动全面从严治党。习近平党建思想强调了党的领导地位和党的建设的重要性，对于提高党的执政能力和领导水平具有重要意义。对国内治理意味着加强党的纪律建设，提高党的纯洁性和战斗力。后续可能包括一系列的党建改革措施和党的理论创新。",
-          "keywords": [
-            "习近平",
-            "党建思想",
-            "全面从严治党",
-            "党的建设",
-            "理论创新"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8zSElmR2lYODljMmVEd1NEbENrOHoteFNnR2tJdFczWjFWSEJuc3FtODRQUDhHU0lhZElwcWJUandxcWRZbWJpWVAzcXF6Z3lGVGpCR2M2clJGS2I4S3JEMnpvRC1tOE1S?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "习近平出席开罗欢迎仪式，深化中埃全面战略伙伴关系",
-          "titleOrig": "习近平抵达开罗太阳宫 出席欢迎仪式 - 央视网",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81TmR3ZmVDNTczRTlpRmNCUy1EUm9ycFVzc29vTFlYYUZQWFRRSS15SUJ6QUptNkhENXNsbk52aXBCNkR1MS1jVVJnLTQ3VUd2enlDWW9yUmIzWjQ0ZWRHOHR6VjhlQUtFeE1EVzJBZEp6QnhXQWE4dQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T07:40:00+00:00",
-          "desc": "习近平抵达开罗太阳宫 出席欢迎仪式 央视网微视频｜深化全面战略伙伴关系推进中埃命运共同体建设- 中国日报网 China Daily时政镜距离｜描绘中埃相知新画卷 光明网习近平同埃及总统塞西出席签字仪式 央视网零时差 | “青岛路”“海尔路”，写进埃及现代化叙事 t.cj.sina.cn",
-          "hotLabel": "",
-          "summary": "习近平访问埃及，出席欢迎仪式并签署合作协议。",
-          "analysis": "此次访问旨在加强中埃全面战略伙伴关系，推动两国在政治、经济、文化等领域的合作。背景是中非合作论坛的背景下，中国加强同非洲国家的联系。对国内意味着展示中国外交政策的积极形象，对国际则有助于提升中国在全球事务中的影响力。后续可能看到中埃两国在多个领域的合作加深。",
-          "keywords": [
-            "习近平",
-            "开罗",
-            "中埃关系",
-            "全面战略伙伴关系",
-            "外交"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE81TmR3ZmVDNTczRTlpRmNCUy1EUm9ycFVzc29vTFlYYUZQWFRRSS15SUJ6QUptNkhENXNsbk52aXBCNkR1MS1jVVJnLTQ3VUd2enlDWW9yUmIzWjQ0ZWRHOHR6VjhlQUtFeE1EVzJBZEp6QnhXQWE4dQ?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FSnVaV1hqMEd1MFlCRlN5WTBtTDhURVN3XzlNNGsyWUJxM240Wk1aMjFKLWJIeTRWU3pSXzJOOHJWQkd4YUVCaTZGRV9aTUpMT0JOcnNmaGxic2ZtZEE?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "伊朗革命卫队士兵在美军袭击中死亡，美伊重回军事对抗",
-          "titleOrig": "伊朗革命卫队：4名士兵在美军袭击中死亡 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jbjVEdU9SLVA1dFhxOHAzdXJ5TDRVTy1mekIyWGJfS0FBQVVOUnU3V3NTYUVZMzJQelhhajlyRmlfQlZCSEt1clhtemlfQ0ctUWxIbVpTcGh5Nkd3WjJ5ZVhQOHFDMGpEbTlDWXJ3NllaRE9iSjJaeVIwWU5wNGc?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T07:41:34+00:00",
-          "desc": "伊朗革命卫队：4名士兵在美军袭击中死亡 新华网一个月后重新开火 美伊为何重回军事对抗 中国青年网分析认为伊朗利用拉腊克岛管控霍尔木兹海峡 新浪财经伊朗的“瞎猫”防空，又碰上美军的“死耗子”？这次F-35死里逃生 凤凰网又来威胁？特朗普发AI视频称轰炸哈尔克岛 伊朗官员驳斥“可笑” 东方财富",
-          "hotLabel": "",
-          "summary": "伊朗革命卫队士兵在美军袭击中死亡，引发美伊军事对抗升级。",
-          "analysis": "此次事件背后是美国对伊朗的持续压力和伊朗的强硬回应。美国试图通过军事手段削弱伊朗的影响力，而伊朗则通过展示军事实力来维护国家安全。这一事件可能导致中东地区局势进一步紧张，对全球能源供应和地缘政治格局产生重大影响。",
-          "keywords": [
-            "美伊冲突",
-            "军事对抗",
-            "霍尔木兹海峡",
-            "伊朗革命卫队",
-            "美军袭击"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5jbjVEdU9SLVA1dFhxOHAzdXJ5TDRVTy1mekIyWGJfS0FBQVVOUnU3V3NTYUVZMzJQelhhajlyRmlfQlZCSEt1clhtemlfQ0ctUWxIbVpTcGh5Nkd3WjJ5ZVhQOHFDMGpEbTlDWXJ3NllaRE9iSjJaeVIwWU5wNGc?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "习近平在特朗普峰会前与伊朗总统保持距离",
-          "titleOrig": "China's Xi keeps Iranian president at arm's length weeks ahead of Trump summit",
-          "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-02T07:26:51+00:00",
-          "desc": "China's Xi gave Iran's Pezeshkian a brief, low-profile audience at the SCO summit, as Beijing seeks to avoid appearing close to Tehran ahead of a high-stakes summit with Trump.",
-          "hotLabel": "",
-          "summary": "习近平在SCO峰会期间简短会晤伊朗总统，避免与伊朗过于亲近。",
-          "analysis": "此举体现了中国在国际关系中保持平衡的策略。在特朗普即将到来的峰会前，中国试图避免与伊朗过于亲近，以免被视作挑战美国的外交立场。这反映了中美关系中的战略竞争，以及中国在中东地区的外交政策调整。对国内而言，这可能意味着中国在国际舞台上更加谨慎，对外交政策和能源安全有潜在影响。后续走向可能包括中国在中东地区的进一步外交努力，以及对美国政策的回应。",
-          "keywords": [
-            "习近平",
-            "伊朗",
-            "特朗普",
-            "峰会",
-            "外交政策"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "南部战区黄岩岛周边开展战备警巡",
-          "titleOrig": "中国解放军南部战区在黄岩岛周边开展战备警巡 - 早晨报",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfSWdGNUpaQ19WMXFqQ3c5UWRMOVFBdHk3MHloWXkzVUItZk1PbmxYN1NWTnRkazJvQmtSZS14cWJqYUVhRzFrQXgtdWptRy1iQVF2bFptM25zY1dLQ0JWbVdZTHRWWWhx?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T06:15:00+00:00",
-          "desc": "中国解放军南部战区在黄岩岛周边开展战备警巡 早晨报中国海警在黄岩岛海域巡查现场 强化海域管控 中华军事菲船早已闹饥荒！就在今天中国海警按时行动，只待马德雷山号沉没 Sohu中国海警位中国黄岩岛领海及周边区域执法巡查 新浪财经视频丨南部战区位中国黄岩岛领海领空及周边区域组织战备警巡 thepaper.cn",
-          "hotLabel": "",
-          "summary": "解放军南部战区在黄岩岛周边进行战备警巡。",
-          "analysis": "此次行动体现了中国对南海领土主权的坚定立场，以及维护国家海洋权益的决心。背景是南海周边安全形势复杂，对国内意味着强化国防力量，对国际则可能引发周边国家的关注和反应。后续可能看到中国在南海的军事活动增加。",
-          "keywords": [
-            "南部战区",
-            "黄岩岛",
-            "战备警巡",
-            "南海",
-            "国防"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBfSWdGNUpaQ19WMXFqQ3c5UWRMOVFBdHk3MHloWXkzVUItZk1PbmxYN1NWTnRkazJvQmtSZS14cWJqYUVhRzFrQXgtdWptRy1iQVF2bFptM25zY1dLQ0JWbVdZTHRWWWhx?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTmJwRTF5aFluWE9RU1JZZ3g1RV9ES1hDYmFENzNRcnBLWnJNUzZpczU5NmJidDFIQWkzaTUzRVpWN3VZNzUtb3VVRkRjNEluVm5IYkotVHVYRm13d1hnOV9keEJxc1ZqbThtNmtSQXNPbW9kam1VcVl3YVkwOWtfYm1HMS1DWUl5YXc?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ZVW8xcEFQT2FISnRWcFpvbUtSTlZ0ZFVTV2l4Mzl6SklkeVNUS2ZtVkU1enYtVjg0RHAwQzRXWDFjVjFoX196dmo1X1BSOGU1QjRvVkpuNFQta2djM1IxSGpCbTFxQ3At?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "中国反对G20反对‘廉价出口’声明，特朗普政府计划制裁伊朗",
-          "titleOrig": "China dissented from G20 statement opposing 'cheap exports' flooding market, Bessent says",
-          "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-01T23:52:21+00:00",
-          "desc": "Bessent is leading the Trump administration's plan to choke off Iran's economy by threatening its business partners with secondary sanctions.",
-          "hotLabel": "",
-          "summary": "中国反对G20反对‘廉价出口’声明，特朗普政府计划通过制裁伊朗经济伙伴来压制伊朗。",
-          "analysis": "中国在这一问题上的立场体现了其在国际贸易中的独立性和对全球供应链稳定的重视。特朗普政府的计划将加剧伊朗经济困境，可能引发地区经济动荡，并影响全球能源市场。",
-          "keywords": [
-            "G20",
-            "中国",
-            "特朗普政府",
-            "伊朗制裁",
-            "经济政策"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/01/bessent-china-g20-trade-exports-trump-xi.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
-            }
-          ],
-          "rank": 7
-        },
         {
           "title": "新版《国防动员法》10月1日实施",
           "titleOrig": "新版《国防动员法》10 月 1 日实施",
@@ -1014,57 +757,57 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "新版《国防动员法》于10月1日起实施。",
-          "analysis": "新法的实施标志着我国国防动员体系的进一步完善，强化了国防动员在国家治理体系中的地位。对提高国防动员能力、维护国家安全具有重要意义。未来，国防动员将更加注重平时与战时的结合，提高应对各种安全挑战的能力。",
+          "summary": "新版《国防动员法》将于10月1日起实施。",
+          "analysis": "事件背景：为适应新时代国防和军队建设需要，完善国防动员体系。政策意图：强化国防动员能力，确保国家安全。关键影响：对国防和军队建设具有重要意义。后续走向：相关配套政策和措施将逐步落实。",
           "keywords": [
             "国防动员法",
             "国家安全",
-            "国防动员",
+            "国防建设",
             "政策实施",
-            "军事"
+            "军队改革"
           ],
-          "category": "international",
-          "importance": 80,
+          "category": "domestic",
+          "importance": 90,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E6%96%B0%E7%89%88%E3%80%8A%E5%9B%BD%E9%98%B2%E5%8A%A8%E5%91%98%E6%B3%95%E3%80%8B10%20%E6%9C%88%201%20%E6%97%A5%E5%AE%9E%E6%96%BD"
             }
           ],
-          "rank": 8
+          "rank": 1
         },
         {
-          "title": "中国制造的“机器鸭”卖断货",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%9A%84%E2%80%9C%E6%9C%BA%E5%99%A8%E9%B8%AD%E2%80%9D%E5%8D%96%E6%96%AD%E8%B4%A7",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
+          "title": "中国持续推动全球治理改革完善",
+          "titleOrig": "第一观察丨从天津到比什凯克 中国持续推动全球治理改革完善 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFhkTUNzREtzcm1Na1F2RmZkQy1oYkoxX0NqZ3V0dzZqaUwwQmJaTGFLSlAxR1VEb0lQOHdiOVptSnBmcmxOTUVULXJMM1pES0NPQUlCc1VxbE9ORmhLWFJPSEQyYWYxY3pXYVRVeFFHYWtocXotaEpGa0d0VHp1SFhqc2VqaEhjYjA2TXV3?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-02T11:05:13+00:00",
+          "desc": "第一观察丨从天津到比什凯克 中国持续推动全球治理改革完善 新华网习近平主席为践行全球治理倡议凝心聚力- 中国日报网 China Daily众行致远丨世界向何处去？以人民之心为心 中国网新闻中心全球媒体聚焦丨非洲学者深入阐释全球治理倡议如何惠及全球南方 光明网天津日报：全球治理天津论坛召开 news.nankai.edu.cn",
           "hotLabel": "",
-          "summary": "中国制造“机器鸭”因需求旺盛而缺货。",
-          "analysis": "该现象反映了国内消费升级和科技创新的成果。社会成因包括消费者对高品质产品的追求和国内制造业的进步。对国内经济有积极影响，可能促进相关产业链的发展。后续有望看到更多创新产品涌现。",
+          "summary": "中国在全球治理改革中发挥积极作用。",
+          "analysis": "习近平主席的全球治理倡议旨在通过国际合作推动全球治理体系更加公正合理。此次从天津到比什凯克的行动，体现了中国在国际事务中的领导力和对全球治理改革的坚定承诺。这将对提升中国在国际舞台上的影响力，以及推动全球治理体系朝着更加公正合理的方向发展产生深远影响。后续可能看到中国在国际合作中扮演更加积极的角色，以及全球治理体系改革的进一步深化。",
           "keywords": [
-            "中国制造",
-            "机器鸭",
-            "消费升级",
-            "科技创新",
-            "产业链"
+            "全球治理",
+            "中国倡议",
+            "国际合作",
+            "治理改革",
+            "国际影响"
           ],
-          "category": "economy",
-          "importance": 80,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E5%88%B6%E9%80%A0%E7%9A%84%E2%80%9C%E6%9C%BA%E5%99%A8%E9%B8%AD%E2%80%9D%E5%8D%96%E6%96%AD%E8%B4%A7"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTFhkTUNzREtzcm1Na1F2RmZkQy1oYkoxX0NqZ3V0dzZqaUwwQmJaTGFLSlAxR1VEb0lQOHdiOVptSnBmcmxOTUVULXJMM1pES0NPQUlCc1VxbE9ORmhLWFJPSEQyYWYxY3pXYVRVeFFHYWtocXotaEpGa0d0VHp1SFhqc2VqaEhjYjA2TXV3?oc=5"
             },
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/02/china-trump-iran-summit-nuclear-trade-tariffs-sanctions-.html"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/02/world/asia/china-egypt-xi-jinping-el-sisi.html"
             },
             {
               "name": "The Guardian",
@@ -1075,46 +818,14 @@
               "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
             }
           ],
-          "rank": 9
+          "rank": 2
         },
         {
-          "title": "青藏高原冰川加速消融",
-          "titleOrig": "国家气候中心：青藏高原气候变暖变湿背景下 冰川处于加速消融状态 - 东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZWGxLeEtxdWtRTFNhRkNmalNBS29YbDBDVkN2cUZGamNXejk4LWlhbm9OZ05tbGdpX1BqRVlZSi00SGItRUhNZGVOVjFGdEJqdHBKNXRNMHRkSHd1NTFhSlp3Z1k3Zw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T08:06:14+00:00",
-          "desc": "国家气候中心：青藏高原气候变暖变湿背景下 冰川处于加速消融状态 东方财富外交部谈喜马拉雅地区冰川退缩危机影响：任何一国都无法独善其身 凤凰网外交部：中方将继续同国际社会合作应对气候变化 thepaper.cn水利部：尼泊尔错坚河冲击坑周边冰川仍有崩落可能 中国日报网国家气候中心专家：全球变暖背景下未来冰崩频次将进一步上升 新浪财经",
-          "hotLabel": "",
-          "summary": "青藏高原冰川在气候变暖下加速消融。",
-          "analysis": "这一现象反映了全球气候变暖对中国青藏高原的影响，对国内意味着水资源分布可能改变，对生态和农业产生影响。对国际则显示中国在全球气候变化中的角色和挑战。后续可能看到中国政府采取更多措施应对气候变化。",
-          "keywords": [
-            "青藏高原",
-            "冰川消融",
-            "气候变化",
-            "水资源",
-            "生态"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZWGxLeEtxdWtRTFNhRkNmalNBS29YbDBDVkN2cUZGamNXejk4LWlhbm9OZ05tbGdpX1BqRVlZSi00SGItRUhNZGVOVjFGdEJqdHBKNXRNMHRkSHd1NTFhSlp3Z1k3Zw?oc=5"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "救援！再难也要继续",
-          "titleOrig": "救援救援！再难也要继续",
-          "url": "https://www.baidu.com/s?wd=%E6%95%91%E6%8F%B4%E6%95%91%E6%8F%B4%EF%BC%81%E5%86%8D%E9%9A%BE%E4%B9%9F%E8%A6%81%E7%BB%A7%E7%BB%AD",
-          "source": "百度热搜",
-          "sourceId": "baidu",
+          "title": "过度托举孩子是否会导致被养废",
+          "titleOrig": "被父母全力托举的孩子会不会被养废",
+          "url": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%88%B6%E6%AF%8D%E5%85%A8%E5%8A%9B%E6%89%98%E4%B8%BE%E7%9A%84%E5%AD%A9%E5%AD%90%E4%BC%9A%E4%B8%8D%E4%BC%9A%E8%A2%AB%E5%85%BB%E5%BA%9F&t=31&band_rank=15&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1122,160 +833,67 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "强调救援工作的重要性。",
-          "analysis": "该新闻反映了我国在自然灾害和紧急情况下的救援决心。救援工作不仅是对生命的尊重，也是国家治理能力和社会文明程度的体现。未来，我国将继续加强应急救援体系建设，提高救援效率。",
+          "summary": "微博热议过度托举孩子的问题。",
+          "analysis": "这一话题反映了社会对教育方式和儿童成长的关注。对国内民生而言，这可能意味着对教育理念的反思和对儿童心理健康重视的提升。对经济可能带来对教育产品和服务的需求。后续可能引发对教育改革和家庭教育的讨论。",
           "keywords": [
-            "救援",
-            "紧急情况",
-            "自然灾害",
-            "救援工作",
-            "国家治理"
+            "过度托举",
+            "教育方式",
+            "儿童成长",
+            "家庭教育"
           ],
           "category": "society",
-          "importance": 75,
+          "importance": 85,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E6%95%91%E6%8F%B4%E6%95%91%E6%8F%B4%EF%BC%81%E5%86%8D%E9%9A%BE%E4%B9%9F%E8%A6%81%E7%BB%A7%E7%BB%AD"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E8%A2%AB%E7%88%B6%E6%AF%8D%E5%85%A8%E5%8A%9B%E6%89%98%E4%B8%BE%E7%9A%84%E5%AD%A9%E5%AD%90%E4%BC%9A%E4%B8%8D%E4%BC%9A%E8%A2%AB%E5%85%BB%E5%BA%9F&t=31&band_rank=15&Refer=top"
             }
           ],
-          "rank": 11
+          "rank": 3
         },
         {
-          "title": "于东来痛批明星扎堆直播带货",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E7%97%9B%E6%89%B9%E6%98%8E%E6%98%9F%E6%89%8E%E5%A0%86%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "于东来批评明星直播带货现象。",
-          "analysis": "该事件揭示了直播带货行业存在的问题，如产品质量参差不齐、虚假宣传等。社会成因包括消费者对便捷购物的需求、明星效应等。对消费者权益和市场经济秩序造成负面影响。后续可能加强直播带货的监管，规范市场行为。",
-          "keywords": [
-            "直播带货",
-            "明星效应",
-            "消费者权益",
-            "市场监管",
-            "虚假宣传"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%BA%8E%E4%B8%9C%E6%9D%A5%E7%97%9B%E6%89%B9%E6%98%8E%E6%98%9F%E6%89%8E%E5%A0%86%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7"
-            },
-            {
-              "name": "今日头条",
-              "url": "https://www.toutiao.com/trending/7680239602439864347/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%226%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227680239602439864347%22%2C%22hot_board_impr_id%22%3A%2220260902010313070059012EF6EFD43E88%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E4%BA%8E%E4%B8%9C%E6%9D%A5%E7%97%9B%E6%89%B9%E6%98%8E%E6%98%9F%E6%89%8E%E5%A0%86%E7%9B%B4%E6%92%AD%E5%B8%A6%E8%B4%A7%22%7D&rank=&style_id=40132&topic_id=7680239602439864347"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "校方回应1个班级超80人",
-          "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%941%E4%B8%AA%E7%8F%AD%E7%BA%A7%E8%B6%8580%E4%BA%BA",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "学校回应班级人数超80人的情况。",
-          "analysis": "该事件反映了教育资源分配不均的问题。社会成因包括人口增长、教育资源不足等。对民生和教育公平有较大影响。后续可能出台政策优化教育资源分配，提高教育质量。",
-          "keywords": [
-            "教育资源",
-            "班级人数",
-            "教育公平",
-            "教育质量",
-            "政策调整"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E6%A0%A1%E6%96%B9%E5%9B%9E%E5%BA%941%E4%B8%AA%E7%8F%AD%E7%BA%A7%E8%B6%8580%E4%BA%BA"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "外交部：中方正筹备第三批对尼泊尔紧急援助物资",
-          "titleOrig": "外交部：中方正筹备第三批对尼泊尔紧急援助物资 - 广州日报新花城",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTmJwRTF5aFluWE9RU1JZZ3g1RV9ES1hDYmFENzNRcnBLWnJNUzZpczU5NmJidDFIQWkzaTUzRVpWN3VZNzUtb3VVRkRjNEluVm5IYkotVHVYRm13d1hnOV9keEJxc1ZqbThtNmtSQXNPbW9kam1VcVl3YVkwOWtfYm1HMS1DWUl5YXc?oc=5",
+          "title": "第十五届中国知识产权年会召开",
+          "titleOrig": "第十五届中国知识产权年会将于9月8日至9日在北京举行 - news.youth.cn",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zSHdtZHhwT0dnaEh1Q2R2UVRHVmRLLWlXTEx1TmZBd2xURDZiMEFtTnVMVWRXcUJBdEpIZmI2cHdlRE1hWkdSejFDSnF1NFBsQWVPNm03Q2ZQNFBSZ1pIUTRIYWU?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-02T07:46:00+00:00",
-          "desc": "外交部：中方正筹备第三批对尼泊尔紧急援助物资 广州日报新花城中国对尼泊尔第二批援助物资启运 新浪财经中使馆驳斥阿根廷官员：立即停止涉华谣言 观察者中国对尼泊尔第二批援助物资运抵交付 援助专家随机抵达 world.gmw.cn中国对尼泊尔第二批援助物资运抵加德满都 央视网",
+          "publishedAt": "2026-09-02T01:09:00+00:00",
+          "desc": "第十五届中国知识产权年会将于9月8日至9日在北京举行 news.youth.cn在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "中国外交部宣布正在筹备第三批对尼泊尔的紧急援助物资。",
-          "analysis": "这体现了中国对尼泊尔地震灾区的持续关注和援助。中国对尼泊尔的援助不仅展现了大国担当，也促进了中尼两国之间的友好关系。对国内而言，这有助于提升中国的国际形象和软实力。后续可能包括更多的援助行动和两国在多领域的合作。",
+          "summary": "中国知识产权年会聚焦知识产权保护与创新发展。",
+          "analysis": "背景：知识产权保护是国家创新驱动发展战略的重要组成部分。本次年会旨在推动知识产权领域的交流与合作，强化知识产权保护意识。关键影响：有助于提升国内知识产权保护水平，促进创新成果转化。后续走向：预计将推动更多相关政策出台，加强知识产权保护。",
           "keywords": [
-            "外交部",
-            "尼泊尔",
-            "援助物资",
-            "地震灾区",
-            "国际合作"
+            "知识产权",
+            "创新",
+            "保护",
+            "政策",
+            "合作"
           ],
-          "category": "international",
-          "importance": 75,
+          "category": "society",
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTmJwRTF5aFluWE9RU1JZZ3g1RV9ES1hDYmFENzNRcnBLWnJNUzZpczU5NmJidDFIQWkzaTUzRVpWN3VZNzUtb3VVRkRjNEluVm5IYkotVHVYRm13d1hnOV9keEJxc1ZqbThtNmtSQXNPbW9kam1VcVl3YVkwOWtfYm1HMS1DWUl5YXc?oc=5"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "《平“语”近人》阿拉伯语版在埃及播出，习近平讲话强调上合组织发展",
-          "titleOrig": "启播！《平“语”近人——习近平喜欢的典故》（阿拉伯语版）在埃及主流媒体播出 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EUzE4ZVFPSlpmTzVtdG5PMkNTVk1vMW9NOUZSN2d4MFJzakhNOFFyaW51N0RrUHYxcUc5cXpxQ1dHbFd4QmRFWVgwYXRPT0V6TmJmeWNCZEhsMEFxTXpTSG1rTjF5UG81?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-02T03:15:36+00:00",
-          "desc": "启播！《平“语”近人——习近平喜欢的典故》（阿拉伯语版）在埃及主流媒体播出 chinanews.com.cn习近平在上海合作组织成员国元首理事会第二十六次会议上的讲话（全文） 北京市人民政府门户网站时政新闻眼丨推动上合组织实现更高质量发展，习近平为何强调这句话？ China Daily学习进行时丨“我将无我、不负人民”的世界回响 光明网‍‍一见·“中国之治”的时代回响 央视网",
-          "hotLabel": "",
-          "summary": "《平“语”近人》阿拉伯语版在埃及播出，习近平讲话强调上合组织高质量发展。",
-          "analysis": "此事件体现了中国文化的国际传播和上合组织在地区事务中的影响力。习近平的讲话强调了上合组织在推动区域合作和共同发展中的作用，显示了中国在地区安全和经济一体化方面的领导力。",
-          "keywords": [
-            "习近平",
-            "上合组织",
-            "中国文化",
-            "埃及",
-            "区域合作"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5EUzE4ZVFPSlpmTzVtdG5PMkNTVk1vMW9NOUZSN2d4MFJzakhNOFFyaW51N0RrUHYxcUc5cXpxQ1dHbFd4QmRFWVgwYXRPT0V6TmJmeWNCZEhsMEFxTXpTSG1rTjF5UG81?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE8zSHdtZHhwT0dnaEh1Q2R2UVRHVmRLLWlXTEx1TmZBd2xURDZiMEFtTnVMVWRXcUJBdEpIZmI2cHdlRE1hWkdSejFDSnF1NFBsQWVPNm03Q2ZQNFBSZ1pIUTRIYWU?oc=5"
             },
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/01/world/asia/g20-meeting-china-trump-bishkek.html"
+              "url": "https://www.nytimes.com/2026/09/02/world/asia/china-egypt-xi-jinping-el-sisi.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
             }
           ],
-          "rank": 15
+          "rank": 4
         },
         {
           "title": "西藏日喀则吉隆口岸发生泥石流",
@@ -1291,30 +909,30 @@
           "desc": "",
           "hotLabel": "#1",
           "summary": "西藏日喀则吉隆口岸发生泥石流，影响交通。",
-          "analysis": "此次泥石流事件可能与气候变化和地质条件有关，体现了我国西部地区的自然灾害频发。对当地交通和居民生活造成影响，同时也考验了我国应急响应和救援能力。后续可能需要加强地质监测和基础设施建设，提高抗灾能力。",
+          "analysis": "事件背景：西藏地区地质条件复杂，自然灾害频发。政策意图：加强边疆地区基础设施建设，提高抗灾能力。关键影响：可能影响边境贸易和地区稳定。后续走向：政府将加强灾后重建和防灾减灾工作。",
           "keywords": [
             "泥石流",
             "西藏",
             "吉隆口岸",
             "自然灾害",
-            "救援"
+            "抗灾能力"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "domestic",
+          "importance": 80,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E8%A5%BF%E8%97%8F%E6%97%A5%E5%96%80%E5%88%99%E5%90%89%E9%9A%86%E5%8F%A3%E5%B2%B8%E5%8F%91%E7%94%9F%E6%B3%A5%E7%9F%B3%E6%B5%81"
             }
           ],
-          "rank": 16
+          "rank": 5
         },
         {
-          "title": "综艺节目不能“拍完就走”",
-          "titleOrig": "人民日报：综艺节目不能“拍完就走”",
-          "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E7%BB%BC%E8%89%BA%E8%8A%82%E7%9B%AE%E4%B8%8D%E8%83%BD%E2%80%9C%E6%8B%8D%E5%AE%8C%E5%B0%B1%E8%B5%B0%E2%80%9D",
-          "source": "百度热搜",
-          "sourceId": "baidu",
+          "title": "皇马错误地将西藏与尼泊尔并列",
+          "titleOrig": "皇马将西藏与尼泊尔并列拒绝改正",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E5%B0%86%E8%A5%BF%E8%97%8F%E4%B8%8E%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%B9%B6%E5%88%97%E6%8B%92%E7%BB%9D%E6%94%B9%E6%AD%A3%23&t=31&band_rank=13&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1322,125 +940,490 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "人民日报强调综艺节目需持续关注内容质量。",
-          "analysis": "该新闻反映了当前中国综艺节目市场存在的问题，如内容同质化、忽视社会责任等。政策意图在于规范市场秩序，提升节目质量，引导节目制作方承担社会责任。对国内民生影响较小，但对文化产业发展和社会主义核心价值观的传播具有重要意义。后续可能出台更严格的行业规范和监管措施。",
+          "summary": "皇马在地图上错误地将西藏与尼泊尔并列。",
+          "analysis": "这一事件体现了国际社会对西藏问题的关注。对国内民生而言，这可能是对国家主权和领土完整的强调。对国际关系而言，可能引发外交争议，需要通过外交途径解决。后续可能影响国际社会对西藏问题的认知。",
           "keywords": [
-            "综艺节目",
-            "社会责任",
-            "内容质量",
-            "政策监管",
-            "文化产业发展"
+            "西藏问题",
+            "国家主权",
+            "国际关系",
+            "外交争议"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E7%9A%87%E9%A9%AC%E5%B0%86%E8%A5%BF%E8%97%8F%E4%B8%8E%E5%B0%BC%E6%B3%8A%E5%B0%94%E5%B9%B6%E5%88%97%E6%8B%92%E7%BB%9D%E6%94%B9%E6%AD%A3%23&t=31&band_rank=13&Refer=top"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "中印尼双本币交易前7个月达388.72亿美元",
+          "titleOrig": "中印尼双本币交易前7个月达388.72亿美元 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aVDBHeGUyVTlUYXpyc0dWODJVWl9XVlprV2dKTzNENkdka0ZwRVdFTnpuZXdUaUUxWVRuaU1zcUF6ZGl4UzNiMTRSWTV2VUJ1WjlVUnMtdF9HaFA0Y1ZkbkFDOGJuSWxF?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-02T14:44:04+00:00",
+          "desc": "中印尼双本币交易前7个月达388.72亿美元 chinanews.com.cn",
+          "hotLabel": "",
+          "summary": "中印尼双本币交易额显著增长。",
+          "analysis": "中印尼双本币交易的增长反映了两国经济合作的加深。这一举措有助于降低汇率风险，促进贸易便利化，对双边经济关系有积极意义。对国内经济而言，这有助于扩大对外贸易，促进经济增长。后续可能看到更多类似的双边货币合作，进一步促进区域经济一体化。",
+          "keywords": [
+            "中印尼经济合作",
+            "双本币交易",
+            "贸易便利化",
+            "经济增长",
+            "区域一体化"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9aVDBHeGUyVTlUYXpyc0dWODJVWl9XVlprV2dKTzNENkdka0ZwRVdFTnpuZXdUaUUxWVRuaU1zcUF6ZGl4UzNiMTRSWTV2VUJ1WjlVUnMtdF9HaFA0Y1ZkbkFDOGJuSWxF?oc=5"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "上合示范区释放区域经贸合作新动能",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E5%90%88%E7%A4%BA%E8%8C%83%E5%8C%BA%E9%87%8A%E6%94%BE%E5%8C%BA%E5%9F%9F%E7%BB%8F%E8%B4%B8%E5%90%88%E4%BD%9C%E6%96%B0%E5%8A%A8%E8%83%BD%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "上合示范区推动区域经贸合作取得新进展。",
+          "analysis": "背景：上合示范区旨在深化上合组织成员国之间的经贸合作。关键影响：有助于促进区域经济一体化，提升我国在区域经济中的影响力。后续走向：预计将进一步推动区域合作机制，促进贸易便利化。",
+          "keywords": [
+            "上合组织",
+            "经贸合作",
+            "区域经济",
+            "一体化",
+            "合作机制"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%8A%E5%90%88%E7%A4%BA%E8%8C%83%E5%8C%BA%E9%87%8A%E6%94%BE%E5%8C%BA%E5%9F%9F%E7%BB%8F%E8%B4%B8%E5%90%88%E4%BD%9C%E6%96%B0%E5%8A%A8%E8%83%BD%23&t=31&band_rank=3&Refer=top"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "女性内衣加抗癌药成分引争议",
+          "titleOrig": "女性内衣加抗癌药紫杉醇成分引争议",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%80%A7%E5%86%85%E8%A1%A3%E5%8A%A0%E6%8A%97%E7%99%8C%E8%8D%AF%E7%B4%AB%E6%9D%89%E9%86%87%E6%88%90%E5%88%86%E5%BC%95%E4%BA%89%E8%AE%AE%23&t=31&band_rank=10&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "女性内衣添加抗癌药物成分引发社会争议。",
+          "analysis": "该事件反映了市场上对产品安全性和有效性的关注。若内衣添加抗癌药物成分无明确科学依据，可能对消费者健康造成潜在风险。此事件可能促使监管部门加强对相关产品的审查，提高市场准入门槛，保障消费者权益。后续可能引发对医疗产品与日常用品交叉使用的讨论。",
+          "keywords": [
+            "女性内衣",
+            "抗癌药物",
+            "产品安全",
+            "监管",
+            "消费者权益"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E6%80%A7%E5%86%85%E8%A1%A3%E5%8A%A0%E6%8A%97%E7%99%8C%E8%8D%AF%E7%B4%AB%E6%9D%89%E9%86%87%E6%88%90%E5%88%86%E5%BC%95%E4%BA%89%E8%AE%AE%23&t=31&band_rank=10&Refer=top"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "亚太民间社会会议在济南开幕",
+          "titleOrig": "亚太民间社会会议在济南开幕 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSGNlbVlDcEN0WXc5YmI0Tm42VzVZdDhNQXJ3aFgxOVdObXlNU1JkYUpUWWNZcUlNcWxjdS1lcktyX3RJRTJzdzctOTVmUmk5b2hXUVNPbENVU0ZSQVN0ZlFiQ2VsaVJTMXlyWDVwTmFqekt6RE9BczZJeWR3UXItN0xCZTN1Zw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-02T13:51:07+00:00",
+          "desc": "亚太民间社会会议在济南开幕 新华网亚太民间社会会议｜越南友人潘氏茶楣：山东人真诚仗义，让我把山东当家 Sohu亚太民间社会会议｜美国大学生：很高兴能学习中国文化 济南是一座非常美丽的城市 Sohu越南博士茶楣的齐鲁情缘：从留学生到中越合作“架桥人” Sohu",
+          "hotLabel": "",
+          "summary": "亚太民间社会会议在济南举行。",
+          "analysis": "事件背景：亚太地区民间交流与合作日益加强。政策意图：促进地区民间交流，深化友好合作。关键影响：有助于提升中国在国际社会中的影响力。后续走向：会议成果将推动区域合作进一步发展。",
+          "keywords": [
+            "亚太民间社会会议",
+            "济南",
+            "民间交流",
+            "国际合作",
+            "区域合作"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOSGNlbVlDcEN0WXc5YmI0Tm42VzVZdDhNQXJ3aFgxOVdObXlNU1JkYUpUWWNZcUlNcWxjdS1lcktyX3RJRTJzdzctOTVmUmk5b2hXUVNPbENVU0ZSQVN0ZlFiQ2VsaVJTMXlyWDVwTmFqekt6RE9BczZJeWR3UXItN0xCZTN1Zw?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "年轻人断亲潮兴起",
+          "titleOrig": "年轻人断亲潮",
+          "url": "https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%96%AD%E4%BA%B2%E6%BD%AE&t=31&band_rank=14&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "微博热议年轻人断亲现象。",
+          "analysis": "这一现象可能反映了社会变迁中家庭关系的变化。对国内社会而言，这可能意味着家庭结构的变化和传统家庭观念的挑战。对经济可能带来对家庭服务行业的影响。后续可能引发对家庭关系和社会结构的深入讨论。",
+          "keywords": [
+            "断亲潮",
+            "家庭关系",
+            "社会变迁",
+            "家庭服务"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%B9%B4%E8%BD%BB%E4%BA%BA%E6%96%AD%E4%BA%B2%E6%BD%AE&t=31&band_rank=14&Refer=top"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "四川省绵阳市人大常委会原党组成员、副主任周琳接受审查调查",
+          "titleOrig": "四川省绵阳市人大常委会原党组成员、副主任周琳接受审查调查 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2UlViVGdMSVJoV3FzZWZ6bWRMU1h0LW1UWFY3dkVDSE5UVjM0SU1pbk94ZXFKLV92MEtsdXJVN2d4bTI0M1hmV0NUVEREd3FZWXl6LVdickxKeHk2dENiTnNNTWN3Nm95?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-02T12:33:53+00:00",
+          "desc": "四川省绵阳市人大常委会原党组成员、副主任周琳接受审查调查 chinanews.com.cn主动投案，四川省绵阳市人大常委会原副主任周琳接受审查调查 网易新闻客户端绵阳市人大常委会原党组成员、副主任周琳主动投案 接受纪律审查和监察调查 川观新闻",
+          "hotLabel": "",
+          "summary": "四川省绵阳市人大常委会原副主任周琳接受审查调查。",
+          "analysis": "周琳的审查调查体现了中国反腐败斗争的深入推进。这一事件反映了政府对腐败零容忍的态度，对维护政府形象和公信力具有重要意义。对国内民生而言，这有助于提高政府透明度和廉洁度，对经济和社会治理也有积极影响。后续可能看到更多类似的高层官员接受审查调查，进一步净化政治生态。",
+          "keywords": [
+            "反腐败",
+            "审查调查",
+            "政府形象",
+            "政治生态",
+            "社会治理"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%EF%BC%9A%E7%BB%BC%E8%89%BA%E8%8A%82%E7%9B%AE%E4%B8%8D%E8%83%BD%E2%80%9C%E6%8B%8D%E5%AE%8C%E5%B0%B1%E8%B5%B0%E2%80%9D"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFA2UlViVGdMSVJoV3FzZWZ6bWRMU1h0LW1UWFY3dkVDSE5UVjM0SU1pbk94ZXFKLV92MEtsdXJVN2d4bTI0M1hmV0NUVEREd3FZWXl6LVdickxKeHk2dENiTnNNTWN3Nm95?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "手机涨价 卖不动",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E6%B6%A8%E4%BB%B7%20%E5%8D%96%E4%B8%8D%E5%8A%A8&t=31&band_rank=4&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "手机市场面临价格上涨和销售压力。",
+          "analysis": "背景：手机市场受原材料价格上涨和供应链紧张等因素影响。关键影响：可能导致消费者购买力下降，影响手机行业整体销量。后续走向：预计手机厂商将调整产品策略，降低成本。",
+          "keywords": [
+            "手机市场",
+            "价格上涨",
+            "销售压力",
+            "供应链",
+            "成本调整"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E6%89%8B%E6%9C%BA%E6%B6%A8%E4%BB%B7%20%E5%8D%96%E4%B8%8D%E5%8A%A8&t=31&band_rank=4&Refer=top"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "深圳校服引发网友共鸣",
+          "titleOrig": "深圳校服为什么引发网友共鸣",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%A0%A1%E6%9C%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%95%E5%8F%91%E7%BD%91%E5%8F%8B%E5%85%B1%E9%B8%A3%23&t=31&band_rank=6&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "深圳校服设计引发网友关注和讨论。",
+          "analysis": "深圳校服设计体现了对青少年审美教育的重视，背后反映了教育部门对学生形象和校园文化的关注。此举可能促进教育部门对校服设计标准的进一步规范，提升校服质量，同时对学生身心健康和审美观念的培养具有重要意义。后续可能引发更多关于学生服饰和校园文化的讨论。",
+          "keywords": [
+            "深圳校服",
+            "教育",
+            "校园文化",
+            "审美教育",
+            "学生形象"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E6%A0%A1%E6%9C%8D%E4%B8%BA%E4%BB%80%E4%B9%88%E5%BC%95%E5%8F%91%E7%BD%91%E5%8F%8B%E5%85%B1%E9%B8%A3%23&t=31&band_rank=6&Refer=top"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "老一辈烹饪技艺高超",
+          "titleOrig": "才知道老一辈做饭比我们更狠",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%89%8D%E7%9F%A5%E9%81%93%E8%80%81%E4%B8%80%E8%BE%88%E5%81%9A%E9%A5%AD%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E7%8B%A0%23&t=31&band_rank=8&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "微博热议老一辈烹饪技艺。",
+          "analysis": "这反映了社会对传统生活方式的怀旧情绪，可能暗示着对现代快节奏生活的反思。在社会层面，这可能促进对传统文化和生活方式的重视，对经济可能带来对传统手艺的培训和传承需求。后续可能引发更多关于传统与现代生活方式的讨论。",
+          "keywords": [
+            "烹饪技艺",
+            "传统生活方式",
+            "社会怀旧",
+            "文化传承"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%89%8D%E7%9F%A5%E9%81%93%E8%80%81%E4%B8%80%E8%BE%88%E5%81%9A%E9%A5%AD%E6%AF%94%E6%88%91%E4%BB%AC%E6%9B%B4%E7%8B%A0%23&t=31&band_rank=8&Refer=top"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "援赤几中国医疗队“光明行”服务当地民众超千人",
+          "titleOrig": "援赤几中国医疗队“光明行” 服务当地民众超千人 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OQndOdF9yOE9lRHg5ZEdCMk1qRjg2TktBc05qSFB4dWIzb3ZJZGlSeUVIYWNyVnBBdjk2OFF1VFVGbm54NkxXejBJQzRkXzBHSTF0STA3em5rQjlxWHZVVEZwNTNIWW9I?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-02T14:02:09+00:00",
+          "desc": "援赤几中国医疗队“光明行” 服务当地民众超千人 chinanews.com.cn",
+          "hotLabel": "",
+          "summary": "中国医疗队为赤道几内亚民众提供医疗服务。",
+          "analysis": "中国医疗队“光明行”活动体现了中国对全球公共卫生事业的贡献。这一行动有助于提升中国在国际社会中的形象，同时也有利于加强中非之间的友好关系。对国内社会而言，这有助于展示中国负责任的大国形象，对国际关系也有积极影响。后续可能看到更多类似的人道主义援助活动。",
+          "keywords": [
+            "医疗援助",
+            "中非关系",
+            "国际形象",
+            "公共卫生",
+            "人道主义"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9OQndOdF9yOE9lRHg5ZEdCMk1qRjg2TktBc05qSFB4dWIzb3ZJZGlSeUVIYWNyVnBBdjk2OFF1VFVGbm54NkxXejBJQzRkXzBHSTF0STA3em5rQjlxWHZVVEZwNTNIWW9I?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/02/world/asia/china-egypt-xi-jinping-el-sisi.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "那个用防窥屏的朋友",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E9%82%A3%E4%B8%AA%E7%94%A8%E9%98%B2%E7%AA%A5%E5%B1%8F%E7%9A%84%E6%9C%8B%E5%8F%8B&t=31&band_rank=5&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "防窥屏成为社交媒体热点。",
+          "analysis": "背景：随着智能手机普及，用户对隐私保护的需求增加。关键影响：防窥屏技术可能成为智能手机的标配，提升用户隐私保护意识。后续走向：预计将推动相关技术研发和应用。",
+          "keywords": [
+            "防窥屏",
+            "隐私保护",
+            "智能手机",
+            "技术应用",
+            "用户需求"
+          ],
+          "category": "tech",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E9%82%A3%E4%B8%AA%E7%94%A8%E9%98%B2%E7%AA%A5%E5%B1%8F%E7%9A%84%E6%9C%8B%E5%8F%8B&t=31&band_rank=5&Refer=top"
             }
           ],
           "rank": 17
         },
         {
-          "title": "西藏吉隆未来三天多降雨，气候变暖致山地冰川加速消融",
-          "titleOrig": "西藏吉隆未来三天多降雨，气候变暖致山地冰川加速消融 - 京报网",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FSnVaV1hqMEd1MFlCRlN5WTBtTDhURVN3XzlNNGsyWUJxM240Wk1aMjFKLWJIeTRWU3pSXzJOOHJWQkd4YUVCaTZGRV9aTUpMT0JOcnNmaGxic2ZtZEE?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "断亲潮 八成年轻人一年只联系一两次",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E6%96%AD%E4%BA%B2%E6%BD%AE%20%E5%85%AB%E6%88%90%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%80%E5%B9%B4%E5%8F%AA%E8%81%94%E7%B3%BB%E4%B8%80%E4%B8%A4%E6%AC%A1&t=31&band_rank=12&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-02T07:26:18+00:00",
-          "desc": "西藏吉隆未来三天多降雨，气候变暖致山地冰川加速消融 京报网216国道全线抢通！深层搜救全面展开 观察者西藏吉隆泥石流灾害保险业初步估损4.5亿元|西藏自治区|意外保险|金融监管|银行业|人保财险 新浪新闻救援背后的“生命线” 中国日报网消防救援队伍在吉隆泥石流受灾区域持续开展排查搜寻 Sohu",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "西藏吉隆地区未来三天将有大量降雨，气候变暖导致冰川消融加剧。",
-          "analysis": "这一事件反映了全球气候变暖对中国的具体影响。山地冰川加速消融可能导致水资源短缺、生态环境恶化等问题，对当地居民生活和经济产生负面影响。同时，这也体现了中国政府在应对气候变化方面的挑战和责任。后续可能包括加强环境保护政策、提高灾害预警能力等措施。",
+          "summary": "八成年轻人一年只与亲人联系一两次，引发“断亲潮”讨论。",
+          "analysis": "这一现象反映了现代社会中家庭关系的变化，可能与社会节奏加快、生活方式多样化等因素有关。它对家庭关系和社会支持网络产生影响，可能促使社会关注家庭关系的维护和年轻人心理健康。后续可能推动家庭关系教育和沟通方式的变革。",
           "keywords": [
-            "西藏吉隆",
-            "降雨",
-            "气候变暖",
-            "冰川消融",
-            "环境保护"
+            "断亲潮",
+            "家庭关系",
+            "社会支持",
+            "心理健康",
+            "生活方式"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 65,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5FSnVaV1hqMEd1MFlCRlN5WTBtTDhURVN3XzlNNGsyWUJxM240Wk1aMjFKLWJIeTRWU3pSXzJOOHJWQkd4YUVCaTZGRV9aTUpMT0JOcnNmaGxic2ZtZEE?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E6%96%AD%E4%BA%B2%E6%BD%AE%20%E5%85%AB%E6%88%90%E5%B9%B4%E8%BD%BB%E4%BA%BA%E4%B8%80%E5%B9%B4%E5%8F%AA%E8%81%94%E7%B3%BB%E4%B8%80%E4%B8%A4%E6%AC%A1&t=31&band_rank=12&Refer=top"
             }
           ],
           "rank": 18
         },
         {
-          "title": "太原小学生新学期开学第一课",
-          "titleOrig": "太原小学生新学期开学第一课开讲 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FYU42a0QxWDRBUlVIOFZ4bGpLUllGWjVfRFZxWmIwcXVxZHIyZ0VPNFBTT29jcGQ2WHc4VS1seWxCYnZIaWExalctbWRRY1pJWFNPVE1kMkRYbjFod2d4RVR4dEtsNnMw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "皇马中国西藏",
+          "titleOrig": "皇马 中国西藏",
+          "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%20%E4%B8%AD%E5%9B%BD%E8%A5%BF%E8%97%8F&t=31&band_rank=11&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-02T07:43:05+00:00",
-          "desc": "太原小学生新学期开学第一课开讲 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "太原小学生新学期开学第一课举行。",
-          "analysis": "这是中国教育系统常规开学活动的体现，反映了国家对教育工作的重视。对国内意味着教育改革的持续推进，对民生有积极影响。后续可能看到更多教育改革措施的落实。",
+          "summary": "皇马与西藏相关新闻引发关注。",
+          "analysis": "皇马与西藏的联系可能涉及文化交流、体育合作等方面。此类国际体育机构的参与有助于提升西藏在国际上的知名度和形象，同时可能促进西藏地区的经济发展和文化交流。后续可能看到更多国际交流与合作项目的开展。",
           "keywords": [
-            "太原",
-            "小学生",
-            "开学",
-            "教育",
-            "改革"
+            "皇马",
+            "西藏",
+            "文化交流",
+            "体育合作",
+            "国际形象"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 60,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5FYU42a0QxWDRBUlVIOFZ4bGpLUllGWjVfRFZxWmIwcXVxZHIyZ0VPNFBTT29jcGQ2WHc4VS1seWxCYnZIaWExalctbWRRY1pJWFNPVE1kMkRYbjFod2d4RVR4dEtsNnMw?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E7%9A%87%E9%A9%AC%20%E4%B8%AD%E5%9B%BD%E8%A5%BF%E8%97%8F&t=31&band_rank=11&Refer=top"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/02/world/asia/china-egypt-xi-jinping-el-sisi.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/02/hong-kong-pro-democracy-activist-joshua-wong-pleads-guilty-collusion-china"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/sep/01/shein-shares-slide-fast-fashion-retailer-stock-market-debut-hong-kong"
             }
           ],
           "rank": 19
         },
         {
-          "title": "燧原科技申购，中际旭创回购股份，AI芯片行业动态",
-          "titleOrig": "盘前速递丨 9月2日（周三）燧原科技今日申购；中际旭创首次回购股份支付3.18亿元 - 央广财经",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzdTRrT0p6V1VpNmNxZkJTS0IxZEM5ME9PaTdkTmFmSTZEVHNmVFJRNEJTYkV0d3MtVEtvVVFYM2FrNFlJaW5LR18xQ2UyQXM2aGZSTjJwZW5Jc3pweWROdURpTmFXRlJ6SXBfaklkTQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "杨洋花少口碑",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E8%8A%B1%E5%B0%91%E5%8F%A3%E7%A2%91%23&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-02T01:02:38+00:00",
-          "desc": "盘前速递丨 9月2日（周三）燧原科技今日申购；中际旭创首次回购股份支付3.18亿元 央广财经又一家“中国英伟达”将上市：腾讯既是最大股东 也是最大客户 驱动之家清华“芯片首富班”，又走来一个600亿公司 新浪财经燧原科技 vs 腾信精密：科创板权限和2737万资金，你打哪只？ 凤凰网肉签来了！中一签或赚超28万，AI芯片龙头开启申购，腾讯、小米、兆易、中兴、华虹现身豪华战配名单 Sohu",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "燧原科技申购，中际旭创回购股份，AI芯片行业迎来新动态。",
-          "analysis": "燧原科技和中际旭创的动态反映了AI芯片行业的发展趋势。随着AI技术的不断进步和应用领域的扩大，AI芯片行业有望获得更多的投资和关注，推动相关产业链的发展。",
+          "summary": "杨洋在《花少》节目中表现引发热议。",
+          "analysis": "事件背景：杨洋作为明星参与综艺节目，受到粉丝和观众的广泛关注。社会成因：娱乐圈明星效应和粉丝文化。关键影响：对明星个人形象和节目口碑有较大影响。后续走向：节目将根据观众反馈进行调整。",
           "keywords": [
-            "燧原科技",
-            "中际旭创",
-            "AI芯片",
-            "申购",
-            "回购股份"
+            "杨洋",
+            "花少",
+            "明星效应",
+            "粉丝文化",
+            "节目口碑"
           ],
-          "category": "tech",
+          "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBzdTRrT0p6V1VpNmNxZkJTS0IxZEM5ME9PaTdkTmFmSTZEVHNmVFJRNEJTYkV0d3MtVEtvVVFYM2FrNFlJaW5LR18xQ2UyQXM2aGZSTjJwZW5Jc3pweWROdURpTmFXRlJ6SXBfaklkTQ?oc=5"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E5%8D%8E%E4%B8%BA%E3%80%81%E5%B0%8F%E7%B1%B3%E3%80%81%E8%8D%A3%E8%80%80%E5%9B%9E%E5%BA%94%E6%B6%A8%E4%BB%B7"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E6%89%8B%E6%9C%BA%E4%B8%80%E5%A4%9C%E6%B6%A8%E4%BB%B7%EF%BC%81%E8%B5%B6%E7%B4%A7%E4%B8%8B%E6%89%8B%E8%BF%98%E6%98%AF%E7%AD%89%E7%AD%89"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%9D%A8%E6%B4%8B%E8%8A%B1%E5%B0%91%E5%8F%A3%E7%A2%91%23&t=31&band_rank=7&Refer=top"
             }
           ],
           "rank": 20
