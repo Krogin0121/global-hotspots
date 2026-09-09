@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-09T02:01:03.320172+00:00",
+  "generatedAt": "2026-09-09T10:23:36.851359+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 18,
+      "count": 20,
       "ok": true
     },
     {
@@ -90,12 +90,108 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，美伊紧张关系成为焦点。美国对伊朗油轮的袭击引发双方互怼，布伦特原油价格逼近每桶100美元，市场对能源供应担忧加剧。同时，美国高通收购芯片制造商股份，推动AI基础设施交易。德国极右翼政党AfD在州选举中获胜，对默克尔政府构成挑战。此外，新加坡总理薪资调整、Meta在印度广告问题、香港回归后首位领导人逝世等事件亦值得关注。整体来看，国际局势复杂多变，各方势力博弈加剧。",
+      "digest": "今日国际局势显示，地缘政治紧张局势加剧，经济领域亦出现显著变动。乌克兰预算缺口引发欧洲关注，美伊冲突升级，油价突破100美元大关，凸显地区安全风险。科技领域，OpenAI在数学难题上取得突破，而谷歌在AI基础设施上的投资则预示着未来技术竞争的焦点。同时，全球经济格局发生微妙变化，亚洲富豪资金转移、美加贸易战升级等事件，都反映了全球化背景下的经济动态。此外，香港回归后首位领导人董建华逝世，以及法国文化战争等事件，也反映了不同国家内部的政治和社会动态。总体来看，当前国际形势复杂多变，各方势力角力明显。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "美国摧毁五艘伊朗油轮回应袭击美军舰，特朗普称伊朗战争结束后油价将快速下跌",
-          "titleOrig": "U.S. military destroys five Iranian oil tankers after attempted attack on American warship, Centcom says",
+          "title": "乌克兰意外27亿美元预算缺口震撼欧洲",
+          "titleOrig": "Ukraine’s Unexpected $27 Billion Budget Gap Rattles Europe",
+          "url": "https://www.nytimes.com/2026/09/09/world/europe/ukraine-says-it-needs-27-billion-more-europe-wants-to-know-why.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T09:05:51+00:00",
+          "desc": "An unexpected request from President Volodymyr Zelensky offered a stark reminder that the cost of the war will rise, challenging Europe.",
+          "hotLabel": "",
+          "summary": "乌克兰总统泽连斯基提出预算缺口，提醒战争成本上升，挑战欧洲。",
+          "analysis": "乌克兰的预算缺口凸显了战争对经济的影响，对欧洲来说是一个警示。这可能导致欧洲对乌克兰的援助增加，也可能加剧欧洲内部的财政压力。乌克兰的局势将继续影响欧洲的安全和稳定，后续可能看到欧洲在乌克兰问题上的政策调整。",
+          "keywords": [
+            "乌克兰",
+            "预算缺口",
+            "战争成本",
+            "欧洲",
+            "经济影响"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/09/world/europe/ukraine-says-it-needs-27-billion-more-europe-wants-to-know-why.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "OpenAI称在88小时内解决了90年未解的纳维-斯托克斯方程问题",
+          "titleOrig": "OpenAI claims to have solved the 90-year-old Navier-Stokes math problem in 88 hours",
+          "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T08:34:55+00:00",
+          "desc": "OpenAI says 10,000 of its agents solved the 90-year-old Navier-Stokes problem in 88 hours, but one mathematician has challenged the claim.",
+          "hotLabel": "",
+          "summary": "OpenAI声称在88小时内解决纳维-斯托克斯方程问题。",
+          "analysis": "OpenAI的这一成就展示了人工智能在数学领域的突破，可能对科技和工程领域产生深远影响。然而，数学界的质疑表明这一成就仍需进一步验证。后续可能包括更多关于人工智能在科学研究中的应用讨论。",
+          "keywords": [
+            "OpenAI",
+            "纳维-斯托克斯方程",
+            "人工智能",
+            "数学",
+            "科学研究"
+          ],
+          "category": "tech",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/openai-navier-stokes-math-problem-solved.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "美国空袭伊朗油轮后，油价首次突破每桶100美元",
+          "titleOrig": "Oil hits $100 a barrel for first time since July after US and Houthi strikes",
+          "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T09:47:39+00:00",
+          "desc": "Brent crude - the global benchmark for prices - rises after the US hit five Iranian tankers on Tuesday",
+          "hotLabel": "",
+          "summary": "美国空袭伊朗油轮后，国际油价上涨。",
+          "analysis": "事件背景：美国对伊朗的空袭加剧了中东地区的紧张局势，导致市场对供应中断的担忧加剧。关键影响：油价上涨将对全球经济产生压力，特别是对依赖石油进口的国家。后续走向：若局势持续紧张，油价可能进一步上涨。关键词：油价，伊朗，美国，空袭，供应中断。category：international，importance：85",
+          "keywords": [
+            "油价",
+            "伊朗",
+            "美国",
+            "空袭",
+            "供应中断"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cyvznqypz0yo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "伊朗称报复美国在霍尔木兹海峡打击美军舰艇和油轮",
+          "titleOrig": "Iran says it hit American vessels, oil tankers in Hormuz in retaliation for U.S. strikes",
           "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
@@ -103,656 +199,536 @@
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-09T01:36:49+00:00",
+          "publishedAt": "2026-09-09T09:08:39+00:00",
           "desc": "The U.S. and Iran traded new attacks around the Strait of Hormuz, as President Donald Trump insists oil prices will drop fast once the Iran war ends.",
           "hotLabel": "",
-          "summary": "美国对伊朗油轮发动攻击，双方在霍尔木兹海峡交火，特朗普预测战争结束后油价将下跌。",
-          "analysis": "此次事件是美伊紧张关系升级的又一表现。背景是伊朗对美国在中东地区的战略布局构成挑战。攻击油轮事件对霍尔木兹海峡的航运安全构成威胁，可能导致油价上涨。特朗普的言论可能旨在安抚市场，但战争结束后油价走势仍存在不确定性。后续可能包括伊朗对美军事设施或船只的报复行动，以及国际社会的介入。",
+          "summary": "伊朗回应美国打击，称击中霍尔木兹海峡的美军舰艇和油轮。",
+          "analysis": "这一事件是美伊紧张关系升级的又一标志。背景是美国对伊朗的制裁和军事行动，伊朗的反击可能进一步加剧地区紧张。关键影响包括油价波动、区域安全风险增加，以及可能引发的更大规模冲突。后续走向取决于双方的克制程度和外交努力。",
           "keywords": [
-            "美伊冲突",
+            "伊朗",
+            "美国",
             "霍尔木兹海峡",
-            "油价",
-            "特朗普",
-            "军事行动"
+            "军事冲突",
+            "油价"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/08/iran-us-sub-strait-hormuz.html"
             }
           ],
-          "rank": 1
-        },
-        {
-          "title": "美国袭击伊朗油轮，称其试图攻击战舰",
-          "titleOrig": "U.S. Hits 5 Iranian Oil Tankers, Citing Attempted Strikes on Warship",
-          "url": "https://www.nytimes.com/2026/09/08/world/middleeast/us-strikes-iran-tankers.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-09T00:50:19+00:00",
-          "desc": "Iran retaliated by launching missiles at Jordan, raising the specter of still more fighting.",
-          "hotLabel": "",
-          "summary": "美国袭击伊朗油轮，伊朗以发射导弹攻击约旦回应。",
-          "analysis": "事件背景：美国对伊朗的袭击是对伊朗疑似袭击美国战舰的回应。关键影响：此次事件可能加剧中东地区紧张局势，影响全球能源市场。后续走向：双方可能进一步升级冲突，引发国际社会的关注和干预。",
-          "keywords": [
-            "美国",
-            "伊朗",
-            "袭击",
-            "战舰",
-            "中东"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/middleeast/us-strikes-iran-tankers.html"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "美国伊朗互怼升级，布伦特原油价格逼近每桶100美元",
-          "titleOrig": "Brent crude nears $100 a barrel as U.S.-Iran tit-for-tat strikes stoke supply worries",
-          "url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-09T00:33:31+00:00",
-          "desc": "Oil prices rose on Wednesday as escalating tensions between the U.S. and Iran fueled concerns over further disruptions to Middle East energy supplies,",
-          "hotLabel": "",
-          "summary": "美伊紧张关系导致中东能源供应担忧，油价上涨。",
-          "analysis": "美伊关系紧张是导致油价上涨的直接原因。这反映了中东地区地缘政治的不稳定性，对全球能源市场造成压力。长期来看，这可能导致能源供应紧张，进而影响全球经济。后续可能进一步加剧地缘政治风险，对全球金融市场造成冲击。",
-          "keywords": [
-            "美伊关系",
-            "地缘政治",
-            "能源市场",
-            "油价上涨",
-            "全球经济"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/09/oil-prices-today-wti-brent-us-iran-hormuz-attacks.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "高通向亚马逊发行股票认股权证，收购价值40亿美元的芯片制造商股份，作为AI基础设施交易的一部分",
-          "titleOrig": "Qualcomm issues warrants to Amazon to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
-          "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-08T20:12:25+00:00",
-          "desc": "Qualcomm is trying to move into the data center business, where Nvidia has been the dominant player in the AI boom.",
-          "hotLabel": "",
-          "summary": "高通寻求进入数据中心业务，与英伟达竞争AI市场。",
-          "analysis": "高通此举是为了应对数据中心业务中英伟达的领先地位，通过收购芯片制造商股份，加强在AI基础设施领域的布局。这表明科技巨头在AI领域的竞争日益激烈，同时也反映出数据中心业务在科技行业中的重要性。后续可能看到更多科技公司在AI领域的投资与合作。",
-          "keywords": [
-            "高通",
-            "亚马逊",
-            "AI",
-            "数据中心",
-            "芯片制造商"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html"
-            }
-          ],
           "rank": 4
         },
         {
-          "title": "卡尼表示对美国关税的报复是不可避免的",
-          "titleOrig": "Carney Says Retaliation Against U.S. Tariffs Was Unavoidable",
-          "url": "https://www.nytimes.com/2026/09/08/world/canada/carney-tariffs-trade.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
+          "title": "特朗普表示，若乌克兰战争迅速结束，美俄关系可完全恢复",
+          "titleOrig": "Trump told Putin U.S.-Russia ties could be 'fully restored' with swift end to Ukraine war, Kremlin says",
+          "url": "https://www.cnbc.com/2026/09/09/trump-putin-us-russia-ukraine-war.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T16:34:36+00:00",
-          "desc": "In a video address, the prime minister said the United States was seeking “dependency, not a true economic partnership” from Canada.",
+          "publishedAt": "2026-09-09T09:00:49+00:00",
+          "desc": "The leaders were said to have discussed recent U.S. envoy visits to Moscow and Kyiv as peace talks remain stalled.",
           "hotLabel": "",
-          "summary": "加拿大总理卡尼在视频讲话中表示，美国寻求的是对加拿大的依赖而非真正的经济伙伴关系。",
-          "analysis": "事件背景：美国对加拿大实施关税，引发了加拿大政府的反击。关键影响：这表明了美加关系中的经济紧张和依赖关系的复杂性，可能加剧北美自由贸易协定（NAFTA）的谈判难度。后续走向：双方可能进一步升级贸易争端，影响北美乃至全球贸易格局。",
+          "summary": "特朗普与普京讨论乌克兰战争，称关系可完全恢复。",
+          "analysis": "特朗普提出恢复美俄关系的条件，反映了美国对乌克兰战争的立场和对俄罗斯的外交策略。这可能会影响乌克兰战争的和平进程，并对国际政治格局产生重要影响。后续可能包括更多的外交谈判和战略调整。",
           "keywords": [
-            "美加关系",
-            "贸易战",
-            "NAFTA",
-            "关税",
-            "经济伙伴关系"
+            "特朗普",
+            "普京",
+            "乌克兰战争",
+            "美俄关系",
+            "和平谈判"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/canada/carney-tariffs-trade.html"
-            },
-            {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/canada-retaliatory-tariffs.html"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/us-canada-tariff-dispute-weighs-on-cross-border-ties/a-78815803?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.cnbc.com/2026/09/09/trump-putin-us-russia-ukraine-war.html"
             }
           ],
           "rank": 5
         },
         {
-          "title": "美国在伊朗海岸附近袭击油轮，伊朗革命卫队称将报复",
-          "titleOrig": "US strikes oil tankers off coast of Iran",
-          "url": "https://www.dw.com/en/us-strikes-oil-tankers-off-coast-of-iran/a-79194562?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "欧洲联合施压以色列，与美国决裂",
+          "titleOrig": "Europe Unites to Pressure Israel, Breaking With U.S.",
+          "url": "https://www.nytimes.com/2026/09/09/world/europe/britain-france-israel-settlements-trade.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T21:56:00+00:00",
-          "desc": "The US attacked four oil-carrying vessels in the Gulf of Oman and one in the Strait of Hormuz. Iran's Revolutionary Guard said it would strike ships off Bahrain and Kuwait in retaliation.",
+          "publishedAt": "2026-09-09T09:35:29+00:00",
+          "desc": "Britain once followed in France’s slipstream when it came to pressuring Israel. Under new leadership, it is spearheading opposition to Israeli settlements, risking American anger.",
           "hotLabel": "",
-          "summary": "美国袭击了四艘在阿曼湾的油轮和一艘在霍尔木兹海峡的油轮，伊朗革命卫队表示将进行报复。",
-          "analysis": "此次袭击事件加剧了美伊之间的紧张关系，可能引发地区冲突。背景是伊朗对美国在中东地区的政策不满。报复行动可能导致霍尔木兹海峡的航运安全受到威胁，进而影响全球石油供应和油价。后续可能包括伊朗对美国军事设施的反击，以及国际社会的调解。",
+          "summary": "英国在新的领导下，带头反对以色列定居点，与美国产生分歧。",
+          "analysis": "这一事件表明，欧洲在以色列问题上的立场正在发生变化，英国的新领导层在推动这一变化。这可能反映了欧洲对以色列政策的重新评估，以及对美国在中东政策上的不满。此举可能影响美欧关系，并对以色列的国际地位产生重要影响。后续可能看到更多欧洲国家对以色列政策的调整。",
           "keywords": [
-            "美伊冲突",
-            "油轮袭击",
-            "霍尔木兹海峡",
-            "伊朗革命卫队",
-            "地区冲突"
+            "欧洲",
+            "以色列",
+            "美欧关系",
+            "定居点",
+            "政策分歧"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/us-strikes-oil-tankers-off-coast-of-iran/a-79194562?maca=en-rss-en-all-1573-rdf"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/09/world/europe/britain-france-israel-settlements-trade.html"
             }
           ],
           "rank": 6
         },
         {
-          "title": "高通、康宁等AI基础设施股票因交易宣布而上涨",
-          "titleOrig": "AI infrastructure stocks rally on deal announcements from Qualcomm, Corning",
-          "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html",
+          "title": "谷歌将在“欧洲的德克萨斯州”投资150亿美元用于AI基础设施",
+          "titleOrig": "Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'",
+          "url": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T22:02:53+00:00",
-          "desc": "Shares of Qualcom, Corning, Intel, Advanced Micro Devices and others tied to the AI infrastructure trade popped on Tuesday.",
+          "publishedAt": "2026-09-09T09:15:41+00:00",
+          "desc": "Google on Wednesday said it would invest $15.1 billion into AI infrastructure in Finland, marking the tech giant's largest single investment in Europe.",
           "hotLabel": "",
-          "summary": "AI基础设施相关股票因企业交易宣布而上涨。",
-          "analysis": "高通和康宁等公司的交易宣布反映了AI基础设施领域的活跃度。这表明科技行业对AI技术的重视，预计未来AI基础设施将继续增长。这可能推动相关产业链的发展，对全球经济产生积极影响。",
+          "summary": "谷歌宣布将在芬兰投资150亿美元用于AI基础设施。",
+          "analysis": "这一投资体现了谷歌对AI领域的重视。背景是欧洲在AI领域的战略地位。关键影响包括芬兰在AI领域的地位提升，以及欧洲在全球AI竞赛中的竞争力。后续走向可能包括更多跨国公司在欧洲进行AI投资。",
           "keywords": [
+            "谷歌",
             "AI基础设施",
-            "高通",
-            "康宁",
-            "科技行业",
-            "经济增长"
+            "芬兰",
+            "欧洲",
+            "投资"
           ],
-          "category": "tech",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/ai-infrastructure-stocks-rally-on-deal-from-qualcomm-and-corning.html"
+              "url": "https://www.cnbc.com/2026/09/09/google-finland-ai-infrastructure-investment.html"
             }
           ],
           "rank": 7
         },
         {
-          "title": "德国极右翼政党AfD在州选举中获胜，给总理默克尔施压",
-          "titleOrig": "AfD’s Far Right Win Puts New Pressure on Germany’s Leader Merz",
-          "url": "https://www.nytimes.com/2026/09/08/world/europe/germany-merz-pressure-afd.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
+          "title": "阿达尼企业机场单元达成10亿美元融资协议，股价上涨",
+          "titleOrig": "Adani Enterprises shares jump as airport unit enters into $1 billion fundraising deal",
+          "url": "https://www.cnbc.com/2026/09/09/adani-enterprises-airport-fundraise-shares.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T14:46:39+00:00",
-          "desc": "Antipathy to Chancellor Friedrich Merz was a reason the far right surged in a state election. Though he does not face a national election until 2029, his leadership is under increasing scrutiny.",
+          "publishedAt": "2026-09-09T06:26:59+00:00",
+          "desc": "The investors will subscribe to new shares in three tranches and collectively own about 5.54% of the airport operator after the final tranche.",
           "hotLabel": "",
-          "summary": "极右翼政党在州选举中崛起，对默克尔领导地位构成挑战。",
-          "analysis": "极右翼政党在德国的影响力上升，反映了社会对主流政治的不满。这给默克尔领导下的德国政府带来了挑战，可能迫使政府调整其政策和策略，以应对极右翼的崛起。",
+          "summary": "阿达尼企业机场单元达成10亿美元融资协议。",
+          "analysis": "阿达尼企业机场单元的融资协议表明了投资者对该公司未来发展的信心。这一融资可能用于扩展业务和提升机场运营效率，对印度航空业和全球经济产生积极影响。",
           "keywords": [
-            "德国",
-            "极右翼",
-            "默克尔",
-            "州选举",
-            "政治挑战"
+            "阿达尼企业",
+            "融资协议",
+            "机场",
+            "印度航空业",
+            "全球经济"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 80,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/europe/germany-merz-pressure-afd.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/adani-enterprises-airport-fundraise-shares.html"
             }
           ],
           "rank": 8
         },
         {
-          "title": "德国经济担忧萨克森-安哈尔特州选举结果",
-          "titleOrig": "German economy frets about Saxony-Anhalt election results",
-          "url": "https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "title": "晨间新闻简报",
+          "titleOrig": "Morning news brief",
+          "url": "https://www.npr.org/2026/09/09/nx-s1-5955573/morning-news-brief",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
-          "region": "德国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T18:35:00+00:00",
-          "desc": "The AfD won the election in the eastern German state by a wide margin. While politicians and election analysts are still debating the reasons for the far-right party's popularity, economists are sounding the alarm.",
+          "publishedAt": "2026-09-09T08:46:34+00:00",
+          "desc": "Back-and-forth strikes between the U.S. and Iran continue, U.K. imposes sanctions on Israeli settlements, accusing settlers of \"ethnic cleansing,\" Smithsonian Secretary Lonnie G. Bunch III resigns.",
           "hotLabel": "",
-          "summary": "德国东部萨克森-安哈尔特州选举中，德国选择党（AfD）以较大优势获胜，引发政治和经济担忧。",
-          "analysis": "事件背景：德国选择党在东部州的成功表明了德国极右翼势力的增长。关键影响：这可能对德国政治稳定和欧洲一体化进程产生负面影响。后续走向：德国政府可能加强反极右翼政策，同时关注东德地区的经济和社会问题。",
+          "summary": "美伊军事对峙持续，英国对以色列定居点实施制裁，Smithsonian馆长辞职。",
+          "analysis": "美伊之间的军事对峙表明中东地区的紧张局势仍在升级，对国际和平与安全构成威胁。英国对以色列的制裁反映了国际社会对定居点问题的关注，可能进一步加剧巴以冲突。Smithsonian馆长的辞职可能是对机构内部管理和政策的批评，对美国的文化政策和社会价值观产生一定影响。",
           "keywords": [
-            "德国政治",
-            "极右翼势力",
-            "欧洲一体化",
-            "选举结果",
-            "经济影响"
+            "美伊关系",
+            "中东局势",
+            "英国制裁",
+            "以色列定居点",
+            "Smithsonian"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/eu-uk-express-dismay-over-mladic-funeral-in-serbia/a-79190233?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/uk-announces-trade-sanctions-on-israeli-settlements-in-occupied-west-bank/a-79155051?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/japan-s-empty-temples-seek-new-ways-to-survive/a-79157964?maca=en-rss-en-all-1573-rdf"
-            },
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/afghanistan-s-women-a-national-soccer-team-without-a-home/a-79139500?maca=en-rss-en-all-1573-rdf"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/09/nx-s1-5955573/morning-news-brief"
             }
           ],
           "rank": 9
         },
         {
-          "title": "特朗普政府表达对福特与中国关系深切担忧",
-          "titleOrig": "Trump administration expresses 'profound concern' over Ford's ties to China",
-          "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-08T21:37:12+00:00",
-          "desc": "In a letter to Ford CEO Jim Farley, U.S. DOT Secretary Sean Duffy questioned the automaker's strategic trajectory involving Chinese companies.",
-          "hotLabel": "",
-          "summary": "美国交通部长质疑福特与中国的战略关系。",
-          "analysis": "特朗普政府对福特与中国合作表示担忧，反映了美国政府对国际合作的谨慎态度。这可能影响美国企业与中国企业的合作，进而影响两国经济关系。长期来看，可能加剧中美贸易紧张局势。",
-          "keywords": [
-            "特朗普政府",
-            "福特",
-            "中美关系",
-            "贸易紧张",
-            "国际合作"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "新加坡总理薪资增加100万新元，部长薪资大幅上涨",
-          "titleOrig": "Singapore boosts PM’s salary by $1m amid major pay rise for ministers",
-          "url": "https://www.theguardian.com/world/2026/sep/09/singapore-pm-ministers-salary-pay-rise",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-09T00:00:38+00:00",
-          "desc": "The affluent city-state has justified high-end salaries for its political leaders, arguing they attract talent and ensure good governanceSingapore’s prime minister has been given a $1m pay rise as the affluent city-state announced a dramatic one-off salary boost for government ministers.The pay incr",
-          "hotLabel": "",
-          "summary": "新加坡总理及部长薪资大幅上调。",
-          "analysis": "新加坡此举是为了吸引和保留政治人才，确保良好的治理。这反映了新加坡对高质量治理的重视，以及对政治领导层高薪的认可。然而，这也可能引发对政府财政可持续性的担忧，并影响其他国家的薪酬政策。",
-          "keywords": [
-            "新加坡",
-            "总理",
-            "薪资",
-            "治理",
-            "人才"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/09/singapore-pm-ministers-salary-pay-rise"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "Meta在印度继续投放推广儿童性虐待内容的广告",
-          "titleOrig": "Meta continues to run ads promoting child sexual abuse material in India - report",
-          "url": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss",
+          "title": "香港回归后首位领导人董建华逝世",
+          "titleOrig": "Hong Kong's first leader after British handover dies",
+          "url": "https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-08T23:27:23+00:00",
-          "desc": "The report follows a BBC Eye investigation that found Instagram running paid ads promoting such material in India.",
+          "publishedAt": "2026-09-09T04:24:30+00:00",
+          "desc": "The tenure of Tung Chee-hwa, Hong Kong's first leader after Britain handed over the city to China, was marked by crises and protests.",
           "hotLabel": "",
-          "summary": "BBC调查发现，Instagram在印度投放了推广儿童性虐待内容的付费广告。",
-          "analysis": "事件背景：社交媒体平台监管不严导致有害内容的传播。关键影响：这揭示了社交媒体平台在内容监管方面的挑战，可能影响Meta的全球品牌形象。后续走向：Meta可能加强内容监管措施，同时面临来自政府和社会的更大压力。",
-          "keywords": [
-            "社交媒体",
-            "儿童性虐待",
-            "内容监管",
-            "Meta",
-            "全球影响"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqxv2vwjjq3o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "香港回归后首位领导人董建华逝世，享年89岁",
-          "titleOrig": "Tung Chee-hwa, Who Led Hong Kong After Its Return to China, Dies at 89",
-          "url": "https://www.nytimes.com/2026/09/08/world/asia/tung-chee-hwa-dead.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-09T00:27:47+00:00",
-          "desc": "As the first leader of the former British colony after its handover, he balanced the demands of Beijing and Hong Kongers, making it clear that Beijing was now in charge.",
-          "hotLabel": "",
-          "summary": "香港回归后首位领导人董建华逝世。",
-          "analysis": "事件背景：董建华作为香港回归后的首位领导人，其政治生涯反映了香港回归后的政治格局。关键影响：董建华的逝世可能引发对香港回归后政治发展的反思。后续走向：香港未来的政治走向将受到关注。",
+          "summary": "香港回归后首位领导人董建华去世。",
+          "analysis": "事件背景：董建华的任期见证了香港回归后的政治和社会变革。关键影响：他的去世可能引发对香港历史和未来的反思。后续走向：香港的政治和社会局势可能受到影响。关键词：香港，回归，董建华，逝世，政治变革。category：international，importance：75",
           "keywords": [
             "香港",
             "回归",
             "董建华",
             "逝世",
-            "政治"
+            "政治变革"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/asia/tung-chee-hwa-dead.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cn457lq938jo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "《南方公园》创作者将节目更名为《南美洲》疑似讽刺特朗普",
+          "titleOrig": "South Park creators rename show 'South America' in apparent dig at Trump",
+          "url": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T05:39:16+00:00",
+          "desc": "Since beginning his second term, the US president has said he wanted to use the word 'America' to rename a lake, a gulf and even a US state.",
+          "hotLabel": "",
+          "summary": "《南方公园》创作者更改节目名称，以讽刺特朗普使用‘America’一词命名地名的行为。",
+          "analysis": "这一行为反映了创作者对特朗普政策的不满，同时也揭示了美国政治极化对文化产品的影响。特朗普使用‘America’一词命名地名的行为可能旨在强化国家认同，但同时也引发了争议和讽刺。这一事件可能加剧了美国国内的政治对立，并可能影响美国与其他国家的关系。后续可能引发更多关于国家认同和地名的讨论。",
+          "keywords": [
+            "南方公园",
+            "特朗普",
+            "讽刺",
+            "国家认同",
+            "政治对立"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cp9340rg7k8o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "Anthropic安全研究员称AI有超过10%的概率‘杀死所有人’",
+          "titleOrig": "Anthropic researcher says AI has more than 10% chance of 'killing all humans' after colleague quits",
+          "url": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T08:48:01+00:00",
+          "desc": "An Anthropic safety researcher said there is a greater than 10% chance AI could \"kill all humans\" after a former colleague quits over safety concerns.",
+          "hotLabel": "",
+          "summary": "Anthropic安全研究员表示，AI有超过10%的概率‘杀死所有人’。",
+          "analysis": "这一言论反映了人工智能安全领域的担忧。背景是AI技术快速发展，但安全问题尚未得到充分解决。关键影响包括对AI技术的监管需求增加，以及社会对AI安全的关注。后续走向可能包括更严格的AI监管政策和安全研究投入。",
+          "keywords": [
+            "AI安全",
+            "Anthropic",
+            "人工智能",
+            "风险",
+            "监管"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/anthropic-researcher-quits-ai-safety.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "亚洲超级富豪正在转移资金，以下是他们的目的地",
+          "titleOrig": "Asia’s ultra-rich are moving their money. Here's where it's going",
+          "url": "https://www.cnbc.com/2026/09/09/asia-ultra-rich-investing-wealthy-chinese-migrating-maybank.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T08:42:56+00:00",
+          "desc": "Asia's ultra-rich still like gold, but they're branching out to digital assets as well, Maybank Singapore's CEO said.",
+          "hotLabel": "",
+          "summary": "亚洲超级富豪将资金转向黄金和数字资产。",
+          "analysis": "亚洲超级富豪对黄金和数字资产的投资转移，反映了全球经济环境的变化和他们对未来市场的预期。这一趋势可能影响全球资产配置和金融市场。",
+          "keywords": [
+            "亚洲富豪",
+            "资金转移",
+            "黄金",
+            "数字资产",
+            "全球经济"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/asia-ultra-rich-investing-wealthy-chinese-migrating-maybank.html"
             }
           ],
           "rank": 13
         },
         {
-          "title": "LIV高尔夫申请第11章破产保护",
-          "titleOrig": "LIV Golf files for Chapter 11 bankruptcy protection",
-          "url": "https://www.cnbc.com/2026/09/08/liv-golf-chapter-11-bankruptcy.html",
+          "title": "Chipotle在首尔时尚社区开设新店，测试亚洲扩张策略",
+          "titleOrig": "Chipotle's new restaurant in a hip Seoul neighborhood tests its Asian expansion strategy",
+          "url": "https://www.cnbc.com/2026/09/09/chipotles-new-seoul-restaurant-tests-its-asian-expansion-strategy-.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T21:45:55+00:00",
-          "desc": "As part of the proposed bankruptcy deal, the upstart golf venture is expected to be majority owned by its players.",
+          "publishedAt": "2026-09-09T04:50:04+00:00",
+          "desc": "Chipotle is making its Asia debut in South Korea through its first-ever joint venture for international expansion, with Singapore next in 2027.",
           "hotLabel": "",
-          "summary": "新兴高尔夫企业申请破产保护。",
-          "analysis": "LIV高尔夫的破产申请反映了体育产业在商业运营上的挑战。这可能对体育产业产生警示作用，同时，如果破产保护成功，可能为LIV高尔夫带来新的发展机遇。",
+          "summary": "Chipotle在韩国开设首家合资餐厅，标志着其亚洲市场的首次尝试。",
+          "analysis": "Chipotle选择在韩国开设新店，反映了其进军亚洲市场的决心。韩国作为发达国家，消费市场成熟，对国际品牌有较高的接受度。此次合资模式有助于Chipotle更好地适应当地市场。新加坡作为下一个目标，进一步证明了Chipotle对亚洲市场的长期承诺。这对亚洲快餐市场可能产生竞争压力，同时也为其他国际品牌提供了进入亚洲市场的借鉴。",
           "keywords": [
-            "LIV高尔夫",
-            "破产保护",
-            "体育产业",
-            "商业运营",
-            "发展机遇"
+            "Chipotle",
+            "亚洲扩张",
+            "韩国市场",
+            "合资经营",
+            "快餐业"
           ],
-          "category": "economy",
-          "importance": 70,
+          "category": "international",
+          "importance": 75,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/liv-golf-chapter-11-bankruptcy.html"
+              "url": "https://www.cnbc.com/2026/09/09/chipotles-new-seoul-restaurant-tests-its-asian-expansion-strategy-.html"
             }
           ],
           "rank": 14
         },
         {
-          "title": "9/11袭击后，纽约市民被误导关于有毒空气的说法，Mamdani表示",
-          "titleOrig": "New Yorkers were 'lied' to about toxic air after 9/11 attacks, says Mamdani",
-          "url": "https://www.bbc.co.uk/news/articles/cjdvyk3pm27o?at_medium=RSS&at_campaign=rss",
+          "title": "韩国富豪离婚赔偿前妻187亿美元，创历史记录",
+          "titleOrig": "Tycoon to pay ex-wife $1.87bn in record South Korea divorce settlement",
+          "url": "https://www.bbc.co.uk/news/articles/c05re9qg09ro?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-08T18:21:40+00:00",
-          "desc": "Newly released documents show toxins lingered for months after the attacks, but officials told people it was safe.",
+          "publishedAt": "2026-09-09T08:21:39+00:00",
+          "desc": "The billion dollar payout marks the largest divorce settlement in the country's history.",
           "hotLabel": "",
-          "summary": "新文件显示9/11袭击后毒素持续数月，但官员告知民众安全。",
-          "analysis": "这一事件揭示了政府在危机时刻的信息透明度问题。它对受害者及其家属的心理和社会影响深远，同时也对政府的公信力造成损害。这可能会促使政府加强危机管理中的透明度和责任感。",
+          "summary": "韩国富豪离婚赔偿高达187亿美元。",
+          "analysis": "事件背景：这起离婚案件反映了韩国社会财富分配的不均。关键影响：巨额赔偿可能引发对财富分配和社会公平性的讨论。后续走向：此类事件可能引发更多关注，对韩国社会产生影响。关键词：韩国，离婚，赔偿，财富分配，社会公平。category：international，importance：70",
           "keywords": [
-            "9/11",
-            "纽约",
-            "有毒空气",
-            "信息透明度",
-            "政府公信力"
+            "韩国",
+            "离婚",
+            "赔偿",
+            "财富分配",
+            "社会公平"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cjdvyk3pm27o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/c05re9qg09ro?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 15
         },
         {
-          "title": "25年后，9/11受害者家属仍受折磨",
-          "titleOrig": "'Constantly on my mind' - 9/11 agony goes on for bereaved, 25 years on",
-          "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-08T23:11:32+00:00",
-          "desc": "As the 25th anniversary approaches, the wait for the alleged mastermind of the attack to be put on trial goes on.",
-          "hotLabel": "",
-          "summary": "随着9/11事件25周年临近，涉嫌攻击主谋的审判仍无进展。",
-          "analysis": "事件背景：9/11事件对全球安全格局产生了深远影响。关键影响：该事件未解决的司法问题可能影响美国及其盟友的反恐政策。后续走向：美国可能继续寻求对涉嫌者的审判，同时加强全球反恐合作。",
-          "keywords": [
-            "9/11事件",
-            "反恐政策",
-            "司法问题",
-            "美国安全",
-            "全球影响"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/clyrjw1yj75o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "Marvell股价一年内飙升241%，CEO称信任是关键原因",
-          "titleOrig": "Marvell shares have soared 241% in a year. CEO says this is a key reason why",
-          "url": "https://www.cnbc.com/2026/09/08/marvell-shares-soared-ceo.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-08T23:07:22+00:00",
-          "desc": "Marvell Technology CEO Matt Murphy said trust has helped fuel the chipmaker's massive run over the past year.",
-          "hotLabel": "",
-          "summary": "Marvell科技公司股价一年内上涨241%，CEO认为信任是推动股价上涨的关键。",
-          "analysis": "Marvell股价上涨反映了市场对该公司业务和前景的信心。CEO强调的信任因素可能包括公司治理、产品创新和市场策略。这一事件表明，在科技行业，良好的公司治理和产品策略对股价有显著影响。",
-          "keywords": [
-            "Marvell",
-            "股价上涨",
-            "信任",
-            "公司治理",
-            "科技行业"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/marvell-shares-soared-ceo.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "西岸地区纵容犯罪，前以色列军官警告破坏民主价值观",
-          "titleOrig": "Impunity in the West Bank",
-          "url": "https://www.nytimes.com/2026/09/08/world/israel-west-bank-canada-us-trade.html",
+          "title": "法国文化战争中的主题公园：皮尤杜福",
+          "titleOrig": "The Theme Park at the Heart of France’s Culture War",
+          "url": "https://www.nytimes.com/2026/09/09/world/europe/theme-park-france-right-culture-war.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-08T20:52:55+00:00",
-          "desc": "Former Israeli military officers warn that settler violence in the West Bank is destroying Israel’s democratic values from within.",
+          "publishedAt": "2026-09-09T05:07:39+00:00",
+          "desc": "The Puy du Fou is one of France’s most visited theme parks. Its founder says it gives the French a “founding narrative,” but critics say it peddles “far-right propaganda.”",
           "hotLabel": "",
-          "summary": "前以色列军官警告西岸地区定居者暴力行为破坏以色列民主价值观。",
-          "analysis": "事件背景：西岸地区定居者暴力行为长期存在，引发国际关注。关键影响：此类行为可能加剧巴以冲突，影响以色列国内政治稳定。后续走向：以色列政府可能面临更大压力，寻求解决方案。",
+          "summary": "皮尤杜福主题公园在法国文化战争中扮演重要角色，引发左右翼争议。",
+          "analysis": "皮尤杜福主题公园的争议反映了法国文化战争中的不同观点。这一事件可能引发关于法国历史叙事和文化价值观的更广泛讨论。后续可能看到法国政府或社会对这种文化现象的更多反应。",
           "keywords": [
-            "以色列",
-            "西岸",
-            "定居者",
-            "民主",
-            "冲突"
+            "皮尤杜福",
+            "文化战争",
+            "法国",
+            "历史叙事",
+            "文化价值观"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 70,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/israel-west-bank-canada-us-trade.html"
+              "url": "https://www.nytimes.com/2026/09/09/world/europe/theme-park-france-right-culture-war.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "美国对加拿大一系列商品实施进口禁令，贸易战升级",
+          "titleOrig": "U.S. reveals import ban on slew of Canadian goods as trade war escalates",
+          "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T09:21:28+00:00",
+          "desc": "Import bans on motorbikes, alcohol and dairy products are due to come into effect on Sept. 29 as the rift between the countries deepens.",
+          "hotLabel": "",
+          "summary": "美国宣布对加拿大摩托车、酒精和乳制品实施进口禁令。",
+          "analysis": "这一举措是美国与加拿大贸易摩擦加剧的体现。背景是两国在贸易政策上的分歧。关键影响包括两国贸易关系进一步紧张，以及可能对北美自由贸易协定的影响。后续走向可能包括双方进一步的贸易限制和谈判。",
+          "keywords": [
+            "美国",
+            "加拿大",
+            "贸易战",
+            "进口禁令",
+            "北美自由贸易协定"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/us-canada-trade-war-import-ban.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "世界最高薪酬领导人将获得64%的加薪，其他人薪酬如何比较",
+          "titleOrig": "The world's highest paid leader is set for a 64% pay rise. Here's how others compare",
+          "url": "https://www.cnbc.com/2026/09/09/singapore-prime-minister-salary-lawrence-wong.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-09T04:58:47+00:00",
+          "desc": "Wong announced ministerial salaries will be adjusted upwards after 15 years, with his annual pay package rising to 3.6 million Singapore dollars",
+          "hotLabel": "",
+          "summary": "新加坡领导人宣布部长级薪酬将上调，年薪达到360万新加坡元。",
+          "analysis": "新加坡领导人的薪酬调整反映了该国对高级管理人员的重视。这种薪酬水平的调整可能吸引更多国际人才，对新加坡的经济发展有积极影响。然而，这也可能加剧社会收入不平等问题。其他国家的薪酬调整可能受到这一事件的影响，特别是那些与新加坡有竞争关系或人才流动的国家。",
+          "keywords": [
+            "新加坡",
+            "薪酬调整",
+            "领导人薪酬",
+            "收入不平等",
+            "人才流动"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/09/singapore-prime-minister-salary-lawrence-wong.html"
             }
           ],
           "rank": 18
         },
         {
-          "title": "特朗普要求加拿大航空巨头在美国建厂，引发共和党反驳",
-          "titleOrig": "Bombardier points out U.S. footprint after Trump says aerospace giant must build in America",
-          "url": "https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
+          "title": "印度森林中发现婴儿猩猩引发走私调查",
+          "titleOrig": "Baby orangutans found in Indian forest spark trafficking inquiry",
+          "url": "https://www.bbc.co.uk/news/articles/cvgynv90599o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-08T21:02:32+00:00",
-          "desc": "Trump's swipe at Bombardier has spurred rebuttals from some Republican in states where Bombardier maintains a presence.",
+          "publishedAt": "2026-09-09T07:44:20+00:00",
+          "desc": "The critically endangered apes were found far from their natural habitat in the eastern Indian state of Odisha.",
           "hotLabel": "",
-          "summary": "特朗普批评加拿大航空巨头 Bombardier，要求其在美建厂，引发共和党反驳。",
-          "analysis": "特朗普的政策体现了美国对本土产业的支持，但可能对美加贸易关系产生负面影响。Bombardier在美国以外的地区有大量业务，特朗普的要求可能引发加拿大和其他国家的反弹。事件反映了美国国内对自由贸易和跨国公司政策的分歧。",
+          "summary": "印度森林中发现婴儿猩猩，引发走私调查。",
+          "analysis": "事件背景：猩猩是濒危物种，其发现可能涉及非法贸易。关键影响：事件揭示了野生动物走私问题。后续走向：调查结果可能对打击走私产生影响。关键词：印度，猩猩，走私，野生动物，濒危物种。category：international，importance：65",
           "keywords": [
-            "特朗普",
-            "Bombardier",
-            "美加贸易",
-            "产业政策",
-            "共和党"
+            "印度",
+            "猩猩",
+            "走私",
+            "野生动物",
+            "濒危物种"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/07/trump-bombardier-cant-sell-in-us-unless-canada-aerospace-giant-builds-there.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgynv90599o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 19
         },
         {
-          "title": "热门电视节目《南方公园》更名为《南美洲》，疑似回应特朗普的地名更改",
-          "titleOrig": "Hit TV show 'South Park' becomes 'South America' in apparent reference to Trump's geographic name changes",
-          "url": "https://www.cnbc.com/2026/09/09/tv-show-south-park-changes-show-name-south-america-trump.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
+          "title": "TSA恢复部分无机票乘客登机口通行权，9/11事件后25年首次",
+          "titleOrig": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
+          "url": "https://www.npr.org/2026/09/09/g-s1-142480/tsa-gate-access-25-years-after-9-11",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
-          "cat": "economy",
+          "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-09T01:52:10+00:00",
-          "desc": "Show creators Trey Parker and Matt Stone said in a statement that they were \"inspired by the bravery and patriotism of Apple and Google.\"",
+          "publishedAt": "2026-09-09T05:41:56+00:00",
+          "desc": "The move is a start toward reviving a tradition that largely disappeared after the Sept. 11, 2001, attacks 25 years ago this week.",
           "hotLabel": "",
-          "summary": "《南方公园》节目更名为《南美洲》，以回应特朗普的地名更改。",
-          "analysis": "事件背景：节目创作者回应了特朗普的地名更改政策。关键影响：该事件反映了美国社会对特朗普政策的反应。后续走向：类似事件可能继续发生，影响美国政治文化。",
+          "summary": "TSA决定恢复部分无机票乘客的登机口通行权，作为9/11事件后安全措施调整的一部分。",
+          "analysis": "TSA的这一决定是对9/11后严格安全措施的一种放宽，反映了美国在反恐安全与旅客便利性之间的平衡调整。这可能减少机场拥堵，提高旅客体验，但也可能引起对安全措施放宽的担忧。这一变化可能成为未来机场安全政策调整的先例。",
           "keywords": [
-            "南方公园",
-            "特朗普",
-            "地名更改",
-            "文化",
-            "政治"
+            "TSA",
+            "机场安全",
+            "9/11事件",
+            "安全措施",
+            "旅客便利"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/09/tv-show-south-park-changes-show-name-south-america-trump.html"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/09/g-s1-142480/tsa-gate-access-25-years-after-9-11"
             }
           ],
           "rank": 20
@@ -761,340 +737,343 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，我国经济持续向好，前沿技术成果亮相投洽会，贸易顺差连续四个月突破千亿美元。社会方面，关注点转向香港首任特首董建华逝世，以及多地降雨降温需防范次生灾害。科技领域，雷军发布会后发长文，苹果用户转向华为，吃播现象引发社会关注。值得关注的是，国际形势复杂多变，特朗普引发多国不满，苏丹无人机袭击事件亦值得关注。总体而言，我国在保持经济稳定的同时，需关注国内外复杂形势，加强风险防范。",
+      "digest": "今日国内形势，政策与社会动向呈现出多元化的发展态势。在经济领域，我国进出口保持强劲增长，为经济复苏注入动力。在社会层面，教育、文化、民生等方面均有新动态，如习近平总书记强调教育工作者的重要性，以及上海实施新生育政策等。在国际方面，我国与多个国家的关系持续深化，同时关注国际安全与合作。值得关注的是，国内政策与社会动向的相互影响，以及国际形势对我国发展的影响。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "前沿技术成果亮相投洽会，促进创新联动",
-          "titleOrig": "前沿技术成果集中亮相投洽会——中国创新速度促进各国创新联动 - 中国科技网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wMG92Q1N0dTNGVkprdHptcmNpWGlCTzFiWTVyN3B4SlNzZWJpQ2wyRWlpeW1MeDF5Uy1DOXBLR3Q1TjlHanh4SDlESXRfSllhMHFmZm9tNi0wcXBqX2lsLWRvd3lXR1dsQVE?oc=5",
+          "title": "习近平总书记强调做党和人民满意的好老师",
+          "titleOrig": "“做党和人民满意的好老师”——习近平总书记的重要论述指引教师工作开创新局面 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUpHRTM3ZmFZaTFRZzZwQmo1N0x5WU1TVjRrYzNTLWh6cFRTLWhOd1lyQ0YzcGRGTkRPLS1qbHBxQ2Ffa2U5enhjeG1jdTlOZVhGWDVmZHhjN01fQ3o5YXVqejdlNVB4aTU1c0pjQTV6T0lMb0UzX3d0eHdzVnE3QW1KdnBFX2ZYeEVkdUtn?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-08T23:41:18+00:00",
-          "desc": "前沿技术成果集中亮相投洽会——中国创新速度促进各国创新联动 中国科技网绿色创新成中国企业开展国际合作新热点 新华网一场跨越山海的产业对话 新浪财经时隔一年，这一重要会议在福建开幕 凤凰网韩正出席第二十六届中国国际投资贸易洽谈会开幕式并致辞 人民日报",
+          "publishedAt": "2026-09-09T08:45:30+00:00",
+          "desc": "“做党和人民满意的好老师”——习近平总书记的重要论述指引教师工作开创新局面 新华网他们，用岁月守护琅琅书声——第42个教师节特别报道- 中国日报网 China Daily【社论】礼敬师者，致敬教育家精神 thepaper.cn在第四十二个教师节到来之际，习近平向全国广大教师和教育工作者致以节日祝贺和诚挚问候 thepaper.cn新华全媒头条丨“做党和人民满意的好老师”——习近平总书记的重要论述指引教师工作开创新局面 Sohu",
           "hotLabel": "",
-          "summary": "投洽会上展示前沿技术成果，推动国际合作。",
-          "analysis": "此次投洽会展示了我国在科技创新方面的成果，体现了我国推动科技创新和开放合作的决心。对国内经济意味着产业升级和技术进步，对国际意味着增强我国在全球创新网络中的地位。",
+          "summary": "习近平总书记教师节前夕发表重要论述，强调教师工作的重要性。",
+          "analysis": "习近平总书记的论述体现了对教育事业的重视，旨在提升教师的社会地位和职业荣誉感，推动教育改革，提高教育质量。这将对国内教育系统产生深远影响，促进教育公平，提高人才培养质量。后续可能出台更多相关政策，加强教师队伍建设，提升教育整体水平。",
           "keywords": [
-            "前沿技术",
-            "投洽会",
-            "创新联动",
-            "产业升级",
-            "国际合作"
+            "习近平总书记",
+            "教师工作",
+            "教育改革",
+            "教育质量",
+            "教师队伍建设"
           ],
-          "category": "economy",
-          "importance": 95,
+          "category": "society",
+          "importance": 90,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9wMG92Q1N0dTNGVkprdHptcmNpWGlCTzFiWTVyN3B4SlNzZWJpQ2wyRWlpeW1MeDF5Uy1DOXBLR3Q1TjlHanh4SDlESXRfSllhMHFmZm9tNi0wcXBqX2lsLWRvd3lXR1dsQVE?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OQmN1SjhRalE5WUVWN25Ra0YxQUZwZFhWRVlMcTU1VmF1Q1VYOWU1clAxUWlMaDhCejBEZndoeERBYXItMFBUbmZFZmdVQVlPUTBnR1FzODA1c0pndjJvVC1QaUEzTmxVc1N0b1dGMmhLTS1lVnhNbjE3TXA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZUpHRTM3ZmFZaTFRZzZwQmo1N0x5WU1TVjRrYzNTLWh6cFRTLWhOd1lyQ0YzcGRGTkRPLS1qbHBxQ2Ffa2U5enhjeG1jdTlOZVhGWDVmZHhjN01fQ3o5YXVqejdlNVB4aTU1c0pjQTV6T0lMb0UzX3d0eHdzVnE3QW1KdnBFX2ZYeEVkdUtn?oc=5"
             }
           ],
           "rank": 1
         },
         {
-          "title": "香港首任特首董建华逝世",
-          "titleOrig": "香港首任特首董建华逝世 高风亮节永垂不朽 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JaExDNTd6QnpSZ003cW9Yc19GQWJQZnhueGNZSDVKS1pKWWhkRTFlOEVTQk9jb09udFNTRUZneTJCZmMzc2JyN3kwbDVxbTZ0WlJlRDJ2QlZvTUJ4ODg4eFVWeTBUWmlDZUg2MjJjZ0E?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "我国进出口连续4个月保持两位数增长",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%BF%9E%E7%BB%AD4%E4%B8%AA%E6%9C%88%E4%BF%9D%E6%8C%81%E4%B8%A4%E4%BD%8D%E6%95%B0%E5%A2%9E%E9%95%BF%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-09T00:04:09+00:00",
-          "desc": "香港首任特首董建华逝世 高风亮节永垂不朽 中华网香港首任特首董建华逝世，享年89岁 观察者快讯：香港首任行政长官董建华逝世 享年89岁 美国之音董建华逝世：从船王富二代到香港首任特首 BBC香港首任特首董建华逝世，享年89岁，讣闻称其为人刚正不阿，胸怀家国 新浪财经",
-          "hotLabel": "",
-          "summary": "香港首任特首董建华逝世，享年89岁。",
-          "analysis": "董建华作为香港回归后的首位特首，其逝世对香港的政治和社会有重要影响。这可能会引发对香港政治历史的回顾和对未来政治发展的讨论。对国内意味着对香港回归历史的纪念和对未来港珠澳关系的关注。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "我国进出口贸易持续高速增长",
+          "analysis": "这一现象反映了我国经济的强劲复苏和国际贸易环境的改善。政策意图在于通过扩大开放，推动经济高质量发展。对国内民生意味着就业机会增加，对经济意味着外贸对GDP的贡献率提升。后续走向可能包括进一步扩大开放，优化贸易结构。",
           "keywords": [
-            "董建华",
-            "逝世",
-            "香港特首",
-            "政治历史",
-            "港珠澳关系"
+            "进出口",
+            "经济增长",
+            "贸易",
+            "政策",
+            "开放"
           ],
-          "category": "domestic",
+          "category": "economy",
           "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1JaExDNTd6QnpSZ003cW9Yc19GQWJQZnhueGNZSDVKS1pKWWhkRTFlOEVTQk9jb09udFNTRUZneTJCZmMzc2JyN3kwbDVxbTZ0WlJlRDJ2QlZvTUJ4ODg4eFVWeTBUWmlDZUg2MjJjZ0E?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%BF%9E%E7%BB%AD4%E4%B8%AA%E6%9C%88%E4%BF%9D%E6%8C%81%E4%B8%A4%E4%BD%8D%E6%95%B0%E5%A2%9E%E9%95%BF%23&t=31&band_rank=3&Refer=top"
             },
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8wdlczSXNEQ1dJMDZpWDdmQkZJZFVkSEhjODZIcjBxdzBpb2FDU0JnbjZHMTlkZGZ4Smg5cEtGN2dhdm5JS014NE8zekcxNjR6bzI1ZGp4MTZWRWpJZTlXUG1jMF9LdXRhR1JCaTJFMA?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/08/world/asia/tung-chee-hwa-dead.html"
+              "name": "今日头条",
+              "url": "https://www.toutiao.com/trending/7682369162227944979/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%222%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227682369162227944979%22%2C%22hot_board_impr_id%22%3A%2220260909005354950D8DB98942C966EEC4%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E6%88%91%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%BF%9E%E7%BB%AD4%E4%B8%AA%E6%9C%88%E4%BF%9D%E6%8C%81%E4%B8%A4%E4%BD%8D%E6%95%B0%E5%A2%9E%E9%95%BF%22%7D&rank=&style_id=40132&topic_id=7682369162227944979"
             }
           ],
           "rank": 2
         },
         {
-          "title": "特朗普一次惹了20国",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%80%E6%AC%A1%E6%83%B9%E4%BA%8620%E5%9B%BD%23&t=31&band_rank=18&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "两岸融合发展示范区建设取得进展",
+          "titleOrig": "国台办：两岸融合发展示范区建设取得阶段性进展 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42UWFNbUl2bHFGRnBtdnE1MW1KNF9JYWRDempGV0pjdVNhRll5ekNQbWtvTW9UU3JIcXUtOE44a3Y3d0xlT3lQRTBYdl9BOVVZS2dGUDNENXMzdEg2aHl5aFFYdFhBWVhFcnkwbFlJUldjN1dMQWJWbjdXUQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-09T07:29:54+00:00",
+          "desc": "国台办：两岸融合发展示范区建设取得阶段性进展 新华网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "特朗普引发多国关注的事件。",
-          "analysis": "特朗普引起多国关注的事件体现了国际政治的复杂性和国际关系的紧张。此类事件可能对国际政治格局产生一定影响，同时也可能对中美关系等双边关系产生影响。政策上，这可能意味着国际社会对某些国际政治问题的关注和介入。后续可能看到国际社会对此事件的进一步反应和外交努力。",
+          "summary": "国台办宣布两岸融合发展示范区建设取得阶段性进展。",
+          "analysis": "两岸融合发展示范区的建设是推动两岸关系和平发展的重要举措，有助于增进两岸民众福祉，促进两岸经济文化交流。这将对台湾地区和大陆的经济发展产生积极影响，有助于维护台海地区的和平稳定。后续可能出台更多促进两岸融合的政策。",
           "keywords": [
-            "特朗普",
-            "国际政治",
-            "多国关注",
-            "外交关系",
-            "国际事件"
+            "两岸关系",
+            "融合发展示范区",
+            "台海和平",
+            "经济交流",
+            "政策促进"
           ],
-          "category": "international",
-          "importance": 90,
+          "category": "society",
+          "importance": 85,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%9C%97%E6%99%AE%E4%B8%80%E6%AC%A1%E6%83%B9%E4%BA%8620%E5%9B%BD%23&t=31&band_rank=18&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE42UWFNbUl2bHFGRnBtdnE1MW1KNF9JYWRDempGV0pjdVNhRll5ekNQbWtvTW9UU3JIcXUtOE44a3Y3d0xlT3lQRTBYdl9BOVVZS2dGUDNENXMzdEg2aHl5aFFYdFhBWVhFcnkwbFlJUldjN1dMQWJWbjdXUQ?oc=5"
             }
           ],
           "rank": 3
         },
         {
-          "title": "中国贸易顺差连续四个月突破千亿美元",
-          "titleOrig": "中国贸易顺差连续第四个月突破千亿美元 - 纽约时报中文网",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOT3RqU2ZmeVZCU09HZlhYblFIR09sY2xNS0NrdmxOc3ZsMm00dU4ybHdNaXlLZXBqSk9DWThMUGN6U2IwdFN1VWFhYTlQYkZnS0Z0dDNURndSLVpTSTI3cXNDV0hvMDZHVFlBbEdtVkVqRlNkRnZOdzR3?oc=5",
+          "title": "俄罗斯恢复对乌克兰的袭击，基辅地区7人死亡",
+          "titleOrig": "俄罗斯恢复袭击乌克兰 已致基辅地区7人死亡 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nN0RmMmpjRGMzRmtEaTY2MUFTaklaM0dKdmNKYll5V3hTc0tydHR2aEkwUG5RTnFvYjJIcWlwZDNuWU9yUjBXQUxQYnNKbFBNZFcyNGxuaWdCRzVPelBtN0dFUlVmMlBu?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-09T00:44:43+00:00",
-          "desc": "中国贸易顺差连续第四个月突破千亿美元 纽约时报中文网中国8月出口继续飙升，专家：若持续依赖出口，将加剧与贸易伙伴的紧张局势 美国之音科技创新有力助推，8月数据出炉，中国外贸增势稳定 新浪财经前8个月我国外贸同比增长17.6% 延续快速增长态势 中国青年网数说中国丨我国进口月度增速连续6个月超过出口 新华网",
+          "publishedAt": "2026-09-09T06:43:53+00:00",
+          "desc": "俄罗斯恢复袭击乌克兰 已致基辅地区7人死亡 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "中国8月出口飙升，贸易顺差持续扩大。",
-          "analysis": "背景：中国外贸增长得益于全球经济复苏和科技创新的推动。政策意图在于通过扩大出口促进经济增长，但长期依赖出口可能加剧与贸易伙伴的紧张关系。关键影响：对国内民生可能带来就业和收入增长，但对经济治理意味着需平衡内外需，避免过度依赖出口。后续走向：政府可能加强贸易多元化战略，降低对出口的依赖。",
+          "summary": "俄罗斯对乌克兰的袭击再次发生，造成人员伤亡。",
+          "analysis": "此次袭击反映了乌克兰局势的紧张和复杂。俄罗斯的行动可能旨在对乌克兰政府施加压力，同时也可能对国际社会发出信号。对国内民生而言，这可能加剧对国际局势的担忧，影响我国的外交政策和能源安全。对经济的影响可能体现在对能源价格的影响上。后续走向可能包括国际社会的反应和可能的制裁措施。",
           "keywords": [
-            "贸易顺差",
-            "出口增长",
-            "经济政策",
-            "贸易紧张"
+            "俄罗斯",
+            "乌克兰",
+            "袭击",
+            "国际局势",
+            "外交政策"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBOT3RqU2ZmeVZCU09HZlhYblFIR09sY2xNS0NrdmxOc3ZsMm00dU4ybHdNaXlLZXBqSk9DWThMUGN6U2IwdFN1VWFhYTlQYkZnS0Z0dDNURndSLVpTSTI3cXNDV0hvMDZHVFlBbEdtVkVqRlNkRnZOdzR3?oc=5"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/06/china-prepares-40bn-stimulus-for-financial-sector-amid-fears-over-sluggish-growth"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/09/asia-ultra-rich-investing-wealthy-chinese-migrating-maybank.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/08/ford-china-dot-sean-duffy.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/07/cnbc-china-connection-weak-consumption-trade-deficit-g20.html"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1nN0RmMmpjRGMzRmtEaTY2MUFTaklaM0dKdmNKYll5V3hTc0tydHR2aEkwUG5RTnFvYjJIcWlwZDNuWU9yUjBXQUxQYnNKbFBNZFcyNGxuaWdCRzVPelBtN0dFUlVmMlBu?oc=5"
             }
           ],
           "rank": 4
         },
         {
-          "title": "多地降雨降温，需防范次生灾害",
-          "titleOrig": "陕西四川等地雨势较强需防范次生灾害 北方气温明显偏低秋凉显著 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRmQyMlh5cXJQQjM3U2YzM3BSM0tqQTZnRUhxaDczNnp0aWdFT2p1YlpjYVlUV3YteExzM2kwZFpqNnJnUnJhZXFBUTZoM3d0UTFsRFJYVjEzcFNieGpzaVNYZ19QYUNqVFB4M3dLTmdFQ3pSUE5FMjlDUW1EWmNvMTdaNA?oc=5",
+          "title": "元首战略引领中吉关系迈上新高度",
+          "titleOrig": "新华网国际看点丨元首战略引领推动中吉关系迈上新高度 - 新华网客户端",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXhMQlhPVVE3RDFoNlM1WExHSDREaXhqb2taN25XeDlYaERWWW85VnVrMXlCWlhsM05lSHc5THVLYUF5MFFlcXRBN0ZScHlwS2JqUGVnZDR6TWZOZGFaNHdodEgyaDlGU3EwN0FEZEhnWkJCQmZfa3NiX1VsTjdLWXFNZGNEX1BBVk50MFpuZG4tYjZyRGRxTkV3?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-09T01:13:23+00:00",
-          "desc": "陕西四川等地雨势较强需防范次生灾害 北方气温明显偏低秋凉显著 新华网视频丨冷空气来袭 北方多地迎来降温降雨 新浪财经多地将有暴雨大暴雨 中央气象台继续发布蓝色预警 中国日报网暴雨蓝色预警：8省区有大雨或暴雨 四川盆地局地有大暴雨 央视网大范围降温来了！椒江接下来…… thepaper.cn",
+          "publishedAt": "2026-09-09T07:52:07+00:00",
+          "desc": "新华网国际看点丨元首战略引领推动中吉关系迈上新高度 新华网客户端“吉中关系正处于历史最好时期” --国际 人民网【讲习所中国与世界】推进中吉乌铁路建设，习近平特别强调“高质量” 光明网路联通心相通，中吉合作义利相融- 中国日报网 China Daily携手构建睦邻友好共享繁荣的中吉命运共同体 中国经济网",
           "hotLabel": "",
-          "summary": "多地出现降雨降温，气象台发布预警。",
-          "analysis": "此次降雨降温可能与气候变暖和季节性气候变化有关。政府发布预警，体现了对公共安全的重视和灾害预防的方针。对国内民生影响包括可能增加防洪和抗灾压力，对经济可能影响农业和旅游业。后续可能继续关注天气变化和灾害应对措施。",
+          "summary": "中吉关系在元首战略引领下取得新进展。",
+          "analysis": "中吉关系的提升体现了中国在国际事务中的影响力，以及“一带一路”倡议的成效。双方在基础设施建设、经贸合作等方面的合作将加强，对区域经济发展有积极作用。后续可能深化两国在能源、交通等领域的合作。",
           "keywords": [
-            "降雨",
-            "降温",
-            "次生灾害",
-            "气象预警",
-            "公共安全"
+            "中吉关系",
+            "元首战略",
+            "一带一路",
+            "区域经济",
+            "国际合作"
           ],
-          "category": "domestic",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQRmQyMlh5cXJQQjM3U2YzM3BSM0tqQTZnRUhxaDczNnp0aWdFT2p1YlpjYVlUV3YteExzM2kwZFpqNnJnUnJhZXFBUTZoM3d0UTFsRFJYVjEzcFNieGpzaVNYZ19QYUNqVFB4M3dLTmdFQ3pSUE5FMjlDUW1EWmNvMTdaNA?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1wS0NtOUsyd194c0tOdEpQUWNsUFQ1eTBqd1lxZ3VFLVczR2EtXzQ0SktlVExva1ZERmtxaVZYVWJ4bmhWNzItM1lmZTZscVREdUpVVDF2cE9CcGxjVjl6N3BJWWRTUkg4?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1TbUtra3NrZ3h2cnBZa3R2ZUdQeTlpc1lZYmtfQ3dFc01pSkpXa1FUaHFOR3lkVFFKUFFfdWJEWDFkYUE1ZE1TQW54eDU1eUlPYW1ad05ZYm5ZSUNDVW9KMA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTXhMQlhPVVE3RDFoNlM1WExHSDREaXhqb2taN25XeDlYaERWWW85VnVrMXlCWlhsM05lSHc5THVLYUF5MFFlcXRBN0ZScHlwS2JqUGVnZDR6TWZOZGFaNHdodEgyaDlGU3EwN0FEZEhnWkJCQmZfa3NiX1VsTjdLWXFNZGNEX1BBVk50MFpuZG4tYjZyRGRxTkV3?oc=5"
             }
           ],
           "rank": 5
         },
         {
-          "title": "雷军发布会后发长文",
+          "title": "全球公共安全合作论坛（连云港）2026年大会凝聚治理合力",
+          "titleOrig": "全球公共安全合作论坛（连云港）2026年大会凝聚治理合力 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mc3hFamhRaUxSZUc2Sm1VV01zV2RmM2hPQUN5TDR6cmRLVEN2YUFCaW5qb1dEY0prX1o4TTFLdi1leHVQNXFGTjFfdTFsSTV3ZWZvalFNckN0RjJyT18xZG91UUVJdDQtcjdYQWw1dHJFTUZ5SF9oY3lDaUpjZw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-09T10:00:03+00:00",
+          "desc": "全球公共安全合作论坛（连云港）2026年大会凝聚治理合力 新华网第三届公共安全科技装备展在连云港开幕 新华网全球公共安全合作论坛2026年大会开幕，将发布公共安全指数报告 thepaper.cn巴基斯坦官员扎法尔：中国公共安全治理经验值得借鉴 新浪财经全球公共安全合作论坛（连云港）2026年大会国际警察教育合作分论坛举办 光明网",
+          "hotLabel": "",
+          "summary": "全球公共安全合作论坛（连云港）2026年大会开幕，聚焦公共安全治理。",
+          "analysis": "此次论坛的召开体现了中国在国际公共安全领域的积极参与和贡献。通过分享公共安全治理经验，中国有助于提升国际形象，同时推动全球公共安全治理合作。未来，中国可能在公共安全领域发挥更大作用，推动国际安全合作。",
+          "keywords": [
+            "公共安全",
+            "治理合作",
+            "国际论坛",
+            "安全治理",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9mc3hFamhRaUxSZUc2Sm1VV01zV2RmM2hPQUN5TDR6cmRLVEN2YUFCaW5qb1dEY0prX1o4TTFLdi1leHVQNXFGTjFfdTFsSTV3ZWZvalFNckN0RjJyT18xZG91UUVJdDQtcjdYQWw1dHJFTUZ5SF9oY3lDaUpjZw?oc=5"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "美特使斡旋后俄乌战火再起，俄美元首通话一小时",
+          "titleOrig": "美特使斡旋后俄乌战火再起 俄美元首通话一小时 - 新京报",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yYjNaenJ5ZDY3ZFAtWXZvR1ZVOVl3NXRTTk1EbWhqSkxkR2hSN1lPX184OFpnZzJYTmpLcmdxQzR3aHIwTVNUM0dCUFFIZDFaUTF4ZXh5X2dfUzV4cDNoQTZISk4?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-09T00:19:00+00:00",
+          "desc": "美特使斡旋后俄乌战火再起 俄美元首通话一小时 新京报普京与特朗普通电话1小时，详情披露 新浪财经美总统特使称美代表团访俄乌取得“实质性进展” 中国日报网泽连斯基最新爆料：美国正悄悄推动俄乌冬季停火 观察者短暂停火背后是再次谈判，美方在给俄乌重新定价 凤凰网",
+          "hotLabel": "",
+          "summary": "美特使斡旋后俄乌战火再起，俄美元首通话一小时。",
+          "analysis": "美特使斡旋后俄乌战火的再次爆发表明国际局势的复杂性和不确定性。俄罗斯和美国的对话可能旨在寻求解决冲突的途径，但双方的立场差异可能成为障碍。对国际局势的影响可能包括对全球政治经济格局的影响。后续走向可能包括国际社会的反应和可能的调解努力。",
+          "keywords": [
+            "俄乌战争",
+            "美特使",
+            "俄美元首",
+            "国际局势",
+            "政治对话"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5yYjNaenJ5ZDY3ZFAtWXZvR1ZVOVl3NXRTTk1EbWhqSkxkR2hSN1lPX184OFpnZzJYTmpLcmdxQzR3aHIwTVNUM0dCUFFIZDFaUTF4ZXh5X2dfUzV4cDNoQTZISk4?oc=5"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "上海10月1日起生娃个人「不花钱」",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E5%8F%91%E5%B8%83%E4%BC%9A%E5%90%8E%E5%8F%91%E9%95%BF%E6%96%87%23&t=31&band_rank=16&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E4%B8%8A%E6%B5%B710%E6%9C%881%E6%97%A5%E8%B5%B7%E7%94%9F%E5%A8%83%E4%B8%AA%E4%BA%BA%E3%80%8C%E4%B8%8D%E8%8A%B1%E9%92%B1%E3%80%8D",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "小米公司创始人雷军在发布会后发表长文。",
-          "analysis": "雷军的长文可能涉及小米公司的战略规划、产品创新或行业趋势等内容。作为科技行业的领军人物，雷军的言论往往能够反映科技行业的发展动态和企业的战略方向。政策上，这可能意味着政府对科技创新的支持和鼓励。后续可能看到小米公司的新产品或新战略的公布。",
+          "hotLabel": "#3",
+          "summary": "上海实施新生儿医疗费用减免政策",
+          "analysis": "这一政策旨在减轻家庭生育负担，提高生育率。政策意图在于应对人口老龄化问题。对国内民生意味着减轻家庭经济压力，对经济意味着可能刺激消费。后续走向可能包括其他地区的跟进和政策的调整。",
           "keywords": [
-            "雷军",
-            "小米",
-            "科技行业",
-            "战略规划",
-            "创新"
+            "上海",
+            "生育政策",
+            "医疗费用",
+            "人口",
+            "经济"
           ],
-          "category": "tech",
+          "category": "society",
           "importance": 80,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%9B%B7%E5%86%9B%E5%8F%91%E5%B8%83%E4%BC%9A%E5%90%8E%E5%8F%91%E9%95%BF%E6%96%87%23&t=31&band_rank=16&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E4%B8%8A%E6%B5%B710%E6%9C%881%E6%97%A5%E8%B5%B7%E7%94%9F%E5%A8%83%E4%B8%AA%E4%BA%BA%E3%80%8C%E4%B8%8D%E8%8A%B1%E9%92%B1%E3%80%8D"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%8A%E6%B5%B7%EF%BC%9A10%E6%9C%881%E6%97%A5%E8%B5%B7%E7%94%9F%E5%A8%83%E4%B8%AA%E4%BA%BA%E2%80%9C%E4%B8%8D%E8%8A%B1%E9%92%B1%E2%80%9D"
             }
           ],
-          "rank": 6
+          "rank": 8
         },
         {
-          "title": "苏丹发生无人机袭击事件",
-          "titleOrig": "苏丹北科尔多凡州发生无人机袭击事件 致13亡22伤 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NMS1wMno2RFFvQ1V1dGdWemowUFRvTUVrR0tzWHBOXzhBVnpRbkJ0UGYwLWxLTHBoMEJ2enJxWjR0ZVNJSk44VTVEdWdLMjNhOGNuQmhvdnJxSnlRZlBTNFJRb1g4eXNp?oc=5",
+          "title": "金正恩收到普京国庆贺电",
+          "titleOrig": "朝鲜国庆日金正恩收到普京贺电！ - 中华军事",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DMTExTHlKVGQxNjVudDBLbWFMcTBwOFVfUzdaWTJIM3BVU1hiUFh4T0Zsejdyanc3WFRRNGJoaUFQd0k0ZlJxb3ZGY3VQeW85T2RlUEpheWI3b1o3dUZxNjlVSVphV3NOTWFYSWg1QXU?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-09T01:05:54+00:00",
-          "desc": "苏丹北科尔多凡州发生无人机袭击事件 致13亡22伤 chinanews.com.cn苏丹：外部支持网络助长冲突并加剧平民伤亡 UN News苏丹总检察长称快速支援部队获外部支持 ua.news苏丹冲突调查：2000外籍雇佣兵参战 无人机袭击致上百平民死 molihua.org苏丹法院附近无人机袭击致13 人死亡 ua.news",
+          "publishedAt": "2026-09-09T05:18:19+00:00",
+          "desc": "朝鲜国庆日金正恩收到普京贺电！ 中华军事习近平就朝鲜国庆78周年向朝鲜最高领导人金正恩致贺电 北京市人民政府门户网站彭清华出席朝鲜驻华使馆国庆78周年招待会 新浪网朝鲜国庆78周年 习近平 普汀 向金正恩致贺电 chinapress.com.my朝鲜官员在平壤悼念金日成和金正日 UA.NEWS",
           "hotLabel": "",
-          "summary": "苏丹北科尔多凡州发生无人机袭击，造成伤亡。",
-          "analysis": "此次无人机袭击事件反映了苏丹地区的冲突和外部势力干预。对国际社会意味着对地区冲突的关注和对和平解决方案的期待。对国内可能影响对苏丹政策的调整和对国际安全局势的关注。",
+          "summary": "朝鲜国庆日，金正恩收到俄罗斯总统普京的贺电。",
+          "analysis": "金正恩收到普京的贺电表明中俄关系密切，两国在地区安全和经济合作方面存在共同利益。这对朝鲜半岛的和平稳定以及地区安全格局有积极意义。后续可能加强两国在政治、经济、军事等领域的合作。",
           "keywords": [
-            "无人机袭击",
-            "苏丹冲突",
-            "平民伤亡",
-            "地区安全",
-            "国际干预"
+            "金正恩",
+            "普京",
+            "中俄关系",
+            "朝鲜半岛",
+            "地区安全"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5NMS1wMno2RFFvQ1V1dGdWemowUFRvTUVrR0tzWHBOXzhBVnpRbkJ0UGYwLWxLTHBoMEJ2enJxWjR0ZVNJSk44VTVEdWdLMjNhOGNuQmhvdnJxSnlRZlBTNFJRb1g4eXNp?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5OYjF5NUptbzVsLVdIT2xvaTYzMEZzeVNzUmxoZlVLNjdDY2x0UEExOTlPQzVuWUlhbklWWXJwNGthYzhjem8wZGd6YXI0TmlNbkhlbzBLM2JVVnQ5V0Vqeg?oc=5"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "Crisp力挺TheShy",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23Crisp%E5%8A%9B%E6%8C%BATheShy%23&t=31&band_rank=6&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "电竞选手TheShy获得品牌Crisp支持。",
-          "analysis": "Crisp作为电竞品牌，力挺TheShy体现了电竞行业对优秀选手的认可和支持。这背后反映了我国电竞产业的快速发展，以及相关产业链的成熟。对国内电竞产业和粉丝文化有积极影响，有助于提升电竞产业的国际竞争力。后续可能看到更多品牌与电竞选手的合作。",
-          "keywords": [
-            "电竞",
-            "品牌合作",
-            "TheShy",
-            "Crisp",
-            "电竞产业"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23Crisp%E5%8A%9B%E6%8C%BATheShy%23&t=31&band_rank=6&Refer=top"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "女子还不起房贷喊话前男友收回",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%BF%98%E4%B8%8D%E8%B5%B7%E6%88%BF%E8%B4%B7%E5%96%8A%E8%AF%9D%E5%89%8D%E7%94%B7%E5%8F%8B%E6%94%B6%E5%9B%9E&t=31&band_rank=11&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "女子因还不起房贷，在微博上喊话前男友收回房贷。",
-          "analysis": "这一事件揭示了当前房地产市场压力下部分年轻人的经济困境。背后反映了房贷政策对个人财务状况的影响，以及社会对个人信用和债务问题的关注。对经济而言，可能引发对房贷政策的重新审视和调整。后续可能引发对房地产市场和个人财务管理的讨论。",
-          "keywords": [
-            "房贷",
-            "经济压力",
-            "个人信用"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%A5%B3%E5%AD%90%E8%BF%98%E4%B8%8D%E8%B5%B7%E6%88%BF%E8%B4%B7%E5%96%8A%E8%AF%9D%E5%89%8D%E7%94%B7%E5%8F%8B%E6%94%B6%E5%9B%9E&t=31&band_rank=11&Refer=top"
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DMTExTHlKVGQxNjVudDBLbWFMcTBwOFVfUzdaWTJIM3BVU1hiUFh4T0Zsejdyanc3WFRRNGJoaUFQd0k0ZlJxb3ZGY3VQeW85T2RlUEpheWI3b1o3dUZxNjlVSVphV3NOTWFYSWg1QXU?oc=5"
             }
           ],
           "rank": 9
         },
         {
-          "title": "苹果用户换华为",
+          "title": "国新办介绍‘十五五’开局起步发展社会主义民主情况",
+          "titleOrig": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍发展社会主义民主有关情况 - 经济形势报告网",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yVXhZMGx5NkFwcEhRVG5hMndUMDZRMWdUNzBKMWRNR2VOVlBpU0RSWjQzS2tUMUVNQU1Lcm1HWGZEeTFtbTdtU21oUVBpVDZEczlmNXFReENVQnZRczFhcFJ3?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-09T08:54:48+00:00",
+          "desc": "国新办举行“开局起步‘十五五’”系列主题新闻发布会 介绍发展社会主义民主有关情况 经济形势报告网中国发布丨今年已有30件次法律草案公布征求意见 公民参与立法渠道更加便捷畅通 中国网新闻中心国新办举行新闻发布会 介绍发展社会主义民主有关情况 央视网中央社会工作部：将积极推动资源、服务、管理向基层下沉 新浪财经中国发布丨中央社会工作部：维护新就业群体合法权益，引导其参与社会治理 中国网新闻中心",
+          "hotLabel": "",
+          "summary": "国新办介绍‘十五五’开局起步发展社会主义民主情况，强调公民参与立法渠道畅通。",
+          "analysis": "此次新闻发布会体现了中国政府在‘十五五’规划期间对发展社会主义民主的重视。通过公布法律草案征求意见，政府旨在提高公民参与立法的便捷性，增强民主参与度。此举有助于提升社会治理水平，促进社会和谐稳定。后续可能出台更多政策，加强基层治理，提升新就业群体的权益保障。",
+          "keywords": [
+            "十五五规划",
+            "社会主义民主",
+            "公民参与",
+            "立法",
+            "基层治理"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5yVXhZMGx5NkFwcEhRVG5hMndUMDZRMWdUNzBKMWRNR2VOVlBpU0RSWjQzS2tUMUVNQU1Lcm1HWGZEeTFtbTdtU21oUVBpVDZEczlmNXFReENVQnZRczFhcFJ3?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "郭德纲歪曲篡改抗战歌曲被罚",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E7%94%A8%E6%88%B7%E6%8D%A2%E5%8D%8E%E4%B8%BA&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E9%83%AD%E5%BE%B7%E7%BA%B2%E6%AD%AA%E6%9B%B2%E7%AF%A1%E6%94%B9%E6%8A%97%E6%88%98%E6%AD%8C%E6%9B%B2%E8%A2%AB%E7%BD%9A",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1102,159 +1081,127 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "苹果用户转向华为手机。",
-          "analysis": "背景：可能由于华为在技术创新和性价比方面的优势。社会成因：消费者对品牌忠诚度的变化。关键影响：对华为品牌和市场地位提升有利，对苹果在中国市场的份额构成挑战。后续走向：可能加剧国内外手机市场竞争。",
+          "summary": "郭德纲因歪曲篡改抗战歌曲被处罚",
+          "analysis": "此事件体现了对历史文化的尊重和保护。政策意图在于维护国家历史文化的尊严。对国内社会意味着加强文化自信和价值观教育。后续走向可能包括对类似事件的进一步处理和文化产业的规范。",
           "keywords": [
-            "苹果",
-            "华为",
-            "消费者行为",
-            "市场竞争"
+            "郭德纲",
+            "抗战歌曲",
+            "文化",
+            "价值观",
+            "处罚"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E8%8B%B9%E6%9E%9C%E7%94%A8%E6%88%B7%E6%8D%A2%E5%8D%8E%E4%B8%BA&t=31&band_rank=2&Refer=top"
-            },
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%88%91%E5%9B%BD%E8%BF%9B%E5%87%BA%E5%8F%A3%E8%BF%9E%E7%BB%AD4%E4%B8%AA%E6%9C%88%E4%BF%9D%E6%8C%81%E4%B8%A4%E4%BD%8D%E6%95%B0%E5%A2%9E%E9%95%BF%23&t=31&band_rank=3&Refer=top"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "刘畅邓恩熙有牵手戏份",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%95%85%E9%82%93%E6%81%A9%E7%86%99%E6%9C%89%E7%89%B5%E6%89%8B%E6%88%8F%E4%BB%BD&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "演员刘畅与邓恩熙在剧中牵手。",
-          "analysis": "演员在剧中的牵手戏份是影视作品的常见情节，反映了影视行业的正常创作。这有助于提升影视作品的观赏性，满足观众对娱乐的需求。后续可能看到更多类似情节的出现。",
-          "keywords": [
-            "影视",
-            "演员",
-            "刘畅",
-            "邓恩熙",
-            "影视作品"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%88%98%E7%95%85%E9%82%93%E6%81%A9%E7%86%99%E6%9C%89%E7%89%B5%E6%89%8B%E6%88%8F%E4%BB%BD&t=31&band_rank=9&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%83%AD%E5%BE%B7%E7%BA%B2%E6%AD%AA%E6%9B%B2%E7%AF%A1%E6%94%B9%E6%8A%97%E6%88%98%E6%AD%8C%E6%9B%B2%E8%A2%AB%E7%BD%9A"
             }
           ],
           "rank": 11
         },
         {
-          "title": "栾念为见尚之桃飞西北20次",
-          "titleOrig": "栾念为了见尚之桃飞西北20次",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%A0%BE%E5%BF%B5%E4%B8%BA%E4%BA%86%E8%A7%81%E5%B0%9A%E4%B9%8B%E6%A1%83%E9%A3%9E%E8%A5%BF%E5%8C%9720%E6%AC%A1%23&t=31&band_rank=10&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "天津市南开区人大常委会原党组书记陈玉恒接受纪律审查和监察调查",
+          "titleOrig": "天津市南开区人大常委会原党组书记、主任陈玉恒接受纪律审查和监察调查 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqUG1VNnRyOW9WeFFZWnVjT3lBLTM4MWk0RVRKT1JGWmhPaTl2dk80b2lWWVlWUDNHdXMyQUFRSVVhR3hHXzAxR2hpVW94UkdNWGZfdkVlRzkwUkxiUm9HVi02MHl2NzhZVm1mdE5HdGVmYzR2THhudlZzRHN6bFE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-09T09:08:17+00:00",
+          "desc": "天津市南开区人大常委会原党组书记、主任陈玉恒接受纪律审查和监察调查 新华网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "网友热议栾念为见尚之桃频繁往返西北地区。",
-          "analysis": "此事件反映了现代社交媒体时代下个人情感表达的强烈和个人行动的自由度。背后可能体现了年轻人对于爱情和自由的追求，以及对网络虚拟世界的依赖。对社会而言，这类事件可能引发关于个人行为与社会责任、网络情感与现实生活的讨论。后续可能引发更多类似事件，社会舆论对此类事件的态度和反应值得关注。",
+          "summary": "天津市南开区人大常委会原党组书记陈玉恒接受纪律审查和监察调查。",
+          "analysis": "陈玉恒接受纪律审查和监察调查反映了中国政府在反腐败斗争中的决心。此类事件的发生对官员形成震慑，有助于维护政府形象和公信力。同时，也提醒官员必须严守纪律，加强自我约束。后续可能引发对地方政治生态的进一步审查。",
           "keywords": [
-            "社交媒体",
-            "个人行为",
-            "爱情追求"
+            "反腐败",
+            "纪律审查",
+            "监察调查",
+            "官员",
+            "政治生态"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%A0%BE%E5%BF%B5%E4%B8%BA%E4%BA%86%E8%A7%81%E5%B0%9A%E4%B9%8B%E6%A1%83%E9%A3%9E%E8%A5%BF%E5%8C%9720%E6%AC%A1%23&t=31&band_rank=10&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqUG1VNnRyOW9WeFFZWnVjT3lBLTM4MWk0RVRKT1JGWmhPaTl2dk80b2lWWVlWUDNHdXMyQUFRSVVhR3hHXzAxR2hpVW94UkdNWGZfdkVlRzkwUkxiUm9HVi02MHl2NzhZVm1mdE5HdGVmYzR2THhudlZzRHN6bFE?oc=5"
             }
           ],
           "rank": 12
         },
         {
-          "title": "刘青松直播讨论Gimgoon",
-          "titleOrig": "刘青松直播聊Gimgoon",
-          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E9%9D%92%E6%9D%BE%E7%9B%B4%E6%92%AD%E8%81%8AGimgoon&t=31&band_rank=14&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "台州暑期档电影总票房6098.86万元收官",
+          "titleOrig": "总票房6098.86万元，台州暑期档电影收官-台州频道 - 台州新闻",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UV1VMU1JSWnYtTVVxRHhVSDNWSGZQM2NSRjZRYVdnOGxobzFUUEZVUmtFVWdvbTQ1Q2ZzeDZqaGwzeWFNeHh3cHNmTFFKZmJaSDVjSFlsR3prMXVPQkhrTUMta0loYUl4bUE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-09T07:21:17+00:00",
+          "desc": "总票房6098.86万元，台州暑期档电影收官-台州频道 台州新闻这个夏天，电影镜头对准普通人——2026年暑期档国产电影观察 光明网江南策|马太效应江南策|马太效应显著，“电影显著，“电影+”重塑行业逻辑——2026年暑期档电影述评 thepaper.cn成熟电影市场 不该只有一条起跑线 新浪财经长情为王，破局制胜——2026年电影暑期档综述 中国青年网",
           "hotLabel": "",
-          "summary": "电竞选手刘青松直播中提及队友Gimgoon。",
-          "analysis": "此次直播事件反映了电竞文化的普及和年轻一代对电竞的关注。电竞选手的直播讨论不仅能够提升个人知名度，也有助于推动电竞产业的发展。政策上，这可能意味着政府将进一步鼓励电竞产业的健康发展，同时也可能对电竞选手的职业生涯管理和电竞产业规范提出新的要求。后续可能看到电竞产业的进一步规范和电竞文化的深入普及。",
+          "summary": "台州暑期档电影总票房达到6098.86万元。",
+          "analysis": "台州暑期档电影票房的收官反映了电影市场的活跃和观众对文化娱乐的需求。这表明电影产业在推动文化消费和经济增长方面发挥着重要作用。对经济的影响可能体现在电影产业链的带动上，包括影院运营、电影制作和周边产品等。后续走向可能包括电影市场的进一步发展和创新。",
           "keywords": [
-            "电竞",
-            "直播",
-            "刘青松",
-            "Gimgoon",
-            "电竞产业"
+            "电影市场",
+            "暑期档",
+            "票房",
+            "文化消费",
+            "经济增长"
           ],
-          "category": "society",
+          "category": "economy",
           "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%88%98%E9%9D%92%E6%9D%BE%E7%9B%B4%E6%92%AD%E8%81%8AGimgoon&t=31&band_rank=14&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1UV1VMU1JSWnYtTVVxRHhVSDNWSGZQM2NSRjZRYVdnOGxobzFUUEZVUmtFVWdvbTQ1Q2ZzeDZqaGwzeWFNeHh3cHNmTFFKZmJaSDVjSFlsR3prMXVPQkhrTUMta0loYUl4bUE?oc=5"
             }
           ],
           "rank": 13
         },
         {
-          "title": "这样的吃播该全面叫停了",
+          "title": "江西孩子看演唱会后全家低保取消",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%83%E6%92%AD%E8%AF%A5%E5%85%A8%E9%9D%A2%E5%8F%AB%E5%81%9C%E4%BA%86&t=31&band_rank=5&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "网络吃播内容引发争议。",
-          "analysis": "背景：网络吃播作为一种新兴娱乐形式，其内容多样。社会成因：部分吃播内容可能存在健康风险或不良示范。关键影响：对公众健康和价值观可能产生负面影响。后续走向：可能促使监管部门加强网络内容监管。",
+          "hotLabel": "#1",
+          "summary": "江西一家庭因孩子看演唱会被取消低保",
+          "analysis": "这一事件揭示了低保政策执行中的监管问题。政策意图是通过低保保障困难家庭的基本生活。对国内民生意味着政策执行需更加严格和人性化。后续走向可能包括对低保政策的调整和监管加强。",
           "keywords": [
-            "吃播",
-            "网络内容",
-            "公众健康",
-            "监管"
+            "低保",
+            "政策执行",
+            "监管",
+            "民生",
+            "江西"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%A0%B7%E7%9A%84%E5%90%83%E6%92%AD%E8%AF%A5%E5%85%A8%E9%9D%A2%E5%8F%AB%E5%81%9C%E4%BA%86&t=31&band_rank=5&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88"
             }
           ],
           "rank": 14
         },
         {
-          "title": "医生眼里让大脑休息最好的方法",
+          "title": "汤家凤呼吁取消英语主科地位",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%8C%BB%E7%94%9F%E7%9C%BC%E9%87%8C%E8%AE%A9%E5%A4%A7%E8%84%91%E4%BC%91%E6%81%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E6%B1%A4%E5%AE%B6%E5%87%A4%E5%91%BC%E5%90%81%E5%8F%96%E6%B6%88%E8%8B%B1%E8%AF%AD%E4%B8%BB%E7%A7%91%E5%9C%B0%E4%BD%8D",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1262,93 +1209,95 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "医生推荐大脑休息的最佳方法。",
-          "analysis": "随着生活节奏加快，人们越来越关注健康问题。医生推荐的休息方法反映了社会对健康生活方式的追求。这有助于提高公众的健康意识，促进健康产业的发展。后续可能看到更多健康生活方式的推广。",
+          "summary": "知名教师汤家凤在知乎呼吁取消英语主科地位。",
+          "analysis": "汤家凤的呼吁反映了公众对英语教育政策的关注。取消英语主科地位可能意味着减轻学生负担，提高教育质量，但同时也可能影响国家英语水平。政策意图在于平衡教育公平与英语能力培养，社会影响可能包括教育资源的重新分配和对国际交流的影响。后续走向可能涉及教育政策的调整。",
           "keywords": [
-            "健康",
-            "大脑休息",
-            "生活方式",
-            "医生建议",
-            "健康产业"
+            "英语教育",
+            "教育政策",
+            "汤家凤",
+            "主科地位",
+            "教育公平"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%8C%BB%E7%94%9F%E7%9C%BC%E9%87%8C%E8%AE%A9%E5%A4%A7%E8%84%91%E4%BC%91%E6%81%AF%E6%9C%80%E5%A5%BD%E7%9A%84%E6%96%B9%E6%B3%95&t=31&band_rank=7&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%B1%A4%E5%AE%B6%E5%87%A4%E5%91%BC%E5%90%81%E5%8F%96%E6%B6%88%E8%8B%B1%E8%AF%AD%E4%B8%BB%E7%A7%91%E5%9C%B0%E4%BD%8D"
             }
           ],
           "rank": 15
         },
         {
-          "title": "刘浩存 大码女装",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%B5%A9%E5%AD%98%20%E5%A4%A7%E7%A0%81%E5%A5%B3%E8%A3%85&t=31&band_rank=13&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "特朗普威胁加拿大飞机制造商可能影响美军装备换代",
+          "titleOrig": "特朗普威胁加拿大飞机制造商 可能影响美军装备换代 - 中华网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zMjNZb29yeEVMS3N3QVd5WjdTMk1uR0dlTThpTFpPbzFveWIwNW5veWpadFVSaU5pZ2NMODQ0c1BzNnhPU2YtTmtydE12ZFFsSlE1X2pqU0VLYzl0cmE4dDRjVUVxS2lMZmVlYnBZZDA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-09T07:26:06+00:00",
+          "desc": "特朗普威胁加拿大飞机制造商 可能影响美军装备换代 中华网新闻分析｜加美贸易战会打多久 Sohu特朗普抵制加拿大客机美军担忧：陆军还得用呢 观察者加拿大对美反制关税正式生效 中国日报网美国将于9月29日禁止进口加拿大乳制品、酒类和机动车辆 央视网",
           "hotLabel": "",
-          "summary": "演员刘浩存试穿大码女装引发热议。",
-          "analysis": "这一事件体现了社会对身材多样性和包容性的关注。背后反映了社会审美观念的变化，以及对女性权益的重视。对民生而言，可能引发对时尚产业和女性形象的讨论。后续可能持续关注相关话题，以及社会对身材多样性的接受程度。",
+          "summary": "特朗普威胁加拿大飞机制造商可能影响美军装备换代。",
+          "analysis": "特朗普的言论体现了美加关系的紧张，可能对两国贸易关系产生负面影响。同时，这也反映了美国在军事装备换代方面的战略需求。未来，美加关系可能继续紧张，对国际军事供应链产生波动。",
           "keywords": [
-            "身材多样性",
-            "时尚产业",
-            "女性权益"
+            "特朗普",
+            "美加关系",
+            "飞机制造商",
+            "军事装备",
+            "供应链"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%88%98%E6%B5%A9%E5%AD%98%20%E5%A4%A7%E7%A0%81%E5%A5%B3%E8%A3%85&t=31&band_rank=13&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4zMjNZb29yeEVMS3N3QVd5WjdTMk1uR0dlTThpTFpPbzFveWIwNW5veWpadFVSaU5pZ2NMODQ0c1BzNnhPU2YtTmtydE12ZFFsSlE1X2pqU0VLYzl0cmE4dDRjVUVxS2lMZmVlYnBZZDA?oc=5"
             }
           ],
           "rank": 16
         },
         {
-          "title": "虞书欣《我欲乘风》明年开机",
-          "titleOrig": "虞书欣我欲乘风明年开机",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%88%91%E6%AC%B2%E4%B9%98%E9%A3%8E%E6%98%8E%E5%B9%B4%E5%BC%80%E6%9C%BA%23&t=31&band_rank=15&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "二手平台低价代订酒店存在消费风险",
+          "titleOrig": "二手平台低价代订酒店，背后暗藏哪些消费风险？ - 中国之声",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ra3g2cmZxVlFMaVFuWVVhNXdaNk9XRkNzMFRXTEE3NWVqOTBvdHJqZDBFV2RXd0ptamgzY0tqS0VJQ0ZWYzA1WUp4cHA2WGJRRmRNOXVDRVI4VlFMUUpKUTFZUXBZRl9XUWJYdA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-09-09T02:53:07+00:00",
+          "desc": "二手平台低价代订酒店，背后暗藏哪些消费风险？ 中国之声在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "演员虞书欣主演的新剧《我欲乘风》宣布明年开机。",
-          "analysis": "虞书欣的新剧开机反映了影视行业的动态和观众口味的变化。随着影视产业的不断发展，新剧的开机往往伴随着对市场趋势的预测和对观众需求的迎合。政策上，这可能意味着影视行业将继续保持活跃，同时也可能对影视内容的创作和审查提出新的要求。后续可能看到更多符合市场需求的新剧推出。",
+          "summary": "二手平台低价代订酒店存在消费风险。",
+          "analysis": "二手平台低价代订酒店的现象反映了消费市场的变化和消费者对价格敏感性的增加。然而，这也暴露了消费市场的监管漏洞和消费者权益保护问题。对经济的影响可能体现在对消费者信心的影响上。后续走向可能包括监管政策的加强和消费者权益保护措施的完善。",
           "keywords": [
-            "影视",
-            "虞书欣",
-            "新剧",
-            "市场趋势",
-            "影视行业"
+            "二手平台",
+            "酒店代订",
+            "消费风险",
+            "监管",
+            "消费者权益"
           ],
           "category": "society",
           "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E6%88%91%E6%AC%B2%E4%B9%98%E9%A3%8E%E6%98%8E%E5%B9%B4%E5%BC%80%E6%9C%BA%23&t=31&band_rank=15&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1ra3g2cmZxVlFMaVFuWVVhNXdaNk9XRkNzMFRXTEE3NWVqOTBvdHJqZDBFV2RXd0ptamgzY0tqS0VJQ0ZWYzA1WUp4cHA2WGJRRmRNOXVDRVI4VlFMUUpKUTFZUXBZRl9XUWJYdA?oc=5"
             }
           ],
           "rank": 17
         },
         {
-          "title": "这段话杀死了内耗型人格",
+          "title": "吃播网红干饭莹莹去世年仅24岁",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%AE%B5%E8%AF%9D%E6%9D%80%E6%AD%BB%E4%BA%86%E5%86%85%E8%80%97%E5%9E%8B%E4%BA%BA%E6%A0%BC&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E5%90%83%E6%92%AD%E7%BD%91%E7%BA%A2%E5%B9%B2%E9%A5%AD%E8%8E%B9%E8%8E%B9%E5%8E%BB%E4%B8%96%E5%B9%B4%E4%BB%8524%E5%B2%81",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1356,30 +1305,31 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "网络流行语引发关于内耗型人格的讨论。",
-          "analysis": "背景：反映了社会对个人心理健康和效率的重视。社会成因：快节奏生活和工作压力导致内耗现象。关键影响：提高公众对内耗问题的认识，可能促进心理健康服务的需求增加。后续走向：可能引发更多关于个人成长和心理健康的话题。",
+          "summary": "知名吃播网红干饭莹莹因疾病去世。",
+          "analysis": "干饭莹莹的去世引起了社会对网络直播行业健康问题的关注。网络直播行业快速发展，但健康风险不容忽视。事件背景涉及网络直播行业的监管和网红个人健康问题。对国内社会意味着对网络直播行业的反思和监管加强的可能。后续走向可能包括行业规范的制定和健康意识的提升。",
           "keywords": [
-            "内耗型人格",
-            "心理健康",
-            "社会现象",
-            "个人成长"
+            "吃播网红",
+            "干饭莹莹",
+            "网络直播",
+            "健康问题",
+            "行业规范"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E8%BF%99%E6%AE%B5%E8%AF%9D%E6%9D%80%E6%AD%BB%E4%BA%86%E5%86%85%E8%80%97%E5%9E%8B%E4%BA%BA%E6%A0%BC&t=31&band_rank=4&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%90%83%E6%92%AD%E7%BD%91%E7%BA%A2%E5%B9%B2%E9%A5%AD%E8%8E%B9%E8%8E%B9%E5%8E%BB%E4%B8%96%E5%B9%B4%E4%BB%8524%E5%B2%81"
             }
           ],
           "rank": 18
         },
         {
-          "title": "梅姨长相暂不公开原因",
+          "title": "网传字节跳动员工开始战略怀孕",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%A2%85%E5%A7%A8%E9%95%BF%E7%9B%B8%E6%9A%82%E4%B8%8D%E5%85%AC%E5%BC%80%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E7%BD%91%E4%BC%A0%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%91%98%E5%B7%A5%E5%BC%80%E5%A7%8B%E6%88%98%E7%95%A5%E6%80%80%E5%AD%95",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1387,31 +1337,31 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "某明星梅姨长相暂不公开。",
-          "analysis": "明星长相不公开可能是出于个人隐私保护或媒体炒作的需要。这反映了公众对明星隐私的关注，以及媒体在报道明星新闻时的伦理考量。后续可能引发关于明星隐私保护的讨论。",
+          "summary": "字节跳动员工被曝出开始进行“战略怀孕”，即为了生育而提前备孕。",
+          "analysis": "这一现象反映了职场女性在生育与职业发展之间的平衡问题。事件背景涉及生育政策和社会观念的变化。对国内社会意味着对女性职场权益的关注和对生育政策的讨论。后续走向可能包括相关政策的调整和职场文化的变革。",
           "keywords": [
-            "明星",
-            "隐私",
-            "梅姨",
-            "媒体伦理",
-            "公众关注"
+            "字节跳动",
+            "战略怀孕",
+            "生育政策",
+            "女性职场",
+            "社会观念"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%A2%85%E5%A7%A8%E9%95%BF%E7%9B%B8%E6%9A%82%E4%B8%8D%E5%85%AC%E5%BC%80%E5%8E%9F%E5%9B%A0%23&t=31&band_rank=8&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%BD%91%E4%BC%A0%E5%AD%97%E8%8A%82%E8%B7%B3%E5%8A%A8%E5%91%98%E5%B7%A5%E5%BC%80%E5%A7%8B%E6%88%98%E7%95%A5%E6%80%80%E5%AD%95"
             }
           ],
           "rank": 19
         },
         {
-          "title": "张婧仪 宋威龙",
+          "title": "iG 3:0 LGD",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%A9%A7%E4%BB%AA%20%E5%AE%8B%E5%A8%81%E9%BE%99&t=31&band_rank=12&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=iG%203:0%20LGD",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1419,19 +1369,21 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "网友热议演员张婧仪与宋威龙。",
-          "analysis": "此事件是娱乐圈常见的粉丝文化现象，反映了粉丝对明星的追捧和关注。对社会而言，这类事件可能引发对粉丝文化、明星效应以及媒体传播方式的讨论。后续可能持续关注两位演员的动态，以及粉丝文化的演变。",
+          "summary": "电子竞技战队iG以3:0的成绩战胜LGD。",
+          "analysis": "iG与LGD的比赛是电子竞技领域的常规赛事，反映了电子竞技在国内的普及和发展。事件背景涉及电子竞技产业的成长和年轻一代的娱乐消费习惯。对国内社会意味着电子竞技文化的推广和产业发展的机遇。后续走向可能包括电子竞技产业的进一步扩大和年轻人才的培养。",
           "keywords": [
-            "娱乐圈",
-            "粉丝文化",
-            "明星效应"
+            "电子竞技",
+            "iG",
+            "LGD",
+            "电子竞技产业",
+            "年轻一代"
           ],
-          "category": "society",
-          "importance": 60,
+          "category": "tech",
+          "importance": 55,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%BC%A0%E5%A9%A7%E4%BB%AA%20%E5%AE%8B%E5%A8%81%E9%BE%99&t=31&band_rank=12&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=iG%203:0%20LGD"
             }
           ],
           "rank": 20
