@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-13T10:50:09.952165+00:00",
+  "generatedAt": "2026-09-13T15:18:07.415778+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "gn-cn",
       "name": "Google 新闻 · 中文",
-      "count": 0,
-      "ok": false
+      "count": 20,
+      "ok": true
     },
     {
       "id": "weibo",
@@ -90,11 +90,43 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，多起重大事件凸显了当前的国际形势复杂性。首先，在科技领域，Anthropic CEO对AI发展的担忧引发了对技术伦理的讨论。同时，中东地区安全形势严峻，也门和沙特阿拉伯的冲突与恐怖袭击事件频发，显示出地区动荡与不稳定。乌克兰危机持续发酵，俄罗斯与乌克兰之间的紧张关系进一步升级。此外，全球范围内自然灾害频发，印尼连续发生的渡轮事故造成重大人员伤亡。在政治和社会领域，国际关系紧张，特朗普的言论引发关注，而美巴在签证问题上的合作面临挑战。整体而言，当前国际局势充满不确定性，多领域问题交织，值得持续关注。",
+      "digest": "今日国际局势中，经济与地缘政治交织，多起事件引发关注。伊朗战争引发的原油价格上涨，预示着能源市场的不确定性。同时，AI发展放缓的呼声与科技领域的担忧并存。地缘政治方面，金砖国家关系因伊朗战争而重塑，但分歧亦显。印中边界和平成为两国关系的关键。此外，多起国际灾难事件，如智利养老院火灾、菲律宾和印尼渡轮火灾，凸显了全球安全挑战。政治层面，瑞典选举显示政治重心转移，土耳其警方逮捕LGBTQ+活动家，反映了社会价值观的冲突。总体而言，国际局势复杂多变，经济、科技、地缘政治等多方面因素交织，值得关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "Anthropic CEO呼吁放缓AI发展",
+          "title": "伊朗战争导致原油期货上涨3600%，货运基金收益最大",
+          "titleOrig": "Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock",
+          "url": "https://www.cnbc.com/2026/09/13/iran-war-oil-prices-freight-tankers-shipping.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T13:50:00+00:00",
+          "desc": "The U.S.-Iran war has caused oil prices to surge and added to freight stress from tariffs, but no shipping trade has boomed quite like crude oil tanker futures.",
+          "hotLabel": "",
+          "summary": "美国与伊朗的战争推动油价飙升，原油期货收益显著。",
+          "analysis": "美国与伊朗的紧张关系导致原油市场波动，对全球经济产生影响。原油期货的上涨反映了市场对供应中断的担忧。后续可能看到能源市场进一步波动，以及对全球经济的影响。",
+          "keywords": [
+            "伊朗战争",
+            "原油期货",
+            "能源市场",
+            "经济影响",
+            "供应中断"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/iran-war-oil-prices-freight-tankers-shipping.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "Anthropic首席执行官呼吁放缓AI发展",
           "titleOrig": "Anthropic boss Dario Amodei calls for AI development to slow down",
           "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -106,16 +138,16 @@
           "publishedAt": "2026-09-12T21:16:47+00:00",
           "desc": "The call comes amid growing concerns that AI models may become able to inflict serious damage worldwide.",
           "hotLabel": "",
-          "summary": "AI模型可能造成全球性损害，Anthropic CEO呼吁放缓AI发展。",
-          "analysis": "Anthropic CEO的呼吁反映了全球对AI潜在风险的担忧。随着AI技术的快速发展，其潜在的社会、经济和伦理影响日益凸显。这起事件可能促使全球对AI监管和伦理标准的讨论加速，对AI行业的发展产生重要影响。",
+          "summary": "Anthropic首席执行官Dario Amodei表示，AI模型可能对全球造成严重损害，呼吁放缓AI发展。",
+          "analysis": "Amodei的呼吁反映了全球对AI潜在风险的担忧。随着AI技术的快速发展，其潜在的不确定性和风险日益凸显。这一事件可能促使全球对AI伦理、监管和风险评估进行更深入的讨论。后续可能包括国际社会对AI发展的规范和监管措施。",
           "keywords": [
             "AI",
-            "发展放缓",
             "风险",
             "监管",
-            "伦理"
+            "Anthropic",
+            "技术发展"
           ],
-          "category": "tech",
+          "category": "international",
           "importance": 90,
           "sources": [
             {
@@ -123,547 +155,71 @@
               "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 1
-        },
-        {
-          "title": "也门人逃离新冲突：我们穿着衣服就离开了",
-          "titleOrig": "‘We Left in the Clothes We Were Wearing’: Yemenis Flee New Fighting",
-          "url": "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T22:28:44+00:00",
-          "desc": "Hunger and disease have tormented Yemen for years. Now, fighting between the Saudi-backed government and Iran-backed Houthis is pushing it to the brink.",
-          "hotLabel": "",
-          "summary": "也门因沙特支持的政府和伊朗支持的胡塞武装之间的冲突而陷入困境。",
-          "analysis": "也门冲突反映了地区紧张局势和地缘政治斗争。冲突加剧了也门的人道主义危机，对地区安全构成威胁。后续可能引发更多国际干预，但解决冲突的前景仍然不明朗。",
-          "keywords": [
-            "也门",
-            "冲突",
-            "人道主义",
-            "沙特",
-            "伊朗"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/12/world/middleeast/yemen-iran-war-houthis.html"
-            }
-          ],
           "rank": 2
         },
         {
-          "title": "印尼渡轮在爪哇海失事，6人死亡107人获救",
-          "titleOrig": "Six dead, 107 rescued from Indonesian ferry that went missing in Java Sea",
-          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
+          "title": "油价重返100美元，中国或决定未来走向",
+          "titleOrig": "Oil's roundtrip back to $100. Why China could determine what happens next",
+          "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-13T09:42:08+00:00",
-          "desc": "Ships and helicopters are searching for the remaining 130 missing people from the Virgo Transport 8 ship, which had encountered bad weather.",
+          "publishedAt": "2026-09-12T12:40:05+00:00",
+          "desc": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
           "hotLabel": "",
-          "summary": "印尼渡轮在恶劣天气中失事，造成人员伤亡。",
-          "analysis": "此次渡轮事故反映了印尼海上安全监管的不足，可能引发对印尼海上运输安全的关注。对印尼而言，这可能会影响其旅游业和国际形象。国际社会可能会加强对印尼海上安全的援助和监督。后续可能需要数周甚至数月才能确定所有失踪人员的下落。",
+          "summary": "美国原油价格首次突破每桶102美元，中国的影响力可能决定油价未来走势。",
+          "analysis": "油价上涨对全球经济产生重要影响，尤其是对能源进口大国。中国作为全球最大的原油进口国，其需求变化对油价有显著影响。未来，中美在能源领域的互动可能成为影响国际油价的关键因素。此外，全球能源转型和地缘政治风险也将对油价产生长期影响。",
           "keywords": [
-            "印尼",
-            "渡轮失事",
-            "海上安全",
-            "国际援助"
+            "油价",
+            "中国",
+            "原油",
+            "能源",
+            "地缘政治"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "economy",
+          "importance": 90,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html"
             }
           ],
           "rank": 3
         },
         {
-          "title": "瓦努阿图渡轮翻沉致1死30失踪",
-          "titleOrig": "Vanuatu ferry capsize leaves one dead, 30 missing",
-          "url": "https://www.dw.com/en/vanuatu-ferry-capsize-leaves-one-dead-30-missing/a-79249954?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "伊朗战争重塑金砖国家关系却暴露分歧",
+          "titleOrig": "Iran war reshapes Brics ties but also exposes divisions",
+          "url": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-13T10:09:00+00:00",
-          "desc": "Rescue efforts have been slow after a South Pacific inter-island ferry sank in bad weather on Friday. An investigation has already begun into negligence on the part of the operator.",
+          "publishedAt": "2026-09-13T11:23:42+00:00",
+          "desc": "Brics members agree they need a new global order but it's harder to answer what should replace it and how to get there.",
           "hotLabel": "",
-          "summary": "南太平洋一渡轮恶劣天气沉没，救援缓慢，运营商涉嫌疏忽。",
-          "analysis": "这起事件反映了南太平洋地区基础设施和救援能力的不足。对于瓦努阿图而言，这不仅是人员伤亡的悲剧，也暴露了其在应对自然灾害和海上安全方面的挑战。对于国际社会来说，这起事件凸显了加强区域救援合作和提升基础设施安全的必要性。后续可能需要国际援助和地区合作来改善当地的安全状况。",
+          "summary": "金砖国家同意需要新的全球秩序，但难以回答如何实现。",
+          "analysis": "金砖国家作为新兴市场和发展中国家的重要联盟，对全球秩序的看法存在分歧。伊朗战争成为这些分歧的导火索，一方面成员间寻求新的全球秩序，另一方面在具体方案上存在争议。这反映出新兴国家在国际事务中的影响力上升，但内部协调和共识仍需时间。后续可能看到金砖国家在战略上的调整和合作深化。",
           "keywords": [
-            "瓦努阿图",
-            "渡轮翻沉",
-            "救援",
-            "基础设施",
-            "区域合作"
+            "金砖国家",
+            "全球秩序",
+            "伊朗战争",
+            "分歧",
+            "新兴国家"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/vanuatu-ferry-capsize-leaves-one-dead-30-missing/a-79249954?maca=en-rss-en-all-1573-rdf"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/ce8767g4jdpo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 4
-        },
-        {
-          "title": "遭解雇后部分人从Charlie Kirk事件中获得大额赔偿，其他人则从头开始",
-          "titleOrig": "They lost their jobs after posting about Charlie Kirk, but some have no regrets",
-          "url": "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T00:49:08+00:00",
-          "desc": "Some people fired in the wake of Kirk's assassination have won big settlements from employers, others have had to start over from scratch.",
-          "hotLabel": "",
-          "summary": "在英国，因Charlie Kirk被暗杀而失业的人中，有些人从雇主那里获得了大额赔偿。",
-          "analysis": "Charlie Kirk是一位知名的美国保守派活动家，其被暗杀事件在英国引起了广泛关注。部分员工因在社交媒体上讨论此事件而遭到解雇，但有些人通过法律途径获得了赔偿。这反映了言论自由与工作安全之间的紧张关系。事件对国际社会意味着言论自由的重要性，以及对极端主义和暴力行为的关注。后续可能包括对言论自由的更多讨论，以及对工作场所言论自由的重新评估。",
-          "keywords": [
-            "Charlie Kirk",
-            "言论自由",
-            "工作安全",
-            "赔偿",
-            "英国"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cj06jgl9qzlo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "俄寻求解答：乌克兰2024年进攻后数百人失踪",
-          "titleOrig": "Russians seek answers over hundreds missing after Ukraine's 2024 incursion",
-          "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T23:51:05+00:00",
-          "desc": "Officials say more than 300 Russians remain missing after the 2024 Kursk offensive, but no-one really knows the true figure.",
-          "hotLabel": "",
-          "summary": "乌克兰2024年进攻后，俄方官员称超过300名俄公民失踪，真实数字不明。",
-          "analysis": "乌克兰对库尔斯克的进攻可能引发俄国内对战争伤亡的担忧，影响俄国内政治稳定。事件可能加剧俄乌冲突的紧张局势，对国际社会对冲突的关注和介入产生影响。后续可能涉及国际调查和外交交涉，对地区安全格局产生深远影响。",
-          "keywords": [
-            "乌克兰",
-            "俄公民",
-            "失踪",
-            "冲突",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "沙特关键石油管道遭伊拉克无人机袭击后关闭",
-          "titleOrig": "Saudi Arabia shuts key oil pipeline after drone attack launched from Iraq",
-          "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T12:15:50+00:00",
-          "desc": "Iraq removes a military commander and opens investigations into the attack that came from an area bordering Iran.",
-          "hotLabel": "",
-          "summary": "沙特关键石油管道遭无人机袭击，伊拉克军方调查。",
-          "analysis": "此次袭击可能源于伊拉克与伊朗接壤地区，反映了该地区紧张局势。事件对沙特石油出口造成影响，可能加剧全球石油供应紧张。沙特与伊拉克关系可能因此紧张，对中东地区稳定构成威胁。后续可能引发国际社会对地区安全的关注，以及国际能源市场的波动。",
-          "keywords": [
-            "沙特",
-            "石油管道",
-            "无人机袭击",
-            "伊拉克",
-            "中东局势"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c62m933465eo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "美国首次使用“外侨恐怖分子”法庭驱逐阿富汗女性居民",
-          "titleOrig": "Afghan woman deported from US in first use of 'alien terrorist' court",
-          "url": "https://www.bbc.co.uk/news/articles/c3eqpd9zgl9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T21:19:11+00:00",
-          "desc": "The legal US resident was never charged with a crime, but was deported due to her family links to terrorism.",
-          "hotLabel": "",
-          "summary": "美国合法居民因家族与恐怖主义有关联被驱逐，未受指控。",
-          "analysis": "该事件反映了美国在反恐政策上的严格立场，尽管该女性未受指控，但因其家族背景被驱逐。这表明美国对恐怖主义威胁的零容忍态度，同时也可能引发对人权和法治的担忧。对美国而言，这可能是对恐怖主义网络的打击，但对阿富汗女性居民而言，则是个人的悲剧。未来，此类事件可能增加，对国际反恐合作和难民政策产生影响。",
-          "keywords": [
-            "美国",
-            "阿富汗",
-            "驱逐",
-            "恐怖主义",
-            "人权"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c3eqpd9zgl9o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "乌克兰网球选手称其公寓遭俄导弹袭击，仅剩罗兰·加洛斯毛巾",
-          "titleOrig": "Only Roland Garros towel left, says Ukraine tennis player after Russian strike hits flat",
-          "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T20:27:25+00:00",
-          "desc": "Dayana Yastremska says her flat took a \"direct hit\" by a Russian missile in Odesa, and all that left was her Roland Garros towel.",
-          "hotLabel": "",
-          "summary": "乌克兰网球选手公寓遭俄导弹袭击，仅剩罗兰·加洛斯毛巾。",
-          "analysis": "乌克兰网球选手Dayana Yastremska的公寓在敖德萨遭到俄罗斯导弹的直接袭击，这一事件反映了乌克兰在冲突中的平民生活受到严重影响。这起袭击不仅对个人生活造成巨大破坏，也加剧了乌克兰与俄罗斯之间的紧张关系。在国际层面上，这可能会进一步削弱俄罗斯的国际形象，并可能引发国际社会的更多关注和干预。后续可能包括乌克兰寻求更多的国际支持，以及俄罗斯面临更多的国际制裁。",
-          "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "导弹袭击",
-            "国际关系",
-            "罗兰·加洛斯"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "加拿大歌手迪奥在巴黎准备回归演唱会",
-          "titleOrig": "Céline Dion fans prepare for comeback concert in Paris",
-          "url": "https://www.bbc.co.uk/news/videos/cwyz11gk7y7o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T17:36:20+00:00",
-          "desc": "Fans of the Canadian singer greeted her as she left her hotel on Saturday.",
-          "hotLabel": "",
-          "summary": "加拿大歌手迪奥在巴黎举行回归演唱会，粉丝热情迎接。",
-          "analysis": "迪奥的回归演唱会反映了加拿大流行文化在欧洲的影响力。演唱会背后的经济因素包括旅游业和娱乐业的增长，同时也可能加强加拿大与法国之间的文化联系。后续可能吸引更多国际艺术家到巴黎演出，促进文化交流。",
-          "keywords": [
-            "迪奥",
-            "演唱会",
-            "文化",
-            "旅游",
-            "法国"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/cwyz11gk7y7o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "印尼渡轮倾覆，130人失踪",
-          "titleOrig": "Indonesian passenger ship overturns, sparking search for about 130 missing",
-          "url": "https://www.npr.org/2026/09/13/g-s1-143114/over-130-missing-after-indonesian-passenger-ship-overturns",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T10:31:10+00:00",
-          "desc": "Indonesian rescuers said about 130 passengers and crew are missing after a ferry carrying more than 240 people sank in bad weather in the Java Sea on Sunday.",
-          "hotLabel": "",
-          "summary": "印尼渡轮在爪哇海沉没，大量人员失踪。",
-          "analysis": "这起事故再次凸显了印尼海上安全问题的严重性，可能促使印尼政府加强海上安全监管。对于印尼而言，这可能会影响其国内稳定和国际形象。国际社会可能会提供援助，以帮助印尼应对此次危机。",
-          "keywords": [
-            "印尼",
-            "渡轮倾覆",
-            "海上安全",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/13/g-s1-143114/over-130-missing-after-indonesian-passenger-ship-overturns"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "印尼救援人员搜寻140名失踪者",
-          "titleOrig": "Indonesian rescue crews searching for 140 people after ferry hit bad weather",
-          "url": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T05:10:38+00:00",
-          "desc": "More than 100 others on board were evacuated from the Virgo ⁠Transport 8 ship, including one who diedIndonesian rescuers were searching on Sunday for 140 people from a ⁠passenger ship that was earlier reported missing in the Java Sea ​after 103 others were evacuated, ‌one of whom ‌died, a search and",
-          "hotLabel": "",
-          "summary": "印尼渡轮在爪哇海遭遇恶劣天气，多人失踪。",
-          "analysis": "此次事件暴露了印尼海上安全监管的薄弱环节，可能会促使印尼政府采取措施加强海上安全。对于印尼而言，这可能会影响其国内稳定和国际形象。国际社会可能会提供援助，以帮助印尼应对此次危机。",
-          "keywords": [
-            "印尼",
-            "渡轮事故",
-            "海上安全",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/13/indonesian-rescue-crews-searching-for-140-people-after-ferry-hit-bad-weather"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "印尼搜救130名沉船失踪者",
-          "titleOrig": "Indonesia rescuers search for 130 people after ferry sinks",
-          "url": "https://www.dw.com/en/indonesia-rescuers-search-for-130-people-after-ferry-sinks/a-79248600?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T09:42:00+00:00",
-          "desc": "The ship was carrying over 240 people in the Java Sea when it ran into bad weather. Officials say six people have died and 130 are still missing.",
-          "hotLabel": "",
-          "summary": "渡轮在爪哇海遇恶劣天气沉没，已致6死130失踪。",
-          "analysis": "印尼的这起渡轮事故再次揭示了东南亚地区海上安全问题的严重性。事故反映了印尼在海上安全监管和救援能力方面的不足。对于印尼而言，这起事故可能加剧国内对政府安全政策的质疑。国际社会可能需要提供援助，以加强印尼的海上安全监管和救援能力。",
-          "keywords": [
-            "印尼",
-            "渡轮沉没",
-            "海上安全",
-            "救援",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/indonesia-rescuers-search-for-130-people-after-ferry-sinks/a-79248600?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "特朗普在多恩贝格的爱尔兰公开赛访问引发抗议和赞扬",
-          "titleOrig": "In Doonbeg, Trump’s Irish Open Visit Prompts Protests and Praise",
-          "url": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T14:33:39+00:00",
-          "desc": "As the U.S. president heads to his Doonbeg hotel for the Irish Open, locals expressed both appreciation for the resort’s economic benefits and opposition to his politics.",
-          "hotLabel": "",
-          "summary": "美国总统特朗普访问爱尔兰公开赛，当地人对他的政治立场有不同看法。",
-          "analysis": "特朗普的访问揭示了国际政治中个人影响力与经济利益之间的矛盾。他的政治立场可能损害美国与欧洲国家的关系，但同时也可能因经济利益而得到一定程度的容忍。后续可能引发更多关于政治与经济关系的热议。",
-          "keywords": [
-            "特朗普",
-            "爱尔兰",
-            "政治",
-            "经济",
-            "抗议"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "特朗普关于统一爱尔兰的言论引发关注",
-          "titleOrig": "Trump's comments on a united Ireland may have targeted audience across the Atlantic",
-          "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T21:25:28+00:00",
-          "desc": "Nobody could have predicted that today's main global headline would be Trump's desire to see a unified Ireland.",
-          "hotLabel": "",
-          "summary": "特朗普关于统一爱尔兰的言论引发国际关注。",
-          "analysis": "特朗普的言论不仅涉及爱尔兰统一问题，也可能影响英国和欧盟的关系。这起事件反映了爱尔兰统一问题在国际政治中的敏感性，以及英国脱欧后欧洲地缘政治的复杂性。后续可能引发更多关于欧洲一体化和英国与欧盟关系的讨论。",
-          "keywords": [
-            "特朗普",
-            "爱尔兰统一",
-            "英国",
-            "欧盟",
-            "地缘政治"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyzppd1d5lo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "菲律宾渡轮火灾死亡人数升至76人，仍有失踪者",
-          "titleOrig": "Death toll from Philippines ferry fire rises to 76, with more still missing",
-          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T15:09:55+00:00",
-          "desc": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
-          "hotLabel": "",
-          "summary": "菲律宾渡轮火灾死亡人数升至76人，仍有失踪者。",
-          "analysis": "菲律宾渡轮火灾是一起严重的海上安全事故，凸显了该国的海上安全监管问题。这一事件可能引发对菲律宾海上安全政策的批评，并可能导致对渡轮运营和监管的审查。在国际层面上，这可能会影响菲律宾在国际社会的形象，并可能促使其他国家提供援助。",
-          "keywords": [
-            "菲律宾",
-            "渡轮火灾",
-            "海上安全",
-            "国际援助",
-            "安全监管"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "签证问题威胁美巴在犯罪问题上的合作",
-          "titleOrig": "Visa Issue Threatens U.S.-Brazil Cooperation on Crime",
-          "url": "https://www.nytimes.com/2026/09/12/world/americas/us-brazil-crime-police-visas-ice.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T02:32:07+00:00",
-          "desc": "Officials say the Trump administration is blocking some of Brazil’s efforts to expand cooperation on fighting transnational crime.",
-          "hotLabel": "",
-          "summary": "特朗普政府阻挠巴西扩大与美国在打击跨国犯罪方面的合作。",
-          "analysis": "签证问题是国际刑事合作中的一个重要障碍，反映了美巴两国在合作中的信任问题。这可能影响两国在打击跨国犯罪方面的努力，并可能对整个地区的安全产生负面影响。后续可能引发两国在安全政策上的更多分歧。",
-          "keywords": [
-            "美国",
-            "巴西",
-            "签证",
-            "犯罪",
-            "合作"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/12/world/americas/us-brazil-crime-police-visas-ice.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "爱尔兰城堡见证时报记者的过去",
-          "titleOrig": "An Irish Castle Keeps a Piece of a Times Reporter’s Past",
-          "url": "https://www.nytimes.com/2026/09/13/insider/dunguaire-castle-ireland.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-13T07:00:13+00:00",
-          "desc": "In 2000, after a life-threatening illness, Dan Barry went to the west of Ireland to breathe different air. He finds stories there still.",
-          "hotLabel": "",
-          "summary": "时报记者丹·巴里在爱尔兰的城堡中寻找故事。",
-          "analysis": "这篇报道揭示了个人经历与地方历史之间的联系，对于理解爱尔兰的历史和文化具有重要意义。它可能激发读者对爱尔兰的兴趣，有助于提升爱尔兰在国际上的文化影响力。",
-          "keywords": [
-            "爱尔兰",
-            "时报记者",
-            "个人经历",
-            "文化影响力"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/13/insider/dunguaire-castle-ireland.html"
-            }
-          ],
-          "rank": 18
         },
         {
           "title": "智利养老院火灾致16人死亡",
@@ -679,235 +235,90 @@
           "desc": "Ten people were evacuated from the home in Araucanía region in central Chile.",
           "hotLabel": "",
           "summary": "智利中部阿劳卡尼亚地区一家养老院发生火灾，造成16人死亡。",
-          "analysis": "智利养老院火灾暴露了该国的公共安全问题和养老设施的标准。这一悲剧可能引发对智利政府公共安全政策的批评，并可能导致对养老院管理标准和紧急响应程序的审查。在国际层面上，这可能会影响智利在国际社会的形象，并可能促使其他国家提供援助。",
+          "analysis": "这起火灾反映了智利养老院系统的安全问题。智利社会老龄化加剧，养老院设施和人员配备不足，导致此类悲剧发生。事件可能引发对养老院安全标准的审查，并加剧社会对弱势群体保护的讨论。后续可能包括政府加强监管和改善养老院条件。",
           "keywords": [
             "智利",
-            "火灾",
             "养老院",
-            "公共安全",
-            "国际援助"
+            "火灾",
+            "社会安全",
+            "监管"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 85,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cy4zpp20w77o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 19
-        },
-        {
-          "title": "数十年的挚友竟是姐妹：两位在孟买孤儿院被收养的女子发现彼此是亲姐妹",
-          "titleOrig": "Best friends for decades - until a DNA test revealed they were sisters",
-          "url": "https://www.bbc.co.uk/news/articles/c5y6z72z9lno?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T22:00:28+00:00",
-          "desc": "Meena Geltink and Minal Tijssen were adopted from orphanages in Mumbai in the 1980s and grew up in the Netherlands.",
-          "hotLabel": "",
-          "summary": "两位在孟买孤儿院被收养的女子在荷兰长大，发现彼此是亲姐妹。",
-          "analysis": "这一故事揭示了跨国收养和家庭背景对个人身份认同的影响。两位女性的发现可能会引发对跨国收养和家庭历史的讨论，并可能促使更多人关注孤儿院的背景和收养过程。在国际层面上，这可能会增加对跨国收养和家庭问题的关注。",
-          "keywords": [
-            "收养",
-            "身份认同",
-            "家庭历史",
-            "跨国收养",
-            "社会问题"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c5y6z72z9lno?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，社会问题与经济动态交织，政策调整与国际关系并存。社会事件方面，公职人员涉嫌犯罪、医院工作人员收贿等事件引发公众关注，反映出社会道德与法治建设的紧迫性。经济领域，智能手机价格上涨、比亚迪利润奖事件等，体现了市场波动与产业发展的复杂性。政策层面，住建局副局长被停职、市场监管局回应烧烤店检查等，显示出政府对社会问题的重视和监管力度的加强。国际关系方面，印中边界和平、金砖国家合作等议题，凸显了我国在国际舞台上的地位和影响力。总体来看，当前国内形势复杂多变，值得关注的走向包括社会道德与法治建设、市场波动与产业升级、政策调整与监管加强以及国际关系的发展。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "公职人员涉嫌强奸女子事件",
-          "titleOrig": "女子称被公职人员推入厕所强奸",
-          "url": "https://www.zhihu.com/search?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E8%A2%AB%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%8E%A8%E5%85%A5%E5%8E%95%E6%89%80%E5%BC%BA%E5%A5%B8",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "女子称被公职人员推入厕所强奸，引发社会关注。",
-          "analysis": "此事件反映了公职人员滥用职权的问题，背后可能存在权力滥用和法治缺失。这将对公众对政府公信力的信任产生负面影响，可能促使政府加强法治建设和公职人员管理。后续可能引发相关法律法规的修订和执法力度的加强。",
-          "keywords": [
-            "公职人员",
-            "强奸",
-            "法治",
-            "公信力",
-            "政府管理"
-          ],
-          "category": "society",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E8%A2%AB%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%8E%A8%E5%85%A5%E5%8E%95%E6%89%80%E5%BC%BA%E5%A5%B8"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "油价重返100美元，中国可能决定接下来发生什么",
-          "titleOrig": "Oil's roundtrip back to $100. Why China could determine what happens next",
-          "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-12T12:40:05+00:00",
-          "desc": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
-          "hotLabel": "",
-          "summary": "美国原油价格周四收盘突破每桶102美元，创5月以来最高。",
-          "analysis": "事件背景：国际原油价格波动受到全球供需关系、地缘政治以及全球经济形势的影响。中国作为全球最大的原油进口国，其进口需求和政策调整对国际油价有重要影响。关键影响：中国对原油的进口需求变化将直接影响国际油价走势，对国内经济和民生产生连锁反应。后续走向：中国政府可能通过调整进口政策、促进能源结构转型等措施来应对国际油价的波动，同时推动国内能源市场健康发展。",
-          "keywords": [
-            "油价",
-            "中国",
-            "国际原油市场",
-            "政策调整",
-            "经济影响"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/12/india-china-modi-xi-brics-border.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "河北医大二院工作人员收受1.84亿贿赂",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%B2%B3%E5%8C%97%E5%8C%BB%E5%A4%A7%E4%BA%8C%E9%99%A2%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E6%94%B6%E5%8F%971.84%E4%BA%BF%E8%B4%BF%E8%B5%82",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "河北医大二院工作人员涉嫌收受巨额贿赂。",
-          "analysis": "此事件暴露了医疗领域的腐败问题，对公众对医疗行业的信任造成打击。政府可能加强医疗行业的监管，推动医疗改革，提高医疗服务质量和透明度。",
-          "keywords": [
-            "医疗腐败",
-            "贿赂",
-            "医疗改革",
-            "行业监管",
-            "医疗服务"
-          ],
-          "category": "society",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%B2%B3%E5%8C%97%E5%8C%BB%E5%A4%A7%E4%BA%8C%E9%99%A2%E5%B7%A5%E4%BD%9C%E4%BA%BA%E5%91%98%E6%94%B6%E5%8F%971.84%E4%BA%BF%E8%B4%BF%E8%B5%82"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "百元以下智能手机因AI内存价格上涨而变得稀缺",
-          "titleOrig": "Sub-$100 smartphones becoming a rarity as AI memory prices soar",
-          "url": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-11T11:59:39+00:00",
-          "desc": "The days of the sub-$100 smartphone may be numbered, including in China.",
-          "hotLabel": "",
-          "summary": "AI内存价格上涨导致百元以下智能手机在中国市场变得罕见。",
-          "analysis": "随着AI技术的快速发展，对高性能内存的需求增加，导致内存价格上涨。这影响了智能手机制造商的成本控制，尤其是那些生产低价智能手机的厂商。在中国，这可能导致消费者对智能手机的购买力下降，同时也可能加速智能手机更新换代的速度。长远来看，这一趋势可能促使国内厂商加大对高端智能手机的研发投入，以适应市场需求的变化。后续可能出台相关政策，鼓励技术创新和产业升级。",
-          "keywords": [
-            "AI内存",
-            "智能手机",
-            "价格上涨",
-            "市场需求",
-            "产业升级"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "比亚迪利润奖事件",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%88%A9%E6%B6%A6%E5%A5%96%E4%BA%8B%E4%BB%B6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "比亚迪因利润奖事件引发关注。",
-          "analysis": "比亚迪利润奖事件反映了我国企业激励机制的问题。政策意图在于激发员工积极性，社会成因可能包括企业内部管理问题。对国内经济意味着企业激励机制的重要性，对治理意味着需要规范企业内部管理。后续走向可能包括企业激励机制的改革和内部管理的加强。",
-          "keywords": [
-            "激励机制",
-            "企业管理",
-            "利润分配"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%AF%94%E4%BA%9A%E8%BF%AA%E5%88%A9%E6%B6%A6%E5%A5%96%E4%BA%8B%E4%BB%B6"
-            }
-          ],
           "rank": 5
         },
         {
-          "title": "莫迪称边界和平是印中关系的关键",
+          "title": "瓦努阿图渡轮沉没，造成1死30多人失踪",
+          "titleOrig": "One dead and more than 30 missing after ferry sinks off Vanuatu coast in rough seas",
+          "url": "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T02:39:50+00:00",
+          "desc": "Prime minister’s office tells families of those missing ‘the nation stands with you’ as search and rescue efforts continueOne person has died and more than 30 are missing after a ferry sank off the coast of Vanuatu, the country’s government says.The vessel, MV Matui, had set sail with more than 40 p",
+          "hotLabel": "",
+          "summary": "瓦努阿图渡轮在恶劣海况中沉没，造成重大人员伤亡。",
+          "analysis": "此次渡轮事故反映了瓦努阿图基础设施的脆弱性和海上交通安全的挑战。事故可能对当地旅游业和民众的心理造成长期影响。对于国际社会而言，这事件凸显了发展中国家在应对自然灾害和基础设施安全方面的需求。后续可能需要国际援助和地区合作来加强瓦努阿图的海上安全。",
+          "keywords": [
+            "瓦努阿图",
+            "渡轮事故",
+            "海上安全",
+            "国际援助",
+            "基础设施"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/13/one-dead-and-more-than-30-missing-after-ferry-sinks-off-vanuatu-coast-in-rough-seas"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "也门战争中的战略要地摩卡：咖啡贸易历史港口的争夺",
+          "titleOrig": "Why Mokha, Historic Port That Shaped the Coffee Trade, Is a Prize in Yemen’s War",
+          "url": "https://www.nytimes.com/2026/09/12/world/middleeast/mokha-yemen-houthis-mocha-coffee.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T12:47:51+00:00",
+          "desc": "A strategic location on the Red Sea afforded the city centuries of trading dominance — and makes it a coveted target in today’s fighting in the Middle East.",
+          "hotLabel": "",
+          "summary": "摩卡作为历史港口，因其在红海的地理位置而成为贸易中心，在也门战争中成为争夺焦点。",
+          "analysis": "摩卡作为历史悠久的咖啡贸易中心，其地理位置的战略价值在也门战争中被放大。这一地区的控制权对于控制红海航线、影响中东地区的政治经济格局至关重要。随着战争的持续，摩卡的控制权变化可能引发区域力量对比的调整，对国际石油运输和地区安全产生深远影响。后续可能见证国际势力在该地区的进一步介入和冲突升级。",
+          "keywords": [
+            "摩卡",
+            "也门战争",
+            "战略要地",
+            "红海",
+            "贸易中心"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/12/world/middleeast/mokha-yemen-houthis-mocha-coffee.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "莫迪强调边界和平是印中关系关键",
           "titleOrig": "Indian Prime Minister Modi says border peace is key to India-China ties",
           "url": "https://www.cnbc.com/2026/09/12/india-china-modi-xi-brics-border.html",
           "source": "CNBC World",
@@ -919,186 +330,539 @@
           "publishedAt": "2026-09-12T15:12:56+00:00",
           "desc": "Indian Prime Minister Narendra Modi and Chinese President Xi Jinping addressed concerns around border dispute and the trade imbalance.",
           "hotLabel": "",
-          "summary": "印度总理莫迪强调边界和平对印中关系的重要性。",
-          "analysis": "莫迪的表态反映了印度在边界争端和贸易不平衡问题上的立场。这表明印中关系的发展受到多方面因素的影响，边界问题成为两国关系的重要障碍。后续印中双方可能需要通过对话和协商来解决争端，以促进双边关系的稳定发展。",
+          "summary": "印度总理莫迪与中国国家主席习近平就边界争端和贸易失衡问题进行讨论。",
+          "analysis": "莫迪强调边界和平是印中关系的关键，这反映了两国在边界问题上的紧张关系。这一表态可能意味着印中两国在寻求通过对话解决边界争端，以避免冲突升级。同时，贸易失衡问题表明两国在经济领域的竞争与合作关系并存。后续走向可能包括双方在边界问题上的进一步谈判，以及在经济领域寻求更多合作。",
           "keywords": [
-            "莫迪",
-            "边界和平",
             "印中关系",
             "边界争端",
-            "贸易不平衡"
+            "贸易失衡",
+            "莫迪",
+            "习近平"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/12/india-china-modi-xi-brics-border.html"
             }
           ],
-          "rank": 6
-        },
-        {
-          "title": "金砖合作打造互联互通贸易通道",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E7%A0%96%E5%90%88%E4%BD%9C%E6%89%93%E9%80%A0%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%B4%B8%E6%98%93%E9%80%9A%E9%81%93%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "金砖国家合作推动贸易通道建设。",
-          "analysis": "事件背景：金砖国家合作旨在加强成员国间的经济联系和贸易往来。互联互通贸易通道的建设是金砖国家合作的重要组成部分，旨在降低贸易成本、促进区域经济发展。关键影响：该合作将有助于提升中国与金砖国家的贸易往来，促进区域经济一体化，对国内经济发展具有积极意义。后续走向：预计金砖国家将进一步深化合作，推动贸易通道建设取得实质性进展。",
-          "keywords": [
-            "金砖国家",
-            "贸易通道",
-            "互联互通",
-            "区域经济",
-            "合作"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E7%A0%96%E5%90%88%E4%BD%9C%E6%89%93%E9%80%A0%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%B4%B8%E6%98%93%E9%80%9A%E9%81%93%23&t=31&band_rank=3&Refer=top"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=2027%20%E9%87%91%E7%A0%96%E7%9B%B8%E7%BA%A6%E4%B8%AD%E5%9B%BD"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "小孩7楼坠下砸坏宝马车",
-          "titleOrig": "小孩 7 楼坠下砸坏宝马车",
-          "url": "https://www.zhihu.com/search?q=%E5%B0%8F%E5%AD%A9%207%20%E6%A5%BC%E5%9D%A0%E4%B8%8B%E7%A0%B8%E5%9D%8F%E5%AE%9D%E9%A9%AC%E8%BD%A6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "一名小孩从7楼坠下，砸坏一辆宝马车。",
-          "analysis": "此事件反映了我国城市住宅安全管理的问题。社会成因可能包括住宅安全设施不足、家长看护不周等。对国内社会意味着需要加强住宅安全管理，对经济意味着可能增加住宅安全设施的投资。后续走向可能包括相关安全法规的完善和住宅安全标准的提高。",
-          "keywords": [
-            "住宅安全",
-            "家长责任",
-            "安全管理"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%B0%8F%E5%AD%A9%207%20%E6%A5%BC%E5%9D%A0%E4%B8%8B%E7%A0%B8%E5%9D%8F%E5%AE%9D%E9%A9%AC%E8%BD%A6"
-            }
-          ],
           "rank": 8
         },
         {
-          "title": "住建局副局长群内辱骂业主被停职",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%BD%8F%E5%BB%BA%E5%B1%80%E5%89%AF%E5%B1%80%E9%95%BF%E7%BE%A4%E5%86%85%E8%BE%B1%E9%AA%82%E4%B8%9A%E4%B8%BB%E8%A2%AB%E5%81%9C%E8%81%8C",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "美国纪念9/11事件25周年",
+          "titleOrig": "In pictures: The U.S. commemorates the 25th anniversary of 9/11",
+          "url": "https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-11T22:42:14+00:00",
+          "desc": "On Sept. 11, 2001, hijackers flew planes into the World Trade Center and the Pentagon, killing thousands. Photos capture those marking the 25th anniversary.",
           "hotLabel": "",
-          "summary": "住建局副局长在群内辱骂业主，被停职。",
-          "analysis": "此事件揭示了部分公职人员的服务态度问题，反映了公共服务领域的不足。这将对提升政府形象和服务质量产生压力，可能促使政府加强公共服务领域的监管和人员培训。",
+          "summary": "美国纪念2001年9月11日恐怖袭击事件25周年。",
+          "analysis": "9/11事件对美国及全球产生了深远影响，不仅改变了国际安全格局，也影响了美国国内政策。纪念活动是对历史事件的回顾，同时也提醒人们警惕恐怖主义威胁。未来，恐怖主义可能继续是全球安全挑战，各国需加强合作以应对。",
           "keywords": [
-            "住建局",
-            "辱骂",
-            "业主",
-            "公共服务",
-            "政府形象"
+            "9/11",
+            "美国",
+            "纪念",
+            "恐怖主义",
+            "安全"
           ],
-          "category": "society",
-          "importance": 75,
+          "category": "international",
+          "importance": 80,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BD%8F%E5%BB%BA%E5%B1%80%E5%89%AF%E5%B1%80%E9%95%BF%E7%BE%A4%E5%86%85%E8%BE%B1%E9%AA%82%E4%B8%9A%E4%B8%BB%E8%A2%AB%E5%81%9C%E8%81%8C"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/11/us-commemorates-25th-anniversary-9/11-photos.html"
             }
           ],
           "rank": 9
         },
         {
-          "title": "星宇股份产业园九成员工为临时工",
-          "titleOrig": "星宇股份产业园被曝九成是临时工",
-          "url": "https://www.zhihu.com/search?q=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E4%BA%A7%E4%B8%9A%E5%9B%AD%E8%A2%AB%E6%9B%9D%E4%B9%9D%E6%88%90%E6%98%AF%E4%B8%B4%E6%97%B6%E5%B7%A5",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "前Anthropic研究员表示AI员工对人类未来感到恐惧",
+          "titleOrig": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+          "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T14:53:40+00:00",
+          "desc": "It comes as the AI firm's boss has called for the technology's development to be slowed down, citing \"serious\" risks.",
           "hotLabel": "",
-          "summary": "星宇股份产业园大量使用临时工引发关注。",
-          "analysis": "星宇股份产业园大量使用临时工反映了当前中国制造业用工结构的问题。这可能是因为企业为了降低成本，而选择使用临时工而非正式员工。这一现象可能加剧劳动力市场的流动性，对员工的权益保障和职业发展带来挑战。后续可能需要政府出台相关政策，规范企业用工行为，保障员工权益。",
+          "summary": "AI公司负责人呼吁放缓技术发展，称存在“严重”风险。",
+          "analysis": "AI技术的发展引发了对其潜在风险的担忧，包括对人类未来的影响。前Anthropic研究员的言论反映了AI领域专家对技术发展的担忧。这可能导致公众和决策者对AI技术的监管和伦理问题更加关注。后续走向可能包括对AI技术的更严格监管，以及公众对AI伦理问题的讨论。",
           "keywords": [
-            "星宇股份",
-            "临时工",
-            "用工结构",
-            "劳动力市场",
-            "政策调整"
+            "AI",
+            "伦理",
+            "技术发展",
+            "风险",
+            "监管"
           ],
-          "category": "society",
-          "importance": 75,
+          "category": "tech",
+          "importance": 80,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E4%BA%A7%E4%B8%9A%E5%9B%AD%E8%A2%AB%E6%9B%9D%E4%B9%9D%E6%88%90%E6%98%AF%E4%B8%B4%E6%97%B6%E5%B7%A5"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c1kx0gyje9wo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 10
         },
         {
-          "title": "金砖国家领导人呼吁在中东保持最大克制",
-          "titleOrig": "BRICS summit leaders urge 'maximum restraint' in Middle East",
-          "url": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
+          "title": "土耳其警方在同性恋酒吧和LGBTQ+活动家家中逮捕多人",
+          "titleOrig": "Turkish police detain dozens in raids on gay bars and homes of LGBTQ+ activists",
+          "url": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "德国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-12T11:39:00+00:00",
-          "desc": "The joint declaration at the BRICS 2026 summit expressed 'deep concern' over hostilities in the Middle East. China's President Xi Jinping said the Iran war was not in the bloc's interest.",
+          "publishedAt": "2026-09-13T14:25:56+00:00",
+          "desc": "Human rights groups in Turkey have accused the government of using a family- values campaign to target the LGBTQ+ community.",
           "hotLabel": "",
-          "summary": "金砖国家领导人呼吁在中东保持最大克制。",
-          "analysis": "金砖国家领导人就中东局势表达深切关注，并强调伊朗战争不符合金砖国家的利益。这表明金砖国家在国际事务中寻求共同立场，并试图通过外交手段维护地区和平与稳定。后续可能需要关注金砖国家在国际舞台上的合作与协调。",
+          "summary": "土耳其政府被指利用家庭价值观运动针对LGBTQ+群体。",
+          "analysis": "土耳其政府在LGBTQ+权利问题上的立场反映了该国社会价值观的冲突。此次行动可能加剧国内社会分裂，并影响土耳其与欧洲的关系。后续可能看到土耳其国内对LGBTQ+权利的更广泛讨论和可能的法律变化。",
           "keywords": [
-            "金砖国家",
-            "中东局势",
-            "伊朗战争",
-            "和平稳定",
-            "国际合作"
+            "土耳其",
+            "LGBTQ+",
+            "人权",
+            "社会分裂",
+            "欧洲关系"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cpve191wy47o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "瑞典选举显示政治重心转移",
+          "titleOrig": "An Election in Sweden Shows Shifting Priorities",
+          "url": "https://www.nytimes.com/2026/09/13/world/europe/sweden-election-sunday.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T04:01:23+00:00",
+          "desc": "Sweden votes on Sunday. With various crises easing, center-left politics seem in vogue again, but the far right cannot be discounted.",
+          "hotLabel": "",
+          "summary": "瑞典周日举行选举，随着各种危机缓解，中左翼政治似乎再次流行，但极右翼势力不容忽视。",
+          "analysis": "瑞典选举反映了欧洲政治格局的变化。中左翼政治的回潮可能表明社会对稳定和传统价值观的渴望。极右翼势力的存在则提醒欧洲社会需要关注民粹主义和排外主义的风险。后续可能包括政策调整和社会对话，以应对极右翼的挑战。",
+          "keywords": [
+            "瑞典",
+            "选举",
+            "政治",
+            "极右翼",
+            "欧洲"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/13/world/europe/sweden-election-sunday.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "菲律宾渡轮火灾死亡人数升至76人，仍有失踪者",
+          "titleOrig": "Death toll from Philippines ferry fire rises to 76, with more still missing",
+          "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T15:09:55+00:00",
+          "desc": "Access to the burnt-out boat has been slowed by toxic fumes and lingering heat, the country's coast guard says.",
+          "hotLabel": "",
+          "summary": "菲律宾渡轮火灾死亡人数增加，火灾原因调查仍在进行。",
+          "analysis": "此次火灾事故暴露了菲律宾渡轮安全的不足。事故可能引发对该国渡轮安全标准的审查，并可能对渡轮行业造成影响。对于菲律宾而言，这起事故是对其旅游业的打击，需要采取措施恢复游客信心。",
+          "keywords": [
+            "菲律宾",
+            "渡轮火灾",
+            "安全标准",
+            "旅游业",
+            "游客信心"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cwyz755yeg9o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "股市因通胀担忧承压，但两家公司让我们保持乐观",
+          "titleOrig": "Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish",
+          "url": "https://www.cnbc.com/2026/09/12/stocks-stumble-on-inflation-fears-but-2-names-give-us-reasons-to-stay-bullish.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T14:37:07+00:00",
+          "desc": "Stocks came under pressure last week as surging oil prices and bond yields stoked renewed concerns about inflation and the Fed's next move.",
+          "hotLabel": "",
+          "summary": "上周股市因油价和债券收益率上升而承压，但两家公司给出保持乐观的理由。",
+          "analysis": "股市的波动通常与宏观经济因素紧密相关，如通胀预期。油价和债券收益率的上升增加了市场对通胀的担忧，这可能导致美联储采取更为紧缩的货币政策。尽管如此，某些公司的表现可能表明经济中存在亮点，从而为投资者提供保持乐观的理由。后续走向可能包括市场对通胀数据的反应，以及美联储政策的变化。",
+          "keywords": [
+            "股市",
+            "通胀",
+            "美联储",
+            "货币政策",
+            "经济数据"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/stocks-stumble-on-inflation-fears-but-2-names-give-us-reasons-to-stay-bullish.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "印尼巽他海峡渡轮倾覆，六人死亡130人失踪",
+          "titleOrig": "Six dead, 130 missing after Indonesian ferry capsizes in Java Sea",
+          "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T13:30:38+00:00",
+          "desc": "Ships and helicopters are searching for those missing from the Virgo Transport 8 ship, which had encountered bad weather.",
+          "hotLabel": "",
+          "summary": "Virgo Transport 8号渡轮遇恶劣天气倾覆，搜救行动正在进行。",
+          "analysis": "印尼作为发展中国家，海上安全监管和基础设施可能存在不足，导致此类事故频发。此次事故反映出印尼在公共安全和基础设施方面的挑战。后续可能引发印尼政府加强海上安全和基础设施建设的政策调整。",
+          "keywords": [
+            "印尼",
+            "渡轮倾覆",
+            "海上安全",
+            "基础设施",
+            "公共安全"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cvgykzgljlyo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c62ene9kr71o?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c4gr33g3evlo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "签证问题威胁美巴在犯罪问题上的合作",
+          "titleOrig": "Visa Issue Threatens U.S.-Brazil Cooperation on Crime",
+          "url": "https://www.nytimes.com/2026/09/12/world/americas/us-brazil-crime-police-visas-ice.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-13T02:32:07+00:00",
+          "desc": "Officials say the Trump administration is blocking some of Brazil’s efforts to expand cooperation on fighting transnational crime.",
+          "hotLabel": "",
+          "summary": "官员表示，特朗普政府阻止了巴西扩大打击跨国犯罪的合作的努力。",
+          "analysis": "签证问题是美巴合作的一个障碍，反映了两国在安全合作上的分歧。美巴关系复杂，涉及地缘政治和意识形态。这一事件可能影响两国在打击跨国犯罪上的合作，并可能对区域安全产生负面影响。后续可能包括两国在安全领域的对话和协商。",
+          "keywords": [
+            "美国",
+            "巴西",
+            "签证",
+            "合作",
+            "安全"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/12/world/americas/us-brazil-crime-police-visas-ice.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "甲骨文创始人取消出售75亿美元股票计划",
+          "titleOrig": "Larry Ellison nixes plan to offload up to $7.5 billion worth of Oracle stock",
+          "url": "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T17:14:56+00:00",
+          "desc": "Oracle founder Larry Ellison has canceled his plan to sell up to $7.5 billion worth of stock in the software company.",
+          "hotLabel": "",
+          "summary": "甲骨文创始人取消出售价值75亿美元的股票。",
+          "analysis": "Larry Ellison取消出售股票计划可能表明他对公司未来有信心，或者是对市场前景的谨慎态度。这一决定可能会影响投资者对甲骨文的看法，并可能对科技股市场产生短期影响。",
+          "keywords": [
+            "甲骨文",
+            "股票",
+            "市场",
+            "投资者",
+            "信心"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/larry-ellison-nixes-plan-to-offload-up-to-7point5-billion-worth-of-oracle-stock-.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "六名尼日利亚人因600万美元网络爱情诈骗被引渡至美国",
+          "titleOrig": "Six Nigerians extradited to US over $6m online romance scam",
+          "url": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T14:05:45+00:00",
+          "desc": "Alleged members of Black Axe criminal network that swindled US women out of $6m flown from South AfricaSix Nigerian nationals linked to an organized criminal network that allegedly swindled American women out of more than $6m through online romance scams were extradited to the United States on Frida",
+          "hotLabel": "",
+          "summary": "涉嫌诈骗美国女性的尼日利亚黑斧帮成员被引渡至美国。",
+          "analysis": "这起诈骗案件揭示了网络犯罪的国际化和跨境合作。黑斧帮作为有组织的犯罪网络，其诈骗行为不仅损害了受害者，也影响了尼日利亚的国际形象。美国对此类犯罪的打击表明了对网络安全的重视，同时也可能引发对尼日利亚等非洲国家网络安全问题的关注。未来可能加强国际间在网络安全领域的合作。",
+          "keywords": [
+            "尼日利亚",
+            "网络诈骗",
+            "黑斧帮",
+            "引渡",
+            "美国"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/12/nigerians-extradited-online-romance-scams"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "巴菲特对十年前收购的信心终于得到回报",
+          "titleOrig": "Buffett's confidence in troubled decade-old acquisition finally pays off",
+          "url": "https://www.cnbc.com/2026/09/12/buffetts-confidence-in-troubled-decade-old-acquisition-finally-pays-off.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T13:20:04+00:00",
+          "desc": "Warren Buffett has said he paid too much for Precision Castparts in 2016. Now its complex metal castings are in high demand.",
+          "hotLabel": "",
+          "summary": "沃伦·巴菲特曾表示，他在2016年对精密铸造零部件公司的收购过高。现在，其复杂金属铸造需求旺盛。",
+          "analysis": "巴菲特的投资哲学强调长期价值投资，而他对精密铸造零部件公司的收购体现了这一理念。尽管初期投资可能面临挑战，但长期来看，巴菲特的投资策略证明了其价值。这一事件表明，即使在困难时期，某些行业和公司仍具有长期增长潜力。后续走向可能包括巴菲特对其他投资机会的评估，以及市场对其投资策略的反应。",
+          "keywords": [
+            "巴菲特",
+            "投资",
+            "精密铸造零部件",
+            "长期价值投资",
+            "市场增长"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/buffetts-confidence-in-troubled-decade-old-acquisition-finally-pays-off.html"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "特朗普访问爱尔兰公开赛引发抗议和赞扬",
+          "titleOrig": "In Doonbeg, Trump’s Irish Open Visit Prompts Protests and Praise",
+          "url": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T14:33:39+00:00",
+          "desc": "As the U.S. president heads to his Doonbeg hotel for the Irish Open, locals expressed both appreciation for the resort’s economic benefits and opposition to his politics.",
+          "hotLabel": "",
+          "summary": "美国总统特朗普访问爱尔兰公开赛，当地民众反应两极。",
+          "analysis": "特朗普的访问反映了国际政治人物在体育赛事中的影响力。一方面，他的访问可能为当地经济带来利益；另一方面，他的政治立场引发了抗议。这一事件可能加剧国际政治的紧张关系，并影响国际形象。",
+          "keywords": [
+            "特朗普",
+            "爱尔兰",
+            "政治访问",
+            "抗议",
+            "经济利益"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/12/world/europe/trump-irish-open-ireland-doonbeg.html"
+            }
+          ],
+          "rank": 20
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "今日国内形势呈现多元发展态势。在政策层面，国家领导人会见国际领导人，展现对外开放与合作姿态；市场监管局对烧烤店事件作出回应，体现了对市场秩序的维护。经济领域，服贸会深化国际合作，油价重返100美元，对国内市场产生一定影响。社会层面，关注个体命运，如刘翔被体育局买断、江西孩子因看演唱会被取消低保等，同时也关注文化现象，如说唱巅峰对决、AI短剧成瘾等。总体来看，国内政策与社会动向呈现出多元化、国际化的特点，其中市场秩序、经济合作、个体权益和文化现象值得关注。",
+      "totalSelected": 20,
+      "items": [
+        {
+          "title": "习近平会见印度总理莫迪",
+          "titleOrig": "习近平会见印度总理莫迪- 中国日报网 - China Daily",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aQmNKLWZTTklNNFJrLUdlZXIwbUVNcGZWNEJ0dXZWQi1ZLVR1UzU3aEx6WnRVYXJuc2JycmVaQ3BqekQ1ZHV0RjhlTXg1Z2ZWZm1kNXFaODBodFZTSXRrcWRUTUpVXzh6ZWNFX2R0SHJPQlRnYWdhZlgxa1NRY3c?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T12:25:51+00:00",
+          "desc": "习近平会见印度总理莫迪- 中国日报网 China Daily习近平在金砖国家领导人第十八次会晤第二阶段会议的讲话（全文） mfa.gov.cn第一观察丨从战略高度和长远角度看待和发展中印关系 新华网“大金砖合作”让全球南方声音更加响亮 光明网越山海｜寻找“金砖温度”的答案 新浪财经",
+          "hotLabel": "",
+          "summary": "习近平与印度总理莫迪会面，讨论双边关系与合作。",
+          "analysis": "此次会面体现了中国对发展中印关系的重视，旨在深化两国在政治、经济、文化等领域的合作。从战略高度和长远角度看待和发展中印关系，有助于维护地区稳定与繁荣。对国内民生而言，加强双边关系有助于促进贸易和投资，对经济有积极影响。后续走向可能包括更多高层互访和合作项目的推进。",
+          "keywords": [
+            "中印关系",
+            "习近平",
+            "莫迪",
+            "双边合作",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aQmNKLWZTTklNNFJrLUdlZXIwbUVNcGZWNEJ0dXZWQi1ZLVR1UzU3aEx6WnRVYXJuc2JycmVaQ3BqekQ1ZHV0RjhlTXg1Z2ZWZm1kNXFaODBodFZTSXRrcWRUTUpVXzh6ZWNFX2R0SHJPQlRnYWdhZlgxa1NRY3c?oc=5"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/india-china-modi-xi-brics-border.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html"
+            },
+            {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 11
+          "rank": 1
+        },
+        {
+          "title": "胡塞武装称曼德海峡通航基本正常",
+          "titleOrig": "胡塞武装称曼德海峡通航基本正常 - 京报网",
+          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1X3h3QVpyOU5fTVFHeGtEamdyckpLV0tlbG10QTJ4M3ZNNG0yM1BSZTdLLWtPUE5ERHRORFZPclAzZjZzM1BKc2R5a0hjdHkySnh2bkJHeFZDcFdPSUE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T10:16:56+00:00",
+          "desc": "胡塞武装称曼德海峡通航基本正常 京报网胡塞武装称使用大量弹道导弹和无人机打击沙特军事设施 央视网中东面面观丨也门战局再起波澜 红海安全面临新考验 中国日报网胡塞武装攻占红海小城，何以成为美国的“战略灾难”？ 新浪财经霍尔木兹未开，沙特命脉管道又遭袭关闭 观察者网",
+          "hotLabel": "",
+          "summary": "胡塞武装称曼德海峡通航正常，沙特设施遭袭。",
+          "analysis": "胡塞武装对沙特军事设施的攻击，反映了中东地区复杂的地缘政治局势。此举可能加剧地区紧张，影响国际石油运输安全。对中国而言，关注该事件有助于理解中东地区政策意图，以及其对全球能源市场的影响。后续可能引发国际社会的介入和调解。",
+          "keywords": [
+            "胡塞武装",
+            "曼德海峡",
+            "沙特",
+            "军事设施",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB1X3h3QVpyOU5fTVFHeGtEamdyckpLV0tlbG10QTJ4M3ZNNG0yM1BSZTdLLWtPUE5ERHRORFZPclAzZjZzM1BKc2R5a0hjdHkySnh2bkJHeFZDcFdPSUE?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mUUdGaFNnQTVBSWR3U1R2a0tHT1pVVDJsVkFSQnFrSzE3bzBSbWk5U1QySzVVZHVrMk5tWl8xUzhiallwSlVCVUhWSFNPblpYNExWZjUwcGxUMzg?oc=5"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "油价重返100美元，中国或决定未来走向",
+          "titleOrig": "Oil's roundtrip back to $100. Why China could determine what happens next",
+          "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T12:40:05+00:00",
+          "desc": "The U.S. crude oil price on Thursday topped $102 per barrel for its highest close since May.",
+          "hotLabel": "",
+          "summary": "美国原油价格首次突破每桶102美元，中国的影响力可能决定油价未来走势。",
+          "analysis": "油价上涨对全球经济产生重要影响，尤其是对能源进口大国。中国作为全球最大的原油进口国，其需求变化对油价有显著影响。未来，中美在能源领域的互动可能成为影响国际油价的关键因素。此外，全球能源转型和地缘政治风险也将对油价产生长期影响。",
+          "keywords": [
+            "油价",
+            "中国",
+            "原油",
+            "能源",
+            "地缘政治"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/12/oils-roundtrip-back-to-100-why-china-could-determine-what-happens-next.html"
+            }
+          ],
+          "rank": 3
         },
         {
           "title": "市场监管局回应烧烤店2个月被查15次",
@@ -1114,193 +878,21 @@
           "desc": "",
           "hotLabel": "",
           "summary": "市场监管局就烧烤店频繁检查事件作出回应。",
-          "analysis": "事件背景：市场监管部门对餐饮行业的监管旨在保障食品安全和消费者权益。频繁检查可能反映出监管力度加强，也可能存在监管不当的问题。关键影响：该事件反映了食品安全监管的重要性，同时也可能引发公众对监管效率的讨论。后续走向：市场监管部门可能对相关监管措施进行调整，以平衡监管力度和效率。",
+          "analysis": "此事件反映了我国对食品安全的高度重视。市场监管局频繁检查烧烤店，旨在保障人民群众的饮食安全。对民生而言，这有助于提高食品安全水平，对经济有促进作用，对治理意味着加强市场监管。",
           "keywords": [
-            "市场监管局",
-            "烧烤店",
             "食品安全",
-            "监管",
-            "民生"
+            "市场监管局",
+            "市场监管"
           ],
           "category": "society",
-          "importance": 70,
+          "importance": 85,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E5%B8%82%E5%9C%BA%E7%9B%91%E7%AE%A1%E5%B1%80%E5%9B%9E%E5%BA%94%E7%83%A7%E7%83%A4%E5%BA%972%E4%B8%AA%E6%9C%88%E8%A2%AB%E6%9F%A515%E6%AC%A1%23&t=31&band_rank=13&Refer=top"
             }
           ],
-          "rank": 12
-        },
-        {
-          "title": "江西孩子看演唱会后全家低保取消",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "江西一孩子看演唱会后，全家低保被取消。",
-          "analysis": "此事件反映了我国低保政策的执行过程中可能存在的监管不严和执行偏差问题。政策意图在于保障困难家庭的基本生活，而此事件可能暴露了部分家庭利用低保谋取不正当利益的现象。对国内民生意味着需要加强低保政策的监管和审核，确保真正需要帮助的家庭得到支持。后续走向可能包括对相关政策的调整和完善。",
-          "keywords": [
-            "低保政策",
-            "监管不严",
-            "社会公平"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "著名主持人敬一丹去世",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%91%97%E5%90%8D%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%95%AC%E4%B8%80%E4%B8%B9%E5%8E%BB%E4%B8%96",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "著名主持人敬一丹去世，享年78岁。",
-          "analysis": "敬一丹的去世是文化界的损失，她的职业生涯代表了我国电视新闻的发展历程。此事件可能引发对文化传承和媒体发展的思考。",
-          "keywords": [
-            "敬一丹",
-            "主持人",
-            "文化传承",
-            "媒体发展",
-            "去世"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%91%97%E5%90%8D%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%95%AC%E4%B8%80%E4%B8%B9%E5%8E%BB%E4%B8%96"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "下周上班时间调整",
-          "titleOrig": "下周上班时间有变",
-          "url": "https://www.baidu.com/s?wd=%E4%B8%8B%E5%91%A8%E4%B8%8A%E7%8F%AD%E6%97%B6%E9%97%B4%E6%9C%89%E5%8F%98",
-          "source": "百度热搜",
-          "sourceId": "baidu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "下周起上班时间将发生变化。",
-          "analysis": "调整上班时间可能是为了应对当前经济形势或社会需求的变化。此举可能对民众的日常生活和工作节奏产生影响，同时也可能反映出政府对经济运行的调控意图。后续可能需要关注调整后的实际效果和对经济、社会的影响。",
-          "keywords": [
-            "上班时间",
-            "调整",
-            "经济形势",
-            "社会需求",
-            "政策调控"
-          ],
-          "category": "domestic",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E4%B8%8B%E5%91%A8%E4%B8%8A%E7%8F%AD%E6%97%B6%E9%97%B4%E6%9C%89%E5%8F%98"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "经常换手机的人嘴真严",
-          "titleOrig": "你们经常换手机的人嘴真严",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E4%BB%AC%E7%BB%8F%E5%B8%B8%E6%8D%A2%E6%89%8B%E6%9C%BA%E7%9A%84%E4%BA%BA%E5%98%B4%E7%9C%9F%E4%B8%A5%23&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "微博热议频繁更换手机的现象。",
-          "analysis": "这一现象可能反映了消费者对智能手机品质和性能的更高要求，以及消费观念的变化。频繁更换手机可能与社会经济发展水平、消费者收入水平以及品牌忠诚度等因素有关。这一趋势可能促使手机厂商在产品设计和功能上更加注重用户体验，同时也可能对二手手机市场产生影响。",
-          "keywords": [
-            "手机更换",
-            "消费观念",
-            "二手市场",
-            "用户体验",
-            "品牌忠诚度"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E4%BB%AC%E7%BB%8F%E5%B8%B8%E6%8D%A2%E6%89%8B%E6%9C%BA%E7%9A%84%E4%BA%BA%E5%98%B4%E7%9C%9F%E4%B8%A5%23&t=31&band_rank=2&Refer=top"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "设计师称中国客厅已失去意义",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AE%A2%E5%8E%85%E5%B7%B2%E5%A4%B1%E5%8E%BB%E6%84%8F%E4%B9%89",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "设计师提出中国客厅功能逐渐被削弱。",
-          "analysis": "事件背景：随着社会发展和生活方式的改变，家庭空间的使用功能也在发生变化。设计师的观点反映了这一趋势。关键影响：该观点可能引发对家庭空间设计和社会生活方式的讨论，对家居行业和室内设计领域产生影响。后续走向：家居行业可能根据这一趋势调整产品设计，以满足消费者新的需求。",
-          "keywords": [
-            "设计师",
-            "客厅",
-            "家庭空间",
-            "生活方式",
-            "家居设计"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AE%A2%E5%8E%85%E5%B7%B2%E5%A4%B1%E5%8E%BB%E6%84%8F%E4%B9%89"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/12/india-china-modi-xi-brics-border.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
-            }
-          ],
-          "rank": 17
+          "rank": 4
         },
         {
           "title": "刘翔被体育局买断获49.4万",
@@ -1315,22 +907,448 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "刘翔被体育局买断，获得49.4万元赔偿。",
-          "analysis": "刘翔被体育局买断体现了我国体育体制改革的深化。政策意图在于优化资源配置，提高体育竞技水平。对国内体育意味着运动员职业化进程的推进，对经济意味着体育产业的潜在增长。后续走向可能包括更多运动员职业化改革的案例。",
+          "summary": "前奥运冠军刘翔被体育局买断，获得49.4万元补偿。",
+          "analysis": "刘翔的买断事件体现了我国体育体制的改革。随着体育市场化的发展，运动员的职业生涯管理和收入分配成为关注焦点。此事件可能推动体育体制的进一步改革，包括运动员保障机制和市场化运作。",
           "keywords": [
+            "刘翔",
+            "体育局",
             "体育改革",
-            "职业化",
-            "体育产业"
+            "运动员保障",
+            "市场化"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 85,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E5%88%98%E7%BF%94%E8%A2%AB%E4%BD%93%E8%82%B2%E5%B1%80%E4%B9%B0%E6%96%AD%E8%8E%B749.4%E4%B8%87"
             }
           ],
-          "rank": 18
+          "rank": 5
+        },
+        {
+          "title": "2026年服贸会深化国际合作",
+          "titleOrig": "扩大开放功能持续提升 2026年服贸会深化国际合作 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12MUpRQUlYMktRaEh3b2VrSXNraUsyTlp1ek5rSFhjVUlCSURfVGk2OXNZN2l1YzV5SlZaQnZDbC1mdGdPUG9hSnFHNzAtR3poVVl6bzlFaDZYR1JXQTZUajlYOEFLVEFM?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T09:44:57+00:00",
+          "desc": "扩大开放功能持续提升 2026年服贸会深化国际合作 chinanews.com.cn2026年服贸会交出亮眼成绩单！核心活动区入场近42万人次，达成成果1200余项 新浪财经开放中国与世界共享服务贸易新机遇 光明网德雅方舟国际医疗体系于 2026 服贸会正式成立 中华网数智赋能金融开放 服贸会搭建全球金融合作平台 Sohu",
+          "hotLabel": "",
+          "summary": "2026年服贸会成功举办，深化国际合作。",
+          "analysis": "服贸会的成功举办体现了中国扩大开放的决心，通过国际合作提升服务贸易水平。对国内经济意味着进一步融入全球经济体系，促进服务贸易发展。后续可能继续推动服务贸易自由化和便利化，为国内外企业提供更多合作机会。",
+          "keywords": [
+            "服贸会",
+            "国际合作",
+            "服务贸易",
+            "开放政策",
+            "经济合作"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE12MUpRQUlYMktRaEh3b2VrSXNraUsyTlp1ek5rSFhjVUlCSURfVGk2OXNZN2l1YzV5SlZaQnZDbC1mdGdPUG9hSnFHNzAtR3poVVl6bzlFaDZYR1JXQTZUajlYOEFLVEFM?oc=5"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "金砖国家领导人呼吁在中东保持最大克制",
+          "titleOrig": "BRICS summit leaders urge 'maximum restraint' in Middle East",
+          "url": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-12T11:39:00+00:00",
+          "desc": "The joint declaration at the BRICS 2026 summit expressed 'deep concern' over hostilities in the Middle East. China's President Xi Jinping said the Iran war was not in the bloc's interest.",
+          "hotLabel": "",
+          "summary": "金砖国家2026年峰会联合声明对中东冲突表示深切关注。",
+          "analysis": "金砖国家领导人呼吁在中东保持克制，反映了该组织在国际事务中的立场。中国作为金砖国家之一，其在中东问题上的立场对区域稳定和全球安全具有重要意义。中国可能通过外交手段推动和平解决冲突，并在国际舞台上发挥更加积极的作用。后续，金砖国家可能在多边合作、经济一体化以及全球治理方面有所加强。",
+          "keywords": [
+            "金砖国家",
+            "中东冲突",
+            "中国外交",
+            "全球治理",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/brics-summit-leaders-urge-maximum-restraint-in-middle-east/live-79224239?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "小胖FMVP",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E8%83%96FMVP&t=31&band_rank=8&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "网络热议运动员小胖获得FMVP荣誉。",
+          "analysis": "小胖获得FMVP体现了我国体育事业的成就，对国内体育产业的发展具有积极影响。这不仅是对运动员个人努力的认可，也是对国家体育政策支持的结果。对民生而言，这有助于提升国民体育意识，对经济有促进作用，对治理意味着体育事业的持续发展。",
+          "keywords": [
+            "体育事业",
+            "运动员",
+            "国家荣誉"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E8%83%96FMVP&t=31&band_rank=8&Refer=top"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "江西孩子看演唱会后全家低保取消",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "江西一孩子观看演唱会后，全家低保资格被取消。",
+          "analysis": "这一事件揭示了低保政策执行中的争议。低保政策旨在帮助贫困家庭，但如何界定“贫困”和家庭收入成为执行中的难题。此事件可能引发对低保政策执行标准和公平性的讨论。",
+          "keywords": [
+            "低保",
+            "演唱会",
+            "政策执行",
+            "贫困家庭",
+            "公平性"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%B1%9F%E8%A5%BF%E5%AD%A9%E5%AD%90%E7%9C%8B%E6%BC%94%E5%94%B1%E4%BC%9A%E5%90%8E%E5%85%A8%E5%AE%B6%E4%BD%8E%E4%BF%9D%E5%8F%96%E6%B6%88"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "武汉出台40条政策！高水平建设武汉区域科技创新中心",
+          "titleOrig": "武汉出台40条政策！高水平建设武汉区域科技创新中心- 湖北日报新闻客户端 - 湖北日报传媒集团",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42X3dtRW9hcjBmTFp5dnpzMzgzWV9ldDFtdGhqZjlhQU9wNUN2andaM2pSakxSajZzdUd2NHZuTEFnNXlrcHpvQ0ZNSkhtdHdBMDBlVG1oU18?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T09:54:35+00:00",
+          "desc": "武汉出台40条政策！高水平建设武汉区域科技创新中心- 湖北日报新闻客户端 湖北日报传媒集团武汉厚植开放创新生态 聚力建设区域科创中心 新浪财经从创新雨林，看武汉的“锦鲤”跃龙门 thepaper.cn湖北人工智能产业规模突破1600亿元！2026年湖北科学技术学术年会在汉召开，会上公布两份报告 凤凰网全市大会，这个词被反复提及 长江网",
+          "hotLabel": "",
+          "summary": "武汉发布40条政策，推动区域科技创新中心建设。",
+          "analysis": "武汉出台的政策旨在打造区域科技创新中心，体现了中国对科技创新的重视。对国内民生和经济发展有积极影响，有助于提升区域竞争力。后续可能吸引更多科技企业和人才，推动科技创新成果转化。",
+          "keywords": [
+            "武汉",
+            "科技创新",
+            "区域中心",
+            "政策支持",
+            "人才吸引"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE42X3dtRW9hcjBmTFp5dnpzMzgzWV9ldDFtdGhqZjlhQU9wNUN2andaM2pSakxSajZzdUd2NHZuTEFnNXlrcHpvQ0ZNSkhtdHdBMDBlVG1oU18?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "说唱巅峰对决2026",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E8%AF%B4%E5%94%B1%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B32026&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "说唱音乐节目《说唱巅峰对决2026》引发热议。",
+          "analysis": "该节目反映了我国对文化娱乐产业的重视，通过推广说唱音乐，旨在丰富人民群众的精神文化生活。同时，这也体现了我国对青年文化的关注，鼓励年轻人通过音乐表达自我。对国内民生而言，此类节目有助于提升文化软实力，对经济有推动作用，对治理意味着加强文化产业的创新与发展。",
+          "keywords": [
+            "说唱音乐",
+            "文化娱乐",
+            "青年文化"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E8%AF%B4%E5%94%B1%E5%B7%85%E5%B3%B0%E5%AF%B9%E5%86%B32026&t=31&band_rank=7&Refer=top"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "设计师称中国客厅已失去意义",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AE%A2%E5%8E%85%E5%B7%B2%E5%A4%B1%E5%8E%BB%E6%84%8F%E4%B9%89",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "一位设计师在知乎上提出中国客厅已失去意义。",
+          "analysis": "这一观点反映了社会变迁和生活方式的改变。随着家庭结构的变化和娱乐方式的多元化，传统意义上的客厅功能逐渐弱化。这背后是城市化进程和家庭结构的变化，对家居设计和房地产产业可能产生深远影响。",
+          "keywords": [
+            "客厅",
+            "设计师",
+            "生活方式",
+            "城市化",
+            "家居设计"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E8%AE%BE%E8%AE%A1%E5%B8%88%E7%A7%B0%E4%B8%AD%E5%9B%BD%E5%AE%A2%E5%8E%85%E5%B7%B2%E5%A4%B1%E5%8E%BB%E6%84%8F%E4%B9%89"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "苹果折叠机中国未售先热 黄牛贷款百万备货",
+          "titleOrig": "苹果折叠机中国未售先热 黄牛贷款百万备货 - 8world",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XcURybVVkVm9iVUl0cV9nSW1QckNXOVU2RXk4akpnbkVxa25SNHo2YW5BZThkZ09DVDdLSkFhTzJ6UzlUanVENkxwU1RING9xdmVMY0dqd0ZPLW5BVVd0bllrZUZmME1vYmdWQldJMnpJdUo3?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T10:47:10+00:00",
+          "desc": "苹果折叠机中国未售先热 黄牛贷款百万备货 8world苹果CEO Ternus首秀，发布折叠iPhone Duo t.cj.sina.cn讲讲 Duo 作为科技产品命名的前世今生 爱范儿迟到7年的iPhone Duo，一上来就想“终结”比赛 Jiemian.com罗永浩评iPhone 折叠屏：真正重要的，从来不是对错， 而是敢于喷射 虎嗅网",
+          "hotLabel": "",
+          "summary": "苹果折叠机在中国未上市前就引发抢购热潮。",
+          "analysis": "苹果折叠机的未售先热反映了消费者对创新科技的期待，同时也揭示了黄牛市场的存在。这可能会推动国内手机制造商加快研发步伐，提升竞争力。对中国经济而言，这表明高端消费市场的潜力巨大。",
+          "keywords": [
+            "苹果",
+            "折叠机",
+            "黄牛",
+            "创新科技",
+            "消费市场"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1XcURybVVkVm9iVUl0cV9nSW1QckNXOVU2RXk4akpnbkVxa25SNHo2YW5BZThkZ09DVDdLSkFhTzJ6UzlUanVENkxwU1RING9xdmVMY0dqd0ZPLW5BVVd0bllrZUZmME1vYmdWQldJMnpJdUo3?oc=5"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/11/cheap-china-smartphones-rare-memory-ai-costs.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/china-xi-ai-tech-brics.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/13/chinas-xi-urges-brics-peace-middle-east.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "15名同事合买彩票中得3000万大奖",
+          "titleOrig": "15名同事合买彩票中奖3000万",
+          "url": "https://s.weibo.com/weibo?q=%2315%E5%90%8D%E5%90%8C%E4%BA%8B%E5%90%88%E4%B9%B0%E5%BD%A9%E7%A5%A8%E4%B8%AD%E5%A5%963000%E4%B8%87%23&t=31&band_rank=19&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "15名同事共同购买彩票，意外中得3000万元大奖。",
+          "analysis": "这一事件反映了我国彩票市场的活跃和民众对财富的追求。彩票作为一种筹集资金的手段，其背后是政策对于公益事业的推动。同时，这也体现了社会对中彩票这种一夜暴富现象的关注。后续可能引发对彩票市场监管的讨论和调整。",
+          "keywords": [
+            "彩票",
+            "中奖",
+            "公益事业",
+            "财富追求",
+            "监管"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%2315%E5%90%8D%E5%90%8C%E4%BA%8B%E5%90%88%E4%B9%B0%E5%BD%A9%E7%A5%A8%E4%B8%AD%E5%A5%963000%E4%B8%87%23&t=31&band_rank=19&Refer=top"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "夜空寄思念 香港上演无人机秀纪念张国荣诞辰70年",
+          "titleOrig": "夜空寄思念 香港上演无人机秀纪念张国荣诞辰70年 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYaTVCeGUtdW5BaWZuQW1mdVJtOHhQOUo4cENkRUhWVU4xZFhhb0pOb2ZDNEFHX2hPdnlwbldhcTNUYVMxV1JzWUU5THkwLVBoSXRhUlliUnVoSU9WcVhwWWMzVWoxeENRTUE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T07:56:22+00:00",
+          "desc": "夜空寄思念 香港上演无人机秀纪念张国荣诞辰70年 chinanews.com.cn在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "香港通过无人机秀纪念张国荣诞辰70年。",
+          "analysis": "无人机秀作为纪念活动的一部分，体现了科技与文化的结合。这一事件反映了香港社会对文化名人的怀念，同时也展示了科技在文化表达中的新应用。对中国社会而言，这有助于推广科技文化，增强国家文化自信。",
+          "keywords": [
+            "无人机秀",
+            "张国荣",
+            "文化纪念",
+            "科技文化",
+            "社会情感"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBYaTVCeGUtdW5BaWZuQW1mdVJtOHhQOUo4cENkRUhWVU4xZFhhb0pOb2ZDNEFHX2hPdnlwbldhcTNUYVMxV1JzWUU5THkwLVBoSXRhUlliUnVoSU9WcVhwWWMzVWoxeENRTUE?oc=5"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%BD%A0%E4%BB%AC%E7%BB%8F%E5%B8%B8%E6%8D%A2%E6%89%8B%E6%9C%BA%E7%9A%84%E4%BA%BA%E5%98%B4%E7%9C%9F%E4%B8%A5%23&t=31&band_rank=2&Refer=top"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "东莞市气象台发布雷雨大风黄色预警信号",
+          "titleOrig": "广东省东莞市气象台发布雷雨大风黄色预警信号 - 中央气象台",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mLTV4dFJhSDliczBKOGhSNTcxSmFIMmJUVjNpWU5ZWDF3aDc5dWlZSW8xRE9TVXhram0wQkY1Y0gxZ1lPWFU3WlJlaG5RMS1jOFFPcnVSZVZVQklLeUU1a2RCLXFwVkhBZ3VVdjlzWkpnQWhwWUE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T10:45:00+00:00",
+          "desc": "广东省东莞市气象台发布雷雨大风黄色预警信号 中央气象台深圳市雷电预警信号正在生效中，2小时内全市将受影响！ 新浪财经强雷雨云团移近！广州多区发布暴雨和雷雨大风预警 Sohu预计未来3小时有强对流天气，江门多地暴雨预警信号生效 奥一网夜间有雷雨，广州多区发布雷雨大风或暴雨黄色预警信号 广州日报新花城",
+          "hotLabel": "",
+          "summary": "东莞市发布雷雨大风黄色预警。",
+          "analysis": "气象预警信号的发布体现了中国对自然灾害的重视和预警系统的完善。对社会治理意味着提高公众对气象灾害的认识和应对能力。后续可能加强气象监测和预警，减少灾害损失。",
+          "keywords": [
+            "气象预警",
+            "雷雨大风",
+            "灾害预防",
+            "社会治理",
+            "公众安全"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9mLTV4dFJhSDliczBKOGhSNTcxSmFIMmJUVjNpWU5ZWDF3aDc5dWlZSW8xRE9TVXhram0wQkY1Y0gxZ1lPWFU3WlJlaG5RMS1jOFFPcnVSZVZVQklLeUU1a2RCLXFwVkhBZ3VVdjlzWkpnQWhwWUE?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRmhaVVptX1dLODdlU1ZqRE1xUXNwWS1lRmFtbkM4UUxSbXIyTWhiOHJ3YlA4RWRwZVcyMVJZWGExek10ZmFjeVpON3gxOU1vX1JWRFlzUy1YYmk0cHpyYmI3QUlfT05Ja1VtMzdhbFBQVXp4dTZJQk1ZX0w5LVNMVnBnOElvTjdjaFhEeg?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oVjl0M3lsOTdTLVpsYkNfTFJEQndWNVdSYW5MZ3FJTzBwX3dvT29TZGVMRm1mLTNDcVhEM1hwWlE4SFVXY0xGYlJrUUVXeGZJNHYtY3FiOU1QR3hyNG90ZTVhS2ROZ3Nl?oc=5"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "第6届平潭IM两岸青年影展奖项揭晓 多部台湾青年作品获奖",
+          "titleOrig": "第6届平潭IM两岸青年影展奖项揭晓 多部台湾青年作品获奖 - fj.chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SV3NPemJlVnZNWGVWSDZZLVZjbW56cEMxcTIwZHotMl9uclI2TlF2U08zQmdnYkNFRVg0QjdqcHMwT2FxMU9ENWdKMGRDWE9EalBGVjhqbGdjaWJjNEZmYmJUUVM0V3pJc3BveXdvSUs?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-13T12:58:31+00:00",
+          "desc": "第6届平潭IM两岸青年影展奖项揭晓 多部台湾青年作品获奖 fj.chinanews.com.cn第6届平潭IM两岸青年影展 | 这一夜，风因他们而不同 新浪财经两岸资深电影人热议闽南语电影创作 新浪财经第六届平潭IM两岸青年影展在岚举办 央视网第六届平潭IM两岸青年影展颁奖典礼举行(1) 凤凰网",
+          "hotLabel": "",
+          "summary": "平潭IM两岸青年影展多部台湾青年作品获奖。",
+          "analysis": "影展的举办和台湾青年作品的获奖，促进了两岸文化交流，有助于增进两岸青年的相互了解和友谊。这符合国家推动两岸关系和平发展的政策意图，对维护社会和谐稳定具有积极意义。",
+          "keywords": [
+            "平潭IM影展",
+            "两岸青年",
+            "文化交流",
+            "社会和谐",
+            "政策意图"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1SV3NPemJlVnZNWGVWSDZZLVZjbW56cEMxcTIwZHotMl9uclI2TlF2U08zQmdnYkNFRVg0QjdqcHMwT2FxMU9ENWdKMGRDWE9EalBGVjhqbGdjaWJjNEZmYmJUUVM0V3pJc3BveXdvSUs?oc=5"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%87%91%E7%A0%96%E5%90%88%E4%BD%9C%E6%89%93%E9%80%A0%E4%BA%92%E8%81%94%E4%BA%92%E9%80%9A%E8%B4%B8%E6%98%93%E9%80%9A%E9%81%93%23&t=31&band_rank=3&Refer=top"
+            }
+          ],
+          "rank": 17
         },
         {
           "title": "AI短剧成瘾",
@@ -1345,14 +1363,14 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "微博热议AI短剧的成瘾性。",
-          "analysis": "AI短剧的流行反映了人工智能技术在娱乐领域的应用日益广泛。然而，过度沉迷于AI短剧可能对用户的注意力集中能力和现实生活产生负面影响。这要求相关平台和内容创作者在提供丰富娱乐的同时，也要注重引导用户合理消费，避免沉迷。",
+          "summary": "AI生成的短剧引发用户成瘾现象。",
+          "analysis": "AI短剧的流行反映了科技发展对娱乐产业的影响。然而，用户成瘾现象可能带来心理健康问题和社会依赖风险。中国可能加强对AI娱乐内容的监管，以保护公众利益。后续，AI娱乐内容可能面临更加严格的审查和规范。",
           "keywords": [
             "AI短剧",
-            "成瘾性",
-            "人工智能",
-            "娱乐",
-            "用户引导"
+            "成瘾",
+            "科技娱乐",
+            "心理健康",
+            "监管"
           ],
           "category": "society",
           "importance": 60,
@@ -1360,6 +1378,36 @@
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=AI%E7%9F%AD%E5%89%A7%20%E6%88%90%E7%98%BE&t=31&band_rank=5&Refer=top"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "孙俪收养的流浪猫去世",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E4%BF%AA%E6%94%B6%E5%85%BB%E7%9A%84%E6%B5%81%E6%B5%AA%E7%8C%AB%E5%8E%BB%E4%B8%96&t=31&band_rank=14&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "演员孙俪收养的流浪猫不幸去世。",
+          "analysis": "孙俪收养流浪猫体现了社会对动物保护的重视。虽然该事件本身对民生、经济和治理的影响有限，但它提醒人们关注动物福利问题，有助于提升社会文明程度。",
+          "keywords": [
+            "动物保护",
+            "孙俪",
+            "流浪猫"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%AD%99%E4%BF%AA%E6%94%B6%E5%85%BB%E7%9A%84%E6%B5%81%E6%B5%AA%E7%8C%AB%E5%8E%BB%E4%B8%96&t=31&band_rank=14&Refer=top"
             }
           ],
           "rank": 19
@@ -1378,16 +1426,16 @@
           "desc": "",
           "hotLabel": "",
           "summary": "歌手赵雷宣布成为父亲。",
-          "analysis": "这一事件属于个人生活范畴，对公众影响有限。但作为公众人物，赵雷成为父亲可能会引发媒体和粉丝的关注，进而对相关产业如母婴产品市场产生一定影响。",
+          "analysis": "赵雷成为父亲是个人和家庭层面的喜讯，对公众而言，这反映了娱乐圈的动态和公众人物的生活状态。这一事件对粉丝和媒体可能产生一定的影响，但对社会整体影响较小。后续，赵雷可能将更多精力投入到家庭和音乐创作中。",
           "keywords": [
             "赵雷",
-            "成为父亲",
-            "公众人物",
-            "媒体关注",
-            "母婴市场"
+            "娱乐圈",
+            "家庭生活",
+            "粉丝文化",
+            "音乐"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 40,
           "sources": [
             {
               "name": "微博热搜",
