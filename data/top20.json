@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-14T17:15:33.445004+00:00",
+  "generatedAt": "2026-09-14T21:13:16.465601+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -47,8 +47,8 @@
     {
       "id": "gn-cn",
       "name": "Google 新闻 · 中文",
-      "count": 20,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "id": "weibo",
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 12,
       "ok": true
     },
     {
@@ -90,43 +90,42 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，中东地区紧张局势持续，沙特面临伊朗袭击和特朗普拒绝后的压力，同时俄罗斯对乌克兰边境的袭击被视为对基辅盟友的警告。经济领域，美债收益率波动及AI股票下跌引发市场关注，而人工智能发展速度的放缓呼声日益高涨。政治层面，巴西备战极右翼势力回归，中国间谍头目警告AI对党统治构成威胁，同时南非发现多起命案。此外，全球气候变化、能源安全及野生动物保护等问题也受到关注。整体而言，国际局势复杂多变，各国需保持警惕，共同应对挑战。",
+      "digest": "今日国际局势呈现出多方面的紧张与挑战。经济领域，美联储加息面临挑战，美国银行股价下跌，而沙特面临伊朗袭击的威胁。国际关系方面，俄乌边境袭击事件加剧紧张，以色列与巴勒斯坦冲突持续，胡塞武装与沙特之间的对抗升级。科技领域，人工智能的发展引发担忧，中国对AI恶意竞争的说法提出批评。此外，美国政治局势动荡，特朗普时期的政策受到挑战，而印尼渡轮沉没事件引发关注。整体来看，国际局势复杂多变，各方利益冲突与合作关系交织，值得关注的事件走向包括美联储加息决策、中东地区冲突动态以及人工智能技术的未来发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "沙特面临伊朗袭击和特朗普拒绝后的“最坏情况”",
-          "titleOrig": "Saudi Arabia Faces ‘Worst-Case Scenario’ After Iran’s Attacks and Trump’s Rebuffs",
-          "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-iran-trump-yemen-houthis.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
+          "title": "美联储面临加息挑战，Warsh面临艰难斗争",
+          "titleOrig": "Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike",
+          "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T14:46:17+00:00",
-          "desc": "The kingdom is in a state of strategic shock after coming under attack from an emboldened Iran and failing to win more U.S. military support, analysts say.",
+          "publishedAt": "2026-09-14T19:47:42+00:00",
+          "desc": "Traders were pricing in a better than 92% probability of a rate increase, as well as a more than 75% chance for another one in December.",
           "hotLabel": "",
-          "summary": "分析人士称，沙特在遭受伊朗袭击和未能获得更多美国军事支持后，处于战略震惊状态。",
-          "analysis": "沙特面临的困境可能引发地区动荡，影响全球能源市场。美国对沙特的支持减少可能削弱沙特在中东地区的影响力。后续可能包括沙特寻求其他盟友支持，以及地区局势进一步紧张。",
+          "summary": "市场预计美联储将加息，且12月再次加息的可能性超过75%。",
+          "analysis": "加息预期反映了美国经济的强劲和通胀压力。这对全球经济和货币市场有重要影响，可能导致新兴市场货币贬值和资本外流。后续美联储的加息决策将对全球金融市场产生深远影响。",
           "keywords": [
-            "沙特",
-            "伊朗",
-            "美国",
-            "军事支持",
-            "地区局势"
+            "美联储",
+            "加息",
+            "经济预期",
+            "全球市场"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 90,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-iran-trump-yemen-houthis.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/counting-the-votes-warsh-faces-tough-battle-as-fed-girds-for-expected-rate-hike.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "俄罗斯对乌克兰边境火车站的袭击被视为对基辅盟友的警告",
+          "title": "俄对乌克兰边境火车站袭击被视为对基辅盟友的警告",
           "titleOrig": "Russian Strike on Train Station Near Ukraine-Poland Border Seen as Warning to Kyiv’s Allies",
           "url": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html",
           "source": "NYT World",
@@ -139,13 +138,13 @@
           "desc": "The attack on Ukraine’s rail network, which connects the country to the West, was a jab at Europe, officials said.",
           "hotLabel": "",
           "summary": "俄罗斯袭击乌克兰铁路网络，被视为对欧洲的挑衅。",
-          "analysis": "俄罗斯袭击乌克兰铁路网络，旨在切断乌克兰与西方的联系，向欧洲展示其军事力量，并对基辅及其盟友发出警告。这一行动可能加剧乌克兰局势的不确定性，对欧洲的安全格局产生重大影响。未来，俄罗斯可能会采取更多类似行动，以展示其军事能力，并试图通过军事压力影响国际政治。",
+          "analysis": "背景：俄罗斯对乌克兰的袭击是对乌克兰与西方国家联系的重要基础设施的破坏。关键影响：此举可能加剧东欧地区的紧张局势，对欧洲的安全和能源供应构成威胁。后续走向：可能引发国际社会的强烈反应，加剧俄乌冲突的复杂性和持续时间。",
           "keywords": [
             "俄罗斯",
             "乌克兰",
             "欧洲",
             "铁路网络",
-            "军事警告"
+            "安全"
           ],
           "category": "international",
           "importance": 85,
@@ -153,62 +152,37 @@
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/09/14/world/europe/ukraine-railway-strike-europe.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/14/climate/global-warming-limit-paris-climate-agreement.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "沙特领导人会见美军司令，胡塞武装袭击威胁油市",
-          "titleOrig": "Saudi Leader Meets U.S. Commander as Houthi Attacks Threaten Oil Markets",
-          "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T16:33:18+00:00",
-          "desc": "Crown Prince Mohammed bin Salman asked the United States for more U.S. military help last week after the Iranian-backed Houthi forces in Yemen launched a broad offensive.",
-          "hotLabel": "",
-          "summary": "沙特王储请求美国提供更多军事援助，应对胡塞武装的广泛攻势。",
-          "analysis": "沙特王储请求军事援助反映了胡塞武装对油市的威胁加剧了地区紧张局势。这可能导致中东地区冲突升级，影响全球能源供应。后续可能包括美国加大军事介入，以及国际社会对伊朗的制裁加强。",
-          "keywords": [
-            "沙特",
-            "美国",
-            "胡塞武装",
-            "军事援助",
-            "油市"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-leader-meets-centcom.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "墨西哥毒品战热点地区暴力事件激增，数千人要求结束冲突",
-          "titleOrig": "Thousands demand end to violence in Mexican cartel hotspot",
-          "url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss",
+          "title": "佛罗里达“鳄鱼阿尔卡特拉兹”移民拘留中心条件恶劣",
+          "titleOrig": "Immigrants held in small outdoor cages at 'Alligator Alcatraz' in Florida, investigators find",
+          "url": "https://www.bbc.co.uk/news/articles/cqrk37rrpk23o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-14T11:28:36+00:00",
-          "desc": "Culiacán has seen violence skyrocket since a feud broke out between two rival factions of the Sinaloa cartel.",
+          "publishedAt": "2026-09-14T16:48:10+00:00",
+          "desc": "DHS inspectors say they found the immigration-detention centre violated basic standards for hygiene, medical care, food and safety.",
           "hotLabel": "",
-          "summary": "墨西哥 Culiacán 地区毒品战暴力升级，引发民众抗议。",
-          "analysis": "Sinaloa 卡特尔内部冲突导致 Culiacán 地区暴力事件激增，反映了墨西哥毒品问题的复杂性和严重性。这场冲突不仅对墨西哥国内安全构成威胁，也可能影响该地区的国际关系。未来，墨西哥政府可能面临更大的压力，以解决毒品问题，并可能寻求国际支持。",
+          "summary": "美国移民拘留中心卫生、医疗、食物和安全标准严重违反。",
+          "analysis": "该事件揭示了美国移民政策执行中的问题，反映了美国在人权和移民政策上的矛盾。这可能会加剧国际社会对美国移民政策的批评，并影响美国与其他国家的关系。后续可能引发对移民政策的更广泛讨论和改革。",
           "keywords": [
-            "墨西哥",
-            "毒品战",
-            "暴力",
-            "Sinaloa 卡特尔",
+            "移民拘留",
+            "人权",
+            "美国政策",
             "国际关系"
           ],
           "category": "international",
@@ -216,137 +190,201 @@
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cde06rxw5g6o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cqrk37rrpk23o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 4
+          "rank": 3
         },
         {
-          "title": "非洲首富计划通过最大IPO实现230亿美元收益",
-          "titleOrig": "Africa’s richest man aiming to make $23bn from continent’s biggest-ever IPO",
-          "url": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "以色列人权组织称以色列正在破坏巴勒斯坦生活",
+          "titleOrig": "Israel is 'dismantling Palestinian life' says Israeli human rights group",
+          "url": "https://www.npr.org/2026/09/14/nx-s1-5964897/israel-is-systematically-dismantling-palestinian-life-says-human-rights-group",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T12:38:51+00:00",
-          "desc": "Public offering of Aliko Dangote’s Nigerian oil refinery business could swell his net wealth by two-thirdsThe fortune of Africa’s richest person could swell by two thirds to nearly $60bn (£44bn) after his refinery in Nigeria listed publicly in the continent’s biggest-ever initial public offering.If ",
+          "publishedAt": "2026-09-14T20:34:20+00:00",
+          "desc": "One of the country's leading human rights organizations says Israel is dismantling all aspects of Palestinian life at a breakneck rate. The group has extensively documented what it says are the mechanisms Israel has used to \"ethnically cleanse\" the West Bank of Palestinians.",
           "hotLabel": "",
-          "summary": "尼日利亚阿利科·达格特石油精炼业务上市可能使其财富增加三分之二。",
-          "analysis": "阿利科·达格特通过在非洲最大的IPO中上市其尼日利亚精炼业务，旨在扩大其财富规模。这一举措反映了非洲大陆对能源行业的重视，同时也展示了私人资本对基础设施投资的兴趣。这一事件可能对尼日利亚的经济产生积极影响，增加就业和税收，同时可能对整个非洲地区的能源市场产生结构性变化。后续走向可能包括其他非洲国家效仿这一模式，以及国际投资者对非洲能源行业的进一步关注。",
+          "summary": "以色列人权组织指控以色列以极快的速度破坏巴勒斯坦生活各领域。",
+          "analysis": "背景：巴以冲突长期存在，以色列与巴勒斯坦之间的矛盾不断升级。关键影响：加剧地区紧张局势，影响中东和平进程；后续走向：可能引发更大规模冲突，国际社会需关注和平解决方案。",
           "keywords": [
-            "非洲",
-            "IPO",
-            "能源",
-            "阿利科·达格特",
-            "尼日利亚"
+            "以色列",
+            "巴勒斯坦",
+            "人权",
+            "冲突",
+            "中东"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/14/aliko-dangote-nigeria-africa-richest-man-ipo"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/14/nx-s1-5964897/israel-is-systematically-dismantling-palestinian-life-says-human-rights-group"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "沙特面临伊朗袭击和特朗普拒绝后的最坏情况",
+          "titleOrig": "Saudi Arabia Faces ‘Worst-Case Scenario’ After Iran’s Attacks and Trump’s Rebuffs",
+          "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-iran-trump-yemen-houthis.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T14:46:17+00:00",
+          "desc": "The kingdom is in a state of strategic shock after coming under attack from an emboldened Iran and failing to win more U.S. military support, analysts say.",
+          "hotLabel": "",
+          "summary": "沙特遭受伊朗袭击，未能获得更多美国军事支持，陷入战略困境。",
+          "analysis": "沙特在伊朗的袭击后，国内战略受到冲击，美国对其军事支持减少，可能影响中东地区的稳定。沙特可能寻求其他盟友支持，而美国在中东的政策可能面临调整。后续可能引发地区紧张局势升级。",
+          "keywords": [
+            "沙特",
+            "伊朗",
+            "美国",
+            "军事支持",
+            "中东局势"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/14/world/middleeast/saudi-iran-trump-yemen-houthis.html"
             }
           ],
           "rank": 5
         },
         {
-          "title": "10年期美债收益率触及5%后回跌，交易员静待美联储会议",
-          "titleOrig": "10-year Treasury yield hits 5% before reversing as traders await Fed meeting",
-          "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
+          "title": "胡塞武装想要什么？",
+          "titleOrig": "What Do the Houthis Want?",
+          "url": "https://www.nytimes.com/2026/09/14/world/houthis-saudi-iran-jeff-koons.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T17:00:23+00:00",
-          "desc": "The 10-year U.S. Treasury note yield moved lower after reaching a multiyear high on Monday ahead of this week's Federal Reserve interest rate decision.",
+          "publishedAt": "2026-09-14T20:39:37+00:00",
+          "desc": "The Iranian-backed militia has made strategic gains, becoming an unlikely power player in the Middle East.",
           "hotLabel": "",
-          "summary": "10年期美债收益率触及5%高点后回落，市场期待美联储利率决定。",
-          "analysis": "10年期美债收益率上升反映了市场对美联储加息的预期。美联储的利率决定将对全球经济产生重要影响，特别是对新兴市场国家。如果美联储加息，可能导致全球资本流动变化，影响各国的经济稳定。",
+          "summary": "伊朗支持的胡塞武装在也门取得战略进展，成为中东地区的重要力量。",
+          "analysis": "背景：胡塞武装在也门冲突中取得进展，改变了中东地区的力量对比。关键影响：胡塞武装的崛起可能影响地区安全格局，对沙特阿拉伯和伊朗的势力平衡产生影响。后续走向：胡塞武装可能寻求更大的地区影响力，引发地区紧张。",
           "keywords": [
-            "美国",
-            "美债收益率",
-            "美联储",
-            "加息",
-            "全球经济"
+            "胡塞武装",
+            "也门",
+            "中东",
+            "伊朗",
+            "沙特"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/10-year-us-treasury-is-closing-in-on-5percent.html"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/14/world/houthis-saudi-iran-jeff-koons.html"
             }
           ],
           "rank": 6
         },
         {
-          "title": "AI股票下跌，主要CEO呼吁放缓AI发展速度",
-          "titleOrig": "AI stocks slide after major CEOs unite to urge slowdown",
-          "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
+          "title": "特朗普政府废除拜登时期电厂温室气体排放要求",
+          "titleOrig": "Trump administration repeals Biden era greenhouse gas requirements for power plants",
+          "url": "https://www.cnbc.com/2026/09/14/trump-epa-carbon-dioxide-power-plant-climate-change.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T15:20:20+00:00",
-          "desc": "Anthropic CEO Dario Amodei said the industry \"must slow the pace at which we improve the capabilities of AI models,\" amid growing concerns over risks from AI.",
+          "publishedAt": "2026-09-14T20:45:52+00:00",
+          "desc": "President Donald Trump has systemically dismantled regulations implemented by the Obama and Biden administrations that sought to fight climate change.",
           "hotLabel": "",
-          "summary": "AI行业领袖呼吁放缓AI模型能力提升速度，以应对AI风险。",
-          "analysis": "这一事件反映了全球对AI技术快速发展可能带来的风险的关注。主要CEO的联合呼吁可能预示着监管机构将加强对AI行业的监管，以避免潜在的社会和经济问题。这对AI行业来说是一个转折点，可能促使企业更加注重AI技术的伦理和社会影响。后续可能看到更多关于AI伦理和监管的讨论，以及行业内部对AI风险管理的加强。",
+          "summary": "特朗普政府撤销了旨在应对气候变化的奥巴马和拜登时期的规定。",
+          "analysis": "这一举措标志着美国在气候变化政策上的重大转变，可能会削弱全球气候治理的努力。这将对国际气候合作产生负面影响，并可能加剧全球气候变化问题。",
           "keywords": [
-            "AI风险",
-            "行业监管",
-            "技术伦理",
-            "股票市场"
+            "气候变化",
+            "美国政策",
+            "气候治理",
+            "国际关系"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
+              "url": "https://www.cnbc.com/2026/09/14/trump-epa-carbon-dioxide-power-plant-climate-change.html"
             }
           ],
           "rank": 7
         },
         {
-          "title": "巴西备战极右翼势力回归",
-          "titleOrig": "Bolsonaro 2.0: Brazil braces for the return of the far right",
-          "url": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "美国银行预计三季度投资银行业务费用将下降超过10%，股价下跌",
+          "titleOrig": "Bank of America expects third-quarter investment banking fees to fall more than 10%; shares slide",
+          "url": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
-          "region": "英国",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T17:04:05+00:00",
-          "desc": "With Lula mired in scandal, Flávio Bolsonaro is firing up his base in the bellwether state of Minas Gerais – starting at the scene of his father’s stabbingA giant banner of Brazil’s incarcerated former president Jair Bolsonaro fluttered in the morning breeze as his eldest son, Flávio, touched down a",
+          "publishedAt": "2026-09-14T20:34:23+00:00",
+          "desc": "The muted outlook from the country's second-largest bank by assets could be an early signal that Wall Street's AI boom might have hit turbulence.",
           "hotLabel": "",
-          "summary": "随着卢拉陷入丑闻，巴西极右翼势力领导人弗拉维奥·博尔索纳罗在米纳斯吉拉斯州重振旗鼓。",
-          "analysis": "巴西前总统贾伊尔·博尔索纳罗的儿子弗拉维奥·博尔索纳罗在米纳斯吉拉斯州的活动表明极右翼势力在巴西政治中的持续影响力。这一事件反映了巴西政治的极化，以及极右翼政党在选举中可能获得的选民支持。后续走向可能包括巴西政治格局的进一步极化，以及极右翼势力在国内外政策上的潜在影响。",
+          "summary": "美国第二大银行预计三季度投资银行业务费用大幅下降，股价随之下跌。",
+          "analysis": "这一预测可能预示着华尔街AI热潮可能遭遇挑战。银行投资银行业务的下滑可能反映了市场对经济前景的担忧，尤其是对科技行业的担忧。后续可能会看到金融行业对AI的投入策略调整，以及相关监管政策的讨论。",
           "keywords": [
-            "巴西",
-            "极右翼",
-            "博尔索纳罗",
-            "政治",
-            "选举"
+            "美国银行",
+            "投资银行业务",
+            "AI",
+            "股市",
+            "经济前景"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/14/brazil-bolsonaro-far-right-minas-gerais"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/bank-of-america-bac-q3-investment-banking-fees.html"
             }
           ],
           "rank": 8
+        },
+        {
+          "title": "乌克兰、俄罗斯将进行新一轮美国斡旋会谈",
+          "titleOrig": "Ukraine, Russia set for new round of US-mediated talks",
+          "url": "https://www.dw.com/en/ukraine-russia-set-for-new-round-of-us-mediated-talks/a-79261147?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T18:46:00+00:00",
+          "desc": "New trilateral talks between Ukraine, Russia and the US could begin in October, according to Kyiv and Moscow. Few expect a breakthrough, but Ukraine is seeking a partial de-escalation to help it get through the winter.",
+          "hotLabel": "",
+          "summary": "乌克兰和俄罗斯预计将在10月开始新一轮三边会谈，旨在缓解紧张局势。",
+          "analysis": "背景：乌克兰危机持续多年，双方关系紧张。关键影响：会谈可能为缓解乌克兰危机提供机会；后续走向：若能达成协议，将有助于地区稳定；若谈判破裂，可能加剧冲突。",
+          "keywords": [
+            "乌克兰",
+            "俄罗斯",
+            "美国",
+            "会谈",
+            "危机"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/ukraine-russia-set-for-new-round-of-us-mediated-talks/a-79261147?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 9
         },
         {
           "title": "中国顶级间谍头目警告人工智能对党统治构成威胁",
@@ -358,17 +396,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T11:14:20+00:00",
+          "publishedAt": "2026-09-14T17:38:15+00:00",
           "desc": "Even as Beijing urges the United States not to hype the dangers of A.I., its own spy chief is framing the technology as a threat to the Communist Party’s security.",
           "hotLabel": "",
-          "summary": "中国间谍头目称人工智能技术对共产党安全构成威胁。",
-          "analysis": "中国间谍头目的警告反映了政府对人工智能技术的担忧，尽管北京呼吁美国不要夸大人工智能的危险。这表明中国政府在人工智能领域存在安全顾虑，并可能采取措施限制其发展，以维护政治稳定。这一立场可能影响全球人工智能技术的发展方向和国际合作。",
+          "summary": "中国间谍头目称人工智能对共产党安全构成威胁。",
+          "analysis": "背景：中国一方面呼吁美国不要夸大人工智能的危险，另一方面内部却对AI技术表示担忧。关键影响：这表明中国对AI技术的潜在风险有深刻认识，可能影响未来政策制定。后续走向：中国可能加强AI监管，以维护国家安全。",
           "keywords": [
             "中国",
             "人工智能",
-            "共产党",
             "安全",
-            "技术限制"
+            "共产党",
+            "监管"
           ],
           "category": "international",
           "importance": 75,
@@ -378,353 +416,323 @@
               "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html"
             }
           ],
-          "rank": 9
-        },
-        {
-          "title": "国外人工智能查询引发生物武器竞赛担忧",
-          "titleOrig": "A.I. Queries From Abroad Raise Fears of a Biological Weapons Race",
-          "url": "https://www.nytimes.com/2026/09/14/science/ai-bioweapons.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T16:24:19+00:00",
-          "desc": "Today’s chatbots aren’t likely to help lone actors invent a deadly pathogen, experts say. But newer models, trained in biology, may need stronger safeguards.",
-          "hotLabel": "",
-          "summary": "专家表示，尽管当前聊天机器人不太可能帮助个人发明致命病原体，但新模型可能需要更严格的保障措施。",
-          "analysis": "人工智能在生物领域的应用引发了对生物武器竞赛的担忧。这要求国际社会加强对人工智能技术的监管，以防止其被滥用。后续可能包括国际法规的制定和执行，以及全球生物安全合作的加强。",
-          "keywords": [
-            "人工智能",
-            "生物武器",
-            "生物安全",
-            "监管",
-            "国际合作"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/science/ai-bioweapons.html"
-            }
-          ],
           "rank": 10
         },
         {
-          "title": "汽车拥有成本平均每年额外增加5,851美元，分析发现",
-          "titleOrig": "Car ownership costs an average of $5,851 a year on top of auto loan payments, analysis finds",
-          "url": "https://www.cnbc.com/2026/09/14/car-ownership-costs-insurance-gas-maintenance-auto-loan-payments.html",
+          "title": "AI 股票下跌，网络安全股因担忧放缓而上涨",
+          "titleOrig": "AI stocks sink while cybersecurity shares rally on slowdown fears",
+          "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T12:15:01+00:00",
-          "desc": "The cost of insurance, gas, and maintenance or repairs can add thousands of dollars a year to the price of owning a car.",
+          "publishedAt": "2026-09-14T21:03:32+00:00",
+          "desc": "Anthropic CEO Dario Amodei said the industry \"must slow the pace at which we improve the capabilities of AI models,\" amid growing concerns over risks from AI.",
           "hotLabel": "",
-          "summary": "汽车拥有成本远超贷款支付，保险、油费和维修费用推高年成本。",
-          "analysis": "这一分析揭示了汽车拥有成本的实际负担，不仅包括贷款支付，还包括保险、油费和维修等额外费用。这反映了美国消费者在汽车消费上的实际压力，同时也可能影响汽车制造商和保险公司的业务策略。长期来看，这可能导致消费者减少购车意愿，进而影响汽车行业的销售和增长。后续可能看到汽车制造商和保险公司推出更多成本节约措施，如提供更长期的保险套餐或更经济的维修服务。",
+          "summary": "AI行业担忧加剧，导致股票下跌，而网络安全股因担忧而上涨。",
+          "analysis": "AI行业的发展速度引发了对其潜在风险的担忧，这可能导致投资者对AI股票的信心下降。与此同时，网络安全股的上涨反映了市场对数据安全的关注。这可能会促使政策制定者和企业更加重视AI的风险管理和安全措施。后续可能看到对AI监管的加强。",
           "keywords": [
-            "汽车成本",
-            "美国经济",
-            "消费者压力",
-            "汽车行业"
+            "AI",
+            "网络安全",
+            "股票市场",
+            "风险",
+            "监管"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/car-ownership-costs-insurance-gas-maintenance-auto-loan-payments.html"
+              "url": "https://www.cnbc.com/2026/09/14/ai-stocks-slowdown-amodei-altman.html"
             }
           ],
           "rank": 11
         },
         {
-          "title": "澳大利亚晚间能源峰值依赖天然气发电减少近70%",
-          "titleOrig": "Australia’s dependence on gas generation during evening energy peak falls by almost 70%",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/15/australias-dependence-on-gas-generation-during-evening-energy-peak-falls-by-almost-70",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T15:00:12+00:00",
-          "desc": "Batteries now meet almost half of the grid’s dispatchable power needs during hours of highest demand Get our breaking news email, free app or daily news podcastAustralia’s dependence on gas for power during the evening, when the grid is under the most pressure, has fallen by almost nearly 70% over t",
-          "hotLabel": "",
-          "summary": "电池现在满足电网高峰时段近一半的调度电力需求。",
-          "analysis": "澳大利亚在晚间能源高峰时段对天然气的依赖减少，表明能源存储和可再生能源技术在该国能源结构中的重要性日益增加。这一转变可能对全球能源市场产生示范效应，推动其他国家和地区加快向清洁能源转型。后续走向可能包括澳大利亚在能源存储和可再生能源领域的进一步投资，以及全球能源市场的长期变化。",
-          "keywords": [
-            "澳大利亚",
-            "能源",
-            "天然气",
-            "可再生能源",
-            "电池"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/sep/15/australias-dependence-on-gas-generation-during-evening-energy-peak-falls-by-almost-70"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "新莫斯科：既是数字乌托邦又是监控陷阱",
-          "titleOrig": "The New Moscow: A Digital Utopia Doubling as a Surveillance Trap",
-          "url": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T15:19:44+00:00",
-          "desc": "Cutting-edge technologies have reshaped the Russian capital, making it safer, more convenient — and more closely watched.",
-          "hotLabel": "",
-          "summary": "俄罗斯首都利用尖端技术进行改造，既提高了安全性，也加强了监控。",
-          "analysis": "莫斯科的数字化改造体现了俄罗斯在技术进步上的努力，同时也暴露了其加强监控的意图。这种做法可能引发对个人隐私和公民自由的担忧，并可能在国际社会中引起对俄罗斯政府监控政策的批评。未来，其他国家和城市可能效仿这种模式，但同时也可能加剧对个人隐私的侵犯。",
-          "keywords": [
-            "俄罗斯",
-            "莫斯科",
-            "监控",
-            "技术",
-            "隐私"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/europe/moscow-russia-putin-digital-surveillance.html"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "南非失踪长跑者遗体被找到，附近发现四名女性尸体",
-          "titleOrig": "Body of missing runner found in South Africa",
-          "url": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T14:58:48+00:00",
-          "desc": "A nationwide appeal was launched after Elizabeth Moselakgomo went missing last week. Four other women's bodies have been found nearby.",
-          "hotLabel": "",
-          "summary": "南非失踪长跑者遗体被发现，附近发现四名女性尸体。",
-          "analysis": "这起事件揭示了南非社会治安问题的严重性，特别是对女性安全的威胁。南非政府可能需要加强对犯罪活动的打击力度，并提高公众的安全意识。此外，这一事件可能引发公众对犯罪问题的关注，对南非的社会稳定构成挑战。",
-          "keywords": [
-            "南非",
-            "失踪",
-            "长跑者",
-            "尸体",
-            "社会治安"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cxyvzggzd5jgo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "由投资奴隶贸易的捐赠者资助的伦敦医院",
-          "titleOrig": "The London hospital funded by donors who invested in the slave trade",
-          "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T13:00:58+00:00",
-          "desc": "St Barts is one of many UK institutions whose benefactors were involved in the trafficking of enslaved AfricansInside the Great Hall of St Bartholomew’s North Wing, alongside stately portraits of the apostle from whom London’s oldest hospital takes its name and King Henry VIII, extravagant commemora",
-          "hotLabel": "",
-          "summary": "圣巴塞洛缪医院是众多英国机构中，其资助者涉及非洲奴隶贸易之一。",
-          "analysis": "这一发现揭示了历史与当代之间的复杂联系，特别是关于奴隶贸易的历史责任。这可能会引发对历史遗产和当代道德责任的广泛讨论，以及相关机构如何处理其历史遗产的问题。后续可能看到更多关于历史正义和当代责任的讨论，以及相关机构在处理历史问题时的行动。",
-          "keywords": [
-            "奴隶贸易",
-            "历史责任",
-            "道德遗产",
-            "历史正义"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/uk-news/ng-interactive/2026/sep/14/london-hospital-st-barts-funded-donors-invested-slave-trade"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "德国新闻：梅尔呼吁基民盟保持纪律",
-          "titleOrig": "Germany news: Merz urges CDU discipline as pressure grows",
-          "url": "https://www.dw.com/en/germany-news-merz-urges-cdu-discipline-as-pressure-grows/live-79256902?maca=en-rss-en-all-1573-rdf",
+          "title": "也门胡塞武装袭击沙特，夺取关键红海岛屿",
+          "titleOrig": "Yemen's Houthis attack Saudis, seize crucial Red Sea islands",
+          "url": "https://www.dw.com/en/yemen-s-houthis-attack-saudis-seize-crucial-red-sea-islands/a-79263838?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-09-14T13:52:00+00:00",
-          "desc": "Chancellor Friedrich Merz has urged his party to stay disciplined as pressure grows over his leadership. Meanwhile, Germany's homeownership rate has fallen to its lowest level in 20 years. DW has the latest.",
+          "publishedAt": "2026-09-14T15:30:00+00:00",
+          "desc": "Iran-backed Houthi rebels have tightened their grip on a key shipping route, capturing two strategic Red Sea islands. The closure of another global transport route is the latest ripple effect of the US war with Iran.",
           "hotLabel": "",
-          "summary": "德国总理梅尔呼吁其党派保持纪律，同时德国的 homeownership 率降至20年来的最低水平。",
-          "analysis": "德国总理梅尔对基民盟的纪律呼吁反映了德国政治领导层在面临内部挑战时的稳定性需求。德国住房拥有率下降可能反映了经济不平等和房价上涨的问题，这将对社会稳定和消费产生潜在影响。后续走向可能包括德国政府采取措施解决住房问题，以及基民盟在政策上的调整。",
+          "summary": "伊朗支持的胡塞武装加强了对关键航运路线的控制，夺取了两个战略红海岛屿。",
+          "analysis": "背景：也门冲突持续，胡塞武装与沙特之间的对抗加剧。关键影响：威胁全球航运安全，加剧地区紧张局势；后续走向：可能引发更大规模冲突，影响中东地区稳定。",
           "keywords": [
-            "德国",
-            "基民盟",
-            "梅尔",
-            "住房",
-            "经济"
+            "也门",
+            "胡塞武装",
+            "沙特",
+            "红海",
+            "冲突"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-news-merz-urges-cdu-discipline-as-pressure-grows/live-79256902?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/yemen-s-houthis-attack-saudis-seize-crucial-red-sea-islands/a-79263838?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 16
+          "rank": 12
         },
         {
-          "title": "赞比亚警告民众不要食用野生动物尸体，因炭疽病致数十动物死亡",
-          "titleOrig": "Zambians warned not to eat dead wildlife after anthrax kills dozens of animals",
-          "url": "https://www.bbc.co.uk/news/articles/ce8en6v3601o?at_medium=RSS&at_campaign=rss",
+          "title": "中国批评关于AI恶意竞争的说法",
+          "titleOrig": "China criticises idea it is in 'malicious competition' over AI",
+          "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-14T11:35:08+00:00",
-          "desc": "At least 12 people are being treated for anthrax after eating infected meat from wildlife carcasses.",
+          "publishedAt": "2026-09-14T11:31:39+00:00",
+          "desc": "It follows the Anthropic CEO's calls for a slowdown in AI development - but in a way that prevents China from pulling ahead in the race.",
           "hotLabel": "",
-          "summary": "赞比亚因炭疽病爆发，警告民众不要食用野生动物尸体。",
-          "analysis": "炭疽病在赞比亚的爆发揭示了野生动物与人类健康之间的潜在风险。这要求赞比亚政府加强公共卫生管理和野生动物保护工作。同时，这一事件可能影响当地居民的生活方式，并可能对赞比亚的旅游业产生负面影响。",
+          "summary": "中国对Anthropic CEO呼吁放缓AI发展的观点表示批评。",
+          "analysis": "中国对AI发展的态度表明其不愿在AI领域落后于其他国家。此举可能加剧全球AI领域的竞争，同时也可能推动中国加快AI技术的发展。",
           "keywords": [
-            "赞比亚",
-            "炭疽病",
-            "野生动物",
-            "公共卫生",
-            "旅游业"
+            "中国",
+            "AI",
+            "竞争",
+            "Anthropic",
+            "技术发展"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ce8en6v3601o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 17
+          "rank": 13
         },
         {
-          "title": "洛杉矶快船队老板史蒂夫·鲍尔默因球队处罚道歉",
-          "titleOrig": "LA Clippers owner Steve Ballmer apologizes over team sanctions",
-          "url": "https://www.cnbc.com/2026/09/14/la-clippers-steve-ballmer-apologizes-kawhi-leonard.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-14T11:34:58+00:00",
-          "desc": "Ballmer said that the team is complying with the penalties, has paid the fines, and is \"moving forward.\"",
-          "hotLabel": "",
-          "summary": "鲍尔默表示球队正在遵守处罚，已支付罚款，并继续前进。",
-          "analysis": "这一事件涉及体育界商业道德和监管问题。鲍尔默的道歉表明了体育界对商业违规行为的重视，以及遵守规则的重要性。这可能会对其他体育团队和商业领袖产生示范效应，强调在商业活动中遵守法律和道德规范的重要性。后续可能看到更多关于体育商业道德的讨论，以及相关监管措施的加强。",
-          "keywords": [
-            "体育商业",
-            "道德规范",
-            "商业违规",
-            "监管措施"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/la-clippers-steve-ballmer-apologizes-kawhi-leonard.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "法国因人权投票被美国嘲笑，随后悄悄道歉",
-          "titleOrig": "France Mocked U.S. for Human Rights Vote, Then Quietly Apologized",
-          "url": "https://www.nytimes.com/2026/09/14/world/europe/france-ambassador-trump-tweet.html",
+          "title": "以色列电影《NAZA》因调查加沙地带屠杀面临反击",
+          "titleOrig": "‘NAZA,’ Israeli Film About Killings in Gaza, Faces Backlash",
+          "url": "https://www.nytimes.com/2026/09/14/world/middleeast/israel-naza-documentary-backlash.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T15:25:26+00:00",
-          "desc": "After the Trump administration blocked a new ambassador to Washington, the country expressed regret for a post from a French official social media account.",
+          "publishedAt": "2026-09-14T18:07:07+00:00",
+          "desc": "The film “NAZA” investigates the killing of Palestinians by Israeli forces in Gaza. Israel’s culture minister has suggested revoking the directors’ citizenship.",
           "hotLabel": "",
-          "summary": "法国因人权投票问题被美国批评，随后官方社交媒体账号发表道歉。",
-          "analysis": "法国的道歉反映了国际关系中的人权议题敏感性。这一事件表明，在国际政治中，国家间的互动往往涉及敏感议题，需要谨慎处理。未来，法国和美国在处理人权问题时可能更加谨慎，以避免类似事件再次发生。",
+          "summary": "以色列电影《NAZA》因调查加沙地带以色列军队对巴勒斯坦人的屠杀而受到反击。",
+          "analysis": "背景：电影《NAZA》揭示了以色列在加沙地带的军事行动，引发以色列文化部长的强烈反应。关键影响：此事件可能加剧巴以冲突，影响地区稳定。后续走向：可能引发国际社会对以色列行动的进一步关注。",
           "keywords": [
-            "法国",
-            "美国",
-            "人权",
-            "外交关系",
-            "道歉"
+            "以色列",
+            "加沙地带",
+            "巴以冲突",
+            "电影",
+            "国际关注"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/europe/france-ambassador-trump-tweet.html"
+              "url": "https://www.nytimes.com/2026/09/14/world/middleeast/israel-naza-documentary-backlash.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "苹果发布iPhone 18前测试新Siri AI",
+          "titleOrig": "Apple releases test of redesigned Siri AI before iPhone 18 hits stores this week",
+          "url": "https://www.cnbc.com/2026/09/14/apple-releases-ios-27-redesigned-siri-ai.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T19:05:40+00:00",
+          "desc": "Following Apple's iPhone launch event last week, the company is releasing a redesigned Siri AI, though users may have to sign up for a waitlist.",
+          "hotLabel": "",
+          "summary": "苹果发布重新设计的Siri AI，用户需加入等待名单。",
+          "analysis": "苹果对Siri AI的改进反映了科技巨头在人工智能领域的竞争。这可能会推动人工智能技术的进一步发展，并对消费者使用习惯产生长远影响。",
+          "keywords": [
+            "苹果",
+            "Siri AI",
+            "人工智能",
+            "科技发展"
+          ],
+          "category": "tech",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/apple-releases-ios-27-redesigned-siri-ai.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "沃伦在关键初步投票前将在参议院 floor 上抨击特朗普批准的 Clarity Act",
+          "titleOrig": "Warren to rip Clarity Act on Senate floor ahead of key preliminary vote",
+          "url": "https://www.cnbc.com/2026/09/14/warren-clarity-act-senate-key-preliminary-vote.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T20:48:26+00:00",
+          "desc": "Sen. Elizabeth Warren will call the latest Clarity Act ethics proposal blessed by Trump a \"weak fig leaf.\"",
+          "hotLabel": "",
+          "summary": "参议员沃伦批评特朗普支持的Clarity Act提案过于薄弱。",
+          "analysis": "沃伦的批评反映了美国国会内部对特朗普政府伦理政策的质疑。该法案旨在提高政府透明度，但沃伦认为其不足以解决根本问题。这可能会影响美国政治伦理改革的方向。后续可能引发更广泛的伦理和政策讨论，影响美国政治生态。",
+          "keywords": [
+            "美国政治",
+            "伦理政策",
+            "Clarity Act",
+            "参议院",
+            "沃伦"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/warren-clarity-act-senate-key-preliminary-vote.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "跪地抗议10年后，科林·卡佩尼克仍在进行一场“危险的斗争”",
+          "titleOrig": "10 years after taking a knee, Colin Kaepernick is still waging a 'Perilous Fight'",
+          "url": "https://www.npr.org/2026/09/14/nx-s1-5965828/colin-kaepernick-football-the-perilous-fight",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T18:45:21+00:00",
+          "desc": "The former 49ers quarterback created an uproar in 2016 when took a knee during the national anthem to protest police brutality. In The Perilous Fight he explains why he still wants to play football.",
+          "hotLabel": "",
+          "summary": "前49人队四分卫科林·卡佩尼克在2016年因抗议警察暴力而跪地，至今仍在为足球事业奋斗。",
+          "analysis": "背景：卡佩尼克因抗议警察暴力而成为公众人物，其个人经历反映了美国社会对种族平等和警察暴力的关注。关键影响：推动美国社会对种族平等问题的讨论；后续走向：卡佩尼克可能继续在体育和社会正义领域发挥影响力。",
+          "keywords": [
+            "科林·卡佩尼克",
+            "抗议",
+            "警察暴力",
+            "种族平等",
+            "美国"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/14/nx-s1-5965828/colin-kaepernick-football-the-perilous-fight"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "印尼渡轮沉没，120多人失踪",
+          "titleOrig": "More Than 120 Are Unaccounted For After Ferry Sinks in Indonesia",
+          "url": "https://www.nytimes.com/2026/09/14/world/asia/indonesia-ferry-rescue-borneo.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T09:07:42+00:00",
+          "desc": "At least six people were killed and more than 100 rescued after the vessel sank in the Java Sea on Sunday, the authorities said.",
+          "hotLabel": "",
+          "summary": "印尼爪哇海发生渡轮沉没事故，造成至少6人死亡，120多人失踪。",
+          "analysis": "印尼渡轮事故反映了该国的海上安全问题和基础设施不足。事故可能引发对印尼海上安全监管的讨论，并可能对印尼旅游业造成影响。",
+          "keywords": [
+            "印尼",
+            "渡轮沉没",
+            "海上安全",
+            "基础设施",
+            "旅游业"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/14/world/asia/indonesia-ferry-rescue-borneo.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "中国称AI首席执行官呼吁放缓是恐慌主义",
+          "titleOrig": "China says AI CEOs' call for a slowdown is 'fear mongering'",
+          "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T20:56:15+00:00",
+          "desc": "Chinese state media's reports of the daily press conference also noted that all groups should work together for AI openness and inclusivity.",
+          "hotLabel": "",
+          "summary": "中国媒体报道称，AI首席执行官的放缓呼吁是恐慌主义。",
+          "analysis": "中国对AI发展的态度强硬，表明其不愿意因外部压力而放缓技术发展。这可能会加剧全球AI领域的紧张关系，并可能推动中国加快自主AI技术的发展。",
+          "keywords": [
+            "中国",
+            "AI",
+            "恐慌主义",
+            "技术发展",
+            "全球竞争"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html"
             }
           ],
           "rank": 19
         },
         {
-          "title": "野狗完成2500英里旅程寻找配偶",
-          "titleOrig": "Wild dogs record 2,500-mile trek across Zambia in search of a mate",
-          "url": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
+          "title": "随着油价上涨，交易员Mike Khouw看好这家能源公司的上涨潜力",
+          "titleOrig": "As the oil surge continues, trader Mike Khouw sees more upside in this surging name",
+          "url": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T14:08:12+00:00",
-          "desc": "Scientists say the record-breaking journey by three brothers offers hope wildlife can survive growing pressures.",
+          "publishedAt": "2026-09-14T17:16:23+00:00",
+          "desc": "Michael Khouw breaks down how he's trading this energy name.",
           "hotLabel": "",
-          "summary": "科学家表示，三只野狗的创纪录旅程为野生动物在日益增长的压力下生存提供希望。",
-          "analysis": "野狗的长距离迁徙揭示了野生动物在自然环境中面临的挑战。这强调了保护野生动物栖息地的重要性。后续可能包括对野生动物保护措施的研究和实施。",
+          "summary": "交易员Mike Khouw看好一家能源公司的上涨潜力。",
+          "analysis": "Mike Khouw的观点反映了市场对能源行业前景的乐观态度。随着油价的上涨，相关能源公司的股价可能受到提振。这可能会影响全球能源市场的动态，并对能源政策产生影响。后续可能会看到更多投资者对能源行业的关注。",
           "keywords": [
-            "野狗",
-            "迁徙",
-            "野生动物",
-            "栖息地保护",
-            "生态研究"
+            "能源市场",
+            "油价",
+            "交易员",
+            "能源公司",
+            "市场前景"
           ],
-          "category": "society",
-          "importance": 60,
+          "category": "international",
+          "importance": 65,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cy459y5y9yxo?at_medium=RSS&at_campaign=rss"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/as-the-oil-surge-continues-trader-mike-khouw-sees-more-upside-in-this-surging-name.html"
             }
           ],
           "rank": 20
@@ -733,13 +741,45 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，我国政策与社会动向呈现出多方面的发展脉络。在社会层面，公众关注女性权益保障和职场环境问题，同时网络安全和数据共享成为焦点。经济领域，科技金融创新和金砖国家经贸合作深化，显示我国经济发展活力。国际关系方面，中印关系发展、中美AI竞争以及国际合作等方面备受关注。总体来看，我国正致力于维护社会稳定、推动经济发展和深化国际合作，最值得关注的是科技与经济领域的创新与突破。",
+      "digest": "今日国内形势呈现出政策调整与市场变化并行的态势。一方面，国家对于人工智能等前沿技术保持审慎态度，强调在发展中维护国家安全和社会稳定；另一方面，经济领域对大型企业拖欠账款等行为进行整顿，强调民生健康和社会安全的优先地位。值得关注的是，未来五年民生健康规划或将带来一系列利好政策，同时，经济结构调整与技术创新也在持续推进。在社会层面，人们对生活成本的担忧和对职场加班等社会现象的关注持续升温，反映出社会对于公平正义的期待。整体来看，政策引导与市场需求相互交织，构成了当前国内形势的复杂脉络。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "女子称被公职人员推入厕所强奸",
+          "title": "中国称AI首席执行官呼吁放缓是恐慌主义",
+          "titleOrig": "China says AI CEOs' call for a slowdown is 'fear mongering'",
+          "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T20:56:15+00:00",
+          "desc": "Chinese state media's reports of the daily press conference also noted that all groups should work together for AI openness and inclusivity.",
+          "hotLabel": "",
+          "summary": "中国媒体报道称，AI首席执行官的放缓呼吁是恐慌主义。",
+          "analysis": "中国对AI发展的态度强硬，表明其不愿意因外部压力而放缓技术发展。这可能会加剧全球AI领域的紧张关系，并可能推动中国加快自主AI技术的发展。",
+          "keywords": [
+            "中国",
+            "AI",
+            "恐慌主义",
+            "技术发展",
+            "全球竞争"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/14/china-ai-slowdown-us-tech-ceos.html"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "GPT-6 正式发布",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E8%A2%AB%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%8E%A8%E5%85%A5%E5%8E%95%E6%89%80%E5%BC%BA%E5%A5%B8",
+          "url": "https://www.zhihu.com/search?q=GPT-6%20%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -748,106 +788,53 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#2",
-          "summary": "一女子在知乎上称遭公职人员性侵。",
-          "analysis": "这起事件揭示了公职人员违法乱纪的问题，对社会风气和法治环境造成了负面影响。对于政府来说，必须严肃处理此类事件，加强公职人员的法制教育和道德建设，以维护社会公正和稳定。",
+          "hotLabel": "",
+          "summary": "GPT-6 人工智能模型正式发布",
+          "analysis": "GPT-6 的发布标志着人工智能领域的技术进步，可能对中国乃至全球的科技产业产生深远影响。它将推动人工智能在语言处理、数据分析等领域的应用，同时可能引发对数据隐私、人工智能伦理等问题的关注。后续可能涉及更多人工智能技术的研发和应用。",
           "keywords": [
-            "公职人员",
-            "性侵",
-            "法治",
-            "社会问题",
-            "道德建设"
+            "GPT-6",
+            "人工智能",
+            "技术进步",
+            "数据隐私",
+            "伦理问题"
           ],
-          "category": "society",
+          "category": "tech",
           "importance": 90,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%A5%B3%E5%AD%90%E7%A7%B0%E8%A2%AB%E5%85%AC%E8%81%8C%E4%BA%BA%E5%91%98%E6%8E%A8%E5%85%A5%E5%8E%95%E6%89%80%E5%BC%BA%E5%A5%B8"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BD%8F%E5%BB%BA%E5%B1%80%E5%89%AF%E5%B1%80%E9%95%BF%E7%BE%A4%E5%86%85%E8%BE%B1%E9%AA%82%E4%B8%9A%E4%B8%BB%E8%A2%AB%E5%81%9C%E8%81%8C"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "外交部：新德里会晤确认中印关系发展",
-          "titleOrig": "外交部：新德里会晤是中印领导人对两国关系发展的“再确认” - news.cn",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93T0dYQldOaE96dDBlTVMzR2p6V1JhdWVvZlE4MkJEeHl0Vk1FR2REM241WXZwRHVSSl85WkgxNENtVjJ0MWIzaFNKX3FONks3SGtzYk9oWWVDdVN6QmJhWHJhd3JsOHZUMzNLNUYyMVdXTUZ5eFBz?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T11:38:12+00:00",
-          "desc": "外交部：新德里会晤是中印领导人对两国关系发展的“再确认” news.cn时政新闻眼丨​​​​​​​“大金砖”如何实现大发展？习近平提出这些倡议 中国日报网金砖国家致力于做推动文明互鉴的先锋 央视网共同书写全球南方团结自强新篇章（和音） paper.people.com.cn习近平在金砖国家领导人第十八次会晤第二阶段会议的讲话（全文） 北京市人民政府门户网站",
-          "hotLabel": "",
-          "summary": "中印领导人在新德里会晤，重申两国关系发展重要性。",
-          "analysis": "此次会晤体现了中印两国在双边关系上的积极态度，旨在通过对话与合作解决分歧，推动两国关系稳定发展。背景上，两国在边界、经济、文化等领域存在合作潜力，但同时也面临一些挑战。此次会晤对国内民生和经济发展意味着加强区域合作，对治理意味着提升国际影响力。后续走向可能包括加强经济合作、文化交流以及边界问题谈判。",
-          "keywords": [
-            "中印关系",
-            "新德里会晤",
-            "双边关系",
-            "区域合作",
-            "国际影响力"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE93T0dYQldOaE96dDBlTVMzR2p6V1JhdWVvZlE4MkJEeHl0Vk1FR2REM241WXZwRHVSSl85WkgxNENtVjJ0MWIzaFNKX3FONks3SGtzYk9oWWVDdVN6QmJhWHJhd3JsOHZUMzNLNUYyMVdXTUZ5eFBz?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5akpGUjRMRXBSVl9fY1MtQm0yWXJJX3ppTXd2aHowN194NDlLOXVZa2ZnZC0wcDREQzZxY3RBYUw0bzlBamtvdG5tZTE3OE1talJnR3JYY0dWWkNJNUhpbHJrajA?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2X1NfM01IRmVESVBBRXlzUnNWdVJuQ01YalhnOWw5X3BZdlg2S1JZVXdzVFFpdWR1eFRhM21pVTFDTzBhWnFzSGMtdGRseDctWm01OEJzNExjZllD?oc=5"
+              "url": "https://www.zhihu.com/search?q=GPT-6%20%E6%AD%A3%E5%BC%8F%E5%8F%91%E5%B8%83"
             }
           ],
           "rank": 2
         },
         {
-          "title": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有‘高智商总统’就足够",
-          "titleOrig": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有“高智商总统”就足够 - 华尔街见闻",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1cTZCY1V5QlhoWWRoVjBMWTJ4NEZneEoxZVVfMThkMWZ5bVZ1RkM2cVFROVFtTExsYUVCN2N3b0paQ09KNDJPYjMtVDVEWjFYUHJj?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "未来五年民生健康重磅规划",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E6%B0%91%E7%94%9F%E5%81%A5%E5%BA%B7%E9%87%8D%E7%A3%85%E8%A7%84%E5%88%92",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T16:00:48+00:00",
-          "desc": "特朗普抨击Anthropic CEO：AI发展不能踩刹车，美国有“高智商总统”就足够 华尔街见闻特朗普总统：美国需保持人工智能世界领导地位；行业高管则呼吁放缓发展 美国之音拧巴！AI“踩不踩刹车”，怎么都得扯上中国 观察者网OpenAI首席执行官：欢迎制定一套针对前沿AI的安全要求框架 finance.sina.cn胡锡进：阿莫迪要让AI前沿减速成为束缚中国AI发展的牢笼 news.ifeng.com",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "特朗普批评AI发展应持续，同时强调美国在AI领域的领导地位。",
-          "analysis": "特朗普的言论反映了美国在AI领域的竞争策略。一方面，他强调AI发展的必要性，显示美国在科技领域的自信和雄心。另一方面，他的言论可能加剧了全球AI领域的竞争，促使其他国家加速发展AI技术。对于中国来说，这既是挑战也是机遇，需要加强AI领域的自主创新和国际合作，以维护国家利益。",
+          "summary": "国家发布未来五年民生健康重要规划。",
+          "analysis": "该规划体现了国家对民生健康的重视，旨在提升国民健康水平。政策意图是通过改善医疗资源分配、加强疾病预防控制等措施，提高全民健康福祉。对国内民生而言，这意味着更多的医疗资源投入和健康保障。后续可能看到医疗体系改革、健康政策实施等方面的进展。",
           "keywords": [
-            "特朗普",
-            "AI发展",
-            "美国科技",
-            "国际竞争",
-            "政策意图"
+            "民生健康",
+            "健康规划",
+            "医疗改革",
+            "国民福祉"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "domestic",
+          "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB1cTZCY1V5QlhoWWRoVjBMWTJ4NEZneEoxZVVfMThkMWZ5bVZ1RkM2cVFROVFtTExsYUVCN2N3b0paQ09KNDJPYjMtVDVEWjFYUHJj?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjSHBSMWVDZ2RDRDZGbmxia1hJaFFXNmgtajlJckFLT1Q3ZFotRl82clRLQk1aUFlyR1RCT3VpVUlIb3I2UW5pU1d3OXN5YlJsZlViM1BfOVJvT2IyNXNLM3BDckNvdw?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRjQtY2NYOF9ZRUJKaTUwMmFBcVB4RUY5TEpzTk8zZjFaWXNCb3RZYVg0aTUtSnRvLVEzY1NZZ0Q2dVdyR0Z2eF9US2o0Z0hZeEZpdnFVZF9oNUVTaUI4Z2Q2QTBqX1ZjQ0xBUGpsMWJla1pSNmI4RG16aGc?oc=5"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E6%B0%91%E7%94%9F%E5%81%A5%E5%BA%B7%E9%87%8D%E7%A3%85%E8%A7%84%E5%88%92"
             }
           ],
           "rank": 3
@@ -862,17 +849,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-14T11:14:20+00:00",
+          "publishedAt": "2026-09-14T17:38:15+00:00",
           "desc": "Even as Beijing urges the United States not to hype the dangers of A.I., its own spy chief is framing the technology as a threat to the Communist Party’s security.",
           "hotLabel": "",
-          "summary": "中国间谍头目称人工智能技术对共产党安全构成威胁。",
-          "analysis": "中国间谍头目的警告反映了政府对人工智能技术的担忧，尽管北京呼吁美国不要夸大人工智能的危险。这表明中国政府在人工智能领域存在安全顾虑，并可能采取措施限制其发展，以维护政治稳定。这一立场可能影响全球人工智能技术的发展方向和国际合作。",
+          "summary": "中国间谍头目称人工智能对共产党安全构成威胁。",
+          "analysis": "背景：中国一方面呼吁美国不要夸大人工智能的危险，另一方面内部却对AI技术表示担忧。关键影响：这表明中国对AI技术的潜在风险有深刻认识，可能影响未来政策制定。后续走向：中国可能加强AI监管，以维护国家安全。",
           "keywords": [
             "中国",
             "人工智能",
-            "共产党",
             "安全",
-            "技术限制"
+            "共产党",
+            "监管"
           ],
           "category": "international",
           "importance": 75,
@@ -882,56 +869,44 @@
               "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html"
             }
           ],
-          "rank": 9
+          "rank": 10
         },
         {
-          "title": "中国超级稻三十年发展历程",
-          "titleOrig": "行进中国 ｜ 一粒种子的“长征”——中国超级稻的三十年 - yzwb.net",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oN0hHbk84SGhsYVNSTXd5NEo0clVzMkxISDlXbVh5RUxZS3gyRVE1djZZNmRfLTJ2czY2d295Tk1ZVkFPVWp1Qzk3ZVRnVWNyV045SUhIMzUxZTUyQ05BQ0lvdzhNbzZv?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T13:38:00+00:00",
-          "desc": "行进中国 ｜ 一粒种子的“长征”——中国超级稻的三十年 yzwb.net在Google 新闻上查看更多头条新闻和观点",
+          "title": "中国批评关于AI恶意竞争的说法",
+          "titleOrig": "China criticises idea it is in 'malicious competition' over AI",
+          "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-14T11:31:39+00:00",
+          "desc": "It follows the Anthropic CEO's calls for a slowdown in AI development - but in a way that prevents China from pulling ahead in the race.",
           "hotLabel": "",
-          "summary": "中国超级稻发展三十年，展示科技进步对农业的贡献。",
-          "analysis": "中国超级稻的发展是中国农业科技进步的典范，对国内农业经济有重要意义，有助于提高粮食产量和农民生活水平。对经济意味着农业现代化，对治理意味着科技创新对国家发展的推动作用。后续可能包括超级稻技术的进一步推广和应用。",
+          "summary": "中国对Anthropic CEO呼吁放缓AI发展的观点表示批评。",
+          "analysis": "中国对AI发展的态度表明其不愿在AI领域落后于其他国家。此举可能加剧全球AI领域的竞争，同时也可能推动中国加快AI技术的发展。",
           "keywords": [
-            "超级稻",
-            "农业科技",
-            "粮食安全",
-            "农业现代化",
-            "科技创新"
+            "中国",
+            "AI",
+            "竞争",
+            "Anthropic",
+            "技术发展"
           ],
-          "category": "tech",
-          "importance": 80,
+          "category": "international",
+          "importance": 75,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1oN0hHbk84SGhsYVNSTXd5NEo0clVzMkxISDlXbVh5RUxZS3gyRVE1djZZNmRfLTJ2czY2d295Tk1ZVkFPVWp1Qzk3ZVRnVWNyV045SUhIMzUxZTUyQ05BQ0lvdzhNbzZv?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cn8me133119o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 5
+          "rank": 13
         },
         {
-          "title": "星宇股份产业园被曝九成是临时工",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E4%BA%A7%E4%B8%9A%E5%9B%AD%E8%A2%AB%E6%9B%9D%E4%B9%9D%E6%88%90%E6%98%AF%E4%B8%B4%E6%97%B6%E5%B7%A5",
+          "title": "英三地领导人共商民族自决权利",
+          "titleOrig": "英三地领导人将共商民族自决权利",
+          "url": "https://www.zhihu.com/search?q=%E8%8B%B1%E4%B8%89%E5%9C%B0%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%B0%86%E5%85%B1%E5%95%86%E6%B0%91%E6%97%8F%E8%87%AA%E5%86%B3%E6%9D%83%E5%88%A9",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -941,164 +916,331 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "星宇股份产业园大量使用临时工。",
-          "analysis": "这一现象反映了当前中国部分企业用工不规范的问题。临时工的普遍存在可能导致劳动者权益受损，影响社会稳定。政府需要加强对企业用工的监管，保障劳动者权益，同时推动企业建立规范的人力资源管理体系。",
+          "summary": "英国三地领导人讨论民族自决权利议题",
+          "analysis": "此事件反映了英国在民族自决权利问题上的政策意图，旨在通过地方自治来增强地方政府的权力，同时可能引发地区间的民族矛盾。对中国而言，这表明国际社会在民族自决问题上的复杂性，以及可能对地区稳定和民族关系的影响。后续可能涉及更多地区自治议题的讨论和实施。",
           "keywords": [
-            "临时工",
-            "用工问题",
-            "劳动者权益",
-            "社会稳定",
-            "政策监管"
+            "民族自决",
+            "英国",
+            "政策意图",
+            "地区自治",
+            "民族关系"
           ],
-          "category": "society",
-          "importance": 80,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%98%9F%E5%AE%87%E8%82%A1%E4%BB%BD%E4%BA%A7%E4%B8%9A%E5%9B%AD%E8%A2%AB%E6%9B%9D%E4%B9%9D%E6%88%90%E6%98%AF%E4%B8%B4%E6%97%B6%E5%B7%A5"
+              "url": "https://www.zhihu.com/search?q=%E8%8B%B1%E4%B8%89%E5%9C%B0%E9%A2%86%E5%AF%BC%E4%BA%BA%E5%B0%86%E5%85%B1%E5%95%86%E6%B0%91%E6%97%8F%E8%87%AA%E5%86%B3%E6%9D%83%E5%88%A9"
             }
           ],
           "rank": 6
         },
         {
-          "title": "金砖经贸合作持续深化",
-          "titleOrig": "[中国新闻网]着眼增长与韧性 金砖经贸合作持续深化 - news.ruc.edu.cn",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2X1NfM01IRmVESVBBRXlzUnNWdVJuQ01YalhnOWw5X3BZdlg2S1JZVXdzVFFpdWR1eFRhM21pVTFDTzBhWnFzSGMtdGRseDctWm01OEJzNExjZllD?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "大型企业拖欠账款见一个查一个",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%9E%8B%E4%BC%81%E4%B8%9A%E6%8B%96%E6%AC%A0%E8%B4%A6%E6%AC%BE%E8%A7%81%E4%B8%80%E4%B8%AA%E6%9F%A5%E4%B8%80%E4%B8%AA",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T12:52:30+00:00",
-          "desc": "[中国新闻网]着眼增长与韧性 金砖经贸合作持续深化 news.ruc.edu.cn金砖合作向未来丨走进印尼巴塘 一座工业园里的全球南方合作 ydyl.china.com.cn金砖合作打造互联互通贸易通道 新浪财经从厦门起航 踏上“大金砖合作”新征程 Sohu寻找“金砖温度”的答案 感知合作温暖 中华网",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "金砖国家经贸合作持续深化。",
-          "analysis": "金砖国家的经贸合作体现了新兴市场国家和发展中国家的合作意愿，有助于推动全球经济的多元化。对中国而言，这意味着在国际经济中的地位提升，以及对全球治理的影响增强。后续可能包括更多合作项目的推进和金砖国家内部合作的加强。",
+          "summary": "政府加大对大型企业拖欠账款行为的查处力度。",
+          "analysis": "此举体现了政府对维护市场秩序和保障企业权益的重视。政策意图是通过打击拖欠账款行为，维护企业间的信用关系，促进经济健康发展。对经济而言，这有助于减少企业间的不良债务，提高市场效率。后续可能看到更多相关法律法规的完善和执行。",
           "keywords": [
-            "金砖国家",
-            "经贸合作",
-            "新兴市场",
-            "全球治理",
-            "合作"
+            "拖欠账款",
+            "市场秩序",
+            "企业信用",
+            "经济治理"
           ],
-          "category": "international",
-          "importance": 80,
+          "category": "economy",
+          "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB2X1NfM01IRmVESVBBRXlzUnNWdVJuQ01YalhnOWw5X3BZdlg2S1JZVXdzVFFpdWR1eFRhM21pVTFDTzBhWnFzSGMtdGRseDctWm01OEJzNExjZllD?oc=5"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%A4%A7%E5%9E%8B%E4%BC%81%E4%B8%9A%E6%8B%96%E6%AC%A0%E8%B4%A6%E6%AC%BE%E8%A7%81%E4%B8%80%E4%B8%AA%E6%9F%A5%E4%B8%80%E4%B8%AA"
             }
           ],
           "rank": 7
         },
         {
-          "title": "上海科学数据管理与共享服务平台上线",
-          "titleOrig": "上海科学数据管理与共享服务平台9月14日上线 - 观点网",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zSVJNOGVHejB0ajNqSHBWTVRGVDMzdGY4ak5fdl92b3NFaWEyX2hnRnUxdUxPdHc3dXZQU0lBWUp3RXRnenpkZnZTRklyazFWMXBkT05leEZ3UVlXZ3lNcVRn?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "始终把人民生命安全放在首位",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%A7%8B%E7%BB%88%E6%8A%8A%E4%BA%BA%E6%B0%91%E7%94%9F%E5%91%BD%E5%AE%89%E5%85%A8%E6%94%BE%E5%9C%A8%E9%A6%96%E4%BD%8D",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T11:51:07+00:00",
-          "desc": "上海科学数据管理与共享服务平台9月14日上线 观点网图集| 2026浦江创新论坛“浦江未来现场”多项科技成果首次公开展示 finance.sina.cn科学数据如何共享利用？上海上线管理与共享服务平台 thepaper.cn海报丨文化科技如何更好融合？十位大咖这样说 news.ifeng.com上海国际科创中心建设扩围至长三角后，重大进展最新落地 上海热线",
-          "hotLabel": "",
-          "summary": "上海推出科学数据管理与共享平台，助力科技创新。",
-          "analysis": "该平台的上线是上海国际科创中心建设的重要进展，体现了中国对科学数据共享和利用的重视。这有助于促进科技成果转化，推动科技创新。对社会而言，这有助于提高科研效率，降低科研成本。后续可能进一步推广至全国，形成全国性的科学数据共享体系。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "强调将人民生命安全置于首位。",
+          "analysis": "这一表述体现了中国政府对于人民生命安全的高度重视，可能预示着未来政策将更加注重公共安全和应急管理的强化。对于国内民生而言，这可能导致更多的安全投入和措施，对经济和社会治理结构产生积极影响。后续可能出台更多保障人民生命安全的政策和法规。",
           "keywords": [
-            "科学数据",
-            "共享平台",
-            "科技创新",
-            "上海科创中心",
-            "数据管理"
+            "人民生命安全",
+            "公共安全",
+            "应急管理",
+            "政策法规",
+            "社会治理"
           ],
-          "category": "tech",
+          "category": "society",
           "importance": 80,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zSVJNOGVHejB0ajNqSHBWTVRGVDMzdGY4ak5fdl92b3NFaWEyX2hnRnUxdUxPdHc3dXZQU0lBWUp3RXRnenpkZnZTRklyazFWMXBkT05leEZ3UVlXZ3lNcVRn?oc=5"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%A7%8B%E7%BB%88%E6%8A%8A%E4%BA%BA%E6%B0%91%E7%94%9F%E5%91%BD%E5%AE%89%E5%85%A8%E6%94%BE%E5%9C%A8%E9%A6%96%E4%BD%8D"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%E7%AA%81%E5%8F%91%E7%B4%A7%E6%80%A5%E5%81%9C%E7%89%8C"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%20%E8%B5%84%E4%BA%A7%E9%87%8D%E7%BB%84"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%80%E8%BD%A6%E4%BA%BA%E4%B9%B0%E9%94%99%E7%A5%A8%20%E6%B8%B8%E5%AE%A2%E5%BB%BA%E8%AE%AE%E8%BD%A6%E7%AB%99%E6%94%B9%E5%90%8D"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%9C%AA%E6%9D%A5%E4%BA%94%E5%B9%B4%E6%B0%91%E7%94%9F%E5%81%A5%E5%BA%B7%E9%87%8D%E7%A3%85%E8%A7%84%E5%88%92"
             }
           ],
           "rank": 8
         },
         {
-          "title": "上海出台17项举措推进科技金融提质增效",
-          "titleOrig": "上海：发挥人工智能等新技术在科技金融中的创新赋能作用 - 东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjSHBSMWVDZ2RDRDZGbmxia1hJaFFXNmgtajlJckFLT1Q3ZFotRl82clRLQk1aUFlyR1RCT3VpVUlIb3I2UW5pU1d3OXN5YlJsZlViM1BfOVJvT2IyNXNLM3BDckNvdw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "王曼昱成为世界第一乒乓球选手",
+          "titleOrig": "王曼昱登顶世界第一",
+          "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1%E7%99%BB%E9%A1%B6%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80&t=31&band_rank=6&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T06:37:53+00:00",
-          "desc": "上海：发挥人工智能等新技术在科技金融中的创新赋能作用 东方财富上海出台17项举措 推进科技金融提质增效 finance.sina.cn上海金融监管局：鼓励有条件的银行适当提高科技型企业贷款不良容忍度，科技型企业续贷应续尽续 thepaper.cn上海金融监管局：鼓励有条件的金融机构建设企业级人工智能平台 21财经农行上海市分行全力支持2026浦江创新论坛 中共上海市委金融委员会办公室",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "上海推出多项措施，以人工智能等新技术赋能科技金融。",
-          "analysis": "背景：上海作为中国的经济中心，正积极推动金融科技创新，以适应数字经济的发展。政策意图在于通过科技创新提升金融服务效率和质量，促进金融与科技的深度融合。关键影响：这将有助于降低科技型企业的融资成本，推动经济结构升级。后续走向：预计将有更多城市和金融机构跟进此类创新举措。",
+          "summary": "乒乓球运动员王曼昱登上世界第一宝座。",
+          "analysis": "王曼昱的成就体现了中国乒乓球运动的强大实力和深厚底蕴。这一成就有助于提升国家体育形象，增强民族自信心。对国内体育产业和青少年体育发展具有积极推动作用。后续可能吸引更多年轻人才投身乒乓球运动。",
           "keywords": [
-            "科技金融",
-            "人工智能",
-            "上海",
-            "政策",
-            "创新"
+            "王曼昱",
+            "乒乓球",
+            "世界第一",
+            "体育",
+            "民族自信"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBjSHBSMWVDZ2RDRDZGbmxia1hJaFFXNmgtajlJckFLT1Q3ZFotRl82clRLQk1aUFlyR1RCT3VpVUlIb3I2UW5pU1d3OXN5YlJsZlViM1BfOVJvT2IyNXNLM3BDckNvdw?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E7%8E%8B%E6%9B%BC%E6%98%B1%E7%99%BB%E9%A1%B6%E4%B8%96%E7%95%8C%E7%AC%AC%E4%B8%80&t=31&band_rank=6&Refer=top"
             }
           ],
           "rank": 9
         },
         {
-          "title": "中国驻沙特使领馆提醒中国公民加强安全防范",
-          "titleOrig": "也门和红海局势升温 中国驻沙特使领馆提醒中国公民和机构加强安全防范 - 第一财经",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oXzJGWmpKZXE2aXhrQWlvbnZrQU1QSmhqU2lBUnZTWjRuMEdWVDY2YzlLWUlOSWJsU3AyV3FrNDJNejA3WGZwZTlRY2YyeWx4VUZJ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "广汽集团 资产重组",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%20%E8%B5%84%E4%BA%A7%E9%87%8D%E7%BB%84",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T11:42:44+00:00",
-          "desc": "也门和红海局势升温 中国驻沙特使领馆提醒中国公民和机构加强安全防范 第一财经外交部：中方对也门和红海局势升温深表关切 news.cn胡塞武装袭击沙特基地并夺取丕林岛，也门局势升级令美国陷入两难 finance.sina.cn胡塞武装称沙特24小时内58次空袭也门 中国日报网（外代一线）也门的流离失所者 Sohu",
-          "hotLabel": "",
-          "summary": "也门和红海局势升温，中国驻沙特使领馆提醒中国公民加强安全防范。",
-          "analysis": "此事件反映了国际安全形势的复杂性，对国内民生和海外利益有潜在影响。对经济影响可能体现在对相关国家投资的谨慎，对治理意味着加强对外公民保护。后续可能包括外交交涉、安全措施的加强以及公民的安全教育。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "广汽集团进行资产重组",
+          "analysis": "广汽集团的资产重组可能旨在优化公司结构、提高运营效率或应对市场变化。对中国汽车行业来说，这反映了行业整合的趋势和市场竞争的加剧。后续可能涉及公司战略调整、合作伙伴关系变化或政策支持。",
           "keywords": [
-            "也门局势",
-            "红海局势",
-            "安全防范",
-            "海外利益",
-            "外交政策"
+            "广汽集团",
+            "资产重组",
+            "行业整合",
+            "市场竞争",
+            "政策支持"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%20%E8%B5%84%E4%BA%A7%E9%87%8D%E7%BB%84"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "赵雷在鸟巢举办演唱会",
+          "titleOrig": "赵雷鸟巢演唱会",
+          "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E9%9B%B7%E9%B8%9F%E5%B7%A2%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=10&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "歌手赵雷在鸟巢举行个人演唱会。",
+          "analysis": "赵雷的演唱会体现了中国音乐市场的繁荣和流行文化的普及。对推动音乐产业发展、提升国民文化消费水平有积极作用。后续可能带动更多音乐人和音乐作品的涌现。",
+          "keywords": [
+            "赵雷",
+            "演唱会",
+            "音乐",
+            "文化",
+            "消费"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9oXzJGWmpKZXE2aXhrQWlvbnZrQU1QSmhqU2lBUnZTWjRuMEdWVDY2YzlLWUlOSWJsU3AyV3FrNDJNejA3WGZwZTlRY2YyeWx4VUZJ?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/14/trump-ai-data-centers-anthropic-dario-amodei.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E8%B5%B5%E9%9B%B7%E9%B8%9F%E5%B7%A2%E6%BC%94%E5%94%B1%E4%BC%9A&t=31&band_rank=10&Refer=top"
             }
           ],
-          "rank": 10
+          "rank": 11
+        },
+        {
+          "title": "卫龙进口魔芋粉检出二氧化硫超标",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%8D%AB%E9%BE%99%E8%BF%9B%E5%8F%A3%E9%AD%94%E8%8A%8B%E7%B2%89%E6%A3%80%E5%87%BA%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A1%AB%E8%B6%85%E6%A0%87",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "卫龙进口魔芋粉被检出二氧化硫超标。",
+          "analysis": "事件背景：这涉及到食品安全问题，消费者对食品安全的关注度日益提高。关键影响：可能对卫龙品牌形象和消费者信心产生负面影响。后续走向：未来可能会有更多关于食品安全和品牌监管的报道。",
+          "keywords": [
+            "食品安全",
+            "二氧化硫超标",
+            "卫龙",
+            "品牌监管",
+            "消费者信心"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%8D%AB%E9%BE%99%E8%BF%9B%E5%8F%A3%E9%AD%94%E8%8A%8B%E7%B2%89%E6%A3%80%E5%87%BA%E4%BA%8C%E6%B0%A7%E5%8C%96%E7%A1%AB%E8%B6%85%E6%A0%87"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "广汽集团突发紧急停牌",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%E7%AA%81%E5%8F%91%E7%B4%A7%E6%80%A5%E5%81%9C%E7%89%8C",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "广汽集团宣布紧急停牌",
+          "analysis": "广汽集团紧急停牌可能涉及公司内部重大事件或外部政策影响。停牌可能源于公司财务问题、战略调整或其他突发事件。对中国汽车行业和资本市场来说，这表明行业监管加强和公司治理的重要性。后续可能涉及公司重组、业绩调整或政策影响。",
+          "keywords": [
+            "广汽集团",
+            "停牌",
+            "公司治理",
+            "汽车行业",
+            "资本市场"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%B9%BF%E6%B1%BD%E9%9B%86%E5%9B%A2%E7%AA%81%E5%8F%91%E7%B4%A7%E6%80%A5%E5%81%9C%E7%89%8C"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "曝空管开始试点劳务派遣模式",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E6%9B%9D%E7%A9%BA%E7%AE%A1%E5%BC%80%E5%A7%8B%E8%AF%95%E7%82%B9%E5%8A%B3%E5%8A%A1%E6%B4%BE%E9%81%A3%E6%A8%A1%E5%BC%8F",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中国空管开始尝试劳务派遣模式。",
+          "analysis": "空管行业试点劳务派遣模式可能旨在提高运营效率、降低成本。此举可能会对空管行业的人力资源管理产生重大影响，同时也可能引发关于劳动者权益和社会稳定的讨论。后续可能会推广到其他行业，对就业市场和社会结构产生影响。",
+          "keywords": [
+            "空管",
+            "劳务派遣",
+            "人力资源管理",
+            "就业市场",
+            "社会稳定"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%9B%9D%E7%A9%BA%E7%AE%A1%E5%BC%80%E5%A7%8B%E8%AF%95%E7%82%B9%E5%8A%B3%E5%8A%A1%E6%B4%BE%E9%81%A3%E6%A8%A1%E5%BC%8F"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "大学生生活费仅3000元",
+          "titleOrig": "大学生生活费才3000",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%94%9F%E6%B4%BB%E8%B4%B9%E6%89%8D3000%23&t=31&band_rank=8&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "微博热议大学生每月生活费仅为3000元。",
+          "analysis": "生活费问题反映了当前大学生活成本和物价水平的压力。这一现象可能与社会经济发展、家庭经济状况有关。对教育公平和青年消费观念有影响。后续可能引发社会对教育投入和青年就业的关注。",
+          "keywords": [
+            "大学生",
+            "生活费",
+            "物价",
+            "教育",
+            "消费观念"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%94%9F%E6%B4%BB%E8%B4%B9%E6%89%8D3000%23&t=31&band_rank=8&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%A5%B3%E5%AD%90%E6%8B%8D%E4%B8%8B%E9%AA%87%E4%BA%BA%E5%B7%A8%E5%9E%8B%E8%9C%97%E7%89%9B%E5%BC%95%E7%83%AD%E8%AE%AE%23&t=31&band_rank=9&Refer=top"
+            }
+          ],
+          "rank": 15
         },
         {
           "title": "勇哥维护让员工干17个小时的老板",
@@ -1113,88 +1255,86 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "一男子在知乎上赞扬老板让员工加班。",
-          "analysis": "这反映了当前社会对加班文化的不同看法。一方面，加班文化可能导致劳动者过度劳累，影响身心健康。另一方面，某些企业可能利用加班文化提高生产效率。政府和社会需要平衡加班与劳动权益的关系，推动企业建立合理的劳动制度。",
+          "summary": "网友讨论一位让员工工作17个小时的老板。",
+          "analysis": "事件背景：这反映了当前社会对工作时长和劳动权益的关注。关键影响：可能引发公众对劳动法规执行和员工权益保护的讨论。后续走向：未来可能会有更多关于劳动权益和职场文化的报道。",
           "keywords": [
-            "加班文化",
             "劳动权益",
-            "企业管理",
-            "社会现象",
-            "政策调整"
+            "工作时长",
+            "职场文化",
+            "劳动法规",
+            "社会关注"
           ],
           "category": "society",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
               "name": "知乎热榜",
               "url": "https://www.zhihu.com/search?q=%E5%8B%87%E5%93%A5%E7%BB%B4%E6%8A%A4%E8%AE%A9%E5%91%98%E5%B7%A5%E5%B9%B217%E4%B8%AA%E5%B0%8F%E6%97%B6%E7%9A%84%E8%80%81%E6%9D%BF"
             }
           ],
-          "rank": 11
+          "rank": 16
         },
         {
-          "title": "海外华商参与服贸会：拓展新兴市场 促进互联互通",
-          "titleOrig": "海外华商参与服贸会：拓新兴市场 促互联互通 - qb.gd.gov.cn",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5akpGUjRMRXBSVl9fY1MtQm0yWXJJX3ppTXd2aHowN194NDlLOXVZa2ZnZC0wcDREQzZxY3RBYUw0bzlBamtvdG5tZTE3OE1talJnR3JYY0dWWkNJNUhpbHJrajA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "游客因买错票建议车站改名",
+          "titleOrig": "一车人买错票 游客建议车站改名",
+          "url": "https://www.baidu.com/s?wd=%E4%B8%80%E8%BD%A6%E4%BA%BA%E4%B9%B0%E9%94%99%E7%A5%A8%20%E6%B8%B8%E5%AE%A2%E5%BB%BA%E8%AE%AE%E8%BD%A6%E7%AB%99%E6%94%B9%E5%90%8D",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-14T11:42:57+00:00",
-          "desc": "海外华商参与服贸会：拓新兴市场 促互联互通 qb.gd.gov.cn绿色能源新生意，中企、外企同台“晒”绿电 新浪财经2026投资亦庄高质量发展主题推介会 签署关地合作机制 重点企业集中签约 亦庄综保区跑出开放发展“加速度” 北京经济技术开发区卡位“最流动”服务贸易新风口，中国凭什么？ 观察者网2026服贸会北京昌平展区以文化为桥以活动为媒 向世界递出城市新名片 Sohu",
-          "hotLabel": "",
-          "summary": "海外华商参与服贸会，旨在拓展新兴市场和促进互联互通。",
-          "analysis": "这一活动体现了中国对外开放的政策意图，旨在通过海外华商的参与，加强与国际市场的联系，拓展新兴市场。对国内经济意味着促进出口和投资，增强经济韧性。后续可能包括更多国际合作项目的启动和实施。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "游客因购票错误，建议车站改名引发热议。",
+          "analysis": "这起事件反映了公众对公共服务细节的关注。车站改名建议可能源于游客对车站标识不清的不满，也体现了公众对改善服务质量的期待。事件背后可能涉及公共服务管理的问题，如信息透明度和服务标准。对国内民生来说，这提示了提升公共服务质量的重要性。后续可能促使相关部门加强服务细节的管理和改进。",
           "keywords": [
-            "海外华商",
-            "服贸会",
-            "新兴市场",
-            "互联互通",
-            "对外开放"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB5akpGUjRMRXBSVl9fY1MtQm0yWXJJX3ppTXd2aHowN194NDlLOXVZa2ZnZC0wcDREQzZxY3RBYUw0bzlBamtvdG5tZTE3OE1talJnR3JYY0dWWkNJNUhpbHJrajA?oc=5"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "2026年国家网络安全宣传周在济南开幕",
-          "titleOrig": "2026年国家网络安全宣传周开幕式在山东济南举行 - news.cn",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mZXRLVzlnaWpkRjZWUzlVQUFWc0xVUmtkUmtLdEx1dDhsUVJzTld2VTg0UkdaVkxqZVJvUl81Vi1mSVBtemRTY0hVMXlDZDdMSkxDTXBHTEtyakFYb3VDMXdfaFZ0aWR4ekdwc1dyS2lCd3JRZWFv?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T11:35:12+00:00",
-          "desc": "2026年国家网络安全宣传周开幕式在山东济南举行 news.cn淮安洪泽：“网安游园会”走进熊出没乐园 寓教于乐受欢迎 新华网江苏频道2026年国家网络安全宣传周今天启动 finance.sina.cn打造数字网络安全“虚拟长城” 2026年甘肃省网络安全宣传周在嘉峪关开幕 央视网从一颗“芯”到一张“网”，济南“算”出中国科创加速度 Sohu",
-          "hotLabel": "",
-          "summary": "2026年国家网络安全宣传周在山东济南启动。",
-          "analysis": "此举体现了中国对网络安全的重视。网络安全宣传周有助于提升公众网络安全意识，加强网络安全防护。后续可能出台更多网络安全政策，构建更加安全的网络环境。",
-          "keywords": [
-            "网络安全",
-            "宣传周",
-            "济南",
-            "网络安全意识",
-            "网络安全政策"
+            "车站改名",
+            "公共服务",
+            "游客体验",
+            "服务管理"
           ],
           "category": "society",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9mZXRLVzlnaWpkRjZWUzlVQUFWc0xVUmtkUmtLdEx1dDhsUVJzTld2VTg0UkdaVkxqZVJvUl81Vi1mSVBtemRTY0hVMXlDZDdMSkxDTXBHTEtyakFYb3VDMXdfaFZ0aWR4ekdwc1dyS2lCd3JRZWFv?oc=5"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%80%E8%BD%A6%E4%BA%BA%E4%B9%B0%E9%94%99%E7%A5%A8%20%E6%B8%B8%E5%AE%A2%E5%BB%BA%E8%AE%AE%E8%BD%A6%E7%AB%99%E6%94%B9%E5%90%8D"
             }
           ],
-          "rank": 13
+          "rank": 17
+        },
+        {
+          "title": "“喊坐下都算礼貌 要我就喊离婚”",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%96%8A%E5%9D%90%E4%B8%8B%E9%83%BD%E7%AE%97%E7%A4%BC%E8%B2%8C%20%E8%A6%81%E6%88%91%E5%B0%B1%E5%96%8A%E7%A6%BB%E5%A9%9A%E2%80%9D",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "网络流行语引发关于礼貌与婚姻观的讨论。",
+          "analysis": "该流行语反映了当前社会对礼貌和婚姻观念的多元化认识。它可能源于对现代生活节奏快、人际交往压力大的社会现象的讽刺。对社会而言，这反映了价值观的多元化和对传统礼仪的反思。后续可能引发更多关于社会礼仪和婚姻观念的讨论。",
+          "keywords": [
+            "网络流行语",
+            "礼貌",
+            "婚姻观",
+            "社会价值观"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%96%8A%E5%9D%90%E4%B8%8B%E9%83%BD%E7%AE%97%E7%A4%BC%E8%B2%8C%20%E8%A6%81%E6%88%91%E5%B0%B1%E5%96%8A%E7%A6%BB%E5%A9%9A%E2%80%9D"
+            }
+          ],
+          "rank": 18
         },
         {
           "title": "Bin回应AL夺冠",
@@ -1209,233 +1349,53 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "电竞战队Bin回应其战队AL夺冠。",
-          "analysis": "背景：电竞作为新兴产业，近年来在中国快速发展。事件背景：电竞战队AL在比赛中夺冠，Bin作为战队成员回应。关键影响：电竞产业的发展将带动相关产业链，如游戏、直播等。后续走向：电竞行业可能迎来更多关注和发展机会。",
+          "summary": "Bin对AL夺冠事件作出回应。",
+          "analysis": "Bin的回应可能涉及对事件本身的看法或对相关行业的影响。这一事件可能引发了公众对于相关行业或领域的关注，Bin的回应可能会影响公众对事件的看法和行业的发展方向。后续可能会引发更多讨论和关注。",
           "keywords": [
-            "电竞",
             "Bin",
-            "AL",
-            "夺冠",
-            "电竞产业"
+            "AL夺冠",
+            "行业影响",
+            "公众关注",
+            "事件回应"
           ],
-          "category": "tech",
-          "importance": 75,
+          "category": "society",
+          "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23Bin%E5%9B%9E%E5%BA%94AL%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top"
             }
           ],
-          "rank": 14
-        },
-        {
-          "title": "广州番禺男子持刀伤人被捕",
-          "titleOrig": "广州公安通报：番禺一男子持刀伤人落网 - 联合早报",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCSUpKN1hlS0pCS1dEQldXZ2pMa2Q0RmNBU09yeEtlSjBnWld4SF9KT21UZXNtbWhEOHEzWGtxU1pLblhRU3luNE0xMzJsU3pxbjI5dUM2VzA1R0lnclc0cmtfR2ZkZVhWMUE?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T13:06:33+00:00",
-          "desc": "广州公安通报：番禺一男子持刀伤人落网 联合早报一男子在火锅店门口持刀伤人，广州警方：伤者经救治均无生命危险 央视网广州一商业综合体发生持刀伤人事件，地处大学城核心区，警方抓获犯罪嫌疑人李某（男，35岁），伤者无生命危险 finance.sina.cn广州一男子持刀伤人被抓获 现场已安全处置 中华网【独家】广州大学城持刀伤人案 校方澄清“多人行凶”传闻不实 e南洋",
-          "hotLabel": "",
-          "summary": "广州番禺发生持刀伤人事件，嫌疑人已被警方抓获。",
-          "analysis": "此事件反映了社会治安问题，可能与社会压力、心理健康等因素有关。对国内民生意味着可能增加社会不安定因素，对经济影响有限，对治理意味着需要加强社会治安管理和心理健康教育。后续可能包括对嫌疑人的审判、对受害者的赔偿以及社会安全措施的加强。",
-          "keywords": [
-            "广州番禺",
-            "持刀伤人",
-            "社会治安",
-            "心理健康",
-            "社会治理"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBCSUpKN1hlS0pCS1dEQldXZ2pMa2Q0RmNBU09yeEtlSjBnWld4SF9KT21UZXNtbWhEOHEzWGtxU1pLblhRU3luNE0xMzJsU3pxbjI5dUM2VzA1R0lnclc0cmtfR2ZkZVhWMUE?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9zSVJNOGVHejB0ajNqSHBWTVRGVDMzdGY4ak5fdl92b3NFaWEyX2hnRnUxdUxPdHc3dXZQU0lBWUp3RXRnenpkZnZTRklyazFWMXBkT05leEZ3UVlXZ3lNcVRn?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzS1AweUd5QzVaRldyUk5md3B3SUYxX21ZTXFOZnQ5S1Nlbm4zN00xV2ctNEtEaFpmNmYxM2xVNjFxY21RNmtIb0lTaFNJM2daZ0JuMEczZ3l1WUdFc3RnY2FBNmJTdkx3MWxTV3pmbkg?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "伊朗和阿曼推迟地区会议 霍尔木兹海峡通航仍难达成共识",
-          "titleOrig": "伊朗和阿曼推迟地区会议 霍尔木兹海峡通航仍难达成共识 - 东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uMEF2M1lsMklpMEpIaFowaFVnM1NfQ0NSU0ZLeFhTN2I0TXJQTlNJVUtFNXlNMTJTLXY3ZUlldmlZZjVZM0RYWWRnbWU4UEFQOVpRSHYyb1VmYWtnYWdUQQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T15:34:57+00:00",
-          "desc": "伊朗和阿曼推迟地区会议 霍尔木兹海峡通航仍难达成共识 东方财富阿曼外交部：原定于14日举行的地区会议延期 finance.sina.cn数据显示霍尔木兹海峡单日通行量降至个位数 中国网新闻中心伊朗与地区国家会议延期 霍尔木兹海峡面临政治与军事双重风险 Caijing海湾地区新袭击冲击石油供应，阿曼宣布地区会议延期 观察者网",
-          "hotLabel": "",
-          "summary": "伊朗和阿曼推迟地区会议，霍尔木兹海峡通航问题难以达成共识。",
-          "analysis": "霍尔木兹海峡的通航问题反映了地区安全和经济利益的复杂关系。对中国的国际影响可能包括能源安全和经济合作的不确定性。后续可能涉及地区安全形势的进一步紧张，以及国际社会对地区稳定的关注。",
-          "keywords": [
-            "霍尔木兹海峡",
-            "地区会议",
-            "伊朗",
-            "阿曼",
-            "能源安全"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9uMEF2M1lsMklpMEpIaFowaFVnM1NfQ0NSU0ZLeFhTN2I0TXJQTlNJVUtFNXlNMTJTLXY3ZUlldmlZZjVZM0RYWWRnbWU4UEFQOVpRSHYyb1VmYWtnYWdUQQ?oc=5"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "拉脱维亚外长感谢中方搜救工作",
-          "titleOrig": "拉脱维亚外长：感谢中方所做通报和搜救工作 - 观察者网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzS1AweUd5QzVaRldyUk5md3B3SUYxX21ZTXFOZnQ5S1Nlbm4zN00xV2ctNEtEaFpmNmYxM2xVNjFxY21RNmtIb0lTaFNJM2daZ0JuMEczZ3l1WUdFc3RnY2FBNmJTdkx3MWxTV3pmbkg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T15:00:00+00:00",
-          "desc": "拉脱维亚外长：感谢中方所做通报和搜救工作 观察者网外交部发言人介绍西藏泥石流灾害外籍人员搜救情况 finance.sina.cn王毅同拉脱维亚外长布拉泽通电话 bjnews.com.cn外交部：西藏将为泥石流失联外籍人员家属提供及时服务 中国青年网中国启动DNA 采集程序搜寻尼泊尔与西藏边境失踪人员 ua.news",
-          "hotLabel": "",
-          "summary": "拉脱维亚外长感谢中国在西藏泥石流灾害中的搜救工作。",
-          "analysis": "这体现了中国在国际救援合作中的积极作用。中国通过搜救行动和国际通报，展现了负责任大国的形象。后续可能加强中拉两国在灾害救援领域的合作。",
-          "keywords": [
-            "搜救工作",
-            "拉脱维亚",
-            "中国救援",
-            "国际合作",
-            "灾害救援"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBzS1AweUd5QzVaRldyUk5md3B3SUYxX21ZTXFOZnQ5S1Nlbm4zN00xV2ctNEtEaFpmNmYxM2xVNjFxY21RNmtIb0lTaFNJM2daZ0JuMEczZ3l1WUdFc3RnY2FBNmJTdkx3MWxTV3pmbkg?oc=5"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "《云雀叫天录》看片会在北京举行，展现文化自信",
-          "titleOrig": "《云雀叫天录》看片会在北京举行：以梨园匠心铸时代风骨，以国粹薪火照文化自信 - 中国日报网",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRjQtY2NYOF9ZRUJKaTUwMmFBcVB4RUY5TEpzTk8zZjFaWXNCb3RZYVg0aTUtSnRvLVEzY1NZZ0Q2dVdyR0Z2eF9US2o0Z0hZeEZpdnFVZF9oNUVTaUI4Z2Q2QTBqX1ZjQ0xBUGpsMWJla1pSNmI4RG16aGc?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T08:15:31+00:00",
-          "desc": "《云雀叫天录》看片会在北京举行：以梨园匠心铸时代风骨，以国粹薪火照文化自信 中国日报网取材京剧大师谭鑫培生平 《云雀叫天录》将开播 人民网终于！你们又在CCTV-8“碰”到啦！ finance.sina.cn电视剧《云雀叫天录》开播 演绎戏曲名家传奇人生 Sohu《云雀叫天录》今日开播 张一山初入梨园江湖开启热血逐梦之路 中国网",
-          "hotLabel": "",
-          "summary": "《云雀叫天录》看片会举行，弘扬国粹，展现文化自信。",
-          "analysis": "背景：该剧以京剧大师谭鑫培为原型，展现了京剧艺术的魅力。社会成因：文化自信是国家软实力的重要组成部分，通过艺术形式传承和弘扬传统文化，有助于提升国民文化认同感。关键影响：有利于传统文化的传承与发展，增强文化自信。后续走向：预计该剧将引发观众对京剧艺术的关注。",
-          "keywords": [
-            "京剧",
-            "文化自信",
-            "《云雀叫天录》",
-            "谭鑫培",
-            "艺术"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9BRjQtY2NYOF9ZRUJKaTUwMmFBcVB4RUY5TEpzTk8zZjFaWXNCb3RZYVg0aTUtSnRvLVEzY1NZZ0Q2dVdyR0Z2eF9US2o0Z0hZeEZpdnFVZF9oNUVTaUI4Z2Q2QTBqX1ZjQ0xBUGpsMWJla1pSNmI4RG16aGc?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/14/world/asia/china-ai-security-risks-anthropic.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/12/xi-jinping-brics-summit-delhi-india-china-relations"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/14/nx-s1-5968456/china-hits-back-ai-development"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "泰国曼谷加强数据中心监管",
-          "titleOrig": "泰国曼谷已有49个数据中心 市长称将加强监管 - chinanews.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKaC1Uams5VXhKbDlzRDJLNVl0N1BKMFRpUUY1RERzNkJ4dHdzYUl1T2pMUHJsVUZOT1pKbmpkOEhrUWhWRWxHbVphYnIwSzJMYzNmdEo1cDV4TDRnUlRiQng2dnc0c1ps?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-14T13:27:29+00:00",
-          "desc": "泰国曼谷已有49个数据中心 市长称将加强监管 chinanews.com.cn",
-          "hotLabel": "",
-          "summary": "泰国曼谷市长表示将加强数据中心监管。",
-          "analysis": "这反映了泰国对数据中心监管的重视，旨在保护数据安全和隐私。对泰国而言，加强监管有助于提升数据中心行业的国际竞争力。后续可能出台更多监管措施。",
-          "keywords": [
-            "数据中心",
-            "监管",
-            "泰国",
-            "数据安全",
-            "隐私保护"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKaC1Uams5VXhKbDlzRDJLNVl0N1BKMFRpUUY1RERzNkJ4dHdzYUl1T2pMUHJsVUZOT1pKbmpkOEhrUWhWRWxHbVphYnIwSzJMYzNmdEo1cDV4TDRnUlRiQng2dnc0c1ps?oc=5"
-            }
-          ],
           "rank": 19
         },
         {
-          "title": "寻找金砖温度的答案",
+          "title": "三星嘲讽苹果iPhoneDuo",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%AF%BB%E6%89%BE%E9%87%91%E7%A0%96%E6%B8%A9%E5%BA%A6%E7%9A%84%E7%AD%94%E6%A1%88%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E4%B8%89%E6%98%9F%E5%98%B2%E8%AE%BD%E8%8B%B9%E6%9E%9CiPhoneDuo",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#3",
-          "summary": "微博热搜探讨金砖国家合作。",
-          "analysis": "背景：金砖国家（巴西、俄罗斯、印度、中国和南非）的合作日益紧密。事件背景：微博热搜引发对金砖国家合作的讨论。关键影响：金砖国家合作有助于提升新兴市场国家和发展中国家的国际地位。后续走向：预计金砖国家合作将进一步加强。",
+          "hotLabel": "",
+          "summary": "三星对苹果的新产品iPhoneDuo进行嘲讽。",
+          "analysis": "事件背景：这反映了科技行业内的竞争态势，三星作为苹果的主要竞争对手，通过嘲讽来提升自身品牌形象。关键影响：可能对消费者购买决策产生影响，同时也可能加剧苹果与三星之间的竞争。后续走向：未来可能会有更多关于产品竞争和市场策略的报道。",
           "keywords": [
-            "金砖国家",
-            "合作",
-            "国际关系",
-            "新兴市场",
-            "发展"
+            "三星",
+            "苹果",
+            "市场竞争",
+            "iPhoneDuo",
+            "科技行业"
           ],
-          "category": "international",
-          "importance": 65,
+          "category": "tech",
+          "importance": 60,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%AF%BB%E6%89%BE%E9%87%91%E7%A0%96%E6%B8%A9%E5%BA%A6%E7%9A%84%E7%AD%94%E6%A1%88%23&t=31&band_rank=3&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E4%B8%89%E6%98%9F%E5%98%B2%E8%AE%BD%E8%8B%B9%E6%9E%9CiPhoneDuo"
             }
           ],
           "rank": 20
