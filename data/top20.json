@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-24T02:05:29.031094+00:00",
+  "generatedAt": "2026-09-24T10:45:13.784261+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 29,
+      "count": 30,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 13,
+      "count": 20,
       "ok": true
     },
     {
@@ -90,112 +90,108 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，中东地区紧张局势持续，伊朗总统强硬回应特朗普，联合国大使评论相关国家政策；中美关系方面，特朗普与习近平会晤，贸易休战延长，AI成为两国雄心焦点。德国计划淘汰化石燃料，阿根廷总统在联合国威胁行动，显示地区紧张局势加剧。经济领域，高利率影响低收入家庭，国债收益率上升，新社会保障法案调整退休年龄。此外，国际社会关注到印度选举、南非警官性侵案等事件，反映出全球治理和人权问题的重要性。总体而言，国际局势复杂多变，各方博弈持续，值得关注的事件走向。",
+      "digest": "今日国际局势呈现多领域热点交织的态势。政治方面，巴西总统选举受腐败丑闻影响，俄罗斯制裁规避策略引人关注；经济领域，全球债务总额激增，美债收益率创新高，中美贸易休战延长，德国经济预测翻倍；科技领域，网络安全初创公司融资大增，油价上涨受美伊谈判影响；社会方面，基辅学校儿童防空洞避难，印度长途巴士起火致9死。总体来看，国际局势复杂多变，多国政策调整与经济波动交织，值得关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "伊朗总统向特朗普表示伊朗永远不会屈服",
-          "titleOrig": "Iran's president tells Trump it will never 'bend the knee'",
-          "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
+          "title": "腐败丑闻重塑巴西总统选举",
+          "titleOrig": "A Corruption Scandal Is Reshaping Brazil’s Presidential Election",
+          "url": "https://www.nytimes.com/2026/09/24/world/americas/brazil-supreme-court-justice-moraes-vorcaro-trump.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-23T18:15:31+00:00",
-          "desc": "Masoud Pezeshkian's defiant speech to the UN comes after the US president threatened to \"annihilate\" Iran if a peace deal is not agreed soon.",
+          "publishedAt": "2026-09-24T09:01:19+00:00",
+          "desc": "Explosive allegations of corruption are embroiling a Brazilian Supreme Court justice, Alexandre de Moraes, and reshaping the country’s high-stakes presidential election.",
           "hotLabel": "",
-          "summary": "伊朗总统在联合国发表强硬讲话，回应特朗普威胁若和平协议未达成将摧毁伊朗。",
-          "analysis": "伊朗的强硬立场表明其在与美国的外交对抗中不打算妥协。这一事件加剧了中东地区的紧张局势，可能阻碍地区和平进程。后续可能引发更激烈的冲突或外交谈判，对中东地区乃至全球安全形势产生重大影响。",
+          "summary": "巴西最高法院大法官亚历山大·德·莫拉埃斯的腐败指控正在重塑该国总统选举。",
+          "analysis": "巴西总统选举中的腐败丑闻揭示了该国政治体系的深层次问题。这一事件可能影响选举结果，对巴西的政治稳定和经济发展产生深远影响。后续走向将取决于调查结果和公众对此的反应，可能引发政治动荡。",
           "keywords": [
-            "伊朗",
-            "特朗普",
-            "强硬立场",
-            "中东局势",
+            "巴西",
+            "总统选举",
+            "腐败",
+            "政治动荡",
+            "政治调查"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/24/world/americas/brazil-supreme-court-justice-moraes-vorcaro-trump.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "俄罗斯如何规避制裁",
+          "titleOrig": "How Russia Evades Sanctions",
+          "url": "https://www.nytimes.com/video/world/europe/100000011077984/how-russia-evades-sanctions.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T09:17:19+00:00",
+          "desc": "Our business data correspondent Aaron Krolik describes Russia’s vast effort to evade global sanctions and get drone parts for its war in Ukraine — and explains how we traced those efforts.",
+          "hotLabel": "",
+          "summary": "俄罗斯正努力规避国际制裁以获取无人机部件。",
+          "analysis": "俄罗斯规避制裁的行为是其应对国际压力的举措，反映了制裁对俄罗斯经济的影响。这一行为可能加剧国际社会的担忧，对国际制裁的有效性提出挑战。后续走向可能涉及国际社会的进一步制裁和俄罗斯的经济应对。",
+          "keywords": [
+            "俄罗斯",
+            "制裁",
+            "无人机",
+            "规避",
             "国际关系"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqvgyjy23ggjo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978863/iran-president-united-nations-general-assembly"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "联合国大使迈克·沃尔茨谈伊朗、委内瑞拉和特朗普的外交政策",
-          "titleOrig": "U.N. Ambassador Mike Waltz on Iran, Venezuela and Trump's foreign policy",
-          "url": "https://www.npr.org/2026/09/23/nx-s1-5977753/u-s-ambassador-to-the-u-n-discusses-trumps-address-at-unga",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T10:48:47+00:00",
-          "desc": "Deals, threats and oil are all on the table as the president's foreign policy takes center stage.",
-          "hotLabel": "",
-          "summary": "联合国大使沃尔茨讨论伊朗、委内瑞拉及特朗普外交政策。",
-          "analysis": "沃尔茨的评论揭示了美国外交政策在伊朗和委内瑞拉问题上的立场，这可能影响地区稳定和国际关系。特朗普的外交政策走向将继续是国际关注的焦点。",
-          "keywords": [
-            "联合国大使",
-            "外交政策",
-            "伊朗",
-            "委内瑞拉",
-            "特朗普"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5977753/u-s-ambassador-to-the-u-n-discusses-trumps-address-at-unga"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/video/world/europe/100000011077984/how-russia-evades-sanctions.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "哈维·温斯坦被判性侵罪名成立，重判15年",
-          "titleOrig": "Harvey Weinstein resentenced to 15 years for sexual assault",
-          "url": "https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "title": "全球债务总额超过365万亿美元，经济学家对‘恶性循环’发出警报",
+          "titleOrig": "Global debt tops $365 trillion as economists sound alarm over 'vicious cycle'",
+          "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
-          "region": "德国",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-23T17:45:00+00:00",
-          "desc": "The disgraced Hollywood mogul was found guilty of sexually assaulting former production assistant Miriam Haley. The man whose case spurred the #MeToo movement awaits a separate sentencing in a California rape case.",
+          "publishedAt": "2026-09-24T08:13:01+00:00",
+          "desc": "More is being paid out by advanced economies in debt interest than the whole world spends on AI, defense or clean technology.",
           "hotLabel": "",
-          "summary": "好莱坞名流哈维·温斯坦因性侵前助理Miriam Haley被判15年监禁。",
-          "analysis": "哈维·温斯坦的判决是#MeToo运动的标志性案例之一，其结果对好莱坞乃至全球娱乐产业产生了深远影响。这一事件背景是性侵问题的普遍存在和公众对性侵行为的零容忍态度。关键影响在于强化了对性侵行为的法律制裁，并对公众意识产生了积极影响。后续走向可能包括更多类似案件的曝光和处理。",
+          "summary": "发达经济体债务利息支出超过全球在人工智能、国防或清洁技术上的总支出。",
+          "analysis": "全球债务水平的上升表明了全球经济面临的潜在风险。这一现象反映了全球经济复苏的不平衡，以及一些国家财政政策的过度依赖。长期来看，这可能引发金融市场的动荡，对全球经济稳定构成威胁。后续走向可能包括各国政府采取措施控制债务水平，以及全球金融监管的加强。",
           "keywords": [
-            "哈维·温斯坦",
-            "性侵",
-            "#MeToo",
-            "好莱坞",
-            "法律制裁"
+            "全球债务",
+            "恶性循环",
+            "经济学家",
+            "金融市场",
+            "经济稳定"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 90,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/harvey-weinstein-resentenced-to-15-years-for-sexual-assault/a-79403381?maca=en-rss-en-all-1573-rdf"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/global-debt-bond-yields-inflation.html"
             }
           ],
           "rank": 3
         },
         {
-          "title": "特朗普与习近平会晤，AI超级大国雄心成为焦点",
-          "titleOrig": "AI superpower ambitions take centre stage as Trump and Xi meet",
+          "title": "中美在AI领域竞争",
+          "titleOrig": "Trump and Xi come face-to-face as US and China jostle for dominance over AI",
           "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
@@ -206,14 +202,14 @@
           "publishedAt": "2026-09-23T22:01:17+00:00",
           "desc": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
           "hotLabel": "",
-          "summary": "美中两国在寻求将人工智能控制在人类手中的同时，争夺AI霸权。",
-          "analysis": "随着人工智能技术的发展，美中两国在AI领域的竞争日益激烈。此次会晤中，双方均表达了在AI领域的雄心，但同时也强调了人工智能应受到人类控制的重要性。这一事件反映了当前国际科技竞争的激烈程度，以及大国在科技领域争夺领导权的趋势。后续可能的发展趋势包括两国在AI领域的合作与竞争加剧，以及全球科技治理规则的重新制定。",
+          "summary": "中美在人工智能领域竞争，寻求保持人类对AI的控制。",
+          "analysis": "中美在AI领域的竞争反映了全球科技竞争的新趋势。这对中国而言，既是挑战也是机遇。中国需要加强AI领域的研发和创新，以保持国际竞争力。对全球而言，中美在AI领域的竞争可能影响全球科技发展和国际关系。后续可能看到中美在AI领域的合作与竞争更加激烈。",
           "keywords": [
+            "中美竞争",
             "人工智能",
-            "美中关系",
             "科技竞争",
-            "国际格局",
-            "领导权"
+            "国际关系",
+            "全球科技发展"
           ],
           "category": "international",
           "importance": 85,
@@ -223,145 +219,110 @@
               "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
             },
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978691/from-cybersecurity-to-ai-what-at-stake-in-trumps-meeting-with-and-president-xiwhy-the-us-and-china-are-at-a-precarious-moment-in-their-relationship"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "德国计划到2045年逐步淘汰化石燃料",
-          "titleOrig": "Germany sets out plan to phase out fossil fuels by 2045",
-          "url": "https://www.dw.com/en/germany-sets-out-plan-to-phase-out-fossil-fuels-by-2045/a-79404028?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T01:37:00+00:00",
-          "desc": "Germany sets out a plan to phase out coal, oil and gas by 2045, reaffirming a climate strategy focused on electrification.",
-          "hotLabel": "",
-          "summary": "德国公布淘汰煤、油和气计划，强化以电气化为重点的气候战略。",
-          "analysis": "德国的这一计划反映了全球对气候变化的关注和应对。淘汰化石燃料将减少温室气体排放，对全球气候治理有积极影响。同时，这也可能推动德国能源结构的转型，增加对可再生能源的依赖。长远来看，这一举措可能对全球能源市场产生深远影响，并促使其他国家加快绿色能源转型。后续可能面临的技术挑战、经济成本以及社会接受度将是关键。",
-          "keywords": [
-            "德国",
-            "化石燃料",
-            "气候战略",
-            "能源转型",
-            "全球影响"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/germany-sets-out-plan-to-phase-out-fossil-fuels-by-2045/a-79404028?maca=en-rss-en-all-1573-rdf"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
             }
           ],
           "rank": 5
         },
         {
-          "title": "民调显示民主党在中期选举中领先，ICE调查移动拘留中心",
-          "titleOrig": "Dems have an edge over GOP, poll finds. And, ICE looks into 'mobile detention centers'",
-          "url": "https://www.npr.org/2026/09/23/g-s1-144632/up-first-newsletter-npr-polls-voter-approval-cnn-msnow-politico-trump-unga-speech-ice",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "特朗普和平委员会公布24.5亿美元加沙重建计划",
+          "titleOrig": "Trump's Board of Peace unveils $2.45bn Gaza recovery plan",
+          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-09-23T11:13:32+00:00",
-          "desc": "An NPR poll shows that Democrats have an edge over Republicans going into the midterms, partially due to Trump. And, Immigration and Customs Enforcement is looking into \"mobile detention centers.\"",
+          "publishedAt": "2026-09-24T10:11:15+00:00",
+          "desc": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
           "hotLabel": "",
-          "summary": "民主党在中期选举中领先，ICE考虑移动拘留中心方案。",
-          "analysis": "此新闻反映了美国国内政治局势的变化，民主党因特朗普政策而获得支持。ICE考虑移动拘留中心可能意味着移民政策的变化。这对美国国内政治格局和移民政策有深远影响。后续可能看到更多政策调整和公众反应。",
+          "summary": "特朗普和平委员会在联合国大会上宣布为加沙地带提供巨额重建资金。",
+          "analysis": "特朗普和平委员会的重建计划是在国际社会对加沙地带困境的关注背景下提出的。这一计划可能旨在提升特朗普政府在巴勒斯坦问题上的形象，同时也反映了美国对中东地区局势的介入。该计划的关键影响在于可能缓解加沙地带的困境，但同时也可能加剧地区紧张局势。后续走向可能取决于资金的到位情况和巴以双方的谈判进展。",
           "keywords": [
-            "民主党",
-            "中期选举",
-            "移民政策",
-            "ICE",
-            "拘留中心"
+            "特朗普",
+            "和平委员会",
+            "加沙",
+            "重建计划",
+            "中东局势"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/g-s1-144632/up-first-newsletter-npr-polls-voter-approval-cnn-msnow-politico-trump-unga-speech-ice"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "基辅学校儿童防空洞避难",
+          "titleOrig": "School Children Take Shelter in Kyiv",
+          "url": "https://www.nytimes.com/video/world/europe/100000011139361/school-children-take-shelter-in-kyiv.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T09:17:23+00:00",
+          "desc": "Our Ukraine correspondent Siobhán O’Grady visits a school in Kyiv where air raid sirens interrupt classes all day and children must take shelter.",
+          "hotLabel": "",
+          "summary": "基辅学校因空袭警报而中断课程，儿童需在防空洞避难。",
+          "analysis": "基辅学校儿童避难反映了乌克兰冲突的严重性，揭示了战争对平民生活的直接影响。这一事件凸显了乌克兰危机的严峻性，可能加剧国际社会对冲突的关注和干预。后续走向可能取决于冲突的发展和乌克兰国内外的政治反应。",
+          "keywords": [
+            "乌克兰",
+            "基辅",
+            "战争",
+            "儿童",
+            "防空洞"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/video/world/europe/100000011139361/school-children-take-shelter-in-kyiv.html"
             }
           ],
           "rank": 6
         },
         {
-          "title": "联邦检察官调查杰弗里·爱泼斯坦遗产执行人，据《华尔街日报》报道",
-          "titleOrig": "Federal prosecutors probe Jeffrey Epstein estate executors, WSJ reports",
-          "url": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html",
+          "title": "美国30年期国债收益率触及2004年以来最高水平",
+          "titleOrig": "30-year Treasury yield hits highest level since 2004",
+          "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-23T18:41:23+00:00",
-          "desc": "A group that advocates for Epstein victims applauded the news that Richard Kahn and Darren Indyke are facing an investigation. No charges have been been filed.",
+          "publishedAt": "2026-09-24T09:36:19+00:00",
+          "desc": "U.S. Treasury yields continued their upward momentum after hitting a 19-year high on Wednesday.",
           "hotLabel": "",
-          "summary": "联邦检察官调查杰弗里·爱泼斯坦遗产执行人，未起诉。",
-          "analysis": "此事件反映了美国司法系统对性犯罪案件的高度关注。调查可能揭示更多关于爱泼斯坦及其社交网络的信息，对相关受害者及其家属可能带来心理和社会影响。后续可能引发对类似案件处理方式的讨论，对国际社会对性犯罪的态度产生潜在影响。后续走向可能包括对遗产执行人的进一步调查和可能的起诉。",
+          "summary": "美国30年期国债收益率创下19年新高。",
+          "analysis": "美国30年期国债收益率上涨反映了市场对美联储未来加息的预期增强。这可能是由于对经济复苏的乐观预期和通胀压力。这一趋势可能加剧市场波动，影响全球资本流动。后续美联储的政策动向和经济增长数据将成为关键。",
           "keywords": [
-            "爱泼斯坦",
-            "遗产调查",
-            "美国司法",
-            "性犯罪"
+            "国债收益率",
+            "美联储",
+            "加息",
+            "市场波动",
+            "全球资本流动"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/23/jeffrey-epstein-estate-executors-investigation.html"
+              "url": "https://www.cnbc.com/2026/09/24/us-treasury-yields-bonds-fed-inflation.html"
             }
           ],
           "rank": 7
         },
         {
-          "title": "阿根廷总统在联合国威胁称将对福克兰群岛问题采取行动",
-          "titleOrig": "Milei threatens at UN that Argentina will take ‘matters into our own hands’ on Falklands",
-          "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T18:50:43+00:00",
-          "desc": "Argentinian president accuses United Nations of being filled with ‘parasites’ in bellicose general assembly speechJavier Milei has condemned the UN as he warned that Argentina would take “matters into our own hands” in its dispute with Britain over the sovereignty of the Falkland Islands.In a causti",
-          "hotLabel": "",
-          "summary": "阿根廷总统在联合国大会上批评联合国，并警告将对福克兰群岛主权问题采取行动。",
-          "analysis": "阿根廷总统Javier Milei在联合国大会上的言论反映了阿根廷对福克兰群岛主权问题的强硬立场。这一事件背景是阿根廷与英国之间的长期领土争端。这一事件的关键影响在于加剧了地区紧张局势，并对国际社会提出了关于领土争端解决方式的挑战。后续走向可能包括两国之间的外交紧张升级，甚至可能引发军事冲突。",
-          "keywords": [
-            "阿根廷",
-            "福克兰群岛",
-            "联合国",
-            "领土争端",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/uk-news/2026/sep/23/argentina-president-attacks-un-over-inaction-on-falkland-islands-sovereignty"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "美国-中国贸易休战延长两个月，贝塞特表示，随着习近平开始国事访问",
+          "title": "中美贸易休战延长两个月，习近平开始国事访问",
           "titleOrig": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
           "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
           "source": "CNBC World",
@@ -370,351 +331,706 @@
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-24T01:53:10+00:00",
+          "publishedAt": "2026-09-24T04:55:59+00:00",
           "desc": "The deal, which was set to expire in November, will now be extended to Jan. 10, Bessent said, noting the need for Beijing to fulfill more deliverables.",
           "hotLabel": "",
-          "summary": "原定于11月到期的协议将延长至1月10日，贝塞特表示，北京需要履行更多承诺。",
-          "analysis": "美中贸易休战的延长表明双方在贸易问题上寻求更多时间来达成更全面的协议。这一举措有助于缓解市场对贸易战升级的担忧，但也暗示了双方在贸易谈判中的复杂性和对进一步承诺的需求。后续可能的发展趋势包括美中双方在贸易问题上的进一步谈判，以及全球经济对贸易局势的反应。",
+          "summary": "中美贸易休战延长至2020年1月10日，北京需履行更多承诺。",
+          "analysis": "此次贸易休战延长反映了中美双方在贸易问题上的博弈仍在继续。背景是中国政府为推动经济转型和高质量发展，以及美国在贸易战中寻求自身利益最大化。延长休战期意味着双方有更多时间来达成协议，但同时也增加了不确定性。对国内民生而言，若贸易战持续，可能影响就业和消费者信心；对经济而言，可能影响出口和投资；后续走向取决于双方能否在关键问题上达成共识。",
           "keywords": [
-            "美中贸易",
-            "贸易休战",
-            "经济谈判",
-            "习近平访问",
-            "全球经济"
+            "中美贸易战",
+            "休战延长",
+            "习近平国事访问",
+            "经济转型",
+            "政策博弈"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/trump-welcomes-china-s-xi-for-high-stakes-summit/live-79404511?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "纽约联邦储备银行威廉姆斯表示年底前可能再次加息",
+          "titleOrig": "New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end",
+          "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T09:06:18+00:00",
+          "desc": "John Williams was speaking at the London Macro Policy Forum on Thursday.",
+          "hotLabel": "",
+          "summary": "纽约联邦储备银行行长表示年底前再次加息是合理的。",
+          "analysis": "威廉姆斯的言论表明美联储对通胀和经济前景的担忧。如果美联储如预期加息，可能对全球金融市场产生重大影响，尤其是对新兴市场国家。后续美联储的政策决定将受到密切关注。",
+          "keywords": [
+            "纽约联邦储备银行",
+            "加息",
+            "通胀",
+            "全球金融市场",
+            "新兴市场"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/feds-williams-another-rate-hike-by-year-end.html"
             }
           ],
           "rank": 9
         },
         {
-          "title": "印度选举委员会因选民名单修订面临新审查",
-          "titleOrig": "India’s Election Panel Faces New Scrutiny Over Voter Roll Revisions",
-          "url": "https://www.nytimes.com/2026/09/23/world/asia/india-election-commission-voter-rolls.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T16:38:56+00:00",
-          "desc": "An explosive news report says election commission members objected to the measures that excluded millions of people from voting, which critics say favor the government.",
-          "hotLabel": "",
-          "summary": "报道指出选举委员会成员反对排除数百万选民的措施，批评者称此举有利于政府。",
-          "analysis": "这一事件揭示了印度选举过程中的争议和潜在的政治操纵。选民名单的修订可能影响选举结果，引发对民主过程的质疑。对印度国内政治格局有重要影响，可能加剧政治对立和社会不稳定。后续可能引发更广泛的公众抗议和司法审查，对印度的民主制度构成挑战。",
-          "keywords": [
-            "印度",
-            "选举",
-            "选民名单",
-            "政治操纵",
-            "民主挑战"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/23/world/asia/india-election-commission-voter-rolls.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "高利率挤压年轻和低收入家庭，专家称加息是简单粗暴的工具",
-          "titleOrig": "Higher interest rates squeeze younger and lower-income households. 'A rate hike is a blunt tool,' says expert",
-          "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T19:31:08+00:00",
-          "desc": "Higher interest rates will significantly affect consumer borrowing costs and savings returns, but the impact will not be felt equally across all households.",
-          "hotLabel": "",
-          "summary": "高利率对年轻和低收入家庭影响较大，加息被视为简单粗暴。",
-          "analysis": "高利率政策可能加剧经济不平等，对年轻和低收入家庭造成更大压力。这反映了美国经济政策在调控与公平之间的权衡，后续可能引发对货币政策和社会影响的讨论。",
-          "keywords": [
-            "利率",
-            "经济不平等",
-            "货币政策",
-            "低收入家庭",
-            "经济政策"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/23/fed-rate-hike-borrowing-costs.html"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "南非高级警官被控强奸18岁妇女和诱奸16岁女孩",
-          "titleOrig": "Top South African police officer charged with raping woman, 18, and grooming 16-year-old girl",
-          "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T09:38:06+00:00",
-          "desc": "Arrest of Shadrack Sibiya comes as country reels from cases of femicide and alleged police corruption and criminalityOne of South Africa’s most senior police officers has been charged with raping an 18-year-old woman and grooming a 16-year-old girl, as the country’s police face allegations of corrup",
-          "hotLabel": "",
-          "summary": "南非高级警官被控强奸和诱奸，国家面临性别暴力和警察腐败指控。",
-          "analysis": "此事件揭示了南非警察系统内部的腐败和性别暴力问题。这可能导致公众对警察机构的信任度下降，并引发对国家法律和秩序的担忧。后续可能包括对警察系统的审查和改革措施。",
-          "keywords": [
-            "南非警察",
-            "性别暴力",
-            "警察腐败",
-            "法律和秩序"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/sep/23/south-africa-top-police-officer-shadrack-sibiya-charged-rape-grooming"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "10年期国债收益率飙升至19年高点。这是推动这一波动的因素",
-          "titleOrig": "10-year Treasury yield rockets to 19-year high. Here's what's driving the spike",
-          "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T20:07:50+00:00",
-          "desc": "Treasury yields traded higher on Wednesday as new services and manufacturing sector data increased worry of further Federal Reserve rate hikes.",
-          "hotLabel": "",
-          "summary": "随着新服务业和制造业数据增加，对美联储进一步加息的担忧加剧。",
-          "analysis": "10年期国债收益率的上升反映了市场对美联储加息的预期，以及对经济强劲增长的信心。这一趋势可能预示着美国经济的好转，但也可能引发市场对通货膨胀和利率上升的担忧。后续可能的发展趋势包括美联储的加息决策，以及这一决策对全球金融市场的影响。",
-          "keywords": [
-            "国债收益率",
-            "美联储加息",
-            "经济预期",
-            "通货膨胀",
-            "金融市场"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/23/treasury-yields-oil-inflation-fed.html"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "在美国，即使是中产阶级家庭也难以负担房租",
-          "titleOrig": "It's getting harder to afford rent in the U.S., even for middle-income families",
-          "url": "https://www.npr.org/2026/09/23/nx-s1-5977022/rent-affordability-middle-income",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T14:09:10+00:00",
-          "desc": "Housing affordability challenges are spreading to higher income brackets, according to new research, which found one in five renters struggled last year to pay for their housing in full and on time.",
-          "hotLabel": "",
-          "summary": "研究发现五分之一的租房者去年在支付房租方面遇到困难。",
-          "analysis": "这一现象反映了美国住房市场的紧张状况，尤其是对中产阶级家庭的影响。住房不平等可能加剧社会分化，影响经济稳定。后续可能需要政府采取措施解决住房问题，如增加住房供应、调整税收政策等。对美国的经济发展和社会稳定有重要影响。",
-          "keywords": [
-            "美国",
-            "房租",
-            "中产阶级",
-            "住房不平等",
-            "经济影响"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5977022/rent-affordability-middle-income"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "新社会保障法案将部分工人退休年龄降至60岁",
-          "titleOrig": "New Social Security bill would lower retirement age to 60 for some workers",
-          "url": "https://www.cnbc.com/2026/09/23/social-security-retirement-age-physical-jobs.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T17:58:47+00:00",
-          "desc": "Rep. Haley Stevens introduced a bill that would let some workers in physically demanding jobs claim full Social Security retirement benefits at age 60.",
-          "hotLabel": "",
-          "summary": "新法案允许部分体力劳动者在60岁领取全额社会保障退休金。",
-          "analysis": "此法案旨在缓解体力劳动者退休年龄过高的压力，可能增加社会保障体系的负担。这反映了美国对社会保障体系改革的关注，对未来劳动力市场和财政政策有重要影响。",
-          "keywords": [
-            "社会保障",
-            "退休年龄",
-            "法案",
-            "劳动力市场",
-            "财政政策"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/23/social-security-retirement-age-physical-jobs.html"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "印度亿万富翁的支付公司计划进行数年来最大规模的伦敦首次公开募股",
-          "titleOrig": "Indian billionaire’s payments firm plots biggest London flotation in years",
-          "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T11:08:01+00:00",
-          "desc": "Sunil Bharti Mittal’s Airtel Money targets $9bn IPO in boost for ailing UK stock marketNils Pratley: Does this mark the end of London’s listing drought? Not yetA payments business that operates across Africa and is ultimately controlled by an Indian billionaire has announced its intention to float o",
-          "hotLabel": "",
-          "summary": "印度亿万富翁Sunil Bharti Mittal的Airtel Money计划在伦敦进行90亿美元的IPO。",
-          "analysis": "Airtel Money的IPO可能为英国股市带来提振，尤其是在市场低迷时期。这反映了印度企业在国际市场的活跃度，同时也可能促进非洲支付市场的整合。然而，伦敦股市的复苏可能需要更多类似的大型交易。",
-          "keywords": [
-            "首次公开募股",
-            "伦敦股市",
-            "印度企业",
-            "非洲支付"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/business/2026/sep/23/indian-billionaire-payments-firm-london-flotation-airtel-money"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "87岁老妇被驱逐引发马德里住房抗议",
-          "titleOrig": "Eviction of 87-year-old woman sparks housing protests in Madrid",
-          "url": "https://www.dw.com/en/eviction-of-87-year-old-woman-sparks-housing-protests-in-madrid/a-79399342?maca=en-rss-en-all-1573-rdf",
+          "title": "摩洛哥：中右翼PAM在议会选举中领先",
+          "titleOrig": "Morocco: Center-right PAM leads in parliamentary election",
+          "url": "https://www.dw.com/en/morocco-center-right-pam-leads-in-parliamentary-election/a-79407710?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-09-23T16:58:00+00:00",
-          "desc": "Police escorted Maricarmen Abascal from the apartment she had called home for more than seven decades. The case has reignited debate over Spain's housing crisis, rising rents and protections for long-term tenants.",
+          "publishedAt": "2026-09-24T08:42:00+00:00",
+          "desc": "PAM is part of Morocco's outgoing ruling coalition and was founded by an adviser to the king. The moderate Islamist Justice and Development Party surged amid increasing voter apathy.",
           "hotLabel": "",
-          "summary": "一名87岁的老妇被驱逐出她居住了70多年的公寓，引发马德里住房抗议。",
-          "analysis": "这起驱逐事件反映了西班牙住房危机的严重性，包括租金上涨和长期租户保护不足等问题。这一事件背景是西班牙经济恢复和城市化进程中的住房市场压力。关键影响在于加剧了社会不满和抗议活动，可能促使政府采取措施解决住房危机。后续走向可能包括政府政策的调整和社会矛盾的进一步激化。",
+          "summary": "摩洛哥中右翼政党PAM在议会选举中领先，该党派是现任执政联盟的一部分。",
+          "analysis": "PAM的领先表明摩洛哥政治格局可能发生变化，温和的伊斯兰党派在选民冷漠中崛起。这一结果可能影响摩洛哥国内政策走向，并对地区稳定产生重要影响。",
           "keywords": [
-            "西班牙",
-            "住房危机",
-            "抗议",
-            "租金上涨",
-            "社会矛盾"
+            "摩洛哥",
+            "议会选举",
+            "PAM",
+            "政治格局",
+            "地区稳定"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/eviction-of-87-year-old-woman-sparks-housing-protests-in-madrid/a-79399342?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/morocco-center-right-pam-leads-in-parliamentary-election/a-79407710?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 17
+          "rank": 10
         },
         {
-          "title": "特朗普和平委员会公布24.5亿美元计划，开始加沙重建",
-          "titleOrig": "Trump's Board of Peace unveils $2.45bn plan to begin Gaza's reconstruction",
-          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "德国经济机构将2026年增长预测翻倍",
+          "titleOrig": "Germany: Economic institutes double growth forecast for 2026",
+          "url": "https://www.dw.com/en/germany-economic-institutes-double-growth-forecast-for-2026/a-78168080?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-09-23T21:26:14+00:00",
-          "desc": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
+          "publishedAt": "2026-09-24T08:11:00+00:00",
+          "desc": "Experts predict German GDP will double to 1.3% this year but warn of structural difficulties ahead. The picture is complicated, they say, especially because of uncertainty in the energy sector.",
           "hotLabel": "",
-          "summary": "该计划在纽约联合国大会期间宣布。",
-          "analysis": "特朗普和平委员会提出的重建加沙的计划，反映了美国在中东地区的外交政策。这一计划不仅体现了美国对巴以冲突的关注，也显示了美国在地区事务中的影响力。然而，重建加沙的复杂性和地区各方利益的冲突可能导致计划实施困难。后续可能的发展趋势包括国际社会对计划的响应，以及巴以冲突的进一步发展。",
+          "summary": "专家预测德国GDP今年将增长至1.3%，但警告能源领域不确定性。",
+          "analysis": "德国经济预测的上升反映了经济复苏的迹象，但能源领域的不确定性可能预示着未来经济增长的挑战。这将对德国乃至欧洲的经济稳定性产生重要影响。",
           "keywords": [
-            "加沙重建",
-            "美国外交",
-            "中东局势",
-            "国际援助",
-            "巴以冲突"
+            "德国经济",
+            "GDP增长",
+            "能源不确定性",
+            "经济复苏"
           ],
-          "category": "international",
-          "importance": 70,
+          "category": "economy",
+          "importance": 80,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5979101/federal-judge-hearing-trump-ban-cnn-ms-now-politico"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-economic-institutes-double-growth-forecast-for-2026/a-78168080?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 18
+          "rank": 11
         },
         {
-          "title": "SoFi调查发现72%的美国人愿意放慢财务进步以享受当下生活",
-          "titleOrig": "72% of Americans would slow financial progress to enjoy life now, SoFi survey finds",
-          "url": "https://www.cnbc.com/2026/09/23/lifemaxxing-financial-goals-spending-saving.html",
+          "title": "网络安全初创公司Island在AI攻击推动下融资达到64亿美元",
+          "titleOrig": "Cyber startup Island hits $6.4 billion valuation in new round as AI attacks fuel spending wave",
+          "url": "https://www.cnbc.com/2026/09/24/island-ai-cybersecurity-funding.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-23T13:19:37+00:00",
-          "desc": "SoFi found 72% of Americans are willing to make slower progress on financial goals to prioritize family, travel and meaningful experiences.",
+          "publishedAt": "2026-09-24T10:00:01+00:00",
+          "desc": "Island faces an increasingly competitive cybersecurity market fueled by demand for agentic Ai defenses",
           "hotLabel": "",
-          "summary": "SoFi调查发现多数美国人愿意牺牲财务目标以享受生活。",
-          "analysis": "这一调查结果反映了当前美国社会对生活质量的重视，可能受到经济压力和疫情影响。长期来看，这可能影响美国的经济增长和储蓄率。对家庭和个人而言，这表明了他们对生活质量的追求和对传统储蓄观念的调整。",
+          "summary": "Island公司在新一轮融资中估值达到64亿美元。",
+          "analysis": "Island公司的融资成功反映了市场对网络安全和AI防御解决方案的需求。随着网络攻击的增加，对网络安全公司的投资可能会继续增长。这可能会推动整个行业的创新和发展。",
           "keywords": [
-            "财务目标",
-            "生活质量",
-            "美国经济",
-            "储蓄率"
+            "网络安全",
+            "AI防御",
+            "融资",
+            "网络攻击",
+            "行业创新"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/island-ai-cybersecurity-funding.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "油价大幅上涨，投资者寻求美伊谈判进展",
+          "titleOrig": "Oil prices rise sharply as investors seek progress on U.S.-Iran talks",
+          "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T08:39:42+00:00",
+          "desc": "Oil rose Thursday, as traders assess a report that Asia is on track to import its highest volume of crude oil since the start of the US-Iran war.",
+          "hotLabel": "",
+          "summary": "油价上涨，亚洲预计将进口自美伊战争以来的最高原油量。",
+          "analysis": "油价上涨反映了投资者对美伊紧张局势的担忧。美伊关系的不确定性增加了中东地区的地缘政治风险，这可能导致全球石油供应的不稳定。后续走向可能包括美伊关系的进一步紧张或缓和，以及全球石油市场的供需变化。",
+          "keywords": [
+            "油价上涨",
+            "美伊谈判",
+            "地缘政治风险",
+            "石油供应",
+            "全球市场"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/oil-iran-crude-kepler-trump-us-un-.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "瑞士维持利率在0%不变——目前来看",
+          "titleOrig": "Switzerland is keeping rates at 0% — for now",
+          "url": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T10:15:48+00:00",
+          "desc": "The Swiss National Bank held rates at 0% as low inflation and a strong franc enable it to diverge from other central banks, though markets expect hikes ahead.",
+          "hotLabel": "",
+          "summary": "瑞士央行维持利率在0%，因低通胀和强势法郎使其与其他央行政策不同，但市场预期未来将加息。",
+          "analysis": "瑞士央行维持低利率政策，反映了其国内经济状况与全球其他主要经济体存在差异。低通胀和强势法郎使得瑞士央行有空间采取与其他央行不同的货币政策。这一决策对瑞士国内经济稳定有利，但可能加剧与其他国家货币政策的分歧。未来，若全球经济增长加速，瑞士央行可能跟随加息，对全球经济格局产生影响。",
+          "keywords": [
+            "瑞士央行",
+            "利率政策",
+            "货币政策",
+            "通胀",
+            "法郎"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/swiss-national-bank-interest-rates-inflation.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "德国议会讨论器官捐赠自愿退出机制",
+          "titleOrig": "Germany news: Bundestag to discuss opt-out organ donation",
+          "url": "https://www.dw.com/en/germany-news-bundestag-to-discuss-opt-out-organ-donation/live-79406294?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T08:29:00+00:00",
+          "desc": "Parliamentarians debate whether to change Germany's organ donation scheme amid a lack of supply. They will also consider reforms to expand the power of intelligence agencies. DW has more.",
+          "hotLabel": "",
+          "summary": "德国议会就器官捐赠自愿退出机制进行辩论。",
+          "analysis": "德国器官捐赠短缺问题引发政策讨论，自愿退出机制的考虑可能反映了社会对器官捐赠态度的复杂性。改革智能机构权力的讨论则可能指向国家安全的优先级提升。这些变化可能影响德国国内政治生态和国际医疗合作。",
+          "keywords": [
+            "器官捐赠",
+            "德国议会",
+            "器官短缺",
+            "智能机构权力"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-news-bundestag-to-discuss-opt-out-organ-donation/live-79406294?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "法官解除特朗普对CNN、MS NOW、Politico的禁令",
+          "titleOrig": "Judge lifts Trump ban on CNN, MS NOW, Politico from White House",
+          "url": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T06:22:46+00:00",
+          "desc": "District Judge Tim Kelly said the three outlets should have their access immediately restored from the ban that the president had announced on Sept. 18.",
+          "hotLabel": "",
+          "summary": "法官下令恢复这三家媒体机构的白宫访问权限。",
+          "analysis": "特朗普对媒体的禁令被解除，反映了美国司法体系对言论自由的保护。这一事件可能影响总统与媒体的关系，并可能对总统的政治立场产生间接影响。后续可能引发关于媒体自由和总统权力的更多讨论。",
+          "keywords": [
+            "特朗普",
+            "媒体禁令",
+            "司法体系",
+            "言论自由",
+            "总统权力"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/23/lifemaxxing-financial-goals-spending-saving.html"
+              "url": "https://www.cnbc.com/2026/09/24/judge-lifts-trumps-white-house-ban-on-cnn-ms-now-and-politico.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "迈阿密超豪华住宅市场繁荣，现金交易为主，高端品牌如布加迪和保时捷涌入",
+          "titleOrig": "Miami's ultra-luxury housing market booms as cash transactions dominate, high-end brands like Bugatti and Porsche jump in",
+          "url": "https://www.cnbc.com/2026/09/24/miami-luxury-housing-boom-bugatti-bubble.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T06:19:33+00:00",
+          "desc": "Miami’s ultra-luxury housing segment is booming even as the broader market cools. UBS sees a declining risk of a bubble.",
+          "hotLabel": "",
+          "summary": "尽管整体市场冷却，迈阿密的超豪华住宅市场依然繁荣，瑞银认为泡沫风险下降。",
+          "analysis": "迈阿密超豪华住宅市场的繁荣反映了全球财富分配的不均衡。现金交易为主表明了市场对高端产品的需求强劲。瑞银的评估可能反映了市场对泡沫风险的谨慎态度。后续走向可能包括市场对高端住宅需求的持续，以及潜在的市场调整。",
+          "keywords": [
+            "迈阿密",
+            "超豪华住宅",
+            "现金交易",
+            "高端市场",
+            "泡沫风险"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/miami-luxury-housing-boom-bugatti-bubble.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "13个Bathla工地工人因资金短缺被停工——实时报道",
+          "titleOrig": "Workers on 13 Bathla sites stood down as funding runs out – as it happened",
+          "url": "https://www.theguardian.com/australia-news/live/2026/sep/24/anthony-albanese-un-summit-labor-coalition-ukraine-ntwnfb",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T08:43:17+00:00",
+          "desc": "This blog is now closedGet our breaking news email, free app or daily news podcastMore than 600 Qantas ground crew workers have begun a 24-hour strike this morning across the country over an escalating industrial dispute.Qantas said that it has contingency plans in place and any impacts would be fel",
+          "hotLabel": "",
+          "summary": "超过600名Qantas地勤人员因劳资纠纷开始全国范围内的24小时罢工。",
+          "analysis": "Qantas地勤人员的罢工反映了英国航空业面临的劳资关系紧张。资金短缺可能导致项目停工，对英国航空业和旅游业产生负面影响。未来，若劳资纠纷持续，可能引发更多行业罢工，影响英国经济。",
+          "keywords": [
+            "Qantas",
+            "罢工",
+            "劳资纠纷",
+            "英国航空业",
+            "经济影响"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/live/2026/sep/24/anthony-albanese-un-summit-labor-coalition-ukraine-ntwnfb"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "印度德里附近长途巴士起火致9人死亡",
+          "titleOrig": "India news: 9 killed after bus catches fire outside Delhi",
+          "url": "https://www.dw.com/en/india-news-9-killed-after-bus-catches-fire-outside-delhi/live-79405879?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T07:01:00+00:00",
+          "desc": "At least nine passengers were killed after a sleeper bus caught fire on the Yamuna Expressway in Greater Noida, near India's capital Delhi. DW has more.",
+          "hotLabel": "",
+          "summary": "德里附近的长途巴士起火导致至少9人死亡。",
+          "analysis": "这起悲剧反映了印度交通安全的严峻问题，可能引发对公共交通安全的关注和改革。对印度社会来说，这起事故可能加剧对公共安全的担忧。",
+          "keywords": [
+            "印度交通事故",
+            "长途巴士起火",
+            "公共安全",
+            "交通安全"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/india-news-9-killed-after-bus-catches-fire-outside-delhi/live-79405879?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 19
         },
         {
-          "title": "中国13岁游泳新星引发关于青少年运动员的讨论",
+          "title": "eBay禁止销售安全气囊，因对假冒或缺陷部件的担忧加剧",
+          "titleOrig": "eBay bans airbag sales as concerns about faulty or counterfeit parts rise",
+          "url": "https://www.npr.org/2026/09/24/nx-s1-5978124/ebay-bans-airbags-faulty-counterfeit-auto-parts",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T09:00:00+00:00",
+          "desc": "eBay became the latest online retailer to ban the sale of airbags and many of their components. Aftermarket parts can be risky if they turn out to be fake or defective.",
+          "hotLabel": "",
+          "summary": "eBay成为最新一家禁止销售安全气囊及其组件的在线零售商。",
+          "analysis": "eBay禁止销售安全气囊，凸显了二手市场对假冒和缺陷部件的担忧。这一举措可能促使其他在线零售商采取类似措施，提高消费者对二手产品质量的信心。长期来看，这可能推动汽车零部件行业提高质量标准。",
+          "keywords": [
+            "eBay",
+            "安全气囊",
+            "假冒部件",
+            "二手市场",
+            "质量标准"
+          ],
+          "category": "tech",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/24/nx-s1-5978124/ebay-bans-airbags-faulty-counterfeit-auto-parts"
+            }
+          ],
+          "rank": 20
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "（局势综述生成失败，请稍后刷新）",
+      "totalSelected": 20,
+      "items": [
+        {
+          "title": "第五届全球数字贸易博览会开幕",
+          "titleOrig": "第五届全球数字贸易博览会在浙江杭州启动 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUVsZTgyVEh0MW1VcnBZbWUxM0FGWFFWZm1jM003YWZHdlF4SlVGYUtaX19pZ2VXT1VWZDg1NnpveW91Nm1ZOE9tREx5VEJtS2ZfaV9SNEJ0enJhVVRNOWQ2NTdqODAxSVItMVNtMWh2VkdPWTRnTHF4ZDludkd6bVpiYWFNUQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T08:53:07+00:00",
+          "desc": "第五届全球数字贸易博览会在浙江杭州启动 新华网在数贸会遇见AI未来 t.cj.sina.cn第五届数贸会主题展馆亮点抢先看 央视网解码ROBOT⑨ | 机器人在数贸会唱跳《爱你》 义乌客商一眼看中就下单 浙江新闻探路医学人工智能，浙江建起“医疗Token工厂” 中国网新闻中心",
+          "hotLabel": "",
+          "summary": "第五届全球数字贸易博览会在杭州举行，聚焦AI和医疗Token工厂。",
+          "analysis": "该博览会体现了中国对数字贸易的重视，以及推动人工智能在医疗领域的应用。这背后反映了中国在数字经济领域的战略布局，旨在通过技术创新提升产业竞争力。对国内民生而言，AI在医疗领域的应用有望提高医疗服务质量和效率；对经济而言，数字贸易的推动有助于扩大内需和促进产业升级；后续可能看到更多相关政策出台，以支持数字经济发展。",
+          "keywords": [
+            "数字贸易博览会",
+            "人工智能",
+            "医疗Token工厂",
+            "数字经济",
+            "产业升级"
+          ],
+          "category": "tech",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUVsZTgyVEh0MW1VcnBZbWUxM0FGWFFWZm1jM003YWZHdlF4SlVGYUtaX19pZ2VXT1VWZDg1NnpveW91Nm1ZOE9tREx5VEJtS2ZfaV9SNEJ0enJhVVRNOWQ2NTdqODAxSVItMVNtMWh2VkdPWTRnTHF4ZDludkd6bVpiYWFNUQ?oc=5"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "长八甲火箭成功发射卫星互联网低轨26组卫星",
+          "titleOrig": "长八甲火箭成功发射卫星互联网低轨26组卫星 - 中国科技网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zU1dnR2ZUQzVRTVNndUtENjViNGV3WnFwa2xNdnZuaFlXUzc1WHFJeWo4d1JGOGdhbkFFV1dWYlJ0MHE5WlRoTTFnakZwTnFMa0kzenJDdHNCNDBlTm0yd1J1MTdiTmQzaF9iTmw3MW0?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-23T23:11:20+00:00",
+          "desc": "长八甲火箭成功发射卫星互联网低轨26组卫星 中国科技网我国成功发射卫星互联网低轨26组卫星 凤凰网小米公司：截至2026 年 6 月 30 日止六个月总收入2081 亿人民币，智能手机出货量6500万台，智能电动汽车交付量185055 辆，智能电动汽车及 AI 等创新业务分部收入448 亿人民币。 finance.sina.com.cn米兰柏羽航天观礼主题活动在海南文昌举行 人民网-四川频道第669次发射，长八甲立大功：卫星互联网低轨26组卫星，精准入轨 搜狐网",
+          "hotLabel": "",
+          "summary": "中国成功发射26组低轨卫星，推动卫星互联网发展。",
+          "analysis": "此次发射标志着中国在卫星互联网领域的重大进步，体现了国家推动科技创新和产业升级的政策意图。这对国内经济、尤其是高科技产业具有积极影响，有助于提升国际竞争力。后续可能推动更多卫星发射和相关技术的研究与应用。",
+          "keywords": [
+            "长八甲火箭",
+            "卫星互联网",
+            "科技创新",
+            "产业升级",
+            "国际竞争力"
+          ],
+          "category": "tech",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zU1dnR2ZUQzVRTVNndUtENjViNGV3WnFwa2xNdnZuaFlXUzc1WHFJeWo4d1JGOGdhbkFFV1dWYlJ0MHE5WlRoTTFnakZwTnFMa0kzenJDdHNCNDBlTm0yd1J1MTdiTmQzaF9iTmw3MW0?oc=5"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "中国天眼实现一批原创突破",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "中国天眼望远镜实现一批原创科学突破。",
+          "analysis": "事件背景：中国天眼作为世界最大单口径射电望远镜，其科学成果体现了中国在科技领域的进步。关键影响：有助于提升国家科技实力和国际影响力，推动天文科学的发展。后续走向：预计将带来更多原创科学发现。",
+          "keywords": [
+            "中国天眼",
+            "科学突破",
+            "天文科学",
+            "科技实力",
+            "国际影响力"
+          ],
+          "category": "tech",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E5%A4%A9%E7%9C%BC%E5%AE%9E%E7%8E%B0%E4%B8%80%E6%89%B9%E5%8E%9F%E5%88%9B%E7%AA%81%E7%A0%B4%23&t=31&band_rank=3&Refer=top"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/23/trump-xi-chinese-automakers-us-access.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "中美贸易休战延长两个月，习近平开始国事访问",
+          "titleOrig": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
+          "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T04:55:59+00:00",
+          "desc": "The deal, which was set to expire in November, will now be extended to Jan. 10, Bessent said, noting the need for Beijing to fulfill more deliverables.",
+          "hotLabel": "",
+          "summary": "中美贸易休战延长至2020年1月10日，北京需履行更多承诺。",
+          "analysis": "此次贸易休战延长反映了中美双方在贸易问题上的博弈仍在继续。背景是中国政府为推动经济转型和高质量发展，以及美国在贸易战中寻求自身利益最大化。延长休战期意味着双方有更多时间来达成协议，但同时也增加了不确定性。对国内民生而言，若贸易战持续，可能影响就业和消费者信心；对经济而言，可能影响出口和投资；后续走向取决于双方能否在关键问题上达成共识。",
+          "keywords": [
+            "中美贸易战",
+            "休战延长",
+            "习近平国事访问",
+            "经济转型",
+            "政策博弈"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/trump-welcomes-china-s-xi-for-high-stakes-summit/live-79404511?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "中美在AI领域竞争",
+          "titleOrig": "Trump and Xi come face-to-face as US and China jostle for dominance over AI",
+          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-23T22:01:17+00:00",
+          "desc": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
+          "hotLabel": "",
+          "summary": "中美在人工智能领域竞争，寻求保持人类对AI的控制。",
+          "analysis": "中美在AI领域的竞争反映了全球科技竞争的新趋势。这对中国而言，既是挑战也是机遇。中国需要加强AI领域的研发和创新，以保持国际竞争力。对全球而言，中美在AI领域的竞争可能影响全球科技发展和国际关系。后续可能看到中美在AI领域的合作与竞争更加激烈。",
+          "keywords": [
+            "中美竞争",
+            "人工智能",
+            "科技竞争",
+            "国际关系",
+            "全球科技发展"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "中国当局在香港发现F-35组件",
+          "titleOrig": "Chinese authorities reportedly in possession of F-35 components in Hong Kong",
+          "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T01:16:34+00:00",
+          "desc": "Shipping giant UPS was sending a cockpit canopy and weapons bay door to the U.S. from Australia in late May when it was diverted to Hong Kong.",
+          "hotLabel": "",
+          "summary": "UPS公司将F-35组件从澳大利亚运往美国途中被转至香港。",
+          "analysis": "此次事件可能反映了中美在军事技术领域的竞争加剧。中国对F-35组件的掌握可能意在提升自身国防实力，并可能引发国际社会的关注和反应。对国内而言，这可能强化了对高科技自主发展的重视，对经济和治理层面的影响尚需观察。后续可能包括外交交涉、技术封锁或反制措施等。",
+          "keywords": [
+            "F-35",
+            "中国",
+            "军事技术",
+            "香港",
+            "UPS"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/23/trump-xi-chinese-automakers-us-access.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/business/2026/sep/24/eu-sales-chinese-hybrid-cars-rocket"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "特朗普欢迎习近平访美举行高规格峰会",
+          "titleOrig": "Trump welcomes China's Xi for high-stakes summit",
+          "url": "https://www.dw.com/en/trump-welcomes-china-s-xi-for-high-stakes-summit/live-79404511?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-09-23T22:49:00+00:00",
+          "desc": "Donald Trump welcomed Xi Jinping to the US by greeting him personally on the tarmac at Joint Base Andrews. The two are expected to discuss trade, AI, Taiwan and Iran during a three-day state visit.",
+          "hotLabel": "",
+          "summary": "特朗普在安德鲁斯联合基地亲自迎接习近平，双方将就贸易、人工智能、台湾和伊朗问题进行三天国事访问。",
+          "analysis": "此次会晤是在中美关系紧张背景下进行的，反映了特朗普政府试图通过对话解决分歧的政策意图。双方在贸易、技术、地区安全等领域的分歧可能成为讨论的重点，对中美关系及全球经济产生重要影响。会晤结果将对两国乃至全球的民生、经济政策和国际治理产生深远影响。后续走向取决于双方能否达成共识，以及两国政策如何调整。",
+          "keywords": [
+            "特朗普",
+            "习近平",
+            "中美关系",
+            "贸易",
+            "人工智能"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/trump-welcomes-china-s-xi-for-high-stakes-summit/live-79404511?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/24/china-confirms-first-ai-talks-with-us-have-taken-place-hints-at-trade-truce-extension.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/who-is-skipping-the-un-general-assembly-and-why/a-79391652?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "13岁游泳新星引发关于青少年运动员的讨论",
           "titleOrig": "China's 13-year-old swimming star raises questions on child athletes",
           "url": "https://www.dw.com/en/china-s-13-year-old-swimming-star-raises-questions-on-child-athletes/a-79394183?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
@@ -726,567 +1042,24 @@
           "publishedAt": "2026-09-23T14:07:00+00:00",
           "desc": "Three gold medals and three Asian Games records have catapulted China's Yu Zidi, 13, into the sporting spotlight. She is far from the first teen prodigy, but should teens be competing at elite level?",
           "hotLabel": "",
-          "summary": "中国13岁游泳新星于子洋获得三枚金牌和三项亚洲运动会纪录，引发关于青少年运动员的讨论。",
-          "analysis": "于子洋的成功引发了关于青少年运动员在精英级别竞赛中参赛的合理性的讨论。这一事件背景是体育竞技的年轻化趋势。关键影响在于对青少年运动员的身心健康和长期发展提出了质疑。后续走向可能包括对青少年运动员培养体系的反思和调整。",
+          "summary": "13岁中国游泳新星 Yu Zidi 获得三金三亚洲纪录，引发关于青少年运动员竞技水平的讨论。",
+          "analysis": "事件背景：近年来，中国体育界对青少年运动员的培养投入巨大，旨在提升国家体育水平。Yu Zidi 的成就体现了政策意图，即通过培养青少年运动员来推动体育事业的发展。关键影响：一方面，这体现了中国体育事业的进步，另一方面，也引发了对青少年运动员身心健康和成长环境的关注。后续走向：未来政策可能会更加注重青少年运动员的全面发展，而非单纯追求竞技成绩。",
           "keywords": [
-            "中国",
-            "游泳",
             "青少年运动员",
-            "竞技体育",
-            "人才培养"
+            "体育政策",
+            "Yu Zidi",
+            "游泳",
+            "中国体育"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 85,
           "sources": [
             {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/china-s-13-year-old-swimming-star-raises-questions-on-child-athletes/a-79394183?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，政策与社会动向呈现出多方面的发展脉络。在政治领域，中央纪委国家监委通报违反中央八项规定精神典型问题，体现了对党风廉政建设的持续关注。经济方面，美联储加息预期与我国央行逆回购操作交织，反映国内外经济形势的复杂性。科技领域，长八甲火箭成功发射和西安国际虚拟现实电影周的举办，彰显我国在航天和虚拟现实技术方面的进步。社会层面，民政部推动养老服务法制定，丰收节活动助力农户增收，显示社会事业的发展。国际关系方面，中美贸易休战延长，习近平国事访问美国，以及伊朗航司无视美国制裁等事件，体现了我国在国际舞台上的活跃与坚定立场。总体来看，当前国内形势复杂多变，但政策导向明确，社会稳定，经济持续发展。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "中央纪委国家监委通报违反中央八项规定精神典型问题",
-          "titleOrig": "中央纪委国家监委公开通报六起违反中央八项规定精神典型问题 - 中国青年网",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CaVR2dXY5aURGbHhIaWVnSm9tTVExMDZyblB3Wnhhb3JjZkotYXV6ZUFuN2JJRlptdWs4ZXFUWjJqazk5OUZ4WURzYmN4WXdLNzhJcVhnS3pBSVRTTmkxeHI4cTA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T22:32:00+00:00",
-          "desc": "中央纪委国家监委公开通报六起违反中央八项规定精神典型问题 中国青年网广东省纪委监委公开通报8起违反中央八项规定精神典型问题 finance.sina.com.cn中央纪委国家监委公开通报 搜狐网因违规收受礼品等问题，安徽4名干部被处分 finance.sina.com.cn宜春市通报7起违反中央八项规定精神典型问题 凤凰网",
-          "hotLabel": "",
-          "summary": "中央纪委国家监委公开通报违反中央八项规定精神典型问题，涉及违规收受礼品等。",
-          "analysis": "这一通报体现了中央对于党风廉政建设和反腐败工作的持续高压态势。中央八项规定自2012年提出以来，一直是反腐败工作的重要抓手。此次通报的典型问题，旨在警示党员干部严守纪律，加强作风建设。对国内民生而言，这有助于提升政府形象，增强民众对反腐工作的信心。对经济和治理意味着，持续的反腐工作有助于优化营商环境，促进经济健康发展。后续走向可能包括对违反规定者的进一步处理，以及相关政策的完善。",
-          "keywords": [
-            "中央纪委",
-            "八项规定",
-            "反腐败",
-            "作风建设",
-            "党风廉政"
-          ],
-          "category": "society",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5CaVR2dXY5aURGbHhIaWVnSm9tTVExMDZyblB3Wnhhb3JjZkotYXV6ZUFuN2JJRlptdWs4ZXFUWjJqazk5OUZ4WURzYmN4WXdLNzhJcVhnS3pBSVRTTmkxeHI4cTA?oc=5"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "美联储理事巴尔：或需进一步加息以应对通胀风险",
-          "titleOrig": "美联储理事巴尔：或需进一步加息以应对通胀风险 - 21财经",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFo2S2xzRk1SODBPN3RnOGowVHQtY0pFOEk1ZUxSZVFTeVhlcXhRa09XNnRBUkRROHJzdlB0X193SldXSng4TkN5N05JbjlpX1dHbGZkWHlTNW90QUlVLURuN3MtZTNIc0ZMaWg4bkNNUjFxWXpDR002MEQ5OXRLWENlQ2lpRF9CNzhHcQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T00:18:08+00:00",
-          "desc": "美联储理事巴尔：或需进一步加息以应对通胀风险 21财经美联储理事巴尔：可能需要进一步加息以确保通胀回归目标水平 finance.sina.com.cn风险拉响，美联储，加息大消息 凤凰网柯林斯支持加息后发出警告：通胀或将显著走高 搜狐网美国通胀回不去了吗 供给冲击不容忽视 news.china.com",
-          "hotLabel": "",
-          "summary": "美联储理事巴尔表示可能进一步加息。",
-          "analysis": "美联储加息是为了应对通胀风险，这将对全球经济产生重要影响。对中国而言，美联储加息可能导致资本外流和人民币贬值压力，对国内经济和金融市场带来挑战。后续走向将取决于美国通胀的实际情况以及美联储的货币政策调整。",
-          "keywords": [
-            "美联储加息",
-            "通胀风险",
-            "货币政策",
-            "资本外流",
-            "人民币贬值"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNZFo2S2xzRk1SODBPN3RnOGowVHQtY0pFOEk1ZUxSZVFTeVhlcXhRa09XNnRBUkRROHJzdlB0X193SldXSng4TkN5N05JbjlpX1dHbGZkWHlTNW90QUlVLURuN3MtZTNIc0ZMaWg4bkNNUjFxWXpDR002MEQ5OXRLWENlQ2lpRF9CNzhHcQ?oc=5"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "伊朗总统联大演讲强调绝不投降",
-          "titleOrig": "佩泽希齐扬联合国大会致辞 强调伊朗绝不投降 - 中国评论",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZUd0T0ROSl83dzdnYWROX0JoSGw0VzY0eFVTaUQtMkxzWVlmQWpUWFM2c1JjX19FWmM5cktYbEcydW9NOUEzT2hxb3FnbFBveVBoWXdWN1g?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T17:07:54+00:00",
-          "desc": "佩泽希齐扬联合国大会致辞 强调伊朗绝不投降 中国评论这是今年联大最悲愤的一次演讲 凤凰网伊朗总统联大演讲誓言“永不屈膝投降” 新华网伊朗总统：伊朗需要的是核能而非核弹。 finance.sina.com.cn伊朗总统联大讲话：愿谈判但不接受强权威胁，霍尔木兹不能被“自由使用” 华尔街见闻",
-          "hotLabel": "",
-          "summary": "伊朗总统在联大演讲中强调伊朗绝不向国际压力屈服。",
-          "analysis": "这反映了当前国际政治格局中的地区冲突和地缘政治竞争。伊朗总统的演讲体现了国家在面临外部压力时的坚定立场，对国际关系和地区安全产生影响。对国际事件而言，这可能导致地区紧张局势的加剧；对国内民生而言，可能影响国内政治稳定和经济发展；对治理而言，国际社会可能需要寻求和平解决冲突的途径。",
-          "keywords": [
-            "伊朗",
-            "联合国大会",
-            "国际关系",
-            "地缘政治",
-            "伊朗核问题"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE8tZUd0T0ROSl83dzdnYWROX0JoSGw0VzY0eFVTaUQtMkxzWVlmQWpUWFM2c1JjX19FWmM5cktYbEcydW9NOUEzT2hxb3FnbFBveVBoWXdWN1g?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "美国-中国贸易休战延长两个月，贝塞特表示，随着习近平开始国事访问",
-          "titleOrig": "U.S.-China trade truce extended for two months, Bessent says, as Xi begins state visit",
-          "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T01:53:10+00:00",
-          "desc": "The deal, which was set to expire in November, will now be extended to Jan. 10, Bessent said, noting the need for Beijing to fulfill more deliverables.",
-          "hotLabel": "",
-          "summary": "原定于11月到期的协议将延长至1月10日，贝塞特表示，北京需要履行更多承诺。",
-          "analysis": "美中贸易休战的延长表明双方在贸易问题上寻求更多时间来达成更全面的协议。这一举措有助于缓解市场对贸易战升级的担忧，但也暗示了双方在贸易谈判中的复杂性和对进一步承诺的需求。后续可能的发展趋势包括美中双方在贸易问题上的进一步谈判，以及全球经济对贸易局势的反应。",
-          "keywords": [
-            "美中贸易",
-            "贸易休战",
-            "经济谈判",
-            "习近平访问",
-            "全球经济"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "长八甲火箭成功发射26组卫星互联网低轨卫星",
-          "titleOrig": "长八甲火箭成功发射卫星互联网低轨26组卫星 - 中国科技网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zU1dnR2ZUQzVRTVNndUtENjViNGV3WnFwa2xNdnZuaFlXUzc1WHFJeWo4d1JGOGdhbkFFV1dWYlJ0MHE5WlRoTTFnakZwTnFMa0kzenJDdHNCNDBlTm0yd1J1MTdiTmQzaF9iTmw3MW0?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T23:11:20+00:00",
-          "desc": "长八甲火箭成功发射卫星互联网低轨26组卫星 中国科技网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "我国长八甲火箭成功发射26颗低轨卫星，推动卫星互联网建设。",
-          "analysis": "此次发射标志着我国卫星互联网建设迈出重要步伐，体现了我国在航天领域的科技实力。政策意图在于推动我国卫星互联网产业发展，满足国家战略需求。对国内民生意味着互联网覆盖范围扩大，经济上有利于促进卫星互联网产业链发展，治理上有助于提升国家空间信息基础设施水平。后续可能进一步推动卫星互联网的商业化应用和国际合作。",
-          "keywords": [
-            "长八甲火箭",
-            "卫星互联网",
-            "低轨卫星",
-            "航天科技",
-            "国家战略"
-          ],
-          "category": "tech",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8zU1dnR2ZUQzVRTVNndUtENjViNGV3WnFwa2xNdnZuaFlXUzc1WHFJeWo4d1JGOGdhbkFFV1dWYlJ0MHE5WlRoTTFnakZwTnFMa0kzenJDdHNCNDBlTm0yd1J1MTdiTmQzaF9iTmw3MW0?oc=5"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "民政部：十五五时期将推动制定养老服务法",
-          "titleOrig": "民政部：“十五五”时期将推动制定养老服务法 - 中国青年网",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ScHpFRGlBelA2d2pJU0FfR1hGY3lzQTU5NUxyNFZJS3pGXzdZSEtIa2k1T0JmV1Fmc05JTkJxT1JTbm1lT2Q4VUFEbnJCRkZzUXlmdjY5SFIwankyR08wZGpyMUI?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T22:08:00+00:00",
-          "desc": "民政部：“十五五”时期将推动制定养老服务法 中国青年网以满足人民美好生活需要为目标——国新办发布会聚焦“十五五”时期民政事业高质量发展 新华网“养老机构有铁的规矩了”，民政部谈失能失智老年人照护 finance.sina.com.cn界面晚报 | 前8个月省际间贸易额保持增长；“十五五”时期民政部将推动制定养老服务法 jiemian.com5300多万名老年人享受老年人补贴 养老服务水平持续提升 news.china.com",
-          "hotLabel": "",
-          "summary": "民政部计划在十五五时期推动养老服务法制定，提升养老服务水平。",
-          "analysis": "背景：随着中国人口老龄化加剧，养老服务需求日益增长，现有政策法规难以满足需求。此举旨在通过立法保障老年人权益，提升养老服务质量和效率。关键影响：对国内民生，意味着老年人权益将得到法律保障，养老服务体系将更加完善；对经济，有助于推动养老服务产业发展，促进消费升级；对治理，体现了政府以人民为中心的发展思想，提升社会治理水平。后续走向：预计养老服务法将推动养老服务行业规范化发展，提高养老服务质量，并可能带动相关产业链的发展。",
-          "keywords": [
-            "养老服务法",
-            "老龄化",
-            "民政部",
-            "养老服务",
-            "社会治理"
-          ],
-          "category": "society",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5ScHpFRGlBelA2d2pJU0FfR1hGY3lzQTU5NUxyNFZJS3pGXzdZSEtIa2k1T0JmV1Fmc05JTkJxT1JTbm1lT2Q4VUFEbnJCRkZzUXlmdjY5SFIwankyR08wZGpyMUI?oc=5"
-            },
-            {
-              "name": "百度热搜",
-              "url": "https://www.baidu.com/s?wd=%E2%80%9C%E5%8D%81%E4%BA%94%E4%BA%94%E2%80%9D%E6%97%B6%E6%9C%9F%E5%B0%86%E6%8E%A8%E5%8A%A8%E5%88%B6%E5%AE%9A%E5%85%BB%E8%80%81%E6%9C%8D%E5%8A%A1%E6%B3%95"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "美伊纽约会晤能否吹散霍尔木兹海峡“迷雾”？",
-          "titleOrig": "美伊纽约会晤 可否吹散霍尔木兹海峡“迷雾”？ - 中国经济网",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zZnJfR1ZTWnRmb21icnFhRk40Rm1EXzZwcVl1Y01CSTJLU2VZZFNiTXJPenZqZXFnblNpNjhNa29xZ2xzbGtfQXYzMTk0d2NNeUwzc1h1VVJKT0tYT2czb3A3SQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T23:11:00+00:00",
-          "desc": "美伊纽约会晤 可否吹散霍尔木兹海峡“迷雾”？ 中国经济网伊朗外长与美特使在纽约会晤 特朗普：美伊代表会谈“非常有建设性” eastmoney.com特朗普在联大发言 预测美伊或在中期选举后达成协议 光明网特朗普联大发言引起部分代表离场 秘书长暗批其做法助长霸权倾向 finance.sina.com.cn特朗普总统：美国和伊朗官员在纽约进行了三小时的会谈 美国之音",
-          "hotLabel": "",
-          "summary": "美伊纽约会晤，特朗普称会谈有建设性。",
-          "analysis": "此次美伊纽约会晤是在霍尔木兹海峡紧张局势背景下进行的，反映了美国对伊朗政策的调整意图。会晤可能有助于缓解地区紧张局势，但霍尔木兹海峡的“迷雾”能否完全吹散，取决于双方后续的谈判成果和地区政治动态。对国内而言，这体现了中国在国际事务中的斡旋作用，对维护地区和平稳定具有重要意义。后续走向将取决于美伊双方的谈判进展以及中东地区的政治局势。",
-          "keywords": [
-            "美伊会晤",
-            "霍尔木兹海峡",
-            "地区安全",
-            "美国政策",
-            "中东局势"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5zZnJfR1ZTWnRmb21icnFhRk40Rm1EXzZwcVl1Y01CSTJLU2VZZFNiTXJPenZqZXFnblNpNjhNa29xZ2xzbGtfQXYzMTk0d2NNeUwzc1h1VVJKT0tYT2czb3A3SQ?oc=5"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "特朗普与习近平会晤，AI超级大国雄心成为焦点",
-          "titleOrig": "AI superpower ambitions take centre stage as Trump and Xi meet",
-          "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-23T22:01:17+00:00",
-          "desc": "The US and China are vying for AI supremacy while seeking to keep it under human control.",
-          "hotLabel": "",
-          "summary": "美中两国在寻求将人工智能控制在人类手中的同时，争夺AI霸权。",
-          "analysis": "随着人工智能技术的发展，美中两国在AI领域的竞争日益激烈。此次会晤中，双方均表达了在AI领域的雄心，但同时也强调了人工智能应受到人类控制的重要性。这一事件反映了当前国际科技竞争的激烈程度，以及大国在科技领域争夺领导权的趋势。后续可能的发展趋势包括两国在AI领域的合作与竞争加剧，以及全球科技治理规则的重新制定。",
-          "keywords": [
-            "人工智能",
-            "美中关系",
-            "科技竞争",
-            "国际格局",
-            "领导权"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978691/from-cybersecurity-to-ai-what-at-stake-in-trumps-meeting-with-and-president-xiwhy-the-us-and-china-are-at-a-precarious-moment-in-their-relationship"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "杭州“科技新特产”亮相数贸会",
-          "titleOrig": "杭州“科技新特产”亮相数贸会 - hznews.hangzhou.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDBaRWRwS0xfOEp1YVl3OE54NEZVVmVKOUY4VDN5aFpSbWNWNGRlalVkNzNyU2c1NUVHUGV6VS1IT0JYeXZvdnhVbmNVR1pMcVg2MjY3Nk82T1NBTlgyQUl0SWRYUzBZck9va3U4ZHFOSkpYdzBkeWptM1NrSU9zVnh3?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T22:45:00+00:00",
-          "desc": "杭州“科技新特产”亮相数贸会 hznews.hangzhou.com.cn新内容结合新模式 数字消费进入“AI主战场” finance.sina.com.cn聚焦三大维度 浙江产教协同共育数字贸易人才 搜狐网第五届数贸会主题展馆亮点抢先看 央视网农行浙江分行科技金融创新成果亮相第五届数贸会 人民网",
-          "hotLabel": "",
-          "summary": "杭州数贸会展示科技新内容和新模式。",
-          "analysis": "杭州数贸会的举办体现了中国对数字经济发展的重视。科技新特产的亮相，标志着数字消费进入“AI主战场”，预示着数字贸易将成为未来经济发展的重要驱动力。对国内民生和经济意味着消费升级和产业升级，对治理意味着需要加强数字基础设施建设，提升数字治理能力。后续走向将取决于数字贸易政策的完善和数字经济的实际应用。",
-          "keywords": [
-            "数贸会",
-            "科技新特产",
-            "数字消费",
-            "数字经济",
-            "产业升级"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWDBaRWRwS0xfOEp1YVl3OE54NEZVVmVKOUY4VDN5aFpSbWNWNGRlalVkNzNyU2c1NUVHUGV6VS1IT0JYeXZvdnhVbmNVR1pMcVg2MjY3Nk82T1NBTlgyQUl0SWRYUzBZck9va3U4ZHFOSkpYdzBkeWptM1NrSU9zVnh3?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "丰收节供销力量助力农户增产增收",
-          "titleOrig": "丰收节里，供销力量助力农户增产又增收 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWnp6U1JCcE5SN1VVak9Ba2J3TU9wTVBYNlJFX1VtbU0wdU1rNzZxLWRXd2tkTENmc1o4dlRWbHpvTjVORi1MWng0cG5iM0ZNZFJzOGtxV0FncXoyLUFNa1J0R3Fmbl9qZXVSdFRWMjUtV1JFZnlFUmF4LXlQaVFRczNLZw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T16:08:50+00:00",
-          "desc": "丰收节里，供销力量助力农户增产又增收 新华网陈永奇在南昌调研：奋力夺取农业丰产丰收 扎实推进乡村全面振兴 凤凰网田间丰收更要农民增收 finance.sina.com.cn习近平向全国广大农民和工作在“三农”战线上的同志们致以节日祝贺和诚挚问候 央视网【央视快评】努力让广大农民生活更加幸福美好- 中国日报网 China Daily",
-          "hotLabel": "",
-          "summary": "丰收节期间，供销社力量支持农户增产增收，助力乡村振兴。",
-          "analysis": "此举体现了国家对农业现代化和乡村振兴战略的重视。通过供销社的力量，国家旨在提高农业效率和农民收入，促进农村经济发展。这对国内民生意味着保障粮食安全，提高农民生活水平；对经济而言，有助于稳定农产品市场，促进农村产业结构调整；对治理而言，有助于实现城乡一体化发展。后续可能继续加强供销社在农业支持中的作用，推动农业现代化。",
-          "keywords": [
-            "丰收节",
-            "供销社",
-            "农业现代化",
-            "乡村振兴",
-            "农民收入"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWnp6U1JCcE5SN1VVak9Ba2J3TU9wTVBYNlJFX1VtbU0wdU1rNzZxLWRXd2tkTENmc1o4dlRWbHpvTjVORi1MWng0cG5iM0ZNZFJzOGtxV0FncXoyLUFNa1J0R3Fmbl9qZXVSdFRWMjUtV1JFZnlFUmF4LXlQaVFRczNLZw?oc=5"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "中秋国庆假期全国铁路预计发送旅客2.84亿人次",
-          "titleOrig": "全国铁路中秋国庆假期预计发送旅客2.84亿人次 - cn.chinadaily.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PdTlZRVRxY0gwX3hrczI4Q0o4UFBReWhIUk9sVkhmeFlJN3dVZ2MydDJXZE5EcHVqeGJteTlySTVybXlfdm91amxnSHlfbHZwVjdrdlREU0l4OU5hOFZlaVhhQnZyLWsySV9lMVNXemNEQWRxVVR6T2RQanM?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T12:05:05+00:00",
-          "desc": "全国铁路中秋国庆假期预计发送旅客2.84亿人次 cn.chinadaily.com.cn铁路国庆中秋假期运输启动 国铁北京局预计发送旅客超2200万人次 finance.sina.com.cn中秋国庆假期出行热度攀升：交通运力加码服务升温 保障双节出行 央视网高铁票价节前涨跌分化：5万公里路网推动一车一价与收益管理 huxiu.com16天超长双节运输启幕，成都东站“诗会+坝坝电影”陪旅客过节 搜狐网",
-          "hotLabel": "",
-          "summary": "中秋国庆假期全国铁路预计发送旅客2.84亿人次，出行需求旺盛。",
-          "analysis": "此次铁路运输启动反映了国家对于节假日旅游市场的重视，以及推动国内旅游消费的政策意图。随着经济的持续增长和居民消费水平的提升，节假日出行需求逐年增加，铁路作为大众交通工具，其运力加码和服务升温对于保障民众出行具有重要意义。此外，高铁票价的涨跌分化以及路网的一车一价与收益管理，体现了铁路运输的市场化改革和效率提升。后续可能继续加强铁路基础设施建设，提升运输能力和服务质量。",
-          "keywords": [
-            "铁路运输",
-            "节假日出行",
-            "旅游消费",
-            "市场化改革",
-            "铁路建设"
-          ],
-          "category": "domestic",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1PdTlZRVRxY0gwX3hrczI4Q0o4UFBReWhIUk9sVkhmeFlJN3dVZ2MydDJXZE5EcHVqeGJteTlySTVybXlfdm91amxnSHlfbHZwVjdrdlREU0l4OU5hOFZlaVhhQnZyLWsySV9lMVNXemNEQWRxVVR6T2RQanM?oc=5"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "2026年中国农民丰收节杭州主场活动在富阳举行",
-          "titleOrig": "2026年中国农民丰收节杭州主场活动在富阳举行 - hznews.hangzhou.com.cn",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU1A2dlRaVEVEWEx0VUt0YVpoNG9icl91SmR4Uzh5ODJOVTY4OWxWMDlsOG1JaUlGdEtnd29mcVM2WWtGYmpMNUlaVi1aVGhPRzU5RXJoUEFoOGFjRjRCbWhEcDItcm52Z0hyVGJ5R0syQk15by1HZ2F3MW9MYS0ySjVyeTE?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T22:52:00+00:00",
-          "desc": "2026年中国农民丰收节杭州主场活动在富阳举行 hznews.hangzhou.com.cn刘国中出席2026年中国农民丰收节全国主场活动 finance.sina.com.cn欢庆丰收 中国经济网经济大省挑大梁丨沃野耕耘，新局自开 cn.chinadaily.com.cn赴山海之约，看农趣赏非遗品鲜果 搜狐网",
-          "hotLabel": "",
-          "summary": "2026年中国农民丰收节杭州主场活动在富阳举行，刘国中出席活动。",
-          "analysis": "农民丰收节是展示中国农业成就和农民生活改善的重要节日。杭州作为主场，体现了对农业发展的重视。这一活动有助于提升农民的获得感和幸福感，促进农村经济发展。对国内民生意味着，这有助于缩小城乡差距，提高农民生活水平。对经济和治理意味着，这有助于推动农业现代化，实现乡村振兴。后续走向可能包括更多农业扶持政策的出台。",
-          "keywords": [
-            "农民丰收节",
-            "农业发展",
-            "乡村振兴",
-            "农民生活",
-            "杭州主场"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNU1A2dlRaVEVEWEx0VUt0YVpoNG9icl91SmR4Uzh5ODJOVTY4OWxWMDlsOG1JaUlGdEtnd29mcVM2WWtGYmpMNUlaVi1aVGhPRzU5RXJoUEFoOGFjRjRCbWhEcDItcm52Z0hyVGJ5R0syQk15by1HZ2F3MW9MYS0ySjVyeTE?oc=5"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978691/from-cybersecurity-to-ai-what-at-stake-in-trumps-meeting-with-and-president-xiwhy-the-us-and-china-are-at-a-precarious-moment-in-their-relationship"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/india-apple-iphone-samsung-chinese-smartphones.html"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "从“黄土地”到“新大陆”：看西安电影的“向新之路”——2026西安国际虚拟现实电影周观察",
-          "titleOrig": "从“黄土地”到“新大陆”：看西安电影的“向新之路”——2026西安国际虚拟现实电影周观察 - 搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeE04VzdTeV8zT0czSEx3dGRVVExBbmQtdnhFZ1FpZFZiTGVzWTBERXBDTEJKYVZJdXpaV0xSTmdFclVCbkN4Rk95T2ZYMmNIOHk3YTRXSkVwcjNMdWFOakhTMWp4NWVwamxZSFNaUlVHZU9DMzJzYkFXd3Rwak5BM09vN082d09UZTBVRQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T01:15:00+00:00",
-          "desc": "从“黄土地”到“新大陆”：看西安电影的“向新之路”——2026西安国际虚拟现实电影周观察 搜狐网第十三届丝绸之路国际电影节在西安闭幕 “金丝路奖”揭晓 央视网“有福电影”亮相第十三届丝绸之路国际电影节 “福建电影展示馆”在西安开馆 finance.sina.com.cn丝路电影市场内容推介会在西安举行 搜狐网依托山海资源携手两岸影人 “有福电影·丝路闽陕”推介会举办 搜狐网",
-          "hotLabel": "",
-          "summary": "西安国际虚拟现实电影周展现电影产业新趋势。",
-          "analysis": "西安国际虚拟现实电影周的举办，标志着中国电影产业向虚拟现实等新技术领域拓展。这对国内电影产业意味着技术创新和产业升级，对治理意味着需要推动文化产业的数字化转型。后续走向将取决于虚拟现实技术的成熟度和市场接受度。",
-          "keywords": [
-            "西安国际虚拟现实电影周",
-            "电影产业",
-            "技术创新",
-            "产业升级",
-            "文化产业"
-          ],
-          "category": "tech",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQeE04VzdTeV8zT0czSEx3dGRVVExBbmQtdnhFZ1FpZFZiTGVzWTBERXBDTEJKYVZJdXpaV0xSTmdFclVCbkN4Rk95T2ZYMmNIOHk3YTRXSkVwcjNMdWFOakhTMWp4NWVwamxZSFNaUlVHZU9DMzJzYkFXd3Rwak5BM09vN082d09UZTBVRQ?oc=5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "世赛新增7个赛项，折射未来技能新趋势",
-          "titleOrig": "新华鲜报丨新增7个赛项，世赛折射未来技能新趋势 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPMVM4ZmJFYkxHenE4aHVFZDhsbWFqaFk0TnlpcjgySGVpQnExaDU4YUk3dTJDZ08wTGtNSHZrQWY5cHlOTzNIUnJkVzFoLXlGVWlJc2dRWGJUNUM0ank0YzNHcXlBbDN0aktNcURPeG1teDYwNlFSMjJiT1J3Zw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T15:44:51+00:00",
-          "desc": "新华鲜报丨新增7个赛项，世赛折射未来技能新趋势 新华网“AI味”最浓的一届世赛，传递出什么信号？ 聚焦世赛|第48届世界技能大赛|上观新闻|上海市|安防|选手_手机新浪网 finance.sina.com.cn【央视快评】鼓励引导更多劳动者特别是青年人走技能成才之路 央视网新增7个赛项，世赛折射未来技能新趋势 中国经济网学习进行时丨习近平总书记关心技能人才培养的故事 新华网",
-          "hotLabel": "",
-          "summary": "第48届世界技能大赛新增7个赛项，展示未来技能发展趋势。",
-          "analysis": "新增赛项反映了技能教育和培训领域的最新发展，体现了国家对技能人才培养的重视。这将对国内职业教育和技能培训产生积极影响，有助于提高劳动者的技能水平，推动产业升级。对经济而言，有助于培养更多高素质技术技能人才；对民生而言，提高就业质量和收入水平；对治理而言，有助于促进就业结构调整。后续可能继续推动技能教育和培训改革，适应产业升级需求。",
-          "keywords": [
-            "世界技能大赛",
-            "技能教育",
-            "人才培养",
-            "产业升级",
-            "职业教育"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBPMVM4ZmJFYkxHenE4aHVFZDhsbWFqaFk0TnlpcjgySGVpQnExaDU4YUk3dTJDZ08wTGtNSHZrQWY5cHlOTzNIUnJkVzFoLXlGVWlJc2dRWGJUNUM0ank0YzNHcXlBbDN0aktNcURPeG1teDYwNlFSMjJiT1J3Zw?oc=5"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "央行将开展隔夜逆回购操作",
-          "titleOrig": "央行将开展隔夜逆回购操作 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSXlkc05WQVVBQVdIeThBdXNNY0I3RUJOQUl3d3k2LXZXSXlrSDhPU0NXSTVFUzMySnFkbFh0MHAwVzlVRGZGWmNraEw3S2hKRDByNjdZZldnUmxVUS1GRWtLUXdqQ1VwRFgxbTFYdW5PLWV4MDQ0ZWRqdXZyRXdCNzNB?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-23T13:09:48+00:00",
-          "desc": "央行将开展隔夜逆回购操作 新华网央行将开展隔夜逆回购操作 每日操作上限升至10000亿元 平稳呵护跨季长假的资金波动 finance.sina.com.cn央行加码流动性投放呵护节前资金面 thepaper.cn央行：为更好匹配银行体系短期流动性需求，中国人民银行将在9月28日至10月8日开展隔夜逆回购操作，采用固定利率、数量招标，每日操作量不超过10000亿元。 金融界央行预告：将开展两项操作 搜狐网",
-          "hotLabel": "",
-          "summary": "央行将开展隔夜逆回购操作，释放流动性，稳定资金面。",
-          "analysis": "央行开展隔夜逆回购操作，旨在为跨季长假期间的资金波动提供稳定支持。此举体现了央行对于金融市场稳定的重视，以及对银行体系短期流动性需求的关注。通过增加流动性投放，有助于缓解市场资金紧张，稳定市场预期，对经济运行起到积极作用。后续可能根据市场情况调整操作规模和频率。",
-          "keywords": [
-            "央行",
-            "逆回购",
-            "流动性",
-            "资金面",
-            "市场稳定"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSXlkc05WQVVBQVdIeThBdXNNY0I3RUJOQUl3d3k2LXZXSXlrSDhPU0NXSTVFUzMySnFkbFh0MHAwVzlVRGZGWmNraEw3S2hKRDByNjdZZldnUmxVUS1GRWtLUXdqQ1VwRFgxbTFYdW5PLWV4MDQ0ZWRqdXZyRXdCNzNB?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "青岛里院喜剧节聚焦鲁味喜剧，黄渤等名嘴共话喜剧之市井根脉",
-          "titleOrig": "方言是根骨里院是容器！青岛里院喜剧节第二场“喜聚”论坛黄渤、刘震云、管虎、宁浩、范明聊“鲁味”喜剧 - 半岛网",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vRUd5ZHlmMm1RV0cwZExDeWhUakIyTDB3N0paQ1pTTVV2OHBsTHgtNk50Q2JUVDBKX0lPY29qNklaOXRzZVlva0dDLVVEMC1KU05pNmtya0p5RnYy?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T00:57:00+00:00",
-          "desc": "方言是根骨里院是容器！青岛里院喜剧节第二场“喜聚”论坛黄渤、刘震云、管虎、宁浩、范明聊“鲁味”喜剧 半岛网黄渤、常远、孟京辉、刘钧“喜聚”青岛 共话喜剧之市井根脉 finance.sina.com.cn喜剧节，秀不停！ 搜狐网黄渤的里院，常远的相声，孟京辉的先锋，刘钧的盛老爹 —— 一场关于喜剧的午后闲谈 thepaper.cn黄渤里院喜剧节上调侃黄晓明：终于考上博士成黄“博” sd.chinanews.com.cn",
-          "hotLabel": "",
-          "summary": "青岛里院喜剧节第二场论坛聚焦鲁味喜剧，多位名嘴探讨喜剧文化。",
-          "analysis": "该活动反映了当前中国对传统文化的重视和推广，尤其是地方特色文化的传承。喜剧节通过聚集知名演员和创作者，旨在推动喜剧艺术的发展，同时强调方言和地方文化的重要性。这背后体现了政策意图在文化领域推广多元化和地方特色，促进文化产业的繁荣。对国内民生而言，这有助于提升民众的文化生活品质；对经济而言，有助于推动文化旅游等相关产业的发展；对治理而言，有助于增强地方文化自信。后续可能继续举办类似活动，推动地方文化品牌的打造。",
-          "keywords": [
-            "喜剧节",
-            "鲁味喜剧",
-            "文化传承",
-            "地方特色",
-            "文化产业"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1vRUd5ZHlmMm1RV0cwZExDeWhUakIyTDB3N0paQ1pTTVV2OHBsTHgtNk50Q2JUVDBKX0lPY29qNklaOXRzZVlva0dDLVVEMC1KU05pNmtya0p5RnYy?oc=5"
-            }
-          ],
-          "rank": 16
+          "rank": 8
         },
         {
           "title": "澳大利亚调查F-35战斗机零部件在香港失踪事件",
@@ -1301,17 +1074,17 @@
           "publishedAt": "2026-09-22T10:00:15+00:00",
           "desc": "Disappearance of jet components sparks concern some of the program’s technology secrets could have been exposedFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastThe Department of Defence is examining how F-35 fighter jet parts bound for ",
           "hotLabel": "",
-          "summary": "澳大利亚调查F-35战斗机零部件失踪事件，担忧技术机密泄露。",
-          "analysis": "这起事件反映了国际军事技术合作的敏感性。F-35战斗机作为美国主导的先进战斗机项目，其零部件失踪可能引发对技术机密泄露的担忧。澳大利亚作为参与国，对此事进行调查，体现了对国家安全的高度重视。此类事件可能对国际军事技术合作产生一定影响，未来各国在军事技术合作中可能加强安全管理和保密措施。",
+          "summary": "澳大利亚调查F-35战斗机零部件在香港失踪，引发技术机密泄露担忧。",
+          "analysis": "事件背景：F-35战斗机是美国主导的联合项目，涉及多个国家的高科技武器系统。此次零部件失踪可能暴露技术机密，影响项目安全。关键影响：可能对中美关系及国际军事合作产生负面影响。后续走向：需关注澳大利亚调查结果及后续国际合作动态。",
           "keywords": [
             "F-35",
+            "失踪",
             "技术机密",
-            "军事合作",
-            "澳大利亚",
-            "安全担忧"
+            "中美关系",
+            "军事合作"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 85,
           "sources": [
             {
               "name": "The Guardian",
@@ -1322,11 +1095,139 @@
               "url": "https://www.cnbc.com/2026/09/24/chinaf-f35-components-hong-kong.html"
             }
           ],
-          "rank": 17
+          "rank": 9
         },
         {
-          "title": "伊朗航司无视美国制裁，继续飞中泰",
-          "titleOrig": "伊朗航司：无视美国制裁，继续飞中泰 - 观察者网",
+          "title": "截至8月底全国累计发电装机容量达41.03亿千瓦",
+          "titleOrig": "截至8月底全国累计发电装机容量达41.03亿千瓦 - 中国科技网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KeTdfMFp4OVE5emR5TkIydDN2ckNaSm5ra3dWMEg4QUNFNG5zdktBWnpLRXFqbjlXVlJqNDl6NmlacC1CNXp6eUJJSzNpbDNxdU5kdzVUaFU1NkpCU3dleEJGczlMYkFIZjRqMlB3ekc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T09:28:34+00:00",
+          "desc": "截至8月底全国累计发电装机容量达41.03亿千瓦 中国科技网国家能源局：截至8月底全国累计发电装机容量41.03亿千瓦 凤凰网科技再降，8月光伏装机新增11.04GW！ 搜狐网国家能源局发布2026年1-8月份全国电力统计数据 煤炭资源网国家能源局：截至8月底全国累计发电装机容量41.03亿千瓦 同比增长11.1% caiwennews.com",
+          "hotLabel": "",
+          "summary": "截至8月底，全国累计发电装机容量达41.03亿千瓦。",
+          "analysis": "这一数据反映了我国电力工业的快速发展。背景是国家推动能源结构调整和绿色低碳发展。对国内民生而言，保障了电力供应；对经济而言，支持了工业生产和居民生活；后续走向取决于能源结构调整的进展和绿色能源的发展。",
+          "keywords": [
+            "电力装机容量",
+            "能源结构调整",
+            "绿色低碳发展",
+            "电力供应",
+            "工业生产"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1KeTdfMFp4OVE5emR5TkIydDN2ckNaSm5ra3dWMEg4QUNFNG5zdktBWnpLRXFqbjlXVlJqNDl6NmlacC1CNXp6eUJJSzNpbDNxdU5kdzVUaFU1NkpCU3dleEJGczlMYkFIZjRqMlB3ekc?oc=5"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "经合组织上调2026年全球经济增速预期至2.9%",
+          "titleOrig": "经合组织上调2026年全球经济增速预期至2.9% - 中国贸易救济信息网",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GcjlMZzV3ZzBXS29SX3ZNRGFsYmdBaVVzSHVoQ2U1QkM1ejhJY25SZE5QZ2Zjc1ltMnV3NWlPWThra0N6MVpUd2JJa3F4azA3ekdVOUFXcVRvbkNDc21FMGpRYzEySVNQYnoyU1NJWUVfclE0QzA2dg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T02:07:39+00:00",
+          "desc": "经合组织上调2026年全球经济增速预期至2.9% 中国贸易救济信息网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "经合组织上调2026年全球经济增速预期至2.9%",
+          "analysis": "这一预测反映了对全球经济复苏的乐观态度，对中国出口和经济增长具有积极意义。但同时也提醒中国需关注全球经济波动带来的风险。",
+          "keywords": [
+            "经合组织",
+            "全球经济",
+            "经济增长",
+            "出口",
+            "风险"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1GcjlMZzV3ZzBXS29SX3ZNRGFsYmdBaVVzSHVoQ2U1QkM1ejhJY25SZE5QZ2Zjc1ltMnV3NWlPWThra0N6MVpUd2JJa3F4azA3ekdVOUFXcVRvbkNDc21FMGpRYzEySVNQYnoyU1NJWUVfclE0QzA2dg?oc=5"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "千叶县印旛沼达到历史最高水位 1968年以来首次决堤",
+          "titleOrig": "千叶县印旛沼达到历史最高水位 1968年以来首次决堤 - 共同网",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2ckJkQ0dzY0RTUG1KV0NCZXhTdlRmSkdBMzF4LTk2ZDRmZWJnbTdhRDdmNndHbUJHM0tDN2hVb29qSHRnU2h6QkNtR0gzck8tZERBVDNQVQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T07:06:00+00:00",
+          "desc": "千叶县印旛沼达到历史最高水位 1968年以来首次决堤 共同网台风杜鹃致日本6人死6人失踪 finance.sina.com.cn日媒：台风“杜鹃”导致日本水坝决堤，被淹太阳能发电厂发生火灾 凤凰网台风“杜鹃”重创日本关东 多地发布灾害警报 news.china.com台风“杜鹃”重创日本关东：190万人收到避难指示，有居民称“每下一场雨我都害怕” 手机新浪网",
+          "hotLabel": "",
+          "summary": "千叶县印旛沼水位达到历史最高，1968年以来首次决堤。",
+          "analysis": "此次决堤事件反映了极端天气事件对日本基础设施的冲击。背景是全球气候变化导致极端天气事件频发。对国内民生而言，可能影响居民生活安全和健康；对经济而言，可能影响地区旅游业和农业生产；后续走向取决于日本如何加强防灾减灾能力。",
+          "keywords": [
+            "日本自然灾害",
+            "气候变化",
+            "基础设施",
+            "防灾减灾",
+            "极端天气"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA2ckJkQ0dzY0RTUG1KV0NCZXhTdlRmSkdBMzF4LTk2ZDRmZWJnbTdhRDdmNndHbUJHM0tDN2hVb29qSHRnU2h6QkNtR0gzck8tZERBVDNQVQ?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "青海茫崖借电影节推介影视文旅资源",
+          "titleOrig": "青海茫崖借力丝路电影节 向全国推介戈壁影视文旅资源 - qh.chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3bW82eXVCTFRpMkhxVHZ1MVFUQkk2alJqUUxzQi1XcG9uM20yQXprdjN2OHBLRXZuREtDc3ZqVmZRNGlqZTVhWE9JX1ZNdWdMYnJadkVzQVd3VzFwRzU0T1gyd1hCUFZDUUQzZmtn?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T07:42:00+00:00",
+          "desc": "青海茫崖借力丝路电影节 向全国推介戈壁影视文旅资源 qh.chinanews.com.cn第十三届丝绸之路国际电影节在西安闭幕 “金丝路奖”揭晓 finance.sina.com.cn依托山海资源携手两岸影人 “有福电影·丝路闽陕”推介会举办 搜狐网“有福电影”亮相第十三届丝绸之路国际电影节 “福建电影展示馆”在西安开馆 finance.sina.com.cn从“黄土地”到“新大陆”：看西安电影的“向新之路”——2026西安国际虚拟现实电影周观察 搜狐网",
+          "hotLabel": "",
+          "summary": "青海茫崖利用丝路电影节推广戈壁影视文旅资源。",
+          "analysis": "青海茫崖借助电影节推广影视文旅资源，是响应国家文化产业发展战略的具体实践。这有助于提升地区旅游品牌，促进地方经济发展。对国内旅游市场而言，此类活动有助于丰富旅游产品，推动旅游消费升级。后续可能看到更多地方利用电影节等平台推广旅游资源。",
+          "keywords": [
+            "电影节",
+            "影视文旅",
+            "青海茫崖",
+            "旅游资源",
+            "文化产业发展"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFA3bW82eXVCTFRpMkhxVHZ1MVFUQkk2alJqUUxzQi1XcG9uM20yQXprdjN2OHBLRXZuREtDc3ZqVmZRNGlqZTVhWE9JX1ZNdWdMYnJadkVzQVd3VzFwRzU0T1gyd1hCUFZDUUQzZmtn?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "伊朗航司：无视美国制裁，继续飞中泰",
+          "titleOrig": "伊朗航司：无视美国制裁，继续飞中泰 - guancha.cn",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzRDFBLWlXN3BtOEU3QXBobFdOenFQdVZ6UU1yVUV2ZDdyU3pDN1NoRWZqOGRtOWJnVHprZlktNE1DR3loVWlqQjlBaFdDYlVuaXNuSElfZzNvUFpIanVXcWZaSjQ1MUd4b3FmQkYyeUQtUDA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
@@ -1335,101 +1236,209 @@
           "region": "中国",
           "lang": "zh",
           "publishedAt": "2026-09-24T01:31:00+00:00",
-          "desc": "伊朗航司：无视美国制裁，继续飞中泰 观察者网美国财政部：打击伊朗航空业已初见成效 美国之音中国是否会继续允许来自德黑兰的航班降落？外交部回应 新浪新闻_手机新浪网一架伊朗民航客机在中国降落 尽管面临美国制裁威胁 RFI美国财政部长贝森特向全世界发出警告，要求各国从9月23日起，必须配合美国封杀伊朗航班 news.china.com",
+          "desc": "伊朗航司：无视美国制裁，继续飞中泰 guancha.cn中国是否会继续允许来自德黑兰的航班降落？外交部回应 news.sina.cn美国财政部：打击伊朗航空业已初见成效 美国之音美国财政部长贝森特向全世界发出警告，要求各国从9月23日起，必须配合美国封杀伊朗航班 news.china.com一架伊朗民航客机在中国降落 尽管面临美国制裁威胁 RFI",
           "hotLabel": "",
-          "summary": "伊朗航司无视美国制裁，继续飞往中国和泰国。",
-          "analysis": "伊朗航司无视美国制裁，继续飞往中国和泰国，体现了对国际航线的重视。这一行为可能加剧美伊之间的紧张关系，对国际航空业产生一定影响。对国内民生而言，这可能会影响中伊、中泰之间的航班安排。对经济和治理意味着，这体现了中国在国际事务中的独立立场。后续走向可能包括美国对伊朗航司的进一步制裁措施。",
+          "summary": "伊朗航空公司宣布无视美国制裁，继续飞往中国和泰国。",
+          "analysis": "此举体现了伊朗对美国制裁的抵抗态度，同时也显示了中国与伊朗之间关系的紧密。这可能加剧中美之间的紧张关系，同时对中国民航业带来一定影响。",
           "keywords": [
-            "伊朗航司",
+            "伊朗",
             "美国制裁",
-            "国际航线",
-            "美伊关系",
-            "航空业"
+            "民航业",
+            "中伊关系",
+            "中美关系"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
               "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBzRDFBLWlXN3BtOEU3QXBobFdOenFQdVZ6UU1yVUV2ZDdyU3pDN1NoRWZqOGRtOWJnVHprZlktNE1DR3loVWlqQjlBaFdDYlVuaXNuSElfZzNvUFpIanVXcWZaSjQ1MUd4b3FmQkYyeUQtUDA?oc=5"
             }
           ],
-          "rank": 18
+          "rank": 14
         },
         {
-          "title": "习近平抵达华盛顿对美国进行国事访问 - 北京市人民政府门户网站",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3RzNxLXJuVkVPZXZTOTFqWmIyMlp0NFpSa1FkMXowZTBsOE9qM2RHSnBUT19TZXozZE5INFF3emFvYWYtSlJ3eU9XT01nRU9RbTJHdEpIN1plejhDRkZ5aEtyWl9feGJfdnBwMU0zN2g0dXpfMUE?oc=5",
+          "title": "聚焦：高市竭力营造日美亲密氛围 对华立场出现“温差”",
+          "titleOrig": "聚焦：高市竭力营造日美亲密氛围 对华立场出现“温差” - 共同网",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVLUp1eWhGZlIzNlJnd2ktdlc5VC1yTTNGRE5pOVdLWmNET2lsOVB1WkpRNldyRFlkbWFZenFDMGNHY1hmRElhVDNlMUQtMXRWQk5XSFZUZw?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-24T00:14:00+00:00",
-          "desc": "习近平抵达华盛顿对美国进行国事访问 北京市人民政府门户网站习近平抵达华盛顿，特朗普机场热情迎接 新浪新闻_手机新浪网特习会前瞻：双方致力稳定战略竞争关系，缓解贸易、科技和国际冲突分歧 美国之音走出一条新时代大国正确相处之道 politics.gmw.cn华盛顿如何问北京“买”时间 观察者网",
+          "publishedAt": "2026-09-24T07:57:37+00:00",
+          "desc": "聚焦：高市竭力营造日美亲密氛围 对华立场出现“温差” 共同网高市的“空气挥手”，暴露日本的困局 凤凰网高市还是别美了，特朗普可能都不愿喊她名字 guancha.cn果然，高市早苗找特朗普聊了中国 news.sina.cn高市早苗见特朗普的谄媚眼神，日本媒体人都看不下去 thepaper.cn",
           "hotLabel": "",
-          "summary": "习近平抵达华盛顿对美国进行国事访问 北京市人民政府门户网站习…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\n习近平抵达华盛顿对美国进行国事访问 北京市人民政府门户网站习近平抵达华盛顿，特朗普机场热情迎接 新浪新闻_手机新浪网特习会前瞻：双方致力稳定战略竞争关系，缓解贸易、科技和国际冲突分歧 美国之音走出一条新时代大国正确相处之道 politics.gmw.cn华盛顿如何问北京“买”时间 观察者网",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
+          "summary": "日本高市竭力营造日美亲密氛围，对华立场出现分歧。",
+          "analysis": "日本高市在美日关系上表现出积极姿态，但在对华立场上的分歧可能源于日本国内政治和外交政策的复杂性。这一现象反映了国际政治中的多边主义与双边关系的微妙平衡。对国内民生而言，可能影响日本与中国的贸易和投资；对经济而言，可能影响区域经济合作；后续走向取决于日本如何平衡与中美两国的关系。",
+          "keywords": [
+            "日美关系",
+            "对华立场",
+            "日本外交",
+            "政治分歧",
+            "区域经济"
+          ],
+          "category": "international",
+          "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3RzNxLXJuVkVPZXZTOTFqWmIyMlp0NFpSa1FkMXowZTBsOE9qM2RHSnBUT19TZXozZE5INFF3emFvYWYtSlJ3eU9XT01nRU9RbTJHdEpIN1plejhDRkZ5aEtyWl9feGJfdnBwMU0zN2g0dXpfMUE?oc=5"
-            },
+              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBVLUp1eWhGZlIzNlJnd2ktdlc5VC1yTTNGRE5pOVdLWmNET2lsOVB1WkpRNldyRFlkbWFZenFDMGNHY1hmRElhVDNlMUQtMXRWQk5XSFZUZw?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "越秀短视频获奖",
+          "titleOrig": "越秀又出圈！3分钟海丝短视频入围“金红棉”（广州）优秀作品 - static.nfnews.com",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vQUlUa1dwX2xpQ0FoQVJlTTN0Y0RIc3lZSnZLTXl4bGxobk5udzdubXJyVXg2Y1lJX1N2ZWgzOVlXd1dBUFp0aE51LWNjZXhyby1ZTjd5LUx3UE4xREdPQXBBRFVwbkE1eHc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T10:26:28+00:00",
+          "desc": "越秀又出圈！3分钟海丝短视频入围“金红棉”（广州）优秀作品 static.nfnews.com十五运会官方纪录电影《同湾同梦》首映礼在广州启幕 finance.sina.com.cn爱奇艺启动百部纪录片定制计划 发布首批12部项目 中华网记录真善美 聚力新征程｜第五届华语纪录电影大会在广州开幕 中国青年网大湾区生态纪录片制播联盟，成立！ 搜狐网",
+          "hotLabel": "",
+          "summary": "越秀区短视频入围“金红棉”（广州）优秀作品。",
+          "analysis": "越秀区短视频获奖体现了地方文化宣传的创新，通过短视频形式推广地方文化，有助于提升地区知名度和文化影响力。这反映了当前社会对文化软实力的重视，以及新媒体在文化传播中的作用。后续可能看到更多地方通过新媒体进行文化推广，促进文化交流。",
+          "keywords": [
+            "短视频",
+            "文化宣传",
+            "越秀区",
+            "金红棉",
+            "文化传播"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china"
-            },
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1vQUlUa1dwX2xpQ0FoQVJlTTN0Y0RIc3lZSnZLTXl4bGxobk5udzdubXJyVXg2Y1lJX1N2ZWgzOVlXd1dBUFp0aE51LWNjZXhyby1ZTjd5LUx3UE4xREdPQXBBRFVwbkE1eHc?oc=5"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "南非夸纳省枪击事件致11人死亡 警方启动72小时追捕行动",
+          "titleOrig": "南非夸纳省枪击事件致11人死亡 警方启动72小时追捕行动 - chinanews.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EcGVHaFlnSmZsMHNsa1NXYmpZTlFydTljTFZRODVyTFduT0NhYXhvY3E5T29Dd0tMNl9aQkFlUC04Ym90ODFXcGpKU1U2TDBuNUYyamhoNlBzRWkxT3RXRWpkWVpxcjhf?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-09-24T02:56:17+00:00",
+          "desc": "南非夸纳省枪击事件致11人死亡 警方启动72小时追捕行动 chinanews.com.cn南非夸纳省枪击事件致11人死亡，警方启动72小时追捕行动 搜狐网至少11人在南非大规模枪击事件中丧生 TRT中文南非枪手闯民宅开火 11人死亡两人生还 SWI swissinfo.ch南非私人聚会发生枪击案：至少11人死亡，警方追捕三名嫌疑人| 乌克兰新闻 Межа. Новини України.",
+          "hotLabel": "",
+          "summary": "南非夸纳省发生枪击事件，致11人死亡，警方展开追捕。",
+          "analysis": "这起枪击事件反映了南非社会治安问题，可能对中非关系产生一定影响。中国警方可能加强与南非警方的合作，共同打击跨国犯罪。事件对南非国内治安治理提出了挑战。",
+          "keywords": [
+            "枪击事件",
+            "南非",
+            "社会治安",
+            "中非关系",
+            "跨国犯罪"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1EcGVHaFlnSmZsMHNsa1NXYmpZTlFydTljTFZRODVyTFduT0NhYXhvY3E5T29Dd0tMNl9aQkFlUC04Ym90ODFXcGpKU1U2TDBuNUYyamhoNlBzRWkxT3RXRWpkWVpxcjhf?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "谭松韵回应兰香大婚扇巴掌事件",
+          "titleOrig": "谭松韵回应兰香大婚扇巴掌",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%9B%9E%E5%BA%94%E5%85%B0%E9%A6%99%E5%A4%A7%E5%A9%9A%E6%89%87%E5%B7%B4%E6%8E%8C%23&t=31&band_rank=4&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "演员谭松韵就兰香大婚扇巴掌事件作出回应。",
+          "analysis": "事件背景：演员谭松韵在综艺节目中的行为引发争议，反映了公众对明星行为的高度关注。关键影响：可能影响公众对明星形象的认知，对娱乐圈提出道德规范要求。后续走向：需关注事件后续处理及娱乐圈的道德规范建设。",
+          "keywords": [
+            "谭松韵",
+            "兰香大婚",
+            "娱乐圈",
+            "道德规范",
+            "公众形象"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E8%B0%AD%E6%9D%BE%E9%9F%B5%E5%9B%9E%E5%BA%94%E5%85%B0%E9%A6%99%E5%A4%A7%E5%A9%9A%E6%89%87%E5%B7%B4%E6%8E%8C%23&t=31&band_rank=4&Refer=top"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "America’s Asian allies want a Trump-Xi truce — but not at their expense",
+          "titleOrig": "America’s Asian allies want a Trump-Xi truce — but not at their expense",
+          "url": "https://www.cnbc.com/2026/09/24/uss-asian-allies-want-a-trump-xi-truce-but-not-at-their-expense.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-24T01:56:26+00:00",
+          "desc": "There are concerns that Trump could soften Washington's position on Taiwan or other regional security issues in return for concessions from Beijing.",
+          "hotLabel": "",
+          "summary": "There are concerns that Trump …",
+          "analysis": "（LLM 解读生成失败，以下为原始摘要）\nThere are concerns that Trump could soften Washington's position on Taiwan or other regional security issues in return for concessions from Beijing.",
+          "keywords": [],
+          "category": "economy",
+          "importance": 60,
+          "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+              "url": "https://www.cnbc.com/2026/09/24/uss-asian-allies-want-a-trump-xi-truce-but-not-at-their-expense.html"
             }
           ],
           "rank": 19
         },
         {
-          "title": "北京中秋节期间有小雨，天气平稳",
-          "titleOrig": "24日北京有小到中雨 中秋节期间有一次小雨过程 中秋假期天气平稳 - news.china.com",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDWGFKbXZDU0FxdkUwRUh0ZGZTSTRLMy1uckxoaTl0MUd2TVlybkduQ080RFFYNnd4ZkhvM01zWjZzZVpRQzNIdzVIRTBQZjZadXpvTW9YNVYtcFJ0cVI4eHN5cVlscG1jYjRlaFZldTA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "《花少2》搬箱子楼梯真相",
+          "titleOrig": "花少2搬箱子楼梯实际长这样",
+          "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E6%90%AC%E7%AE%B1%E5%AD%90%E6%A5%BC%E6%A2%AF%E5%AE%9E%E9%99%85%E9%95%BF%E8%BF%99%E6%A0%B7%23&t=31&band_rank=2&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-24T00:00:30+00:00",
-          "desc": "24日北京有小到中雨 中秋节期间有一次小雨过程 中秋假期天气平稳 news.china.com北京4/9限行遇降雨，中秋节前最后一个工作日出行交通压力大 凤凰网明天北京有小到中雨，气温明显下降 秋雨添凉意 news.china.com中秋假期北京有小雨，近期天空云量较多 finance.sina.com.cn北京：本周五晚高峰、周日不限行工作日，交通压力大 搜狐网",
-          "hotLabel": "",
-          "summary": "北京中秋节期间有小雨，天气平稳。",
-          "analysis": "中秋节期间的天气状况对民众出行和活动安排有一定影响。虽然有小雨，但整体天气平稳，对民众生活影响有限。对国内民生而言，这提醒人们在节日期间注意出行安全。对经济和治理意味着，这体现了城市管理的精细化，有助于提升民众的生活质量。后续走向可能包括对天气变化的持续监测。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "《花少2》节目中搬箱子楼梯真相引发热议。",
+          "analysis": "事件背景：综艺节目《花少2》中的搬箱子楼梯事件，反映了节目制作过程中的细节处理问题。关键影响：可能影响观众对节目的信任度，对节目制作行业提出更高要求。后续走向：需关注节目制作方的回应及改进措施。",
           "keywords": [
-            "中秋节",
-            "天气",
-            "小雨",
-            "出行安全",
-            "城市管理"
+            "花少2",
+            "搬箱子楼梯",
+            "节目制作",
+            "观众信任",
+            "行业要求"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 60,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBDWGFKbXZDU0FxdkUwRUh0ZGZTSTRLMy1uckxoaTl0MUd2TVlybkduQ080RFFYNnd4ZkhvM01zWjZzZVpRQzNIdzVIRTBQZjZadXpvTW9YNVYtcFJ0cVI4eHN5cVlscG1jYjRlaFZldTA?oc=5"
-            },
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/09/23/nx-s1-5978733/trump-xi-meeting-china"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/us-china-trade-truce-bessent-trump-xi.html"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%B0%912%E6%90%AC%E7%AE%B1%E5%AD%90%E6%A5%BC%E6%A2%AF%E5%AE%9E%E9%99%85%E9%95%BF%E8%BF%99%E6%A0%B7%23&t=31&band_rank=2&Refer=top"
             }
           ],
           "rank": 20
