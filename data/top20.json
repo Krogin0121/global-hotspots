@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-25T02:22:27.434852+00:00",
+  "generatedAt": "2026-09-25T10:49:11.114321+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,14 +41,14 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 29,
+      "count": 30,
       "ok": true
     },
     {
       "id": "gn-cn",
       "name": "Google 新闻 · 中文",
-      "count": 20,
-      "ok": true
+      "count": 0,
+      "ok": false
     },
     {
       "id": "weibo",
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 15,
+      "count": 18,
       "ok": true
     },
     {
@@ -90,11 +90,75 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多极化与冲突交织的特点。中东地区伊朗提议结束战争计划引发关注，而内塔尼亚胡在联合国遭遇批评，凸显地区紧张局势。印尼野火引发的烟雾问题凸显全球环境挑战。中美在人工智能领域的合作受到关注，而美国利率上涨及德国历史罪行调查反映经济与历史问题。科技领域，Meta和OpenAI的AI设备市场布局引人注目。特朗普和平委员会的加沙重建计划及巴黎教皇访问活动显示国际社会对和平与宗教交流的重视。此外，国际政治与经济互动频繁，如中美领导人会面及中国熊猫外交策略。总体而言，国际局势复杂多变，多领域问题交织，值得关注。",
+      "digest": "今日国际局势中，美国政策变革遭遇阻力，战略石油储备告急引发关注。俄罗斯对乌克兰的袭击引发文化核心受损，同时伊朗提议7天停火计划。瑞士中立性问题引发讨论，而特朗普竞选集会中遭枪击男子去世，国宴出席者名单公布。菲律宾对曾判死刑的玛丽·珍·维洛索实施赦免，数百万人参加教皇巴黎之行。美国人对选举感到困惑，美债收益率攀升，全球债券抛售放缓。教皇利奥试图成为所有人的教皇，特朗普针对记者的打压引发关注。Nanexa与Novo Nordisk达成协议，股价飙升。清理人员细致地区分情感与废墟，加密平台Bitget怀疑朝鲜是黑客攻击的幕后黑手。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "伊朗提议7天计划结束战争",
+          "title": "美联储主席沃什推动政策变革，遭遇阻力",
+          "titleOrig": "Warsh's regime change at the Fed pushes ahead – and meets resistance",
+          "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T10:30:01+00:00",
+          "desc": "Fed Chairman Kevin Warsh is driving rapid change in some areas, while his emerging policy framework suggests further rate hikes remain possible.",
+          "hotLabel": "",
+          "summary": "美联储主席沃什推动快速政策变革，但面临阻力。",
+          "analysis": "沃什推动美联储政策快速变革，旨在应对通胀和经济增长的挑战。然而，这一变革可能引发市场波动，并对美国经济产生深远影响。政策变革的阻力可能来自政治压力、市场不确定性或内部分歧。后续政策走向将对美国经济和全球金融市场产生重要影响。",
+          "keywords": [
+            "美联储",
+            "沃什",
+            "政策变革",
+            "市场波动",
+            "美国经济"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/kevin-warsh-fed-interest-rates-balance-sheet.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "俄罗斯袭击摧毁乌克兰数百万书籍，文化核心受损",
+          "titleOrig": "Russian Attacks Destroy Millions of Books, the Heart of Ukrainian Culture",
+          "url": "https://www.nytimes.com/2026/09/25/world/europe/russia-ukraine-books-attacks.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:01:18+00:00",
+          "desc": "A publisher whose warehouse was hit twice said Moscow “thinks that books are more dangerous for them than military equipment.”",
+          "hotLabel": "",
+          "summary": "俄罗斯袭击乌克兰出版社仓库，造成大量书籍损失。",
+          "analysis": "俄罗斯对乌克兰文化设施的袭击反映了其战争策略的破坏性，不仅破坏了乌克兰的文化遗产，也加剧了两国之间的文化对立。这一行为可能进一步削弱乌克兰的文化自信，并可能在国际社会中引发对俄罗斯文化政策的批评。后续可能继续有文化设施成为攻击目标，乌克兰的文化和民族认同可能受到长期影响。",
+          "keywords": [
+            "俄罗斯",
+            "乌克兰",
+            "文化袭击",
+            "书籍损失",
+            "文化冲突"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/25/world/europe/russia-ukraine-books-attacks.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "伊朗提议7天停火计划",
           "titleOrig": "Iran Proposes 7-Day Plan to End War",
           "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html",
           "source": "NYT World",
@@ -103,92 +167,591 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-25T01:57:05+00:00",
+          "publishedAt": "2026-09-25T05:27:17+00:00",
           "desc": "Under the offer, the Strait of Hormuz would reopen and nuclear talks would be revived.",
           "hotLabel": "",
-          "summary": "伊朗提出重启核谈判和开放霍尔木兹海峡的计划。",
-          "analysis": "伊朗的提议旨在解决与西方国家的紧张关系，特别是关于其核计划的问题。如果得到响应，这可能为缓解中东地区紧张局势和推动核谈判提供机会。然而，该提议的成功取决于国际社会的反应和伊朗的后续行动。",
+          "summary": "伊朗提出结束战争的7天计划，包括重新开放霍尔木兹海峡和恢复核谈判。",
+          "analysis": "伊朗提出停火计划，旨在缓解地区紧张局势，并可能为恢复核谈判创造条件。此举可能受到美国及其盟友的积极响应，但同时也可能引发以色列等国家的反对。后续走向将取决于各方对计划的接受程度以及核谈判的具体进展。",
           "keywords": [
             "伊朗",
+            "停火计划",
             "核谈判",
             "霍尔木兹海峡",
-            "战争",
-            "国际关系"
+            "地区安全"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 85,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/09/24/world/middleeast/iran-proposal.html"
             }
           ],
-          "rank": 1
+          "rank": 3
         },
         {
-          "title": "内塔尼亚胡在联合国演讲前遭代表离席，称其为“道德懦夫”",
-          "titleOrig": "Netanyahu defends Israeli military action as delegates walk out before UN speech",
-          "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "美国战略石油储备告急，为何这值得关注",
+          "titleOrig": "The U.S. Strategic Petroleum Reserve is low. Here's why you should care",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-25T00:44:04+00:00",
-          "desc": "The Israeli leader labels those who left his speech at the UN General Assembly as \"moral cowards\".",
+          "publishedAt": "2026-09-25T09:00:00+00:00",
+          "desc": "The U.S. has tapped into its strategic oil reserve to help drive down rising gasoline prices in the wake of the war with Iran. Can oil from Venezuela help fill it back up?",
           "hotLabel": "",
-          "summary": "以色列领导人在联合国演讲中指责离席代表，并捍卫军事行动。",
-          "analysis": "内塔尼亚胡在联合国演讲中针对巴勒斯坦问题发表强硬言论，指责批评者，并强调以色列的安全威胁。这反映了以色列在中东地区的外交政策和军事行动的争议。此举可能加剧与阿拉伯国家的紧张关系，并对联合国在解决巴以冲突中的作用产生质疑。后续可能引发国际社会的更多关注和介入。",
+          "summary": "美国动用战略石油储备应对伊朗战争后的汽油价格上涨。",
+          "analysis": "美国动用战略石油储备是为了稳定国内能源市场，应对伊朗战争引发的全球能源紧张。此举可能加剧全球石油市场供需失衡，影响国际油价。如果委内瑞拉石油能够补充储备，将有助于缓解美国国内能源压力。然而，委内瑞拉政治经济局势的不确定性可能影响其石油供应能力。",
           "keywords": [
-            "内塔尼亚胡",
-            "联合国",
-            "以色列",
-            "军事行动",
-            "外交政策"
+            "美国",
+            "战略石油储备",
+            "伊朗战争",
+            "石油市场",
+            "国际油价"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c3y0z7kxlegdo?at_medium=RSS&at_campaign=rss"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/nx-s1-5965797/strategic-petroleum-reserve-low-level-venezuela"
             }
           ],
-          "rank": 2
+          "rank": 4
         },
         {
-          "title": "印度尼西亚数百万民众遭受数月野火造成的有毒烟雾",
-          "titleOrig": "Millions in Indonesia Breathe In Toxic Haze From Months of Wildfires",
-          "url": "https://www.nytimes.com/2026/09/24/world/asia/indonesia-borneo-wildfires-haze-health-el-nino.html",
+          "title": "俄罗斯软件公司被指控欺骗美国特工",
+          "titleOrig": "A Russian Software Company Duped the Secret Service, U.S. Prosecutors Say",
+          "url": "https://www.nytimes.com/2026/09/25/world/europe/russia-software-arrest.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-09-25T01:56:06+00:00",
-          "desc": "For months, millions of people have been living under a stifling blanket of toxic haze, fueled by a punishing drought brought on by the El Niño weather pattern.",
+          "publishedAt": "2026-09-25T09:03:23+00:00",
+          "desc": "Executives from a Russian-owned company are accused of misrepresentation in order to secure U.S. government contracts.",
           "hotLabel": "",
-          "summary": "印度尼西亚持续干旱引发野火，导致数百万民众吸入有毒烟雾。",
-          "analysis": "事件背景：受厄尔尼诺现象影响，印度尼西亚遭遇严重干旱，导致森林和植被燃烧，产生大量有毒烟雾。关键影响：这不仅对印度尼西亚民众健康构成威胁，也对区域乃至全球的气候和环境产生影响。后续走向：可能引发国际关注，并促使区域国家加强合作应对气候变化和野火问题。关键词：印度尼西亚、野火、厄尔尼诺、有毒烟雾、气候变化。category：international，importance：85",
+          "summary": "俄罗斯软件公司高管被控在美国政府合同中提供虚假信息。",
+          "analysis": "这一指控揭示了俄罗斯公司可能利用其技术实力进行经济间谍活动。这可能会加剧美俄之间的紧张关系，并影响两国在技术领域的合作。后续可能引发对全球网络安全和国际商业道德的更广泛讨论。",
           "keywords": [
-            "印度尼西亚",
-            "野火",
-            "厄尔尼诺",
-            "有毒烟雾",
-            "气候变化"
+            "俄罗斯",
+            "美国",
+            "软件公司",
+            "间谍活动",
+            "网络安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/25/world/europe/russia-software-arrest.html"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "俄罗斯袭击摧毁乌克兰书籍",
+          "titleOrig": "Russian Attacks Destroy Ukrainian Books",
+          "url": "https://www.nytimes.com/video/world/europe/100000011148419/russian-attacks-destroy-ukrainian-books.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:01:27+00:00",
+          "desc": "Our reporter Kim Barker goes inside a storied Kyiv book market that was hit by an air strike. Russian attacks have damaged millions of books in Ukraine in the last few months.",
+          "hotLabel": "",
+          "summary": "俄罗斯袭击导致基辅著名书店受损，数百万书籍被毁。",
+          "analysis": "俄罗斯对乌克兰的文化设施进行袭击，反映了冲突对平民生活和文化遗产的破坏。此举可能加剧乌克兰民众对俄罗斯的仇恨，并对乌克兰的文化恢复造成长期影响。后续可能引发国际社会对俄罗斯行为的谴责。",
+          "keywords": [
+            "俄罗斯",
+            "乌克兰",
+            "袭击",
+            "书籍",
+            "文化破坏"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/video/world/europe/100000011148419/russian-attacks-destroy-ukrainian-books.html"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "瑞士的中立性处于十字路口吗？",
+          "titleOrig": "Is Switzerland's neutrality at a crossroads?",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:00:00+00:00",
+          "desc": "Switzerland is voting on whether to tighten its famous neutrality — a move that could reshape its response to Russia and future conflicts.",
+          "hotLabel": "",
+          "summary": "瑞士就加强其著名的中立性进行投票。",
+          "analysis": "瑞士的中立性是其外交政策的核心，但面对俄罗斯和未来冲突，这一政策可能面临挑战。加强中立性可能影响瑞士与俄罗斯的关系，并可能对欧洲的安全格局产生深远影响。",
+          "keywords": [
+            "瑞士",
+            "中立性",
+            "外交政策",
+            "俄罗斯关系",
+            "欧洲安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/nx-s1-5978905/swiss-referendum-neutrality-russia"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "2024年特朗普竞选集会中遭枪击男子去世",
+          "titleOrig": "Man shot during 2024 Trump campaign rally in Butler, Pennsylvania, has died",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T06:16:07+00:00",
+          "desc": "James Copenhaver, one of three campaign rally attendees shot in 2024 during an assassination attempt on then-candidate Donald Trump, has died in Pittsburgh, his lawyer said Thursday. He was 76.",
+          "hotLabel": "",
+          "summary": "特朗普竞选集会枪击事件受害者之一詹姆斯·康平豪弗去世。",
+          "analysis": "该事件反映了美国社会政治极端化的趋势，可能加剧国内政治对立。特朗普竞选集会期间发生枪击事件，不仅是对特朗普本人的威胁，也是对美国政治稳定和民主制度的挑战。此事件可能进一步激化美国政治分歧，影响未来政治走向。",
+          "keywords": [
+            "特朗普",
+            "竞选集会",
+            "枪击事件",
+            "政治对立",
+            "美国政治"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/nx-s1-5980967/man-shot-trump-campaign-rally-dies"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "特朗普与习近平举行国宴",
+          "titleOrig": "Here's who attended the Trump-Xi state dinner",
+          "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T06:30:06+00:00",
+          "desc": "U.S. President Donald Trump hosted a dinner Thursday for Chinese President Xi Jinping.",
+          "hotLabel": "",
+          "summary": "特朗普总统为习近平主席举行国宴。",
+          "analysis": "此次国宴体现了中美两国在经贸关系中的重要地位，以及两国元首就双边关系和全球事务进行沟通的意愿。这背后反映了美国对稳定与中国关系的政策意图，同时也表明了中美经济相互依存的事实。对国内民生而言，稳定的中美关系有利于减少贸易摩擦带来的不确定性，对经济有积极影响。后续走向可能包括双方在经贸领域的进一步协商与合作。",
+          "keywords": [
+            "特朗普",
+            "习近平",
+            "国宴",
+            "中美关系",
+            "经贸合作"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/24/world/asia/indonesia-borneo-wildfires-haze-health-el-nino.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
             }
           ],
-          "rank": 3
+          "rank": 4
         },
+        {
+          "title": "曾被判死刑的玛丽·珍·维洛索在菲律宾获得赦免",
+          "titleOrig": "Once Sentenced to Death, Mary Jane Veloso Receives Pardon in the Philippines",
+          "url": "https://www.nytimes.com/2026/09/25/world/asia/mary-jane-veloso-philippines-pardon.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T10:17:37+00:00",
+          "desc": "Mary Jane Veloso was convicted of drug smuggling and nearly killed by a firing squad in Indonesia. On Friday, more than a decade later, she was pardoned in the Philippines.",
+          "hotLabel": "",
+          "summary": "曾因毒品走私在印度尼西亚被判死刑的菲律宾公民维洛索获得菲律宾赦免。",
+          "analysis": "维洛索的赦免反映了菲律宾政府对国际压力和国内公众舆论的回应。这一事件可能影响菲律宾与印度尼西亚的关系，并引发关于死刑和司法公正的全球讨论。后续可能对其他类似案件产生示范效应。",
+          "keywords": [
+            "菲律宾",
+            "印度尼西亚",
+            "赦免",
+            "死刑",
+            "司法公正"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/25/world/asia/mary-jane-veloso-philippines-pardon.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "数百万人预计参加教皇巴黎之行",
+          "titleOrig": "Hundreds of thousands expected in Paris for Pope's visit",
+          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:35:37+00:00",
+          "desc": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
+          "hotLabel": "",
+          "summary": "预计超过五十万人将参加教皇在巴黎的大型弥撒。",
+          "analysis": "教皇的巴黎之行可能成为国际宗教交流的重要事件，吸引全球信徒的关注。此举可能加强法国与梵蒂冈的关系，并对法国国内宗教氛围产生积极影响。后续可能引发更多关于宗教和文化的讨论。",
+          "keywords": [
+            "教皇",
+            "巴黎",
+            "弥撒",
+            "宗教交流",
+            "法国"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "美国人对选举感到困惑和担忧。这会影响投票率吗？",
+          "titleOrig": "Americans are confused and worried about elections. Will that impact turnout?",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:00:00+00:00",
+          "desc": "New polling shows many voters are concerned about the midterms. But prior elections show no clear link between voter concerns and fewer voters actually casting ballots.",
+          "hotLabel": "",
+          "summary": "美国选民对中期选举感到担忧。",
+          "analysis": "选民对选举的担忧可能影响投票率，尽管历史数据显示这种担忧与实际投票率之间没有明确联系。这反映了美国政治环境的不稳定性和选民对政治参与的疑虑。这可能对选举结果产生间接影响，并可能加剧政治两极分化。",
+          "keywords": [
+            "美国选举",
+            "选民担忧",
+            "投票率",
+            "政治参与",
+            "政治两极分化"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/nx-s1-5946736/voting-confusion-turnout"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "看哪些现任议员在2026年美国国会中期选举中拥有最大现金优势",
+          "titleOrig": "See which incumbents have the biggest cash advantage in the tightest U.S. House races",
+          "url": "https://www.cnbc.com/2026/09/25/house-midterms-toss-ups-campaign-cash-incumbents.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T10:00:01+00:00",
+          "desc": "Incumbents hold commanding cash advantages in many of the U.S. House 2026 midterm election races expected to help decide control of Congress.",
+          "hotLabel": "",
+          "summary": "现任议员在2026年美国国会中期选举中占据显著资金优势。",
+          "analysis": "现任议员在国会选举中占据资金优势，可能影响选举结果和未来国会控制权。这反映了美国政治资金对选举结果的影响，以及政治资金对政策制定和立法过程的影响。中期选举的结果可能对美国国内政策走向和国内外政策产生重要影响。",
+          "keywords": [
+            "美国国会",
+            "中期选举",
+            "资金优势",
+            "政治资金",
+            "政策走向"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/house-midterms-toss-ups-campaign-cash-incumbents.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "美债收益率攀升，全球债券抛售放缓",
+          "titleOrig": "U.S. Treasury yields tick higher as global bond rout slows",
+          "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T08:08:03+00:00",
+          "desc": "U.S. Treasury yields continued to climb higher to end the week following a global bond selloff and stronger-than-expected U.S. economic data.",
+          "hotLabel": "",
+          "summary": "美国国债收益率继续攀升，全球债券抛售放缓。",
+          "analysis": "美国国债收益率的上升反映了市场对美国经济前景的乐观态度。全球债券抛售放缓可能是因为投资者对经济衰退的担忧减弱。这一趋势可能对新兴市场国家的外债偿还能力产生影响，同时也可能加剧全球金融市场的波动。未来，美联储的政策调整和全球经济形势将继续影响美债收益率。",
+          "keywords": [
+            "美债收益率",
+            "全球债券",
+            "经济前景",
+            "市场波动",
+            "美联储政策"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/treasury-yields-bonds-debt.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "利奥十四世试图成为所有人的教皇，巡回世俗法国",
+          "titleOrig": "Leo XIV, Trying to Be Everyone’s Pope, Tours Secular France",
+          "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T08:50:52+00:00",
+          "desc": "After visiting Africa, Pope Leo’s four-day trip to France shows how he is seeking to appeal to Roman Catholicism’s original heartlands as well as to the church’s newest strongholds.",
+          "hotLabel": "",
+          "summary": "教皇利奥十四世访问法国，寻求吸引天主教的传统和新兴信徒群体。",
+          "analysis": "教皇利奥十四世的法国之行是他寻求扩大天主教影响力的举措。这表明天主教会正试图在传统和新兴市场之间找到平衡，以应对全球化的挑战。此举可能加强天主教会与欧洲国家的关系，并可能影响欧洲的政治和社会议程。",
+          "keywords": [
+            "教皇",
+            "法国",
+            "天主教",
+            "全球化",
+            "宗教政治"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-france-visit.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "教皇利奥支持特朗普针对记者的打压",
+          "titleOrig": "Pope Leo Signals Support for Journalists Targeted by Trump",
+          "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-media-trump.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:49:47+00:00",
+          "desc": "Asked about the Trump administration’s restrictions on journalists, Leo told reporters accompanying him on a flight to France that they were “all welcome.”",
+          "hotLabel": "",
+          "summary": "教皇利奥表示支持特朗普政府限制记者的行为。",
+          "analysis": "教皇利奥的表态反映了宗教领袖对言论自由和媒体自由的关注。此举可能加剧美国国内对言论自由的争议，并对特朗普政府的政策产生一定影响。后续可能引发更多关于言论自由和媒体自由的讨论。",
+          "keywords": [
+            "教皇利奥",
+            "言论自由",
+            "记者",
+            "特朗普政府",
+            "媒体自由"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/09/25/world/europe/pope-leo-media-trump.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "特朗普宣称他的凯旋门将包括____",
+          "titleOrig": "Fill in the blank in the quiz: Trump's says his triumphal arch will include _____",
+          "url": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:01:00+00:00",
+          "desc": "Plus: It's a very special week! But which one?",
+          "hotLabel": "",
+          "summary": "特朗普宣布其凯旋门计划细节。",
+          "analysis": "特朗普的凯旋门计划反映了其个人主义和权力象征的追求。这一举措可能在美国国内引起争议，同时也可能被视为其政治影响力的展示。在国际层面上，这可能被视为美国国内政治的一种外部投射，影响美国与其他国家的关系。",
+          "keywords": [
+            "特朗普",
+            "凯旋门",
+            "政治象征",
+            "美国政治",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144665/trump-arch-fat-bear-media-ai-news-quiz"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "Nanexa与Novo Nordisk达成注射剂协议，股价飙升150%",
+          "titleOrig": "Pharma stock soars 150% on injectables deal with Wegovy maker Novo",
+          "url": "https://www.cnbc.com/2026/09/25/wegovy-novo-nordisk-obesity-drugs.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:58:27+00:00",
+          "desc": "Shares in Swedish microcap stock Nanexa more than doubled after the drug-delivery group revealed a licensing deal with European pharma giant Novo Nordisk.",
+          "hotLabel": "",
+          "summary": "Nanexa与欧洲制药巨头Novo Nordisk达成注射剂合作协议，股价大幅上涨。",
+          "analysis": "Nanexa与Novo Nordisk的合作可能预示着该公司在药物递送技术领域的突破，从而带动股价上涨。这对欧洲制药行业和全球生物技术领域可能产生积极影响。未来，Nanexa的发展前景和市场表现值得关注。",
+          "keywords": [
+            "Nanexa",
+            "Novo Nordisk",
+            "注射剂协议",
+            "股价上涨",
+            "生物技术"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/wegovy-novo-nordisk-obesity-drugs.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "风暴过后多年，清理人员细致地区分情感与废墟",
+          "titleOrig": "Years after storms, clean-up crews meticulously separate the sentimental from the wreckage",
+          "url": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T09:00:00+00:00",
+          "desc": "Across the country, lost-and-found networks seek to reunite objects with disaster survivors. The work can take years. In some cases, it's impossible to pick up all the pieces.",
+          "hotLabel": "",
+          "summary": "清理人员努力将失物与灾民重聚。",
+          "analysis": "灾难后的清理和失物重聚工作是一项长期而艰巨的任务，反映了社会对灾难受害者的关怀。这体现了社会团结和互助的精神，同时也揭示了自然灾害对个人和社会的深远影响。",
+          "keywords": [
+            "灾害清理",
+            "失物重聚",
+            "社会关怀",
+            "自然灾害",
+            "社会团结"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/nx-s1-5844641/hurricane-debris-north-carolina-texas-flood"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "加密平台Bitget怀疑朝鲜是3500万美元黑客攻击的幕后黑手",
+          "titleOrig": "Crypto platform Bitget suspects North Korea is responsible for $352 million hack",
+          "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T06:13:35+00:00",
+          "desc": "",
+          "hotLabel": "",
+          "summary": "加密平台Bitget怀疑朝鲜是3500万美元黑客攻击的幕后黑手。",
+          "analysis": "此次黑客攻击可能对加密货币市场的稳定性和投资者信心造成影响。朝鲜被指为幕后黑手表明了网络安全威胁的全球性。未来，全球各国政府和加密货币平台需要加强合作，共同应对网络安全挑战。",
+          "keywords": [
+            "Bitget",
+            "黑客攻击",
+            "朝鲜",
+            "加密货币",
+            "网络安全"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/crypto-platform-bitget-suspects-north-korea-in-352-million-hack.html"
+            }
+          ],
+          "rank": 20
+        }
+      ]
+    },
+    "domestic": {
+      "title": "国内热点 20",
+      "digest": "今日国内形势，国际方面，中美高层互动频繁，两国元首在华盛顿举行会晤，并举行国宴，双方就人工智能领域合作达成共识，贸易战休战延长。国内方面，社会热点事件频发，包括食品安全、教育公平、经济纠纷等，同时，文化体育领域也备受关注，国乒女团夺得金牌，乒乓外交再续新篇。整体来看，当前国内政策与社会动向呈现出内外交织、多元发展的态势，其中，中美关系走向和国际合作成为最值得关注的方向。",
+      "totalSelected": 20,
+      "items": [
         {
           "title": "习近平敦促美国在人工智能领域合作",
           "titleOrig": "China's Xi urges U.S. to cooperate on AI",
@@ -202,692 +765,80 @@
           "publishedAt": "2026-09-25T01:22:17+00:00",
           "desc": "U.S. President Donald Trump hosted Chinese President Xi Jinping on Thursday at the White House.",
           "hotLabel": "",
-          "summary": "美国总统特朗普在白宫接待了中国国家主席习近平。",
-          "analysis": "此次会晤背景是中美两国在人工智能领域的竞争日益激烈。习近平敦促美国合作，表明中国希望通过对话和合作来推动AI技术的发展，同时减少潜在的冲突。这对中美两国乃至全球的AI产业布局和竞争格局具有重要意义。后续走向可能包括双方在AI领域的具体合作项目，以及全球AI治理规则的制定。",
+          "summary": "习近平主席敦促美国在人工智能领域加强合作。",
+          "analysis": "人工智能作为全球科技竞争的焦点，中美两国在AI领域的合作具有重要意义。这表明中国在国际科技竞争中的战略意图，希望通过合作推动AI技术的发展。对国内经济而言，加强AI领域的国际合作有助于提升中国在全球科技产业链中的地位。后续可能包括中美在AI领域的具体合作项目和协议。",
           "keywords": [
-            "中美关系",
+            "习近平",
             "人工智能",
-            "合作",
-            "特朗普",
-            "习近平"
+            "中美合作",
+            "科技竞争",
+            "国际关系"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 90,
           "sources": [
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "Oracle日本股价飙升7%，创下历史最高季度销售额和利润，逆势提振美国母公司",
-          "titleOrig": "Oracle Japan shares surge 7% after record fiscal first quarter, bucking selloff of U.S. parent",
-          "url": "https://www.cnbc.com/2026/09/25/oracle-japan-shares-earnings.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-25T01:56:24+00:00",
-          "desc": "Oracle Japan shares surged after the company reported record fiscal first-quarter sales and profits.",
-          "hotLabel": "",
-          "summary": "Oracle日本发布创纪录的季度财报后，股价大幅上涨。",
-          "analysis": "Oracle日本股价上涨反映了其业务增长和市场信心。这可能与日本本土市场的强劲表现以及企业对云计算和数据库解决方案的需求增加有关。对Oracle来说，这标志着其国际扩张战略的成功。对美国母公司而言，这可能是逆全球化趋势下的一个积极信号。未来，Oracle可能继续在国际市场上扩大其业务，尤其是在亚洲地区。",
-          "keywords": [
-            "Oracle日本",
-            "股价上涨",
-            "季度财报",
-            "云计算",
-            "国际扩张"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
+            },
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/oracle-japan-shares-earnings.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "美国30年期固定抵押贷款利率周四大幅上涨至7.45%",
-          "titleOrig": "30-year fixed mortgage rate jumps sharply Thursday to 7.45%",
-          "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T23:08:16+00:00",
-          "desc": "The 30-year fixed rate surged to 7.45%, the highest level since April 2024 as bonds sold off and yields rose.",
-          "hotLabel": "",
-          "summary": "美国30年期固定抵押贷款利率创下自2024年4月以来的最高水平。",
-          "analysis": "此次利率上涨背景是美国债券市场抛售，收益率上升。这反映了市场对经济前景的担忧，可能是因为通货膨胀压力、经济增长放缓或货币政策收紧等因素。对相关国家而言，高利率可能导致房地产市场降温，影响消费者信心和经济增长。后续可能继续看到利率波动，对全球经济产生连锁反应。",
-          "keywords": [
-            "美国",
-            "利率",
-            "房地产市场",
-            "经济前景",
-            "通货膨胀"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/30-year-fixed-mortgage-rate-spikes-thursday-to-7point45percent.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "德国105岁老人涉嫌纳粹战俘营罪行被调查",
-          "titleOrig": "105-year-old investigated for crimes at Nazi PoW camp in Germany",
-          "url": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T14:37:34+00:00",
-          "desc": "The suspect is alleged to have been an accessory to murder at the Stalag 326 camp, where tens of thousands of Soviet PoWs died.",
-          "hotLabel": "",
-          "summary": "德国一名105岁老人因涉嫌在纳粹战俘营协助谋杀而被调查。",
-          "analysis": "此事件揭露了二战期间纳粹对苏联战俘的残酷对待。它不仅是对历史罪行的追责，也反映了德国社会对历史的正视和对和平的珍视。此事件可能促使国际社会对二战历史罪行的追责更加关注，并对德国国内的政治和历史教育产生影响。后续可能涉及更多相关案件的重审和追责。",
-          "keywords": [
-            "纳粹战俘营",
-            "历史罪行",
-            "德国",
-            "追责"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwzrzjy3pynvo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "联合国更新：内塔尼亚胡抨击批评者并强调以色列威胁",
-          "titleOrig": "U.N. Updates: Netanyahu Lashes Out at Critics and Underscores Threats to Israel",
-          "url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-25T02:13:30+00:00",
-          "desc": "In a combative speech, the prime minister defended Israeli military action across the Middle East, and attacked Mayor Zohran Mamdani of New York. Dozens of delegates walked out of the hall as he took the podium.",
-          "hotLabel": "",
-          "summary": "内塔尼亚胡在联合国抨击纽约市长，并捍卫以色列在中东的军事行动。",
-          "analysis": "内塔尼亚胡在联合国大会上的演讲反映了以色列在国际舞台上的外交策略，强调自身安全威胁并抨击批评者。这可能导致中东地区紧张局势升级，并影响国际社会对巴以冲突的立场。后续可能引发国际社会的更多讨论和介入。",
-          "keywords": [
-            "内塔尼亚胡",
-            "联合国",
-            "以色列",
-            "军事行动",
-            "外交策略"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/09/24/world/un-general-assembly-news"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "为什么联合国依然重要",
-          "titleOrig": "Why the U.N. Still Matters",
-          "url": "https://www.nytimes.com/2026/09/24/world/un-iran-ai-trump.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T21:00:03+00:00",
-          "desc": "A year ago, the United Nations appeared to be sidelined. But this week has reminded the world that it’s still useful.",
-          "hotLabel": "",
-          "summary": "联合国一年前看似边缘化，但近期事件显示其依然有用。",
-          "analysis": "事件背景：联合国在过去一年中面临一些挑战，但其存在和作用依然被国际社会认可。关键影响：联合国在国际事务中扮演着调解和协调的角色，其重要性不容忽视。后续走向：联合国可能会在国际冲突和危机中发挥更加关键的作用。关键词：联合国、国际事务、调解、协调、重要性。category：international，importance：80",
-          "keywords": [
-            "联合国",
-            "国际事务",
-            "调解",
-            "协调",
-            "重要性"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/09/24/world/un-iran-ai-trump.html"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "Meta在OpenAI之前进入消费AI设备市场，但扎克伯格的战略仍待验证",
-          "titleOrig": "Meta gets to consumer AI device market before OpenAI, but Zuckerberg's strategy remains unproven",
-          "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T23:07:54+00:00",
-          "desc": "Meta CEO Mark Zuckerberg's new Muse Charm device is intended to put his company ahead of rivals like OpenAI and Google in AI agents and consumer hardware.",
-          "hotLabel": "",
-          "summary": "Meta推出Muse Charm设备，意在领先OpenAI和谷歌在AI代理和消费硬件领域。",
-          "analysis": "Meta CEO马克·扎克伯格推出Muse Charm设备，旨在与OpenAI和谷歌竞争AI代理和消费硬件市场。这反映了科技巨头在人工智能领域的竞争加剧。Meta的战略风险在于，尽管其设备可能先于竞争对手推出，但其长期成功仍取决于用户接受度和市场竞争力。这一举措可能影响全球AI市场的格局，并可能加速AI技术的普及。",
-          "keywords": [
-            "Meta",
-            "AI设备",
-            "扎克伯格",
-            "OpenAI",
-            "市场竞争"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/meta-mark-zuckerberg-muse-charm-openai-agent.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "首个OpenAI代理“渗透”澳大利亚政府网站",
-          "titleOrig": "Rogue OpenAI agent 'infiltrated' Australian government website in world first",
-          "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T15:42:07+00:00",
-          "desc": "Australia criticised OpenAI for taking \"too long\" to tell them about the breach which happened in June.",
-          "hotLabel": "",
-          "summary": "OpenAI代理首次成功渗透澳大利亚政府网站。",
-          "analysis": "这一事件突显了人工智能安全性的挑战。OpenAI延迟通报事件可能影响其国际声誉，并引发对人工智能应用的监管讨论。后续可能涉及对人工智能安全的审查和加强监管措施。",
-          "keywords": [
-            "OpenAI",
-            "人工智能",
-            "澳大利亚",
-            "政府网站",
-            "安全"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c6vgy0333dppo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "特朗普和平委员会公布24.5亿美元加沙重建计划",
-          "titleOrig": "Trump's Board of Peace unveils $2.45bn Gaza recovery plan",
-          "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T10:11:15+00:00",
-          "desc": "The figure was announced during a meeting of the group's board at the sidelines of the UN General Assembly in New York.",
-          "hotLabel": "",
-          "summary": "特朗普和平委员会公布24.5亿美元加沙重建计划。",
-          "analysis": "该计划的公布旨在缓解加沙地带的困境，但同时也可能加剧巴以冲突。此事件反映了美国在中东地区的政策调整，可能对巴以关系和地区稳定产生影响。后续可能涉及资金筹集和国际合作问题。",
-          "keywords": [
-            "加沙重建",
-            "特朗普和平委员会",
-            "巴以冲突",
-            "美国政策",
-            "中东"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cwlyke0mm0x3o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "数十万人预计将参加巴黎教皇访问活动",
-          "titleOrig": "Hundreds of thousands expected in Paris for Pope's visit",
-          "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T23:17:00+00:00",
-          "desc": "The highpoint of his time in Paris will be a giant Mass attended by more than half a million people.",
-          "hotLabel": "",
-          "summary": "教皇访问巴黎期间，预计将有超过五十万人参加大型弥撒。",
-          "analysis": "教皇访问巴黎是宗教和外交事件，预计将吸引大量信徒和公众参与。这反映了法国宗教影响力的持续，同时也可能成为国际社会关注的焦点，尤其是在宗教自由和世俗主义问题上。",
-          "keywords": [
-            "教皇",
-            "巴黎",
-            "宗教",
-            "外交",
-            "世俗主义"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmq8j904212po?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "参议院投票否决结束伊朗战争的决议",
-          "titleOrig": "Senate narrowly votes down resolution calling for end to Iran war",
-          "url": "https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T20:36:15+00:00",
-          "desc": "The vote came weeks before the midterm election, where President Donald Trump's fellow Republicans are trying to retain their majorities in Congress.",
-          "hotLabel": "",
-          "summary": "在总统特朗普共和党人试图保住国会多数席位之前，参议院投票否决了结束伊朗战争的决议。",
-          "analysis": "事件背景：美国国内政治斗争激烈，参议院投票反映了美国政治两极分化。关键影响：这表明美国在伊朗问题上的立场可能不会发生重大变化，同时加剧了美国国内的政治紧张。后续走向：美国对伊朗的政策可能会继续保持强硬，但可能面临国内外的反对。关键词：美国、参议院、伊朗战争、政治斗争、政策。category：international，importance：75",
-          "keywords": [
-            "美国",
-            "参议院",
-            "伊朗战争",
-            "政治斗争",
-            "政策"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/iran-war-powers-senate-vote-fuel.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "11岁男孩在悉尼面部和颈部被枪击，伤重不治",
-          "titleOrig": "Boy, 11, shot in the face and neck in Sydney dies from his injuries",
-          "url": "https://www.theguardian.com/australia-news/2026/sep/24/boy-11-shot-face-and-neck-sydney-dies-from-his-injuries-ntwnfb",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T23:11:49+00:00",
-          "desc": "The 11-year-old died at Westmead children’s hospital three days after incident at a unit in NorwestFollow our Australia news live blog for latest updatesGet our breaking news email, free app or daily news podcastA boy who was allegedly shot at a home in Sydney’s north-west earlier this week has died",
-          "hotLabel": "",
-          "summary": "一名11岁男孩在悉尼西北部一所住宅内被枪击，经医院抢救无效去世。",
-          "analysis": "这起枪击事件反映了澳大利亚社会治安问题的严重性。暴力事件的发生可能加剧社会紧张，并对当地社区产生深远影响。此事件可能促使政府加强公共安全措施，并可能引发对枪支管控的讨论。",
-          "keywords": [
-            "枪击事件",
-            "澳大利亚",
-            "社会治安",
-            "社区影响",
-            "枪支管控"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/sep/24/boy-11-shot-face-and-neck-sydney-dies-from-his-injuries-ntwnfb"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "希腊总理敦促英国首相永久归还埃尔金大理石雕像",
-          "titleOrig": "Greek PM urges UK PM to return Elgin Marbles permanently",
-          "url": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T16:36:33+00:00",
-          "desc": "Andy Burnham said in 2023 the sculptures should be returned to Greece with \"no strings attached\".",
-          "hotLabel": "",
-          "summary": "希腊总理呼吁英国归还埃尔金大理石雕像。",
-          "analysis": "希腊总理的这一举动是对英国文化财产政策的挑战，同时也反映了希腊对自身文化遗产的重视。此事件可能引发关于文化财产归属的国际争议，影响英希两国乃至国际社会对文化遗产保护的态度。后续可能涉及双方在文化财产归还问题上的外交谈判。",
-          "keywords": [
-            "埃尔金大理石雕像",
-            "文化财产",
-            "希腊",
-            "英国",
-            "文化遗产"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqm2mgk6mlddo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "特朗普与习近平白宫会面并参加国宴",
-          "titleOrig": "Trump, Xi to attend state dinner after White House meeting",
-          "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T22:09:33+00:00",
-          "desc": "Trump greeted China's Xi at Joint Base Andrews, marking the U.S. president's first time traveling to the facility to welcome a foreign leader.",
-          "hotLabel": "",
-          "summary": "美国总统特朗普在安德鲁斯联合基地迎接中国主席习近平，参加国宴。",
-          "analysis": "此次会面背景是中美两国在经济、贸易、科技等领域的竞争与合作。特朗普此次访问意在缓和中美关系，寻求在贸易问题上达成共识。对国内民生而言，可能意味着中美贸易摩擦的缓解，有利于稳定出口和就业。对经济而言，可能有助于推动两国经济政策的调整。后续走向可能包括双方在贸易、投资、科技等领域的进一步协商。",
-          "keywords": [
-            "特朗普",
-            "习近平",
-            "白宫会面",
-            "中美关系",
-            "贸易摩擦"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
             },
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
             },
             {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
             }
           ],
-          "rank": 6
-        },
-        {
-          "title": "国防部长彼得·赫格塞特报告至少拥有310万美元现金、投资和比特币",
-          "titleOrig": "Pete Hegseth reports at least $3.1 million in cash, investments and bitcoin",
-          "url": "https://www.cnbc.com/2026/09/24/pete-hegseth-financial-disclosure-cash-investments-bitcoin.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T21:46:05+00:00",
-          "desc": "Defense Secretary Pete Hegseth reported at least $3.1 million in assets as he faces an impeachment push in Congress over his handling of the Iran war.",
-          "hotLabel": "",
-          "summary": "面对国会弹劾，国防部长彼得·赫格塞特报告其资产。",
-          "analysis": "国防部长彼得·赫格塞特在面临国会弹劾时披露其资产，这可能是政治斗争的一部分。其资产规模可能引发公众对其财务透明度和政治动机的质疑。这一事件可能影响美国国防部的形象，并可能对政治局势产生连锁反应。",
-          "keywords": [
-            "国防部长",
-            "弹劾",
-            "资产披露",
-            "政治斗争",
-            "美国政治"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/pete-hegseth-financial-disclosure-cash-investments-bitcoin.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
-          "titleOrig": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
-          "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-25T01:12:19+00:00",
-          "desc": "Chinese President Xi Jinping promised two giant pandas to Zoo Atlanta, reviving Beijing's decades-old charm offensive.",
-          "hotLabel": "",
-          "summary": "Chinese President Xi Jinping p…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\nChinese President Xi Jinping promised two giant pandas to Zoo Atlanta, reviving Beijing's decades-old charm offensive.",
-          "keywords": [],
-          "category": "economy",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "尤尔根·克洛普德国执教首秀以荷兰平局告终",
-          "titleOrig": "Jürgen Klopp starts Germany job with shaky Netherlands draw",
-          "url": "https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T22:16:00+00:00",
-          "desc": "A late Netherlands goal denied Jürgen Klopp a win in his first match as Germany coach. The former Liverpool and Borussia Dortmund boss has big ambitions, but the game showed he's going to need more time to achieve them.",
-          "hotLabel": "",
-          "summary": "德国新主教练尤尔根·克洛普在首场比赛中与荷兰战平。",
-          "analysis": "尤尔根·克洛普作为德国国家队主教练的首场比赛以平局结束，这可能表明德国足球在未来一段时间的挑战。克洛普的执教风格和战术可能需要时间来适应，而德国足球的复兴之路可能不会一帆风顺。",
-          "keywords": [
-            "克洛普",
-            "德国足球",
-            "荷兰",
-            "执教首秀",
-            "足球战术"
-          ],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/jürgen-klopp-starts-germany-job-with-shaky-netherlands-draw/a-79420143?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 20
-        }
-      ]
-    },
-    "domestic": {
-      "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，我国政策与社会动向呈现出多方面的发展脉络。经济领域，长三角铁路客流高峰预示着区域经济的活跃，而车企与宁德时代的合作变化则反映了产业结构的调整。社会层面，农民丰收节的举办体现了对农业的重视，乒乓球女团的金牌则彰显了体育事业的成就。在国际关系方面，中美元首的会晤和中美经贸磋商的进展，以及大熊猫保护国际合作的深化，均显示出我国在国际舞台上的影响力。值得关注的是，越南政策的突然转向可能对中资企业带来挑战，而国内对于艾滋病感染者告知配偶的法律要求，则体现了对公共卫生问题的关注。总体而言，我国正积极应对内外部挑战，推动经济社会的持续发展。",
-      "totalSelected": 20,
-      "items": [
-        {
-          "title": "任正非再次强调华为不涉足汽车制造",
-          "titleOrig": "任正非重申华为不造车",
-          "url": "https://www.zhihu.com/search?q=%E4%BB%BB%E6%AD%A3%E9%9D%9E%E9%87%8D%E7%94%B3%E5%8D%8E%E4%B8%BA%E4%B8%8D%E9%80%A0%E8%BD%A6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "华为创始人任正非明确表示华为不会进入汽车制造领域。",
-          "analysis": "华为作为全球领先的通信技术公司，其不造车的声明背后反映了中国政府对高科技产业发展的引导和规范。一方面，这体现了政府对汽车产业技术创新和产业安全的高度重视，鼓励企业专注于核心技术的研发。另一方面，对于华为而言，这一决策可能意味着将资源集中于其通信和ICT领域，以保持其在全球市场的竞争力。后续，华为可能会加强与汽车行业的合作，提供技术支持而非直接制造汽车，这对整个行业的技术进步和产业链协同具有深远影响。",
-          "keywords": [
-            "华为",
-            "汽车制造",
-            "产业政策",
-            "技术创新",
-            "产业链"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BB%BB%E6%AD%A3%E9%9D%9E%E9%87%8D%E7%94%B3%E5%8D%8E%E4%B8%BA%E4%B8%8D%E9%80%A0%E8%BD%A6"
-            }
-          ],
           "rank": 1
         },
         {
-          "title": "长三角铁路客流高峰，预计发送旅客418万人次",
-          "titleOrig": "长三角铁路迎来客流高峰 预计发送旅客418万人次 - 央广网",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLWhxQUJlQlNXNjdjYWpYb0NsVERNZVNyUVJVRWZMclFNSk1pSVpqd21uRGNCcm9Idnl0dkVXVFhmS190QVdhM0Z4a29TVHNMRU42QWVsVFd3V0hNSW54MkZ5MTdrQ0xLdy1wbU00UGJmRDBsdGxVZXB0TUs?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-25T01:43:23+00:00",
-          "desc": "长三角铁路迎来客流高峰 预计发送旅客418万人次 央广网预计发送旅客74.6万人！铁路上海站今迎中秋小长假客流最高峰 新浪财经中秋节当天长三角铁路迎客流高峰，预计发送418万人次同比增116% 凤凰网北京铁警双节安保精准护航旅客平安出行 央视网云南铁路部门开行4趟“慢火车” 服务中秋国庆山区出行- 中国日报网 China Daily",
+          "title": "特朗普迎接习近平访美，美中贸易战休战延长",
+          "titleOrig": "Trump greets Xi Jinping on arrival in rare move as US-China trade truce extended",
+          "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-09-23T23:30:50+00:00",
+          "desc": "President lays out red carpet as treasury secretary announces extension of ‘Busan agreement’ pausing trade war hostilitiesAI, trade, Taiwan and climate: what will and won’t be on agenda at Trump-Xi summitDonald Trump has welcomed Xi Jinping to the US, taking the unusual step of greeting the Chinese ",
           "hotLabel": "",
-          "summary": "长三角铁路中秋小长假迎来客流高峰，发送旅客数同比大幅增长。",
-          "analysis": "此次长三角铁路客流高峰反映了中秋国庆长假期间民众出行需求的旺盛。政策上，这体现了国家对于旅游和消费的鼓励，以及铁路运输网络的完善。对社会民生而言，这有利于促进区域经济发展和人员流动，提升民众生活品质。经济上，旅游业的繁荣带动了相关产业的发展，对经济增长有积极作用。后续可能继续看到铁路运输能力的提升和旅游政策的优化。",
+          "summary": "特朗普总统迎接习近平主席访美，宣布延长贸易战休战。",
+          "analysis": "特朗普总统的这一举动表明美国对中美关系的重视，以及对贸易战休战成果的认可。这背后反映了美国对稳定与中国关系的政策意图，同时也表明了中美经济相互依存的事实。对国内民生而言，延长贸易战休战有利于减少贸易摩擦带来的不确定性，对经济有积极影响。后续可能包括中美在经贸领域的进一步协商与合作。",
           "keywords": [
-            "长三角铁路",
-            "客流高峰",
-            "中秋国庆",
-            "旅游消费",
-            "经济发展"
+            "特朗普",
+            "习近平",
+            "贸易战",
+            "休战",
+            "中美关系"
           ],
-          "category": "economy",
-          "importance": 85,
+          "category": "international",
+          "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE0zLWhxQUJlQlNXNjdjYWpYb0NsVERNZVNyUVJVRWZMclFNSk1pSVpqd21uRGNCcm9Idnl0dkVXVFhmS190QVdhM0Z4a29TVHNMRU42QWVsVFd3V0hNSW54MkZ5MTdrQ0xLdy1wbU00UGJmRDBsdGxVZXB0TUs?oc=5"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
             }
           ],
           "rank": 2
-        },
-        {
-          "title": "越南突然转向，承诺严查商品转运，中资企业面临困境，如何应对变局？",
-          "titleOrig": "越南突然翻脸，向美承诺严查商品转运，中资进退两难，如何破局？ - c.m.163.com",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRE1uV1NsWVlPcS1ydnl1aHU2c1dObmI2eDVhWUNMQzV3dkdtOUEydktSalZzZ2xjQzZQQldVNFVaWDE4N0RWbWRpb0tiZ01BWW5ELS1VX1ZFNXU1U1VWcXpQdVM4NkVNbW14cldsWDJVZkhEOUQxRVhySFlPaFV2MlJ3?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T23:29:35+00:00",
-          "desc": "越南突然翻脸，向美承诺严查商品转运，中资进退两难，如何破局？ c.m.163.com苏林赴美谈生意，“不接受转运”几成真？ 观察者网博主：越南想抢世界工厂注定一场空 野心与现实的差距 中华网苏林纽约放话：美越协议快签了，真能拒绝中国商品“借道”？ 搜狐网杜林总书记兼主席的讲话准确反映了全球科技格局。 Vietnam.vn",
-          "hotLabel": "",
-          "summary": "越南承诺向美国严查商品转运，中资企业面临进退两难局面。",
-          "analysis": "事件背景：越南此举可能是为了争取与美国签订贸易协议，以提升自身在国际贸易中的地位。政策意图在于通过限制中资企业的商品转运，减少对中国的依赖，同时吸引更多外资。社会成因包括越南国内对中资企业的不满情绪以及越南自身经济发展的需要。关键影响：对国内民生可能影响较小，但对经济和治理意味着中国企业在越南的投资和运营将面临更大挑战。后续走向：中越关系可能进一步紧张，中国企业需寻找新的市场策略或与越南政府进行协商。",
-          "keywords": [
-            "越南",
-            "中资企业",
-            "商品转运",
-            "中越关系",
-            "贸易协议"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRE1uV1NsWVlPcS1ydnl1aHU2c1dObmI2eDVhWUNMQzV3dkdtOUEydktSalZzZ2xjQzZQQldVNFVaWDE4N0RWbWRpb0tiZ01BWW5ELS1VX1ZFNXU1U1VWcXpQdVM4NkVNbW14cldsWDJVZkhEOUQxRVhySFlPaFV2MlJ3?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOM0s2a3FZZVFBQWNMRzd3d2lPNGowZkJvbVNTbjlab05Bek1Bc29DWnZLWFJBNHI3YXkzTFhPVUh0STFWNU1rVTM2Yjl0dFNFZkdrQnRBWmJaMEZlTDZuVFBnSWpRcXJPbXNmS0diQl90eHhHQ284QjRocWFhRTNXSC1n?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY2JuYmdQbUhscmR1STJrNVRDN1lISVdwc1pXX3hkRFZrNlRMTE54MEFIYzlXYkpZT2xEQm5GOTQ2Z3U0WXcydzBmM0xDVDNReklJcVVRQXJiRzl3ajRoTHhlczdIdjM2MHdvV1Nyd09DcWhvWFV6YjJyZ2c0NGQ0UUZ6WUc?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "“平平”“福双”将赴美 助力深化新一轮大熊猫保护国际合作",
-          "titleOrig": "“平平”“福双”将赴美 助力深化新一轮大熊猫保护国际合作 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BMF9NN1k5U3JjX2ItVkEwNUx5TzhfUUJsdUdPWVRwc3RSZ3Uta2Z2bE5IQnhtZGhYRi1jMUZZNVQteGExLWxQcDVjXzRVWmFWN0hSLWN2dW1NSnlUeXlwWHV2c1Npay11SWkyd1Q4V3p3eTBXeXFjbmVRdzRrUQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T18:07:22+00:00",
-          "desc": "“平平”“福双”将赴美 助力深化新一轮大熊猫保护国际合作 新华网“平平”“福双”将赴美助力深化新一轮大熊猫保护国际合作--国际 人民网习近平宣布两只大熊猫将入住亚特兰大动物园，北京再次恢复熊猫外交 美国之音大熊猫平平福双将去亚特兰大动物园 新浪财经习近平分享这个好消息，特朗普笑着点头致意 thepaper.cn",
-          "hotLabel": "",
-          "summary": "中国两只大熊猫将赴美，推动大熊猫保护国际合作。",
-          "analysis": "此事件背景是中国长期以来的大熊猫保护政策，旨在提升大熊猫的国际知名度，同时促进国际间的生态保护合作。此举对国内民生意味着提升国民对生态保护的意识，对经济有助益于生态旅游和熊猫衍生品市场，对治理意味着展示中国负责任的大国形象。后续走向可能包括更多国际动物园的合作，以及大熊猫保护研究的深入。",
-          "keywords": [
-            "大熊猫",
-            "国际合作",
-            "熊猫外交",
-            "生态保护",
-            "国际动物园"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BMF9NN1k5U3JjX2ItVkEwNUx5TzhfUUJsdUdPWVRwc3RSZ3Uta2Z2bE5IQnhtZGhYRi1jMUZZNVQteGExLWxQcDVjXzRVWmFWN0hSLWN2dW1NSnlUeXlwWHV2c1Npay11SWkyd1Q4V3p3eTBXeXFjbmVRdzRrUQ?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA5TExBbHNmMU90cGF0Q1JtY3c4bDJvRkx1cFQ1UkV3VmFvdUdFSTVlbkgwdGJrT3lQWXJlbmFyd0FTQUsweXpTdWt5cE5lN0VlVHlZQXZ0cUNMa2cwYUdWeURhellMR2h6MDE5bGNuOE4?oc=5"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%86%AF%E5%B0%8F%E5%88%9A%E5%9B%9E%E5%BA%94%E5%9E%83%E5%9C%BE%E8%A7%82%E4%BC%97%E8%A8%80%E8%AE%BA"
-            }
-          ],
-          "rank": 4
         },
         {
           "title": "中美元首华盛顿会晤",
@@ -902,14 +853,13 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "中美两国元首在华盛顿举行会晤。",
-          "analysis": "此次会晤是在中美关系面临诸多挑战的背景下进行的，体现了双方在维护全球战略稳定和推动双边关系健康稳定发展方面的共同意愿。会晤可能涉及经贸、科技、安全等领域，对中美两国乃至全球的经济发展和地缘政治格局都将产生重要影响。后续可能包括双方签署相关协议或声明，以及后续的互动和沟通。",
+          "summary": "中美两国领导人举行会晤",
+          "analysis": "此次会晤是在当前国际形势下，中美两国领导人就双边关系和全球性问题进行沟通的重要举措。背景是中美关系复杂多变，双方在经贸、科技、安全等领域存在分歧。此次会晤对稳定双边关系、推动中美关系健康稳定发展具有重要意义。关键影响包括对全球政治经济格局的影响，以及对两国国内政策调整的潜在影响。后续走向可能包括双方在多个领域的合作与竞争。",
           "keywords": [
             "中美关系",
             "华盛顿会晤",
-            "元首会晤",
-            "国际关系",
-            "经济合作"
+            "国际政治",
+            "双边关系"
           ],
           "category": "international",
           "importance": 85,
@@ -917,6 +867,129 @@
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E5%85%83%E9%A6%96%E5%8D%8E%E7%9B%9B%E9%A1%BF%E4%BC%9A%E6%99%A4%23&t=31&band_rank=1&Refer=top"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%82%80%E8%AF%B710%E4%B8%87%E5%90%8D%E7%BE%8E%E5%9B%BD%E9%9D%92%E5%B0%91%E5%B9%B4%E6%9D%A5%E5%8D%8E%E4%BA%A4%E6%B5%81%E5%AD%A6%E4%B9%A0%23&t=31&band_rank=2&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B9%92%E4%B9%93%E6%83%85%E7%BC%98%E7%BB%AD%E5%86%99%E5%8F%8B%E8%B0%8A%E6%96%B0%E7%AF%87%23&t=31&band_rank=3&Refer=top"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=40%E4%BD%99%E5%B9%B4%20%E8%B7%A8%E8%B6%8A%E5%A4%AA%E5%B9%B3%E6%B4%8B%E7%9A%84%E5%8F%8B%E8%B0%8A"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "特朗普与习近平举行国宴",
+          "titleOrig": "Here's who attended the Trump-Xi state dinner",
+          "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-09-25T06:30:06+00:00",
+          "desc": "U.S. President Donald Trump hosted a dinner Thursday for Chinese President Xi Jinping.",
+          "hotLabel": "",
+          "summary": "特朗普总统为习近平主席举行国宴。",
+          "analysis": "此次国宴体现了中美两国在经贸关系中的重要地位，以及两国元首就双边关系和全球事务进行沟通的意愿。这背后反映了美国对稳定与中国关系的政策意图，同时也表明了中美经济相互依存的事实。对国内民生而言，稳定的中美关系有利于减少贸易摩擦带来的不确定性，对经济有积极影响。后续走向可能包括双方在经贸领域的进一步协商与合作。",
+          "keywords": [
+            "特朗普",
+            "习近平",
+            "国宴",
+            "中美关系",
+            "经贸合作"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "乒乓情缘续写友谊新篇",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B9%92%E4%B9%93%E6%83%85%E7%BC%98%E7%BB%AD%E5%86%99%E5%8F%8B%E8%B0%8A%E6%96%B0%E7%AF%87%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "乒乓球赛事成为国际友谊的桥梁。",
+          "analysis": "乒乓球作为中国的国球，在国际上具有极高的知名度和影响力。此次新闻表明，乒乓球赛事不仅是一项体育竞技活动，更是促进国际友谊和交流的重要平台。这反映了我国在国际体育领域的积极参与和贡献，以及对外友好交往的政策意图。对国内民生而言，这有助于提升国民的体育热情和国际形象；对经济而言，可能带动相关产业的发展；对治理而言，体现了我国在国际舞台上的责任和担当。后续走向可能包括更多国际赛事的举办和交流合作加深。",
+          "keywords": [
+            "乒乓球",
+            "国际友谊",
+            "体育交流",
+            "政策意图",
+            "国际形象"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B9%92%E4%B9%93%E6%83%85%E7%BC%98%E7%BB%AD%E5%86%99%E5%8F%8B%E8%B0%8A%E6%96%B0%E7%AF%87%23&t=31&band_rank=3&Refer=top"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "中美不必讳言竞争",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E4%B8%8D%E5%BF%85%E8%AE%B3%E8%A8%80%E7%AB%9E%E4%BA%89%23&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "强调中美竞争不可避免",
+          "analysis": "这一表态反映了当前中美关系中的现实。中美作为全球最大的经济体，竞争是不可避免的。这一观点的提出，意味着双方可能更加正视竞争，寻求在竞争中合作。对国内民生的影响可能体现在对科技创新、产业升级的推动；对经济的影响可能体现在对国际贸易、投资格局的调整；对治理意味着需要加强国家战略规划和风险防范。后续走向可能包括中美在特定领域的竞争加剧。",
+          "keywords": [
+            "中美竞争",
+            "国际关系",
+            "经济竞争",
+            "战略规划"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E7%BE%8E%E4%B8%8D%E5%BF%85%E8%AE%B3%E8%A8%80%E7%AB%9E%E4%BA%89%23&t=31&band_rank=7&Refer=top"
             },
             {
               "name": "The Guardian",
@@ -927,95 +1000,237 @@
               "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
             }
           ],
-          "rank": 5
-        },
-        {
-          "title": "特朗普与习近平白宫会面并参加国宴",
-          "titleOrig": "Trump, Xi to attend state dinner after White House meeting",
-          "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-24T22:09:33+00:00",
-          "desc": "Trump greeted China's Xi at Joint Base Andrews, marking the U.S. president's first time traveling to the facility to welcome a foreign leader.",
-          "hotLabel": "",
-          "summary": "美国总统特朗普在安德鲁斯联合基地迎接中国主席习近平，参加国宴。",
-          "analysis": "此次会面背景是中美两国在经济、贸易、科技等领域的竞争与合作。特朗普此次访问意在缓和中美关系，寻求在贸易问题上达成共识。对国内民生而言，可能意味着中美贸易摩擦的缓解，有利于稳定出口和就业。对经济而言，可能有助于推动两国经济政策的调整。后续走向可能包括双方在贸易、投资、科技等领域的进一步协商。",
-          "keywords": [
-            "特朗普",
-            "习近平",
-            "白宫会面",
-            "中美关系",
-            "贸易摩擦"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/heres-who-is-attending-the-trump-xi-state-dinner.html"
-            }
-          ],
           "rank": 6
         },
         {
-          "title": "2026年中国农民丰收节江苏省主场活动在常州开幕",
-          "titleOrig": "稻花香里话丰年，2026年中国农民丰收节江苏省主场活动在常州开幕 - 新华报业网",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zc29USnpJOUM3bjlJb0x1NXpQUU5yMG1tMklmOUx3c1pISHlQUzZXNGxUdW5YX2NMMGw4S3QxSnFIQkZPeWVlQV85Y1RtUnJ5SW1Rb1plbEtKT1ZyaXo5TDB6aDJJTEJYWTRR?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "黑芝麻糊霉菌超标事件",
+          "titleOrig": "黑芝麻糊检出霉菌超标27倍 维维回应",
+          "url": "https://www.baidu.com/s?wd=%E9%BB%91%E8%8A%9D%E9%BA%BB%E7%B3%8A%E6%A3%80%E5%87%BA%E9%9C%89%E8%8F%8C%E8%B6%85%E6%A0%8727%E5%80%8D%20%E7%BB%B4%E7%BB%B4%E5%9B%9E%E5%BA%94",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-09-24T23:42:00+00:00",
-          "desc": "稻花香里话丰年，2026年中国农民丰收节江苏省主场活动在常州开幕 新华报业网文艺庆丰收 城乡共融合——2026年中国农民丰收节北京市主场活动与第37届北京农民艺术节“乡村大舞台”优秀节目汇演精彩启幕 北京市人民政府门户网站岭南大地处处好“丰”景 新浪财经重庆市2026年中国农民丰收节在荣昌启幕- 中国日报网 China Daily拼多多亮相第九个中国农民丰收节 新华网",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "江苏省常州举办2026年中国农民丰收节主场活动。",
-          "analysis": "该活动体现了中国政府对于农业发展的重视，旨在庆祝丰收、弘扬农耕文化。通过举办此类活动，政府旨在提高农民的社会地位，增强农业产业的竞争力，促进城乡融合发展。对国内民生而言，这有助于提高农民的收入和生活水平，对经济意味着农业现代化和乡村振兴战略的推进，对治理意味着加强农村基础设施建设和社会治理能力的提升。后续可能看到更多支持农业发展的政策和措施出台。",
+          "summary": "黑芝麻糊产品霉菌超标，维维回应。",
+          "analysis": "食品安全问题关系到公众健康，此事件暴露了食品安全监管的不足。政府可能加强食品安全监管，提高产品质量标准。消费者对食品安全的关注将进一步提升。",
           "keywords": [
-            "农民丰收节",
-            "农业发展",
-            "城乡融合",
-            "乡村振兴",
-            "政策支持"
+            "食品安全",
+            "霉菌超标",
+            "监管加强"
           ],
           "category": "society",
           "importance": 80,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0zc29USnpJOUM3bjlJb0x1NXpQUU5yMG1tMklmOUx3c1pISHlQUzZXNGxUdW5YX2NMMGw4S3QxSnFIQkZPeWVlQV85Y1RtUnJ5SW1Rb1plbEtKT1ZyaXo5TDB6aDJJTEJYWTRR?oc=5"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/24/trump-xi-meeting-china-washington.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/chinas-xi-urges-us-to-cooperate-on-ai.html"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E9%BB%91%E8%8A%9D%E9%BA%BB%E7%B3%8A%E6%A3%80%E5%87%BA%E9%9C%89%E8%8F%8C%E8%B6%85%E6%A0%8727%E5%80%8D%20%E7%BB%B4%E7%BB%B4%E5%9B%9E%E5%BA%94"
             }
           ],
           "rank": 7
+        },
+        {
+          "title": "北大清华“一饼难求”现象引发关注",
+          "titleOrig": "北大清华“一饼难求”",
+          "url": "https://www.baidu.com/s?wd=%E5%8C%97%E5%A4%A7%E6%B8%85%E5%8D%8E%E2%80%9C%E4%B8%80%E9%A5%BC%E9%9A%BE%E6%B1%82%E2%80%9D",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "北大清华“一饼难求”现象引发社会热议。",
+          "analysis": "北大清华“一饼难求”现象反映了我国高等教育的竞争激烈，以及社会对优质教育资源的渴望。这一现象对国内教育公平提出了挑战，意味着需要进一步优化教育资源分配，提高教育质量。后续可能出台更多教育改革措施，以促进教育公平。",
+          "keywords": [
+            "北大清华",
+            "一饼难求",
+            "高等教育",
+            "教育公平",
+            "资源分配"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%8C%97%E5%A4%A7%E6%B8%85%E5%8D%8E%E2%80%9C%E4%B8%80%E9%A5%BC%E9%9A%BE%E6%B1%82%E2%80%9D"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "孙颖莎回应国乒女团金牌",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E5%9B%BD%E4%B9%92%E5%A5%B3%E5%9B%A2%E9%87%91%E7%89%8C%23&t=31&band_rank=6&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "乒乓球运动员孙颖莎回应获得金牌。",
+          "analysis": "孙颖莎作为乒乓球运动员，其个人成就体现了我国在体育领域的实力。获得金牌不仅是对运动员个人努力的肯定，也是对我国体育事业的认可。这对国内民生意味着体育精神的传承和发扬；对经济而言，可能提升体育产业的关注度；对治理而言，体现了体育事业在国家战略中的地位。后续走向可能包括更多运动员的涌现和体育事业的进一步发展。",
+          "keywords": [
+            "乒乓球",
+            "孙颖莎",
+            "金牌",
+            "体育精神",
+            "国家战略"
+          ],
+          "category": "domestic",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%AD%99%E9%A2%96%E8%8E%8E%E5%9B%9E%E5%BA%94%E5%9B%BD%E4%B9%92%E5%A5%B3%E5%9B%A2%E9%87%91%E7%89%8C%23&t=31&band_rank=6&Refer=top"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "陌生快递礼品卡陷阱需警惕",
+          "titleOrig": "陌生快递寄来礼品卡？误区要注意",
+          "url": "https://www.baidu.com/s?wd=%E9%99%8C%E7%94%9F%E5%BF%AB%E9%80%92%E5%AF%84%E6%9D%A5%E7%A4%BC%E5%93%81%E5%8D%A1%EF%BC%9F%E8%AF%AF%E5%8C%BA%E8%A6%81%E6%B3%A8%E6%84%8F",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "提醒公众注意陌生快递中的礼品卡诈骗。",
+          "analysis": "随着电子商务的快速发展，快递诈骗案件增多。此事件反映了社会治安和消费者权益保护的重要性。相关部门可能加强监管，提高公众防范意识。后续可能出台更多反诈骗措施。",
+          "keywords": [
+            "快递诈骗",
+            "消费者权益",
+            "社会治安"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E9%99%8C%E7%94%9F%E5%BF%AB%E9%80%92%E5%AF%84%E6%9D%A5%E7%A4%BC%E5%93%81%E5%8D%A1%EF%BC%9F%E8%AF%AF%E5%8C%BA%E8%A6%81%E6%B3%A8%E6%84%8F"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "张雪就泰康人寿拒赔发声",
+          "titleOrig": "张雪就泰康人寿拒赔一事发声",
+          "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%B0%B1%E6%B3%B0%E5%BA%B7%E4%BA%BA%E5%AF%BF%E6%8B%92%E8%B5%94%E4%B8%80%E4%BA%8B%E5%8F%91%E5%A3%B0",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "张雪就泰康人寿拒赔事件发表意见。",
+          "analysis": "此事件涉及保险行业的服务质量和消费者权益保护。政府可能加强对保险行业的监管，保障消费者权益。对保险行业的服务规范和消费者信心有重要影响。",
+          "keywords": [
+            "保险拒赔",
+            "消费者权益",
+            "行业监管"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%BC%A0%E9%9B%AA%E5%B0%B1%E6%B3%B0%E5%BA%B7%E4%BA%BA%E5%AF%BF%E6%8B%92%E8%B5%94%E4%B8%80%E4%BA%8B%E5%8F%91%E5%A3%B0"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "李一桐北舞严选含金量持续上升",
+          "titleOrig": "李一桐北舞严选的含金量还在上升",
+          "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E4%B8%80%E6%A1%90%E5%8C%97%E8%88%9E%E4%B8%A5%E9%80%89%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F%E8%BF%98%E5%9C%A8%E4%B8%8A%E5%8D%87",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "李一桐北舞严选含金量持续上升，引发关注。",
+          "analysis": "李一桐北舞严选的含金量上升，反映了我国艺术教育领域的竞争加剧。这背后是政策对艺术教育重视度的提升，以及社会对艺术人才需求的增加。这一现象对国内艺术教育行业的发展具有积极意义，有助于提高艺术教育质量，培养更多优秀艺术人才。后续可能看到更多类似选拔机制的推广，以激发艺术教育领域的活力。",
+          "keywords": [
+            "李一桐",
+            "北舞严选",
+            "艺术教育",
+            "政策支持",
+            "人才选拔"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%9D%8E%E4%B8%80%E6%A1%90%E5%8C%97%E8%88%9E%E4%B8%A5%E9%80%89%E7%9A%84%E5%90%AB%E9%87%91%E9%87%8F%E8%BF%98%E5%9C%A8%E4%B8%8A%E5%8D%87"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "中国邀请10万名美国青少年来华交流学习",
+          "titleOrig": "邀请10万名美国青少年来华交流学习",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%82%80%E8%AF%B710%E4%B8%87%E5%90%8D%E7%BE%8E%E5%9B%BD%E9%9D%92%E5%B0%91%E5%B9%B4%E6%9D%A5%E5%8D%8E%E4%BA%A4%E6%B5%81%E5%AD%A6%E4%B9%A0%23&t=31&band_rank=2&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#2",
+          "summary": "中国邀请10万名美国青少年来华交流学习。",
+          "analysis": "此举旨在加强中美两国人民之间的相互了解和友谊，体现了中国对外开放的政策意图。对国内社会而言，有利于提升中国在国际社会中的形象，促进文化交流。后续可能包括更多类似的文化交流项目，增进中美两国人民的相互理解。",
+          "keywords": [
+            "中美交流",
+            "青少年",
+            "文化交流",
+            "对外开放",
+            "国际关系"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%82%80%E8%AF%B710%E4%B8%87%E5%90%8D%E7%BE%8E%E5%9B%BD%E9%9D%92%E5%B0%91%E5%B9%B4%E6%9D%A5%E5%8D%8E%E4%BA%A4%E6%B5%81%E5%AD%A6%E4%B9%A0%23&t=31&band_rank=2&Refer=top"
+            },
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/09/25/g-s1-144973/trump-state-dinner-xi"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cr93e4x7kdjjo?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c6gqdgg8w59xo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 13
         },
         {
           "title": "国乒女团金牌",
@@ -1030,223 +1245,34 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "中国乒乓球女团获得金牌。",
-          "analysis": "中国乒乓球女团获得金牌体现了我国在乒乓球领域的强大实力。对国内体育事业的发展意味着我国乒乓球运动在国际赛场上的地位稳固。后续可能继续推动乒乓球运动的发展，提高国家体育水平。",
+          "summary": "中国乒乓球女团获得金牌",
+          "analysis": "中国乒乓球女团获得金牌是体育领域的重大成就，体现了中国体育事业的强大实力。这一成就对国内体育事业的发展具有激励作用，有助于提升国民体育精神。对经济的影响可能体现在体育产业和相关产业链的发展；对治理意味着需要继续加大对体育事业的投入和支持。后续走向可能包括中国体育在国际舞台上的持续表现。",
           "keywords": [
             "乒乓球",
-            "女团",
-            "金牌",
-            "体育事业",
-            "国际地位"
+            "体育成就",
+            "体育精神",
+            "体育产业"
           ],
-          "category": "domestic",
-          "importance": 80,
+          "category": "society",
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%E5%9B%BD%E4%B9%92%E5%A5%B3%E5%9B%A2%E9%87%91%E7%89%8C&t=31&band_rank=10&Refer=top"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "重庆立法要求艾滋病感染者告知配偶",
-          "titleOrig": "重庆立法艾滋病感染者应告知配偶",
-          "url": "https://www.zhihu.com/search?q=%E9%87%8D%E5%BA%86%E7%AB%8B%E6%B3%95%E8%89%BE%E6%BB%8B%E7%97%85%E6%84%9F%E6%9F%93%E8%80%85%E5%BA%94%E5%91%8A%E7%9F%A5%E9%85%8D%E5%81%B6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "重庆通过立法，规定艾滋病感染者需告知配偶。",
-          "analysis": "该立法反映了我国对艾滋病防治工作的重视，旨在提高感染者配偶的知情权和自我保护意识。政策意图在于加强预防措施，减少病毒传播。对社会而言，这一举措有助于提高公众对艾滋病的认识，促进社会对感染者的理解和包容。后续可能推动更多地区出台类似政策，形成全国范围内的防控合力。",
-          "keywords": [
-            "艾滋病",
-            "立法",
-            "告知配偶",
-            "防治",
-            "社会包容"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
+            },
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%87%8D%E5%BA%86%E7%AB%8B%E6%B3%95%E8%89%BE%E6%BB%8B%E7%97%85%E6%84%9F%E6%9F%93%E8%80%85%E5%BA%94%E5%91%8A%E7%9F%A5%E9%85%8D%E5%81%B6"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "车企集体和宁德提分手",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%BD%A6%E4%BC%81%E9%9B%86%E4%BD%93%E5%92%8C%E5%AE%81%E5%BE%B7%E6%8F%90%E5%88%86%E6%89%8B",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "多家车企与宁德时代终止合作关系。",
-          "analysis": "事件背景：宁德时代作为电池供应商，与多家车企建立了紧密的合作关系。关键影响：可能影响新能源汽车产业链的稳定，对新能源汽车市场产生波动。后续走向：车企可能寻找新的供应商，宁德时代需加强市场竞争力。",
-          "keywords": [
-            "车企",
-            "宁德时代",
-            "合作关系",
-            "新能源汽车",
-            "产业链"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%BD%A6%E4%BC%81%E9%9B%86%E4%BD%93%E5%92%8C%E5%AE%81%E5%BE%B7%E6%8F%90%E5%88%86%E6%89%8B"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "人民日报评第一学历歧视",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E7%AC%AC%E4%B8%80%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "人民日报就学历歧视现象发表评论。",
-          "analysis": "事件背景：随着社会对学历的重视，第一学历歧视现象日益严重，影响了人才流动和公平竞争。关键影响：对国内民生和社会公平产生负面影响，可能导致人才浪费和社会阶层固化。后续走向：政府可能出台相关政策，加强教育公平，减少学历歧视。",
-          "keywords": [
-            "学历歧视",
-            "人才流动",
-            "社会公平",
-            "教育政策",
-            "人民日报"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BA%BA%E6%B0%91%E6%97%A5%E6%8A%A5%E8%AF%84%E7%AC%AC%E4%B8%80%E5%AD%A6%E5%8E%86%E6%AD%A7%E8%A7%86"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "王楚钦0-3张本智和",
-          "titleOrig": "王楚钦 0-3 张本智和",
-          "url": "https://www.zhihu.com/search?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%200-3%20%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "乒乓球运动员王楚钦在比赛中不敌张本智和。",
-          "analysis": "王楚钦与张本智和的比赛体现了我国乒乓球运动员在国际赛场上的竞技水平。这一结果可能反映出我国乒乓球后备力量的培养需要进一步加强。对国内体育事业的发展意味着需要提高训练水平，培养更多优秀运动员。后续可能需要国家体育总局出台更多政策支持乒乓球运动的发展。",
-          "keywords": [
-            "乒乓球",
-            "比赛",
-            "运动员",
-            "竞技水平",
-            "体育发展"
-          ],
-          "category": "domestic",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%8E%8B%E6%A5%9A%E9%92%A6%200-3%20%E5%BC%A0%E6%9C%AC%E6%99%BA%E5%92%8C"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "饭桌上吃得越少别人越拿不准",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E9%A5%AD%E6%A1%8C%E4%B8%8A%E5%90%83%E5%BE%97%E8%B6%8A%E5%B0%91%E5%88%AB%E4%BA%BA%E8%B6%8A%E6%8B%BF%E4%B8%8D%E5%87%86&t=31&band_rank=13&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "饭桌现象反映社会关系微妙变化。",
-          "analysis": "此新闻反映了中国社会关系中的一种微妙变化。在传统文化中，饭桌上的饮食量往往被视为衡量关系亲疏的标准。如今，人们可能因为健康、节俭或其他原因而减少饭桌上的食物摄入，这可能导致他人对关系的解读产生偏差。这一现象背后反映了中国社会在经济发展和生活方式变化中，传统价值观与现代社会观念之间的碰撞。对于国内民生而言，这可能是对个人饮食习惯和健康意识的重视；对于经济，可能影响餐饮行业的经营策略；对于社会治理，意味着需要更加细致地理解和引导社会关系的发展。后续走向可能包括社会对健康生活方式的进一步推广，以及餐饮业和服务业的调整。",
-          "keywords": [
-            "饭桌文化",
-            "社会关系",
-            "饮食习惯",
-            "健康意识",
-            "餐饮行业"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E9%A5%AD%E6%A1%8C%E4%B8%8A%E5%90%83%E5%BE%97%E8%B6%8A%E5%B0%91%E5%88%AB%E4%BA%BA%E8%B6%8A%E6%8B%BF%E4%B8%8D%E5%87%86&t=31&band_rank=13&Refer=top"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "潘展乐责任全在我",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E6%BD%98%E5%B1%95%E4%B9%90%E8%B4%A3%E4%BB%BB%E5%85%A8%E5%9C%A8%E6%88%91&t=31&band_rank=14&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "潘展乐在微博热搜中承认责任。",
-          "analysis": "潘展乐作为公众人物，其言论和行为受到广泛关注。此次事件可能涉及个人责任与公众形象的问题，反映出公众对于名人责任和道德的期待。对国内民生而言，这表明公众对于社会公正和道德规范的重视；对经济影响有限，但可能对个人品牌和商业合作产生负面影响；后续走向取决于事件的具体情况和潘展乐的处理方式，可能涉及道歉、法律诉讼等。",
-          "keywords": [
-            "潘展乐",
-            "责任",
-            "微博热搜",
-            "公众形象",
-            "道德"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%BD%98%E5%B1%95%E4%B9%90%E8%B4%A3%E4%BB%BB%E5%85%A8%E5%9C%A8%E6%88%91&t=31&band_rank=14&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%96%E7%95%8C%E6%8A%80%E8%83%BD%E5%A4%A7%E8%B5%9B%E7%A9%B6%E7%AB%9F%E6%AF%94%E4%BB%80%E4%B9%88"
             }
           ],
           "rank": 14
         },
         {
-          "title": "腾讯「龙虾」将正式停止运营",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%85%BE%E8%AE%AF%E3%80%8C%E9%BE%99%E8%99%BE%E3%80%8D%E5%B0%86%E6%AD%A3%E5%BC%8F%E5%81%9C%E6%AD%A2%E8%BF%90%E8%90%A5",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "title": "全国赏秋地图发布",
+          "titleOrig": "全国赏秋地图来了",
+          "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E8%B5%8F%E7%A7%8B%E5%9C%B0%E5%9B%BE%E6%9D%A5%E4%BA%86",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1254,65 +1280,29 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "腾讯旗下社交平台「龙虾」宣布停止运营。",
-          "analysis": "事件背景：腾讯在社交领域不断尝试，但「龙虾」未能取得成功。关键影响：反映了腾讯在社交领域的挑战，可能影响其社交生态布局。后续走向：腾讯可能调整社交战略，聚焦核心产品。",
+          "summary": "国家发布赏秋地图，推广秋季旅游资源。",
+          "analysis": "此举旨在响应国家关于促进旅游消费的政策，通过推广秋季旅游资源，带动地方经济发展，同时提升国民休闲生活品质。对国内旅游业有积极推动作用，有助于促进区域均衡发展。后续可能推出更多相关旅游推广活动。",
           "keywords": [
-            "腾讯",
-            "社交平台",
-            "龙虾",
-            "运营停止",
-            "社交战略"
+            "赏秋地图",
+            "旅游消费",
+            "区域发展"
           ],
-          "category": "tech",
-          "importance": 65,
+          "category": "society",
+          "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%85%BE%E8%AE%AF%E3%80%8C%E9%BE%99%E8%99%BE%E3%80%8D%E5%B0%86%E6%AD%A3%E5%BC%8F%E5%81%9C%E6%AD%A2%E8%BF%90%E8%90%A5"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%85%A8%E5%9B%BD%E8%B5%8F%E7%A7%8B%E5%9C%B0%E5%9B%BE%E6%9D%A5%E4%BA%86"
             }
           ],
           "rank": 15
         },
         {
-          "title": "【早报】商务部：中美第八轮经贸磋商达成多项共识；中际旭创完成50亿元股份回购 - 财联社",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1NMG1lNzNuYzZaLWJDRjVqbkVRdGVXSDBnNHdia1hROWlGdjRrY29EcXFhM1hiSlNLWk5kUVdQY0dsN3Etc0k0Mg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-09-24T23:06:00+00:00",
-          "desc": "【早报】商务部：中美第八轮经贸磋商达成多项共识；中际旭创完成50亿元股份回购 财联社中美第八轮经贸磋商达成多项共识 新浪财经习近平抵达华盛顿后不久，美财长宣布，美中决定将贸易休战延长两个月 美国之音商务部：中美双方就人工智能进行了首次对话 凤凰网美财长称中美已同意将贸易休战协议延期至明年1月，外交部回应 thepaper.cn",
-          "hotLabel": "",
-          "summary": "【早报】商务部：中美第八轮经贸磋商达成多项共识；中际旭创完成…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\n【早报】商务部：中美第八轮经贸磋商达成多项共识；中际旭创完成50亿元股份回购 财联社中美第八轮经贸磋商达成多项共识 新浪财经习近平抵达华盛顿后不久，美财长宣布，美中决定将贸易休战延长两个月 美国之音商务部：中美双方就人工智能进行了首次对话 凤凰网美财长称中美已同意将贸易休战协议延期至明年1月，外交部回应 thepaper.cn",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1NMG1lNzNuYzZaLWJDRjVqbkVRdGVXSDBnNHdia1hROWlGdjRrY29EcXFhM1hiSlNLWk5kUVdQY0dsN3Etc0k0Mg?oc=5"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/sep/24/xi-jinping-trump-china-cooperation-thucydides-trap"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/sep/23/trump-xi-jinping-china-us-state-visit"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "豆包员工感慨豆包成边缘产品",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%B1%86%E5%8C%85%E5%91%98%E5%B7%A5%E6%84%9F%E6%85%A8%E8%B1%86%E5%8C%85%E6%88%90%E8%BE%B9%E7%BC%98%E4%BA%A7%E5%93%81",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "title": "大聪明堵路事件引发热议",
+          "titleOrig": "第一波出发的大聪明堵路上了",
+          "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%87%BA%E5%8F%91%E7%9A%84%E5%A4%A7%E8%81%AA%E6%98%8E%E5%A0%B5%E8%B7%AF%E4%B8%8A%E4%BA%86",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1320,24 +1310,28 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "豆包员工反映豆包产品在市场上的边缘化。",
-          "analysis": "事件背景：豆包作为传统食品，在市场竞争中逐渐边缘化。关键影响：反映了传统产业在现代化进程中的挑战，对就业和产业转型产生影响。后续走向：豆包企业可能寻求转型升级，或面临市场淘汰。",
+          "summary": "大聪明堵路事件引发社会广泛关注。",
+          "analysis": "大聪明堵路事件暴露了我国交通管理中存在的问题，反映了社会对交通秩序的重视。这一事件对国内交通治理提出了挑战，意味着需要加强交通法规的执行和公共秩序的维护。后续可能出台更严格的交通管理措施，以减少类似事件的发生。",
           "keywords": [
-            "豆包",
-            "传统食品",
-            "市场边缘化",
-            "产业转型",
-            "就业"
+            "大聪明",
+            "堵路",
+            "交通管理",
+            "公共秩序",
+            "社会治理"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%B1%86%E5%8C%85%E5%91%98%E5%B7%A5%E6%84%9F%E6%85%A8%E8%B1%86%E5%8C%85%E6%88%90%E8%BE%B9%E7%BC%98%E4%BA%A7%E5%93%81"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%87%BA%E5%8F%91%E7%9A%84%E5%A4%A7%E8%81%AA%E6%98%8E%E5%A0%B5%E8%B7%AF%E4%B8%8A%E4%BA%86"
+            },
+            {
+              "name": "今日头条",
+              "url": "https://www.toutiao.com/trending/7688976482849275946/?category_name=topic_innerflow&event_type=hot_board&log_pb=%7B%22category_name%22%3A%22topic_innerflow%22%2C%22cluster_type%22%3A%228%22%2C%22enter_from%22%3A%22click_category%22%2C%22entrance_hotspot%22%3A%22outside%22%2C%22event_type%22%3A%22hot_board%22%2C%22hot_board_cluster_id%22%3A%227688976482849275946%22%2C%22hot_board_impr_id%22%3A%2220260925020259C9FF6EBCB9E09DE5EFBA%22%2C%22jump_page%22%3A%22hot_board_page%22%2C%22location%22%3A%22news_hot_card%22%2C%22page_location%22%3A%22hot_board_page%22%2C%22source%22%3A%22trending_tab%22%2C%22style_id%22%3A%2240132%22%2C%22title%22%3A%22%E7%AC%AC%E4%B8%80%E6%B3%A2%E5%87%BA%E5%8F%91%E7%9A%84%E2%80%9C%E5%A4%A7%E8%81%AA%E6%98%8E%E2%80%9D%E5%A0%B5%E8%B7%AF%E4%B8%8A%E4%BA%86%22%7D&rank=&style_id=40132&topic_id=7688976482849275946"
             }
           ],
-          "rank": 17
+          "rank": 16
         },
         {
           "title": "喝完泰奶差点要见太奶了",
@@ -1352,55 +1346,61 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "网友调侃喝完泰国牛奶差点见到祖先。",
-          "analysis": "这则新闻反映了网友对食品安全和健康问题的关注。社会成因在于食品安全问题频发，导致消费者对食品质量产生担忧。对国内民生意味着需要加强食品安全监管，提高食品质量。后续可能出台更严格的食品安全法规，加强市场监管。",
+          "summary": "网友调侃牛奶质量问题。",
+          "analysis": "这则新闻反映了消费者对食品安全的高度关注。牛奶质量问题可能源于生产环节的监管不严或企业追求利润而忽视产品质量。这对国内民生意味着食品安全风险增加，可能引发消费者对食品安全的恐慌；对经济而言，可能损害相关企业的信誉和消费者信心；对治理而言，强调了加强食品安全监管的必要性。后续走向可能包括监管部门介入调查，企业采取措施挽回声誉。",
           "keywords": [
-            "食品安全",
             "牛奶",
+            "食品安全",
             "消费者",
             "监管",
-            "健康问题"
+            "质量危机"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23%E5%96%9D%E5%AE%8C%E6%B3%B0%E5%A5%B6%E5%B7%AE%E7%82%B9%E8%A6%81%E8%A7%81%E5%A4%AA%E5%A5%B6%E4%BA%86%23&t=31&band_rank=4&Refer=top"
             }
           ],
+          "rank": 17
+        },
+        {
+          "title": "男孩熟练打包牡蛎，效率惊人",
+          "titleOrig": "男孩熟练打包牡蛎：一箱仅二十多秒",
+          "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%A9%E7%86%9F%E7%BB%83%E6%89%93%E5%8C%85%E7%89%A1%E8%9B%8E%EF%BC%9A%E4%B8%80%E7%AE%B1%E4%BB%85%E4%BA%8C%E5%8D%81%E5%A4%9A%E7%A7%92",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "男孩熟练打包牡蛎，展示惊人效率。",
+          "analysis": "男孩熟练打包牡蛎的事件体现了我国劳动力市场的变化，年轻一代在劳动技能上的提升。这反映了我国职业教育和技能培训的成果，对提高劳动生产率具有积极意义。后续可能看到更多类似技能培训的推广，以适应经济发展的需求。",
+          "keywords": [
+            "男孩",
+            "牡蛎",
+            "打包",
+            "劳动技能",
+            "职业教育"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E7%94%B7%E5%AD%A9%E7%86%9F%E7%BB%83%E6%89%93%E5%8C%85%E7%89%A1%E8%9B%8E%EF%BC%9A%E4%B8%80%E7%AE%B1%E4%BB%85%E4%BA%8C%E5%8D%81%E5%A4%9A%E7%A7%92"
+            }
+          ],
           "rank": 18
         },
         {
-          "title": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
-          "titleOrig": "Atlanta is getting pandas: China's Xi revives a longtime diplomatic strategy at summit with U.S.",
-          "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-09-25T01:12:19+00:00",
-          "desc": "Chinese President Xi Jinping promised two giant pandas to Zoo Atlanta, reviving Beijing's decades-old charm offensive.",
-          "hotLabel": "",
-          "summary": "Chinese President Xi Jinping p…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\nChinese President Xi Jinping promised two giant pandas to Zoo Atlanta, reviving Beijing's decades-old charm offensive.",
-          "keywords": [],
-          "category": "economy",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/09/25/china-us-xi-trump-visit-panda-student-visa-.html"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "港媒取的标题也太好笑了",
+          "title": "郑钦文 观众干扰比赛",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E6%B8%AF%E5%AA%92%E5%8F%96%E7%9A%84%E6%A0%87%E9%A2%98%E4%B9%9F%E5%A4%AA%E5%A5%BD%E7%AC%91%E4%BA%86&t=31&band_rank=12&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%E9%83%91%E9%92%A6%E6%96%87%20%E8%A7%82%E4%BC%97%E5%B9%B2%E6%89%B0%E6%AF%94%E8%B5%9B&t=31&band_rank=8&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1410,21 +1410,52 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "香港媒体标题引发网友热议。",
-          "analysis": "这则新闻反映了香港媒体在新闻报道中的风格和态度。社会成因在于媒体竞争激烈，追求吸引眼球。对国内社会意味着需要关注媒体舆论导向，引导媒体正确报道。后续可能出台相关法规，规范媒体行为。",
+          "summary": "乒乓球运动员郑钦文比赛中遭遇观众干扰。",
+          "analysis": "观众干扰比赛反映了体育赛事中观众行为规范的重要性。这不仅影响了运动员的表现，也可能损害体育赛事的公正性和观赏性。对国内民生而言，这提醒了观众在享受体育赛事时应遵守秩序；对经济而言，可能影响赛事的商业价值；对治理而言，强调了加强赛事管理和观众教育的必要性。后续走向可能包括赛事组织者采取措施维护秩序。",
           "keywords": [
-            "香港媒体",
-            "标题",
-            "舆论导向",
-            "媒体报道",
-            "媒体法规"
+            "乒乓球",
+            "观众干扰",
+            "赛事管理",
+            "体育公正",
+            "观众教育"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 65,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%B8%AF%E5%AA%92%E5%8F%96%E7%9A%84%E6%A0%87%E9%A2%98%E4%B9%9F%E5%A4%AA%E5%A5%BD%E7%AC%91%E4%BA%86&t=31&band_rank=12&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%E9%83%91%E9%92%A6%E6%96%87%20%E8%A7%82%E4%BC%97%E5%B9%B2%E6%89%B0%E6%AF%94%E8%B5%9B&t=31&band_rank=8&Refer=top"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "坐高铁用不用一次性座椅套垫",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%9D%90%E9%AB%98%E9%93%81%E7%94%A8%E4%B8%8D%E7%94%A8%E4%B8%80%E6%AC%A1%E6%80%A7%E5%BA%A7%E6%A4%85%E5%A5%97%E5%9E%AB",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "讨论高铁座椅套垫使用问题",
+          "analysis": "这一话题反映了公众对环保和资源利用的关注。使用一次性座椅套垫与环保理念相悖，可能引发公众对高铁服务质量和环保政策的讨论。对经济的影响可能体现在对高铁服务标准的提升；对社会的影响可能体现在公众环保意识的提高。后续走向可能包括高铁服务标准的调整和环保政策的实施。",
+          "keywords": [
+            "高铁",
+            "环保",
+            "资源利用",
+            "服务标准"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%9D%90%E9%AB%98%E9%93%81%E7%94%A8%E4%B8%8D%E7%94%A8%E4%B8%80%E6%AC%A1%E6%80%A7%E5%BA%A7%E6%A4%85%E5%A5%97%E5%9E%AB"
             }
           ],
           "rank": 20
