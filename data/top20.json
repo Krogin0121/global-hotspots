@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T15:47:20.652409+00:00",
+  "generatedAt": "2026-10-16T20:15:55.346160+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 30,
+      "count": 29,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 12,
       "ok": true
     },
     {
@@ -90,87 +90,147 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多方面的紧张与挑战。中东地区以色列选举中阿拉伯与犹太人的合作尝试，以及乌克兰局势的紧张，凸显了地区冲突的复杂性。欧洲对SpaceX的回应和阿尔巴尼亚的抗议活动，反映出地缘政治与经济利益的交织。科技领域，人工智能的发展对就业市场的影响成为焦点。此外，全球性的健康危机如厄尔尼诺现象和肯尼亚的埃博拉疫情，以及日本和肯尼亚的自然灾害，都表明国际社会正面临多重挑战。总体来看，国际局势复杂多变，各方利益博弈激烈，值得持续关注。",
+      "digest": "今日国际局势呈现出多方面的紧张与挑战。地缘政治方面，伊朗与沙特之间的紧张关系加剧，霍尔木兹海峡的袭击事件引发市场对能源供应的担忧。美国经济挑战依然严峻，赤字与国债收益率成为焦点。胡塞武装对沙特的袭击可能影响该国的体育和商业活动。经济领域，债务问题对个人收入产生负面影响，厄尔尼诺现象威胁全球糖供应，特斯拉与SpaceX的合并可能性引发市场关注。科技方面，苹果发布的新iPhone双折叠版面临市场考验。此外，英国考虑对中国电动汽车征收关税，教皇健康问题、施瓦布的经济策略、美国海岸警卫队的救援行动等也成为国际关注的焦点。总体来看，国际局势复杂多变，地缘政治、经济和科技领域均存在潜在风险。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "以色列选举中的阿拉伯关键人物寻求与犹太人合作",
-          "titleOrig": "The Arab Kingmaker in Israel’s Election Who Wants a Partnership With Jews",
-          "url": "https://www.nytimes.com/2026/10/16/world/middleeast/israel-mansour-abbas.html",
+          "title": "布伦特原油价格触及110美元：伊朗扩大霍尔木兹海峡袭击，乌克兰誓言打击俄罗斯炼油厂",
+          "titleOrig": "Brent oil touches $110 as Iran escalates Hormuz attacks, Ukraine vows to hit Russian refineries",
+          "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T20:02:21+00:00",
+          "desc": "U.S. crude oil prices rose sharply Friday as Iran escalated attacks in the Strait of Hormuz this week.",
+          "hotLabel": "",
+          "summary": "随着伊朗加大霍尔木兹海峡的袭击力度，美国原油价格周五大幅上涨，乌克兰誓言打击俄罗斯炼油厂。",
+          "analysis": "伊朗的袭击可能引发地区冲突，导致石油供应中断，推高全球油价。这对依赖石油出口的经济体尤其不利，并可能加剧全球经济不确定性。乌克兰的行动可能加剧俄乌冲突，影响欧洲能源安全。",
+          "keywords": [
+            "伊朗",
+            "霍尔木兹海峡",
+            "石油价格",
+            "俄乌冲突",
+            "能源安全"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/oil-price-today-iran-strait-hormuz-ukraine-russia.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "分析：为何2万亿美元赤字和5%的美国国债收益率成为美国最大的经济挑战",
+          "titleOrig": "Analysis: Why a $2 trillion deficit and 5% Treasury yields are becoming America's biggest economic challenge",
+          "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T18:04:20+00:00",
+          "desc": "Treasury yields above 5% are raising borrowing costs for households and the federal government, highlighting the challenge of financing $2 trillion deficits.",
+          "hotLabel": "",
+          "summary": "美国国债收益率超过5%，增加了家庭和联邦政府的借贷成本，凸显了2万亿美元赤字的融资挑战。",
+          "analysis": "美国面临的赤字和利率问题反映了其经济政策的挑战。高利率可能导致借贷成本上升，影响经济增长和消费。后续走向可能包括政策调整、市场反应以及对全球经济的影响。",
+          "keywords": [
+            "美国",
+            "赤字",
+            "国债收益率",
+            "经济挑战",
+            "政策调整"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/15/treasury-yields-deficit-national-debt-ai.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "胡塞武装袭击沙特阿拉伯，质疑王国体育和商业活动的未来",
+          "titleOrig": "Houthi Attacks on Saudi Arabia Put In Doubt Kingdom’s Sports and Business Events",
+          "url": "https://www.nytimes.com/2026/10/16/world/middleeast/saudi-arabia-houthi-attack-fii-events.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T09:56:26+00:00",
-          "desc": "Mansour Abbas, a dentist-turned-lawmaker, helped oust Benjamin Netanyahu once before. Now, he and a Jewish ex-police commander have teamed up to try to do it again.",
+          "publishedAt": "2026-10-16T15:52:50+00:00",
+          "desc": "The Iran-backed group’s attacks have disrupted sports tournaments and threatened business events that the kingdom has long used to attract investment and raise its profile.",
           "hotLabel": "",
-          "summary": "曼苏尔·阿巴斯与犹太前警官联手，试图再次推翻内塔尼亚胡。",
-          "analysis": "阿巴斯的政治崛起反映了以色列国内阿拉伯社群的政治影响力增强。此次合作可能改变以色列政治格局，影响巴以关系和地区稳定。后续可能看到更多跨族裔的政治联盟和合作尝试。",
+          "summary": "胡塞武装袭击破坏了沙特体育赛事，威胁到商业活动，这些活动曾用于吸引投资和提升国际形象。",
+          "analysis": "胡塞武装对沙特阿拉伯的袭击反映了中东地区持续的不稳定，对沙特的经济和外交政策构成挑战。这些袭击可能损害沙特在国际上的形象，影响其吸引投资的能力。长期来看，这可能加剧地区紧张局势，并对全球能源市场产生负面影响。后续可能包括国际社会的介入和地区冲突的升级。",
           "keywords": [
-            "以色列",
-            "选举",
-            "阿拉伯",
-            "政治联盟",
-            "巴以关系"
+            "胡塞武装",
+            "沙特阿拉伯",
+            "袭击",
+            "投资",
+            "能源"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/16/world/middleeast/israel-mansour-abbas.html"
-            },
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/10/16/world/middleeast/saudi-arabia-houthi-attack-fii-events.html"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/16/world/europe/ukraine-war-life-in-kyiv.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/wall-streets-fear-gauge-is-ripping-traders-see-it-going-even-higher.html"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/15/world/middleeast/yemen-strike-aden-palace.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/spacex-policy-manger-to-testify-in-nyc-council-ai-safety-investigation.html"
             }
           ],
-          "rank": 1
+          "rank": 3
         },
         {
-          "title": "泽连斯基称乌克兰有权自卫，特朗普称最新袭击为“耻辱”",
-          "titleOrig": "Zelensky says Ukraine has right to defend itself after Trump calls latest strikes a 'disgrace'",
-          "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
+          "title": "委内瑞拉反对派领导人指责特朗普新石油伙伴腐败",
+          "titleOrig": "Venezuela’s Opposition Leader Calls Trump’s New Oil Partner Corrupt",
+          "url": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T15:22:12+00:00",
-          "desc": "EU leaders rally around Ukraine's president after new criticism from Donald Trump, who says Zelensky is \"more difficult to work with than Putin\".",
+          "publishedAt": "2026-10-16T16:29:10+00:00",
+          "desc": "As ties with the Trump administration fray, María Corina Machado said her return to Venezuela would come “sooner than you would expect.”",
           "hotLabel": "",
-          "summary": "欧盟领导人支持乌克兰总统泽连斯基，特朗普称其比普京难相处。",
-          "analysis": "背景：特朗普对乌克兰总统泽连斯基的最新批评，反映了美乌关系中的紧张和复杂性。关键影响：此事件可能加剧乌克兰与俄罗斯之间的紧张关系，影响欧洲安全格局。后续走向：欧盟可能进一步加强对乌克兰的支持，而美俄关系可能因此进一步紧张。",
+          "summary": "委内瑞拉反对派领导人批评特朗普政府的新石油合作伙伴。",
+          "analysis": "委内瑞拉反对派领导人马里亚·科琳娜·马查多对特朗普政府的新石油合作伙伴表示腐败指控，这反映了委内瑞拉国内政治斗争的激烈程度。这一事件可能加剧委内瑞拉与美国之间的紧张关系，并对拉丁美洲地区的政治格局产生影响。后续可能看到委内瑞拉反对派在国际社会寻求更多支持，同时美国可能会加强对其石油产业的制裁。",
           "keywords": [
-            "乌克兰",
+            "委内瑞拉",
             "特朗普",
-            "泽连斯基",
-            "欧盟",
-            "美俄关系"
+            "石油",
+            "腐败",
+            "反对派"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c58jz174w89ro?at_medium=RSS&at_campaign=rss"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html"
             }
           ],
-          "rank": 2
+          "rank": 4
         },
         {
-          "title": "阿尔巴尼亚抗议活动升级：最新情况",
+          "title": "阿尔巴尼亚抗议升级：最新情况",
           "titleOrig": "Albanian protests turn violent: What we know",
           "url": "https://www.bbc.co.uk/news/articles/cqdjv90d1jpko?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -182,13 +242,14 @@
           "publishedAt": "2026-10-16T14:33:32+00:00",
           "desc": "Albania's capital Tirana has seen months of protests from an anti-government \"Flamingo\" movement, but what started on Tuesday this week was on a different scale.",
           "hotLabel": "",
-          "summary": "阿尔巴尼亚首都蒂拉纳发生数月抗议活动，本周暴力升级。",
-          "analysis": "阿尔巴尼亚的抗议活动反映了民众对政府的不满，可能涉及政治体制、经济困境和社会不公等问题。抗议的升级可能加剧阿尔巴尼亚国内的政治紧张，对地区稳定构成威胁。后续可能引发更多抗议活动，甚至可能导致政府更迭。对周边国家及国际社会而言，可能引发对巴尔干地区稳定的担忧。",
+          "summary": "阿尔巴尼亚首都蒂拉纳的反对派“火烈鸟”运动抗议持续数月，本周二的事件规模升级。",
+          "analysis": "阿尔巴尼亚的抗议活动反映了民众对政府的不满，可能源于经济困难、政治腐败或政策失误。这些抗议可能加剧地区不稳定，影响阿尔巴尼亚与欧盟的关系，并对邻国产生连锁反应。后续可能包括政府更迭、政策调整或更广泛的地区动荡。",
           "keywords": [
             "阿尔巴尼亚",
             "抗议",
-            "政治",
-            "地区稳定"
+            "政治不稳定",
+            "欧盟",
+            "地区安全"
           ],
           "category": "international",
           "importance": 85,
@@ -198,71 +259,71 @@
               "url": "https://www.bbc.co.uk/news/articles/cqdjv90d1jpko?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 3
+          "rank": 5
         },
         {
-          "title": "欧洲对SpaceX的回应股价上涨19%，Starshield在乌克兰的局限性引发担忧",
-          "titleOrig": "Europe's answer to SpaceX pops 19% as Ukraine's Starshield limits raise concerns",
-          "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html",
+          "title": "特朗普及其共和党中期选举巨额投入为何效果不佳",
+          "titleOrig": "Why Trump and the GOP's billion-dollar midterm blitz isn’t working",
+          "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T14:04:19+00:00",
-          "desc": "Eutelsat's shares soared this week and continued climbing on Friday as its competitor Starshield drew criticism over its limitations in Ukraine.",
+          "publishedAt": "2026-10-16T17:55:05+00:00",
+          "desc": "Trump-aligned groups and Elon Musk have poured hundreds of millions into the midterm election, but the GOP spending surge has barely moved polls or the map.",
           "hotLabel": "",
-          "summary": "Eutelsat股价因Starshield在乌克兰的局限性而上涨。",
-          "analysis": "Eutelsat股价上涨反映了欧洲对太空产业的重视，以及对Starshield在乌克兰局限性可能带来的市场机遇的认可。Starshield的局限性可能限制了其在乌克兰的市场份额，这可能会对欧洲太空产业格局产生影响。未来，欧洲太空产业可能面临更激烈的竞争，同时乌克兰局势也可能成为影响该行业发展的关键因素。",
+          "summary": "特朗普支持的组织和埃隆·马斯克投入数亿美元支持中期选举，但共和党的资金投入并未显著影响民意调查或选举格局。",
+          "analysis": "特朗普及其共和党在此次中期选举中投入巨资，旨在巩固政治地位和影响力。然而，资金投入并未带来预期的选举结果，反映了选民对当前政策的失望和对未来方向的迷茫。这可能会对共和党未来策略产生重要影响，并可能加剧美国政治极化。后续走向可能包括政治策略的调整和选民情绪的进一步变化。",
           "keywords": [
-            "Eutelsat",
-            "Starshield",
-            "欧洲太空产业",
-            "乌克兰",
-            "市场机遇"
+            "特朗普",
+            "共和党",
+            "中期选举",
+            "资金投入",
+            "民意调查"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/10/16/eutelsat-starshield-ukraine-spacex.html"
+              "url": "https://www.cnbc.com/2026/10/16/republicans-midterms-spending-trump-musk-2026.html"
             }
           ],
-          "rank": 4
+          "rank": 6
         },
         {
-          "title": "巴黎公立学校性侵丑闻",
-          "titleOrig": "The Sexual Abuse Crisis in Paris’s Public Schools",
-          "url": "https://www.nytimes.com/2026/10/16/world/europe/paris-schools-abuse-crisis.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
+          "title": "债务吞噬了你的加薪，研究显示",
+          "titleOrig": "Debt is eating up a bigger chunk of your raise, research shows",
+          "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T08:22:09+00:00",
-          "desc": "A surge of abuse accusations has led Parisian authorities to acknowledge a “collective failure” to prevent sexual offenders from working in schools.",
+          "publishedAt": "2026-10-16T19:47:46+00:00",
+          "desc": "New research finds debt payments rose far faster than estimated real household income, absorbing about half of a one-earner household's gains.",
           "hotLabel": "",
-          "summary": "巴黎当局承认未能阻止性侵者进入学校工作。",
-          "analysis": "巴黎公立学校性侵丑闻反映了法国教育系统的监管缺失。这一事件不仅揭示了法国社会对儿童保护的不够重视，也可能导致公众对政府和教育机构的信任度下降。对国际格局而言，这事件可能引发对全球教育系统安全性的关注。后续可能看到法国政府加强教育系统的监管措施，并对相关责任人进行调查。",
+          "summary": "债务支付增长速度远超家庭收入，消耗了单收入家庭一半的收益。",
+          "analysis": "这一现象反映了美国家庭财务压力的加剧，债务负担的增长可能抑制了消费，对经济增长产生负面影响。长期来看，这可能加剧社会不平等，并可能影响家庭储蓄和投资决策。后续可能需要政府采取措施来缓解债务压力，如提供财政援助或调整税收政策。对国际格局而言，这表明美国经济可能面临结构性挑战。",
           "keywords": [
-            "巴黎",
-            "性侵",
-            "教育系统",
-            "监管",
-            "社会信任"
+            "债务",
+            "家庭收入",
+            "美国经济",
+            "消费",
+            "经济增长"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/16/world/europe/paris-schools-abuse-crisis.html"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/debt-payments-rise-more-than-income.html"
             }
           ],
-          "rank": 5
+          "rank": 7
         },
         {
           "title": "厄尔尼诺现象威胁全球糖供应",
@@ -277,14 +338,14 @@
           "publishedAt": "2026-10-16T14:41:01+00:00",
           "desc": "A sugarcane crop withered by El Niño in India, the world’s second-largest producer, is hurting consumers and farmers — plus undermining the country’s energy security goals.",
           "hotLabel": "",
-          "summary": "印度糖料作物受厄尔尼诺影响减产，影响消费者、农民及国家能源安全。",
-          "analysis": "厄尔尼诺现象对全球糖市造成冲击，可能导致糖价上涨，影响食品供应链和国际贸易。印度作为第二大糖产国，其减产可能加剧全球能源危机。",
+          "summary": "印度糖料作物因厄尔尼诺现象受损，影响消费者、农民和国家的能源安全目标。",
+          "analysis": "印度作为全球第二大糖生产国，其糖料作物受厄尔尼诺现象影响可能导致全球糖价上涨，影响消费者生活成本。同时，这也可能阻碍印度的能源安全目标。长期来看，气候变化可能导致更多类似事件，对全球粮食和能源安全构成威胁。",
           "keywords": [
             "厄尔尼诺",
             "糖供应",
             "印度",
             "能源安全",
-            "全球贸易"
+            "全球影响"
           ],
           "category": "international",
           "importance": 80,
@@ -294,264 +355,74 @@
               "url": "https://www.nytimes.com/2026/10/16/climate/india-sugarcane-production-sugar-prices.html"
             }
           ],
-          "rank": 6
+          "rank": 8
         },
         {
-          "title": "蓝色起源计划在佛罗里达州投资3.3亿美元扩大业务，以增加新格伦火箭发射次数",
-          "titleOrig": "Blue Origin plans $330 million Florida expansion to ramp New Glenn launches",
-          "url": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html",
+          "title": "预测市场对特斯拉-SpaceX合并的可能性超过50%，预计2027年初完成",
+          "titleOrig": "Prediction market odds on Tesla-SpaceX merger are above 50% for early 2027",
+          "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T14:26:05+00:00",
-          "desc": "Blue Origin said it's targeting multiple flights per week of its New Glenn rocket by the end of the decade.",
+          "publishedAt": "2026-10-16T17:02:40+00:00",
+          "desc": "Kalshi odds for a Tesla-SpaceX merger rose above 50% for early 2027 as Barclays outlined how a deal could work.",
           "hotLabel": "",
-          "summary": "蓝色起源计划到本世纪末每周进行多场新格伦火箭发射。",
-          "analysis": "蓝色起源的扩张计划表明了美国商业航天领域的快速发展。这有助于推动美国航天工业的进步，并可能促进国际航天市场的竞争。对全球航天产业而言，这可能预示着商业航天时代的到来。",
+          "summary": "预测市场对特斯拉与SpaceX合并的可能性超过50%，巴克莱斯概述了可能的交易方案。",
+          "analysis": "特斯拉与SpaceX的合并可能性增加，反映了马斯克在太空探索和电动汽车领域的战略布局。这将加强特斯拉在技术和服务上的竞争力，并对全球太空产业和电动汽车市场产生深远影响。后续走向可能包括合并的具体细节和双方在技术、市场等方面的整合。",
           "keywords": [
-            "蓝色起源",
-            "航天",
-            "商业航天",
-            "新格伦火箭"
+            "特斯拉",
+            "SpaceX",
+            "合并",
+            "马斯克",
+            "太空探索"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/10/16/blue-origin-new-glenn-florida-expansion.html"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "德国在议会辩论纳米比亚大屠杀中的殖民主义问题",
-          "titleOrig": "German colonialism on agenda in Bundestag debate on Namibia genocide",
-          "url": "https://www.dw.com/en/german-colonialism-on-agenda-in-bundestag-debate-on-namibia-genocide/a-79682388?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-10-16T14:42:00+00:00",
-          "desc": "Germany's opposition parties have forced a debate in the Bundestag on the early-20th-century genocide it carried out in Namibia. Will this finally spur progress in addressing colonial crimes?",
-          "hotLabel": "",
-          "summary": "德国反对派在议会中就20世纪初在纳米比亚犯下的种族灭绝进行辩论。",
-          "analysis": "德国在纳米比亚的殖民历史一直是敏感话题，此次辩论可能推动德国政府正视历史，并可能对德国国内外政策产生影响。辩论的结果可能会影响德国在国际社会中的形象，并可能促使德国在处理殖民历史问题上采取更积极的姿态。",
-          "keywords": [
-            "德国",
-            "纳米比亚",
-            "殖民历史",
-            "种族灭绝",
-            "国际形象"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/german-colonialism-on-agenda-in-bundestag-debate-on-namibia-genocide/a-79682388?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "阿尔巴尼亚爆发暴力抗议",
-          "titleOrig": "Violent Protests in Albania",
-          "url": "https://www.nytimes.com/2026/10/15/world/europe/albania-student-protests-violence.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-10-15T21:40:24+00:00",
-          "desc": "Opposition to a luxury resort project linked to Jared Kushner has collided with rising discontent over corruption and the cost of living.",
-          "hotLabel": "",
-          "summary": "阿尔巴尼亚因豪华度假村项目引发抗议。",
-          "analysis": "阿尔巴尼亚的暴力抗议反映了民众对腐败和通货膨胀的强烈不满。这一事件可能对阿尔巴尼亚政府构成压力，要求其改善治理和减轻民众负担。对国际格局而言，这事件可能引起对巴尔干地区政治稳定性的关注。后续可能看到阿尔巴尼亚政府采取措施回应民众诉求。",
-          "keywords": [
-            "阿尔巴尼亚",
-            "抗议",
-            "腐败",
-            "通货膨胀",
-            "政治稳定性"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/15/world/europe/albania-student-protests-violence.html"
+              "url": "https://www.cnbc.com/2026/10/16/tesla-spacex-merger-odds-rise-on-kalshi.html"
             }
           ],
           "rank": 9
         },
         {
-          "title": "美国参议员要求调查乌克兰对星链网络的限制",
-          "titleOrig": "US senators call for investigation into Ukraine's Starlink restrictions",
-          "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "英国考虑对中国电动汽车征收关税",
+          "titleOrig": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+          "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-10-16T14:19:50+00:00",
-          "desc": "Ukraine says temporary speed limits to the Starlink internet network disrupted its battlefield missions.",
+          "publishedAt": "2026-10-16T18:09:34+00:00",
+          "desc": "Beijing warns against ‘discriminatory’ step after France drops opposition to British role in Made in Europe packageNo 10 has left the door open to imposing tariffs on Chinese-made electric vehicles as part of the Made in Europe package, prompting a warning from Beijing that such a move would be “dis",
           "hotLabel": "",
-          "summary": "乌克兰称对星链互联网网络的临时速度限制干扰了其战场任务。",
-          "analysis": "背景：乌克兰对星链网络的限制引发了国际关注，涉及技术援助和军事战略。关键影响：此事件可能影响乌克兰与西方盟友的关系，以及星链网络在全球的部署。后续走向：美国可能对乌克兰施加压力，要求其解除限制。",
+          "summary": "在北京警告“歧视性”步骤后，英国政府表示可能会对中国制造的电动汽车征收关税。",
+          "analysis": "这一举措可能加剧英中之间的贸易紧张关系，影响两国在电动汽车领域的合作。对全球电动汽车市场来说，这可能引发对贸易保护主义的担忧。对国际局势而言，这表明地缘政治因素可能影响全球贸易和供应链。",
           "keywords": [
-            "乌克兰",
-            "星链",
-            "美国参议员",
-            "军事战略",
-            "技术援助"
+            "英国",
+            "中国",
+            "电动汽车",
+            "关税",
+            "贸易紧张"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq398zl8jmvdo?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme"
             }
           ],
           "rank": 10
         },
         {
-          "title": "这次破产说明了人工智能初创企业的情况",
-          "titleOrig": "What this bankruptcy says about AI startups",
-          "url": "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-10-16T11:00:00+00:00",
-          "desc": "Character.AI collected millions of users, making it a very appealing acquisition. Google took a unique route to \"acquiring\" it, hiring away its founders and licensing its technology. Now Character.AI is filing for bankruptcy. Here's what to know.",
-          "hotLabel": "",
-          "summary": "Character.AI 收集了数百万用户，成为谷歌收购的目标，但随后宣布破产。",
-          "analysis": "Character.AI 的破产反映了人工智能初创企业在市场中的脆弱性。尽管拥有大量用户，但缺乏持续盈利能力导致其失败。这表明人工智能行业需要关注商业模式和盈利能力的可持续性。对整个行业而言，可能引发对初创企业投资风险的重新评估。",
-          "keywords": [
-            "人工智能",
-            "破产",
-            "初创企业",
-            "商业模式"
-          ],
-          "category": "tech",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/sections/planet-money/2026/10/16/nx-s1-6001828/what-this-bankruptcy-says-about-ai-startups"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "印度年轻工人迎来新同事：人工智能",
-          "titleOrig": "India's young workers have a new colleague: AI",
-          "url": "https://www.dw.com/en/india-s-young-workers-have-a-new-colleague-ai/a-79678342?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-10-16T11:22:00+00:00",
-          "desc": "Artificial intelligence is changing the way Indian workplaces operate — raising questions about productivity, skills and entry-level jobs.",
-          "hotLabel": "",
-          "summary": "人工智能正在改变印度工作场所的运作方式。",
-          "analysis": "人工智能在印度的普及将对劳动力市场产生深远影响，包括提高生产力、改变技能需求以及影响初级职位。这将促使印度政府和企业重新思考教育和培训政策，以适应新的就业市场。",
-          "keywords": [
-            "印度",
-            "人工智能",
-            "劳动力市场",
-            "生产力",
-            "技能需求"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/india-s-young-workers-have-a-new-colleague-ai/a-79678342?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "肯尼亚再次出现埃博拉病例",
-          "titleOrig": "Second Ebola Infection Announced in Kenya",
-          "url": "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-10-15T17:38:52+00:00",
-          "desc": "The case is likely to raise alarms in the country and increase scrutiny of the government’s surveillance measures.",
-          "hotLabel": "",
-          "summary": "肯尼亚宣布第二例埃博拉病例。",
-          "analysis": "肯尼亚出现的第二例埃博拉病例可能加剧国内对公共卫生系统的担忧，并增加对政府防疫措施的有效性的质疑。对国际格局来说，这可能会促使国际社会加强对非洲地区的公共卫生援助。后续可能看到肯尼亚政府加强边境控制和公共卫生宣传。",
-          "keywords": [
-            "肯尼亚",
-            "埃博拉",
-            "公共卫生",
-            "国际援助",
-            "防疫措施"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/15/world/africa/kenya-ebola-infections.html"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "日本领导人称家务和化妆占去她大量时间",
-          "titleOrig": "Japan’s Leader Says She Loses Hours to Makeup and Chores. Opinions Abound.",
-          "url": "https://www.nytimes.com/2026/10/16/world/asia/japan-women-makeup-chores.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-10-16T13:28:25+00:00",
-          "desc": "Sanae Takaichi said she has a busier schedule than her male predecessors, a nod to the disproportionate share of household tasks in Japan that fall to women.",
-          "hotLabel": "",
-          "summary": "日本官员表示，她的日程比男性前任更忙，反映了日本女性承担更多家务。",
-          "analysis": "这一言论揭示了日本社会性别角色和家务劳动分配的问题。它可能促使日本政府和社会关注女性在职场和家庭中的地位。",
-          "keywords": [
-            "日本",
-            "性别角色",
-            "家务劳动",
-            "女性地位",
-            "社会问题"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/16/world/asia/japan-women-makeup-chores.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "教皇手术后首次公开露面，诊断出肺癌",
+          "title": "教皇手术后首次公开露面，确诊肺癌",
           "titleOrig": "Pope pictured for first time since surgery and cancer diagnosis",
           "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -563,119 +434,216 @@
           "publishedAt": "2026-10-16T14:36:39+00:00",
           "desc": "The pontiff was diagnosed with lung cancer after having surgery at Rome's Gemelli Hospital on Tuesday.",
           "hotLabel": "",
-          "summary": "教皇在罗马的吉美利医院手术后，首次公开露面，并宣布自己患有肺癌。",
-          "analysis": "背景：教皇的健康状况受到全球关注，其手术和癌症诊断对天主教会有重大影响。关键影响：教皇的健康状况可能影响天主教会的未来领导层选举。后续走向：教皇的健康状况将持续受到关注，其治疗和恢复过程可能成为国际新闻焦点。",
+          "summary": "教皇手术后首次公开露面，并确诊患有肺癌。",
+          "analysis": "教皇的健康状况引发了全球天主教徒的关注，同时也可能对梵蒂冈内部和天主教世界的政治格局产生影响。教皇的健康问题可能导致梵蒂冈内部权力斗争加剧，同时可能引发关于教皇继任人选的讨论。后续可能看到梵蒂冈加快教皇继任程序，并对天主教世界的政治经济产生影响。",
           "keywords": [
             "教皇",
+            "手术",
             "肺癌",
-            "吉美利医院",
-            "天主教",
-            "健康"
+            "梵蒂冈",
+            "政治"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cw146ej00yn7o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 15
+          "rank": 11
         },
         {
-          "title": "博物馆发布阿米莉亚·埃尔哈特可能坠毁岛屿的历史照片",
-          "titleOrig": "Museum releases historical photos of island where Amelia Earhart may have crashed",
-          "url": "https://www.theguardian.com/us-news/2026/oct/16/amelia-earhart-new-zeland-museum-aerial-survey-photos-nikumaroro-island",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "施瓦布将推出吸引亿万富豪投资者的“税收意识”策略",
+          "titleOrig": "Schwab to create 'tax-aware' strategy that's been attracting billions from wealthy investors",
+          "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
-          "region": "英国",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-16T10:09:14+00:00",
-          "desc": "Images from New Zealand aerial survey of Nikumaroro in 1938 offer new clues over aviator’s disappearanceA New Zealand museum has released nearly 50 photos from a 1938 aerial survey of the island where Amelia Earhart is believed to have crash-landed, offering amateur sleuths new evidence to scour for",
+          "publishedAt": "2026-10-16T16:21:14+00:00",
+          "desc": "Wealthy investors are flocking to tax-aware long short strategies, adding billions into these super-powered versions of tax-loss harvesting accounts.",
           "hotLabel": "",
-          "summary": "新西兰1938年对尼库马罗罗岛进行的空中调查照片为寻找飞行员提供了新线索。",
-          "analysis": "这些历史照片可能为解开阿米莉亚·埃尔哈特失踪之谜提供重要线索。此举有助于航空历史研究，同时也可能吸引更多公众对航空史的兴趣。后续可能会有更多关于此事件的考古和调查活动。",
+          "summary": "富裕投资者纷纷涌入税收意识型长短期策略，为这些超级税收亏损收割账户注入了数十亿美元。",
+          "analysis": "这一趋势表明富裕投资者对税收效率的关注日益增加，同时也反映了市场对税收损失收割策略的认可。这可能促使更多金融机构开发类似策略，以吸引资金。对国际金融格局来说，这可能意味着全球资本流动和税收规划将更加复杂。",
           "keywords": [
-            "阿米莉亚·埃尔哈特",
-            "历史照片",
-            "航空历史",
-            "失踪"
+            "税收策略",
+            "投资者",
+            "金融",
+            "税收规划",
+            "全球资本流动"
           ],
-          "category": "international",
-          "importance": 70,
+          "category": "economy",
+          "importance": 75,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/oct/16/amelia-earhart-new-zeland-museum-aerial-survey-photos-nikumaroro-island"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/tax-strategies-capital-gains-wealthy-investors-schwab.html"
             }
           ],
-          "rank": 16
+          "rank": 12
         },
         {
-          "title": "肯尼亚应对埃博拉疫情准备如何？",
-          "titleOrig": "How prepared is Kenya for an Ebola outbreak?",
-          "url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-10-16T10:41:00+00:00",
-          "desc": "The first two confirmed Ebola cases in Kenya have raised urgent questions about the country's public health preparedness and border controls. But the Health Ministry says there is no need for panic.",
-          "hotLabel": "",
-          "summary": "肯尼亚首次确认埃博拉病例，引发对公共卫生准备和边境控制的担忧。",
-          "analysis": "肯尼亚的埃博拉疫情可能对非洲大陆的公共卫生安全构成威胁。肯尼亚的应对措施将受到国际社会的关注，并可能影响区域合作和全球公共卫生政策。未来，肯尼亚和非洲其他国家可能需要加强公共卫生和疾病预防能力。",
-          "keywords": [
-            "肯尼亚",
-            "埃博拉疫情",
-            "公共卫生",
-            "疾病预防",
-            "区域合作"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/how-prepared-is-kenya-for-an-ebola-outbreak/a-79668144?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "委内瑞拉反对派领袖批评特朗普新石油伙伴",
-          "titleOrig": "Venezuela’s Opposition Leader Calls Trump’s New Oil Partner Corrupt",
-          "url": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html",
+          "title": "美国海岸警卫队称在墨西哥湾外救出16人",
+          "titleOrig": "16 People Rescued in Pacific Ocean Off Mexico, U.S. Coast Guard Says",
+          "url": "https://www.nytimes.com/2026/10/16/world/americas/baja-california-mexico-rescue-coast-guard.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-10-15T23:24:51+00:00",
-          "desc": "As ties with the Trump administration fray, María Corina Machado said her return to Venezuela would come “sooner than you would expect.”",
+          "publishedAt": "2026-10-16T19:42:41+00:00",
+          "desc": "The agency said a major rescue operation was underway near the coast of Baja California after it received reports of 27 people in the water.",
           "hotLabel": "",
-          "summary": "委内瑞拉反对派领袖指责特朗普新石油伙伴腐败。",
-          "analysis": "委内瑞拉反对派领袖的批评可能加剧委内瑞拉与美国之间的紧张关系。这一事件反映了委内瑞拉国内政治斗争的激烈，以及对美国干涉其内政的担忧。对国际格局而言，这可能会影响委内瑞拉与美国的能源合作以及地区安全。后续可能看到委内瑞拉与美国之间的外交关系进一步恶化。",
+          "summary": "美国海岸警卫队称在墨西哥下加利福尼亚州海岸附近进行了一次重大救援行动。",
+          "analysis": "这次救援行动凸显了墨西哥湾地区海上安全的挑战。可能的原因包括恶劣天气、船只故障或非法移民活动。这可能导致国际社会对墨西哥湾地区的海上安全更加关注，并可能引发对相关国家海上救援能力的评估。",
           "keywords": [
-            "委内瑞拉",
-            "反对派",
-            "特朗普",
-            "石油",
-            "外交关系"
+            "美国海岸警卫队",
+            "救援",
+            "墨西哥湾",
+            "海上安全",
+            "非法移民"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/10/15/world/americas/venezuela-machado-trump-oil-deal.html"
+              "url": "https://www.nytimes.com/2026/10/16/world/americas/baja-california-mexico-rescue-coast-guard.html"
             }
           ],
-          "rank": 18
+          "rank": 13
+        },
+        {
+          "title": "特朗普否认限制乌克兰使用星链网络",
+          "titleOrig": "Trump denies limiting Ukraine access to Starlink network",
+          "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T19:33:48+00:00",
+          "desc": "Speed curbs limited Ukraine's defences against deadly Russian attacks on Tuesday night.",
+          "hotLabel": "",
+          "summary": "特朗普否认限制乌克兰使用星链网络。",
+          "analysis": "特朗普否认限制乌克兰使用星链网络，这表明美国在乌克兰问题上的立场可能存在分歧。尽管如此，星链网络对乌克兰防御能力的影响有限，但这一事件可能影响乌克兰与美国的关系，以及乌克兰在俄乌冲突中的战略选择。后续可能看到乌克兰寻求更多国际支持，同时美国内部对如何支持乌克兰的讨论可能加剧。",
+          "keywords": [
+            "特朗普",
+            "乌克兰",
+            "星链",
+            "网络",
+            "冲突"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/ckz65g34wyd8o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "苹果发布售价1999美元的iPhone双折叠版：公司标志性产品的实力受考验",
+          "titleOrig": "Apple’s $1,999 iPhone Duo puts the company's status-symbol power to the test",
+          "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T18:55:17+00:00",
+          "desc": "Apple’s $1,999 iPhone Duo is drawing early demand as analysts assess whether the foldable can lift iPhone pricing and revenue.",
+          "hotLabel": "",
+          "summary": "苹果的售价1999美元的iPhone双折叠版受到市场关注，分析师评估其是否能提升iPhone定价和收入。",
+          "analysis": "苹果的双折叠手机可能标志着其产品线的新方向，但高价位可能限制其市场接受度。如果成功，这可能会改变智能手机市场格局，但失败可能影响苹果的盈利能力。",
+          "keywords": [
+            "苹果",
+            "iPhone",
+            "双折叠手机",
+            "市场接受度",
+            "智能手机市场"
+          ],
+          "category": "tech",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/apple-iphone-duo-demand-price.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "Netflix新任命内容负责人及其对流媒体的影响",
+          "titleOrig": "Here's who Netflix just brought in to run content — and what it means for the streamer",
+          "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T19:40:00+00:00",
+          "desc": "Peter Rice brings a wealth of experience in TV and film, including scripted and unscripted shows, live sports, prestige television and theatrical distribution.",
+          "hotLabel": "",
+          "summary": "Netflix任命了具有丰富电视和电影经验的彼得·赖斯负责内容。",
+          "analysis": "彼得·赖斯的加入可能标志着Netflix在内容策略上的新方向，特别是在电视剧、电影和体育赛事等方面。这将影响Netflix的内容库和用户体验，并可能对其他流媒体服务产生竞争压力。后续走向可能包括Netflix内容策略的进一步调整和市场竞争格局的变化。",
+          "keywords": [
+            "Netflix",
+            "内容负责人",
+            "彼得·赖斯",
+            "流媒体",
+            "内容策略"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/netflix-peter-rice-chief-content-officer.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "巴西的卢拉表示现在支持将刑事责任年龄降至16岁",
+          "titleOrig": "Brazil’s Lula says he now backs lowering age of criminal responsibility to 16",
+          "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T16:47:35+00:00",
+          "desc": "Lula reverses position on age of responsibility for ‘heinous’ crimes in what many see as a desperate electoral gambitBrazil’s president, Luiz Inácio Lula da Silva, has announced that he now supports lowering the age of criminal responsibility for “heinous” crimes from 18 to 16, reversing a longstand",
+          "hotLabel": "",
+          "summary": "卢拉在许多人看来是在绝望的选举策略中反转了对“严重”犯罪的刑事责任年龄立场。",
+          "analysis": "卢拉这一转变可能旨在争取年轻选民的支持，但同时也可能引发社会对青少年犯罪和司法系统改革的讨论。对巴西来说，这可能标志着刑事司法体系改革的前奏。对国际局势而言，这反映了南美国家在刑事司法和人权问题上的动态。",
+          "keywords": [
+            "巴西",
+            "刑事责任年龄",
+            "卢拉",
+            "司法改革",
+            "人权"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/oct/16/brazil-lula-age-criminal-responsibility"
+            }
+          ],
+          "rank": 17
         },
         {
           "title": "日本误发最强地震警报",
@@ -690,21 +658,53 @@
           "publishedAt": "2026-10-16T15:01:28+00:00",
           "desc": "Officials on Friday withdrew an alert sent when they believed a 9.9-magnitude earthquake had taken place. In the end, the tremor was hardly felt.",
           "hotLabel": "",
-          "summary": "官员误以为发生9.9级地震，后证实震动微弱。",
-          "analysis": "此次误报凸显了日本地震预警系统的挑战。未来需要改进预警系统的准确性和应急响应能力。",
+          "summary": "日本官员在认为发生了9.9级地震后撤回了警报，最终震动几乎感觉不到。",
+          "analysis": "这次误发地震警报突显了日本在地震预警系统中的挑战。虽然最终没有造成损害，但此类事件可能损害公众对预警系统的信任。长期来看，这可能导致日本加强地震预警系统的准确性和可靠性。",
           "keywords": [
             "日本",
-            "地震预警",
-            "误报",
-            "应急响应",
-            "自然灾害"
+            "地震警报",
+            "误发",
+            "预警系统",
+            "地震安全"
           ],
           "category": "international",
-          "importance": 65,
+          "importance": 60,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/10/16/world/asia/japan-earthquake-warning-false-alarm.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "凯蒂·扎查里亚卸任特朗普白宫新闻秘书",
+          "titleOrig": "Katie Zacharia out as Trump's White House press secretary",
+          "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T19:47:26+00:00",
+          "desc": "Zacharia was on shaky ground from her first White House press conference, and over questions about her claims of being a lawyer despite not passing a bar exam.",
+          "hotLabel": "",
+          "summary": "凯蒂·扎查里亚因其在首次白宫记者招待会上表现不佳，以及未通过律师资格考试却自称律师的问题而离职。",
+          "analysis": "扎查里亚的离职反映了白宫内部管理和沟通的挑战。这可能影响白宫的信息传递和政策执行，并对特朗普政府形象产生负面影响。",
+          "keywords": [
+            "白宫",
+            "新闻秘书",
+            "特朗普",
+            "管理问题",
+            "政府形象"
+          ],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/trump-katie-zacharia-white-house.html"
             }
           ],
           "rank": 19
@@ -722,17 +722,17 @@
           "publishedAt": "2026-10-16T14:21:32+00:00",
           "desc": "Joshua Foster \"lost control\" of his son while showing him the view of a water park from a window.",
           "hotLabel": "",
-          "summary": "约书亚·福斯特在向儿子展示水公园景观时失去控制，导致儿子从窗户坠落。",
-          "analysis": "背景：此事件反映了旅游安全问题和家长责任。关键影响：事件可能引发对旅游安全措施的讨论，以及对家长责任的关注。后续走向：可能对相关旅游设施和家长责任法律产生影响。",
+          "summary": "父亲因儿子在塞浦路斯酒店坠亡被罚款。",
+          "analysis": "这起儿童意外事故反映了旅游安全的重要性。虽然这一事件对个人家庭有重大影响，但对国际旅游业的影响有限。后续可能看到相关国家加强旅游安全监管，以避免类似事件的发生。",
           "keywords": [
             "塞浦路斯",
             "酒店",
             "坠亡",
             "旅游安全",
-            "家长责任"
+            "罚款"
           ],
           "category": "international",
-          "importance": 60,
+          "importance": 50,
           "sources": [
             {
               "name": "BBC World",
@@ -745,60 +745,65 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内新闻呈现了多方面的社会动态和政策走向。在经济领域，储能产业和机器人产业成为焦点，同时国家粮食安全也成为关注重点。在社会层面，宜宾摊主事件引发社会对消费心理的讨论，红军长征精神传承和红土血脉的赓续展现了文化自信。此外，科技领域出现了一些问题，如懂车帝和DeepSeek的争议。总体来看，当前国内政策趋向于加强基础设施建设，同时关注社会问题和文化传承，最值得关注的是经济结构的转型升级和社会心理问题的处理。",
+      "digest": "今日国内热点新闻反映出我国政策与社会动向的多个方面。经济领域，国家粮食和物资储备局推进全谷物行动计划，江淮汽车涨停，抖音起诉京东员工，显示出经济发展与市场竞争的活力。社会层面，天水幼儿园铅中毒案一审宣判，医生在4岁宝宝睫毛上发现阴虱，母亲降低大一儿子生活费等事件，反映出公共安全、儿童健康与家庭教育的关注。在国际关系方面，我国在第九届中国国际进口博览会中展现开放底色，同时要求以色列停止在西岸建立定居点，体现了我国在国际舞台上的立场与影响力。总体来看，我国正致力于经济发展、社会稳定和国际合作，关注民生福祉，维护国家利益。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "习近平致信祝贺湖南大学建校100周年",
-          "titleOrig": "习近平致信祝贺湖南大学建校100周年 - 中国共产党新闻网",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wZG51bzI1NENKWHY0UFVoZnRPRlpkQlZfWVdodE9nT1V0UDV0NDZaNlhsZUdMN0RIcGhESUxfb1lFTnhuREhXbzVVeFJ0Z2lrRHp6RTdnaUJKOXU4WkpSZ0M1Zl9KLXpUcWxJ?oc=5",
+          "title": "广交会首设国际医疗展区，外籍团队上岗",
+          "titleOrig": "广交会首设国际医疗展区：外籍团队上岗，国际标准闯关 - 21财经",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWl83Um40Wjd3TWNCckYwcm5rV2o5dFFVbUVMdklFc01tZ0JtelJpQU5UYnhoTWI3UEg5QjBxSnI4RlVpY1VGMWxUVlU1ZVlsRGJZTTdWVUhWZ2lzM1ppNFN4YTM5OC1wZXhsWS0xaDh5Q01YT2FjbVl1THU0YXZnU0VXRXQ5WC1SdlRmeg?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-10-16T02:20:00+00:00",
-          "desc": "习近平致信祝贺湖南大学建校100周年 中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-10-16T14:59:00+00:00",
+          "desc": "广交会首设国际医疗展区：外籍团队上岗，国际标准闯关 21财经两场“时光展”重温广交会七十载荣光 finance.sina.com.cn广交会观察：中国具身智能机器人走向车间|第140届中国进出口商品交易会|广州市|广东省|灯泡|机械臂 finance.sina.com.cn一见·习近平主席三封广交会贺信的“开放”底色 光明网第140届广交会采购商联盟正式成立 创新服务模式 中国青年网",
           "hotLabel": "",
-          "summary": "习近平致信祝贺湖南大学百年校庆，强调教育重要性。",
-          "analysis": "习近平致信祝贺湖南大学建校100周年，体现了国家对高等教育的重视和对教育事业的坚定支持。这对国内民生意味着教育资源的优化配置和人才培养的重视；对经济而言，高等教育是人才培养和科技创新的重要基地；对治理意味着通过教育提升国家整体竞争力。后续可能继续加强高等教育改革和发展。",
+          "summary": "广交会设立国际医疗展区，外籍团队参与，体现国际标准。",
+          "analysis": "广交会设立国际医疗展区，反映了我国对外开放的进一步深化和医疗产业的国际化趋势。外籍团队上岗和国际标准的引入，有助于提升我国医疗产品的国际竞争力，同时也为国内医疗行业提供了学习和借鉴的机会。这对国内民生改善、经济结构调整以及治理能力现代化具有重要意义。后续可能看到更多国际标准和技术的引进，以及医疗产业的国际化合作加深。",
           "keywords": [
-            "湖南大学",
-            "高等教育",
-            "人才培养",
-            "教育改革"
+            "广交会",
+            "国际医疗展区",
+            "外籍团队",
+            "国际标准",
+            "医疗产业"
           ],
-          "category": "domestic",
-          "importance": 90,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0wZG51bzI1NENKWHY0UFVoZnRPRlpkQlZfWVdodE9nT1V0UDV0NDZaNlhsZUdMN0RIcGhESUxfb1lFTnhuREhXbzVVeFJ0Z2lrRHp6RTdnaUJKOXU4WkpSZ0M1Zl9KLXpUcWxJ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWl83Um40Wjd3TWNCckYwcm5rV2o5dFFVbUVMdklFc01tZ0JtelJpQU5UYnhoTWI3UEg5QjBxSnI4RlVpY1VGMWxUVlU1ZVlsRGJZTTdWVUhWZ2lzM1ppNFN4YTM5OC1wZXhsWS0xaDh5Q01YT2FjbVl1THU0YXZnU0VXRXQ5WC1SdlRmeg?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vU0lXM0lSV2YzWHRpY3BsTGt2N3ZqMUdEOWpFNElHMUJjZF9jLWx3cGFua0dEQVBIN2I3Y3RKWi1qTlJoeThBSEI2VDNUcmRSbVVKQl9ZZ2dsU2I3NEdFeDdzMkd3WUhVME1hM2tLYkQ1UFUyREZ1N3VoNUZKMVk?oc=5"
             }
           ],
           "rank": 1
         },
         {
-          "title": "第九届进博会数据创新高",
-          "titleOrig": "视频丨首发、首展、首秀！ 第九届进博会多项数据创历年新高- 中国日报网 - China Daily",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY2dRSWJXZjdMbDFINTV1R2pWd3MxLW95RFJCZW10QXBodV9zUG1ZbE5jNHZzMThId2JUTEVnNnVZN2pGeThkMkFuV1ltUUpfU01ZSWJ6bUUxT1VlWEhMY0lpVWk5S3RlbUF2OFVOb3kyczZtcENMNFJhOFlhN05mMA?oc=5",
+          "title": "第九届中国国际进口博览会亮点前瞻：开放底色鲜明 创新动能强劲",
+          "titleOrig": "开放底色鲜明 创新动能强劲——第九届中国国际进口博览会亮点前瞻 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vU0lXM0lSV2YzWHRpY3BsTGt2N3ZqMUdEOWpFNElHMUJjZF9jLWx3cGFua0dEQVBIN2I3Y3RKWi1qTlJoeThBSEI2VDNUcmRSbVVKQl9ZZ2dsU2I3NEdFeDdzMkd3WUhVME1hM2tLYkQ1UFUyREZ1N3VoNUZKMVk?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-10-16T13:10:27+00:00",
-          "desc": "视频丨首发、首展、首秀！ 第九届进博会多项数据创历年新高- 中国日报网 China Daily第九届进博会吸引69个国家和国际组织参展，美国企业参展面积连续八届保持第一 光明网商务部：进博会筹备工作与“出口中国”品牌活动深度联动|国务院新闻办公室|哈萨克斯坦|中国市场|格隆汇|埃及 finance.sina.com.cn多项数据再创新高！“进博时间”即将开启 各项筹备已基本就绪 中国青年网答澎湃｜上海市副市长：将进一步提升外高桥、虹桥、淮海新天地这三大国家级进口贸易促进创新示范区的能级 ThePaper.cn",
+          "publishedAt": "2026-10-16T15:14:08+00:00",
+          "desc": "开放底色鲜明 创新动能强劲——第九届中国国际进口博览会亮点前瞻 新华网首发、首展、首秀！ 第九届进博会多项数据创历年新高|中国国际进口博览会|国务院新闻办公室|世界500强|全勤|非遗 finance.sina.com.cn第九届进博会吸引69个国家和国际组织参展，美国企业参展面积连续八届保持第一 光明网答澎湃｜上海市副市长：将进一步提升外高桥、虹桥、淮海新天地这三大国家级进口贸易促进创新示范区的能级 ThePaper.cn非洲咖啡落地进博会，这些国家享受到了零关税红利 搜狐",
           "hotLabel": "",
-          "summary": "第九届进博会多项数据创历年新高。",
-          "analysis": "进博会数据创新高反映了中国对外开放的成果。这对国内经济意味着增强国际竞争力，对社会治理有助于提升国际形象和合作。后续可能进一步扩大对外开放，吸引更多国际投资。",
+          "summary": "第九届中国国际进口博览会吸引多国参展，多项数据创新高。",
+          "analysis": "第九届中国国际进口博览会的成功举办体现了中国对外开放的决心和成果。这一事件背景是中国政府长期坚持的对外开放政策，旨在通过扩大进口促进国内消费升级和产业升级。对国内民生而言，进博会提供了更多优质商品和服务，提高了人民生活水平；对经济而言，进博会促进了国际贸易和投资，有助于稳定经济增长；对治理而言，进博会展示了中国积极参与全球治理的姿态。后续走向可能包括进博会规模的扩大、参与国家的增多以及贸易合作机制的深化。",
           "keywords": [
-            "进博会",
+            "中国国际进口博览会",
             "对外开放",
-            "国际竞争力",
-            "国际形象",
+            "贸易合作",
+            "经济增长",
             "国际合作"
           ],
           "category": "international",
@@ -806,110 +811,59 @@
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPY2dRSWJXZjdMbDFINTV1R2pWd3MxLW95RFJCZW10QXBodV9zUG1ZbE5jNHZzMThId2JUTEVnNnVZN2pGeThkMkFuV1ltUUpfU01ZSWJ6bUUxT1VlWEhMY0lpVWk5S3RlbUF2OFVOb3kyczZtcENMNFJhOFlhN05mMA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5vU0lXM0lSV2YzWHRpY3BsTGt2N3ZqMUdEOWpFNElHMUJjZF9jLWx3cGFua0dEQVBIN2I3Y3RKWi1qTlJoeThBSEI2VDNUcmRSbVVKQl9ZZ2dsU2I3NEdFeDdzMkd3WUhVME1hM2tLYkQ1UFUyREZ1N3VoNUZKMVk?oc=5"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 2
         },
         {
-          "title": "储能产业加速发展，从配套设施转向新型基础设施",
-          "titleOrig": "累计装机较“十四五”初增50倍，曾毓群称储能正从配套设施转向新型基础设施 - 第一财经",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TZ0Vtd1BhMUd5LXVadDVZdHR2eTAwOFVvNVYxM2tYMlFUU3NzWU12TjBrMTBvenpJckdxT2lwWFYyR1cxZFRrb3FsX2l6bWJUanU0?oc=5",
+          "title": "国家粮食和物资储备局推进全谷物行动计划",
+          "titleOrig": "国家粮食和物资储备局：全谷物行动计划顺利推进 - 搜狐",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdjJ0SmpTTWlFU3VjT0JiMkIwakczdURxTHZ4eDk1NEs1WF90eEV5aTlybTgzRXZsSGEtXzg3SWJnS2FtSWk2QU5iWVl2cXQyUlBmcEhWX1FoQTBsellmNVF6SW5XcHJ6V1hsN2kzWnQ1WFFkZjhzNm9CalQtQkoyZjc5bzBTblU4?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-10-16T09:37:37+00:00",
-          "desc": "累计装机较“十四五”初增50倍，曾毓群称储能正从配套设施转向新型基础设施 第一财经2026世界储能大会聚焦产业前沿 上海热线中国储能产业加速体系化出海 搜狐网2026世界储能大会在福建宁德开幕 18个产业项目集中对接 光明网从“配套”到“主力”，储能进入发展新阶段 人民网-福建频道",
+          "publishedAt": "2026-10-16T13:58:57+00:00",
+          "desc": "国家粮食和物资储备局：全谷物行动计划顺利推进 搜狐新华鲜报丨世界粮食日，看“中国饭碗”成色如何 新华网黑龙江秋粮收购有序展开 1271亿斤仓容待“秋粮归仓” 搜狐网科普海报｜别只吃精米白面！全谷物了解一下 凤凰网云南启动世界粮食日和全国粮食安全宣传周主会场活动 finance.sina.com.cn",
           "hotLabel": "",
-          "summary": "储能装机增长显著，行业进入新阶段。",
-          "analysis": "随着累计装机量增长50倍，储能产业正在从传统的配套设施转变为新型基础设施，这体现了国家对于能源结构优化和绿色低碳发展的政策意图。此举有助于提高能源利用效率，降低能源成本，同时促进新能源的广泛应用。对社会而言，这将带来清洁能源的普及，改善环境质量，对经济则意味着新的增长点和就业机会。后续可能看到更多政策支持，以及储能技术的创新和应用。",
+          "summary": "国家粮食和物资储备局推进全谷物行动计划，强调粮食安全。",
+          "analysis": "国家粮食和物资储备局推进全谷物行动计划，体现了我国对粮食安全和营养健康的重视。全谷物行动有助于改善国民饮食结构，提高粮食利用效率，保障国家粮食安全。这对国内民生改善、经济稳定和食品安全治理具有重要意义。后续可能看到全谷物产品在市场上的推广和消费习惯的改变。",
           "keywords": [
-            "储能产业",
-            "新型基础设施",
-            "能源结构",
-            "绿色低碳",
-            "政策支持"
+            "全谷物行动计划",
+            "粮食安全",
+            "国家粮食和物资储备局",
+            "营养健康",
+            "粮食利用"
           ],
           "category": "economy",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1TZ0Vtd1BhMUd5LXVadDVZdHR2eTAwOFVvNVYxM2tYMlFUU3NzWU12TjBrMTBvenpJckdxT2lwWFYyR1cxZFRrb3FsX2l6bWJUanU0?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQdjJ0SmpTTWlFU3VjT0JiMkIwakczdURxTHZ4eDk1NEs1WF90eEV5aTlybTgzRXZsSGEtXzg3SWJnS2FtSWk2QU5iWVl2cXQyUlBmcEhWX1FoQTBsellmNVF6SW5XcHJ6V1hsN2kzWnQ1WFFkZjhzNm9CalQtQkoyZjc5bzBTblU4?oc=5"
             }
           ],
           "rank": 3
         },
         {
-          "title": "广交会聚焦机器人产业",
-          "titleOrig": "广交会聚焦机器人产业 展示丰富场景应用 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjF0eWtnTEZ4RU9CS0hoV2Q0SWlUVE9za0dTV0ZvcTh1R2xfSWt5MkhJWk5UNEQ3cVJqV25PREN3VS1tcWlpOGwzQjlsa1NMSmRoOFNnOXZ2NGNyQUtBWmQ0NXFDQmlmc1dLNnJBNHB5Y2NWQjZMNXllNWYtdUJNdnk0Xy02QQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-10-16T12:38:00+00:00",
-          "desc": "广交会聚焦机器人产业 展示丰富场景应用 新华网广交会观察：中国具身智能机器人走向车间|第140届中国进出口商品交易会|广州市|广东省|灯泡|机械臂 finance.sina.com.cn一见·习近平主席三封广交会贺信的“开放”底色 光明网扩大高水平对外开放 建设开放型世界经济 人民日报广交会七十载见证中国外贸之变 凤凰网",
-          "hotLabel": "",
-          "summary": "广交会展示机器人丰富应用场景。",
-          "analysis": "广交会聚焦机器人产业，体现了中国对科技创新和产业升级的重视。这对国内经济意味着推动产业结构优化和升级，对社会治理有助于提高生产效率和降低成本。后续可能推动更多机器人相关政策和产业支持。",
-          "keywords": [
-            "广交会",
-            "机器人产业",
-            "科技创新",
-            "产业结构",
-            "产业升级"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNRjF0eWtnTEZ4RU9CS0hoV2Q0SWlUVE9za0dTV0ZvcTh1R2xfSWt5MkhJWk5UNEQ3cVJqV25PREN3VS1tcWlpOGwzQjlsa1NMSmRoOFNnOXZ2NGNyQUtBWmQ0NXFDQmlmc1dLNnJBNHB5Y2NWQjZMNXllNWYtdUJNdnk0Xy02QQ?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "推动全谷物加快走进千家万户——访全国政协委员，国家粮食和物资储备局党组书记、局长刘焕鑫",
-          "titleOrig": "推动全谷物加快走进千家万户——访全国政协委员，国家粮食和物资储备局党组书记、局长刘焕鑫 - 中国政协网",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5obGhrdTZKZFlOVDRodWJDdjk1X1lmTG5kbk1DUG5tQzR5STJxbWxsUHNvclptQU0zVVg2MFFLWjF5cWNoV05MV2lrSTR1ZHlHc3Y2OW83dVRBVGt6MC0zVEVfUGUtb1RIYzJKWEtQbw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-10-16T06:13:50+00:00",
-          "desc": "推动全谷物加快走进千家万户——访全国政协委员，国家粮食和物资储备局党组书记、局长刘焕鑫 中国政协网新华鲜报丨世界粮食日，看“中国饭碗”成色如何 新华网全谷物加速融入三餐四季 finance.sina.com.cn解析智能“密码” 筑牢大国粮仓 人民网从吃白米到吃全谷物：身体和“粮田”一起增值 搜狐",
-          "hotLabel": "",
-          "summary": "国家粮食和物资储备局推动全谷物普及，提升国民健康。",
-          "analysis": "推动全谷物消费是响应国家粮食安全战略和健康中国战略的具体措施。这体现了国家对粮食结构的优化和民众健康水平的重视。对国内民生而言，有利于改善饮食结构，提高健康水平；对经济而言，可能促进农业产业结构调整和农产品市场多样化；对治理意味着加强粮食安全和健康教育的双重责任。后续可能出台相关政策支持全谷物生产和消费。",
-          "keywords": [
-            "全谷物",
-            "粮食安全",
-            "健康中国",
-            "农业结构调整"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5obGhrdTZKZFlOVDRodWJDdjk1X1lmTG5kbk1DUG5tQzR5STJxbWxsUHNvclptQU0zVVg2MFFLWjF5cWNoV05MV2lrSTR1ZHlHc3Y2OW83dVRBVGt6MC0zVEVfUGUtb1RIYzJKWEtQbw?oc=5"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "宜宾一摊主被顾客差评后跳河轻生",
+          "title": "天水幼儿园铅中毒案一审宣判",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%AE%9C%E5%AE%BE%E4%B8%80%E6%91%8A%E4%B8%BB%E8%A2%AB%E9%A1%BE%E5%AE%A2%E5%B7%AE%E8%AF%84%E5%90%8E%E8%B7%B3%E6%B2%B3%E8%BD%BB%E7%94%9F",
+          "url": "https://www.zhihu.com/search?q=%E5%A4%A9%E6%B0%B4%E5%B9%BC%E5%84%BF%E5%9B%AD%E9%93%85%E4%B8%AD%E6%AF%92%E6%A1%88%E4%B8%80%E5%AE%A1%E5%AE%A3%E5%88%A4",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -919,45 +873,231 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "宜宾摊主因差评跳河，引发社会对网络暴力的关注。",
-          "analysis": "此事件揭示了网络暴力对个体心理健康的影响。差评可能对摊主造成心理压力，导致悲剧发生。事件可能促使社会关注网络暴力问题，加强网络监管，保护个体权益。",
+          "summary": "天水幼儿园铅中毒案一审宣判，涉及幼儿健康与安全。",
+          "analysis": "此案反映了社会对幼儿健康和安全的关注。铅中毒事件背后的政策意图是强化食品安全和儿童保护政策，社会成因则是公众对幼儿健康的担忧。这对国内民生意味着对儿童健康保护措施的加强，对治理意味着食品安全和儿童保护监管的加强。后续走向可能包括更严格的食品安全法规和监管措施。",
           "keywords": [
-            "网络暴力",
-            "差评",
-            "心理健康",
-            "社会关注",
-            "网络监管"
+            "铅中毒",
+            "幼儿园",
+            "儿童健康",
+            "食品安全",
+            "监管"
           ],
           "category": "society",
           "importance": 80,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%AE%9C%E5%AE%BE%E4%B8%80%E6%91%8A%E4%B8%BB%E8%A2%AB%E9%A1%BE%E5%AE%A2%E5%B7%AE%E8%AF%84%E5%90%8E%E8%B7%B3%E6%B2%B3%E8%BD%BB%E7%94%9F"
+              "url": "https://www.zhihu.com/search?q=%E5%A4%A9%E6%B0%B4%E5%B9%BC%E5%84%BF%E5%9B%AD%E9%93%85%E4%B8%AD%E6%AF%92%E6%A1%88%E4%B8%80%E5%AE%A1%E5%AE%A3%E5%88%A4"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%9B%9B%E9%83%A8%E9%97%A8%E7%BB%84%E7%BB%8730%E4%BD%99%E5%AE%B6%E8%BD%A6%E4%BC%81%E5%BA%A7%E8%B0%88"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=2%E4%BA%BA%E6%B6%89%E5%AB%8C%E6%93%8D%E7%BA%B5%E6%9C%BA%E5%99%A8%E4%BA%BA%E7%8C%A5%E4%BA%B5%E5%B9%B6%E7%9B%B4%E6%92%AD"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%9C%86%E9%80%9A%E6%80%BB%E8%A3%81%E6%BD%98%E6%B0%B4%E8%8B%97%E4%BB%BB%E5%BD%B1%E8%A7%86%E9%A3%93%E9%A3%8E%E8%91%A3%E4%BA%8B%E9%95%BF"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E6%87%82%E8%BD%A6%E5%B8%9D%E6%94%B9%E5%8F%A3%E5%8C%97%E7%BE%8E%E8%8A%B1%E7%94%9F%E5%91%98%E5%B7%A5%E8%BA%AB%E4%BB%BD"
             }
           ],
-          "rank": 6
+          "rank": 4
         },
         {
-          "title": "百岁红军一生长征精神传承",
-          "titleOrig": "丰碑·伟大长征精神照我行⑦｜一生都在“长征”！以班级之名，铭记一位百岁红军 - 紫牛新闻",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TW5WNmkzTDhpcEUxUmNFLUhQSzBPaTlrMjdJdWx6Vk1UMk12TVdBRGp6NmRseldwbko5SlY2UE5rMDN0eHR0eHQ5SExabl9xUW1ZNV8wd1g1d1hBZkM2RlVTRVl6X09F?oc=5",
+          "title": "特朗普：美国可能再次对伊朗核设施发动打击",
+          "titleOrig": "特朗普：美国可能会对伊朗核设施再次发动打击，其中包括镐山的地下核设施 - 极目新闻",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FRnRTRF9lU292VDNnT1RaaC1Jck4wRzFuNFFnLUFLX0Q1ZjBEdXV5YnVxNExqbkhCc29OR2FGTWFFbnBHck9fMk03eGl4LXAyNUlhNUpzSFBQeUE?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-10-16T11:35:00+00:00",
-          "desc": "丰碑·伟大长征精神照我行⑦｜一生都在“长征”！以班级之名，铭记一位百岁红军 紫牛新闻学习手记丨答好“长征三问” 坚定必胜信念_学习园地 国家林业和草原局学习新语·走好新时代的长征路｜攻坚之勇 搜狐于都河畔忆远征，红土大地启新程 finance.sina.com.cn行进中国·走好新时代的长征路胜利山上望征途- 中国日报网 China Daily",
+          "publishedAt": "2026-10-16T14:17:18+00:00",
+          "desc": "特朗普：美国可能会对伊朗核设施再次发动打击，其中包括镐山的地下核设施 极目新闻特朗普称不会对伊朗用核武器|唐纳德·特朗普|美国总统|炸弹|地面部队|财讯 finance.sina.com.cn美军考虑用“炸弹之母”打击伊朗核设施 凤凰网特朗普称美国不会对伊朗动用核武器 中国青年网动用“炸弹之母”，美军制定对伊朗空袭新计划 观察者网",
           "hotLabel": "",
-          "summary": "百岁红军以班级名义铭记长征精神。",
-          "analysis": "此报道体现了中国对长征精神的重视，旨在弘扬爱国主义和革命精神。通过铭记百岁红军的一生，强化了长征精神在当代社会的传承。这对国内民生意味着强化了民族凝聚力和历史认同感，对社会治理而言，有助于培养积极向上的社会风气。后续可能通过更多形式的活动来推广长征精神。",
+          "summary": "特朗普表示可能对伊朗核设施再次发动打击。",
+          "analysis": "特朗普的这一言论反映了美国对伊朗核问题的强硬立场。事件背景是伊朗核问题的复杂性和地区安全形势的紧张。这一事件对国内民生的影响有限，但对国际政治和经济有重要影响。美国可能采取的军事行动可能导致中东地区局势进一步紧张，影响全球能源供应和地缘政治格局。后续走向可能包括伊朗与美国之间的紧张关系升级，以及国际社会对伊朗核问题的介入。",
           "keywords": [
-            "长征精神",
-            "红军",
+            "特朗普",
+            "伊朗核问题",
+            "军事行动",
+            "中东局势",
+            "国际政治"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FRnRTRF9lU292VDNnT1RaaC1Jck4wRzFuNFFnLUFLX0Q1ZjBEdXV5YnVxNExqbkhCc29OR2FGTWFFbnBHck9fMk03eGl4LXAyNUlhNUpzSFBQeUE?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "周迅在釜山电影节获奖",
+          "titleOrig": "釜山电影节多部华语片获奖，周迅凭借《初次尝到寂寞》拿下“最佳演员奖”，当被问及片中哪场戏最让她动情时，周迅情绪激动落泪 - finance.sina.com.cn",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLQjI3czF1RFFxdEZBeEFEWklIUGZhVFNjangybERJRWYtOTFwX2lUWXM0ZXFJcHhFSTVHMV9IUUVuZkt5Q0JhaHEteXZOZUp1VFVlNmNlWFFoMjFaT0dqUVlSX0F1b0R2RTl1dWo4SGFOR0hrb2RwZA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-10-16T08:54:23+00:00",
+          "desc": "釜山电影节多部华语片获奖，周迅凭借《初次尝到寂寞》拿下“最佳演员奖”，当被问及片中哪场戏最让她动情时，周迅情绪激动落泪 finance.sina.com.cn周迅传来喜讯，哽咽感谢父母！好友陈坤第一时间恭喜|釜山国际电影节|初次尝到寂寞|影片|生命|最佳女演员 finance.sina.com.cn张艺谋、毕赣领衔本届釜山评审团，《小鞋子》导演作品获“冲奥”外卡 ThePaper.cn周迅获奖发言镜头切舒淇 真情流露感动全场 中华网周迅获釜山电影节最佳演员，鼓励观众勇于面对生命中变化 上海热线",
+          "hotLabel": "",
+          "summary": "周迅凭借《初次尝到寂寞》在釜山电影节获得最佳演员奖。",
+          "analysis": "周迅获奖体现了中国电影在国际舞台上的影响力，有助于提升中国电影的国际地位。同时，这也是中国电影人努力的结果，展示了中国电影工业的成熟。未来，中国电影有望在国际市场上取得更多成绩。",
+          "keywords": [
+            "周迅",
+            "釜山电影节",
+            "最佳演员奖",
+            "中国电影",
+            "国际地位"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBLQjI3czF1RFFxdEZBeEFEWklIUGZhVFNjangybERJRWYtOTFwX2lUWXM0ZXFJcHhFSTVHMV9IUUVuZkt5Q0JhaHEteXZOZUp1VFVlNmNlWFFoMjFaT0dqUVlSX0F1b0R2RTl1dWo4SGFOR0hrb2RwZA?oc=5"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "医生在4岁宝宝睫毛上发现阴虱",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9C%A84%E5%B2%81%E5%AE%9D%E5%AE%9D%E7%9D%AB%E6%AF%9B%E4%B8%8A%E5%8F%91%E7%8E%B0%E9%98%B4%E8%99%B1%23&t=31&band_rank=7&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "医生在4岁儿童睫毛上发现阴虱。",
+          "analysis": "这一事件揭示了儿童健康问题的重要性，同时也反映了公共卫生教育和家庭卫生习惯的不足。事件可能促使相关部门加强对儿童健康问题的关注和干预，提高公众对儿童健康问题的认识。后续可能涉及公共卫生宣传和家庭卫生指导。",
+          "keywords": [
+            "儿童健康",
+            "公共卫生",
+            "家庭卫生"
+          ],
+          "category": "society",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E5%8C%BB%E7%94%9F%E5%9C%A84%E5%B2%81%E5%AE%9D%E5%AE%9D%E7%9D%AB%E6%AF%9B%E4%B8%8A%E5%8F%91%E7%8E%B0%E9%98%B4%E8%99%B1%23&t=31&band_rank=7&Refer=top"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "英国考虑对中国电动汽车征收关税",
+          "titleOrig": "No 10 leaves option open to impose Chinese EV tariffs if UK joins EU scheme",
+          "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T18:09:34+00:00",
+          "desc": "Beijing warns against ‘discriminatory’ step after France drops opposition to British role in Made in Europe packageNo 10 has left the door open to imposing tariffs on Chinese-made electric vehicles as part of the Made in Europe package, prompting a warning from Beijing that such a move would be “dis",
+          "hotLabel": "",
+          "summary": "在北京警告“歧视性”步骤后，英国政府表示可能会对中国制造的电动汽车征收关税。",
+          "analysis": "这一举措可能加剧英中之间的贸易紧张关系，影响两国在电动汽车领域的合作。对全球电动汽车市场来说，这可能引发对贸易保护主义的担忧。对国际局势而言，这表明地缘政治因素可能影响全球贸易和供应链。",
+          "keywords": [
+            "英国",
+            "中国",
+            "电动汽车",
+            "关税",
+            "贸易紧张"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "中国要求以色列停止在西岸建立定居点",
+          "titleOrig": "China tells Israel to stop 'forced establishment' of West Bank settlements",
+          "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-10-16T08:45:54+00:00",
+          "desc": "Chinese Foreign Minister Wang Yi spoke to Israeli President Isaac Herzog on the sidelines of a conference.",
+          "hotLabel": "",
+          "summary": "中国外交部长王毅在与以色列总统会晤时要求以色列停止在西岸建立定居点。",
+          "analysis": "这一事件体现了中国在中东问题上的立场，即反对以色列在西岸建立定居点。事件背景是巴以冲突和中东地区的地缘政治紧张。这一事件对国际政治有重要影响，表明中国在中东问题上的作用日益增强。后续走向可能包括国际社会对以色列定居点政策的反应，以及巴以冲突的进一步发展。",
+          "keywords": [
+            "中国",
+            "以色列",
+            "西岸定居点",
+            "中东问题",
+            "国际政治"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/10/16/us-china-mastercard-citigroup-market-access.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/politics/2026/oct/16/uk-chinese-electric-vehicle-ev-tariffs-eu-made-in-europe-scheme"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-france-agree-on-deal-to-support-europe-s-struggling-car-industry/a-79678595?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "行走赣鄱红土地 多元传承红色文脉",
+          "titleOrig": "红星照耀中国｜行走赣鄱红土地 多元传承红色文脉 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2WTNuR2NwNzZFd1c5ckl4NC1FaEN6S09wOGVmRlo1WnYya3Bfa3ZiMXJFb2piUUF5LVJKakR4a3ltdjdEQkxTcEVCTmNtMWNrdHRUYXNQUkhJWm9hMVJqQVJFNmduLTkyUmFncE9wOA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-10-16T13:47:00+00:00",
+          "desc": "红星照耀中国｜行走赣鄱红土地 多元传承红色文脉 中国经济网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "中国经济网报道赣鄱地区红色文化传承活动。",
+          "analysis": "此报道反映了国家对红色文化传承的重视，旨在弘扬革命精神，增强民族凝聚力。赣鄱地区作为红色文化的重要发源地，其文化传承活动有助于提升地方文化软实力，同时也对全国红色旅游产业的发展起到推动作用。后续可能出台更多政策支持红色文化传承与旅游发展。",
+          "keywords": [
+            "红色文化",
             "传承",
-            "爱国主义",
+            "赣鄱地区",
+            "旅游发展",
             "民族凝聚力"
           ],
           "category": "society",
@@ -965,290 +1105,175 @@
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE93TW5WNmkzTDhpcEUxUmNFLUhQSzBPaTlrMjdJdWx6Vk1UMk12TVdBRGp6NmRseldwbko5SlY2UE5rMDN0eHR0eHQ5SExabl9xUW1ZNV8wd1g1d1hBZkM2RlVTRVl6X09F?oc=5"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%80%81%E4%BA%BA%E5%87%8C%E6%99%A8%E4%B8%8B%E5%9C%B0%E5%B9%B2%E6%B4%BB%E8%A2%AB%E6%B0%94%E6%9E%AA%E5%87%BB%E4%B8%AD%E8%BA%AB%E4%BA%A1"
-            },
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E6%95%99%E5%B8%88%E8%A2%AB%E8%BF%AB%E8%80%BB%E8%BE%B1%E5%90%88%E5%BD%B1%E6%95%99%E4%BD%93%E5%B1%80%E5%B1%80%E9%95%BF%E5%B7%B2%E8%B0%83%E7%A6%BB"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "红星照耀中国丨赓续红土血脉 书写老区振兴新答卷",
-          "titleOrig": "红星照耀中国丨赓续红土血脉 书写老区振兴新答卷 - 昆明信息港",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxOS1ZdXZaQ2NWQVZCSDN0cWVTbXNLU3kydklGc1AzMUZVOXFHMjBHWFZvSXp0aFByMnV5M283Sy1qc3FHeE8ycms1b0dPYjcwWVRLbUwtLVdfR0pLTnktTzFWLVJEQQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-10-16T07:52:29+00:00",
-          "desc": "红星照耀中国丨赓续红土血脉 书写老区振兴新答卷 昆明信息港红星照耀中国｜行走赣鄱红土地 多元传承红色文脉 凤凰网壹时评：赓续长征精神，赣鄱以实干作答 新浪新闻92岁老人守着5公斤剪报，等到高铁开进延安那天 搜狐网红星照耀中国丨赓续红土血脉书写老区振兴新答卷- 中国日报网 China Daily",
-          "hotLabel": "",
-          "summary": "老区振兴，传承红色基因，推动区域发展。",
-          "analysis": "报道关注老区振兴，体现了国家对红色文化的传承和发展区域经济的重视。这对国内民生意味着改善老区人民生活条件，对经济而言，有助于促进区域协调发展；对治理意味着强化文化自信和区域协调发展理念。后续可能出台更多政策支持老区振兴和发展。",
-          "keywords": [
-            "老区振兴",
-            "红色文化",
-            "区域发展",
-            "文化传承"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBxOS1ZdXZaQ2NWQVZCSDN0cWVTbXNLU3kydklGc1AzMUZVOXFHMjBHWFZvSXp0aFByMnV5M283Sy1qc3FHeE8ycms1b0dPYjcwWVRLbUwtLVdfR0pLTnktTzFWLVJEQQ?oc=5"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/politics/2026/oct/14/uks-incoherent-approach-to-china-plagued-by-a-lack-of-expertise-report-says"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq1j3wdxy48ro?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/10/16/nike-india-campus-china-sales.html"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "被胁迫借下的网贷该不该还",
-          "titleOrig": "王星被胁迫借下的网贷该不该还",
-          "url": "https://www.zhihu.com/search?q=%E7%8E%8B%E6%98%9F%E8%A2%AB%E8%83%81%E8%BF%AB%E5%80%9F%E4%B8%8B%E7%9A%84%E7%BD%91%E8%B4%B7%E8%AF%A5%E4%B8%8D%E8%AF%A5%E8%BF%98",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "讨论被迫借款是否应承担还款责任。",
-          "analysis": "此事件反映了网络借贷市场的监管问题。背景是近年来网络借贷平台兴起，但随之而来的是借款人被胁迫借款的现象。这涉及到个人权益保护、金融监管以及社会信用体系的建设。对国内民生影响较大，可能导致社会不稳定。后续可能出台更严格的监管政策，加强对借款人的保护。",
-          "keywords": [
-            "网贷",
-            "被迫借款",
-            "个人权益",
-            "金融监管"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%8E%8B%E6%98%9F%E8%A2%AB%E8%83%81%E8%BF%AB%E5%80%9F%E4%B8%8B%E7%9A%84%E7%BD%91%E8%B4%B7%E8%AF%A5%E4%B8%8D%E8%AF%A5%E8%BF%98"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "山东多名干部因纸尿裤事件被问责",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%B1%B1%E4%B8%9C%E5%A4%9A%E5%90%8D%E5%B9%B2%E9%83%A8%E5%9B%A0%E7%BA%B8%E5%B0%BF%E8%A3%A4%E4%BA%8B%E4%BB%B6%E8%A2%AB%E9%97%AE%E8%B4%A3",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "山东干部因纸尿裤事件被问责，反映政府监管力度。",
-          "analysis": "此事件表明政府在加强市场监管，保障民生方面态度坚决。纸尿裤事件暴露了监管漏洞，问责干部体现了政府对社会民生的重视和对违法行为的零容忍态度。",
-          "keywords": [
-            "市场监管",
-            "政府问责",
-            "民生保障",
-            "监管漏洞",
-            "政府态度"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%B1%B1%E4%B8%9C%E5%A4%9A%E5%90%8D%E5%B9%B2%E9%83%A8%E5%9B%A0%E7%BA%B8%E5%B0%BF%E8%A3%A4%E4%BA%8B%E4%BB%B6%E8%A2%AB%E9%97%AE%E8%B4%A3"
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB2WTNuR2NwNzZFd1c5ckl4NC1FaEN6S09wOGVmRlo1WnYya3Bfa3ZiMXJFb2piUUF5LVJKakR4a3ltdjdEQkxTcEVCTmNtMWNrdHRUYXNQUkhJWm9hMVJqQVJFNmduLTkyUmFncE9wOA?oc=5"
             }
           ],
           "rank": 10
         },
         {
-          "title": "浙江乌镇戏剧节开幕 26部中外剧目开演",
-          "titleOrig": "浙江乌镇戏剧节开幕 26部中外剧目开演 - 旅日侨网",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWpGd1F6MEFCbXRtR01jYWpvYk9nYTZGdktwck1XRG0wb3ZyZ2dtenVxSnJMMnlqUjJMaTRTUmZOc1FURWMtYVVhWGRscjNzZ3I4dTJoLTI2OGcwamRFV25uT0VSYzZ4WkhZUEpnZW9NZnZSWER1ZFEtVTlDNWE3LWNDRmJ5YVlqX3c?oc=5",
+          "title": "徐艺洋声明孩子亲生",
+          "titleOrig": "徐艺洋 孩子是我自己生的",
+          "url": "https://s.weibo.com/weibo?q=%E5%BE%90%E8%89%BA%E6%B4%8B%20%E5%AD%A9%E5%AD%90%E6%98%AF%E6%88%91%E8%87%AA%E5%B7%B1%E7%94%9F%E7%9A%84&t=31&band_rank=6&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "徐艺洋就孩子亲生问题发表声明。",
+          "analysis": "该事件涉及到个人隐私和公众人物的私生活，体现了社会对名人私生活的关注。事件可能引发公众对亲子关系、家庭伦理等话题的讨论。对于徐艺洋个人而言，这可能影响其公众形象和家庭生活。后续可能涉及法律程序或媒体跟踪报道。",
+          "keywords": [
+            "名人隐私",
+            "亲子关系",
+            "家庭伦理"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%BE%90%E8%89%BA%E6%B4%8B%20%E5%AD%A9%E5%AD%90%E6%98%AF%E6%88%91%E8%87%AA%E5%B7%B1%E7%94%9F%E7%9A%84&t=31&band_rank=6&Refer=top"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "达州推进工业强市建设",
+          "titleOrig": "四大举措发力，推进工业强市建设|聚焦达州党代会 - 四川在线",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVnVIQ3ozX05JMVZmbkxRSEhYUGxQaW9YcFpCdGNoWXRDOFZBU1JVSnhnN3phc2JSck53NU5WRkxFSDgyZ1V0Tlh4d1VMdHpsVHVlNTdnLVZOSE42WDJidFJ3?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-10-16T10:10:44+00:00",
-          "desc": "浙江乌镇戏剧节开幕 26部中外剧目开演 旅日侨网黄磊和孟京辉为观众系手环，乌镇戏剧节“青年竟赛”展开角逐|北京青年报|刘畅|规则|剧场 finance.sina.com.cn科技与戏剧碰撞，乌镇戏剧节迎来人机共演舞台剧《第二指令：恰逢良机》 凤凰网浙江桐乡：第十三届乌镇戏剧节开幕 人民网-图片频道第13届乌镇戏剧节在浙江嘉兴开幕 搜狐网",
+          "publishedAt": "2026-10-16T13:40:00+00:00",
+          "desc": "四大举措发力，推进工业强市建设|聚焦达州党代会 四川在线达州、眉山最新人事 finance.sina.com.cn中国共产党达州市第六次代表大会闭幕 人民网－四川频道如何把达州农业建成现代化大产业？达州市农业农村局局长王晴：聚焦建体系、强支撑、优服务、抓载体 搜狐网新一届中共达州市委常委会产生 四川日报",
           "hotLabel": "",
-          "summary": "乌镇戏剧节开幕，多部中外剧目上演，展现文化创新。",
-          "analysis": "乌镇戏剧节的举办体现了中国政府对文化创新和对外文化交流的支持。这一活动不仅丰富了国内文化生活，也促进了中外文化交流。同时，通过戏剧这一形式，展示了中国的传统文化和现代创新。对国内民生而言，这样的文化活动有助于提升文化自信和审美水平；对经济而言，戏剧节可以带动旅游和相关产业发展；对治理意味着通过文化软实力提升国家形象。后续走向可能包括更多国际戏剧节的合作和交流。",
+          "summary": "达州采取四大举措推进工业强市建设。",
+          "analysis": "达州推进工业强市建设，是响应国家产业政策，推动地方经济发展的举措。四大举措包括产业升级、科技创新、人才培养和基础设施建设，旨在提升达州工业竞争力。这对四川省乃至全国工业结构调整和区域经济发展具有重要意义。后续可能看到达州工业的快速发展，以及相关产业链的完善。",
           "keywords": [
-            "乌镇戏剧节",
-            "文化创新",
-            "中外交流",
-            "旅游发展"
+            "达州",
+            "工业强市",
+            "产业升级",
+            "科技创新",
+            "人才培养"
           ],
-          "category": "society",
+          "category": "economy",
           "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWWpGd1F6MEFCbXRtR01jYWpvYk9nYTZGdktwck1XRG0wb3ZyZ2dtenVxSnJMMnlqUjJMaTRTUmZOc1FURWMtYVVhWGRscjNzZ3I4dTJoLTI2OGcwamRFV25uT0VSYzZ4WkhZUEpnZW9NZnZSWER1ZFEtVTlDNWE3LWNDRmJ5YVlqX3c?oc=5"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "三部门调查尊界刹车踏板支架断裂问题",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%B8%89%E9%83%A8%E9%97%A8%E8%B0%83%E6%9F%A5%E5%B0%8A%E7%95%8C%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E6%94%AF%E6%9E%B6%E6%96%AD%E8%A3%82%E9%97%AE%E9%A2%98",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "官方调查尊界汽车刹车踏板支架断裂问题。",
-          "analysis": "刹车踏板支架断裂问题涉及公共安全，三部门联合调查表明了政府对产品质量和公共安全的重视。这一事件可能引发对汽车行业质量监管的反思，对国内汽车市场产生一定影响。后续可能出台更严格的质量标准和监管措施，以保障消费者权益。",
-          "keywords": [
-            "刹车踏板支架",
-            "公共安全",
-            "质量监管",
-            "汽车行业",
-            "消费者权益"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%B8%89%E9%83%A8%E9%97%A8%E8%B0%83%E6%9F%A5%E5%B0%8A%E7%95%8C%E5%88%B9%E8%BD%A6%E8%B8%8F%E6%9D%BF%E6%94%AF%E6%9E%B6%E6%96%AD%E8%A3%82%E9%97%AE%E9%A2%98"
+              "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8tVnVIQ3ozX05JMVZmbkxRSEhYUGxQaW9YcFpCdGNoWXRDOFZBU1JVSnhnN3phc2JSck53NU5WRkxFSDgyZ1V0Tlh4d1VMdHpsVHVlNTdnLVZOSE42WDJidFJ3?oc=5"
             }
           ],
           "rank": 12
         },
         {
-          "title": "博主曝懂车帝隐瞒丰田车测试问题",
+          "title": "中央红军长征路线全览",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%8D%9A%E4%B8%BB%E6%9B%9D%E6%87%82%E8%BD%A6%E5%B8%9D%E9%9A%90%E7%9E%92%E4%B8%B0%E7%94%B0%E8%BD%A6%E6%B5%8B%E8%AF%95%E9%97%AE%E9%A2%98",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%A4%AE%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E8%B7%AF%E7%BA%BF%E5%85%A8%E8%A7%88%23&t=31&band_rank=3&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "博主揭露懂车帝隐瞒丰田车测试问题。",
-          "analysis": "此事件涉及到汽车行业的产品质量和媒体责任问题。背景是消费者对汽车安全性的高度关注。事件可能影响消费者对品牌的信任，对汽车行业产生负面影响。后续可能引发对汽车检测行业的监管加强。",
+          "hotLabel": "#3",
+          "summary": "微博热搜关注中央红军长征路线全览。",
+          "analysis": "这一热搜反映了公众对历史事件的关注和对红色历史的缅怀。长征是中国共产党历史上的重要事件，其背后的政策意图是展示党的艰苦奋斗和革命精神，社会成因则是公众对历史的兴趣和对国家历史的认同。这一事件对国内民生和经济的影响较小，但对治理意味着强化国家历史教育和民族认同。后续走向可能包括更多关于长征的历史研究和纪念活动。",
           "keywords": [
-            "懂车帝",
-            "丰田车",
-            "测试问题",
-            "产品质量",
-            "媒体责任"
+            "中央红军",
+            "长征",
+            "历史",
+            "红色教育",
+            "民族认同"
           ],
-          "category": "tech",
+          "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%8D%9A%E4%B8%BB%E6%9B%9D%E6%87%82%E8%BD%A6%E5%B8%9D%E9%9A%90%E7%9E%92%E4%B8%B0%E7%94%B0%E8%BD%A6%E6%B5%8B%E8%AF%95%E9%97%AE%E9%A2%98"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%A4%AE%E7%BA%A2%E5%86%9B%E9%95%BF%E5%BE%81%E8%B7%AF%E7%BA%BF%E5%85%A8%E8%A7%88%23&t=31&band_rank=3&Refer=top"
             }
           ],
           "rank": 13
         },
         {
-          "title": "1.9元汽水涉事医务人员已报警",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=1.9%E5%85%83%E6%B1%BD%E6%B0%B4%E6%B6%89%E4%BA%8B%E5%8C%BB%E5%8A%A1%E4%BA%BA%E5%91%98%E5%B7%B2%E6%8A%A5%E8%AD%A6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "江淮汽车涨停，开盘直接一字封板",
+          "titleOrig": "江淮汽车今天直接涨停，9.98%开盘直接一字封板。 - 汽车之家",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zNmNHZ2R5MUZyRjJkSTY2aWV6NUt1clBKNkYzUmVtS2JKTzl5aFZDZG9vY2N5ZjhWeUREQ2VEUmFmQ3JxeUlTQ2s4dnptYm11NWx4dHVfQ0xlQzA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-10-16T15:44:29+00:00",
+          "desc": "江淮汽车今天直接涨停，9.98%开盘直接一字封板。 汽车之家“速成车”这顶帽子，中国汽车产业不戴！ 观察者网文化和旅游部发布“人工智能＋文化和旅游”应用试点立项名单 finance.sina.com.cn刹车踏板断裂，常识遭遇鬼扯 凤凰网汽车尊界V800刹车踏板风波后：测试员清华学历遭质疑 驱动之家",
           "hotLabel": "",
-          "summary": "医务人员因低价汽水报警，引发社会关注。",
-          "analysis": "此事件反映了当前医疗行业面临的成本压力和医务人员权益保护问题。低价商品可能影响产品质量，医务人员报警可能意在维护自身权益和消费者利益。事件可能促使相关部门加强对医疗行业的监管，保障医务人员权益。",
+          "summary": "江淮汽车开盘涨停。",
+          "analysis": "江淮汽车涨停可能与其近期业绩增长或市场预期有关。事件背景是中国汽车市场的竞争加剧和新能源汽车的快速发展。这一事件对国内汽车产业有积极影响，表明市场对新能源汽车的认可。后续走向可能包括江淮汽车业绩的持续增长，以及新能源汽车市场的进一步扩大。",
           "keywords": [
-            "医务人员",
-            "低价商品",
-            "权益保护",
-            "医疗行业",
-            "监管"
+            "江淮汽车",
+            "汽车市场",
+            "新能源汽车",
+            "业绩增长",
+            "市场预期"
           ],
-          "category": "society",
+          "category": "economy",
           "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=1.9%E5%85%83%E6%B1%BD%E6%B0%B4%E6%B6%89%E4%BA%8B%E5%8C%BB%E5%8A%A1%E4%BA%BA%E5%91%98%E5%B7%B2%E6%8A%A5%E8%AD%A6"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9zNmNHZ2R5MUZyRjJkSTY2aWV6NUt1clBKNkYzUmVtS2JKTzl5aFZDZG9vY2N5ZjhWeUREQ2VEUmFmQ3JxeUlTQ2s4dnptYm11NWx4dHVfQ0xlQzA?oc=5"
             }
           ],
           "rank": 14
         },
         {
-          "title": "胖东来梦之城施工细节获赞",
+          "title": "抖音起诉京东员工",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%A2%A6%E4%B9%8B%E5%9F%8E%E6%96%BD%E5%B7%A5%E7%BB%86%E8%8A%82%E8%8E%B7%E8%B5%9E",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%8A%96%E9%9F%B3%E8%B5%B7%E8%AF%89%E4%BA%AC%E4%B8%9C%E5%91%98%E5%B7%A5%23&t=31&band_rank=2&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "胖东来梦之城施工细节受到好评。",
-          "analysis": "胖东来梦之城的施工细节获得赞誉，反映了企业对品质的追求和注重细节的态度。这一事件在社会上产生积极影响，可能激发其他企业对品质和服务的重视。后续可能看到更多类似的高品质建设项目。",
+          "hotLabel": "#2",
+          "summary": "抖音公司起诉京东员工涉嫌不正当竞争。",
+          "analysis": "此事件涉及互联网公司间的竞争，反映了行业内的激烈竞争态势。抖音起诉京东员工可能引发行业对不正当竞争的关注，并促使相关法律法规的完善。后续可能对两家公司的业务和市场策略产生影响。",
           "keywords": [
-            "胖东来",
-            "梦之城",
-            "施工细节",
-            "品质追求",
-            "服务态度"
+            "抖音",
+            "京东",
+            "不正当竞争",
+            "互联网公司",
+            "市场竞争"
           ],
-          "category": "society",
-          "importance": 65,
+          "category": "economy",
+          "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E8%83%96%E4%B8%9C%E6%9D%A5%E6%A2%A6%E4%B9%8B%E5%9F%8E%E6%96%BD%E5%B7%A5%E7%BB%86%E8%8A%82%E8%8E%B7%E8%B5%9E"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%8A%96%E9%9F%B3%E8%B5%B7%E8%AF%89%E4%BA%AC%E4%B8%9C%E5%91%98%E5%B7%A5%23&t=31&band_rank=2&Refer=top"
             }
           ],
           "rank": 15
         },
         {
-          "title": "二本女生待业一年坚持找双休",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%BA%8C%E6%9C%AC%E5%A5%B3%E7%94%9F%E5%BE%85%E4%B8%9A%E4%B8%80%E5%B9%B4%E5%9D%9A%E6%8C%81%E6%89%BE%E5%8F%8C%E4%BC%91",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "title": "李昀锐疑似深爱孟子义",
+          "titleOrig": "李昀锐好像要爱死孟子义了",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E5%A5%BD%E5%83%8F%E8%A6%81%E7%88%B1%E6%AD%BB%E5%AD%9F%E5%AD%90%E4%B9%89%E4%BA%86%23&t=31&band_rank=5&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1256,29 +1281,57 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "二本女生待业一年坚持寻找双休工作。",
-          "analysis": "此事件反映了当前就业市场的竞争压力和就业观念的变化。背景是就业市场供需矛盾，以及年轻人对工作生活平衡的追求。事件可能引发社会对就业政策、教育体系和职场文化的讨论。后续可能推动就业政策的调整和职场文化的改善。",
+          "summary": "李昀锐与孟子义感情升温，引发网友热议。",
+          "analysis": "该事件反映了娱乐圈明星恋情受到粉丝和媒体的高度关注，体现了公众对明星私生活的兴趣。这背后可能与媒体娱乐化趋势有关，同时也反映了社会对明星偶像的追捧。事件对娱乐圈的影响可能包括明星个人形象的塑造和粉丝文化的形成。后续可能持续有相关报道和粉丝讨论。",
           "keywords": [
-            "二本女生",
-            "待业",
-            "双休",
-            "就业压力",
-            "职场文化"
+            "娱乐圈",
+            "明星恋情",
+            "粉丝文化"
           ],
           "category": "society",
-          "importance": 65,
+          "importance": 70,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%BA%8C%E6%9C%AC%E5%A5%B3%E7%94%9F%E5%BE%85%E4%B8%9A%E4%B8%80%E5%B9%B4%E5%9D%9A%E6%8C%81%E6%89%BE%E5%8F%8C%E4%BC%91"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%98%80%E9%94%90%E5%A5%BD%E5%83%8F%E8%A6%81%E7%88%B1%E6%AD%BB%E5%AD%9F%E5%AD%90%E4%B9%89%E4%BA%86%23&t=31&band_rank=5&Refer=top"
             }
           ],
           "rank": 16
         },
         {
-          "title": "深圳全市全天禁鸣喇叭5年",
+          "title": "披荆斩棘五公上半场排名",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E5%85%A8%E5%B8%82%E5%85%A8%E5%A4%A9%E7%A6%81%E9%B8%A3%E5%96%87%E5%8F%AD5%E5%B9%B4%23&t=31&band_rank=1&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E4%BA%94%E5%85%AC%E4%B8%8A%E5%8D%8A%E5%9C%BA%E6%8E%92%E5%90%8D&t=31&band_rank=8&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "综艺节目《披荆斩棘》五公上半场排名公布。",
+          "analysis": "该事件是综艺节目的一部分，反映了娱乐产业对年轻观众的吸引力和市场潜力。事件对节目本身和参与艺人有直接的影响，可能提升艺人知名度和节目收视率。后续可能持续有节目内容和排名变化。",
+          "keywords": [
+            "综艺节目",
+            "娱乐产业",
+            "艺人知名度"
+          ],
+          "category": "society",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E6%8A%AB%E8%8D%86%E6%96%A9%E6%A3%98%E4%BA%94%E5%85%AC%E4%B8%8A%E5%8D%8A%E5%9C%BA%E6%8E%92%E5%90%8D&t=31&band_rank=8&Refer=top"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "母亲降低大一儿子生活费",
+          "titleOrig": "母亲将大一儿子生活费从4000降至2000",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E5%B0%86%E5%A4%A7%E4%B8%80%E5%84%BF%E5%AD%90%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%BB%8E4000%E9%99%8D%E8%87%B32000%23&t=31&band_rank=1&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1288,61 +1341,33 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "深圳实施全天禁鸣喇叭政策，改善城市环境。",
-          "analysis": "此政策旨在减少城市噪音污染，提升居民生活质量。禁鸣喇叭政策体现了城市管理的精细化，对改善城市环境、提升居民幸福感具有重要意义。",
+          "summary": "母亲将大一儿子生活费从4000降至2000。",
+          "analysis": "母亲降低大一儿子生活费，反映了当前经济环境下家庭财务压力的增大。这一行为可能反映了家长对子女教育投入的重新评估，以及对学生自立能力的培养。这对社会教育观念和家庭经济管理提出了新的挑战。后续可能看到更多家庭在子女教育投入上的调整。",
           "keywords": [
-            "禁鸣喇叭",
-            "城市环境",
-            "城市管理",
-            "生活质量",
-            "政策实施"
-          ],
-          "category": "society",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E6%B7%B1%E5%9C%B3%E5%85%A8%E5%B8%82%E5%85%A8%E5%A4%A9%E7%A6%81%E9%B8%A3%E5%96%87%E5%8F%AD5%E5%B9%B4%23&t=31&band_rank=1&Refer=top"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "秋裤预警：南北方温差达15℃",
-          "titleOrig": "冷空气登场拉响“秋裤预警” 南北方温差可达15℃以上 - 中国青年网",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kcDlGcjJZWWNvZHZaaFY0TGZTSFhSekhRaXBvN0hnZG82STJ6ZUxZeld3OEpaYkl4VjRJUG5rRHNBMnJHMC1sdjF2OG01NjZ6dkpVakd4bWhjakVuVGJFSnhrNjM?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-10-16T10:58:00+00:00",
-          "desc": "冷空气登场拉响“秋裤预警” 南北方温差可达15℃以上 中国青年网冷空气登场拉响“秋裤预警” 南北方温差可达15℃以上|经济日报|雨夹雪|暴雪|大雪|湖北省 finance.sina.com.cn冷空气发威北方大部气温将创新低 大范围雨雪明起进入最强时段 新华网新一股冷空气携降雨降温来袭，江苏北部有暴雨或大暴雨 凤凰网江苏中央气象台发布暴雨蓝色预警 部分地区有大雨局地暴雨 中国青年网",
-          "hotLabel": "",
-          "summary": "冷空气影响，南北方温差扩大。",
-          "analysis": "此报道反映了气候变化对国内民生的影响。南北方温差加大可能对居民生活造成不便，对经济活动也有一定影响。后续可能需要政府采取相应措施来应对气候变化带来的挑战。",
-          "keywords": [
-            "冷空气",
-            "温差",
-            "气候变化",
-            "民生",
-            "经济活动"
+            "生活费",
+            "教育投入",
+            "经济压力",
+            "自立能力",
+            "家庭经济"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5kcDlGcjJZWWNvZHZaaFY0TGZTSFhSekhRaXBvN0hnZG82STJ6ZUxZeld3OEpaYkl4VjRJUG5rRHNBMnJHMC1sdjF2OG01NjZ6dkpVakd4bWhjakVuVGJFSnhrNjM?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E6%AF%8D%E4%BA%B2%E5%B0%86%E5%A4%A7%E4%B8%80%E5%84%BF%E5%AD%90%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%BB%8E4000%E9%99%8D%E8%87%B32000%23&t=31&band_rank=1&Refer=top"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%AF%8D%E4%BA%B2%E5%B0%86%E5%A4%A7%E4%B8%80%E5%84%BF%E5%AD%90%E7%94%9F%E6%B4%BB%E8%B4%B9%E4%BB%8E4000%E9%99%8D%E8%87%B32000"
             }
           ],
           "rank": 18
         },
         {
-          "title": "DeepSeek崩了",
+          "title": "美国肯德基将改用可口可乐",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=DeepSeek%E5%B4%A9%E4%BA%86",
+          "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E5%9B%BD%E8%82%AF%E5%BE%B7%E5%9F%BA%E5%B0%86%E6%94%B9%E7%94%A8%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1351,32 +1376,32 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#3",
-          "summary": "DeepSeek平台出现问题。",
-          "analysis": "DeepSeek作为一家科技企业，其崩塌可能反映了行业竞争激烈和内部管理问题。这一事件可能对相关领域的投资者和从业者产生一定影响，同时也提醒企业需加强内部治理和风险控制。后续可能引发行业对平台稳定性和企业运营的更多关注。",
+          "hotLabel": "#1",
+          "summary": "肯德基在中国将改用可口可乐作为饮料供应商。",
+          "analysis": "这一事件反映了跨国公司在中国的市场策略调整。肯德基改用可口可乐可能是因为可口可乐在中国市场的强大影响力和品牌认可度。这对国内经济意味着市场竞争的加剧，对治理意味着跨国公司业务监管的挑战。后续走向可能包括更多跨国公司在中国市场的合作与竞争。",
           "keywords": [
-            "DeepSeek",
-            "科技企业",
-            "行业竞争",
-            "内部管理",
-            "风险控制"
+            "肯德基",
+            "可口可乐",
+            "市场策略",
+            "跨国公司",
+            "市场竞争"
           ],
-          "category": "tech",
+          "category": "economy",
           "importance": 60,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=DeepSeek%E5%B4%A9%E4%BA%86"
+              "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E5%9B%BD%E8%82%AF%E5%BE%B7%E5%9F%BA%E5%B0%86%E6%94%B9%E7%94%A8%E5%8F%AF%E5%8F%A3%E5%8F%AF%E4%B9%90"
             }
           ],
           "rank": 19
         },
         {
-          "title": "长实否认李嘉诚逝世",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%95%BF%E5%AE%9E%E5%90%A6%E8%AE%A4%E6%9D%8E%E5%98%89%E8%AF%9A%E9%80%9D%E4%B8%96",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "title": "田曦薇和周也表演课",
+          "titleOrig": "田曦薇和周也上的一个表演课吗",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E5%92%8C%E5%91%A8%E4%B9%9F%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E8%A1%A8%E6%BC%94%E8%AF%BE%E5%90%97%23&t=31&band_rank=4&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1384,20 +1409,21 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "长实集团否认李嘉诚逝世传闻。",
-          "analysis": "此事件涉及到公众人物的健康和生命安全问题。李嘉诚作为香港知名商人，其健康状况受到广泛关注。事件反映了媒体和公众对名人隐私的关注，以及对信息真实性的要求。后续可能需要官方发布声明以澄清事实。",
+          "summary": "田曦薇和周也参加表演课程的消息引起关注。",
+          "analysis": "此消息关注度高可能是因为两位演员的知名度。演员参加表演课程有助于提升演技，对粉丝而言，也是了解偶像生活的一面窗口。后续可能引发更多关于演员个人成长和职业发展的讨论。",
           "keywords": [
-            "李嘉诚",
-            "逝世传闻",
-            "名人隐私",
-            "信息真实性"
+            "田曦薇",
+            "周也",
+            "表演课",
+            "演员",
+            "个人成长"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%95%BF%E5%AE%9E%E5%90%A6%E8%AE%A4%E6%9D%8E%E5%98%89%E8%AF%9A%E9%80%9D%E4%B8%96"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E7%94%B0%E6%9B%A6%E8%96%87%E5%92%8C%E5%91%A8%E4%B9%9F%E4%B8%8A%E7%9A%84%E4%B8%80%E4%B8%AA%E8%A1%A8%E6%BC%94%E8%AF%BE%E5%90%97%23&t=31&band_rank=4&Refer=top"
             }
           ],
           "rank": 20
