@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T03:39:15.182192+00:00",
+  "generatedAt": "2026-11-07T12:05:14.390101+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 29,
+      "count": 30,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 16,
+      "count": 20,
       "ok": true
     },
     {
@@ -90,243 +90,74 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现出多极化与地区热点交织的态势。在政治领域，美国中期选举结果引发关注，特朗普宣布新幕僚长人选，前奥巴马助手考虑2028年竞选总统，以色列选举结果未决，欧洲面临炸弹威胁。经济方面，AI股上涨，市场价值波动，新西兰通胀问题备受关注。此外，伊朗导弹基地建设、肯尼亚末日教派头目被判刑、俄罗斯极端组织否认虚假威胁等事件也值得关注。总体而言，国际局势复杂多变，各方势力博弈加剧。",
+      "digest": "今日国际局势呈现出多方面动态。经济领域，投资者对AI公司估值预期降低，就业数据虽强劲但隐藏就业趋势隐忧。政治层面，欧洲与日本在核聚变发电厂建设上合作，非洲国民大会选举受挫，以色列选举后新政府组建成谜，多名民主党人瞄准2028年总统选举。军事冲突方面，乌克兰反攻行动内幕曝光，美国对伊朗进行小规模打击。科技领域，OpenAI涉嫌窃听事件持续发酵。此外，欧洲航班炸弹威胁事件频发，法国抗议、新西兰通胀问题等国际热点亦值得关注。总体来看，国际局势复杂多变，各方势力博弈加剧。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "2028年白宫竞选的四点中期选举启示",
-          "titleOrig": "Four midterms takeaways for 2028 White House race",
-          "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
+          "title": "投资者预期Anthropic估值低于1.5万亿美元，华尔街AI交易遇冷",
+          "titleOrig": "Investors brace for lower Anthropic valuation, calling $1.5 trillion a 'stretch'",
+          "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-06T16:12:22+00:00",
-          "desc": "The buzz about the presidential election is already under way - here's what we learned this week.",
+          "publishedAt": "2026-11-06T21:07:07+00:00",
+          "desc": "Anthropic could list below a $1.5 trillion valuation, trailing previous expectations, as the AI trade sours on Wall Street.",
           "hotLabel": "",
-          "summary": "中期选举进行中，对2028年美国总统大选已有几点启示。",
-          "analysis": "背景：中期选举是美国政治生态的一部分，对总统选举有重要影响。关键影响：选举结果可能预示未来政治走向，影响政策制定。后续走向：需关注选举结果及其对政策的影响。",
+          "summary": "投资者预期Anthropic估值低于1.5万亿美元，华尔街AI交易遇冷。",
+          "analysis": "Anthropic估值下调反映了市场对AI行业未来增长前景的担忧。这将对AI行业的投资和整个科技股市场产生连锁反应，可能影响全球科技行业的发展。",
           "keywords": [
-            "中期选举",
-            "白宫竞选",
-            "政治走向",
-            "政策",
-            "选举结果"
+            "AI行业",
+            "估值下调",
+            "华尔街",
+            "科技股市场"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 90,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/investors-brace-for-anthropic-valuation-1point5-trillion-a-stretch.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "以色列选举结果未决，阿拉伯政党备受关注",
-          "titleOrig": "Israel's Arab-led parties in spotlight after inconclusive election",
-          "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
-          "source": "NPR News",
-          "sourceId": "npr",
+          "title": "争夺首个核聚变发电厂，欧洲寻求日本帮助",
+          "titleOrig": "The race is on to build the first fusion power plant — and Europe is looking to Japan for help",
+          "url": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-06T20:42:51+00:00",
-          "desc": "Israel's center-right opposition has a chance to unseat Netanyahu — but backing of Arab-led parties will be key.",
+          "publishedAt": "2026-11-07T06:00:01+00:00",
+          "desc": "Fusion energy has the potential to provide abundant, clean power. Now, the race is on to develop the world’s first commercial plant.",
           "hotLabel": "",
-          "summary": "以色列选举结果未决，阿拉伯政党支持可能成为反对内塔尼亚胡的关键。",
-          "analysis": "以色列选举结果的不确定性凸显了国内政治的复杂性和阿拉伯政党在政治舞台上的重要性。阿拉伯政党若获得支持，可能对内塔尼亚胡的长期执政构成挑战，影响以色列内政和外交政策。对国际格局而言，这可能影响以色列与阿拉伯国家的关系，以及中东地区的和平进程。",
+          "summary": "核聚变能源有望提供丰富、清洁的电力。现在，全球范围内正在竞相开发首个商业核聚变发电厂。",
+          "analysis": "核聚变能源的开发是全球能源领域的一大突破，对于解决能源危机和环境保护具有重要意义。欧洲寻求日本的技术支持，反映了国际间在能源技术领域的合作与竞争。这一事件可能推动全球能源结构变革，并对地缘政治格局产生影响。",
           "keywords": [
-            "以色列",
-            "选举",
-            "阿拉伯政党",
-            "内塔尼亚胡",
-            "中东"
+            "核聚变能源",
+            "能源危机",
+            "国际合作",
+            "地缘政治",
+            "能源结构"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/07/proxima-fusion-power-japan-supply-chain.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "新西兰是否将加入全球选民对高通胀的抗议浪潮？",
-          "titleOrig": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
-          "url": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-07T02:14:48+00:00",
-          "desc": "In the lead-up to an election in which economic concerns dominate, there was no clear front-runner. Minor parties will most likely determine who governs.",
-          "hotLabel": "",
-          "summary": "新西兰选举前经济问题成焦点，小党派可能决定政府走向。",
-          "analysis": "新西兰即将举行的选举受到经济问题的影响，选民对高通胀的担忧日益加剧。这一现象反映了全球范围内对经济困境的普遍不满。小党派的影响力增强，可能意味着政府政策将更加多元化和灵活，但同时也增加了政策的不确定性。后续，新西兰的政策调整将对国内经济稳定和国际关系产生影响。",
-          "keywords": [
-            "新西兰",
-            "选举",
-            "经济问题",
-            "通胀",
-            "政治不确定性"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c977ppnezep6o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/americas/pope-leo-uruguay-argentina-peru.html"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "AI股上涨，市场价值蒸发数万亿美元后",
-          "titleOrig": "AI stocks climb after trillions wiped from market values",
-          "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T21:06:25+00:00",
-          "desc": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
-          "hotLabel": "",
-          "summary": "投资者因担忧民主党胜利将导致AI发展放缓而抛售科技股。",
-          "analysis": "背景：AI行业在民主党胜利后面临政策不确定性，投资者担忧政策变化可能减缓AI发展。关键影响：市场对AI发展的信心受挫，可能导致投资减少，影响行业长期发展。后续走向：政策走向将影响AI行业未来，需关注政府政策调整。",
-          "keywords": [
-            "AI",
-            "股市",
-            "民主党",
-            "政策",
-            "投资"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "肯尼亚末日教派头目因谋杀191人被判无期徒刑",
-          "titleOrig": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T14:46:03+00:00",
-          "desc": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
-          "hotLabel": "",
-          "summary": "肯尼亚末日教派头目保罗·麦肯齐因谋杀191人被判无期徒刑。",
-          "analysis": "此事件反映了极端宗教势力对个人生命的漠视，以及宗教极端主义在非洲的蔓延。这将对肯尼亚的社会稳定和宗教和谐构成威胁。未来，政府可能加强宗教监管，以防止类似事件再次发生。",
-          "keywords": [
-            "末日教派",
-            "谋杀",
-            "宗教极端主义",
-            "肯尼亚",
-            "社会稳定"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "伊朗导弹基地附近进行重大建设，卫星图像显示",
-          "titleOrig": "Major construction ongoing near Iran missile bases, satellite images suggest",
-          "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T07:33:41+00:00",
-          "desc": "Evidence of digging and new buildings are visible in satellite imagery taken in November, satellite images suggest.",
-          "hotLabel": "",
-          "summary": "卫星图像显示伊朗导弹基地附近有挖掘和新建建筑迹象。",
-          "analysis": "伊朗在导弹基地附近进行建设可能意在增强其防御能力，这可能与地区安全局势紧张有关。此举可能加剧地区紧张局势，对中东地区的稳定构成威胁。后续可能引发国际社会的关注和反应，包括制裁或外交施压。",
-          "keywords": [
-            "伊朗",
-            "导弹基地",
-            "建设",
-            "卫星图像",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ckjrwx1r2d5ro?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "教皇术后开启拉丁美洲之旅，12天内访问三国",
-          "titleOrig": "12 Planes in 12 Days: Pope Begins Major Latin America Tour, Weeks After Surgery",
-          "url": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T19:24:09+00:00",
-          "desc": "Pope Leo XIV’s tour of Uruguay, Argentina and Peru is his first major trip since an operation on his lung last month.",
-          "hotLabel": "",
-          "summary": "教皇Leo XIV术后首次出访，访问乌拉圭、阿根廷和秘鲁。",
-          "analysis": "教皇Leo XIV在经历肺部手术后迅速恢复并开启拉丁美洲之旅，显示出梵蒂冈对该地区的重视。此次访问可能旨在加强梵蒂冈与拉丁美洲国家的关系，同时传递教会的和平与和解信息。对国际格局而言，这可能是对全球天主教徒精神领袖健康状况的关注，以及对拉丁美洲政治稳定性的评估。后续可能包括梵蒂冈与各国在宗教、文化和社会发展方面的合作深化。",
-          "keywords": [
-            "教皇",
-            "拉丁美洲",
-            "健康",
-            "外交",
-            "宗教"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/europe/pope-leo-visit-uruguay-argentina-peru.html"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "南非非洲人国民大会在地方选举中遭遇重挫",
+          "title": "非洲国民大会在南非地方选举中遭遇重挫，80%选票已计",
           "titleOrig": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
           "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
           "source": "The Guardian",
@@ -338,187 +169,91 @@
           "publishedAt": "2026-11-06T12:48:37+00:00",
           "desc": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 resultThe African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally wi",
           "hotLabel": "",
-          "summary": "非洲人国民大会在地方选举中得票率大幅下降，面临严峻挑战。",
-          "analysis": "南非非洲人国民大会在地方选举中的失利反映了民众对执政党治理的不满。这一结果可能对南非的政治格局产生重大影响，包括对国家政策、经济发展和社会稳定的潜在影响。对国际格局而言，这可能影响南非在国际社会中的地位，以及对非洲大陆的政治和经济影响力。",
+          "summary": "非洲国民大会在南非地方选举中遭遇重挫，得票率远低于2021年。",
+          "analysis": "非洲国民大会的选举失利可能标志着南非政治格局的变化，削弱了该党在国家的长期统治地位。这可能会影响南非的政策方向，尤其是在经济和社会改革方面。同时，这也可能引发对民主制度稳定性和政治参与的讨论。",
           "keywords": [
             "南非",
-            "非洲人国民大会",
-            "地方选举",
-            "政治",
-            "非洲"
+            "非洲国民大会",
+            "选举",
+            "政治变革",
+            "民主制度"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 90,
           "sources": [
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
             }
           ],
-          "rank": 8
+          "rank": 3
         },
         {
-          "title": "特朗普宣布斯蒂芬·米勒将接替苏西·威尔斯担任白宫幕僚长",
-          "titleOrig": "Trump says Stephen Miller to replace Susie Wiles as White House chief of staff",
-          "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T22:22:53+00:00",
-          "desc": "Trump revealed the shake-up three days after Democrats' landslide victory in the midterm elections, winning majority control of the House and Senate.",
-          "hotLabel": "",
-          "summary": "特朗普在中期选举民主党大胜后宣布人事变动。",
-          "analysis": "特朗普的这一人事变动可能意味着白宫政策将更加倾向于保守和强硬立场。斯蒂芬·米勒在移民和贸易政策上立场强硬，其上任可能加剧美国内部分歧，并对国际贸易关系产生重大影响。后续，美国政府的政策调整将对国内外政策产生深远影响。",
-          "keywords": [
-            "特朗普",
-            "白宫幕僚长",
-            "政策调整",
-            "移民政策",
-            "贸易关系"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/06/trump-stephen-miller-wiles-chief-of-staff.html"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "特朗普中期选举惨败，乌克兰人对结果持谨慎乐观态度",
-          "titleOrig": "Guarded Optimism, and Some Jokes, in Ukraine Over Trump’s Midterm Wipeout",
-          "url": "https://www.nytimes.com/2026/11/06/world/europe/russia-ukraine-trump-midterms.html",
+          "title": "乌克兰反攻行动内幕：揭秘逆转俄军战果",
+          "titleOrig": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
+          "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-06T10:22:24+00:00",
-          "desc": "Victory for Democrats could alter the course of peace negotiations and a war nearing its fifth year.",
+          "publishedAt": "2026-11-07T10:01:41+00:00",
+          "desc": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
           "hotLabel": "",
-          "summary": "民主党在选举中获胜，可能改变和平谈判和战争走向。",
-          "analysis": "美国中期选举结果可能影响美国对乌克兰的政策，进而影响乌克兰与俄罗斯之间的冲突。乌克兰人对选举结果的反应表明，尽管对和平谈判抱有希望，但战争结束的前景仍然不确定。",
+          "summary": "乌克兰指挥官允许《纽约时报》记者进入地下掩体和训练场，揭秘反攻俄军战果的内幕。",
+          "analysis": "乌克兰反攻行动反映了俄乌冲突的激烈程度和乌克兰军队的抵抗能力。这一行动对乌克兰的领土完整和民族自尊心具有重要意义，同时也可能改变俄乌冲突的态势。后续可能引发国际社会的关注和介入，对地区安全格局产生深远影响。",
           "keywords": [
-            "美国",
-            "中期选举",
-            "民主党",
             "乌克兰",
-            "和平谈判"
+            "反攻",
+            "俄军",
+            "领土",
+            "国际关注"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/europe/russia-ukraine-trump-midterms.html"
+              "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html"
             }
           ],
-          "rank": 10
+          "rank": 4
         },
         {
-          "title": "美国新一届参议院迎来历史性时刻",
-          "titleOrig": "The incoming class of U.S. senators is full of historic firsts",
-          "url": "https://www.npr.org/2026/11/06/nx-s1-6032814/senate-history-election-pappas-andrews-el-sayed",
-          "source": "NPR News",
-          "sourceId": "npr",
+          "title": "特朗普称美国对伊朗进行小规模打击，导弹击中霍尔木兹海峡附近的格什姆岛",
+          "titleOrig": "Trump says U.S. carried out ‘minor strikes’ on Iran as missiles hit Qeshm Island",
+          "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
+          "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-06T20:21:13+00:00",
-          "desc": "From the first Native American woman elected to the U.S. Senate and the first Muslim who will join the upper chamber to the Senate's first Paralympian, voters elected historic candidates on Tuesday.",
+          "publishedAt": "2026-11-07T07:37:36+00:00",
+          "desc": "Trump said the U.S. carried out ‘minor strikes’ on Iran after Iranian media reported two missiles hit Qeshm Island near the Strait of Hormuz.",
           "hotLabel": "",
-          "summary": "美国新一届参议院迎来首位原住民女性、穆斯林和残疾人士。",
-          "analysis": "美国参议院的历史性选举反映了社会的多元化趋势，同时也可能对政策制定产生深远影响。这些新成员的加入可能会在移民、宗教自由和残疾人权益等议题上推动更广泛的讨论。对国际格局而言，这体现了美国民主制度的活力，同时也可能影响美国在国际社会中的形象。",
+          "summary": "特朗普表示美国对伊朗进行小规模打击，回应伊朗导弹袭击。",
+          "analysis": "事件背景：美国与伊朗紧张关系升级，霍尔木兹海峡作为全球能源运输要道，其安全对全球经济至关重要。关键影响：此次打击可能加剧地区紧张局势，影响全球能源市场。后续走向：双方可能进一步升级冲突，或寻求外交途径解决争端。",
           "keywords": [
-            "美国",
-            "参议院",
-            "多元化",
-            "历史性",
-            "政策"
+            "特朗普",
+            "伊朗",
+            "霍尔木兹海峡",
+            "能源市场",
+            "紧张局势"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/06/nx-s1-6032814/senate-history-election-pappas-andrews-el-sayed"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/07/trump-us-minor-strikes-iran-qeshm-island.html"
             }
           ],
-          "rank": 11
+          "rank": 5
         },
         {
-          "title": "巴拉圭总统圣地亚哥·佩纳因银行危机被软禁",
-          "titleOrig": "Paraguay: President Santiago Pena under house arrest over bank crisis",
-          "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T23:23:00+00:00",
-          "desc": "Paraguay’s Senate has ousted President Santiago Pena over the collapse of a major bank tied to his government. Millions of customers' accounts are frozen, with public pension and health care funds also tied up.",
-          "hotLabel": "",
-          "summary": "巴拉圭总统因政府关联银行破产被国会软禁。",
-          "analysis": "巴拉圭总统被软禁事件反映了该国严重的银行危机，可能引发政治动荡。这一事件可能对巴拉圭的经济稳定和地区安全产生重大影响。后续，巴拉圭政府如何处理银行危机和总统地位问题将对国家未来发展产生决定性影响。",
-          "keywords": [
-            "巴拉圭",
-            "银行危机",
-            "政治动荡",
-            "经济稳定",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/paraguay-president-santiago-pena-under-house-arrest-over-bank-crisis/a-79868484?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "新一轮炸弹威胁袭击欧洲航空公司",
-          "titleOrig": "New wave of bomb threats hit European airlines",
-          "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T15:25:35+00:00",
-          "desc": "No link has been established between the threats against the airlines and those against the media outlets.",
-          "hotLabel": "",
-          "summary": "针对航空公司的威胁与媒体机构威胁无直接关联。",
-          "analysis": "背景：炸弹威胁可能源于恐怖主义或个人极端行为，对航空安全构成威胁。关键影响：威胁可能影响航空业运营，对旅客安全造成影响。后续走向：需关注调查进展及安全措施。",
-          "keywords": [
-            "炸弹威胁",
-            "航空公司",
-            "欧洲",
-            "恐怖主义",
-            "安全"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "俄罗斯极端组织否认发送虚假炸弹威胁",
+          "title": "欧洲航班收到虚假炸弹威胁，俄极端组织否认",
           "titleOrig": "Russian extremist group denies sending hoax bomb threats",
           "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -530,56 +265,381 @@
           "publishedAt": "2026-11-06T12:51:38+00:00",
           "desc": "Scores of flights across Europe have received bomb threats this week, but no explosives have been found so far.",
           "hotLabel": "",
-          "summary": "本周欧洲多架航班收到虚假炸弹威胁，但未发现爆炸物。",
-          "analysis": "这起虚假炸弹威胁事件可能是由极端组织或个人为制造恐慌而发起。这表明恐怖主义威胁依然存在，欧洲各国需加强安全防范。未来，可能发生更多类似的虚假威胁事件，考验各国反恐能力。",
+          "summary": "欧洲航班收到虚假炸弹威胁，俄极端组织否认。",
+          "analysis": "此次虚假炸弹威胁可能源于恐怖组织或个人，反映了恐怖主义在欧洲的潜在威胁。这将对航空安全带来影响，并可能加剧国际紧张关系。后续可能需要加强安全措施，并对幕后黑手进行追踪。",
           "keywords": [
             "炸弹威胁",
-            "俄罗斯",
-            "极端组织",
             "恐怖主义",
-            "欧洲安全"
+            "欧洲航空",
+            "安全措施"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 85,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 14
+          "rank": 6
         },
         {
-          "title": "尼日利亚法院裁定反对派候选人无法参加选举",
-          "titleOrig": "Nigerian court rules opposition candidate cannot stand in elections",
-          "url": "https://www.bbc.co.uk/news/articles/cw8rzzx46jd5o?at_medium=RSS&at_campaign=rss",
+          "title": "最新强劲就业数据背后隐藏着令人不安的就业趋势",
+          "titleOrig": "A disturbing employment trend is hiding beneath the latest strong job numbers",
+          "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-06T20:11:17+00:00",
+          "desc": "The average jobless worker's bout of unemployment surpassed 27 weeks in October, the highest outside of the pandemic period in a decade.",
+          "hotLabel": "",
+          "summary": "美国10月失业者平均失业时间超过27周，为疫情外十年最高。",
+          "analysis": "尽管美国就业市场看似强劲，但失业时间延长表明劳动力市场存在结构性问题。这可能反映了经济复苏的不平衡，以及某些行业或地区的就业机会减少。长期失业可能加剧社会不平等，并对消费者信心和整体经济复苏构成威胁。未来，政策制定者可能需要关注劳动力市场的这些弱点，并采取措施促进就业机会的创造和分配。",
+          "keywords": [
+            "美国经济",
+            "就业市场",
+            "失业率",
+            "结构性问题",
+            "经济复苏"
+          ],
+          "category": "economy",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/long-term-unemployment-october-jobs-report.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "以色列选举后，谁将有机会组建新政府？",
+          "titleOrig": "After Israel’s Election, Who Will Get the First Chance to Form a Government?",
+          "url": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-07T08:02:08+00:00",
+          "desc": "President Isaac Herzog is set to task a candidate with trying to form a government, following two days of talks with party leaders and officials after an inconclusive election.",
+          "hotLabel": "",
+          "summary": "总统赫佐格将在与党派领导人及官员两天会谈后，指派候选人尝试组建政府。",
+          "analysis": "以色列选举的不确定性可能导致政治僵局，影响地区安全和中东和平进程。后续可能引发国际社会的关注和介入，对中东地区的政治经济格局产生重要影响。",
+          "keywords": [
+            "以色列",
+            "选举",
+            "政府组建",
+            "政治僵局",
+            "地区安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/06/world/middleeast/israel-election-government-herzog.html"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "多名民主党人瞄准2028年总统选举，前奥巴马助手透露",
+          "titleOrig": "Dozens of Democrats eyeing 2028 presidential run, says former Obama aide",
+          "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-06T17:35:55+00:00",
-          "desc": "The high court has sacked the leadership of the opposition ADC party with only months to go until elections.",
+          "publishedAt": "2026-11-06T16:51:01+00:00",
+          "desc": "Jim Messina tells the BBC that after Democrats' midterm victories he's talked to \"over two dozen campaigns\", with some already hiring staff.",
           "hotLabel": "",
-          "summary": "尼日利亚高等法院撤销了反对派ADC党领导层，距离选举仅剩数月。",
-          "analysis": "尼日利亚法院的这一裁决可能影响该国即将到来的选举的公正性，引发国内政治动荡。这可能会对尼日利亚的民主进程和地区稳定产生负面影响，并可能加剧国内政治分歧。",
+          "summary": "多名民主党人瞄准2028年总统选举，前奥巴马助手透露。",
+          "analysis": "民主党人对于2028年总统选举的早期布局反映了其内部的政治活力和对未来选战的重视。这可能预示着未来几年的政治竞争将更加激烈，并对美国的政治格局产生深远影响。",
           "keywords": [
-            "尼日利亚",
-            "选举",
-            "反对派",
-            "法院裁决",
-            "政治动荡"
+            "民主党",
+            "总统选举",
+            "2028年",
+            "政治竞争"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "OpenAI窃听嫌疑人阿尔福赞否认指控",
+          "titleOrig": "OpenAI bugging suspect Alfozan pleads not guilty",
+          "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-06T21:15:47+00:00",
+          "desc": "Saudi national Abdulrahman Alfozan is charged with planting a recording device in a conference room at artificial intelligence giant OpenAI.",
+          "hotLabel": "",
+          "summary": "沙特国民阿卜杜勒拉赫曼·阿尔福赞被控在人工智能巨头OpenAI的会议室安装窃听设备。",
+          "analysis": "这一事件凸显了人工智能领域的安全问题和隐私保护的重要性。阿尔福赞的指控可能引发对人工智能公司内部安全措施的审查，以及对个人隐私和数据安全的关注。此外，这也可能影响国际社会对人工智能技术的监管和规范。",
+          "keywords": [
+            "OpenAI",
+            "窃听",
+            "人工智能安全",
+            "隐私保护",
+            "监管"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "肯尼亚末日教派首领因谋杀190名儿童被判200年监禁",
+          "titleOrig": "Kenyan doomsday sect leader jailed for 200 years for murder of 190 children",
+          "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-06T15:08:43+00:00",
+          "desc": "Paul Mackenzie convicted over deaths of children and one adult after followers were ordered to starve themselves and their familiesThe leader of a Kenyan doomsday sect has been sentenced to 200 years in prison for the murders of 190 children and one adult in one of the world’s worst cult disasters i",
+          "hotLabel": "",
+          "summary": "肯尼亚末日教派首领因谋杀190名儿童和一名成人被判200年监禁。",
+          "analysis": "这一判决反映了国际社会对极端宗教团体暴行的零容忍态度。它对肯尼亚社会和宗教团体可能产生深远影响，促使人们反思极端主义和宗教狂热。此外，这一事件可能引发对宗教自由和极端主义预防措施的全球讨论。",
+          "keywords": [
+            "极端主义",
+            "宗教自由",
+            "肯尼亚",
+            "谋杀案",
+            "社会影响"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/06/kenyan-doomsday-sect-leader-jailed-murders-paul-mackenzie"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "法国为何爆发抗议？",
+          "titleOrig": "Why Are There Protests in France?",
+          "url": "https://www.nytimes.com/article/france-student-protests-why.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-07T10:13:41+00:00",
+          "desc": "For a fourth consecutive Saturday, tens of thousands of people are expected to demonstrate. The authorities hope a large security presence will deter riots.",
+          "hotLabel": "",
+          "summary": "法国连续第四个周六预计有数万人示威，当局希望大量安保人员能阻止暴乱。",
+          "analysis": "法国抗议活动反映了民众对经济困境的不满和对政府政策的质疑。这将对法国政府的社会稳定和执政地位构成挑战，并可能引发欧洲范围内的社会动荡。后续可能影响法国的政治走向和欧洲一体化进程。",
+          "keywords": [
+            "法国",
+            "抗议",
+            "经济困境",
+            "政府政策",
+            "社会动荡"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/article/france-student-protests-why.html"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "为何欧洲航空当局难以遏制一波炸弹威胁",
+          "titleOrig": "Why a wave of bomb threats is proving so difficult for Europe's aviation authorities to contain",
+          "url": "https://www.cnbc.com/2026/11/07/hoax-bomb-threats-flights-europe.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-07T09:01:57+00:00",
+          "desc": "The \"weakest point of aviation is targeting it in-flight,\" analysts say — but any change to procedures will be a lengthy process.",
+          "hotLabel": "",
+          "summary": "欧洲航空面临炸弹威胁，当局难以应对。",
+          "analysis": "事件背景：航空安全面临新挑战，炸弹威胁对航空业构成威胁。关键影响：可能影响航空业信誉和旅客信心。后续走向：需加强安全措施，提高应对威胁的能力。",
+          "keywords": [
+            "航空安全",
+            "炸弹威胁",
+            "欧洲航空",
+            "安全措施",
+            "旅客信心"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/07/hoax-bomb-threats-flights-europe.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "2028年总统选举的四大中期选举启示",
+          "titleOrig": "Four midterms takeaways for 2028 White House race",
+          "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-06T16:12:22+00:00",
+          "desc": "The buzz about the presidential election is already under way - here's what we learned this week.",
+          "hotLabel": "",
+          "summary": "2028年总统选举的四大中期选举启示。",
+          "analysis": "中期选举的结果将为2028年总统选举提供重要参考。这将对未来美国的政治走向产生重要影响，包括政策制定、政治联盟和选举策略。",
+          "keywords": [
+            "中期选举",
+            "2028年总统选举",
+            "政治走向",
+            "政策制定"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cw8rzzx46jd5o?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cq1m41n3v7mmo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "卡牌评级帝国如何塑造宝可梦卡价格",
+          "titleOrig": "Inside the card-grading empire shaping the price of Pokémon cards",
+          "url": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-07T02:00:01+00:00",
+          "desc": "PSA’s resale premium, backlog and grading-market dominance shape what collectors pay — and how much their Pokémon cards may fetch.",
+          "hotLabel": "",
+          "summary": "PSA的转售溢价、积压和评级市场主导地位影响收藏家支付的价格和宝可梦卡可能的价值。",
+          "analysis": "PSA作为宝可梦卡评级领域的领导者，其评级标准和市场影响力对收藏品市场有着决定性作用。这一现象反映了收藏品市场的专业化和标准化趋势，同时也揭示了市场投机和价格波动的风险。对于宝可梦卡收藏者而言，选择正确的评级机构对于其收藏品的潜在价值至关重要。此外，这也可能引发对收藏品市场监管的讨论，以及如何平衡市场自由和消费者权益保护的问题。",
+          "keywords": [
+            "宝可梦卡",
+            "评级市场",
+            "收藏品",
+            "市场投机",
+            "监管"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/card-pokemon-grading-psa-collectors-price.html"
             }
           ],
           "rank": 15
+        },
+        {
+          "title": "AI巨头高管对中期选举后AI股价下跌作出反应",
+          "titleOrig": "OpenAI, Arm and Qualcomm executives react to post-midterm AI sell-off",
+          "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-06T18:35:08+00:00",
+          "desc": "Executives of major tech companies are largely projecting optimism about continued growth in the artificial intelligence sector despite a post-midterm sell-off.",
+          "hotLabel": "",
+          "summary": "尽管中期选举后AI股价下跌，但科技巨头高管对人工智能领域持续增长持乐观态度。",
+          "analysis": "AI领域的持续增长预期反映了该技术对经济和社会的潜在影响。尽管近期股价下跌可能表明市场对短期风险的关注，但长期增长前景仍然看好。这可能会吸引更多投资，并推动技术创新。然而，这也可能引发监管机构的关注，特别是在数据隐私和伦理方面。",
+          "keywords": [
+            "AI",
+            "科技股",
+            "投资",
+            "监管",
+            "经济增长"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "新西兰是否会加入全球选民对高通胀的反抗？",
+          "titleOrig": "Will New Zealand Join Voters’ Global Revolt Over Soaring Costs?",
+          "url": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-07T09:44:35+00:00",
+          "desc": "Preliminary results showed no clear front-runner after an election that was dominated by economic concerns.",
+          "hotLabel": "",
+          "summary": "选举初步结果显示，没有明显的领先者，经济问题主导了这次选举。",
+          "analysis": "新西兰选举结果的不确定性反映了全球范围内对高通胀和经济困境的普遍担忧。新西兰的政治经济走向将对地区乃至全球的经济形势产生影响，后续可能引发对其他国家的连锁反应。",
+          "keywords": [
+            "新西兰",
+            "选举",
+            "高通胀",
+            "经济困境",
+            "全球影响"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/06/world/asia/new-zealand-election-vote.html"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/live/2026/nov/07/nz-general-election-2026-live-updates-results-new-zealand-polls"
+            }
+          ],
+          "rank": 17
         },
         {
           "title": "梅根父亲因儿童性虐待材料被捕",
@@ -594,14 +654,14 @@
           "publishedAt": "2026-11-06T21:59:44+00:00",
           "desc": "Thomas Markle Sr., Meghan’s estranged father, was arrested in Florida on Friday. He has denied the accusations against him.",
           "hotLabel": "",
-          "summary": "梅根马克尔的父亲在佛罗里达被捕，否认指控。",
-          "analysis": "梅根父亲被捕事件不仅涉及个人名誉，还可能引发公众对名人隐私和儿童保护的讨论。这一事件可能对梅根及其家庭产生长远影响，同时也可能对公众形象和媒体伦理产生反思。后续，事件的调查结果和处理将对相关方产生重要影响。",
+          "summary": "梅根父亲因涉嫌儿童性虐待材料被捕。",
+          "analysis": "事件背景：梅根父亲因涉嫌犯罪被捕，引发公众关注。关键影响：可能影响梅根及其家庭形象。后续走向：案件审理结果将决定其命运。",
           "keywords": [
-            "梅根马克尔",
+            "梅根",
             "性虐待",
-            "隐私",
-            "媒体伦理",
-            "公众形象"
+            "被捕",
+            "家庭形象",
+            "案件审理"
           ],
           "category": "international",
           "importance": 70,
@@ -611,132 +671,68 @@
               "url": "https://www.nytimes.com/2026/11/06/us/thomas-markle-arrested-child-sexual-abuse.html"
             }
           ],
-          "rank": 16
-        },
-        {
-          "title": "法国发生公交车事故，两人死亡",
-          "titleOrig": "Two dead after bus crashes in France, officials say",
-          "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T15:33:52+00:00",
-          "desc": "One child and one young adult were killed in the crash, local authorities say, with more injured.",
-          "hotLabel": "",
-          "summary": "一名儿童和一名年轻成人死亡，多人受伤。",
-          "analysis": "背景：交通事故是法国常见的社会问题，此次事故可能引发对公共交通安全的关注。关键影响：事故可能影响公众对公共交通的信心，对相关行业造成负面影响。后续走向：需关注事故调查结果及安全措施。",
-          "keywords": [
-            "公交车事故",
-            "死亡",
-            "法国",
-            "安全",
-            "公共交通"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmly00l4p3lwo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "前奥巴马助手称众多民主党人考虑2028年总统竞选",
-          "titleOrig": "Dozens of Democrats eyeing 2028 presidential run, says former Obama aide",
-          "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-06T16:51:01+00:00",
-          "desc": "Jim Messina tells the BBC that after Democrats' midterm victories he's talked to \"over two dozen campaigns\", with some already hiring staff.",
-          "hotLabel": "",
-          "summary": "前奥巴马助手吉姆·梅西纳表示，众多民主党人考虑参加2028年总统竞选。",
-          "analysis": "民主党内部竞争激烈，预示着2028年美国总统选举的激烈竞争。这将影响美国国内政治格局，并对国际关系产生间接影响。未来，民主党可能推出强有力的候选人，争夺总统宝座。",
-          "keywords": [
-            "民主党",
-            "总统竞选",
-            "美国政治",
-            "吉姆·梅西纳",
-            "2028年选举"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cx8dzzy8n713o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
           "rank": 18
         },
         {
-          "title": "澳门首次国家安全案中，民主运动人士被判入狱",
-          "titleOrig": "Macau jails pro-democracy campaigner in city's first national security case",
-          "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
+          "title": "密西西比州参议院：泰·平金斯旨在破坏海德-史密斯选情，提升科尔姆得票率",
+          "titleOrig": "Mississippi Senate: Longshot Ty Pinkins says he aimed to spoil Hyde-Smith, boost Colom vote",
+          "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-06T06:46:21+00:00",
-          "desc": "Au Kam San was sentenced to 12 years and six months' jail for \"subversion against the political power of the state\".",
+          "publishedAt": "2026-11-06T19:44:33+00:00",
+          "desc": "Ty Pinkins said he avoided campaigning in heavily Black areas of Mississippi to avoid harming chances for Democrat Scott Colom, who, like him, is Black.",
           "hotLabel": "",
-          "summary": "澳广明被判处12年6个月监禁，罪名是“颠覆国家政权”。",
-          "analysis": "澳门的这一判决标志着中国对民主运动人士的打压，可能加剧澳门与中国大陆之间的紧张关系。此举可能影响澳门的自治权和国际形象，并对中国与西方国家的关系产生负面影响。",
+          "summary": "泰·平金斯表示，他避免在密西西比州黑人聚集区竞选，以避免损害民主党候选人斯科特·科尔姆的选情。",
+          "analysis": "这一事件揭示了美国政治中种族和选举策略的复杂性。平金斯的策略反映了他在种族和选举策略上的敏感度，同时也可能影响选举结果。这一事件可能引发对种族平等和选举公正的讨论，以及对政治策略和选举伦理的反思。",
           "keywords": [
-            "澳门",
-            "民主运动",
-            "国家安全",
-            "澳广明",
-            "中国与西方关系"
+            "美国政治",
+            "种族平等",
+            "选举策略",
+            "政治伦理",
+            "选举公正"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmdx33v9vvr2o?at_medium=RSS&at_campaign=rss"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/06/mississippi-senate-ty-pinkins-colom-hyde-smith.html"
             }
           ],
           "rank": 19
         },
         {
-          "title": "坦桑尼亚反对派领导人被判煽动暴乱罪成立，但未被判叛国罪",
-          "titleOrig": "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
-          "url": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss",
+          "title": "肯尼亚末日邪教头目因谋杀191人获终身监禁",
+          "titleOrig": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+          "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-06T14:57:08+00:00",
-          "desc": "The 58-year-old, who has been detained since April last year, says the charges are politically motivated.",
+          "publishedAt": "2026-11-06T14:46:03+00:00",
+          "desc": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
           "hotLabel": "",
-          "summary": "坦桑尼亚反对派领导人被判煽动暴乱罪成立，但未被判叛国罪。",
-          "analysis": "此判决反映了坦桑尼亚政府在维护社会稳定方面的努力，但同时也引发了对政治打压的担忧。未来，坦桑尼亚的政治局势可能进一步紧张，反对派与政府之间的冲突可能升级。",
+          "summary": "肯尼亚末日邪教头目因谋杀191人被判终身监禁。",
+          "analysis": "事件背景：邪教头目利用邪教思想残害无辜，引发社会关注。关键影响：案件审理结果显示法律对邪教的打击力度。后续走向：社会需加强邪教防范。",
           "keywords": [
-            "坦桑尼亚",
-            "反对派",
-            "政治审判",
-            "煽动暴乱",
-            "社会稳定"
+            "邪教",
+            "谋杀",
+            "终身监禁",
+            "肯尼亚",
+            "社会防范"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ckp8g4pm0y4lo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -749,116 +745,179 @@
       "totalSelected": 20,
       "items": [
         {
-          "title": "中国移动明年采购投资总额将超5000亿元，一体建强通信网、算力网、智能网",
-          "titleOrig": "一体建强通信网、算力网、智能网 中国移动明年采购投资总额将超5000亿元 - 东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84WDZBNHl2cU5yWkFqSHhWUzdMcVFuNE9tNV9QUVhJc0ZTYXBQb1U0cjRfdFlDRjlTWjB6TTlITnIyS2VseTRfMHZlc3FtVFUweUxaYnZBRVM3YVlzUHZXQg?oc=5",
+          "title": "进博会展示商业航天等成果",
+          "titleOrig": "商业航天、科考码头、自贸港封关成果集中亮相进博会 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GMWxzS3RaYVFDdzZfQ21ZaVNsNjFWR2F2RllEam1zZjFHNFBjaVhmc0JyM3gtbGFQaUFWZUFYN28wajhyLXNJQmsyeXFheHkxU0VMNWZFT19FNV9iRGFVSU01elJTMEkxRnlBaw?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-06T22:44:06+00:00",
-          "desc": "一体建强通信网、算力网、智能网 中国移动明年采购投资总额将超5000亿元 东方财富中国移动董事长陈忠岳：网络强基 智能共创 新华网红色展台来了群“数智搭档” 凤凰网财经从筑牢底座到生态共荣，中国移动如何把AI用进生活与生产？ 新浪网2026移动网络大会 | 创新获认可 高通荣获中国移动颁发的“优秀贡献奖” 驱动之家",
+          "publishedAt": "2026-11-07T05:29:00+00:00",
+          "desc": "商业航天、科考码头、自贸港封关成果集中亮相进博会 中国新闻网交通银行成功举办第九届虹桥国际经济论坛“跨境金融服务助力企业全球化发展”分论坛 凤凰网财经视频丨九届进博会的“全勤奖” 外商茶歇时争分夺秒谈合作 新浪财经_金融信息服务商【魅力进博会】在这里，率先触摸美好未来 光明网进博会如何让6天精彩变365天生意 从引进尝鲜到深耕定制 中华网",
           "hotLabel": "",
-          "summary": "中国移动明年采购投资总额将超过5000亿元，重点投资于通信网、算力网和智能网建设。",
-          "analysis": "中国移动的大规模投资体现了国家对信息基础设施建设的高度重视。这不仅是推动5G、人工智能等新兴技术发展的关键，也是提升国家竞争力的必要手段。对中国经济而言，这将带动相关产业链的发展，促进科技创新。后续可能进一步推动数字经济的发展，助力经济转型升级。",
+          "summary": "进博会上展示商业航天、科考码头、自贸港封关等成果。",
+          "analysis": "进博会是中国对外开放的重要窗口，展示的成果体现了中国在商业航天、基础设施建设等领域取得的成就。背景是中国推动高质量发展，加强科技创新。对国内经济而言，这有助于提升产业链水平，推动经济转型升级。对国际影响而言，这表明中国在全球经济治理中的地位日益上升。后续走向可能包括吸引更多国际合作，推动相关产业发展。",
           "keywords": [
-            "中国移动",
-            "投资",
-            "通信网",
-            "算力网",
-            "智能网",
-            "数字经济"
-          ],
-          "category": "tech",
-          "importance": 95,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE84WDZBNHl2cU5yWkFqSHhWUzdMcVFuNE9tNV9QUVhJc0ZTYXBQb1U0cjRfdFlDRjlTWjB6TTlITnIyS2VseTRfMHZlc3FtVFUweUxaYnZBRVM3YVlzUHZXQg?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/asia/china-trump-putin-xi-summit.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "中央宣讲团学习贯彻党的二十届五中全会精神",
-          "titleOrig": "学习贯彻党的二十届五中全会精神中央宣讲团在有关部门、天津、重庆、江苏、河南宣讲 - ThePaper.cn",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HZXE3VUM0cXNBUlF1emYyUDJndGZjOVBtbHhXWFNrTHg1RDVrcWl1RjlZb3dmYW9JNFVQcm5SVUNkYk8ybGhReWZLYnU0S25xSXp0Q2tpNzN1MkJya2Q4dA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-06T23:25:00+00:00",
-          "desc": "学习贯彻党的二十届五中全会精神中央宣讲团在有关部门、天津、重庆、江苏、河南宣讲 ThePaper.cn关于《中共中央关于持之以恒推进全面从严治党若干重大问题的决定》的说明 求是坚定信心接续奋斗 在新征程上创造新的历史伟业——广大知识分子和青年学生积极响应党的二十届五中全会号召勇毅前行 搜狐网王毅人民日报撰文：中央和国家机关要走好第一方阵 凤凰网十院干部职工深入学习贯彻党的二十届五中全会精神（二） 同花顺财经",
-          "hotLabel": "",
-          "summary": "中央宣讲团在多地宣讲二十届五中全会精神，强调全面从严治党。",
-          "analysis": "此次宣讲体现了党中央对全面从严治党的高度重视。背景是当前国内外形势复杂多变，党中央希望通过加强党的建设，提高党的执政能力和领导水平。这对国内民生意味着政治稳定，社会和谐；对经济意味着有利于营造良好的营商环境；对治理意味着提升国家治理体系和治理能力现代化水平。后续走向可能包括更多政策出台，强化党的领导地位。",
-          "keywords": [
-            "二十届五中全会",
-            "全面从严治党",
-            "中央宣讲团",
-            "党的建设",
-            "国家治理"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9HZXE3VUM0cXNBUlF1emYyUDJndGZjOVBtbHhXWFNrTHg1RDVrcWl1RjlZb3dmYW9JNFVQcm5SVUNkYk8ybGhReWZLYnU0S25xSXp0Q2tpNzN1MkJya2Q4dA?oc=5"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "第140届广交会意向出口成交267.5亿美元，境外采购商到会数量创历史新高",
-          "titleOrig": "【深圳特区报】第140届广交会意向出口成交267.5亿美元 境外采购商到会数量创历史新高 - 搜狐网",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFBFMXBfd1NZRzNIUHdyOExFamRKMTBXV1NSYmZIaGM0dzVWN0xxUHN1QXBfLTBIT0dZdlFKUVAtRTlYYnF4WlhYaGhUZXE0b2U0dU50OWJBemx5U0RYN196TjBVbFV6RmxvZDFpeFJMWEZzdEdFSzRUck5rRTJsU3RyeGVFbkZqbmRLRQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-06T23:52:00+00:00",
-          "desc": "【深圳特区报】第140届广交会意向出口成交267.5亿美元 境外采购商到会数量创历史新高 搜狐网连增十三季 逐浪向新高——“外贸第一大省”亮眼数据释放哪些信号？ 上海热线超3.3亿美元！嘉兴企业圈粉全球 凤凰网我和广交会｜“广交会不只是买卖，是双向的共创” 央视网广交会把老外看傻了：中国外骨骼火遍外网，价格只有欧美零头 ThePaper.cn",
-          "hotLabel": "",
-          "summary": "第140届广交会意向出口成交额达267.5亿美元，境外采购商数量创新高。",
-          "analysis": "广交会作为中国外贸的重要窗口，其成交额和境外采购商数量的增长反映了我国外贸的强劲复苏。这得益于国家一系列稳外贸政策的实施，以及全球经济逐渐回暖。对中国经济而言，这意味着外贸对经济增长的贡献将进一步增加。后续可能继续推动外贸结构优化，提升国际竞争力。",
-          "keywords": [
-            "广交会",
-            "外贸",
-            "出口",
-            "经济复苏",
-            "稳外贸政策"
+            "进博会",
+            "商业航天",
+            "科考码头",
+            "自贸港",
+            "国际合作"
           ],
           "category": "economy",
           "importance": 90,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPRFBFMXBfd1NZRzNIUHdyOExFamRKMTBXV1NSYmZIaGM0dzVWN0xxUHN1QXBfLTBIT0dZdlFKUVAtRTlYYnF4WlhYaGhUZXE0b2U0dU50OWJBemx5U0RYN196TjBVbFV6RmxvZDFpeFJMWEZzdEdFSzRUck5rRTJsU3RyeGVFbkZqbmRLRQ?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5GMWxzS3RaYVFDdzZfQ21ZaVNsNjFWR2F2RllEam1zZjFHNFBjaVhmc0JyM3gtbGFQaUFWZUFYN28wajhyLXNJQmsyeXFheHkxU0VMNWZFT19FNV9iRGFVSU01elJTMEkxRnlBaw?oc=5"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "中国第43次南极考察队正式出征",
+          "titleOrig": "中国第43次南极考察队正式出征 - 中国青年网",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQnhhMUk5TlVHaTBUQlJqcnl5TmpGREt1MXozQTNlZVN6eGZST3RFNnhZYVJLRG93ZWdKRHZkM0lNZkMySHBkcmZ3R3hRQjNRM3AzY25YVHMwN05WclhBR0JsV3M?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T08:37:00+00:00",
+          "desc": "中国第43次南极考察队正式出征 中国青年网我国自主研制的新型模块化“移动暖屋”将登陆南极 新华网中国第43次南极考察队从三亚出征，三亚边检高效保障顺畅通关 凤凰网第43次南极考察起航 我国将迎新的南极科考站 浙江在线中国第43次南极考察队出征 中国日报网",
+          "hotLabel": "",
+          "summary": "中国第43次南极考察队出征，开展南极科考。",
+          "analysis": "中国南极考察队的出征是中国极地科考事业的重要进展。这体现了中国在科技领域的投入和国际合作的深化。南极科考对于全球气候变化研究具有重要意义，同时也有助于提升中国在国际科学界的影响力。后续可能看到中国在极地科考领域的新突破。",
+          "keywords": [
+            "南极科考",
+            "极地研究",
+            "国际合作",
+            "气候变化",
+            "科技发展"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFByQnhhMUk5TlVHaTBUQlJqcnl5TmpGREt1MXozQTNlZVN6eGZST3RFNnhZYVJLRG93ZWdKRHZkM0lNZkMySHBkcmZ3R3hRQjNRM3AzY25YVHMwN05WclhBR0JsV3M?oc=5"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-giant-pandas-from-china-make-public-debut-at-atlanta-zoo/a-79883388?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "全过程人民民主确保选出满意代表",
+          "titleOrig": "践行全过程人民民主 确保选出人民满意的代表 - 光明网",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oLTI1bHhFVE5zTHUxQ1k2SnFCLW1ZVm9pNkhqYnJpdk9Fc1Jsek44MDFCSlBlN2NwY05kQlN6ODBnTVczX3JZaVJYVUtwNmpBSzNxWGhBSUFiUExNMTE5cg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-06T20:50:00+00:00",
+          "desc": "践行全过程人民民主 确保选出人民满意的代表 光明网习近平参加北京市区人大代表换届选举投票 新华网一见·见证全过程人民民主的庄严一票 新浪新闻_手机新浪网北京1.3万余个投票站做好投票准备 凤凰网第一观察丨总书记投下庄严一票，率先垂范践行民主 ThePaper.cn",
+          "hotLabel": "",
+          "summary": "全过程人民民主确保选出人民满意的代表。",
+          "analysis": "全过程人民民主的提出和实施，体现了中国对民主政治的深入探索和实践。确保选出人民满意的代表，对于维护社会稳定和促进政治发展具有重要意义。这标志着中国民主政治建设迈出了新的步伐。",
+          "keywords": [
+            "人民民主",
+            "代表选举",
+            "政治发展",
+            "社会稳定",
+            "民主政治"
+          ],
+          "category": "society",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1oLTI1bHhFVE5zTHUxQ1k2SnFCLW1ZVm9pNkhqYnJpdk9Fc1Jsek44MDFCSlBlN2NwY05kQlN6ODBnTVczX3JZaVJYVUtwNmpBSzNxWGhBSUFiUExNMTE5cg?oc=5"
             }
           ],
           "rank": 3
         },
         {
-          "title": "一图速览进博会亮点",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E9%80%9F%E8%A7%88%E8%BF%9B%E5%8D%9A%E4%BC%9A%E4%BA%AE%E7%82%B9%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "李强与奥地利总理会谈",
+          "titleOrig": "李强同奥地利总理施托克尔会谈 - 中国之声",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85Nko2cWd6allTN1ZFWE96ZUw1QVJuUWJ3SFJPVUt3MW0za1Y1MUxBNnVGZjllX0QzMTctR1A1bXZxVU1GMDVKWXJqZmpRa2UzREViaXNFSC1hV09VQjkyQjJLY25jS3h3dlh0MDExMjE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T04:38:43+00:00",
+          "desc": "李强同奥地利总理施托克尔会谈 中国之声在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "中国国务院总理李强与奥地利总理施托克尔进行会谈。",
+          "analysis": "此次会谈体现了中国与欧洲国家在政治和经济领域的紧密合作。背景是中国推动“一带一路”倡议，旨在加强与世界各国的互联互通。此次会谈可能涉及加强双边贸易、投资和技术合作。对国内而言，这表明中国在国际舞台上的影响力日益增强，对经济治理和全球治理意味着中国将继续发挥积极作用。后续走向可能包括签署更多合作协议，推动中奥关系进一步深化。",
+          "keywords": [
+            "李强",
+            "奥地利总理",
+            "会谈",
+            "一带一路",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE85Nko2cWd6allTN1ZFWE96ZUw1QVJuUWJ3SFJPVUt3MW0za1Y1MUxBNnVGZjllX0QzMTctR1A1bXZxVU1GMDVKWXJqZmpRa2UzREViaXNFSC1hV09VQjkyQjJLY25jS3h3dlh0MDExMjE?oc=5"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "强生医疗科技进博共话专业教育，推动技术创新与临床能力发展",
+          "titleOrig": "从技术创新到临床能力 强生医疗科技进博共话专业教育 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ0VqRS1qZ1MtV29WNGpQNU1UZ2M4X1M2QWE1VWl2ZXdZblpsWDNjcXl5NWV0d1VBWDNudDFxWG8wa3dRWXNJektma3JaNHFDb1lvaThfcXFoeGhyNmpCWGNjclVjaTdBd2t0QmlGMHBka0haVEtNM0NoNlBCbnpNNHBiWXF3Qkk?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T04:09:33+00:00",
+          "desc": "从技术创新到临床能力 强生医疗科技进博共话专业教育 新华网与进博同行 | 让创新在中国“长出来”，波士顿科学第八次进博之约背后的创新纵深 新华网杰特贝林携手北京协和医院共同推动AI赋能HAE诊疗项目 新华网“四叶草”里的健康图景：看创新如何抵达患者 新浪财经_金融信息服务商进博会医疗展区见闻：当中国成了首发市场 华尔街见闻",
+          "hotLabel": "",
+          "summary": "强生医疗科技在进博会上探讨专业教育，展示技术创新成果。",
+          "analysis": "事件背景：随着中国 healthcare 产业的快速发展，政策意图在于推动医疗科技创新，提升医疗服务质量。强生作为国际知名医疗企业，其参与进博会体现了对中国市场的重视。关键影响：对国内民生意味着更优质的医疗产品和服务；对经济意味着医疗产业升级和国际合作加强；对治理意味着医疗资源的优化配置和医疗服务体系的完善。后续走向：预计将持续推动医疗科技创新，加强国际合作，提升中国医疗产业的国际竞争力。",
+          "keywords": [
+            "强生医疗",
+            "进博会",
+            "专业教育",
+            "医疗科技",
+            "技术创新"
+          ],
+          "category": "domestic",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQQ0VqRS1qZ1MtV29WNGpQNU1UZ2M4X1M2QWE1VWl2ZXdZblpsWDNjcXl5NWV0d1VBWDNudDFxWG8wa3dRWXNJektma3JaNHFDb1lvaThfcXFoeGhyNmpCWGNjclVjaTdBd2t0QmlGMHBka0haVEtNM0NoNlBCbnpNNHBiWXF3Qkk?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "美股暴跌引发抛售潮",
+          "titleOrig": "美股暴跌遭抛售潮",
+          "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C%E9%81%AD%E6%8A%9B%E5%94%AE%E6%BD%AE",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -866,202 +925,134 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "通过一张图展示进博会的亮点和成果。",
-          "analysis": "进博会作为我国对外开放的重要窗口，展示了我国在全球经济中的地位和影响力。进博会的成功举办，不仅有利于推动我国经济高质量发展，也有助于促进全球产业链供应链的稳定。未来，进博会将继续成为国际交流合作的重要平台。",
+          "summary": "美股市场遭遇大规模抛售，引发全球股市动荡。",
+          "analysis": "此次美股暴跌可能与全球经济不确定性、中美贸易摩擦、以及美国自身经济政策调整有关。这将对全球金融市场产生较大影响，可能导致资本外流，对新兴市场国家经济造成压力。同时，也可能促使中国政府加强金融市场监管，维护金融稳定。",
           "keywords": [
-            "进博会",
-            "对外开放",
-            "经济合作",
-            "产业链"
-          ],
-          "category": "economy",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%80%E5%9B%BE%E9%80%9F%E8%A7%88%E8%BF%9B%E5%8D%9A%E4%BC%9A%E4%BA%AE%E7%82%B9%23&t=31&band_rank=3&Refer=top"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "中央气象台发布暴雪黄色预警",
-          "titleOrig": "中央气象台11月7日10时继续发布暴雪黄色预警 - 东方财富",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WUlBrMXNYVkZOVVRlSWFCS3lXNnU3T1k1aVVZcGxJcElRNEVkTHJKa3JTSWZRcmNscXRMUk9xRXZ2YmtZUVZoVlQtZ19KdHU2TnNuM21lRDlRSkJlc0xOUE4zRFdyQQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-07T02:31:57+00:00",
-          "desc": "中央气象台11月7日10时继续发布暴雪黄色预警 东方财富周五晚高峰交通压力大 周末有雨雪天气 四元桥和地铁1号线施工 请合理安排出行 注意交通安全 北京市人民政府门户网站下半年最强冷空气来袭，多地气温将创新低 凤凰网中央气象台11月7日06时发布暴雪黄色预警 光明网暴雪蓝色预警：山西河北北京等地部分地区有大雪 央视网",
-          "hotLabel": "",
-          "summary": "中央气象台发布暴雪黄色预警，多地气温将创新低。",
-          "analysis": "此次暴雪预警反映了我国冬季气候变化的复杂性和极端天气事件的频发。政策意图在于提醒公众和相关部门做好应对准备，减少极端天气带来的影响。对社会民生而言，暴雪可能导致交通瘫痪、农作物受损、居民生活不便等。对经济影响，可能引发物流成本上升、生产中断等问题。后续走向可能包括加强气象预警系统、提高应急响应能力等。",
-          "keywords": [
-            "暴雪预警",
-            "极端天气",
-            "气候变化",
-            "社会影响",
-            "经济影响"
-          ],
-          "category": "domestic",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WUlBrMXNYVkZOVVRlSWFCS3lXNnU3T1k1aVVZcGxJcElRNEVkTHJKa3JTSWZRcmNscXRMUk9xRXZ2YmtZUVZoVlQtZ19KdHU2TnNuM21lRDlRSkJlc0xOUE4zRFdyQQ?oc=5"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "多国人士赞誉进博会创造经贸合作机遇",
-          "titleOrig": "多国人士：进博会为经贸合作和交流互鉴创造机遇 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3QWQ1dGRfZUh1ZkNpZWpPRFg5YWdtRmZDVW9KN2htY3hhT3V1TnFKMV9YVDBBUHNqRS0tanN4aWVPM2lWaE5qRndKTjg1bkNMQ2ZnUmtMUFQ4WkVReXZ5NXI2dW5zaXdhWnpOSXNwdDZ3dw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-07T00:38:56+00:00",
-          "desc": "多国人士：进博会为经贸合作和交流互鉴创造机遇 中华网博柏利六赴进博，沉浸式体验对话中国消费者 新华网九届进博会的“全勤奖” 外商茶歇时争分夺秒谈合作 光明网从大运河千年文脉到新质生产力的“硬核”实力 “北京面孔”进博会探寻全球商机 北京市人民政府门户网站从发出“进博邀约”到全球伙伴年年赴约 进博会始终为参与者创造价值 上海热线",
-          "hotLabel": "",
-          "summary": "进博会受到多国人士好评，被视为经贸合作与交流的重要平台。",
-          "analysis": "进博会作为我国对外开放的重要窗口，展示了我国对外开放的决心和成果。此次进博会吸引了多国人士的关注，表明国际社会对中国的经济前景充满信心。进博会的成功举办，有利于推动我国经济高质量发展，促进国际经贸合作。从长远来看，进博会对于提升我国在全球经济治理中的地位具有重要意义。后续，进博会可能继续扩大规模，吸引更多国家和地区参与，进一步促进全球贸易自由化和经济全球化。",
-          "keywords": [
-            "进博会",
-            "经贸合作",
-            "国际交流",
-            "对外开放",
-            "经济全球化"
+            "美股暴跌",
+            "全球股市",
+            "经济不确定性",
+            "中美贸易摩擦"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFA3QWQ1dGRfZUh1ZkNpZWpPRFg5YWdtRmZDVW9KN2htY3hhT3V1TnFKMV9YVDBBUHNqRS0tanN4aWVPM2lWaE5qRndKTjg1bkNMQ2ZnUmtMUFQ4WkVReXZ5NXI2dW5zaXdhWnpOSXNwdDZ3dw?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E8%82%A1%E6%9A%B4%E8%B7%8C%E9%81%AD%E6%8A%9B%E5%94%AE%E6%BD%AE"
             }
           ],
           "rank": 6
         },
         {
-          "title": "中国科学家叶玉如获联合国教科文组织国际生命科学研究奖",
-          "titleOrig": "第10届联合国教科文组织国际生命科学研究奖颁奖仪式举行 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LclBRXzREanI5NFhNUGNtZWFOLXNkZ2w5M1lRb1Btc213RmxiUXFUeVc1X2V3Uk53VVpxR3hQbWVwUGtfLWF2WWN1MzBoZnlkNElIblFQSlM4Qkl2YVpVaGJiSm1hVzNl?oc=5",
+          "title": "中国与加蓬关系新定位：承前启后、继往开来",
+          "titleOrig": "合作进行时｜中国和加蓬关系新定位：承前启后、继往开来 - 搜狐网",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmo5djc2NUJiNjBJZDk0Rm53ZTAxOHlFdFNaeDFWbnFXTFJfMzhYNnhCZG52OFp2cHkxaTNvcXFRc1hpdm1YXzJZYmhWRHNUWllDc2c4dnd2bHIzUHltOV9iVGNuMFRHMzNmcHBZSXdFd0h5TkVLOWRLaEhFT2YyMnl4bXNGYjA2?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-07T03:00:05+00:00",
-          "desc": "第10届联合国教科文组织国际生命科学研究奖颁奖仪式举行 中国新闻网中国科学家叶玉如获教科文组织国际生命科学研究奖 新浪新闻_手机新浪网中国科学家叶玉如获教科文组织国际生命科学研究奖(2) 凤凰网教科文组织—赤道几内亚国际生命科学研究奖授予中国、西班牙、摩洛哥3位科学家 UNESCO叶玉如获得联合国教科文组织国际生命科学研究奖 Arizona Chinese News",
+          "publishedAt": "2026-11-07T08:08:55+00:00",
+          "desc": "合作进行时｜中国和加蓬关系新定位：承前启后、继往开来 搜狐网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "中国科学家叶玉如荣获联合国教科文组织国际生命科学研究奖。",
-          "analysis": "该奖项的颁发体现了国际社会对中国生命科学研究的认可，彰显了中国在生命科学领域的国际地位和影响力。这背后反映了中国政府在科技创新和人才培养方面的政策意图，以及对生命科学领域长期投入的成果。对中国而言，这不仅是对科研人员的激励，也是推动国内生命科学领域进一步发展的重要契机。后续可能促进国内外科研合作，提升中国生命科学在国际上的话语权。",
+          "summary": "中国与加蓬加强双边关系，开启新合作篇章。",
+          "analysis": "这一事件体现了中国在国际关系中的新定位，即承前启后、继往开来。中国与加蓬的合作可能涉及经济、政治、文化等多个领域，旨在深化中非合作，加强南南合作，推动构建人类命运共同体。这对中国在国际舞台上的影响力提升具有重要意义。后续可能看到两国在基础设施建设、资源开发、教育交流等方面的合作加深。",
           "keywords": [
-            "联合国教科文组织",
-            "生命科学研究",
-            "叶玉如",
-            "科技创新",
-            "国际地位"
+            "中非合作",
+            "南南合作",
+            "双边关系",
+            "国际合作",
+            "命运共同体"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1LclBRXzREanI5NFhNUGNtZWFOLXNkZ2w5M1lRb1Btc213RmxiUXFUeVc1X2V3Uk53VVpxR3hQbWVwUGtfLWF2WWN1MzBoZnlkNElIblFQSlM4Qkl2YVpVaGJiSm1hVzNl?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVmo5djc2NUJiNjBJZDk0Rm53ZTAxOHlFdFNaeDFWbnFXTFJfMzhYNnhCZG52OFp2cHkxaTNvcXFRc1hpdm1YXzJZYmhWRHNUWllDc2c4dnd2bHIzUHltOV9iVGNuMFRHMzNmcHBZSXdFd0h5TkVLOWRLaEhFT2YyMnl4bXNGYjA2?oc=5"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/asia/china-trump-putin-xi-summit.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-giant-pandas-from-china-make-public-debut-at-atlanta-zoo/a-79883388?maca=en-rss-en-all-1573-rdf"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/05/uk-dangerously-reliant-on-china-critical-minerals-military-ai-renewable-energy"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 7
         },
         {
-          "title": "乌镇峰会聚焦人工智能开源开放",
-          "titleOrig": "外媒：乌镇峰会聚焦人工智能开源开放 - 中青在线",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mNmFrQTJrTXNaMW5EajBmOVhBRlhSVmFZWGRWVXpzZmV6Vm9nMW5ycGltYldUMFRMX0ZvcEd2LWZlNUdQeTNfbm9VTGE4UUZ3ZHpuZXV1aTI5S1RIUklQYy01ZmFmNnFUd255Z3JBZEpGaFViRVpBRTFsS08?oc=5",
+          "title": "券商首席看好A股长期趋势",
+          "titleOrig": "多位券商首席：长线支撑增多，关注算力成本优势与中游制造溢价 - 东方财富",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mdVF0NjRrQVA4WE9qYktEcTMzOFhTTTBnZTZjRGJ2aVZwa3FVaU43SnFfTzk0ZWFkbTd0djU2Y3dRX2MxSGdkaHJoUndtNk5RNU53VDRfVWxlMnl0VG00bXNOeHI5Zw?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-06T09:38:00+00:00",
-          "desc": "外媒：乌镇峰会聚焦人工智能开源开放 中青在线2026年世界互联网大会乌镇峰会热点聚焦 新华网一图了解“‘人工智能＋媒体’蓝皮书（2026）” 搜狐网焦点访谈｜拥抱开源开放 共筑美好数智未来 新浪新闻_手机新浪网【中国制造新观察】发展人工智能也应共建共享 中国经济网",
+          "publishedAt": "2026-11-07T07:29:34+00:00",
+          "desc": "多位券商首席：长线支撑增多，关注算力成本优势与中游制造溢价 东方财富6位券商首席最新研判：A股短期震荡不改长期向上趋势 ThePaper.cn静瑞资本：低利率与低估值组合下，中国核心资产配置价值凸显 新京报“盈利向上”与“估值向下”交汇，基金公司热议：A股中长期配置价值逐步显现 https://www.mrjjxw.com/公私募密集发声：A股调整后，投资机会如何把握 21财经",
           "hotLabel": "",
-          "summary": "乌镇峰会关注人工智能开源开放议题。",
-          "analysis": "乌镇峰会作为世界互联网大会的重要组成部分，聚焦人工智能开源开放，体现了中国在人工智能领域的政策意图，即推动技术共享和创新。这一举措有助于促进国内人工智能产业的发展，提高国际竞争力。对社会而言，开源开放将加速技术创新，降低研发成本，对经济有积极影响。后续可能推动更多相关政策出台，如加强知识产权保护、促进国际合作等。",
+          "summary": "券商首席认为A股长线支撑增多，关注算力成本与制造溢价。",
+          "analysis": "券商首席对A股市场的长期看好反映了市场对经济复苏和技术创新的信心。关注算力成本和制造溢价可能意味着市场将更加重视技术创新和成本控制。这将对国内科技企业和制造业产生积极影响，并可能推动相关行业的发展。",
           "keywords": [
-            "乌镇峰会",
-            "人工智能",
-            "开源开放",
-            "政策意图",
-            "技术创新"
+            "A股",
+            "券商",
+            "算力成本",
+            "制造溢价",
+            "市场趋势"
           ],
-          "category": "tech",
-          "importance": 85,
+          "category": "economy",
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mNmFrQTJrTXNaMW5EajBmOVhBRlhSVmFZWGRWVXpzZmV6Vm9nMW5ycGltYldUMFRMX0ZvcEd2LWZlNUdQeTNfbm9VTGE4UUZ3ZHpuZXV1aTI5S1RIUklQYy01ZmFmNnFUd255Z3JBZEpGaFViRVpBRTFsS08?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mdVF0NjRrQVA4WE9qYktEcTMzOFhTTTBnZTZjRGJ2aVZwa3FVaU43SnFfTzk0ZWFkbTd0djU2Y3dRX2MxSGdkaHJoUndtNk5RNU53VDRfVWxlMnl0VG00bXNOeHI5Zw?oc=5"
             }
           ],
           "rank": 8
         },
         {
-          "title": "习近平参加北京市区人大代表换届选举投票",
-          "titleOrig": "习近平参加北京市区人大代表换届选举投票 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2VkFzSGZYeUI0WUxWMmRkbTdMbDRCb2haT29oeUl6a3pmekhGajV4N3BfMDJ4SjloT2J4OHNteW9hTWR0eXhUM0ZUc2NPU2ZiR3pMZlZ5bnJQaG9CU1hQR05idi10bjdLNzFyMFpBVE9Nb3dacWIw?oc=5",
+          "title": "欧洲多地遭遇炸弹威胁和网络攻击",
+          "titleOrig": "欧洲多地接连遭遇炸弹威胁和网络攻击民用设施安全引发关注-中新网 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tSEtkaTdpUzFrZkVaSWRPaUh1Q2VtTVp0TFRJSElmcFJNVWVtWVBSeTc2bGx1S001MHRwOUx0djhER093dEUwYkRpQjl0MVExcjBUem5MMFFOMWhTOE5vVUw1Q1Z4RUxK?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-06T09:37:12+00:00",
-          "desc": "习近平参加北京市区人大代表换届选举投票 新华网在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-11-07T04:25:03+00:00",
+          "desc": "欧洲多地接连遭遇炸弹威胁和网络攻击民用设施安全引发关注-中新网 中国新闻网欧洲多国电视台收到炸弹威胁 媒体机构紧急疏散 中华网欧洲3天30多架航班遭诈弹威胁 新浪财经_金融信息服务商战机护航、客机迫降、机场关闭…谁在恐吓欧洲航空业？ 观察者网“45分钟后将爆炸”？欧洲多国电视台收到炸弹威胁，节目紧急停播 凤凰网",
           "hotLabel": "",
-          "summary": "国家主席习近平参加北京市区人大代表换届选举投票。",
-          "analysis": "国家主席亲自参与选举投票，体现了中国坚持人民代表大会制度的决心，以及对民主法治的重视。这对国内民生和政治稳定具有重要意义，有助于巩固党的执政基础，推动社会主义民主政治的发展。后续可能进一步强化基层民主建设，提升政府治理能力。",
+          "summary": "欧洲多地遭遇炸弹威胁和网络攻击，民用设施安全受到关注。",
+          "analysis": "此次事件反映了当前全球安全形势的严峻性。背景是国际恐怖主义和网络攻击的威胁日益严重。对国内民生而言，这提醒了中国加强网络安全和公共安全的重要性。对经济而言，这可能导致欧洲经济活动放缓，影响全球供应链。后续走向可能包括欧洲各国加强安全合作，共同应对安全挑战。",
           "keywords": [
-            "习近平",
-            "人大代表选举",
-            "人民代表大会制度",
-            "民主法治",
-            "政治稳定"
+            "炸弹威胁",
+            "网络攻击",
+            "民用设施",
+            "安全挑战",
+            "欧洲"
           ],
-          "category": "domestic",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB2VkFzSGZYeUI0WUxWMmRkbTdMbDRCb2haT29oeUl6a3pmekhGajV4N3BfMDJ4SjloT2J4OHNteW9hTWR0eXhUM0ZUc2NPU2ZiR3pMZlZ5bnJQaG9CU1hQR05idi10bjdLNzFyMFpBVE9Nb3dacWIw?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/06/world/asia/china-trump-putin-xi-summit.html"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4tSEtkaTdpUzFrZkVaSWRPaUh1Q2VtTVp0TFRJSElmcFJNVWVtWVBSeTc2bGx1S001MHRwOUx0djhER093dEUwYkRpQjl0MVExcjBUem5MMFFOMWhTOE5vVUw1Q1Z4RUxK?oc=5"
             }
           ],
           "rank": 9
         },
         {
-          "title": "小米澎程主驾车门被撞仍保护车主",
+          "title": "特朗普被指全面惨败",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E4%B8%BB%E9%A9%BE%E8%BD%A6%E9%97%A8%E8%A2%AB%E6%92%9E%E4%BB%8D%E4%BF%9D%E6%8A%A4%E8%BD%A6%E4%B8%BB&t=31&band_rank=5&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%A2%AB%E6%8C%87%E5%85%A8%E9%9D%A2%E6%83%A8%E8%B4%A5",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1069,30 +1060,135 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "小米汽车在碰撞事故中车门保持完好，保护了车主。",
-          "analysis": "这则新闻展示了小米汽车在安全性能方面的优势。随着新能源汽车的普及，消费者对汽车安全性能的要求越来越高。小米汽车在安全性能上的表现，有助于提升品牌形象，并推动新能源汽车市场的发展。",
+          "summary": "特朗普在多方面遭遇挫折。",
+          "analysis": "特朗普在多方面遭遇挫折，反映了美国国内政治斗争的激烈。这将对美国内外政策产生一定影响，可能加剧美国政治极化，对国际关系产生不确定性。同时，也可能促使中国调整对外政策，以应对可能的变化。",
           "keywords": [
-            "小米汽车",
-            "安全性能",
-            "新能源汽车",
-            "市场发展"
+            "特朗普",
+            "政治挫折",
+            "美国政治",
+            "国际关系",
+            "中国对外政策"
           ],
-          "category": "tech",
+          "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3%E6%BE%8E%E7%A8%8B%E4%B8%BB%E9%A9%BE%E8%BD%A6%E9%97%A8%E8%A2%AB%E6%92%9E%E4%BB%8D%E4%BF%9D%E6%8A%A4%E8%BD%A6%E4%B8%BB&t=31&band_rank=5&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%A2%AB%E6%8C%87%E5%85%A8%E9%9D%A2%E6%83%A8%E8%B4%A5"
             }
           ],
           "rank": 10
         },
         {
-          "title": "皮肤一碰就破女孩父母称不生二胎",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%9A%AE%E8%82%A4%E4%B8%80%E7%A2%B0%E5%B0%B1%E7%A0%B4%E5%A5%B3%E5%AD%A9%E7%88%B6%E6%AF%8D%E7%A7%B0%E4%B8%8D%E7%94%9F%E4%BA%8C%E8%83%8E%23&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "第七届世界媒体峰会在北京举办，李书磊出席并发表主旨演讲",
+          "titleOrig": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZUoyNS1kb0lXNjZwczUwclpEX3JYdVBlZklfQ19PUHR6Nl9aLVR2Yl9TcTN2SW8yWmxlYzh2SHhScWtvdmIwOUlnU2hLcndjY3pidFB5Y2ZlVXduR3VTMkpEMDZ1TmJncmVJYTlOV2JhS2VxdGlz?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T08:31:53+00:00",
+          "desc": "第七届世界媒体峰会在北京举办 李书磊出席开幕式并发表主旨演讲 新华网世界媒体峰会发布E立方协同发展倡议 构建绿色能源与媒体相互赋能的发展新格局 北京市人民政府门户网站Vlog｜在太庙 他们听见了《茉莉花》 凤凰网看看全球媒体“朋友圈”都在聊啥 新华网世界媒体看北京：感受中国发展，思考媒体未来 光明网",
+          "hotLabel": "",
+          "summary": "世界媒体峰会在北京举行，探讨媒体发展新格局。",
+          "analysis": "世界媒体峰会的举办体现了中国在国际媒体领域的影响力和话语权。李书磊的主旨演讲可能涉及中国媒体发展的新方向和全球媒体合作的新模式。这对推动全球媒体行业的健康发展，促进文化交流具有重要意义。后续可能看到更多国际合作项目和中国媒体在国际舞台上的活跃。",
+          "keywords": [
+            "世界媒体峰会",
+            "媒体发展",
+            "国际合作",
+            "文化交流",
+            "李书磊"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBUZUoyNS1kb0lXNjZwczUwclpEX3JYdVBlZklfQ19PUHR6Nl9aLVR2Yl9TcTN2SW8yWmxlYzh2SHhScWtvdmIwOUlnU2hLcndjY3pidFB5Y2ZlVXduR3VTMkpEMDZ1TmJncmVJYTlOV2JhS2VxdGlz?oc=5"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "2026年金鸡百花电影节在厦门开幕",
+          "titleOrig": "2026年中国金鸡百花电影节在厦门开幕 黄晓明、赵丽颖点亮金鸡 - 中新网福建",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxRWxnaGlPNmdSSzE5cU9FaXNxOGNNY3F2bDRyU1d3MWJfM0wxSU5kcTUzMUNDbjItWTBzX2Z4d1BadXM3OW1vMk5xQVN6TEFCUktrcHZFQjlOX3NOY0hubVhJSlZkWFRQMHk3YkVST0Q?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T09:53:54+00:00",
+          "desc": "2026年中国金鸡百花电影节在厦门开幕 黄晓明、赵丽颖点亮金鸡 中新网福建六个精彩瞬间，探寻中国电影直抵人心的力量 新华网星辰大海演员集结厦门，第39届金鸡奖11月7日启幕|厦门市|表演|中国电影|张翅|梁思伟_新浪娱乐_新浪新闻 新浪财经_金融信息服务商2026年中国金鸡百花电影节在福建厦门开幕 凤凰网以“电影文化建构”为主题主线，2026年金鸡百花电影节开幕 搜狐网",
+          "hotLabel": "",
+          "summary": "2026年金鸡百花电影节在厦门举行，黄晓明、赵丽颖等亮相。",
+          "analysis": "金鸡百花电影节的举办是中国电影文化的重要活动，对推动中国电影产业的发展具有积极作用。此次在厦门举办，可能意味着福建省乃至厦门市在文化产业发展上的战略布局，有助于提升当地文化软实力。",
+          "keywords": [
+            "金鸡百花电影节",
+            "电影文化",
+            "厦门",
+            "文化产业",
+            "电影产业"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxRWxnaGlPNmdSSzE5cU9FaXNxOGNNY3F2bDRyU1d3MWJfM0wxSU5kcTUzMUNDbjItWTBzX2Z4d1BadXM3OW1vMk5xQVN6TEFCUktrcHZFQjlOX3NOY0hubVhJSlZkWFRQMHk3YkVST0Q?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "北京供热系统试运行",
+          "titleOrig": "北京今日开始供热系统试运行 夜间阴有雨夹雪或雪 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yS0pBTHlobjBteTBkSUR1RUdYMW5BWEhQVktFa3p0YjNXRTByMGM2blZXaU9rSVE1cTJtNUZwRXZXRVh1UjltQkNWOExDR3Y2d1ZsVldqTkZJRFBhaFNnZ0M0c2pYUlJu?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T01:33:04+00:00",
+          "desc": "北京今日开始供热系统试运行 夜间阴有雨夹雪或雪 中国新闻网供热季来临 北京供热单位准备好了 新华网立冬暴雪预警撞上试供暖首日，北京供暖企业守护万家暖意 凤凰网北京供热系统今日启动试运行，暖气有问题打这个电话 新浪新闻_手机新浪网北京11月7日启动供热系统试运行 全力保障市民温暖过冬 人民网",
+          "hotLabel": "",
+          "summary": "北京开始进行供热系统试运行，预计夜间有雨夹雪或雪。",
+          "analysis": "北京供热系统试运行是应对冬季供暖需求的重要举措。背景是中国政府高度重视民生保障，特别是在冬季供暖问题。对国内民生而言，这保证了市民在寒冷冬季的温暖生活。对经济而言，供暖行业的发展有助于拉动相关产业链。后续走向可能包括供暖系统的优化和升级。",
+          "keywords": [
+            "北京",
+            "供热系统",
+            "试运行",
+            "民生保障",
+            "冬季供暖"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE0yS0pBTHlobjBteTBkSUR1RUdYMW5BWEhQVktFa3p0YjNXRTByMGM2blZXaU9rSVE1cTJtNUZwRXZXRVh1UjltQkNWOExDR3Y2d1ZsVldqTkZJRFBhaFNnZ0M0c2pYUlJu?oc=5"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "南京大学在知乎热榜上的关注度",
+          "titleOrig": "南京大学抬头率",
+          "url": "https://www.zhihu.com/search?q=%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%8A%AC%E5%A4%B4%E7%8E%87",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1100,30 +1196,31 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "罕见病女孩家庭因担忧医疗费用放弃生育二胎。",
-          "analysis": "这则新闻反映了我国罕见病患者的医疗困境和生育压力。由于罕见病治疗费用高昂，家庭经济负担沉重，导致部分家庭放弃生育。这背后反映了我国医疗保障体系的不足，以及社会对罕见病关注和支持的缺乏。未来可能需要政府加大对罕见病患者的医疗救助力度，并提高社会对罕见病的认知和关注。",
+          "summary": "南京大学在知乎热榜上受到广泛关注。",
+          "analysis": "南京大学作为中国顶尖高等学府，其任何动态都容易引起公众关注。此次登上知乎热榜，可能是因为学校近期有重大事件或政策变动，或是社会对高等教育的关注点。这反映出社会对高等教育的重视，以及对教育公平和质量的期待。后续可能引发关于高等教育改革、人才培养模式等话题的讨论。",
           "keywords": [
-            "罕见病",
-            "医疗救助",
-            "生育压力",
-            "医疗保障"
+            "南京大学",
+            "知乎热榜",
+            "高等教育",
+            "社会关注",
+            "教育改革"
           ],
           "category": "society",
           "importance": 75,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%9A%AE%E8%82%A4%E4%B8%80%E7%A2%B0%E5%B0%B1%E7%A0%B4%E5%A5%B3%E5%AD%A9%E7%88%B6%E6%AF%8D%E7%A7%B0%E4%B8%8D%E7%94%9F%E4%BA%8C%E8%83%8E%23&t=31&band_rank=2&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%8D%97%E4%BA%AC%E5%A4%A7%E5%AD%A6%E6%8A%AC%E5%A4%B4%E7%8E%87"
             }
           ],
-          "rank": 11
+          "rank": 14
         },
         {
-          "title": "美国10月非农数据远超预期",
-          "titleOrig": "美国10月非农远超预期",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD10%E6%9C%88%E9%9D%9E%E5%86%9C%E8%BF%9C%E8%B6%85%E9%A2%84%E6%9C%9F%23&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "红果短剧处理两万部低质短剧",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E5%A4%84%E7%90%86%E4%B8%A4%E4%B8%87%E9%83%A8%E4%BD%8E%E8%B4%A8%E7%9F%AD%E5%89%A7",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1131,63 +1228,103 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "美国10月非农就业数据大幅超出市场预期。",
-          "analysis": "美国10月非农数据远超预期，反映了美国经济复苏的强劲势头。这一数据可能对全球金融市场产生积极影响，增强市场对美国经济前景的信心。对中国而言，这可能意味着美国需求增加，有利于我国出口。后续可能影响中美贸易关系以及全球供应链布局。",
+          "summary": "红果短剧清理两万部低质短剧。",
+          "analysis": "红果短剧清理低质内容，体现了国家对网络文化产业的监管加强。此举有助于净化网络环境，提升内容质量，促进网络文化产业健康发展。同时，也提醒相关企业加强内容审核，提升作品质量。",
           "keywords": [
-            "美国",
-            "非农数据",
-            "经济复苏",
-            "金融市场",
-            "中美贸易"
+            "红果短剧",
+            "低质短剧",
+            "内容监管",
+            "网络环境",
+            "文化产业"
           ],
-          "category": "international",
+          "category": "society",
           "importance": 75,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%BE%8E%E5%9B%BD10%E6%9C%88%E9%9D%9E%E5%86%9C%E8%BF%9C%E8%B6%85%E9%A2%84%E6%9C%9F%23&t=31&band_rank=7&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%BA%A2%E6%9E%9C%E7%9F%AD%E5%89%A7%E5%A4%84%E7%90%86%E4%B8%A4%E4%B8%87%E9%83%A8%E4%BD%8E%E8%B4%A8%E7%9F%AD%E5%89%A7"
             }
           ],
-          "rank": 12
+          "rank": 15
         },
         {
-          "title": "话剧《今宵酒·醒何处》首演探讨当代亲密关系",
-          "titleOrig": "探讨当代亲密关系话剧《今宵酒·醒何处》首演 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LdHZRS0tpSnhjZnZuS0xmSkZNeWNXLUtNWFh0bDNRNFFBQmY1R2ZGMk1Kd1dXWW13ckNuNWRXazhsZUMyYkFEazltM0JzMzlUdlRrOExTVTRQTy1mRVhudml5RElXckpHQlE?oc=5",
+          "title": "多国学者：中国式现代化拓展现代化道路选择",
+          "titleOrig": "多国学者：中国式现代化拓展现代化道路选择 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpSW5DYmxYcjAzd2thWFBBNWpmWlJxYS1JaFJUczRibHZKUVlIbldjVW9FbVJVWjd3bWlYb3gyS3NsT0JZVVY4cVNwcnFORTdfU2dqYjgzVnpZeU8tU1NqQjBMUVRDNXF3?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-06T15:54:32+00:00",
-          "desc": "探讨当代亲密关系话剧《今宵酒·醒何处》首演 中国新闻网在Google 新闻上查看更多头条新闻和观点",
+          "publishedAt": "2026-11-07T10:29:57+00:00",
+          "desc": "多国学者：中国式现代化拓展现代化道路选择 中国新闻网",
           "hotLabel": "",
-          "summary": "话剧《今宵酒·醒何处》首演，聚焦当代亲密关系。",
-          "analysis": "该话剧的推出反映了当代中国社会对亲密关系问题的关注。在政策层面，这可能体现了对心理健康和社会和谐的重视。社会成因上，随着社会发展和价值观的多元化，亲密关系成为人们关注的焦点。对国内民生而言，这可能促进公众对心理健康问题的认识，对经济则可能带动相关文化产业的发展。后续走向可能包括更多类似话题的文艺作品涌现，以及社会对亲密关系问题讨论的深化。",
+          "summary": "多国学者认为中国式现代化为世界提供新的选择。",
+          "analysis": "这一观点反映了国际社会对中国发展模式的关注和认可。中国式现代化强调以人为本、全面协调可持续发展，为其他国家提供了新的发展思路。这对中国在国际社会中的地位和影响力提升具有重要意义。后续可能看到更多国家借鉴中国经验，探索适合自己的发展道路。",
           "keywords": [
-            "话剧",
-            "亲密关系",
-            "社会问题",
-            "心理健康",
-            "文化产业发展"
+            "中国式现代化",
+            "现代化道路",
+            "国际认可",
+            "发展模式",
+            "国际影响"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9LdHZRS0tpSnhjZnZuS0xmSkZNeWNXLUtNWFh0bDNRNFFBQmY1R2ZGMk1Kd1dXWW13ckNuNWRXazhsZUMyYkFEazltM0JzMzlUdlRrOExTVTRQTy1mRVhudml5RElXckpHQlE?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBpSW5DYmxYcjAzd2thWFBBNWpmWlJxYS1JaFJUczRibHZKUVlIbldjVW9FbVJVWjd3bWlYb3gyS3NsT0JZVVY4cVNwcnFORTdfU2dqYjgzVnpZeU8tU1NqQjBMUVRDNXF3?oc=5"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-giant-pandas-from-china-make-public-debut-at-atlanta-zoo/a-79883388?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-asks-china-to-uphold-busan-trade-deal-commitments/a-79882939?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 13
+          "rank": 16
         },
         {
-          "title": "后会友期综史一",
+          "title": "驻冲绳美军延长宵禁措施引发关注",
+          "titleOrig": "驻冲绳美军决定将宵禁措施延长一个月 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RV0Y0X2xYNGl0UW9QNnFfOTJqTWd4SzBrNGVCOTJodXk0MG80UlhWU2I0N0d5RFVHZTVjQ2dTOS1kM2dITzlaNUdqTVdWakVCYXhUcENiLTF5aVhNUTJGOHJwMEdabnJD?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-07T10:28:07+00:00",
+          "desc": "驻冲绳美军决定将宵禁措施延长一个月 中国新闻网驻冲绳美海军陆战队员在禁止夜间外出期间因酒驾遭逮捕 RFI驻日美军士兵涉嫌酒后肇事逃逸 引发纪律整顿措施 中华网美国管不住士兵，日本也不惯着了，驻日美军士兵违反“禁足令”涉嫌酒驾被捕 搜狐网驻冲绳美军对低级别军人延长宵禁措施 共同网",
+          "hotLabel": "",
+          "summary": "驻冲绳美军因士兵违纪问题延长宵禁措施。",
+          "analysis": "驻冲绳美军延长宵禁措施反映了美军在纪律管理上的挑战，同时也可能加剧中日之间的紧张关系。此举可能旨在防止类似事件再次发生，但长期来看可能对美军在日本的形象和与当地社区的关系产生负面影响。后续可能包括美军对纪律管理的进一步审查和调整。",
+          "keywords": [
+            "美军",
+            "宵禁",
+            "纪律",
+            "中日关系",
+            "冲绳"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1RV0Y0X2xYNGl0UW9QNnFfOTJqTWd4SzBrNGVCOTJodXk0MG80UlhWU2I0N0d5RFVHZTVjQ2dTOS1kM2dITzlaNUdqTVdWakVCYXhUcENiLTF5aVhNUTJGOHJwMEdabnJD?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "张雪重庆大学开价被学生嫌弃",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%BB%BC%E5%8F%B2%E4%B8%80%23&t=31&band_rank=1&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E5%BC%A0%E9%9B%AA%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E4%BB%B7%E8%A2%AB%E5%AD%A6%E7%94%9F%E5%AB%8C%E5%BC%83",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1195,114 +1332,56 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "微博热搜引发关注，事件详情待进一步了解。",
-          "analysis": "该事件可能涉及社会文化现象或特定社会议题。从标题来看，可能是指某种社会现象或文化现象的回顾或总结。这背后可能反映了当前社会对特定话题的关注和讨论，以及可能的政策引导或社会教育意图。对国内民生可能意味着对特定价值观的强化或对历史文化的重视，对经济可能影响相关文化产业的发展，对治理则可能意味着加强社会意识形态工作。后续走向可能包括相关政策的出台或社会活动的开展。",
+          "summary": "重庆大学教师张雪开价被学生嫌弃，引发社会关注。",
+          "analysis": "事件背景：张雪作为重庆大学的教师，在开价过程中可能存在价格不合理或服务不到位等问题，导致学生不满。这反映出当前教育领域存在的一些问题，如教育资源分配不均、教师服务质量参差不齐等。关键影响：对国内民生，可能引发公众对教育公平和质量的关注；对经济，可能影响教育行业的整体形象和消费者信心；对治理，意味着需要加强教育行业监管，提高教师服务质量。后续走向：可能引发教育部门对相关政策的调整和改革，以提升教育质量和公平性。",
           "keywords": [
-            "微博热搜",
-            "社会现象",
-            "文化议题",
-            "政策引导",
-            "社会教育"
+            "重庆大学",
+            "张雪",
+            "开价",
+            "学生",
+            "教育问题"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E7%BB%BC%E5%8F%B2%E4%B8%80%23&t=31&band_rank=1&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%BC%A0%E9%9B%AA%E9%87%8D%E5%BA%86%E5%A4%A7%E5%AD%A6%E5%BC%80%E4%BB%B7%E8%A2%AB%E5%AD%A6%E7%94%9F%E5%AB%8C%E5%BC%83"
             }
           ],
-          "rank": 14
+          "rank": 18
         },
         {
-          "title": "商南刑案时间线",
-          "titleOrig": "商南3死2伤刑案时间线",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%95%86%E5%8D%973%E6%AD%BB2%E4%BC%A4%E5%88%91%E6%A1%88%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "商南刑案的时间线被梳理公布。",
-          "analysis": "商南刑案的时间线公布，有助于公众了解案件全貌，体现了司法机关的透明度和公信力。对社会而言，这有助于维护社会公平正义，对法治建设有积极意义。后续可能引发公众对司法公正的关注，对相关法律制度的完善提出要求。",
-          "keywords": [
-            "商南刑案",
-            "时间线",
-            "司法公正",
-            "法治建设",
-            "社会公平"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%95%86%E5%8D%973%E6%AD%BB2%E4%BC%A4%E5%88%91%E6%A1%88%E6%97%B6%E9%97%B4%E7%BA%BF%23&t=31&band_rank=8&Refer=top"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "特斯拉逐步停产Cybertruck",
-          "titleOrig": "特斯拉将逐步停产Cybertruck",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%96%AF%E6%8B%89%E5%B0%86%E9%80%90%E6%AD%A5%E5%81%9C%E4%BA%A7Cybertruck%23&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "特斯拉宣布将逐步停产Cybertruck。",
-          "analysis": "特斯拉停产Cybertruck可能由于多种原因，如生产问题、市场需求不足等。这对特斯拉的产能布局和产品线调整有重要影响。对中国新能源汽车市场而言，这可能意味着特斯拉在短期内对市场的冲击减弱。后续可能影响特斯拉在中国的市场策略和新能源汽车行业的竞争格局。",
-          "keywords": [
-            "特斯拉",
-            "Cybertruck",
-            "停产",
-            "新能源汽车",
-            "市场竞争"
-          ],
-          "category": "economy",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%89%B9%E6%96%AF%E6%8B%89%E5%B0%86%E9%80%90%E6%AD%A5%E5%81%9C%E4%BA%A7Cybertruck%23&t=31&band_rank=9&Refer=top"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 - 中国金融信息网",
+          "title": "知乎好奇岛装扮游戏",
           "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SbXdzUkhyNGNLTWc0RkdXMDhaTlFfb3pwXzlOOXRSUW04V2dPVVhhc05SaGhGRDJISEZ4cXVsNHBDMENTdGJ2UWMwcC01RldrbnFfbGg3aDVCRWtSbDFyWHYxYTcza3M?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E5%A5%BD%E5%A5%87%E5%B2%9B%E8%A3%85%E6%89%AE%E6%B8%B8%E6%88%8F",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-07T00:40:00+00:00",
-          "desc": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 中国金融信息网美中贸易官员再次通话，美国敦促中国“全面、立即”落实釜山协议 美国之音华盛顿呼吁北京当局尊重双方贸易协定条款 RFI何立峰与美财长、贸易代表视频通话 凤凰网美警告北京必須立即履行釜山貿易協議條款 大紀元",
+          "publishedAt": null,
+          "desc": "",
           "hotLabel": "",
-          "summary": "何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 中国…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\n何立峰与美国财政部长贝森特、贸易代表格里尔举行视频通话 中国金融信息网美中贸易官员再次通话，美国敦促中国“全面、立即”落实釜山协议 美国之音华盛顿呼吁北京当局尊重双方贸易协定条款 RFI何立峰与美财长、贸易代表视频通话 凤凰网美警告北京必須立即履行釜山貿易協議條款 大紀元",
-          "keywords": [],
-          "category": "domestic",
-          "importance": 60,
+          "summary": "知乎推出新游戏“好奇岛”，用户可进行装扮。",
+          "analysis": "知乎推出“好奇岛”游戏，旨在通过娱乐化方式吸引用户，增强用户粘性。这反映了互联网企业对用户体验的重视，以及通过多元化内容吸引年轻用户群体的策略。同时，也可能促进社交媒体与游戏产业的融合。",
+          "keywords": [
+            "知乎",
+            "好奇岛",
+            "游戏",
+            "用户粘性",
+            "社交媒体"
+          ],
+          "category": "tech",
+          "importance": 70,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5SbXdzUkhyNGNLTWc0RkdXMDhaTlFfb3pwXzlOOXRSUW04V2dPVVhhc05SaGhGRDJISEZ4cXVsNHBDMENTdGJ2UWMwcC01RldrbnFfbGg3aDVCRWtSbDFyWHYxYTcza3M?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E5%A5%BD%E5%A5%87%E5%B2%9B%E8%A3%85%E6%89%AE%E6%B8%B8%E6%88%8F"
             }
           ],
-          "rank": 17
+          "rank": 19
         },
         {
           "title": "Hong Kong pro-democracy activist Joshua Wong sentenced to 10 years in prison in national security case",
@@ -1326,69 +1405,6 @@
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/world/2026/nov/05/hong-kong-joshua-wong-sentenced-national-security-case"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "曝我们来了阵容",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%88%91%E4%BB%AC%E6%9D%A5%E4%BA%86%E9%98%B5%E5%AE%B9&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "曝光某综艺节目《我们来了》的嘉宾阵容。",
-          "analysis": "综艺节目作为大众娱乐的一种形式，其嘉宾阵容往往受到广泛关注。这反映了我国娱乐产业的市场需求和对明星效应的依赖。同时，这也体现了媒体对娱乐新闻的关注和报道倾向。",
-          "keywords": [
-            "综艺节目",
-            "明星效应",
-            "娱乐产业",
-            "媒体报道"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E6%9B%9D%E6%88%91%E4%BB%AC%E6%9D%A5%E4%BA%86%E9%98%B5%E5%AE%B9&t=31&band_rank=4&Refer=top"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "赵丽颖周迅微博互动",
-          "titleOrig": "赵丽颖周迅打招呼",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E5%91%A8%E8%BF%85%E6%89%93%E6%8B%9B%E5%91%BC%23&t=31&band_rank=6&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "赵丽颖与周迅在微博上打招呼。",
-          "analysis": "赵丽颖和周迅作为当红明星，微博互动可能引发粉丝关注和讨论，对娱乐圈有一定影响力。这种互动可能反映了明星在社交媒体上维持人设和扩大影响力的策略。对社会来说，这种明星间的互动可以看作是娱乐产业生态的一部分，对粉丝文化有一定影响。后续可能引发粉丝之间的讨论和话题发酵。",
-          "keywords": [
-            "赵丽颖",
-            "周迅",
-            "微博",
-            "娱乐圈",
-            "粉丝文化"
-          ],
-          "category": "society",
-          "importance": 50,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%B5%B5%E4%B8%BD%E9%A2%96%E5%91%A8%E8%BF%85%E6%89%93%E6%8B%9B%E5%91%BC%23&t=31&band_rank=6&Refer=top"
             }
           ],
           "rank": 20
