@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-10T13:57:17.747420+00:00",
+  "generatedAt": "2026-11-10T22:41:21.163070+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 18,
+      "count": 14,
       "ok": true
     },
     {
@@ -90,115 +90,549 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多方面动态。经济领域，中国贸易顺差创新高，市场对美联储通胀斗争的关注升温；科技领域，Anthropic公司估值飙升，预示着科技股的活跃。国际政治方面，美国从委内瑞拉获得石油收益，法国指责伊朗网络攻击，以色列新议会召开但政府组建遥遥无期，显示出地区政治的不确定性。此外，土耳其在气候问题上的领导地位受到质疑，而土耳其和沙特等国的国际关系亦值得关注。总体而言，全球经济与政治的不确定性依然存在，各方势力在多领域展开博弈。",
+      "digest": "今日国际局势呈现多极化发展趋势。中东地区地缘政治紧张，叙利亚考虑派兵援助沙特对抗胡塞武装，伊朗否认在冰箱黑客攻击中扮演角色，美国士兵在英国被捕涉嫌为俄罗斯间谍。同时，全球绿色能源发展备受关注，约翰·克里呼吁全球效仿中国在绿色能源方面的领导。科技领域，新一代AI辅助灭火无人机测试成功，缓解了AI放缓的担忧。美国连续第二年抵制联合国人权审查，印尼副总统因资格问题提出辞职，阿根廷教皇利奥在弗朗西斯巨大阴影下前行。此外，法国召回大使，俄罗斯《诺瓦亚 gazeta》报纸停刊，加沙地带洪水造成4人死亡，马来西亚前总理纳吉布获释居家软禁，汉密尔顿访问埃及拉法口岸和加沙援助设施，美国众议院将开始投票表决Hegseth弹劾案，法国二战抵抗英雄索朗热·亚历山大逝世，密西西比州参议院：斯科特·科洛姆在截止日期前扩大领先优势。总体来看，国际局势复杂多变，各方势力博弈加剧，全球治理面临诸多挑战。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "中国贸易顺差突破1万亿美元，创纪录增长",
-          "titleOrig": "China’s Trade Surplus Passes $1 Trillion at Record Pace",
-          "url": "https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html",
+          "title": "叙利亚考虑派兵援助沙特对抗胡塞武装",
+          "titleOrig": "Syria Weighs Sending Troops to Aid Saudi War With Houthis",
+          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/syria-weighs-sending-troops-to-aid-saudi-war-with-houthis.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-10T09:00:49+00:00",
-          "desc": "China’s factories are finding eager buyers worldwide, but the export boom is raising concerns about its impact on trading partner nations.",
+          "publishedAt": "2026-11-10T16:43:59+00:00",
+          "desc": "Syrian reconnaissance teams have visited Saudi Arabia and Yemen ahead of a potential deployment, but a final decision has not been made, officials said.",
           "hotLabel": "",
-          "summary": "中国出口强劲，贸易顺差达到历史新高。",
-          "analysis": "中国出口的强劲增长反映了其全球供应链的强大和全球需求的增加。然而，这也可能对贸易伙伴国造成压力，并引发贸易紧张。后续可能看到全球贸易格局的变化，以及贸易政策调整。",
+          "summary": "叙利亚可能派兵援助沙特对抗胡塞武装。",
+          "analysis": "叙利亚参与沙特与胡塞武装的冲突，可能加剧该地区的紧张局势。此举可能影响中东地区的力量平衡，并可能引发伊朗与沙特之间的对抗升级。",
           "keywords": [
-            "中国",
-            "贸易顺差",
-            "出口增长",
-            "全球贸易",
-            "经济影响"
+            "叙利亚",
+            "沙特",
+            "胡塞武装",
+            "中东",
+            "地区冲突"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 90,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/09/business/china-trade-surplus-trillion.html"
+              "url": "https://www.nytimes.com/2026/11/10/world/middleeast/syria-weighs-sending-troops-to-aid-saudi-war-with-houthis.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "Anthropic公司估值达1.3万亿美元，即将在股市上市",
-          "titleOrig": "Anthropic heads for $1.3 trillion valuation in major stock market listing",
-          "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:45:36+00:00",
-          "desc": "The AI company behind the Claude chatbot will offer its shares at between $70 and $78.",
-          "hotLabel": "",
-          "summary": "Claude聊天机器人背后的AI公司计划以每股70至78美元的价格上市。",
-          "analysis": "Anthropic的上市反映了人工智能行业的快速增长和投资者对AI技术的信心。这一事件可能预示着AI行业将迎来更多的投资和竞争。对国际科技行业而言，这可能标志着AI技术商业化的新阶段。后续可能包括公司的股价表现和AI行业的发展趋势。",
-          "keywords": [
-            "Anthropic",
-            "AI",
-            "上市",
-            "估值",
-            "科技行业"
-          ],
-          "category": "tech",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/crpdgd723x2zo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "美国从委内瑞拉石油中获得120亿美元，报告显示",
-          "titleOrig": "U.S. Received $12 Billion From Venezuela’s Oil, Report Shows",
-          "url": "https://www.nytimes.com/2026/11/10/world/americas/us-venezuela-oil-trump.html",
+          "title": "伊朗无良选择",
+          "titleOrig": "No Good Choices on Iran",
+          "url": "https://www.nytimes.com/2026/11/10/world/iran-trump-war-hegseth-impeach.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-10T13:43:10+00:00",
-          "desc": "The workings of a U.S.-controlled bank account shed light on how Washington manages Venezuelan revenue after capturing the country’s president.",
+          "publishedAt": "2026-11-10T21:04:24+00:00",
+          "desc": "As top Trump aides clash over a strategy to end the war, the administration is weighing escalation, narrower strikes and diplomacy.",
           "hotLabel": "",
-          "summary": "美国通过控制银行账户管理委内瑞拉收入，背景揭示。",
-          "analysis": "美国通过控制委内瑞拉石油收入，体现了其在国际金融领域的影响力。这一举措可能加剧委内瑞拉经济困境，同时加强美国在该地区的政治和经济利益。后续可能引发委内瑞拉国内政治动荡，并影响区域稳定。",
+          "summary": "特朗普政府内部就结束伊朗战争的战略产生分歧。",
+          "analysis": "美国政府在伊朗问题上的策略分歧表明，结束伊朗战争并非易事。政府内部对是否升级冲突、实施更广泛的打击或采取外交手段存在分歧。这一事件的关键影响在于它可能加剧中东地区的紧张局势，并对美国的中东政策产生深远影响。后续走向可能包括美国对伊朗采取更激进的行动或寻求外交解决方案。",
+          "keywords": [
+            "伊朗",
+            "特朗普政府",
+            "战争",
+            "策略",
+            "中东"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/iran-trump-war-hegseth-impeach.html"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "前美国国务卿约翰·克里呼吁全球跟随中国在绿色能源方面的领导",
+          "titleOrig": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T12:08:23+00:00",
+          "desc": "Former US secretary of state says most nations are ‘stumbling along’ while Beijing has ‘hugely accelerated’Cop31 live – latest updatesChina is leading the world in moving away from fossil fuels, and the rest of the globe – including the US – must now follow, the former US secretary of state John Ker",
+          "hotLabel": "",
+          "summary": "前美国国务卿约翰·克里表示，中国在绿色能源方面领先全球，其他国家应跟随。",
+          "analysis": "约翰·克里的言论反映了国际社会对中国在绿色能源领域的认可。中国在这一领域的领导地位可能推动全球绿色能源转型，对中国的能源产业和环境保护政策构成正面影响。同时，这也可能促使其他国家调整其能源政策，以减少对化石燃料的依赖。",
+          "keywords": [
+            "绿色能源",
+            "中国",
+            "约翰·克里",
+            "国际",
+            "能源转型"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "美国士兵在英国被捕，涉嫌为俄罗斯间谍",
+          "titleOrig": "US Soldier Is Arrested in UK on Suspicion of Spying for Russia",
+          "url": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T22:24:05+00:00",
+          "desc": "The 41-year-old man, who was not named, was in custody pending possible charges after a joint investigation with the F.B.I. and U.S. military intelligence.",
+          "hotLabel": "",
+          "summary": "一名41岁美国士兵在英国被捕，涉嫌为俄罗斯间谍。",
+          "analysis": "此事件反映了美俄关系的紧张。美国士兵被捕可能加剧两国间的信任危机，影响两国在情报领域的合作。长期来看，这可能促使美国加强对俄罗斯情报活动的监控，并可能影响美英关系。",
           "keywords": [
             "美国",
-            "委内瑞拉",
-            "石油收入",
-            "金融控制",
-            "政治利益"
+            "间谍",
+            "俄罗斯",
+            "情报",
+            "国际关系"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/americas/us-venezuela-oil-trump.html"
-            },
+              "url": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "以色列反对派在议会首次会议上要求10月7日调查",
+          "titleOrig": "Israeli Opposition Pushes for Oct. 7 Inquiry at First Session of New Parliament",
+          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/israel-parliament-eisenkot.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T19:56:08+00:00",
+          "desc": "Dozens of first-time lawmakers were sworn into the Knesset, where the opposition, led by Gadi Eisenkot, now has a majority.",
+          "hotLabel": "",
+          "summary": "以色列反对派在议会首次会议上要求对政府进行质询。",
+          "analysis": "以色列议会新成员宣誓就职，反对派占据多数，这可能预示着以色列政治格局的重大变化。反对派领导人Gadi Eisenkot要求调查，可能是为了增加对现任政府的压力，并可能影响未来的政策方向。这一事件的关键影响在于它可能加剧以色列国内的政治分歧，并对地区稳定产生长远影响。后续走向可能包括政府的不稳定和更多政治斗争。",
+          "keywords": [
+            "以色列",
+            "议会",
+            "反对派",
+            "政治斗争",
+            "Gadi Eisenkot"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqpvgv318yyeo?at_medium=RSS&at_campaign=rss"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/middleeast/israel-parliament-eisenkot.html"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "CoreWeave营收超预期，上调展望缓解AI放缓担忧",
+          "titleOrig": "CoreWeave beats on revenue and lifts guidance, easing AI slowdown concerns",
+          "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T22:35:21+00:00",
+          "desc": "CoreWeave's stock has been hammered heading into the neocloud's Q3 earnings report.",
+          "hotLabel": "",
+          "summary": "CoreWeave发布三季度财报，股价上涨，缓解市场对AI行业放缓的担忧。",
+          "analysis": "CoreWeave作为AI行业的重要参与者，其业绩超出市场预期，表明AI行业尽管面临挑战，但仍有强劲的增长潜力。此举可能提振市场对AI行业的信心，并对相关科技股产生正面影响。后续可能看到更多AI公司发布积极业绩，推动行业复苏。",
+          "keywords": [
+            "CoreWeave",
+            "AI行业",
+            "财报",
+            "市场信心"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html"
             },
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/fda-warning-vision-loss-glp1-wegovy-zepbound.html"
+              "url": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/heloc-balances-new-york-fed.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/credit-card-debt-record.html"
             }
           ],
-          "rank": 3
+          "rank": 6
         },
         {
-          "title": "阿根廷新教皇在弗朗西斯巨大阴影下前行",
+          "title": "美国连续第二年抵制联合国人权审查",
+          "titleOrig": "U.S. boycotts U.N. human rights review for second year running",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T18:53:34+00:00",
+          "desc": "The U.S. has skipped a key U.N. human rights review for the second year running. Rights groups warn the absence risks undermining global accountability.",
+          "hotLabel": "",
+          "summary": "美国再次缺席联合国人权审查，引发全球问责制风险。",
+          "analysis": "美国连续第二年抵制联合国人权审查，反映其对外部监督的抵制态度。这一行为可能削弱联合国在人权领域的权威，对全球人权治理构成挑战。未来，国际社会可能加强对美国人权状况的关注，并寻求其他机制来推动全球人权进步。",
+          "keywords": [
+            "美国",
+            "联合国",
+            "人权",
+            "全球治理",
+            "问责制"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "伊朗否认在冰箱黑客攻击中扮演角色，法国召回大使",
+          "titleOrig": "Iran denies role in fridge hack, France summons ambassador",
+          "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T15:57:00+00:00",
+          "desc": "France has said it rules \"nothing\" out in response to a cyberattack on supermarket refrigeration units. Iran, however, said it categorically rejected Paris' \"baseless and one-sided accusations\" of IRGC involvement.",
+          "hotLabel": "",
+          "summary": "法国表示不排除对超市制冷设备网络攻击的任何可能性，而伊朗否认了伊斯兰革命卫队（IRGC）的参与。",
+          "analysis": "这起网络攻击事件可能加剧了伊朗与西方国家之间的紧张关系。法国的回应表明网络安全问题在国际关系中的重要性，而伊朗的否认可能引发进一步的调查和外交对抗。后续可能涉及国际调查和网络安全的国际合作。",
+          "keywords": [
+            "伊朗",
+            "网络攻击",
+            "法国",
+            "外交关系",
+            "网络安全"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "俄罗斯《诺瓦亚 gazeta》报纸停刊",
+          "titleOrig": "Novaya Gazeta, Russia’s Bravest Newspaper, Closes",
+          "url": "https://www.nytimes.com/2026/11/10/world/europe/russia-novaya-gazeta-closure.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T20:53:41+00:00",
+          "desc": "For more than 30 years, the paper covered an increasingly repressive Russia. “The process of silencing us started many years ago,” one of its journalists said.",
+          "hotLabel": "",
+          "summary": "俄罗斯著名报纸《诺瓦亚 gazeta》停刊。",
+          "analysis": "《诺瓦亚 gazeta》的停刊表明俄罗斯政府对媒体自由的压制加剧。这可能会影响俄罗斯国内的政治言论环境，并可能引发国际社会对俄罗斯民主和人权的关注。",
+          "keywords": [
+            "俄罗斯",
+            "媒体自由",
+            "政治压制",
+            "民主",
+            "人权"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/europe/russia-novaya-gazeta-closure.html"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "测试新一代AI辅助灭火无人机",
+          "titleOrig": "Testing the new generation of AI-enabled fire-extinguishing drones",
+          "url": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T19:00:00+00:00",
+          "desc": "Drone makers are testing new, big drones that can deliver water or fire retardant with AI assistance. Aspen, Colorado is the first place trying them out. Cool and expensive? Yes. Effective? TBD.",
+          "hotLabel": "",
+          "summary": "无人机制造商在美国科罗拉多州阿斯彭测试新型AI辅助灭火无人机。",
+          "analysis": "AI辅助灭火无人机的测试标志着无人机技术在消防领域的应用迈出重要一步。如果测试成功，这种技术将显著提高火灾应对效率，对全球消防事业产生积极影响。同时，这也可能推动无人机技术的进一步发展。",
+          "keywords": [
+            "无人机",
+            "AI技术",
+            "消防",
+            "技术发展"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "美企交易难以让普京在乌克兰让步",
+          "titleOrig": "Why U.S. Business Deals Are Unlikely to Get Putin to Give Any Ground",
+          "url": "https://www.nytimes.com/2026/11/10/world/europe/putin-trump-abu-dhabi-talks.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T12:51:02+00:00",
+          "desc": "President Vladimir V. Putin of Russia has shown a willingness to endure a high price to get what he wants in Ukraine, and he sees little reason to stop fighting now, analysts say.",
+          "hotLabel": "",
+          "summary": "普京在乌克兰问题上态度强硬，美国商业交易难以促使其改变立场。",
+          "analysis": "普京在乌克兰问题上的强硬立场表明，他愿意为维护国家利益付出高昂代价。美国商业交易对改变普京在乌克兰问题上的态度作用有限，未来乌克兰局势可能持续紧张。",
+          "keywords": [
+            "美国",
+            "普京",
+            "乌克兰",
+            "商业交易",
+            "地缘政治"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/europe/putin-trump-abu-dhabi-talks.html"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "印尼副总统因资格问题提出辞职",
+          "titleOrig": "Indonesia's VP offers resignation as questions mount over his eligibility",
+          "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T14:01:14+00:00",
+          "desc": "His resignation offer comes amid a widening political rift between Prabowo and Widodo and a separate investigation into allegations that senior police officials wiretapped the president.",
+          "hotLabel": "",
+          "summary": "印尼副总统因资格问题和政治分歧提出辞职。",
+          "analysis": "印尼副总统的辞职提议反映了印尼国内政治的复杂性和权力斗争。这可能会加剧印尼国内的政治不稳定，并对印尼的国内政策和地区影响力产生长远影响。后续可能涉及新的领导层选举和政府重组。",
+          "keywords": [
+            "印尼",
+            "政治危机",
+            "副总统辞职",
+            "权力斗争",
+            "政治稳定"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "加沙地带洪水造成4人死亡",
+          "titleOrig": "Gaza Floods Kill 4",
+          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T19:24:50+00:00",
+          "desc": "At least four people from one family died and thousands lost their shelters when a storm battered overcrowded tent camps. Israel says Gaza will not be rebuilt until Hamas disarms.",
+          "hotLabel": "",
+          "summary": "加沙地带洪水造成4人死亡。",
+          "analysis": "加沙地带的洪水灾害暴露了该地区基础设施的脆弱性。以色列拒绝重建加沙，除非哈马斯解除武装，这可能导致加沙地带的局势进一步恶化。",
+          "keywords": [
+            "加沙地带",
+            "洪水",
+            "以色列",
+            "哈马斯",
+            "地区安全"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "鲁比奥称伊朗战争不再需要“主要作战行动”",
+          "titleOrig": "Rubio Says ‘Major Combat Operations’ in Iran War Are No Longer Needed",
+          "url": "https://www.nytimes.com/2026/11/10/us/politics/rubio-iran-war.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T19:33:48+00:00",
+          "desc": "The U.S. secretary of state said that American economic pressure is doing sufficient damage to the leadership in Tehran.",
+          "hotLabel": "",
+          "summary": "美国国务卿鲁比奥表示，美国对伊朗的经济压力已足够。",
+          "analysis": "鲁比奥的这一声明表明，美国对伊朗的经济制裁正在产生效果。这可能意味着美国可能会减少对伊朗的直接军事行动，转而依赖经济手段来达到其目标。这一事件的关键影响在于它可能改变中东地区的力量平衡，并对伊朗的国际地位产生长远影响。后续走向可能包括伊朗与美国之间的经济战继续升级。",
+          "keywords": [
+            "美国",
+            "伊朗",
+            "鲁比奥",
+            "经济制裁",
+            "中东"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/us/politics/rubio-iran-war.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "马来西亚前总理纳吉布获释居家软禁",
+          "titleOrig": "Najib Razak, Ex-Prime Minister of Malaysia, Is Released to House Arrest",
+          "url": "https://www.nytimes.com/2026/11/10/world/asia/malaysia-najib-razak-1mdb-house-arrest.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T14:22:53+00:00",
+          "desc": "Najib Razak, who was brought down in the multibillion-dollar 1MDB scandal, was released from prison to serve the rest of his sentence in his mansion.",
+          "hotLabel": "",
+          "summary": "因1MDB丑闻而下台的纳吉布获释，将在家中完成剩余刑期。",
+          "analysis": "纳吉布获释居家软禁，标志着马来西亚政治局势的微妙变化。这一决定可能影响马来西亚国内政治稳定，并对反腐败斗争产生重要影响。未来，纳吉布的政治命运及其对马来西亚政治的影响值得关注。",
+          "keywords": [
+            "马来西亚",
+            "纳吉布",
+            "政治丑闻",
+            "反腐败",
+            "政治稳定"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/10/world/asia/malaysia-najib-razak-1mdb-house-arrest.html"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "汉密尔顿访问埃及拉法口岸和加沙援助设施",
+          "titleOrig": "Lewis Hamilton visits Egypt’s Rafah crossing and Gaza aid facilities",
+          "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T15:39:26+00:00",
+          "desc": "Seven-time F1 world champion tours border area and logistics warehouses operated by Egyptian Red CrescentLewis Hamilton has visited Egypt’s Rafah border crossing with the Gaza Strip to meet organisations sending humanitarian aid to the territory.The seven-time Formula One world champion has spoken o",
+          "hotLabel": "",
+          "summary": "七届F1世界冠军汉密尔顿访问埃及拉法口岸，了解向加沙地带提供人道援助的组织。",
+          "analysis": "汉密尔顿的访问凸显了埃及在巴勒斯坦问题上的角色，以及国际社会对加沙地带人道危机的关注。这可能会加强国际社会对埃及在地区安全与援助方面的期望，同时也可能加剧地区紧张局势。后续可能涉及更多国际援助和地区稳定措施。",
+          "keywords": [
+            "汉密尔顿",
+            "埃及",
+            "加沙",
+            "人道援助",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "阿根廷，教皇利奥在弗朗西斯巨大阴影下前行",
           "titleOrig": "In Argentina, Pope Leo Walks in the Giant Shadow of Francis",
           "url": "https://www.nytimes.com/2026/11/10/world/americas/pope-leo-argentina-visit-francis.html",
           "source": "NYT World",
@@ -207,382 +641,61 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-10T10:02:53+00:00",
+          "publishedAt": "2026-11-10T19:28:42+00:00",
           "desc": "Francis never returned to his home country after becoming pope, but the new pontiff will still be confronted with the overwhelming presence of his predecessor.",
           "hotLabel": "",
-          "summary": "新教皇首次访问阿根廷，面临前任巨大影响。",
-          "analysis": "教皇弗朗西斯未能回归祖国阿根廷，新教皇仍将面对前任的巨大影响力。这反映了宗教领袖在国内外政治中的角色，以及新旧领导层之间的传承与挑战。对于阿根廷而言，新教皇的访问可能成为国内政治和社会变革的催化剂。后续可能看到宗教与政治的更紧密结合，以及阿根廷在国际舞台上的新角色。",
+          "summary": "新任教皇在阿根廷受到前任教皇弗朗西斯的影响。",
+          "analysis": "新任教皇利奥在阿根廷的访问，虽然受到前任教皇弗朗西斯巨大影响力的挑战，但仍然具有象征意义。这反映了天主教会内部的传承与变革。这一事件的关键影响在于它可能影响阿根廷国内的天主教徒信仰和教会的政治影响力。后续走向可能包括利奥教皇如何平衡前任的遗产和自己的教皇身份。",
           "keywords": [
             "阿根廷",
             "教皇",
             "弗朗西斯",
-            "政治影响",
-            "宗教领袖"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/americas/pope-leo-argentina-visit-francis.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "刚果（金）判处66名士兵死刑，指控其胆怯",
-          "titleOrig": "DR Congo sentences 66 soldiers to death for being 'cowards'",
-          "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T08:39:05+00:00",
-          "desc": "The Congolese army's fight against rebel groups has long been hampered by disarray within its ranks.",
-          "hotLabel": "",
-          "summary": "刚果（金）军队因内部混乱而打击叛乱组织的能力受限。",
-          "analysis": "刚果（金）军队内部混乱反映了该国长期的政治不稳定和安全挑战。判处士兵死刑可能旨在震慑军队内部的腐败和纪律问题，但这也可能加剧军队的不稳定。对国际社会而言，这表明刚果（金）的安全局势依然严峻，需要国际援助。后续可能包括国际社会的反应和刚果（金）政府如何应对军队的不稳定。",
-          "keywords": [
-            "刚果（金）",
-            "军队",
-            "死刑",
-            "政治不稳定",
-            "国际援助"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmreye1q3dnjo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "10月消费者价格指数上涨0.4%，超出预期，复杂化美联储的通胀斗争",
-          "titleOrig": "Consumer prices rose 0.4% in October, more than expected, complicating Fed's inflation fight",
-          "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:45:04+00:00",
-          "desc": "The report comes at a critical juncture for the Federal Reserve as it considers its next move regarding interest rates.",
-          "hotLabel": "",
-          "summary": "报告发布时，美联储正考虑其利率政策下一步行动。",
-          "analysis": "美国10月消费者价格指数上涨表明通胀压力依然存在，这对美联储的货币政策构成了挑战。美联储可能需要进一步加息以抑制通胀，这可能会对经济产生负面影响。对国际金融市场而言，这可能导致美元走强和新兴市场国家的压力。后续可能包括美联储的利率决策和其对全球经济的影响。",
-          "keywords": [
-            "美国",
-            "通胀",
-            "美联储",
-            "利率政策",
-            "全球经济"
-          ],
-          "category": "economy",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/cpi-inflation-report-october-2026.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "黄仁勋涉嫌与中国间谍有关联，进一步加剧英伟达的中国问题",
-          "titleOrig": "Jensen Huang's affair with alleged Chinese spy further complicates Nvidia’s China problem",
-          "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:24:05+00:00",
-          "desc": "The allegations against Jensen Huang have brought new attention to the Nvidia CEO's potential influence over U.S. policy on chip sales to China.",
-          "hotLabel": "",
-          "summary": "英伟达CEO黄仁勋涉嫌与中国间谍有关联，引发对其在美国芯片销售政策上的潜在影响的关注。",
-          "analysis": "事件背景：黄仁勋的涉嫌行为引发了对他在美国对华芯片销售政策中可能扮演角色的质疑。关键影响：这可能导致美国对华芯片出口政策进一步收紧，影响全球半导体供应链。后续走向：可能引发更多关于美国对华科技政策的讨论和调整。关键词：黄仁勋，英伟达，中国，芯片，政策。分类：international，重要性：85",
-          "keywords": [
-            "黄仁勋",
-            "英伟达",
-            "中国",
-            "芯片",
-            "政策"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "预测市场平台Polymarket年化收入突破18亿美元",
-          "titleOrig": "Polymarket says annualized revenue has topped $1.8 billion",
-          "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:00:01+00:00",
-          "desc": "Amid growth of its U.S. exchange, the prediction market platform’s current annual run-rate is $1.8 billion.",
-          "hotLabel": "",
-          "summary": "Polymarket美国交易所增长，年化收入达到18亿美元。",
-          "analysis": "Polymarket的增长反映了美国预测市场平台的强劲发展势头，这可能与加密货币和金融科技行业的兴起有关。这一数字的增长对金融科技领域具有重要意义，可能预示着该领域未来发展的潜力。对于国际金融格局而言，这表明金融科技在全球范围内的普及和影响力正在增强。后续可能看到更多金融科技公司进入市场，竞争加剧。",
-          "keywords": [
-            "预测市场",
-            "Polymarket",
-            "金融科技",
-            "加密货币",
-            "年化收入"
-          ],
-          "category": "economy",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/polymarket-annualized-revenue-us-growth.html"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "以色列新议会召开，政府遥遥无期",
-          "titleOrig": "Israel’s New Parliament Gathers With No Government in Sight",
-          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/israel-parliament-eisenkot.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T12:38:39+00:00",
-          "desc": "Dozens of first-time lawmakers are heading to the Knesset, where the opposition, led by Gadi Eisenkot, has a majority and is expected to begin pulling some levers of power.",
-          "hotLabel": "",
-          "summary": "众多新议员加入，反对派掌握多数，预计将开始掌握部分权力。",
-          "analysis": "以色列新议会的组成可能引发政治动荡，反对派掌握多数可能改变政府政策方向，影响以色列国内政治稳定及地区安全格局。",
-          "keywords": [
-            "以色列",
-            "议会",
-            "反对派",
-            "政治动荡",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/middleeast/israel-parliament-eisenkot.html"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "法国指责伊朗对冷藏系统进行网络攻击",
-          "titleOrig": "France Blames Iran for Cyberattack on Refrigeration Systems",
-          "url": "https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T10:08:24+00:00",
-          "desc": "The French foreign minister said he had summoned the Iranian ambassador to France after a cyberattack on hundreds of supermarkets last month. Iran did not immediately respond.",
-          "hotLabel": "",
-          "summary": "法国外交部长召见伊朗大使，针对超市网络攻击事件。",
-          "analysis": "法国对伊朗的网络攻击表示强烈不满，这可能加剧两国之间的紧张关系。网络攻击事件凸显了网络安全的国际重要性，以及国家间在网络安全问题上的竞争。后续可能看到更多关于网络攻击的调查和反击，以及国际社会在网络安全领域的合作。",
-          "keywords": [
-            "法国",
-            "伊朗",
-            "网络攻击",
-            "网络安全",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/09/world/europe/france-iran-refrigerators-cyberattack.html"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "助CIA在墨西哥秘密行动的人",
-          "titleOrig": "The Man Who Helped the C.I.A. Secretly Operate in Mexico",
-          "url": "https://www.nytimes.com/2026/11/10/world/americas/mexico-chihuahua-cia.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T10:03:14+00:00",
-          "desc": "President Claudia Sheinbaum drew a firm line barring U.S. forces from operating on Mexican soil. But in a northern border state, one local partner quietly helped the agency build a foothold.",
-          "hotLabel": "",
-          "summary": "墨西哥总统禁止美军在该国行动，但一地方伙伴帮助CIA建立据点。",
-          "analysis": "尽管墨西哥总统明确禁止美军在该国活动，但地方层面的合作表明美国仍在寻求在该地区的影响力。这可能会加剧美墨关系的紧张，并影响墨西哥国内政治稳定。",
-          "keywords": [
-            "CIA",
-            "墨西哥",
-            "秘密行动",
-            "地方合作",
-            "美墨关系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/americas/mexico-chihuahua-cia.html"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "土耳其自诩气候领袖，但并非所有人都认同",
-          "titleOrig": "Turkey Promotes Itself as a Climate Champion. Not Everyone Agrees.",
-          "url": "https://www.nytimes.com/2026/11/10/world/europe/turkey-erdogan-cop31-climate.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T10:01:42+00:00",
-          "desc": "Critics say some of the country’s environmental policies run counter to the image it is offering as host of a United Nations climate summit.",
-          "hotLabel": "",
-          "summary": "土耳其宣传其作为联合国气候峰会东道国的环保政策。",
-          "analysis": "土耳其试图提升其国际形象，但国内部分环保政策与其气候领袖形象不符。这反映了国际政治中形象塑造与实际政策之间的矛盾。土耳其的气候政策可能影响其在国际社会中的地位，以及全球气候治理的未来走向。后续可能看到更多关于气候政策的国际辩论和谈判。",
-          "keywords": [
-            "土耳其",
-            "气候政策",
-            "国际形象",
-            "环境治理",
-            "联合国气候峰会"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/europe/turkey-erdogan-cop31-climate.html"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "Anthropic 设定 IPO 价格区间为 70 至 78 美元，预计 11 月 19 日开始交易",
-          "titleOrig": "Anthropic sets IPO price range of $70 to $78, looks to start trading Nov. 19, sources say",
-          "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T12:57:27+00:00",
-          "desc": "Anthropic's IPO is expected to come roughly five months after Elon Musk took SpaceX public in a record offering.",
-          "hotLabel": "",
-          "summary": "Anthropic 预计其 IPO 价格区间为 70 至 78 美元，计划在 11 月 19 日开始交易。",
-          "analysis": "事件背景：Anthropic 的 IPO 是继 SpaceX 上市后的又一科技巨头上市。关键影响：这反映了科技行业的持续增长和投资者对科技企业的信心。后续走向：Anthropic 的上市可能会影响其他科技企业的估值和上市计划。关键词：Anthropic，IPO，科技，市场，估值。分类：tech，重要性：75",
-          "keywords": [
-            "Anthropic",
-            "IPO",
-            "科技",
-            "市场",
-            "估值"
-          ],
-          "category": "tech",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/anthropic-sets-price-range-of-70-to-78-in-upcoming-ipo.html"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "美国新车平均成本创历史新高：超过51,000美元",
-          "titleOrig": "The average cost for a new vehicle in the U.S. hits a record high: over $51,000",
-          "url": "https://www.npr.org/2026/11/10/nx-s1-6026659/average-vehicle-price-record-high",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:30:00+00:00",
-          "desc": "Vehicle transaction prices are up to a new record high, according to the Kelley Blue Book — and some buyers are extending their car loans to finance them.",
-          "hotLabel": "",
-          "summary": "根据凯利蓝皮书，美国新车交易价格达到历史最高点，部分买家延长车贷以支付。",
-          "analysis": "美国新车成本上升反映了汽车行业的通货膨胀和供应链问题。这可能会影响美国消费者的购买力，并可能引发对汽车制造商和零售商的压力。对于国际汽车市场而言，这可能预示着全球汽车成本的上涨趋势。后续可能看到汽车制造商采取价格调整或提高生产效率来应对成本压力。",
-          "keywords": [
-            "美国",
-            "新车成本",
-            "通货膨胀",
-            "供应链",
-            "消费者购买力"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/10/nx-s1-6026659/average-vehicle-price-record-high"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "在沙特被判100鞭的肯尼亚家政工人",
-          "titleOrig": "Kenyan Domestic Worker Sentenced to 100 Lashes in Saudi Arabia",
-          "url": "https://www.nytimes.com/2026/11/10/world/middleeast/saudi-arabia-lashing-sentence-kenyan-woman.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T12:57:00+00:00",
-          "desc": "The kingdom’s promised reforms don’t always match the realities of its justice system. Unmarried women, particularly foreign workers, face unique perils.",
-          "hotLabel": "",
-          "summary": "沙特承诺的改革未体现在司法系统，单身女性面临独特危险。",
-          "analysis": "沙特司法系统的不公暴露了其改革承诺的局限性。对单身女性的歧视和惩罚反映了沙特社会和法律的保守性，可能加剧国际社会对沙特人权状况的关注。",
-          "keywords": [
-            "沙特",
-            "肯尼亚",
-            "家政工人",
-            "司法不公",
-            "人权问题"
+            "利奥",
+            "天主教会"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/10/world/middleeast/saudi-arabia-lashing-sentence-kenyan-woman.html"
+              "url": "https://www.nytimes.com/2026/11/10/world/americas/pope-leo-argentina-visit-francis.html"
             }
           ],
-          "rank": 15
+          "rank": 17
         },
         {
-          "title": "法国二战抵抗英雄索朗热·亚历山大逝世，享年104岁",
+          "title": "众议院将开始投票表决Hegseth弹劾案",
+          "titleOrig": "House set to begin voting on Hegseth impeachment measure",
+          "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T22:35:44+00:00",
+          "desc": "GOP Rep. Thomas Massie, who has clashed with President Donald Trump, kicked off the Hegseth impeachment fight days after a blue wave midterm election.",
+          "hotLabel": "",
+          "summary": "共和党众议员托马斯·马西发起对Hegseth的弹劾，引发政治争议。",
+          "analysis": "托马斯·马西的弹劾行动反映了美国政治的极化，可能加剧两党之间的对立。此举可能影响美国国内政治稳定，并对国际关系产生间接影响，特别是在美国与其他国家进行外交谈判时。",
+          "keywords": [
+            "弹劾",
+            "政治争议",
+            "美国政治",
+            "极化"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "法国二战抵抗英雄索朗热·亚历山大逝世",
           "titleOrig": "French wartime resistance heroine Solange Alexandre dies aged 104",
           "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -594,16 +707,16 @@
           "publishedAt": "2026-11-10T13:23:54+00:00",
           "desc": "With 30 men under her orders, she organised sabotage operations, sheltered Allied airmen and joined the fight against the occupying German forces.",
           "hotLabel": "",
-          "summary": "曾指挥30名士兵进行破坏行动，庇护盟军飞行员，对抗德国占领军。",
-          "analysis": "索朗热·亚历山大的逝世是对一位历史人物的缅怀，她代表了法国在二战期间的抵抗精神。这一事件对法国社会和二战历史研究具有重要意义。对国际社会而言，这提醒人们记住历史和英雄。后续可能包括对她的纪念活动和法国社会对二战历史的反思。",
+          "summary": "法国二战抵抗英雄索朗热·亚历山大逝世，享年104岁。",
+          "analysis": "索朗热·亚历山大的逝世是法国历史的损失，她的英勇事迹将永远被铭记。这一事件反映了历史人物对国家和民族的重要意义，同时也提醒人们珍惜和平。",
           "keywords": [
             "法国",
             "二战",
             "抵抗英雄",
-            "历史记忆",
-            "社会反思"
+            "历史人物",
+            "和平"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 70,
           "sources": [
             {
@@ -611,132 +724,35 @@
               "url": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 16
-        },
-        {
-          "title": "国防部长 Pete Hegseth 反对弹劾，捍卫伊朗战争处理",
-          "titleOrig": "Pete Hegseth decries impeachment push, defends Iran war handling",
-          "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:44:10+00:00",
-          "desc": "Secretary of Defense Pete Hegseth railed against the Republican congressman who introduced articles of impeachment against him.",
-          "hotLabel": "",
-          "summary": "美国国防部长 Pete Hegseth 对提出弹劾他的共和党国会议员表示强烈反对。",
-          "analysis": "事件背景：Hegseth 的弹劾案反映了美国国内对伊朗战争处理的分歧。关键影响：这可能加剧美国政治两极分化，影响对外政策。后续走向：弹劾案的结果可能影响美国对伊朗的政策走向。关键词：Pete Hegseth，弹劾，伊朗战争，美国政治，政策。分类：international，重要性：70",
-          "keywords": [
-            "Pete Hegseth",
-            "弹劾",
-            "伊朗战争",
-            "美国政治",
-            "政策"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "教皇利奥与豪尔赫·米莱：教皇的政治色彩",
-          "titleOrig": "Pope Leo vs. Javier Milei: How political is the pope?",
-          "url": "https://www.dw.com/en/pope-leo-vs-javier-milei-how-political-is-the-pope/a-79907666?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:47:00+00:00",
-          "desc": "Pope Leo XIV's tour of South America has drawn huge crowds — and a measure of political controversy. Perceived criticism of Argentina's leader, and earlier rebukes of Donald Trump, offer a glimpse into papacy politics.",
-          "hotLabel": "",
-          "summary": "教皇利奥十四世南美之行引发巨大人潮和争议，对阿根廷领导人和特朗普的批评揭示了教皇政治。",
-          "analysis": "教皇的言论和行为具有全球影响力，此次南美之行可能反映了梵蒂冈在国际事务中的角色日益重要。教皇对阿根廷领导人和特朗普的批评可能引发国际政治反应，并影响梵蒂冈与其他国家的关系。后续可能看到更多国际政治人物对教皇言论的回应。",
-          "keywords": [
-            "教皇",
-            "政治争议",
-            "国际事务",
-            "阿根廷",
-            "梵蒂冈"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/pope-leo-vs-javier-milei-how-political-is-the-pope/a-79907666?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "Bridgepoint 在“重新估值”的房地产中看到机会",
-          "titleOrig": "Bridgepoint sees opportunity in 're-rated' real estate",
-          "url": "https://www.cnbc.com/2026/11/10/bridgepoint-sees-opportunity-in-re-rated-real-estate.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-10T13:30:01+00:00",
-          "desc": "While higher interest rates are chasing many investors away from real estate, Bridgepoint Group sees opportunity in overlooked corners of the property market.",
-          "hotLabel": "",
-          "summary": "Bridgepoint Group 认为在高利率环境下，房地产市场的某些被忽视领域存在机会。",
-          "analysis": "事件背景：Bridgepoint Group 在高利率环境下看到了房地产市场的机会。关键影响：这表明投资者在市场调整中寻找新的投资机会。后续走向：可能引发更多投资者关注房地产市场的特定领域。关键词：Bridgepoint，房地产，市场，利率，投资。分类：economy，重要性：65",
-          "keywords": [
-            "Bridgepoint",
-            "房地产",
-            "市场",
-            "利率",
-            "投资"
-          ],
-          "category": "economy",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/bridgepoint-sees-opportunity-in-re-rated-real-estate.html"
-            }
-          ],
           "rank": 19
         },
         {
-          "title": "保加利亚高速公路连环车祸致12死，数十人受伤：总理报告",
-          "titleOrig": "Bulgaria highway pileup kills 12, dozens injured: PM",
-          "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "title": "密西西比州参议院：斯科特·科洛姆在截止日期前扩大领先优势",
+          "titleOrig": "Mississippi Senate: Scott Colom extends tight lead over Hyde-Smith as ballot deadlines hit",
+          "url": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
           "tier": "a",
-          "cat": "intl",
-          "region": "德国",
+          "cat": "economy",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-10T11:57:00+00:00",
-          "desc": "At least 12 people were killed and dozens injured in a series of crashes caused by thick fog in Bulgaria. Police, firefighters and paramedics were dispatched to the scene for the rescue operation.",
+          "publishedAt": "2026-11-10T22:01:52+00:00",
+          "desc": "Tuesday was the deadline for provisional ballots to be resolved in Mississippi, and the deadline for the receipt of mail-in absentee ballots.",
           "hotLabel": "",
-          "summary": "保加利亚因浓雾发生连环车祸，至少12人死亡，数十人受伤。",
-          "analysis": "这起车祸突显了交通安全和基础设施的重要性。对于保加利亚而言，这可能是对国家交通管理系统的考验。对于国际社会而言，这起事件可能引发对欧洲交通安全标准的关注。后续可能看到保加利亚加强交通安全措施。",
+          "summary": "密西西比州参议院选举在截止日期前，斯科特·科洛姆领先对手海德-史密斯。",
+          "analysis": "密西西比州参议院选举结果可能影响该州的政治格局，并对州内政策产生重要影响。此外，该州选举结果可能成为美国中期选举趋势的指标，对全国政治产生间接影响。",
           "keywords": [
-            "保加利亚",
-            "车祸",
-            "交通安全",
-            "基础设施",
-            "国际关注"
+            "选举",
+            "政治格局",
+            "政策影响",
+            "中期选举"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/bulgaria-highway-pileup-kills-12-dozens-injured-pm/a-79907978?maca=en-rss-en-all-1573-rdf"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html"
             }
           ],
           "rank": 20
@@ -745,289 +761,264 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述：经济方面，进博会取得丰硕成果，显示我国对外开放的坚定决心；社会领域，关注个体权益，强调家庭和谐与共同体意识；国际方面，面对外部压力，我国坚持独立自主的外交政策，维护国家利益。值得关注的是，科技创新和人才培养成为国家发展的重要支撑，而社会事件则反映了公众对公平正义的期待。整体而言，我国正稳步推进社会主义现代化建设，不断推动社会和谐与进步。",
+      "digest": "今日国内形势综述显示，我国在绿色能源领域的领导地位受到国际认可，同时，国内政策与社会动向呈现以下脉络：一是学习贯彻党的二十届五中全会精神，强调提高群众自防自救能力；二是中欧经贸合作推动，经济领域出现领克900L首发亮相、拼多多送货上门新规等积极信号；三是文化领域，《给阿嬷的情书》斩获金鸡两项大奖，梁家辉获奖感言等社会事件引发关注。总体而言，国内政策与社会动向呈现出积极向好的态势，值得持续关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "第九届进博会意向成交金额达854.5亿美元",
-          "titleOrig": "“成绩单”再刷新！第九届进博会按年计意向成交金额达854.5亿美元 - 中国科技网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51WDVBbktTWHUzcHU1WEVTRnk0VVVxZXU4R2R0ZzlsT05YYlc3blJoQWlTOE5VQWN5UnV4QVRzM0xEOGlfM04tbHNDQ25BTlMyT043TTlLUUJrLXd3Qmkya2dvZTFaZHI3VTdzU1JDMno?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-10T12:58:58+00:00",
-          "desc": "“成绩单”再刷新！第九届进博会按年计意向成交金额达854.5亿美元 中国科技网打造世界的市场、共享的市场（进博会观察） 新浪新闻_手机新浪网九赴进博 潮起朝阳 朝阳牵手全球伙伴共寻发展新机遇 北京市人民政府门户网站开放共赢创未来——第九届中国国际进口博览会观察 中国青年网（深圳APEC）两场“开放之约”接续登场 中国为亚太合作注入确定性 凤凰网",
+          "title": "前美国国务卿约翰·克里呼吁全球跟随中国在绿色能源方面的领导",
+          "titleOrig": "US and rest of world must follow China’s lead on green energy, says John Kerry",
+          "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-10T12:08:23+00:00",
+          "desc": "Former US secretary of state says most nations are ‘stumbling along’ while Beijing has ‘hugely accelerated’Cop31 live – latest updatesChina is leading the world in moving away from fossil fuels, and the rest of the globe – including the US – must now follow, the former US secretary of state John Ker",
           "hotLabel": "",
-          "summary": "第九届中国国际进口博览会意向成交金额达854.5亿美元，刷新历史记录。",
-          "analysis": "进博会的成功举办反映了中国的对外开放战略和全球市场的重要性。这一成绩表明，中国市场的巨大潜力和国际企业对进入中国市场的兴趣。对国内而言，进博会有助于推动国内消费升级和产业升级。对国际而言，进博会是中国对外开放的重要窗口，有助于促进全球贸易和投资。后续可能包括进博会机制的进一步优化和扩大，以及对中国与其他国家经贸关系的深化。",
+          "summary": "前美国国务卿约翰·克里表示，中国在绿色能源方面领先全球，其他国家应跟随。",
+          "analysis": "约翰·克里的言论反映了国际社会对中国在绿色能源领域的认可。中国在这一领域的领导地位可能推动全球绿色能源转型，对中国的能源产业和环境保护政策构成正面影响。同时，这也可能促使其他国家调整其能源政策，以减少对化石燃料的依赖。",
           "keywords": [
-            "进博会",
-            "对外开放",
-            "国际贸易",
-            "经济合作",
-            "中国市场"
+            "绿色能源",
+            "中国",
+            "约翰·克里",
+            "国际",
+            "能源转型"
           ],
-          "category": "economy",
+          "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51WDVBbktTWHUzcHU1WEVTRnk0VVVxZXU4R2R0ZzlsT05YYlc3blJoQWlTOE5VQWN5UnV4QVRzM0xEOGlfM04tbHNDQ25BTlMyT043TTlLUUJrLXd3Qmkya2dvZTFaZHI3VTdzU1JDMno?oc=5"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html"
             }
           ],
           "rank": 1
         },
         {
-          "title": "墨尔本中国骑手遇害案嫌犯大闹法庭",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%A2%A8%E5%B0%94%E6%9C%AC%E4%B8%AD%E5%9B%BD%E9%AA%91%E6%89%8B%E9%81%87%E5%AE%B3%E6%A1%88%E5%AB%8C%E7%8A%AF%E5%A4%A7%E9%97%B9%E6%B3%95%E5%BA%AD%23&t=31&band_rank=10&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "英国警方逮捕美军士兵涉嫌间谍活动",
+          "titleOrig": "英国警方：一美军士兵在英国被捕，因涉嫌从事与俄相关间谍活动 - 观察者网",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWbjZvM1Niajlfa1hYai03ZlNjZGh6czNCenV1bGNkeWdIbVdkdEZpbUg1SW5yWTZoMFZKSGV4N3lVNE83bl8yWjhNek1Kd2F0dmRZemItWGNyaHpPX2ZlcUMzWHRXUGtKdDgtTUd0a21KUG8?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-10T22:23:00+00:00",
+          "desc": "英国警方：一美军士兵在英国被捕，因涉嫌从事与俄相关间谍活动 观察者网英国警方：一美军士兵因涉嫌从事与俄相关间谍活动在英被捕 中国新闻网英国以涉嫌协助俄罗斯为由拘留一名美国陆军军人——ABC News Australia UA.NEWS英国警方逮捕了一名涉嫌支持俄罗斯情报部门的美国高级军官 Informat.ro美军高级士兵在英国被捕 涉嫌向俄罗斯情报机构泄密(图) 看中国网",
           "hotLabel": "",
-          "summary": "墨尔本中国骑手遇害案中，嫌犯在法庭上大闹。",
-          "analysis": "此事件反映了国际司法合作和领事保护的重要性。政策意图可能在于强调对外国公民的保护和司法公正。社会影响方面，可能引发公众对海外公民安全的关注，以及对外交和领事保护工作的期待。后续走向可能包括我国政府对此事件的持续关注和介入。",
+          "summary": "英国警方逮捕一名涉嫌与俄情报部门合作的美国陆军士兵。",
+          "analysis": "此次事件反映了当前国际关系中的紧张局势，特别是在美俄关系方面。这可能加剧国际社会对间谍活动的警惕，对美英关系产生负面影响。对国内而言，此类事件可能加强国家安全意识，但同时也可能引发对国际关系不确定性的担忧。后续可能涉及外交交涉和法律程序。",
           "keywords": [
-            "领事保护",
-            "司法公正",
-            "国际事件"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%A2%A8%E5%B0%94%E6%9C%AC%E4%B8%AD%E5%9B%BD%E9%AA%91%E6%89%8B%E9%81%87%E5%AE%B3%E6%A1%88%E5%AB%8C%E7%8A%AF%E5%A4%A7%E9%97%B9%E6%B3%95%E5%BA%AD%23&t=31&band_rank=10&Refer=top"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "石家庄天降陨石 最大单体重达35公斤",
-          "titleOrig": "石家庄天降陨石最大单体35公斤",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%A4%A9%E9%99%8D%E9%99%A8%E7%9F%B3%E6%9C%80%E5%A4%A7%E5%8D%95%E4%BD%9335%E5%85%AC%E6%96%A4%23&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "石家庄上空出现陨石坠落，最大单体重达35公斤。",
-          "analysis": "此次事件反映了我国天文观测和陨石研究领域的进步。政策上，可能预示着国家将进一步加强对天文科学研究的投入，提升国家科技实力。社会影响方面，此事件可能会激发公众对天文科学的兴趣，对科普教育产生积极影响。后续走向可能包括国家天文台的进一步观测和研究。",
-          "keywords": [
-            "陨石",
-            "天文研究",
-            "科普教育"
+            "间谍活动",
+            "美俄关系",
+            "国际安全",
+            "外交关系"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%9F%B3%E5%AE%B6%E5%BA%84%E5%A4%A9%E9%99%8D%E9%99%A8%E7%9F%B3%E6%9C%80%E5%A4%A7%E5%8D%95%E4%BD%9335%E5%85%AC%E6%96%A4%23&t=31&band_rank=7&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBWbjZvM1Niajlfa1hYai03ZlNjZGh6czNCenV1bGNkeWdIbVdkdEZpbUg1SW5yWTZoMFZKSGV4N3lVNE83bl8yWjhNek1Kd2F0dmRZemItWGNyaHpPX2ZlcUMzWHRXUGtKdDgtTUd0a21KUG8?oc=5"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "九载进博启新程",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E4%B9%9D%E8%BD%BD%E8%BF%9B%E5%8D%9A%E5%90%AF%E6%96%B0%E7%A8%8B",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "第九届中国国际进口博览会开幕，展示开放合作新篇章。",
+          "analysis": "中国国际进口博览会自2018年起已成功举办九届，是中国对外开放的重要窗口。本届进博会的举办，体现了中国坚持开放的基本国策，推动构建开放型世界经济。对国内民生而言，进博会带来了更多优质商品和服务，丰富了消费选择；对经济而言，进博会促进了国际贸易和投资，推动了经济高质量发展；对治理而言，进博会展示了中国的开放姿态和治理能力。后续走向可能包括进博会的规模扩大、国际化程度提升，以及更多政策支持开放型经济发展。",
+          "keywords": [
+            "进博会",
+            "开放型经济",
+            "国际贸易",
+            "高质量发展"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B9%9D%E8%BD%BD%E8%BF%9B%E5%8D%9A%E5%90%AF%E6%96%B0%E7%A8%8B"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E5%9B%BD%E6%9C%80%E9%95%BF%E5%9C%B0%E9%93%81%E7%8E%AF%E7%BA%BF%E6%9D%A5%E4%BA%86"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%A2%81%E5%AE%B6%E8%BE%89%EF%BC%9A%E4%B8%8D%E5%9D%90%E9%AB%98%E9%93%81%E5%87%86%E5%A4%87%E8%B5%B0%E8%B7%AF%E5%9B%9E%E5%8E%BB"
             }
           ],
           "rank": 3
         },
         {
-          "title": "日本自卫队官员非法持刀闯入中国大使馆案第二次开庭",
-          "titleOrig": "中国驻日本大使馆发言人就村田晃大非法持刀侵闯中国大使馆案第二次开庭答记者问 - 新京报",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWbU5lcUNVWXRCekFsSU94dWpWem9wbElDT3k4T0FnT3NDM0t5LW5xS0RoN041U215TXRmbmRYWTlhckExdG5valhQU1VHWlBOYmIyVEJPLWxrRXlnNHZpZnNGQjE?oc=5",
+          "title": "李希强调学习贯彻党的二十届五中全会精神",
+          "titleOrig": "李希在二十届中央纪委常委会第二十五次集体学习时强调深入学习贯彻党的二十届五中全会精神把学习成果体现为纪检监察工作高质量发展实际成效 - 南粤清风网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mTzFyZVRNQ283WVEyX0FoYmx3ZC1QSXRiNzZuQmdWUlJEc1dEekh5dUpvdmFJLUNxTFVSRHQyWjJsa2ZpN3FodDhvb2JNTDFnbVlodkpsdlhWNEJibGVFaGpNZjdxRlNt?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-10T12:11:00+00:00",
-          "desc": "中国驻日本大使馆发言人就村田晃大非法持刀侵闯中国大使馆案第二次开庭答记者问 新京报自卫队官员持刀侵闯中使馆，检方建议量刑18个月，驻日使馆回应 凤凰网日本检方要求判处持刀强闯我驻日使馆人员村田晃大1年6个月刑期 中国日报网“原自卫队官员村田晃大持刀强闯中国驻日本大使馆”一案今日开庭，检方要求判处其入狱18个月 ThePaper.cn驻日大使馆发言人：再次敦促日方依法严惩凶犯 向中方和国际社会作出负责任的交代 富途牛牛",
+          "publishedAt": "2026-11-10T14:22:17+00:00",
+          "desc": "李希在二十届中央纪委常委会第二十五次集体学习时强调深入学习贯彻党的二十届五中全会精神把学习成果体现为纪检监察工作高质量发展实际成效 南粤清风网大兴区领导召开大兴区委、临空区大兴片区党工委理论学习中心组学习（扩大）会议 北京市人民政府门户网站五中全会精神在基层｜特写：一叶红船映初心，百年薪火启新程 光明网德惠法院召开党组扩大会议传达学习党的二十届五中全会精神 ThePaper.cn解读党的二十届五中全会精神：坚持严的基调，深化正风肃纪反腐 中国网",
           "hotLabel": "",
-          "summary": "日本自卫队前官员非法持刀闯入中国大使馆案第二次开庭，检方建议量刑18个月。",
-          "analysis": "此案反映了中日关系中的敏感性和复杂性。日本自卫队前官员的行为不仅违反了国际法和外交礼仪，也损害了中日两国的关系。中国驻日本大使馆的回应体现了中国对维护国家主权和外交尊严的决心。此事件可能对中日关系产生短期影响，但长期来看，两国在地区安全和经济合作方面的利益可能促使双方寻求和平解决争端。后续走向可能包括日本国内对事件的调查和处理，以及中日两国在安全领域的对话与合作。",
+          "summary": "李希在中央纪委常委会学习时强调学习贯彻党的二十届五中全会精神。",
+          "analysis": "李希的讲话强调了党风廉政建设和反腐败工作的重要性，体现了中国政府对反腐斗争的持续关注。这对于维护党的纯洁性和提高治理能力具有重要意义。后续可能看到纪检监察工作在政策执行和监督方面的加强。",
           "keywords": [
-            "中日关系",
-            "外交纠纷",
-            "非法入侵",
-            "中国大使馆",
-            "日本自卫队"
+            "党风廉政",
+            "反腐败",
+            "治理能力",
+            "政策执行"
           ],
-          "category": "international",
+          "category": "society",
           "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBWbU5lcUNVWXRCekFsSU94dWpWem9wbElDT3k4T0FnT3NDM0t5LW5xS0RoN041U215TXRmbmRYWTlhckExdG5valhQU1VHWlBOYmIyVEJPLWxrRXlnNHZpZnNGQjE?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5mTzFyZVRNQ283WVEyX0FoYmx3ZC1QSXRiNzZuQmdWUlJEc1dEekh5dUpvdmFJLUNxTFVSRHQyWjJsa2ZpN3FodDhvb2JNTDFnbVlodkpsdlhWNEJibGVFaGpNZjdxRlNt?oc=5"
             },
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5rWDZlcnZDY0xiRS1pRktybm5wZWQ1aFBLR0RDaDdrSDhRYVB1ejZUZzF6SGdXbVBmS0Q5MjUyNnQwTHhVUTZ1cDkyX00xdmk1M1R2d2NQUUFiZ01JZExPWUVzOGpCaXFvY0UxSWRvTlFtUEcyQTNWSjh3?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE51WDVBbktTWHUzcHU1WEVTRnk0VVVxZXU4R2R0ZzlsT05YYlc3blJoQWlTOE5VQWN5UnV4QVRzM0xEOGlfM04tbHNDQ25BTlMyT043TTlLUUJrLXd3Qmkya2dvZTFaZHI3VTdzU1JDMno?oc=5"
             },
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/jensen-huang-nvidia-china-ties.html"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ONjRMMWQ0NWlkQlNqMFdNamd1Q2RGdlp6Q3hrdjNyV3FPS3NQcGtBNC1EQ0FMLWZLZ0QxdF9wYTJ6UjhoZVRPT3NHbVJnNFBYMFE?oc=5"
             }
           ],
           "rank": 4
         },
         {
-          "title": "铸牢共同体中华一家亲",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%93%B8%E7%89%A2%E5%85%B1%E5%90%8C%E4%BD%93%E4%B8%AD%E5%8D%8E%E4%B8%80%E5%AE%B6%E4%BA%B2%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#3",
-          "summary": "强调加强国家共同体意识。",
-          "analysis": "此标题体现了中国强化国家共同体意识的政策意图。在当前国际形势下，这可能意味着加强民族团结，促进社会和谐稳定。对国内民生而言，这有助于提升民众的归属感和认同感。后续可能包括相关政策的出台和实施，以及社会各界的积极响应。",
-          "keywords": [
-            "国家共同体",
-            "民族团结",
-            "社会和谐",
-            "政策意图",
-            "国际形势"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%93%B8%E7%89%A2%E5%85%B1%E5%90%8C%E4%BD%93%E4%B8%AD%E5%8D%8E%E4%B8%80%E5%AE%B6%E4%BA%B2%23&t=31&band_rank=3&Refer=top"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "国乒问题并非王楚钦一个人问题",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E9%97%AE%E9%A2%98%E5%B9%B6%E9%9D%9E%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%B8%80%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%23&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "国乒内部问题被指出并非王楚钦个人原因。",
-          "analysis": "此事件揭示了体育领域人才培养和管理的复杂性。政策意图可能在于强调集体责任和系统改革。社会影响方面，可能引发公众对体育人才培养和管理的关注，推动相关领域的改革。后续走向可能包括对国乒体系的全面审查和调整。",
-          "keywords": [
-            "国乒",
-            "体育管理",
-            "人才培养"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E9%97%AE%E9%A2%98%E5%B9%B6%E9%9D%9E%E7%8E%8B%E6%A5%9A%E9%92%A6%E4%B8%80%E4%B8%AA%E4%BA%BA%E9%97%AE%E9%A2%98%23&t=31&band_rank=9&Refer=top"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "黄仁勋持股不足4%为何能主导英伟达",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E6%8C%81%E8%82%A1%E4%B8%8D%E8%B6%B34%25%E4%B8%BA%E4%BD%95%E8%83%BD%E4%B8%BB%E5%AF%BC%E8%8B%B1%E4%BC%9F%E8%BE%BE%23&t=31&band_rank=17&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "英伟达CEO黄仁勋持股不足4%，却主导公司。",
-          "analysis": "黄仁勋通过其独特的领导力和对公司的深刻理解，即使持股比例不高，也能有效主导英伟达。这反映了现代企业管理中股权与控制权分离的现象。对国内企业治理而言，这一案例可能启发企业更加重视管理层的能力和战略眼光。后续可能对国内企业治理结构产生影响，推动企业更加注重管理层建设。",
-          "keywords": [
-            "企业管理",
-            "股权结构",
-            "英伟达"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E6%8C%81%E8%82%A1%E4%B8%8D%E8%B6%B34%25%E4%B8%BA%E4%BD%95%E8%83%BD%E4%B8%BB%E5%AF%BC%E8%8B%B1%E4%BC%9F%E8%BE%BE%23&t=31&band_rank=17&Refer=top"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "美国封锁伊朗物资进出效果有限",
-          "titleOrig": "美称封锁物资进出伊朗 海陆联动效果有限 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xaHNkYTd6dFcyUnVsVFRMQ0pmZVkyYzdhejB3X0djamlLNXBldmc4T1UyVXdrZl9abXhZQjl2blRjbG1ISko2YmJ4LXVqOXB2cnVTa0NfSHJQZGNFeGR2WTY3OVhUZ0lYdGp0dVlhZzA?oc=5",
+          "title": "吉姆·乔丹当选美国国会众议院共和党领袖",
+          "titleOrig": "吉姆·乔丹当选美国下一届国会众议院共和党领袖 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yYVZMNF82MmFWOUR5czVVRWQ2LV9fWkd2dWdWQ1BSdm9xX2JPbC12QlZtcDFqZkpveWhxZFZLdzl3aDdkY2ZWR2VES1JsQ2NUeEJXWU1uVXFkYWVCTFBQeXBlMC1UUjBa?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-10T07:52:36+00:00",
-          "desc": "美称封锁物资进出伊朗 海陆联动效果有限 中华网特朗普称“铁门”特遣行动正全面展开 几乎没有物资能进出伊朗 新浪财经一场临时起意的“文字游戏”？中期选举惨败后特朗普又对伊朗祭出“铁门” ThePaper.cn特朗普称将继续实施对伊朗的封锁及“铁门”特遣行动 中国日报网伊称美特遣部队无法施压伊朗 经济不会崩溃 中华网",
+          "publishedAt": "2026-11-10T22:03:46+00:00",
+          "desc": "吉姆·乔丹当选美国下一届国会众议院共和党领袖 中国新闻网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "美国封锁伊朗物资进出，但海陆联动效果有限。",
-          "analysis": "美国对伊朗的封锁措施旨在施加压力，但实际效果受到多方面限制，包括伊朗的抵抗能力和国际社会的反应。此事件反映了中东地区复杂的地缘政治局势，以及美国在中东政策上的挑战。对伊朗而言，封锁可能导致经济困难，但长期来看，伊朗可能寻求通过多元化经济和外交关系来减轻压力。后续可能包括伊朗与美国之间的紧张关系持续，以及地区其他国家的反应。",
+          "summary": "美国共和党领袖选举结果公布，吉姆·乔丹当选。",
+          "analysis": "吉姆·乔丹的当选反映了美国共和党内部对于强硬立场和保守政策的支持。这一事件可能影响美国未来在国内外政策上的走向，包括对华政策。对美国而言，这可能意味着在贸易、科技和地缘政治等领域对中国的立场可能更加强硬。对国际关系而言，这可能加剧中美之间的紧张关系。",
           "keywords": [
-            "伊朗",
-            "美国封锁",
-            "中东局势",
-            "地缘政治",
-            "经济制裁"
+            "美国",
+            "共和党",
+            "吉姆·乔丹",
+            "国会",
+            "众议院"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE4yYVZMNF82MmFWOUR5czVVRWQ2LV9fWkd2dWdWQ1BSdm9xX2JPbC12QlZtcDFqZkpveWhxZFZLdzl3aDdkY2ZWR2VES1JsQ2NUeEJXWU1uVXFkYWVCTFBQeXBlMC1UUjBa?oc=5"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "王毅同法国外长通话推动中欧经贸合作",
+          "titleOrig": "王毅同法国外长通话 吁发挥作用推动中欧经贸合作 - 联合早报",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GWVkwSkQyTkNXMXFLOGlRUUtMcUp6QUNRM05pV0h0MzJXb29yWHk4djlJYXhZaWFnRUhROUpBSFExbnlseE4xTkZrWlRRR21BbFlPZW04ZGdwcW1PU013MWVpb1kyRi1PUVE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-10T13:00:03+00:00",
+          "desc": "王毅同法国外长通话 吁发挥作用推动中欧经贸合作 联合早报在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "中国外交部长王毅与法国外长通话，强调推动中欧经贸合作。",
+          "analysis": "此次通话表明中国对加强与欧洲经贸关系的重视。在当前全球经济环境下，中欧合作对双方都有利，有助于稳定全球供应链。这反映了中国的对外开放政策，以及对多边贸易的倡导。后续可能看到中欧在经贸领域的更多合作。",
+          "keywords": [
+            "中欧经贸",
+            "外交关系",
+            "对外开放",
+            "多边贸易"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4xaHNkYTd6dFcyUnVsVFRMQ0pmZVkyYzdhejB3X0djamlLNXBldmc4T1UyVXdrZl9abXhZQjl2blRjbG1ISko2YmJ4LXVqOXB2cnVTa0NfSHJQZGNFeGR2WTY3OVhUZ0lYdGp0dVlhZzA?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9GWVkwSkQyTkNXMXFLOGlRUUtMcUp6QUNRM05pV0h0MzJXb29yWHk4djlJYXhZaWFnRUhROUpBSFExbnlseE4xTkZrWlRRR21BbFlPZW04ZGdwcW1PU013MWVpb1kyRi1PUVE?oc=5"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBReUZSN19GQVZVdWFaa2xOYkVhcl93LUhqa3M4TmZidjdhRkUxMlBWUDAycEdrNC02ZVFYRnZNRWFnWl8tWGt5Vks5Ml9MY2cwcjZfY2pNUFBSRUFzR0o2R1ctNDZFT0I0?oc=5"
             }
           ],
-          "rank": 8
+          "rank": 6
         },
         {
-          "title": "山姆现20元一包泡面",
+          "title": "Anthropic正式启动募资计划",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E7%8E%B020%E5%85%83%E4%B8%80%E5%8C%85%E6%B3%A1%E9%9D%A2%23&t=31&band_rank=19&Refer=top",
+          "url": "https://www.baidu.com/s?wd=Anthropic%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8%E5%8B%9F%E8%B5%84%E8%AE%A1%E5%88%92",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "人工智能公司Anthropic在中国启动募资计划，寻求资金支持。",
+          "analysis": "Anthropic是一家总部位于美国的人工智能公司，其在中国启动募资计划，反映了中国在人工智能领域的吸引力。此举可能意味着中国将进一步加大对人工智能产业的支持，推动产业创新。对国内经济而言，这有助于吸引外资，促进技术交流与合作；对社会而言，人工智能技术的发展将带来更多就业机会和生活方式的改变；对治理而言，需要加强数据安全和隐私保护。后续走向可能包括更多国际企业进入中国市场，以及政策对人工智能产业的进一步支持。",
+          "keywords": [
+            "人工智能",
+            "募资",
+            "外资",
+            "技术创新"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=Anthropic%E6%AD%A3%E5%BC%8F%E5%90%AF%E5%8A%A8%E5%8B%9F%E8%B5%84%E8%AE%A1%E5%88%92"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "领克900L首发亮相",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E9%A2%86%E5%85%8B900L%E9%A6%96%E5%8F%91%E4%BA%AE%E7%9B%B8%23&t=31&band_rank=10&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1037,27 +1028,158 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "山姆会员店推出20元一包的泡面。",
-          "analysis": "山姆会员店推出低价泡面反映了消费市场的变化和消费者对性价比的追求。对国内市场而言，这一现象可能推动其他商家降低价格，提高竞争力。后续可能对国内食品行业价格策略产生影响，促使行业更加注重成本控制和产品创新。",
+          "summary": "领克900L车型正式亮相。",
+          "analysis": "领克900L的首发亮相，标志着中国汽车品牌在高端市场的新尝试。这一事件对国内汽车行业意味着自主品牌在高端市场的竞争力提升，有助于推动国内汽车产业的升级。后续可能看到更多中国品牌在高端市场的布局和竞争。",
           "keywords": [
-            "山姆会员店",
-            "泡面",
-            "价格策略"
+            "领克",
+            "汽车行业",
+            "高端市场",
+            "自主品牌"
           ],
           "category": "economy",
           "importance": 75,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%B1%B1%E5%A7%86%E7%8E%B020%E5%85%83%E4%B8%80%E5%8C%85%E6%B3%A1%E9%9D%A2%23&t=31&band_rank=19&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E9%A2%86%E5%85%8B900L%E9%A6%96%E5%8F%91%E4%BA%AE%E7%9B%B8%23&t=31&band_rank=10&Refer=top"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "提高群众自防自救能力",
+          "titleOrig": "让“自防自救”技能“长”在群众手上 - 紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jSmRYWW5JRnVYQUpnMm5JdDdXRlpZTmptYnBGSFVvRXRYT04zMThuSThtVGhLblBpSUtfNERITU5nOFN3NE5MTXVHR1dFeGM2cnh6cFhCVHllNmpUMjRIUmZkaTBoRlB2?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-10T08:25:00+00:00",
+          "desc": "让“自防自救”技能“长”在群众手上 紫牛新闻“119”全国消防日：走近身边的逆行者 凤凰网提高自防自救能力，从这些学起！ 新华网天天学习｜“火焰蓝”永远竭诚为民 央视网全国消防日：筑牢安全“防火墙” 中国青年网",
+          "hotLabel": "",
+          "summary": "强调提高群众自防自救技能的重要性。",
+          "analysis": "这一政策旨在提升公众的安全意识和自救能力，特别是在紧急情况下。这反映了政府对公共安全的高度重视，以及对公民生命财产安全的保护。长期来看，这有助于构建更加安全的社会环境，减少灾害带来的损失。",
+          "keywords": [
+            "自防自救",
+            "公共安全",
+            "政策",
+            "社会",
+            "安全意识"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9jSmRYWW5JRnVYQUpnMm5JdDdXRlpZTmptYnBGSFVvRXRYT04zMThuSThtVGhLblBpSUtfNERITU5nOFN3NE5MTXVHR1dFeGM2cnh6cFhCVHllNmpUMjRIUmZkaTBoRlB2?oc=5"
             }
           ],
           "rank": 9
         },
         {
-          "title": "老人将6亿遗产留给再婚妻子",
+          "title": "Nvidia CEO 被指成为外国情报目标",
+          "titleOrig": "Nvidia opens investigation after report CEO Jensen Huang was target of foreign intelligence",
+          "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-09T00:25:28+00:00",
+          "desc": "CEO reportedly ‌had close relationship ‌with a Chinese businesswoman who passed information to ‌BeijingNvidia said ⁠on Sunday it “is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort”.The New Yo",
+          "hotLabel": "",
+          "summary": "Nvidia CEO 被报道与一名中国商人关系密切，可能向北京传递信息。",
+          "analysis": "此报道涉及国际科技巨头与外国情报机构的潜在联系，可能引发对数据安全和国际科技竞争的关注。Nvidia 作为全球领先的图形处理器制造商，其CEO的安全问题可能影响公司声誉和业务。后续可能涉及调查和法律诉讼。",
+          "keywords": [
+            "Nvidia",
+            "数据安全",
+            "国际科技竞争",
+            "情报活动"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "《给阿嬷的情书》斩获金鸡两项大奖",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E5%B0%866%E4%BA%BF%E9%81%97%E4%BA%A7%E7%95%99%E7%BB%99%E5%86%8D%E5%A9%9A%E5%A6%BB%E5%AD%90%23&t=31&band_rank=2&Refer=top",
+          "url": "https://www.baidu.com/s?wd=%E3%80%8A%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E3%80%8B%E6%96%A9%E8%8E%B7%E9%87%91%E9%B8%A1%E4%B8%A4%E9%A1%B9%E5%A4%A7%E5%A5%96",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "电影《给阿嬷的情书》在金鸡奖上获得两项大奖，展现中国电影艺术成就。",
+          "analysis": "《给阿嬷的情书》获奖体现了中国电影产业的繁荣和电影艺术的创新。对国内社会而言，这有助于提升国民文化自信，推动电影产业的发展；对经济而言，电影产业是文化产业的重要组成部分，有助于经济增长；对治理而言，文化产业发展需要政策支持，包括版权保护、市场培育等。后续走向可能包括更多优质电影作品的涌现，以及电影产业的国际化。",
+          "keywords": [
+            "电影",
+            "金鸡奖",
+            "文化自信",
+            "电影产业"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E3%80%8A%E7%BB%99%E9%98%BF%E5%AC%B7%E7%9A%84%E6%83%85%E4%B9%A6%E3%80%8B%E6%96%A9%E8%8E%B7%E9%87%91%E9%B8%A1%E4%B8%A4%E9%A1%B9%E5%A4%A7%E5%A5%96"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E9%98%BF%E9%87%8C%E5%AE%A3%E5%B8%83%E5%B9%B3%E5%A4%B4%E5%93%A5%E8%B5%B4%E6%B8%AF%E7%8B%AC%E7%AB%8B%E4%B8%8A%E5%B8%82"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "美股低开，英伟达开盘跌近3%",
+          "titleOrig": "美股低开 英伟达开盘跌近3%",
+          "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%BD%8E%E5%BC%80%20%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%BC%80%E7%9B%98%E8%B7%8C%E8%BF%913%",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "美股开盘下跌，英伟达股价受影响。",
+          "analysis": "事件背景：美股市场波动受多种因素影响，包括全球经济形势、公司业绩等。英伟达作为科技巨头，其股价波动可能反映了市场对科技行业前景的担忧。关键影响：对国内投资者信心有一定影响，但具体影响需视市场整体表现而定。后续走向：需关注美股市场及英伟达后续业绩表现。",
+          "keywords": [
+            "美股",
+            "英伟达",
+            "股价",
+            "市场波动",
+            "科技行业"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%BD%8E%E5%BC%80%20%E8%8B%B1%E4%BC%9F%E8%BE%BE%E5%BC%80%E7%9B%98%E8%B7%8C%E8%BF%913%"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "拼多多送货上门新规11月13日生效",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%8B%BC%E5%A4%9A%E5%A4%9A%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8%E6%96%B0%E8%A7%8411%E6%9C%8813%E6%97%A5%E7%94%9F%E6%95%88%23&t=31&band_rank=2&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1067,155 +1189,74 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "老人巨额遗产分配引发社会关注。",
-          "analysis": "此事件反映了当前中国老年人再婚现象的普遍性，以及遗产分配在法律和道德层面的复杂性。在政策层面，可能涉及对老年人婚姻自由和财产权益的保护。社会影响方面，此事件可能引发对家庭伦理、财产继承等问题的讨论。后续走向可能包括相关法律政策的调整和公众对此类事件的关注。",
+          "summary": "拼多多调整送货上门政策，11月13日起正式实施。",
+          "analysis": "拼多多此次调整送货上门新规，旨在提升用户体验和物流效率。政策背后反映了电商平台对物流服务的重视，以及优化供应链管理的意图。这一变化可能对国内电商行业产生示范效应，推动行业整体物流水平提升。后续可能看到更多电商平台跟进类似政策，以增强竞争力。",
           "keywords": [
-            "遗产分配",
-            "再婚",
-            "家庭伦理",
-            "财产权益",
-            "法律政策"
+            "拼多多",
+            "物流政策",
+            "电商",
+            "供应链管理"
           ],
-          "category": "society",
+          "category": "economy",
           "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%80%81%E4%BA%BA%E5%B0%866%E4%BA%BF%E9%81%97%E4%BA%A7%E7%95%99%E7%BB%99%E5%86%8D%E5%A9%9A%E5%A6%BB%E5%AD%90%23&t=31&band_rank=2&Refer=top"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "尚公主官方拆cp",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%E5%AE%98%E6%96%B9%E6%8B%86cp%23&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "尚公主官方宣布拆散CP组合。",
-          "analysis": "此事件反映了娱乐圈中粉丝文化对明星关系的影响。政策意图可能在于引导粉丝理性追星，避免过度消费和干扰艺人私生活。社会影响方面，可能促使粉丝更加关注艺人的个人发展而非CP关系。后续走向可能包括官方对粉丝文化的进一步引导和规范。",
-          "keywords": [
-            "粉丝文化",
-            "娱乐圈",
-            "明星关系"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%B0%9A%E5%85%AC%E4%B8%BB%E5%AE%98%E6%96%B9%E6%8B%86cp%23&t=31&band_rank=8&Refer=top"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "黄仁勋的恋爱脑伤到了哪些硅谷大佬",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%9A%84%E6%81%8B%E7%88%B1%E8%84%91%E4%BC%A4%E5%88%B0%E4%BA%86%E5%93%AA%E4%BA%9B%E7%A1%85%E8%B0%B7%E5%A4%A7%E4%BD%AC%23&t=31&band_rank=12&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "黄仁勋的恋情引发硅谷大佬的关注。",
-          "analysis": "这则新闻揭示了科技行业高管私生活对公众和行业的影响。黄仁勋作为英伟达的CEO，其个人生活受到广泛关注，反映了科技行业高管在公众视野中的地位。此事件可能对黄仁勋个人品牌和公司形象产生影响。",
-          "keywords": [
-            "黄仁勋",
-            "硅谷",
-            "科技行业",
-            "高管私生活",
-            "公众关注"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%BB%84%E4%BB%81%E5%8B%8B%E7%9A%84%E6%81%8B%E7%88%B1%E8%84%91%E4%BC%A4%E5%88%B0%E4%BA%86%E5%93%AA%E4%BA%9B%E7%A1%85%E8%B0%B7%E5%A4%A7%E4%BD%AC%23&t=31&band_rank=12&Refer=top"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "白小纯青稚飞升",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%9D%92%E7%A8%9A%E9%A3%9E%E5%8D%87%23&t=31&band_rank=15&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "网络热门事件，白小纯青稚角色飞升。",
-          "analysis": "该事件源于网络文学作品的二次创作，反映了网络文化对年轻一代的影响。其背后体现了年轻人对网络文化的热衷和对虚拟世界的追求。对国内社会而言，这一现象可能促进网络文学及相关产业的发展，同时也引发对青少年网络文化消费的监管思考。后续可能进一步推动相关政策的出台，以引导青少年健康上网。",
-          "keywords": [
-            "网络文学",
-            "二次创作",
-            "青少年文化"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E9%9D%92%E7%A8%9A%E9%A3%9E%E5%8D%87%23&t=31&band_rank=15&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E6%8B%BC%E5%A4%9A%E5%A4%9A%E9%80%81%E8%B4%A7%E4%B8%8A%E9%97%A8%E6%96%B0%E8%A7%8411%E6%9C%8813%E6%97%A5%E7%94%9F%E6%95%88%23&t=31&band_rank=2&Refer=top"
             }
           ],
           "rank": 13
         },
         {
-          "title": "疑似自费高定艺人回复网友",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%96%91%E4%BC%BC%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A%E8%89%BA%E4%BA%BA%E5%9B%9E%E5%A4%8D%E7%BD%91%E5%8F%8B%23&t=31&band_rank=6&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "日本检方寻求判处强闯中国使馆的自卫队官员18个月监禁",
+          "titleOrig": "日本检方寻求判处强闯中国使馆的自卫队官员18个月监禁 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXQkVTaTIwaDZHenJZQXhwZjJQeG9CZ2JCa2lVd0U2VXdxRnJaN3hMeDNVbHpidzZjSnJQRjU3SDY1X2h5b1ZsWjlmSEk4WnA4NnF0QkZGLTlZRGlYOGItTFFpdHNCVTRQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-10T13:59:58+00:00",
+          "desc": "日本检方寻求判处强闯中国使馆的自卫队官员18个月监禁 中国新闻网中国驻日本大使馆发言人就村田晃大非法持刀侵闯中国大使馆案第二次开庭答记者问 新京报日本前自卫官持刀闯中使馆案开庭，检方要求判刑1年半 凤凰网日本检方要求判处持刀强闯我驻日使馆人员村田晃大1年6个月刑期 中国日报网日本检方要求判处村田晃大18个月监禁 央视网",
           "hotLabel": "",
-          "summary": "艺人回应网友质疑。",
-          "analysis": "此事件可能涉及艺人个人形象和公众舆论的关系。在社会层面，这反映了公众对明星生活的好奇和监督。对经济而言，这可能影响艺人的商业价值和社会影响力。后续可能包括艺人形象的调整和公众态度的变化。",
+          "summary": "日本检方要求对强闯中国使馆的自卫队官员判处18个月监禁。",
+          "analysis": "此事件体现了中日两国在处理外交关系时的立场和原则。日本检方的判决可能对中日关系产生一定影响，同时也表明日本在处理涉及中国主权和领土完整的问题上，需要遵守国际法和国际关系基本准则。对中日关系而言，这可能是一次考验。",
           "keywords": [
-            "艺人形象",
-            "公众舆论",
-            "商业价值",
-            "社会影响力",
-            "明星生活"
+            "日本",
+            "中国使馆",
+            "自卫队",
+            "外交关系",
+            "领土完整"
           ],
-          "category": "society",
-          "importance": 65,
+          "category": "international",
+          "importance": 70,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%96%91%E4%BC%BC%E8%87%AA%E8%B4%B9%E9%AB%98%E5%AE%9A%E8%89%BA%E4%BA%BA%E5%9B%9E%E5%A4%8D%E7%BD%91%E5%8F%8B%23&t=31&band_rank=6&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXQkVTaTIwaDZHenJZQXhwZjJQeG9CZ2JCa2lVd0U2VXdxRnJaN3hMeDNVbHpidzZjSnJQRjU3SDY1X2h5b1ZsWjlmSEk4WnA4NnF0QkZGLTlZRGlYOGItTFFpdHNCVTRQ?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/environment/2026/nov/10/china-green-energy-john-kerry-cop31"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/08/nvidia-jensen-huang-investigation"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/global-development/2026/nov/08/uyghurs-thailand-china-forced-deportation"
             }
           ],
           "rank": 14
         },
         {
-          "title": "刘诗诗躲了半天还是没躲过",
+          "title": "Anthropic IPO拟发行8.25亿股",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%AF%97%E8%AF%97%E8%BA%B2%E4%BA%86%E5%8D%8A%E5%A4%A9%E8%BF%98%E6%98%AF%E6%B2%A1%E8%BA%B2%E8%BF%87%23&t=31&band_rank=13&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.baidu.com/s?wd=Anthropic%20IPO%E6%8B%9F%E5%8F%91%E8%A1%8C8.25%E4%BA%BF%E8%82%A1",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1223,29 +1264,33 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "刘诗诗未能避开媒体镜头。",
-          "analysis": "这则新闻体现了媒体对明星的追访和公众对明星生活的关注。刘诗诗作为知名演员，其行踪受到媒体的高度关注，反映了娱乐圈的竞争激烈和媒体对明星私生活的过度关注。",
+          "summary": "Anthropic计划IPO发行8.25亿股。",
+          "analysis": "事件背景：Anthropic作为一家科技公司，其IPO计划反映了科技行业的融资需求。关键影响：对科技行业融资环境有正面影响，可能激励更多企业上市。后续走向：需关注IPO的具体实施情况及市场反应。",
           "keywords": [
-            "刘诗诗",
-            "明星",
-            "媒体追访",
-            "公众关注",
-            "娱乐圈竞争"
+            "Anthropic",
+            "IPO",
+            "科技行业",
+            "融资",
+            "市场"
           ],
-          "category": "society",
+          "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%88%98%E8%AF%97%E8%AF%97%E8%BA%B2%E4%BA%86%E5%8D%8A%E5%A4%A9%E8%BF%98%E6%98%AF%E6%B2%A1%E8%BA%B2%E8%BF%87%23&t=31&band_rank=13&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=Anthropic%20IPO%E6%8B%9F%E5%8F%91%E8%A1%8C8.25%E4%BA%BF%E8%82%A1"
+            },
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFB6UlVndXFIb0VZRl9sMlZNVl84aDhVVlBaTVg3SGpyTHFnZjZxcWtqSDhPbTA2Y2dOYlBQS2VnUGJuX2FtcUlkTFhTd3dWUWpOMC1jSGFOd3hZTVdfQmJXdHJiZnF4dDBZTUZDTE9Fa0w?oc=5"
             }
           ],
           "rank": 15
         },
         {
-          "title": "白小纯在发现有人没上车的30秒",
+          "title": "李泽楷公司卖出全球最贵人寿保单",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%9C%A8%E5%8F%91%E7%8E%B0%E6%9C%89%E4%BA%BA%E6%B2%A1%E4%B8%8A%E8%BD%A6%E7%9A%8430%E7%A7%92%23&t=31&band_rank=4&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%B3%BD%E6%A5%B7%E5%85%AC%E5%8F%B8%E5%8D%96%E5%87%BA%E5%85%A8%E7%90%83%E6%9C%80%E8%B4%B5%E4%BA%BA%E5%AF%BF%E4%BF%9D%E5%8D%95%23&t=31&band_rank=8&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1255,31 +1300,34 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "乘客发现有人未上车引发关注。",
-          "analysis": "此事件可能反映了公共交通服务中的细节问题，如乘客安全意识、服务管理等方面。对社会而言，这提示了公共交通服务中的人性化关怀和安全管理的重要性。后续可能包括对公共交通服务的改进和乘客安全意识的提升。",
+          "summary": "李泽楷旗下公司售出全球最贵人寿保单。",
+          "analysis": "李泽楷公司售出全球最贵人寿保单，体现了香港保险市场的活跃和高端市场的需求。这一事件对国内保险行业意味着高端保险产品市场的潜力巨大，可能促使国内保险公司开发更多高端保险产品，满足富裕人群的需求。",
           "keywords": [
-            "公共交通",
-            "乘客安全",
-            "服务管理",
-            "人性化关怀",
-            "社会意识"
+            "李泽楷",
+            "人寿保险",
+            "高端市场",
+            "保险行业"
           ],
-          "category": "society",
-          "importance": 60,
+          "category": "economy",
+          "importance": 65,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E5%B0%8F%E7%BA%AF%E5%9C%A8%E5%8F%91%E7%8E%B0%E6%9C%89%E4%BA%BA%E6%B2%A1%E4%B8%8A%E8%BD%A6%E7%9A%8430%E7%A7%92%23&t=31&band_rank=4&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E6%9D%8E%E6%B3%BD%E6%A5%B7%E5%85%AC%E5%8F%B8%E5%8D%96%E5%87%BA%E5%85%A8%E7%90%83%E6%9C%80%E8%B4%B5%E4%BA%BA%E5%AF%BF%E4%BF%9D%E5%8D%95%23&t=31&band_rank=8&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%E5%AD%A6%E9%BE%84%E4%BA%BA%E5%8F%A3%E8%BE%BE%E5%B3%B0%20%E5%B9%BC%E5%84%BF%E5%9B%AD%E5%B0%8F%E5%AD%A6%E5%88%9D%E4%B8%AD%E8%B5%84%E6%BA%90%E4%BC%98%E5%8C%96&t=31&band_rank=9&Refer=top"
             }
           ],
           "rank": 16
         },
         {
-          "title": "王子璇否认与白小纯恋情",
-          "titleOrig": "王子璇方否认与白小纯恋情",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E6%96%B9%E5%90%A6%E8%AE%A4%E4%B8%8E%E7%99%BD%E5%B0%8F%E7%BA%AF%E6%81%8B%E6%83%85%23&t=31&band_rank=11&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "湖南株洲物流仓库突发大火系谣言",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8D%97%E6%A0%AA%E6%B4%B2%E7%89%A9%E6%B5%81%E4%BB%93%E5%BA%93%E7%AA%81%E5%8F%91%E5%A4%A7%E7%81%AB%E7%B3%BB%E8%B0%A3%E8%A8%80",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1287,29 +1335,60 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "演员王子璇通过微博否认与白小纯恋情。",
-          "analysis": "这起事件反映了娱乐圈恋情曝光的普遍现象，体现了媒体和公众对明星私生活的关注。在娱乐至上的社会背景下，明星恋情成为媒体炒作和粉丝关注的焦点。此事件对明星个人形象有潜在影响，同时也反映了公众对明星私生活的过度关注。",
+          "summary": "湖南株洲物流仓库大火事件被证实为谣言。",
+          "analysis": "这起事件被证实为谣言，体现了媒体和公众对突发事件的高度关注。对国内社会而言，这提醒公众在信息传播中应保持理性，避免传播不实信息；对治理而言，需要加强信息发布和舆论引导，提高公众的媒介素养。后续走向可能包括对谣言传播者的追责，以及公众对信息来源的更加谨慎。",
           "keywords": [
-            "明星恋情",
-            "娱乐圈",
-            "媒体炒作",
-            "公众关注",
-            "个人形象"
+            "谣言",
+            "信息传播",
+            "舆论引导",
+            "媒介素养"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E6%96%B9%E5%90%A6%E8%AE%A4%E4%B8%8E%E7%99%BD%E5%B0%8F%E7%BA%AF%E6%81%8B%E6%83%85%23&t=31&band_rank=11&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%B9%96%E5%8D%97%E6%A0%AA%E6%B4%B2%E7%89%A9%E6%B5%81%E4%BB%93%E5%BA%93%E7%AA%81%E5%8F%91%E5%A4%A7%E7%81%AB%E7%B3%BB%E8%B0%A3%E8%A8%80"
             }
           ],
           "rank": 17
         },
         {
-          "title": "虞书欣吓张凌赫一跳",
+          "title": "梁家辉 影帝获奖感言",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E5%90%93%E5%BC%A0%E5%87%8C%E8%B5%AB%E4%B8%80%E8%B7%B3%23&t=31&band_rank=18&Refer=top",
+          "url": "https://www.baidu.com/s?wd=%E6%A2%81%E5%AE%B6%E8%BE%89%20%E5%BD%B1%E5%B8%9D%E8%8E%B7%E5%A5%96%E6%84%9F%E8%A8%80",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "梁家辉获奖发表感言。",
+          "analysis": "事件背景：梁家辉获奖是对其演艺生涯的认可，体现了中国电影产业的繁荣。关键影响：对国内电影行业有正面激励作用，提升行业信心。后续走向：可能激发更多电影人追求卓越。",
+          "keywords": [
+            "梁家辉",
+            "影帝",
+            "电影",
+            "感言",
+            "电影行业"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%A2%81%E5%AE%B6%E8%BE%89%20%E5%BD%B1%E5%B8%9D%E8%8E%B7%E5%A5%96%E6%84%9F%E8%A8%80"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "金鸡最佳导演爆冷",
+          "titleOrig": "金鸡最佳导演 爆冷",
+          "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E6%9C%80%E4%BD%B3%E5%AF%BC%E6%BC%94%20%E7%88%86%E5%86%B7&t=31&band_rank=5&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1319,29 +1398,38 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "娱乐圈事件，虞书欣吓到张凌赫。",
-          "analysis": "娱乐圈的日常事件反映了明星生活的非公开一面。这类事件对公众而言，可能增加对明星私生活的兴趣。对国内娱乐圈而言，这类事件可能引发对明星隐私保护和娱乐圈生态平衡的讨论。后续可能促使娱乐圈加强自律，维护良好的行业形象。",
+          "summary": "第38届金鸡奖最佳导演奖项爆出冷门。",
+          "analysis": "金鸡奖最佳导演的爆冷，反映了电影行业评审的公正性和电影市场多元化趋势。这一事件对国内电影行业意味着评审体系的成熟和电影市场的多元化，有助于推动电影创作的多样性和创新。后续可能看到更多具有独立思考和艺术追求的电影作品涌现。",
           "keywords": [
-            "娱乐圈",
-            "明星生活",
-            "隐私保护"
+            "金鸡奖",
+            "电影行业",
+            "评审体系",
+            "电影创新"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%99%9E%E4%B9%A6%E6%AC%A3%E5%90%93%E5%BC%A0%E5%87%8C%E8%B5%AB%E4%B8%80%E8%B7%B3%23&t=31&band_rank=18&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%E9%87%91%E9%B8%A1%E6%9C%80%E4%BD%B3%E5%AF%BC%E6%BC%94%20%E7%88%86%E5%86%B7&t=31&band_rank=5&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E8%8A%B1%E5%9D%9B%E8%97%8F%E5%B0%B8%E6%A1%88%E5%87%B6%E6%89%8B%E5%AE%A1%E8%AE%AF%E7%94%BB%E9%9D%A2%E9%A6%96%E5%BA%A6%E5%85%AC%E5%BC%80%23&t=31&band_rank=6&Refer=top"
+            },
+            {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E9%AB%98%E5%8F%B6%E6%84%A3%E4%BA%86%E5%87%A0%E7%A7%92%E5%93%AD%E4%BA%86%23&t=31&band_rank=7&Refer=top"
             }
           ],
-          "rank": 18
+          "rank": 19
         },
         {
-          "title": "白敬亭井柏然 你穿着貂我露着背",
+          "title": "女子为备婚瘦50斤婚礼惊艳全场",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%95%AC%E4%BA%AD%E4%BA%95%E6%9F%8F%E7%84%B6%20%E4%BD%A0%E7%A9%BF%E7%9D%80%E8%B2%82%E6%88%91%E9%9C%B2%E7%9D%80%E8%83%8C&t=31&band_rank=14&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E4%B8%BA%E5%A4%87%E5%A9%9A%E7%98%A650%E6%96%A4%E5%A9%9A%E7%A4%BC%E6%83%8A%E8%89%B3%E5%85%A8%E5%9C%BA",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1349,53 +1437,21 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "白敬亭和井柏然在公开场合展示不同风格的着装。",
-          "analysis": "这则新闻反映了娱乐圈明星在公共场合的着装风格和个性展示。两位明星的着装选择体现了个人风格和时尚态度，同时也可能引发公众对明星时尚穿搭的关注和讨论。",
+          "summary": "女子为婚礼减肥成功，婚礼现场惊艳。",
+          "analysis": "事件背景：社会审美观念的变化，以及婚礼文化的影响。关键影响：反映了社会对个人形象的关注，可能引发关于健康与美的讨论。后续走向：可能影响更多人对待美的态度。",
           "keywords": [
-            "明星着装",
-            "时尚穿搭",
-            "个性展示",
-            "娱乐圈",
-            "公众讨论"
-          ],
-          "category": "society",
-          "importance": 55,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E6%95%AC%E4%BA%AD%E4%BA%95%E6%9F%8F%E7%84%B6%20%E4%BD%A0%E7%A9%BF%E7%9D%80%E8%B2%82%E6%88%91%E9%9C%B2%E7%9D%80%E8%83%8C&t=31&band_rank=14&Refer=top"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "白小纯 王子璇",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E7%8E%8B%E5%AD%90%E7%92%87&t=31&band_rank=1&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "微博热搜‘白小纯 王子璇’",
-          "analysis": "‘白小纯 王子璇’作为微博热搜，可能涉及娱乐圈的某个事件或新闻。这类事件通常反映了社会对娱乐新闻的关注，以及公众对明星个人生活的兴趣。后续可能包括相关事件的进一步发展，以及公众对此类事件的讨论。",
-          "keywords": [
-            "微博热搜",
-            "娱乐圈",
-            "明星",
-            "社会关注",
-            "个人生活"
+            "备婚",
+            "减肥",
+            "婚礼",
+            "审美",
+            "社会现象"
           ],
           "category": "society",
           "importance": 50,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E7%99%BD%E5%B0%8F%E7%BA%AF%20%E7%8E%8B%E5%AD%90%E7%92%87&t=31&band_rank=1&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%A5%B3%E5%AD%90%E4%B8%BA%E5%A4%87%E5%A9%9A%E7%98%A650%E6%96%A4%E5%A9%9A%E7%A4%BC%E6%83%8A%E8%89%B3%E5%85%A8%E5%9C%BA"
             }
           ],
           "rank": 20
