@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T14:17:10.066320+00:00",
+  "generatedAt": "2026-11-17T01:18:43.169828+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 12,
       "ok": true
     },
     {
@@ -90,9 +90,73 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势中，乌克兰战事持续升温，俄罗斯轰炸加剧，引发国际关注。美国全球健康援助虽转变，但未完全终结。特朗普访亚，应对英伟达事件，与习近平、普京会晤。欧洲歌唱大赛引发文化争议，南非枪击事件频发。美国FAA地面停飞影响航班，五国计划在卢旺达设立移民遣返中心。韩国调查K-Pop产业，新南威尔士州政府放弃打压房地产代理的新法。气候变化影响动物迁徙，诺贝尔奖得主骨灰归还危地马拉，社会活动亦值得关注。整体来看，国际局势复杂多变，各大事件走向值得关注。",
+      "digest": "今日国际局势中，经济与地缘政治交织，呈现复杂多变的态势。美国原油价格受中东出口恢复影响下跌，反映出全球能源市场的动态调整。AI武器的威胁引发联合国讨论，凸显技术发展带来的伦理和安全挑战。乌克兰冬季困境加剧，俄罗斯持续轰炸，地区安全形势堪忧。塞尔维亚政权变动及卢旺达移民遣返中心的计划，揭示全球治理的复杂性。特朗普亚洲之行将与其会晤习近平和普京，值得关注信息透露出大国互动的新动向。英伟达领导层变动引发美国经济不确定性，而数字科技的发展正重塑亚洲格局。特朗普交易NVDA股票引发市场关注，显示个人影响力与商业利益交织。此外，全球健康援助转变、体育赛事、法律与社会事件等，共同构成了今日国际局势的多维画卷。",
       "totalSelected": 20,
       "items": [
+        {
+          "title": "美国原油价格因中东出口恢复下跌至每桶85美元",
+          "titleOrig": "U.S. crude oil declines to $85 a barrel on recovering Middle East exports",
+          "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T22:19:02+00:00",
+          "desc": "Oil prices are falling as forecasts project a surplus in oil in the fourth quarter",
+          "hotLabel": "",
+          "summary": "美国原油价格因中东出口恢复而下跌。",
+          "analysis": "美国原油价格的下跌反映了全球原油市场的供需关系变化。中东地区原油出口的恢复可能导致全球原油供应增加，从而抑制油价。这一趋势可能对全球能源市场产生重要影响，尤其是对依赖原油出口的国家。后续可能引发全球能源市场的价格波动和策略调整。",
+          "keywords": [
+            "原油价格",
+            "中东出口",
+            "能源市场",
+            "供需关系",
+            "价格波动"
+          ],
+          "category": "economy",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/16/us-crude-oil-declines-to-87-a-barrel-on-recovering-middle-east-exports.html"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "联合国讨论限制“杀人机器人”，随着AI武器恐惧加剧",
+          "titleOrig": "U.N. talks seek to rein in 'killer robots' as fears over AI weapons grow",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T18:04:50+00:00",
+          "desc": "Countries are meeting in Geneva to negotiate rules on weapons that can select and kill targets without human intervention. But with the U.S., Russia and Israel resisting legally binding controls, campaigners fear the window to act is closing.",
+          "hotLabel": "",
+          "summary": "各国在日内瓦会议中寻求对无需人类干预即可选择和杀死目标的武器制定规则。",
+          "analysis": "随着人工智能武器的潜在威胁增加，国际社会正努力制定相关规则。然而，由于美国、俄罗斯和以色列等国的抵制，达成具有法律约束力的协议的前景不容乐观。",
+          "keywords": [
+            "AI武器",
+            "联合国",
+            "日内瓦",
+            "武器控制",
+            "国际关系"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6042548/un-killer-robots-ai-weapons-drones"
+            }
+          ],
+          "rank": 2
+        },
         {
           "title": "乌克兰冬季噩梦提前来临，俄罗斯持续轰炸",
           "titleOrig": "Winter Nightmare Looms Early in Ukraine as Russia Strikes Relentlessly",
@@ -103,191 +167,131 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-16T12:50:08+00:00",
+          "publishedAt": "2026-11-16T19:43:53+00:00",
           "desc": "Even as it talks peace, Russia has opened a bombing campaign intended to strip Kyiv and other cities of heat, running water and sanitation this winter.",
           "hotLabel": "",
-          "summary": "俄罗斯对乌克兰的轰炸导致基辅和其他城市面临冬季生活设施短缺。",
-          "analysis": "俄罗斯对乌克兰的军事行动不仅是对乌克兰的攻击，也是对欧洲安全格局的挑战。这一行动可能导致冬季人道主义危机，加剧地区紧张局势，并可能影响全球能源市场。",
+          "summary": "俄罗斯对乌克兰展开轰炸，旨在摧毁其供暖、供水和卫生设施。",
+          "analysis": "俄罗斯此举意在削弱乌克兰的冬季防御能力，同时加剧乌克兰国内矛盾。对乌克兰而言，这将是一场严峻的生存挑战。对国际格局而言，可能加剧东欧地区紧张局势，并对俄罗斯与西方国家关系产生深远影响。后续可能引发国际社会的强烈反应，包括制裁和外交压力。",
           "keywords": [
             "乌克兰",
             "俄罗斯",
             "轰炸",
-            "冬季危机",
-            "能源市场"
+            "冬季",
+            "国际关系"
           ],
           "category": "international",
-          "importance": 95,
+          "importance": 85,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/11/16/world/europe/russia-ukraine-winter-campaign.html"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "也门军队撤回保卫港口城市，抵抗胡塞武装",
-          "titleOrig": "Yemeni forces retreat to defend port city from Houthis",
-          "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T11:09:38+00:00",
-          "desc": "Saudi-backed forces say they are moving troops from the Bab al-Mandab Strait to protect the interim capital, Aden.",
-          "hotLabel": "",
-          "summary": "沙特支持的军队从曼德海峡撤军，以保护临时首都亚丁。",
-          "analysis": "也门冲突持续升级，沙特支持的政府军撤军反映了战略重心的转移，可能为胡塞武装提供进攻机会。此举可能加剧地区紧张局势，并对沙特与伊朗之间的对抗产生重要影响。后续可能包括国际社会的介入和和平谈判的努力。",
-          "keywords": [
-            "也门",
-            "胡塞武装",
-            "沙特",
-            "地区冲突",
-            "国际干预"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
+            },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "克洛普称因凡蒂诺比布拉特更糟糕",
-          "titleOrig": "Klopp says Infantino worse than Blatter",
-          "url": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T11:27:08+00:00",
-          "desc": "Germany manager Jurgen Klopp says he \"didn't think things could get worse after Sepp Blatter, but someone has managed to do just that\" as he calls for Fifa president Gianni Infantino to be replaced.",
-          "hotLabel": "",
-          "summary": "德国教练克洛普批评国际足联主席因凡蒂诺，呼吁其下台。",
-          "analysis": "克洛普的言论反映了国际足联内部的权力斗争和对治理不公的不满。这可能会加剧国际足联内部的分裂，并对足球运动在全球的声誉产生负面影响。后续可能引发更广泛的改革讨论，影响国际体育组织的治理结构。",
-          "keywords": [
-            "国际足联",
-            "因凡蒂诺",
-            "克洛普",
-            "足球治理",
-            "权力斗争"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/sport/football/articles/cjr4gr2k41dxo?at_medium=RSS&at_campaign=rss"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/15/world/americas/felix-gallardo-mexico-dead.html"
             }
           ],
           "rank": 3
         },
         {
-          "title": "美国全球健康援助并非终结，而是在转变",
-          "titleOrig": "American Global Health Aid Isn’t Dead. It’s Changing.",
-          "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T10:00:31+00:00",
-          "desc": "The Trump administration promised to make aid programs more “America First.” Some countries are balking.",
-          "hotLabel": "",
-          "summary": "特朗普政府承诺使援助项目更“美国优先”，部分国家表示反对。",
-          "analysis": "特朗普政府推行“美国优先”政策，导致其全球健康援助项目面临挑战。部分受援国对援助条件的改变表示不满，可能影响美国在国际社会中的形象和影响力。未来，美国可能需要重新评估其援助策略，以适应国际社会的期待。",
-          "keywords": [
-            "美国",
-            "全球健康援助",
-            "特朗普政府",
-            "援助条件",
-            "国际形象"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "欧洲歌唱大赛主办方批评马来西亚删除LGBT+内容",
-          "titleOrig": "Eurovision organisers criticise Malaysian removal of LGBT+ footage in first Asian contest",
-          "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest",
+          "title": "新南威尔士州拟议通过扩大煤矿生产法案引发严重腐败风险",
+          "titleOrig": "Proposed NSW laws to allow coalmine to increase production pose ‘serious corruption risk’",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-16T11:12:44+00:00",
-          "desc": "Broadcaster TV3 appears to cut footage of Thai drag performers and gay Philippine jury spokespersonEurovision’s organisers have said they are “surprised and disappointed” that the first Eurovision Asia was altered when it was broadcast in Malaysia, apparently removing LGBTQ+ imagery and people from ",
+          "publishedAt": "2026-11-17T00:22:13+00:00",
+          "desc": "Bill to authorise expansion at Mount Pleasant coalmine, subject to a landmark high court decision, will be debated this weekGet our daily political email, free app or daily news podcastA New South Wales government bill to increase coal production at a Hunter Valley coalmine creates a “serious corrup",
           "hotLabel": "",
-          "summary": "马来西亚播出欧洲歌唱大赛亚洲区比赛时删除LGBT+内容，引发争议。",
-          "analysis": "事件背景：欧洲歌唱大赛作为国际文化盛事，其主办方对马来西亚的处理表示失望，反映了国际社会对LGBT+权益的关注。关键影响：此事件可能影响马来西亚在国际舞台上的形象，并引发对亚洲地区LGBT+权益的讨论。后续走向：可能引发更多关于文化自由和LGBT+权益的国际辩论。关键词：欧洲歌唱大赛，LGBT+，马来西亚，文化自由，国际形象。category：international，importance：85",
+          "summary": "新南威尔士州政府拟议扩大煤矿生产，引发腐败风险担忧。",
+          "analysis": "新南威尔士州政府拟议通过扩大煤矿生产的法案，背后反映了全球对能源需求的持续增长。然而，这一决定可能引发严重的腐败风险，因为煤矿扩张往往涉及大量资金和资源，容易成为腐败的温床。此举可能加剧国际社会对澳大利亚环保政策的质疑，并对地区环境治理产生负面影响。后续可能面临法律挑战和公众舆论压力，政府需在经济发展和环境保护之间寻求平衡。",
           "keywords": [
-            "欧洲歌唱大赛",
-            "LGBT+",
-            "马来西亚",
-            "文化自由",
-            "国际形象"
+            "腐败风险",
+            "煤矿生产",
+            "环境保护",
+            "澳大利亚",
+            "法律挑战"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/tv-and-radio/2026/nov/16/eurovision-organisers-malaysia-removal-lgbt-footage-first-asian-contest"
+              "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk"
             }
           ],
-          "rank": 5
+          "rank": 4
         },
         {
-          "title": "特朗普访亚会见习近平和普京，应对英伟达事件影响",
-          "titleOrig": "Trump heads to Asia to meet with Xi and Putin amid Nvidia fallout",
-          "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "塞尔维亚学生运动推翻强人政权，但国家未来走向成谜",
+          "titleOrig": "They Defeated a Strongman. But Can They Run a Country?",
+          "url": "https://www.nytimes.com/2026/11/16/world/europe/serbia-students-vucic-election.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-16T10:00:00+00:00",
-          "desc": "The trip to China marks Trump's second time this year, and comes as the president and his party faced widespread backlash from voters in the recent midterm elections.",
+          "publishedAt": "2026-11-16T05:01:15+00:00",
+          "desc": "Serbia’s student movement was deliberately leaderless and made group decisions to unseat Aleksandar Vucic. Now no one seems quite sure what happens next.",
           "hotLabel": "",
-          "summary": "特朗普访问亚洲，与习近平和普京会面，应对中期选举后的政治压力。",
-          "analysis": "特朗普此次亚洲之行是在中期选举后进行的，表明其试图通过外交手段来缓解国内政治压力。会晤习近平和普京旨在维护美国在国际事务中的领导地位，同时应对英伟达事件带来的挑战。这将对中美俄三国的双边关系以及全球科技产业格局产生重要影响。后续可能的发展趋势包括三国关系的动态变化以及全球科技竞争的加剧。",
+          "summary": "塞尔维亚学生运动成功推翻总统，但新政权领导问题待解。",
+          "analysis": "塞尔维亚学生运动以无领导、集体决策的方式推翻了总统亚历山大·武契奇。这一事件反映了青年对政治参与的渴望，以及对现有政权的强烈不满。然而，运动成功后，缺乏明确的领导人和政治纲领，可能导致国家未来走向的不确定性。这对塞尔维亚国内政治稳定和区域安全都构成挑战，同时也可能影响欧盟对塞尔维亚的立场。后续可能的发展趋势包括政治过渡期的动荡、新政府的组建以及与欧盟的关系发展。",
           "keywords": [
-            "特朗普",
-            "亚洲之行",
-            "习近平",
-            "普京",
-            "英伟达事件"
+            "塞尔维亚",
+            "学生运动",
+            "政治变革",
+            "领导真空",
+            "欧盟"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/16/nx-s1-6041738/trump-xi-and-putin-china-nvidia"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/europe/serbia-students-vucic-election.html"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "五国计划在卢旺达建立移民“遣返中心”",
+          "titleOrig": "Five EU states announce plans for immigration ‘return hubs’ in Rwanda",
+          "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T16:21:40+00:00",
+          "desc": "Germany, Austria, Netherlands, Denmark and Greece likely to face challenges to policy criticised as ‘grave moral failing’Five EU member states have announced plans to set up an offshore centre in Rwanda for people with no legal right to stay in Europe, in a pilot scheme that is expected to face lega",
+          "hotLabel": "",
+          "summary": "德国、奥地利、荷兰、丹麦和希腊计划在卢旺达设立中心，处理无权在欧洲停留的人。",
+          "analysis": "这一政策旨在解决欧洲的移民问题，但引发了道德争议。它反映了欧洲在处理移民危机时的内外压力，同时也可能加剧地区紧张关系。长期来看，这一政策的效果和可持续性值得怀疑。",
+          "keywords": [
+            "移民政策",
+            "欧洲",
+            "卢旺达",
+            "道德争议",
+            "政策效果"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/16/eu-states-immigration-return-hubs-rwanda"
             }
           ],
           "rank": 6
         },
         {
-          "title": "了解特朗普亚洲之行",
-          "titleOrig": "What to Know About Trump’s Trip to Asia",
+          "title": "特朗普亚洲之行将与其会晤习近平和普京：值得关注的信息",
+          "titleOrig": "Trump’s Asia Trip Will Bring Him to the Table With Xi and Putin: What to Know",
           "url": "https://www.nytimes.com/2026/11/16/world/asia/trump-asia-china-xi-putin.html",
           "source": "NYT World",
           "sourceId": "nyt",
@@ -295,17 +299,17 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-16T11:26:59+00:00",
+          "publishedAt": "2026-11-16T21:42:52+00:00",
           "desc": "President Trump will also meet with regional leaders, including Australia’s prime minister, who said “we want to see a de-escalation in the conflicts.”",
           "hotLabel": "",
-          "summary": "美国总统特朗普将访问亚洲，并与区域领导人会面。",
-          "analysis": "特朗普的亚洲之行旨在加强与该地区国家的联系，并可能涉及对区域冲突的调解。这反映了美国对亚洲地区战略利益的重视，同时也可能加剧与中国的竞争。",
+          "summary": "特朗普将与其亚洲盟友会晤，讨论地区冲突的缓和。",
+          "analysis": "特朗普此次亚洲之行可能旨在修复与盟友的关系，并寻求在亚洲地区的外交突破。与习近平和普京的会晤可能涉及地区安全和经济合作等议题。对国际格局而言，这可能影响中美俄三边关系，并对亚洲地区的稳定产生重要影响。后续可能引发国际社会的关注。",
           "keywords": [
             "特朗普",
             "亚洲之行",
-            "区域安全",
-            "美国战略",
-            "中美关系"
+            "习近平",
+            "普京",
+            "国际关系"
           ],
           "category": "international",
           "importance": 80,
@@ -318,100 +322,292 @@
           "rank": 7
         },
         {
-          "title": "特拉华州遭遇罕见11月龙卷风",
-          "titleOrig": "Delaware hit by rare November tornado",
-          "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "加州起诉OpenAI因黑客攻击风险",
+          "titleOrig": "California sues OpenAI over hacking risks",
+          "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-16T09:27:06+00:00",
-          "desc": "Meanwhile, severe thunderstorms bring hailstones the size of baseballs in ArgentinaThe National Weather Service in the US has confirmed that an EF1 tornado touched down south-east of Newark in the Salem Woods neighbourhood, Delaware, on Thursday. The tornado reached 160 metres wide, had a path lengt",
+          "publishedAt": "2026-11-16T22:06:22+00:00",
+          "desc": "The state's attorney general started investigating OpenAI after the Hugging Face attack and now says this attack was \"entirely foreseeable\" due to OpenAI's poor security practices.",
           "hotLabel": "",
-          "summary": "美国特拉华州遭遇罕见11月龙卷风，同时阿根廷遭遇严重雷暴。",
-          "analysis": "这一系列极端天气事件可能与全球气候变化有关。特拉华州的龙卷风和阿根廷的雷暴提醒人们气候变化对全球的影响，未来可能需要更多关注极端天气事件对人类社会的影响。",
+          "summary": "加州因OpenAI的安全漏洞导致黑客攻击，起诉该公司。",
+          "analysis": "加州对OpenAI提起诉讼，反映了全球对人工智能安全问题的关注。OpenAI的安全漏洞暴露了人工智能技术在实际应用中的风险，可能对国家安全和用户隐私构成威胁。此事件可能促使全球加强对人工智能技术的监管，并对OpenAI的商业模式和声誉造成长期影响。后续可能引发行业对人工智能安全标准的讨论和改进。",
           "keywords": [
-            "特拉华州",
-            "龙卷风",
-            "气候变化",
-            "极端天气",
-            "全球影响"
+            "OpenAI",
+            "黑客攻击",
+            "人工智能安全",
+            "加州",
+            "监管"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/environment/2026/nov/16/delaware-hit-by-rare-november-tornado"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/16/nx-s1-6042920/california-sues-openai-hugging-face-hacking-incident"
             }
           ],
           "rank": 8
         },
         {
-          "title": "新南威尔士州拟议法案允许煤矿增加产量引发腐败风险",
-          "titleOrig": "Proposed NSW laws to allow coalmine to increase production pose ‘serious corruption risk’",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "巴基斯坦前领导人汗请求医疗救治",
+          "titleOrig": "Pakistan: Former leader Khan pleads for medical care",
+          "url": "https://www.dw.com/en/pakistan-former-leader-khan-pleads-for-medical-care/a-79961718?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-16T14:00:21+00:00",
-          "desc": "Bill to authorise expansion at Mount Pleasant coalmine, subject to a landmark high court decision, will be debated this weekGet our daily political email, free app or daily news podcastA New South Wales government bill to increase coal production at a Hunter Valley coalmine creates a “serious corrup",
+          "publishedAt": "2026-11-16T19:17:00+00:00",
+          "desc": "Imran Khan appealed to judges to be treated \"before it's too late.\" His wife was also included in the request.",
           "hotLabel": "",
-          "summary": "新南威尔士州政府拟议的煤矿增产法案引发腐败担忧。",
-          "analysis": "事件背景：该法案旨在扩大煤矿产量，但可能因监管不严导致腐败问题。关键影响：此事件可能损害新南威尔士州政府的形象，并引发对环境保护和可持续发展的关注。后续走向：法案的通过与否将对新南威尔士州的能源政策和环境政策产生重大影响。关键词：新南威尔士州，煤矿，腐败风险，环境保护，能源政策。category：international，importance：80",
+          "summary": "巴基斯坦前领导人伊姆兰·汗请求紧急医疗救治。",
+          "analysis": "伊姆兰·汗的健康状况引发了对其政治生涯的关注。如果他的健康问题得到妥善解决，可能会影响巴基斯坦国内的政治局势。对于巴基斯坦来说，这可能是对其政治稳定性的考验。后续可能会看到国内外对巴基斯坦政治局势的关注增加。",
           "keywords": [
-            "新南威尔士州",
-            "煤矿",
-            "腐败风险",
-            "环境保护",
-            "能源政策"
+            "伊姆兰·汗",
+            "巴基斯坦",
+            "医疗救治",
+            "政治局势",
+            "健康问题"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/nov/17/proposed-nsw-laws-to-allow-coalmine-to-increase-production-pose-serious-corruption-risk"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/pakistan-former-leader-khan-pleads-for-medical-care/a-79961718?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 9
         },
         {
-          "title": "南非发生两起大规模枪击事件，17人死亡",
-          "titleOrig": "Two mass shootings in South Africa leave 17 dead",
-          "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss",
+          "title": "过度依赖单一企业？美国经济面临英伟达领导层变动的不确定性",
+          "titleOrig": "Too Many Chips in One Basket?",
+          "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T16:56:44+00:00",
+          "desc": "The U.S. economy hitched its wagon to Nvidia and Jensen Huang. Now that he has stepped down, the company faces deep uncertainty.",
+          "hotLabel": "",
+          "summary": "美国经济过度依赖英伟达，其领导层变动引发行业不确定性。",
+          "analysis": "美国经济对英伟达及其创始人黄仁勋的依赖程度较高，他的离职可能导致公司战略方向和创新能力的不确定性。这对美国科技行业和全球经济都可能产生负面影响，特别是在半导体和人工智能领域。后续可能的发展趋势包括英伟达内部权力的重新分配、公司战略的调整，以及行业对替代供应商的需求增加。",
+          "keywords": [
+            "美国经济",
+            "英伟达",
+            "黄仁勋",
+            "半导体",
+            "人工智能"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/15/world/nvidia-jensen-huang-ai-chips.html"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "10 Numbers That Might Change How You See Asia",
+          "titleOrig": "10 Numbers That Might Change How You See Asia",
+          "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T22:14:10+00:00",
+          "desc": "From semiconductor dominance to new power grids, defense deals and K-pop, the region — beyond China — is becoming increasingly interconnected and self-reliant.",
+          "hotLabel": "",
+          "summary": "亚洲地区十大经济数据可能改变人们对亚洲的看法",
+          "analysis": "文章从半导体、电网、国防和流行文化等多个角度分析了亚洲地区的经济实力和影响力。这表明亚洲地区正变得越来越互联互通和自给自足，对中国来说，这既是机遇也是挑战，需要加强自身创新能力和产业链的完整性。",
+          "keywords": [
+            "亚洲经济",
+            "半导体",
+            "电网",
+            "国防",
+            "自给自足"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "特朗普账户在英伟达交易达9750万美元，黄仁勋获得白宫访问权限",
+          "titleOrig": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+          "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T22:37:45+00:00",
+          "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
+          "hotLabel": "",
+          "summary": "特朗普账户在英伟达交易获利，黄仁勋获得白宫访问",
+          "analysis": "特朗普账户在英伟达股票交易中的获利与其与黄仁勋的关系有关。这反映了美国政治与商业的紧密联系，同时也可能引发对政治人物商业行为的监管讨论。后续可能对相关监管政策产生影响。",
+          "keywords": [
+            "特朗普",
+            "英伟达",
+            "黄仁勋",
+            "白宫",
+            "监管政策"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "罗伯特·帕丁森被选中成为下一任詹姆斯·邦德",
+          "titleOrig": "Robert Pattinson cast as next James Bond",
+          "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T21:03:36+00:00",
+          "desc": "Pattinson has been in major films this year, including Christopher Nolan's \"The Odyssey,\" and will soon appear in \"Dune: Part Three.\"",
+          "hotLabel": "",
+          "summary": "帕丁森被选中出演下一任邦德，引发全球关注。",
+          "analysis": "罗伯特·帕丁森的选角可能标志着007系列电影的转型，从传统的动作英雄形象转向更年轻、现代的形象。这一决定可能会吸引新一代观众，同时也会引发关于电影产业如何适应年轻化趋势的讨论。对于英国电影产业来说，这既是机遇也是挑战，需要考虑如何平衡传统粉丝的期待和年轻观众的口味。后续可能会看到电影制作和营销策略的调整。",
+          "keywords": [
+            "詹姆斯·邦德",
+            "罗伯特·帕丁森",
+            "电影产业",
+            "年轻化",
+            "英国"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/16/robert-pattinson-james-bond.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "美国全球健康援助并非消亡，而是正在转变",
+          "titleOrig": "American Global Health Aid Isn’t Dead. It’s Changing.",
+          "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T10:00:31+00:00",
+          "desc": "The Trump administration promised to make aid programs more “America First.” Some countries are balking.",
+          "hotLabel": "",
+          "summary": "特朗普政府承诺的“美国优先”援助政策引起部分国家反对。",
+          "analysis": "特朗普政府曾承诺将援助项目调整为“美国优先”，这可能导致一些国家对美国的援助持保留态度。这一转变可能削弱美国在全球健康领域的领导地位，影响全球卫生合作和应对全球性健康危机的能力。后续可能的发展趋势包括美国与其他国家在援助政策上的博弈，以及全球卫生合作的调整。",
+          "keywords": [
+            "美国",
+            "全球健康援助",
+            "特朗普政府",
+            "美国优先",
+            "全球卫生合作"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/american-global-health-aid-isnt-dead-its-changing.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "英伟达否认“让黄仁勋回归”活动，特朗普支持恢复前CEO职位",
+          "titleOrig": "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+          "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-16T10:57:48+00:00",
-          "desc": "The shootings in KwaZulu-Natal and Gauteng highlight South Africa's struggle to curb violent crime.",
+          "publishedAt": "2026-11-16T22:21:27+00:00",
+          "desc": "A number of tech figures have backed an effort asking the AI chip giant to give Jensen Huang his job back.",
           "hotLabel": "",
-          "summary": "夸祖鲁纳塔尔和豪登省的枪击事件凸显南非控制暴力犯罪的挑战。",
-          "analysis": "南非的暴力犯罪问题根深蒂固，枪击事件反映了社会治安的严峻形势。这将对南非的经济发展和国际形象产生负面影响。后续可能包括政府加强治安措施和国际社会的援助。",
+          "summary": "英伟达拒绝恢复前CEO黄仁勋的职位，而特朗普支持这一努力。",
+          "analysis": "英伟达拒绝恢复黄仁勋的职位可能与其内部管理和战略方向有关。特朗普的支持可能反映了其个人偏好，而非对英伟达战略的认可。对科技行业而言，这可能影响英伟达的领导层稳定和公司战略。后续可能引发科技界对领导层更迭的关注。",
           "keywords": [
-            "南非",
-            "枪击事件",
-            "暴力犯罪",
-            "社会治安",
-            "国际援助"
+            "英伟达",
+            "黄仁勋",
+            "特朗普",
+            "科技行业",
+            "领导层"
           ],
-          "category": "international",
-          "importance": 75,
+          "category": "tech",
+          "importance": 70,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c8y5x3n4kywpo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 10
+          "rank": 15
+        },
+        {
+          "title": "德国5-0大胜荷兰赢得国家联赛小组赛",
+          "titleOrig": "Germany beat Netherlands 5-0 to win Nations League group",
+          "url": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T23:48:00+00:00",
+          "desc": "Florian Wirtz scored twice as Germany cruised to a comfortable 5-0 win over the Netherlands to qualify for the Nations League quarter-finals on Monday.",
+          "hotLabel": "",
+          "summary": "德国国家足球队以5-0的比分战胜荷兰，晋级国家联赛八强。",
+          "analysis": "德国队的胜利不仅是对荷兰队的直接打击，也反映了德国足球在近年来的强势。这一成绩可能加强德国在欧洲足球中的地位，并对其他欧洲足球队构成挑战。对于德国足球来说，这可能是对未来欧洲足球格局产生影响的开始。后续可能看到德国队在更高级别的比赛中继续表现强势。",
+          "keywords": [
+            "德国足球",
+            "荷兰足球",
+            "国家联赛",
+            "欧洲足球",
+            "德国"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-beat-netherlands-5-0-to-win-nations-league-group/a-79964394?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 16
         },
         {
           "title": "美国篮球运动员在尼日利亚机场被捕，携带75磅大麻",
@@ -426,310 +622,117 @@
           "publishedAt": "2026-11-16T13:16:36+00:00",
           "desc": "Suspect named as Greene Da’monte KhireeDrug smuggling carries life sentence in NigeriaAn American basketball player has been arrested in Nigeria for allegedly attempting to smuggle 33.95kg (75lb) of marijuana into the country.Nigeria’s National Drug Law Enforcement Agency (NDLEA) said a 28-year-old ",
           "hotLabel": "",
-          "summary": "一名美国篮球运动员在尼日利亚机场被捕，涉嫌走私大麻。",
-          "analysis": "这起事件反映了尼日利亚对毒品走私的严厉态度。同时，也揭示了美国运动员在海外可能面临的法律风险。此事件可能对美尼关系产生一定影响，并提醒美国公民在海外需遵守当地法律。",
+          "summary": "美国篮球运动员在尼日利亚机场被捕，涉嫌走私大麻。",
+          "analysis": "这起事件揭示了尼日利亚对毒品走私的严厉打击，同时也反映了国际间毒品犯罪的复杂性。对于运动员而言，这可能对其职业生涯和声誉造成重大影响。",
           "keywords": [
-            "美国篮球运动员",
+            "毒品走私",
             "尼日利亚",
-            "大麻走私",
-            "法律风险",
-            "美尼关系"
+            "篮球运动员",
+            "法律制裁",
+            "国际犯罪"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 70,
           "sources": [
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/sport/2026/nov/16/us-basketball-player-arrested-with-75lb-of-marijuana-at-nigerian-airport-say-authorities"
             }
           ],
-          "rank": 11
-        },
-        {
-          "title": "美国FAA地面停飞影响数千航班，特朗普与习近平、普京亚洲会晤",
-          "titleOrig": "FAA ground stop still affecting thousands of flights. And, Trump meets Xi, Putin in Asia",
-          "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T12:08:14+00:00",
-          "desc": "U.S. Transportation Secretary Sean Duffy said that things could be back to normal at the end of Monday after an FAA ground stop disrupted flights. And, Trump heads to Asia for a high-profile trilateral summit.",
-          "hotLabel": "",
-          "summary": "美国FAA地面停飞影响航班，特朗普与习近平、普京亚洲会晤。",
-          "analysis": "事件背景：美国FAA地面停飞导致航班延误，同时特朗普与中俄领导人会晤，显示国际关系动态。关键影响：此事件可能影响美国航空业，同时会晤显示大国关系走向。后续走向：FAA地面停飞问题将得到解决，而大国会晤可能影响区域和全球政治经济格局。关键词：美国FAA，地面停飞，特朗普，习近平，普京，大国关系。category：international，importance：75",
-          "keywords": [
-            "美国FAA",
-            "地面停飞",
-            "特朗普",
-            "习近平",
-            "普京",
-            "大国关系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/16/g-s1-153841/up-first-newsletter-faa-ground-stop-democratic-leaders-congress-trump-asia-trip"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "五国计划在卢旺达设立移民遣返中心",
-          "titleOrig": "Five EU countries expected to announce migrant deportation centre in Rwanda",
-          "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T12:54:44+00:00",
-          "desc": "Germany, Denmark, Austria, Greece and the Netherlands are expected to announce a \"return hub\" for failed asylum seekers.",
-          "hotLabel": "",
-          "summary": "德国、丹麦、奥地利、希腊和荷兰预计将宣布为失败庇护申请者设立“遣返中心”。",
-          "analysis": "这一举措反映了欧洲对移民危机的应对策略，旨在减轻边境压力。然而，此举可能引发人权争议，并加剧东欧与西欧之间的分歧。后续可能包括对卢旺达基础设施的投入和对移民政策的进一步讨论。",
-          "keywords": [
-            "欧洲",
-            "移民危机",
-            "遣返中心",
-            "人权争议",
-            "政策分歧"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "韩国将调查K-Pop产业如何对待未成年表演者",
-          "titleOrig": "South Korea to Examine How K-Pop Industry Treats Underage Performers",
-          "url": "https://www.nytimes.com/2026/11/16/world/asia/kpop-underage-idols-survey.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T11:51:31+00:00",
-          "desc": "The announcement came after a New York Times investigation about the restrictive contracts of the group NewJeans, signed when its members were 14 to 17.",
-          "hotLabel": "",
-          "summary": "韩国将对K-Pop产业中未成年表演者的待遇进行调查。",
-          "analysis": "这一调查反映了社会对未成年人权益的关注，以及K-Pop产业内部可能存在的剥削问题。这可能会促使韩国娱乐产业进行改革，并对全球娱乐产业产生示范效应。",
-          "keywords": [
-            "K-Pop",
-            "未成年人权益",
-            "娱乐产业",
-            "韩国调查",
-            "产业改革"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/16/world/asia/kpop-underage-idols-survey.html"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "开普敦猿猴迁移引发激烈抗议",
-          "titleOrig": "Relocation of Cape Town baboons to sanctuary ignites heated protests",
-          "url": "https://www.theguardian.com/world/2026/nov/16/cape-town-baboons-relocation-protests",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T10:19:08+00:00",
-          "desc": "Demonstrators tried to block vehicle carrying the baboons, whose capture authorities say is needed to protect both primate and humanThe relocation of a troop of baboons in Cape Town to a wildlife sanctuary has triggered furious protests by local people opposed to their capture, which officials argue",
-          "hotLabel": "",
-          "summary": "开普敦一群猿猴被迁移至野生动物保护区，引发当地居民抗议。",
-          "analysis": "这起事件反映了人与自然之间的冲突。迁移猿猴的决定可能出于保护人类安全的考虑，但同时也引发了社会对动物权益的关注。未来，此类事件可能引发更多关于人与自然和谐共处的讨论。",
-          "keywords": [
-            "开普敦",
-            "猿猴迁移",
-            "动物权益",
-            "人与自然",
-            "社会冲突"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/16/cape-town-baboons-relocation-protests"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "新南威尔士州政府放弃打压房地产代理低估报价的新法",
-          "titleOrig": "NSW halts new law to crack down on underquoting by real estate agents at 11th hour",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/16/nsw-halts-new-law-to-crack-down-on-underquoting-by-real-estate-agents-at-11th-hour",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T08:53:22+00:00",
-          "desc": "Backdown is one of several premier Chris Minns has announced in recent weeks as state prepares for election in MarchGet our breaking news email, free app or daily news podcastThe Minns government has mothballed laws intended to protect homebuyers from underquoting after the premier said real estate ",
-          "hotLabel": "",
-          "summary": "新南威尔士州政府放弃打压房地产代理低估报价的新法。",
-          "analysis": "事件背景：政府在新法实施前最后一刻放弃，可能因选举临近导致政策调整。关键影响：此举可能影响购房者权益，并引发对政府决策稳定性的质疑。后续走向：政府可能在未来重新考虑此问题，但短期内购房者权益可能受到影响。关键词：新南威尔士州，房地产，低估报价，政府决策，购房者权益。category：international，importance：70",
-          "keywords": [
-            "新南威尔士州",
-            "房地产",
-            "低估报价",
-            "政府决策",
-            "购房者权益"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/nov/16/nsw-halts-new-law-to-crack-down-on-underquoting-by-real-estate-agents-at-11th-hour"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "这些鸟每年飞行17,000英里。气候变化可能使其更难适应",
-          "titleOrig": "These birds fly 17,000 miles every year. Climate change could make it harder",
-          "url": "https://www.npr.org/2026/11/16/nx-s1-6020923/arctic-bird-migration-alaska-climate-change",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-16T10:00:00+00:00",
-          "desc": "Migratory birds cross the entire globe, carefully timing their journeys with the seasons. In a hotter climate, that timing is increasingly out of sync.",
-          "hotLabel": "",
-          "summary": "迁徙鸟类每年跨越全球，气候变化导致其迁徙时间与季节不符。",
-          "analysis": "鸟类迁徙的周期性受到气候变化的影响，这反映了全球气候变化对生态系统的影响。对迁徙鸟类而言，气候变化可能导致迁徙路线改变、食物来源减少等问题，进而影响其生存和繁衍。这对全球生态平衡和生物多样性构成挑战，同时也提醒人类需要采取措施应对气候变化。",
-          "keywords": [
-            "气候变化",
-            "迁徙鸟类",
-            "生态平衡",
-            "生物多样性",
-            "迁徙路线"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/16/nx-s1-6020923/arctic-bird-migration-alaska-climate-change"
-            }
-          ],
           "rank": 17
         },
         {
-          "title": "已故流亡诺贝尔奖得主米格尔·安赫尔·阿斯图里亚斯的骨灰归还危地马拉",
-          "titleOrig": "Ashes of exiled Nobel Laureate Miguel Ángel Asturias returned to Guatemala",
-          "url": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
+          "title": "劳动政策大转弯：更多背包客可在澳大利亚偏远地区工作",
+          "titleOrig": "Labor policy backflip will allow more backpackers to work in regional Australia",
+          "url": "https://www.theguardian.com/australia-news/2026/nov/17/labor-backpacker-policy-backflip-work-regional-australia-holiday-visas",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-16T12:42:14+00:00",
-          "desc": "The poet, writer and diplomat died in Europe in 1974 having been forced to leave his native country.",
+          "publishedAt": "2026-11-17T00:27:29+00:00",
+          "desc": "Number of people allowed to stay for third year on holidaymaker visa to be increased from 5,000 to 25,000 under revised planGet our breaking news email, free app or daily news podcastThe federal government has backpedalled on its plan to cut backpacker numbers, arguing the change is the “best possib",
           "hotLabel": "",
-          "summary": "这位诗人、作家和外交官于1974年在欧洲去世，被迫离开祖国。",
-          "analysis": "阿斯图里亚斯的归葬仪式具有象征意义，可能激发对危地马拉文化和历史的关注。同时，这也反映了危地马拉与西班牙等欧洲国家的关系。后续可能包括对阿斯图里亚斯作品的重新评价和文化交流的增加。",
+          "summary": "澳大利亚政府放宽背包客签证限制，允许更多背包客在偏远地区工作。",
+          "analysis": "澳大利亚政府此举旨在解决劳动力短缺问题，并促进偏远地区经济发展。对澳大利亚而言，这可能有助于平衡地区发展，但对背包客和当地居民的生活可能产生一定影响。对国际格局而言，这可能影响澳大利亚与其他国家之间的劳动力流动。后续可能引发国际社会对澳大利亚移民政策的关注。",
           "keywords": [
-            "危地马拉",
-            "诺贝尔奖",
-            "流亡",
-            "文化回归",
-            "国际关系"
+            "澳大利亚",
+            "背包客",
+            "劳动政策",
+            "移民",
+            "地区发展"
           ],
-          "category": "international",
+          "category": "society",
           "importance": 65,
           "sources": [
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cvde1klewg88o?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/17/labor-backpacker-policy-backflip-work-regional-australia-holiday-visas"
             }
           ],
           "rank": 18
         },
         {
-          "title": "早间新闻简报",
-          "titleOrig": "Morning news brief",
-          "url": "https://www.npr.org/2026/11/16/nx-s1-6038373/morning-news-brief",
-          "source": "NPR News",
-          "sourceId": "npr",
+          "title": "联合航空解决技术故障，航班延误问题得到解决",
+          "titleOrig": "United Airlines resolves tech outage that delayed flights",
+          "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
-          "region": "美国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-16T09:46:19+00:00",
-          "desc": "Thousands of travelers are still waiting to reschedule flights after Friday's nationwide ground stop, Sen. Chris Van Hollen mounts bid to become Senate majority leader, President Trump heads to Asia.",
+          "publishedAt": "2026-11-16T23:13:00+00:00",
+          "desc": "United Airlines said a system outage that delayed departures has been resolved. The disruption came on the heels of a stoppage that halted all flights to and across the US for five hours last week.",
           "hotLabel": "",
-          "summary": "数千旅客等待重新安排航班，范霍伦参议员竞选参议院多数党领袖，特朗普访问亚洲。",
-          "analysis": "这则新闻简报反映了美国国内政治、经济和外交的多个方面。旅客等待重新安排航班可能因天气或其他不可抗力因素导致，范霍伦参议员的竞选活动则反映了美国国内政治竞争的激烈。特朗普访问亚洲则体现了美国在国际事务中的活跃角色。这些事件对美国国内政治和国际关系都有一定的影响。",
+          "summary": "联合航空解决了导致航班延误的技术故障。",
+          "analysis": "这次技术故障暴露了航空公司在技术管理和应急响应方面的不足。对于联合航空来说，这可能是对其品牌信誉的一次考验。对于整个航空行业来说，这提醒了航空公司需要不断更新技术并提高故障处理能力。后续可能会看到航空公司对技术系统的投资增加，以及对员工培训的重视。",
           "keywords": [
-            "旅客",
-            "航班",
-            "政治竞争",
-            "特朗普",
-            "亚洲之行"
+            "联合航空",
+            "技术故障",
+            "航班延误",
+            "航空行业",
+            "技术管理"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/16/nx-s1-6038373/morning-news-brief"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/united-airlines-resolves-tech-outage-that-delayed-flights/a-79964387?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 19
         },
         {
-          "title": "NPR学生播客挑战赛2027年回归",
-          "titleOrig": "NPR's Student Podcast Challenge is back for 2027",
-          "url": "https://www.npr.org/2026/11/16/nx-s1-6028826/student-podcast-challenge-2027-information-deadline",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "法国影星德帕迪约放弃对性侵定罪的上诉",
+          "titleOrig": "Gérard Depardieu drops appeal against sexual assault conviction",
+          "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-16T10:00:00+00:00",
-          "desc": "The annual audio competition for grades four through 12 returns in January. Now in its ninth year, the contest has involved more than 90,000 students around the country.",
+          "publishedAt": "2026-11-16T13:40:56+00:00",
+          "desc": "The French film star was due to start an appeal trial after being found guilty of sexually assaulting two women on a Paris set.",
           "hotLabel": "",
-          "summary": "NPR学生播客挑战赛第九年举行，超过90,000名学生参与。",
-          "analysis": "NPR学生播客挑战赛的举办反映了美国对青少年教育特别是创新思维的重视。该活动鼓励学生通过播客形式表达观点，提升沟通能力。长期来看，这种活动有助于培养未来的媒体人才和公共话语者，对美国社会文化产生积极影响。",
+          "summary": "法国著名影星德帕迪约放弃对性侵定罪的上诉。",
+          "analysis": "德帕迪尤放弃上诉意味着他将面临性侵定罪的后果。这一事件可能对法国娱乐圈产生一定影响，同时也反映了法国对性侵问题的态度和司法体系的运作。后续可能的发展趋势包括公众对性侵问题的关注增加，以及娱乐圈内部对性侵问题的反思。",
           "keywords": [
-            "NPR",
-            "学生播客挑战赛",
-            "青少年教育",
-            "创新思维",
-            "媒体人才"
+            "德帕迪尤",
+            "性侵",
+            "法国娱乐圈",
+            "司法体系",
+            "公众关注"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/16/nx-s1-6028826/student-podcast-challenge-2027-information-deadline"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cm20vexye1d0o?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -738,229 +741,193 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，政策宣讲与经济动态并行，社会事件与国际关系交织。江苏省委宣讲团赴各地宣讲党的二十届五中全会精神，标志着政策宣讲进入深化阶段。北交所开市五周年，日均成交额近200亿，反映出资本市场活力。社会层面，暨南大学建校120周年高质量发展大会举行，体现了教育领域的持续发展。值得关注的是，国乒全军覆没34岁方博夺冠，内娱台词二十年后仍受欢迎，反映出文化传承与娱乐产业的活力。在国际关系方面，中美俄元首会晤，中方促共同合作应对全球挑战，显示出我国在国际事务中的积极作用。总体而言，国内政策与社会动向呈现多元化发展趋势，国际合作与文化交流成为亮点。",
+      "digest": "今日国内形势综述显示，国内政策与社会动向主要围绕党的二十届五中全会精神的学习贯彻，以及粤港澳大湾区高质量发展新局面的开创。同时，国际关系方面，中俄美元首会晤和亚太经合组织领导人非正式会议的举行，凸显了我国在国际舞台上的积极参与和战略沟通的重要性。经济领域，中部崛起和上海国际艺术节的闭幕，体现了我国经济发展的新动能和消费市场的活力。值得关注的是，英伟达丑闻引发的芯片困境和美中竞争加剧，预示着我国在高科技领域的挑战与机遇并存。社会层面，寒潮来袭和干发帽等社会现象，反映了民众生活的新变化。总体而言，我国正以开放包容的姿态，积极应对国内外挑战，推动高质量发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "江苏省委宣讲团赴各地宣讲党的二十届五中全会精神",
-          "titleOrig": "江苏省委宣讲团赴各地各有关单位宣讲党的二十届五中全会精神 - 江南大学新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56MXM1YWt0X3ZNcmZoZ0FxTUtxaEV4MThJaHIxaTRqNWNub2lTejZGRFJsSkxDR0Jzb0ZJcjUwejVaR3VQNEZRNUtsZ1FFMTl4RG9taE5hTXNfTDd0Rnc?oc=5",
+          "title": "深入学习贯彻党的二十届五中全会精神，奋力开创粤港澳大湾区高质量发展新局面",
+          "titleOrig": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面 - 中国共产党新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTVXdXOTB2Q3ptaWRIRjZqa05UZ1JkTFFpbWQ3Rl9rM3FZLUV4RUl5TE5HaTYyVTVyYnN3QU1fRk5CTS1ORkMteVVZNzlCbVR0Z0RmVEkxRUdmTmtnLXdXME5USll4cTE1Znc?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-16T08:49:42+00:00",
-          "desc": "江苏省委宣讲团赴各地各有关单位宣讲党的二十届五中全会精神 江南大学新闻网大兴区领导到临空区大兴片区调研座谈 强调要坚定信心 凝聚合力 把临空区大兴片区建设成开放兴业高地 激活首都南部高质量发展新引擎 北京市人民政府门户网站来颖杰：深学笃行全会精神 勇担社科时代使命 凤凰网中国工程院举办学习贯彻党的二十届五中全会精神中央宣讲团报告会_手机新浪网 新浪财经中国中检党委理论学习中心组专题学习党的二十届五中全会精神 同花顺",
+          "publishedAt": "2026-11-17T00:20:00+00:00",
+          "desc": "深入学习贯彻党的二十届五中全会精神 奋力开创粤港澳大湾区高质量发展新局面 中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "江苏省委宣讲团宣讲二十届五中全会精神。",
-          "analysis": "江苏省委宣讲团赴各地宣讲党的二十届五中全会精神，是推动全会精神深入人心的重要举措。此举有助于统一思想、凝聚共识，确保全会精神在基层落地生根。同时，对加强党的建设、推动全面从严治党具有重要意义，有助于提升党的执政能力和领导水平。",
+          "summary": "党的二十届五中全会精神指导粤港澳大湾区发展",
+          "analysis": "党的二十届五中全会强调高质量发展，粤港澳大湾区作为国家战略，其发展将得到进一步的政策支持和资源倾斜。这有助于提升区域经济竞争力，推动创新和产业升级，同时也有利于深化内地与港澳的交流合作。后续可能出台一系列具体政策，以促进区域一体化和国际化。",
           "keywords": [
-            "江苏省委",
-            "宣讲团",
-            "二十届五中全会精神",
-            "党的建设",
-            "全面从严治党"
+            "二十届五中全会",
+            "粤港澳大湾区",
+            "高质量发展",
+            "政策支持",
+            "区域一体化"
           ],
           "category": "domestic",
           "importance": 90,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE56MXM1YWt0X3ZNcmZoZ0FxTUtxaEV4MThJaHIxaTRqNWNub2lTejZGRFJsSkxDR0Jzb0ZJcjUwejVaR3VQNEZRNUtsZ1FFMTl4RG9taE5hTXNfTDd0Rnc?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBTVXdXOTB2Q3ptaWRIRjZqa05UZ1JkTFFpbWQ3Rl9rM3FZLUV4RUl5TE5HaTYyVTVyYnN3QU1fRk5CTS1ORkMteVVZNzlCbVR0Z0RmVEkxRUdmTmtnLXdXME5USll4cTE1Znc?oc=5"
             }
           ],
           "rank": 1
         },
         {
-          "title": "伊朗反击摧毁美军雷达，海峡局势再起波澜",
-          "titleOrig": "伊朗反击摧毁美军雷达 海峡局势再起波澜 - 中华军事",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00NUJER3V5VTg4Y2hXSVRtZGx5RGxvZmw3NnZqYkxnUUNiZWZxekt3aVlLel9hWVlvT2VQd0FDam1IY1gwcTFfNC1hQkpVNzRlcDBWdmJRRlJISVFwNWF0NDI3ZVN3aEp2LXg0anNJY2U?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "中俄美元首会晤将在深圳举行",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%B8%BE%E8%A1%8C%23&t=31&band_rank=1&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-16T07:19:08+00:00",
-          "desc": "伊朗反击摧毁美军雷达 海峡局势再起波澜 中华军事也门政府军和联军被迫后撤，伊朗对巴林美军基地发动无人机袭击 美国之音伊朗外交部：打击在巴林的美军基地是“回应侵略” 中国青年网伊朗称捕获一美军MQM-170无人机 凤凰网原创 |“富贵险中求”，伊朗这一把干得漂亮！ 风闻",
-          "hotLabel": "",
-          "summary": "伊朗摧毁美军雷达，海峡局势紧张。",
-          "analysis": "事件背景：伊朗与美国在地区安全上的对立加剧。伊朗的反击行动是对美军存在的直接挑战。关键影响：可能引发地区紧张局势升级，影响中东地区的稳定。后续走向：美伊关系可能进一步紧张。关键词：伊朗，美军，雷达，海峡局势，中东。分类：international。重要性：90。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "中俄美元首将举行会晤",
+          "analysis": "此次会晤将加强中俄美三国在经贸、能源、安全等领域的沟通与合作。对于中国而言，这有助于维护多边主义，平衡国际关系，同时也有利于推动区域经济一体化。后续可能会签署一系列合作协议，对区域乃至全球的经济政治格局产生积极影响。",
           "keywords": [
-            "伊朗",
-            "美军",
-            "雷达",
-            "海峡局势",
-            "中东"
+            "中俄美",
+            "会晤",
+            "深圳",
+            "多边主义",
+            "区域经济一体化"
           ],
           "category": "international",
-          "importance": 90,
+          "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE00NUJER3V5VTg4Y2hXSVRtZGx5RGxvZmw3NnZqYkxnUUNiZWZxekt3aVlLel9hWVlvT2VQd0FDam1IY1gwcTFfNC1hQkpVNzRlcDBWdmJRRlJISVFwNWF0NDI3ZVN3aEp2LXg0anNJY2U?oc=5"
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%B8%BE%E8%A1%8C%23&t=31&band_rank=1&Refer=top"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E5%9C%A8%E5%B9%BF%E4%B8%9C%E4%B8%AD%E5%B1%B1%E8%80%83%E5%AF%9F"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%AD%E4%BF%84%E7%BE%8E%E4%B8%89%E5%9B%BD%E5%85%83%E9%A6%96%E5%8E%86%E5%8F%B2%E9%A6%96%E6%AC%A1%E9%9D%A2%E5%AF%B9%E9%9D%A2%E4%BC%9A%E6%99%A4"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%BF%84%E5%A5%B3%E8%AE%B0%E8%80%85%EF%BC%9A%E6%B7%B1%E5%9C%B3%E8%A7%81%E6%9C%BA%E5%99%A8%E4%BA%BA%E6%A6%82%E7%8E%87%E6%AF%94%E8%80%81%E4%B9%A1%E9%AB%98"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%B3%84%E5%AF%86%E7%9A%84%E5%89%AF%E9%83%A8%E7%BA%A7%20%E5%8F%97%E8%B4%BF%E6%95%B0%E9%A2%9D%E7%89%B9%E5%88%AB%E5%B7%A8%E5%A4%A7"
             }
           ],
           "rank": 2
         },
         {
-          "title": "中美俄元首会晤，中方促共同合作应对全球挑战",
-          "titleOrig": "中美俄元首周四会晤 中方促共同合作应对全球挑战 - 联合早报",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uUDNDSGRDWGdJbnp0SmwtX0hJVVBVT3BGdThRLTNGS01RTXNtVVRqU3JwNGxRMzY4VEN1V2ZoU2lZcjNKUndfQTVTMU9EdnBaYVJ1TENmU1YxbUhUWHItNldOTjI3ZHpvNm5F?oc=5",
+          "title": "同舟共济，开创亚太和世界更加美好未来——亚太经合组织第三十三次领导人非正式会议举行之际",
+          "titleOrig": "同舟共济，开创亚太和世界更加美好未来——写在亚太经合组织第三十三次领导人非正式会议举行之际 - 光明网",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11NUpEWlktN1otN25waUdCUzdRQnc3X1JnYmpicm9HalFfeFlOYmpvRS1mZmxhai1qVDc1UjR4VDg4UEpjOERQT2VyVFhiaURMbkk2VnFzY2VqVWl1TG5tNQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-16T12:21:04+00:00",
-          "desc": "中美俄元首周四会晤 中方促共同合作应对全球挑战 联合早报APEC峰会即将登场 三巨头聚首深圳 DW.com外交部谈中俄美元首会晤 新浪财经中方计划在中俄美元首会晤中讨论什么问题？外交部回应 凤凰网APEC中国时间｜如何找到中俄美三方契合点？俄美问题专家解读 ThePaper.cn",
+          "publishedAt": "2026-11-16T21:15:00+00:00",
+          "desc": "同舟共济，开创亚太和世界更加美好未来——写在亚太经合组织第三十三次领导人非正式会议举行之际 光明网“携手推动亚太地区发展”（APEC中国年：开放创新合作） --国际 人民网新华社政论：同舟共济，开创亚太和世界更加美好未来_手机新浪网 新浪财经_金融信息服务商我的APEC朋友圈｜姚为群：为国际经贸安上“通用插头” 央视网聚焦APEC丨亚太共同体 深圳再出发 新华网",
           "hotLabel": "",
-          "summary": "中美俄元首会晤，聚焦全球挑战合作。",
-          "analysis": "此次会晤体现了中国在国际事务中倡导多边主义和合作共赢的外交政策。在当前全球政治经济格局下，中国希望通过与美俄元首的会晤，推动三国在应对气候变化、疫情防控等全球性问题上加强合作。此举不仅有助于维护世界和平稳定，也有利于中国在国际舞台上发挥更大作用。后续可能推动中美俄三边关系进一步发展，对全球治理体系产生积极影响。",
+          "summary": "亚太经合组织领导人非正式会议召开，聚焦区域合作与未来发展。",
+          "analysis": "此次会议反映了我国在亚太地区乃至全球的积极参与和负责任的大国形象。背景是我国致力于推动区域经济一体化，通过政策协调和合作，促进亚太地区的和平与发展。关键影响包括推动区域贸易自由化、投资便利化和数字经济合作，对国内经济治理意味着深化改革开放，提升国际竞争力。后续走向可能包括签署更多合作协议，推动区域经济合作向更高水平发展。",
           "keywords": [
-            "中美俄",
-            "元首会晤",
-            "全球挑战",
-            "合作",
-            "多边主义"
+            "亚太经合组织",
+            "区域合作",
+            "经济一体化",
+            "改革开放",
+            "国际竞争力"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1uUDNDSGRDWGdJbnp0SmwtX0hJVVBVT3BGdThRLTNGS01RTXNtVVRqU3JwNGxRMzY4VEN1V2ZoU2lZcjNKUndfQTVTMU9EdnBaYVJ1TENmU1YxbUhUWHItNldOTjI3ZHpvNm5F?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE11NUpEWlktN1otN25waUdCUzdRQnc3X1JnYmpicm9HalFfeFlOYmpvRS1mZmxhai1qVDc1UjR4VDg4UEpjOERQT2VyVFhiaURMbkk2VnFzY2VqVWl1TG5tNQ?oc=5"
             }
           ],
           "rank": 3
         },
         {
-          "title": "北交所开市五周年，日均成交额近200亿",
-          "titleOrig": "北交所开市五周年：日均成交额近200亿，上海企业上市申报愈发踊跃 - ThePaper.cn",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Nlo1QWdHbERETEFJOTBjdENJQ1UzYjd5V3BHNnV5TzMzcU9hY1drSkJUMk43QjlfM0NEUjZVcENibU1wVjRUc2Y0SUF4NnlPSUFweFM0eG5nVHlBMDhKRg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T09:19:51+00:00",
-          "desc": "北交所开市五周年：日均成交额近200亿，上海企业上市申报愈发踊跃 ThePaper.cn开市五年 北交所首批上市公司——从“小而美”升级到“精而强” 北京市人民政府门户网站半两财经｜北交所筑基首都创新资本生态，服务新质生产力提质增效 新浪财经五年间六家渝企登陆北交所募资八点六亿 凤凰网财经为中小企业“搭梯” 为多元融资“拓路” 北交所筑牢服务中小企业创新发展主阵地 Sohu",
+          "title": "加拿大若美加贸易谈判失败，可能转向中国汽车制造商",
+          "titleOrig": "Canada could work with Chinese automakers if US trade talks fail, says Carney",
+          "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T04:39:20+00:00",
+          "desc": "Ahead of Apec summit, PM says ‘Canada is going to move forward either way’ when asked if Chinese investment was leverage in US negotiationsThe prime minister of Canada, Mark Carney, said the country could turn to Chinese automakers if trade negotiations with the US president, Donald Trump, failed to",
           "hotLabel": "",
-          "summary": "北交所开市五周年，日均成交额近200亿，上海企业上市申报踊跃。",
-          "analysis": "北交所的开市为中小企业提供了融资平台，促进了资本市场的发展。对国内经济和中小企业发展有积极影响。后续可能吸引更多企业上市，进一步丰富资本市场。",
+          "summary": "加拿大总理表示，若美加贸易谈判失败，加拿大可能寻求与中国汽车制造商合作。",
+          "analysis": "加拿大总理马克·卡尼的表态反映了当前全球贸易环境下，加拿大对于多元化贸易伙伴的需求。这背后是中美贸易摩擦的持续影响，加拿大试图通过与中国汽车制造商合作来减少对美国的依赖。此举可能对加拿大国内汽车产业产生积极影响，同时也会对中美贸易关系产生一定影响。后续可能看到加拿大在贸易政策上的更多调整，以及对中美贸易摩擦的更多应对措施。",
           "keywords": [
-            "北交所",
-            "资本市场",
-            "中小企业",
-            "融资平台",
-            "经济发展"
-          ],
-          "category": "economy",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55Nlo1QWdHbERETEFJOTBjdENJQ1UzYjd5V3BHNnV5TzMzcU9hY1drSkJUMk43QjlfM0NEUjZVcENibU1wVjRUc2Y0SUF4NnlPSUFweFM0eG5nVHlBMDhKRg?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "段永平：黄仁勋回归英伟达可能性存在，英伟达实力强大",
-          "titleOrig": "段永平：黄仁勋回归并非零概率，英伟达“护城河”依然很强大，不想就这么放弃了 - 华尔街见闻",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wV2F2RXNxQUo1U2RRR3EtcXoxM3hjVGxoYnFVSndxUlRUTXNDM3JVQWRFRUYzTnBSRHNaMjBMWXhEUGFpUEloVjlGcC1IM0xhTTdR?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T09:24:51+00:00",
-          "desc": "段永平：黄仁勋回归并非零概率，英伟达“护城河”依然很强大，不想就这么放弃了 华尔街见闻黄仁勋事件反转？倒黄势力仍紧追不舍 新浪新闻_手机新浪网段永平、但斌，最新表态 凤凰网财经CFO坐上CEO位子：克雷斯的财务纪律会把英伟达的资本扩张带到哪个岔路口 同花顺黄仁勋被踢出英伟达，中国车企也要跟着遭殃？ 凤凰网汽车",
-          "hotLabel": "",
-          "summary": "段永平表示黄仁勋回归英伟达并非零概率，英伟达仍有强大竞争力。",
-          "analysis": "事件背景：黄仁勋作为英伟达的CEO，其领导能力对英伟达的发展至关重要。段永平的表态反映了业界对黄仁勋回归的期待。关键影响：黄仁勋的回归可能对英伟达的战略方向和市场竞争产生重要影响。后续走向：英伟达的决策将影响其未来的发展路径。关键词：英伟达，黄仁勋，回归，竞争力，科技。分类：international。重要性：85。",
-          "keywords": [
-            "英伟达",
-            "黄仁勋",
-            "回归",
-            "竞争力",
-            "科技"
+            "加拿大",
+            "贸易谈判",
+            "中国汽车制造商",
+            "中美贸易摩擦",
+            "多元化贸易伙伴"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5wV2F2RXNxQUo1U2RRR3EtcXoxM3hjVGxoYnFVSndxUlRUTXNDM3JVQWRFRUYzTnBSRHNaMjBMWXhEUGFpUEloVjlGcC1IM0xhTTdR?oc=5"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html"
             }
           ],
-          "rank": 5
+          "rank": 4
         },
         {
-          "title": "赓续中山宏志 共筑复兴伟业",
-          "titleOrig": "赓续中山宏志 共筑复兴伟业 - 中共中央统一战线工作部",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pNXhfb1g3QVRWOG9xZUpZSmpvdHA5dTUxTFdFTkR2WkR4Q3JQbDZjS1NYQTk2ZUw0a1FOZHdwa2JKc041MFVGQk1jaTFnUjM2YTRLUkl6bFZfR21JaTV5b2c0eHlPZzA5WmpWLVp3?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T08:15:30+00:00",
-          "desc": "赓续中山宏志 共筑复兴伟业 中共中央统一战线工作部中国驻日本大使馆举办纪念孙中山先生诞辰160周年座谈会--国际 人民网海外和港澳台嘉宾来宁晋谒中山陵- 中国日报网 China Daily114年前的这段往事，无锡人为何一直铭记至今？ Sohu纪念孙中山诞辰160周年国际学术研讨会在广东中山召开 新华网",
+          "title": "英伟达丑闻：中国芯片困境，美中竞争加剧AI竞赛",
+          "titleOrig": "Nvidia scandal: China's chips dilemma, US rivalry shape AI race",
+          "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T16:32:00+00:00",
+          "desc": "The controversy surrounding Nvidia and its former CEO Jensen Huang has put a spotlight on the intensifying AI race between the US and China.",
           "hotLabel": "",
-          "summary": "纪念孙中山诞辰160周年，共筑复兴伟业。",
-          "analysis": "纪念孙中山先生诞辰160周年活动，旨在弘扬孙中山先生的精神，激励全国人民为实现中华民族伟大复兴而努力。这一活动对于加强国家认同、凝聚民族精神具有重要意义。同时，通过国际学术研讨会等形式，展示中国的发展成就，提升国家形象，为构建人类命运共同体贡献力量。",
+          "summary": "英伟达与前CEO黄仁勋的争议凸显中美AI竞赛加剧。",
+          "analysis": "事件背景：中美在人工智能领域的竞争日益激烈，英伟达作为全球领先的AI芯片制造商，其动态对两国AI发展至关重要。此次丑闻揭示了美国对中国芯片产业的遏制政策，以及中国在芯片自主研发上的紧迫性。关键影响：对国内民生，意味着中国在关键领域对国外技术的依赖；对经济，可能加剧国内对芯片产业的投资和研发；对治理，要求加强知识产权保护和产业安全。后续走向：中国可能加速芯片产业自主化进程，同时加强与国际合作，以应对技术封锁。",
           "keywords": [
-            "孙中山",
-            "纪念",
-            "复兴伟业",
-            "民族精神",
-            "国家认同"
+            "英伟达",
+            "芯片",
+            "AI竞赛",
+            "中美关系",
+            "技术封锁"
           ],
-          "category": "society",
-          "importance": 80,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9pNXhfb1g3QVRWOG9xZUpZSmpvdHA5dTUxTFdFTkR2WkR4Q3JQbDZjS1NYQTk2ZUw0a1FOZHdwa2JKc041MFVGQk1jaTFnUjM2YTRLUkl6bFZfR21JaTV5b2c0eHlPZzA5WmpWLVp3?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "中国多地气温新低，冷空气持续来袭",
-          "titleOrig": "南北方大片地区将迎来气温新低 冷空气接连来袭 - 中华网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUzA5UUxIOWxvN05SMUJ1NHpnWFdHbnUxTjI2THI3V0RfNlZFTUNmdUdLbElqbExkUU85RWl1TmFfUk1PaklKVUNOM1N1eGNZZXhKV042M05kVkU2YjV5T244NTNaWW5XOW5oSnRuejY?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T09:49:13+00:00",
-          "desc": "南北方大片地区将迎来气温新低 冷空气接连来袭 中华网大范围雨雪持续！西北东北等局地有暴雪 湖南广西广东等地雨势较强 央视网中央气象台：大范围雨雪持续影响中东部 北方大部地区进入低温模式 新浪新闻_手机新浪网中东部将有大范围大风降温和雨雪天气，局地降温将达12℃以上 观察者网大雪！暴雪！大范围雨雪持续 中国青年网",
-          "hotLabel": "",
-          "summary": "中国多地迎来低温天气，雨雪持续，北方部分地区有暴雪。",
-          "analysis": "此次大范围雨雪天气可能与全球气候变化和冬季气候特征有关。对国内民生影响较大，可能导致交通受阻、农作物受损等。对社会治理提出更高要求，如加强基础设施建设和应急预案。后续可能持续低温，需关注天气变化和民生保障。",
-          "keywords": [
-            "气温新低",
-            "雨雪天气",
-            "气候变化",
-            "民生保障",
-            "社会治理"
-          ],
-          "category": "domestic",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUzA5UUxIOWxvN05SMUJ1NHpnWFdHbnUxTjI2THI3V0RfNlZFTUNmdUdLbElqbExkUU85RWl1TmFfUk1PaklKVUNOM1N1eGNZZXhKV042M05kVkU2YjV5T244NTNaWW5XOW5oSnRuejY?oc=5"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/nvidia-scandal-china-s-chips-dilemma-us-rivalry-shape-ai-race/a-79961766?maca=en-rss-en-all-1573-rdf"
             },
             {
               "name": "The Guardian",
@@ -975,76 +942,80 @@
               "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
             }
           ],
+          "rank": 5
+        },
+        {
+          "title": "习近平总书记致暨南大学建校120周年的贺信激发团结奋进新征程强大力量",
+          "titleOrig": "凝聚四海侨心侨力砥砺爱国强国之志——习近平总书记致暨南大学建校120周年的贺信激发团结奋进新征程强大力量 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM1ZhY05vS3N5OFlpQUZQQ3dOQzZjTVViUzFzQnpsNGdGOGVZMHdRMXNBaG9IZERkQUNOSUxQMkg4bU13WFNXcG9nN2J5ekRqVEVNSE1jOWYwbTcwLUk2ZjRvVkxYOGkwbTdSZU83UlVuTm5lWHpURnY3cWxEVzFEVXBNMA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T12:49:50+00:00",
+          "desc": "凝聚四海侨心侨力砥砺爱国强国之志——习近平总书记致暨南大学建校120周年的贺信激发团结奋进新征程强大力量 新华网时光相册丨百廿暨南，从南洋潮声到五洲四海 新华网凝聚四海侨心侨力 砥砺爱国强国之志 新浪财经_金融信息服务商习近平致信祝贺暨南大学建校120周年 人民日报镜观中国｜百廿暨南 声教四海(24) 凤凰网",
+          "hotLabel": "",
+          "summary": "习近平总书记致信祝贺暨南大学建校120周年，强调凝聚侨心侨力。",
+          "analysis": "习近平总书记的贺信体现了党和国家对海外华侨华人的重视，以及对暨南大学作为侨校的认可。这背后反映了国家在新时代背景下，希望通过凝聚海外华侨华人的力量，推动国家发展和国际交流。对国内民生而言，这有助于提升国家软实力和国际影响力；对经济而言，有利于促进海外投资和贸易合作；对治理而言，意味着加强国家治理体系和治理能力现代化。后续可能看到更多针对华侨华人的政策出台，以及暨南大学在国际交流中的角色更加突出。",
+          "keywords": [
+            "习近平总书记",
+            "暨南大学",
+            "侨心侨力",
+            "国家发展",
+            "国际交流"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNM1ZhY05vS3N5OFlpQUZQQ3dOQzZjTVViUzFzQnpsNGdGOGVZMHdRMXNBaG9IZERkQUNOSUxQMkg4bU13WFNXcG9nN2J5ekRqVEVNSE1jOWYwbTcwLUk2ZjRvVkxYOGkwbTdSZU83UlVuTm5lWHpURnY3cWxEVzFEVXBNMA?oc=5"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/canada/carney-china-xi-trump-putin-trade.html"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "电视剧《伟大的长征》圆满收官",
+          "titleOrig": "长征永远在路上！重大革命题材电视剧《伟大的长征》圆满收官 - Sohu",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa3Brd2JpWjU5ZWNhcHpEQ0FJQ0V5MkJ2alpZdHgyaVI2OWRpVU1uNzVSU0hxdDBsSFlrQzNoNk5VR1NxMHh6U215LUNrYjQ0MnNhZXF3b3B3bUZQNlhjQUdWNWxUNkEwbk8wV3haNmRYcS1nWWREQ3FSclVfdVFVNU5DaUlmNUln?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T13:27:00+00:00",
+          "desc": "长征永远在路上！重大革命题材电视剧《伟大的长征》圆满收官 Sohu“打草鞋的本事不能丢”，《伟大的长征》圆满收官豆瓣8.8 新浪财经为演好毛主席 于和伟减重18斤 中国日报网浙江宣传丨把“伟大”拍给人看 浙江新闻《伟大的长征》掀起全民追剧热潮 中国青年网",
+          "hotLabel": "",
+          "summary": "电视剧《伟大的长征》圆满收官。",
+          "analysis": "该剧以长征为题材，展现了革命先烈的英勇事迹，对弘扬民族精神、传承红色基因有重要意义。对国内社会影响深远，有助于提升国民的历史文化自信。后续可能引发更多红色题材作品的创作。",
+          "keywords": [
+            "长征",
+            "电视剧",
+            "文化",
+            "民族精神",
+            "历史"
+          ],
+          "category": "society",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPa3Brd2JpWjU5ZWNhcHpEQ0FJQ0V5MkJ2alpZdHgyaVI2OWRpVU1uNzVSU0hxdDBsSFlrQzNoNk5VR1NxMHh6U215LUNrYjQ0MnNhZXF3b3B3bUZQNlhjQUdWNWxUNkEwbk8wV3haNmRYcS1nWWREQ3FSclVfdVFVNU5DaUlmNUln?oc=5"
+            }
+          ],
           "rank": 7
         },
         {
-          "title": "暨南大学建校120周年高质量发展大会举行，李干杰出席并讲话",
-          "titleOrig": "暨南大学建校120周年高质量发展大会举行 李干杰出席并讲话 - 中国共产党新闻网",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQNWd6SEdIOXBBalRUdDNJeU14Y251M0FYaTVOeTg0X3lzZnpuNGVQa3RpM1hOQk5qXzlfRjc5VThDRjVSaXFXc0NEY2xTZWpXMDJwQ0daakpMb0djTlNBSC1LZ2NVdUlrbzFJ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T08:05:00+00:00",
-          "desc": "暨南大学建校120周年高质量发展大会举行 李干杰出席并讲话 中国共产党新闻网习近平致暨南大学建校120周年的贺信 新华网【央视快评】为凝聚侨心侨力 推进中国式现代化作出新贡献 中国日报网百廿暨南：声教四海，万里归帆 凤凰网暨南大学120周年校庆累计获超4.6亿元捐赠 科学网—新闻",
-          "hotLabel": "",
-          "summary": "暨南大学举行120周年校庆大会，李干杰出席并发表讲话。",
-          "analysis": "事件背景：暨南大学作为中国著名高等学府，其发展体现了中国高等教育的发展水平。李干杰的出席和讲话强调了高等教育在现代化建设中的重要性。关键影响：对提升中国高等教育的国际地位和影响力有积极意义。后续走向：暨南大学将继续推动高质量发展。关键词：暨南大学，120周年，李干杰，高等教育，现代化。分类：domestic。重要性：80。",
-          "keywords": [
-            "暨南大学",
-            "120周年",
-            "李干杰",
-            "高等教育",
-            "现代化"
-          ],
-          "category": "domestic",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBQNWd6SEdIOXBBalRUdDNJeU14Y251M0FYaTVOeTg0X3lzZnpuNGVQa3RpM1hOQk5qXzlfRjc5VThDRjVSaXFXc0NEY2xTZWpXMDJwQ0daakpMb0djTlNBSC1LZ2NVdUlrbzFJ?oc=5"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "美国航班停飞事件持续，超万架次航班延误或取消",
-          "titleOrig": "美国航班停飞事件影响持续 超万架次航班延误或取消 - 央广网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UVzhrYTRsYVZGZ1NRTDFwVmM3TjVnV1Z5bDFkOXYzOUNxY2d1UF9yOGYyT0hBbDNCQklyd2ZGb2Y4cXZhNk1vN1ZUQkRFcXRPaDdBTUs1YUZueEkydHhhVXJGVmI1NjJo?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T09:45:05+00:00",
-          "desc": "美国航班停飞事件影响持续 超万架次航班延误或取消 央广网美国航空停摆，祸起路由器？--国际 人民网团三天过去了，美国航班的故障原因仍未查明，交通部长被要求辞职 凤凰网民航停飞，暴露美国基建的制度“欠账” 新浪新闻_手机新浪网停飞影响持续 美航空运输预计16日全面恢复 空管老旧问题再受关注 中国日报网",
-          "hotLabel": "",
-          "summary": "美国航班停飞事件持续，导致超万架次航班延误或取消。",
-          "analysis": "此事件暴露了美国航空基础设施和管理的不足。对国际航空运输和旅游业产生较大影响。后续可能引发对全球航空安全的关注，美国政府可能采取措施改善航空基础设施。",
-          "keywords": [
-            "美国航班停飞",
-            "航空运输",
-            "基础设施",
-            "国际影响",
-            "政府应对"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1UVzhrYTRsYVZGZ1NRTDFwVmM3TjVnV1Z5bDFkOXYzOUNxY2d1UF9yOGYyT0hBbDNCQklyd2ZGb2Y4cXZhNk1vN1ZUQkRFcXRPaDdBTUs1YUZueEkydHhhVXJGVmI1NjJo?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "丹麦新工签向中国公民开放",
-          "titleOrig": "丹麦新工签将向中国公民开放",
-          "url": "https://s.weibo.com/weibo?q=%E4%B8%B9%E9%BA%A6%E6%96%B0%E5%B7%A5%E7%AD%BE%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%BC%80%E6%94%BE&t=31&band_rank=10&Refer=top",
+          "title": "同舟共济共创亚太和世界更美好未来",
+          "titleOrig": "同舟共济开创亚太和世界更美好未来",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%90%8C%E8%88%9F%E5%85%B1%E6%B5%8E%E5%BC%80%E5%88%9B%E4%BA%9A%E5%A4%AA%E5%92%8C%E4%B8%96%E7%95%8C%E6%9B%B4%E7%BE%8E%E5%A5%BD%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=3&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1053,20 +1024,98 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "丹麦推出针对中国公民的新工作签证。",
-          "analysis": "这标志着丹麦对中国公民的吸引力增强，反映了中丹两国在人员往来上的深化。对中国公民来说，提供了更多海外就业机会，对丹麦则是吸引国际人才、促进经济发展的重要举措。",
+          "hotLabel": "#3",
+          "summary": "强调亚太地区合作重要性",
+          "analysis": "此新闻标题体现了中国在国际事务中倡导合作共赢的理念。背景是中国积极推动区域一体化和自由贸易，旨在通过合作促进地区稳定与繁荣。对国内民生而言，这有助于提升国际地位，增强对外贸易和投资吸引力；对经济而言，有利于扩大对外开放，促进经济增长；对治理意味着中国在国际舞台上扮演更积极的角色。后续走向可能包括加强与亚太国家的经济合作，推动区域一体化进程。",
           "keywords": [
-            "工作签证",
-            "国际人才流动",
-            "中丹关系"
+            "亚太合作",
+            "区域一体化",
+            "自由贸易",
+            "国际地位",
+            "经济增长"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 85,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E4%B8%B9%E9%BA%A6%E6%96%B0%E5%B7%A5%E7%AD%BE%E5%B0%86%E5%90%91%E4%B8%AD%E5%9B%BD%E5%85%AC%E6%B0%91%E5%BC%80%E6%94%BE&t=31&band_rank=10&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E5%90%8C%E8%88%9F%E5%85%B1%E6%B5%8E%E5%BC%80%E5%88%9B%E4%BA%9A%E5%A4%AA%E5%92%8C%E4%B8%96%E7%95%8C%E6%9B%B4%E7%BE%8E%E5%A5%BD%E6%9C%AA%E6%9D%A5%23&t=31&band_rank=3&Refer=top"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "为中部崛起注入新动能——第十四届中国中部投资贸易博览会将在河南郑州举办",
+          "titleOrig": "为中部崛起注入新动能——第十四届中国中部投资贸易博览会将在河南郑州举办 - 光明网",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14WDh5WlRfQmZuRmlvZHgwSWJMVk5sZDB5MlJtLTZGdFJBWHpZdmg1VFlQSUI5aGMxeFJFcEdXVUN4NHAybVg2SUNvZDVRZm5SNHItbDAtYUJNOVZFYmhoRg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T21:15:00+00:00",
+          "desc": "为中部崛起注入新动能——第十四届中国中部投资贸易博览会将在河南郑州举办 光明网服务中部地区崛起，本届中部投资贸易博览会有哪些亮点 新浪新闻_手机新浪网国新办举行新闻发布会 介绍第十四届中国中部投资贸易博览会有关情况 新华网商务部：多举措支持中部地区崛起 经济频道商务部答澎湃：推动部分制造业项目在中部地区梯次转移和落地承接 ThePaper.cn",
+          "hotLabel": "",
+          "summary": "第十四届中国中部投资贸易博览会将在河南郑州举办，聚焦中部地区经济发展。",
+          "analysis": "此次博览会是我国推动中部地区崛起战略的具体体现，旨在促进中部地区经济发展，实现区域协调发展。背景是我国对中部地区发展的重视，以及中部地区自身发展需求和潜力。关键影响包括吸引投资、促进贸易、推动产业结构升级，对国内经济治理意味着平衡区域发展，增强区域经济活力。后续走向可能包括中部地区与东部、西部地区的更深层次合作。",
+          "keywords": [
+            "中部崛起",
+            "投资贸易博览会",
+            "区域协调发展",
+            "产业结构升级",
+            "区域合作"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE14WDh5WlRfQmZuRmlvZHgwSWJMVk5sZDB5MlJtLTZGdFJBWHpZdmg1VFlQSUI5aGMxeFJFcEdXVUN4NHAybVg2SUNvZDVRZm5SNHItbDAtYUJNOVZFYmhoRg?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/16/canada-carney-cars-evs-tariffs-xi-jinping-china-trump-trade-talks"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/nov/16/megaspeed-company-breaks-slience-nvidia-jensen-huang-alice-huang"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/australia-news/2026/nov/16/albanese-treads-tightrope-in-upcoming-trump-meeting-wanting-indo-pacific-engagement-and-end-to-iran-and-ukraine-wars"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "第二十五届中国上海国际艺术节闭幕，带动消费超45.4亿元",
+          "titleOrig": "第二十五届中国上海国际艺术节闭幕，千余场展演综合带动消费超45.4亿元 - 央广网",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZjB4YlA3SEhyLTdtQVJTSlZEdkV2cm5wdGQ3ajhLZ2lmajE4SUNLVXl2OGItdVdYOHQyZVhsbXJqbktmWE96ZFBod0hGSktXNGhXU1pYTURONzdUcVRWUGxUenVWR1M4SHo5azdxU1FjT0lWTUdaT1RrSmQ5d21EbA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T18:55:42+00:00",
+          "desc": "第二十五届中国上海国际艺术节闭幕，千余场展演综合带动消费超45.4亿元 央广网《天鹅湖》“飞上”申厅舞台 第二十五届中国上海国际艺术节圆满收官 上海热线40万张演出票带动45.4亿消费，票根经济怎么挣钱？ ThePaper.cn二十五届蓄力，中国上海国际艺术节递出“世界一流”名片 Sohu“艺术天空”点亮不期而遇的美好 中央广播电视总台上海总站",
+          "hotLabel": "",
+          "summary": "上海国际艺术节闭幕，带动消费超45.4亿元。",
+          "analysis": "艺术节作为文化盛会，不仅丰富了人民群众的精神文化生活，也促进了相关产业的发展，如旅游、餐饮等。对经济有积极作用，体现了文化消费对经济增长的贡献。后续类似活动将继续举办，对提升城市文化软实力有积极意义。",
+          "keywords": [
+            "艺术节",
+            "消费",
+            "文化",
+            "经济",
+            "上海"
+          ],
+          "category": "economy",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZjB4YlA3SEhyLTdtQVJTSlZEdkV2cm5wdGQ3ajhLZ2lmajE4SUNLVXl2OGItdVdYOHQyZVhsbXJqbktmWE96ZFBod0hGSktXNGhXU1pYTURONzdUcVRWUGxUenVWR1M4SHo5azdxU1FjT0lWTUdaT1RrSmQ5d21EbA?oc=5"
             },
             {
               "name": "The Guardian",
@@ -1084,167 +1133,169 @@
           "rank": 10
         },
         {
-          "title": "王沪宁会见瑙鲁总统阿迪昂",
-          "titleOrig": "王沪宁会见瑙鲁总统阿迪昂 - 军网",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81b25lQ3Q0NWtzR3poNXJmX2JGQmhGNFdacHlqQ0otY0FtZzJsUGF3ZmUtcnJNYV8tek8wdDh6eHI2c1hGU3NGWmljZDVqaHNQOWc?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-16T11:08:10+00:00",
-          "desc": "王沪宁会见瑙鲁总统阿迪昂 军网驻瑙鲁使馆临时代办王旭光为阿迪昂总统访华送行 中华人民共和国外交部首位参谒黄帝陵的外国领导人！瑙鲁总统与女儿在“黄帝手植柏”前自拍 观察者网瑙鲁总统在西安“点赞”中医 Sohu瑙鲁总统：梁家河苹果是“可以品尝的历史” 欧洲头条",
+          "title": "10 Numbers That Might Change How You See Asia",
+          "titleOrig": "10 Numbers That Might Change How You See Asia",
+          "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T22:14:10+00:00",
+          "desc": "From semiconductor dominance to new power grids, defense deals and K-pop, the region — beyond China — is becoming increasingly interconnected and self-reliant.",
           "hotLabel": "",
-          "summary": "王沪宁会见瑙鲁总统，深化双边关系。",
-          "analysis": "王沪宁会见瑙鲁总统阿迪昂，体现了中国对与发展中国家友好关系的高度重视。此次会晤有助于深化中瑙两国在政治、经济、文化等领域的交流与合作，提升两国在国际事务中的影响力。同时，这也表明中国在国际关系中的独立自主立场，即坚持与各国发展平等互利的关系。",
+          "summary": "亚洲地区十大经济数据可能改变人们对亚洲的看法",
+          "analysis": "文章从半导体、电网、国防和流行文化等多个角度分析了亚洲地区的经济实力和影响力。这表明亚洲地区正变得越来越互联互通和自给自足，对中国来说，这既是机遇也是挑战，需要加强自身创新能力和产业链的完整性。",
           "keywords": [
-            "王沪宁",
-            "瑙鲁总统",
-            "双边关系",
-            "发展中国家",
-            "国际关系"
+            "亚洲经济",
+            "半导体",
+            "电网",
+            "国防",
+            "自给自足"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE81b25lQ3Q0NWtzR3poNXJmX2JGQmhGNFdacHlqQ0otY0FtZzJsUGF3ZmUtcnJNYV8tek8wdDh6eHI2c1hGU3NGWmljZDVqaHNQOWc?oc=5"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/16/world/asia/asean-trade-security-technology.html"
             }
           ],
           "rank": 11
         },
         {
-          "title": "日本东京发生持刀伤人事件，1人遇难",
-          "titleOrig": "日本东京突发持刀伤人事件 1人被刺身亡 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FX3pSSzhEWkYyVGR5WkE4cWs0TFlZNjQ5Y0lRU3JEZ0s2MkFhc0g3T1Q4Z3RTbm9UZ0FKYS0wbGhrcDNDcE9vdVVPV2NGSFVLMG9fT1J5N0h3M09LdG5mdDhNR2ZFTTky?oc=5",
+          "title": "第20届法语国家组织峰会通过《金边宣言》",
+          "titleOrig": "第20届法语国家组织峰会通过《金边宣言》 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMDFDSl9ZSVMzbS1tZ3VyUHJ3cWlTNHFmQ3dRZy1xQmhoRU9GcTlLdmxyX0tSN2tpazFzajFTeTVGRnVEaTgyTFJpamVYcXNqSk4yRURkWE9FMEdMUXRNVmdIOVEtRVhy?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-16T13:34:21+00:00",
-          "desc": "日本东京突发持刀伤人事件 1人被刺身亡 中国新闻网",
+          "publishedAt": "2026-11-16T23:36:41+00:00",
+          "desc": "第20届法语国家组织峰会通过《金边宣言》 中国新闻网柬埔寨千年古迹西梅奔寺完成修复--国际 人民网柬方当着马克龙的面控诉泰国，泰方反驳：法国态度和中国一样 凤凰网第20届法语国家组织峰会在柬埔寨举办 上海热线在柬埔寨金边“法语国家文化村”感受多元文化魅力 Sohu",
           "hotLabel": "",
-          "summary": "日本东京发生持刀伤人事件，造成1人死亡。",
-          "analysis": "此事件反映了日本社会治安问题。对日本社会稳定和民众安全感有负面影响。后续可能引发社会对治安问题的关注和讨论，政府可能加强治安管理措施。",
+          "summary": "第20届法语国家组织峰会通过《金边宣言》，聚焦法语国家合作与发展。",
+          "analysis": "此次峰会是我国积极参与国际多边合作，推动法语国家间合作的体现。背景是法语国家组织在推动国际合作、文化交流等方面发挥的作用日益重要。关键影响包括加强法语国家间的政治、经济、文化合作，对国内意味着拓展国际交流合作，提升国家软实力。后续走向可能包括更多具体合作协议的签署和实施。",
           "keywords": [
-            "持刀伤人",
-            "日本东京",
-            "社会治安",
-            "民众安全",
-            "政府治理"
+            "法语国家组织",
+            "金边宣言",
+            "国际合作",
+            "文化交流",
+            "国家软实力"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9hMDFDSl9ZSVMzbS1tZ3VyUHJ3cWlTNHFmQ3dRZy1xQmhoRU9GcTlLdmxyX0tSN2tpazFzajFTeTVGRnVEaTgyTFJpamVYcXNqSk4yRURkWE9FMEdMUXRNVmdIOVEtRVhy?oc=5"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "南北方多地气温新低，寒潮来袭",
+          "titleOrig": "南北方大片地区将迎来气温新低 冷空气接连来袭 - 中华网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUzA5UUxIOWxvN05SMUJ1NHpnWFdHbnUxTjI2THI3V0RfNlZFTUNmdUdLbElqbExkUU85RWl1TmFfUk1PaklKVUNOM1N1eGNZZXhKV042M05kVkU2YjV5T244NTNaWW5XOW5oSnRuejY?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T09:49:13+00:00",
+          "desc": "南北方大片地区将迎来气温新低 冷空气接连来袭 中华网中东部降水依然广泛 寒潮将制造大风降温天气 新华网中央气象台：大范围雨雪持续影响中东部 北方大部地区进入低温模式 新浪新闻_手机新浪网大雪！暴雪！大范围雨雪持续 中国青年网下半年来最冷白天来了！济南18日7℃，降温日历看哪里气温创新低 Sohu",
+          "hotLabel": "",
+          "summary": "中国多地遭遇寒潮，气温降至新低。",
+          "analysis": "此次寒潮是受冬季气候特征影响，冷空气活动频繁。对国内民生而言，寒潮可能导致供暖需求增加，对经济有一定影响，如农业、交通等。对治理意味着需要加强极端天气的应对能力。后续可能持续出现类似天气，需做好长期应对准备。",
+          "keywords": [
+            "寒潮",
+            "气温",
+            "民生",
+            "经济",
+            "治理"
+          ],
+          "category": "domestic",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8xUzA5UUxIOWxvN05SMUJ1NHpnWFdHbnUxTjI2THI3V0RfNlZFTUNmdUdLbElqbExkUU85RWl1TmFfUk1PaklKVUNOM1N1eGNZZXhKV042M05kVkU2YjV5T244NTNaWW5XOW5oSnRuejY?oc=5"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "特朗普账户在英伟达交易达9750万美元，黄仁勋获得白宫访问权限",
+          "titleOrig": "Trump’s accounts traded up to $97.5 million in Nvidia as Huang gained White House access",
+          "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-16T22:37:45+00:00",
+          "desc": "Trump’s accounts sold up to $1 million in Nvidia stock five days after he was briefed on Jensen Huang’s relationship with a suspected Chinese spy.",
+          "hotLabel": "",
+          "summary": "特朗普账户在英伟达交易获利，黄仁勋获得白宫访问",
+          "analysis": "特朗普账户在英伟达股票交易中的获利与其与黄仁勋的关系有关。这反映了美国政治与商业的紧密联系，同时也可能引发对政治人物商业行为的监管讨论。后续可能对相关监管政策产生影响。",
+          "keywords": [
+            "特朗普",
+            "英伟达",
+            "黄仁勋",
+            "白宫",
+            "监管政策"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "英国首相伯纳姆直言“脱欧”弊大于利",
+          "titleOrig": "英国首相伯纳姆直言“脱欧”弊大于利 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yaTRZUGVBQjViSmZTcE1PbVdrUE9EVVhYcGNYMTdmWFRpV29veUw3SFZrVFQ3Qi1mbGFYb1VSVl95QUlwSjlSd3NyNlNKTnFzN013R2UxcXBjTHNfMXVZZ0h5NA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T23:39:00+00:00",
+          "desc": "英国首相伯纳姆直言“脱欧”弊大于利 中国经济网伯纳姆将在伦敦金融城发表讲话，称脱欧并未取得预期效果 新浪网英国首相谈脱欧：一场“皇帝的新装” 观察者网卡梅伦：英国别重返欧盟，《欧洲人权公约》也可以退 Sohu英相柏能稱脫歐得不償失 強生諷別浪費時間 世界新聞網",
+          "hotLabel": "",
+          "summary": "英国首相伯纳姆直言“脱欧”弊大于利，引发对英国脱欧政策的讨论。",
+          "analysis": "英国首相的言论反映了英国脱欧政策实施后带来的复杂影响。背景是英国脱欧对英国经济和国际地位的影响。关键影响包括对英国经济、贸易和国际关系的冲击，对国内治理意味着英国可能重新考虑脱欧政策，对国际关系意味着对欧洲一体化进程的影响。后续走向可能包括英国对脱欧政策的调整和欧洲一体化的变化。",
+          "keywords": [
+            "英国脱欧",
+            "首相伯纳姆",
+            "经济影响",
+            "国际关系",
+            "欧洲一体化"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1FX3pSSzhEWkYyVGR5WkE4cWs0TFlZNjQ5Y0lRU3JEZ0s2MkFhc0g3T1Q4Z3RTbm9UZ0FKYS0wbGhrcDNDcE9vdVVPV2NGSFVLMG9fT1J5N0h3M09LdG5mdDhNR2ZFTTky?oc=5"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "【2026全球总决赛】11月15日 GEN vs BLG",
-          "titleOrig": "",
-          "url": "https://www.bilibili.com/video/BV15es76gEgL",
-          "source": "哔哩哔哩热搜",
-          "sourceId": "bili",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "电子竞技赛事2026全球总决赛即将上演GEN与BLG的对决。",
-          "analysis": "事件背景：电子竞技作为新兴产业，其全球总决赛吸引了广泛关注。GEN与BLG的对决是赛事的重要环节。关键影响：电子竞技产业的发展和普及。后续走向：赛事结果将影响两队的国际地位。关键词：电子竞技，全球总决赛，GEN，BLG，电竞。分类：tech。重要性：70。",
-          "keywords": [
-            "电子竞技",
-            "全球总决赛",
-            "GEN",
-            "BLG",
-            "电竞"
-          ],
-          "category": "tech",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "哔哩哔哩热搜",
-              "url": "https://www.bilibili.com/video/BV15es76gEgL"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "国乒全军覆没34岁方博夺冠",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A134%E5%B2%81%E6%96%B9%E5%8D%9A%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#1",
-          "summary": "乒乓球运动员方博在比赛中夺冠，国乒其余选手均未获奖。",
-          "analysis": "此次事件反映了我国乒乓球运动的高水平竞争态势，体现了我国体育事业的发展成果。对于国内体育迷来说，这是体育精神的体现，对于青少年体育教育具有积极影响。后续可能引发对体育人才培养政策的讨论和调整。",
-          "keywords": [
-            "乒乓球",
-            "方博",
-            "体育精神",
-            "体育政策",
-            "竞技体育"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%9B%BD%E4%B9%92%E5%85%A8%E5%86%9B%E8%A6%86%E6%B2%A134%E5%B2%81%E6%96%B9%E5%8D%9A%E5%A4%BA%E5%86%A0%23&t=31&band_rank=1&Refer=top"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "内娱台词二十年后仍受欢迎",
-          "titleOrig": "内娱这样的台词我等了二十年",
-          "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E8%BF%99%E6%A0%B7%E7%9A%84%E5%8F%B0%E8%AF%8D%E6%88%91%E7%AD%89%E4%BA%86%E4%BA%8C%E5%8D%81%E5%B9%B4&t=31&band_rank=9&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "观众对内娱台词的期待与评价。",
-          "analysis": "这反映了观众对高质量文化产品的需求，以及内娱在台词创作上的进步。对行业来说，是提升内容质量的信号，对观众则是文化消费升级的体现。未来内娱台词创作可能更加注重原创性和深度。",
-          "keywords": [
-            "内娱",
-            "台词创作",
-            "文化消费"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%86%85%E5%A8%B1%E8%BF%99%E6%A0%B7%E7%9A%84%E5%8F%B0%E8%AF%8D%E6%88%91%E7%AD%89%E4%BA%86%E4%BA%8C%E5%8D%81%E5%B9%B4&t=31&band_rank=9&Refer=top"
+              "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1yaTRZUGVBQjViSmZTcE1PbVdrUE9EVVhYcGNYMTdmWFRpV29veUw3SFZrVFQ3Qi1mbGFYb1VSVl95QUlwSjlSd3NyNlNKTnFzN013R2UxcXBjTHNfMXVZZ0h5NA?oc=5"
             }
           ],
           "rank": 15
         },
         {
-          "title": "BLG庆功宴",
+          "title": "华尔街日报必须道歉",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23BLG%E5%BA%86%E5%8A%9F%E5%AE%B4%23&t=31&band_rank=5&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E5%B0%94%E8%A1%97%E6%97%A5%E6%8A%A5%E5%BF%85%E9%A1%BB%E9%81%93%E6%AD%89%23&t=31&band_rank=5&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1254,29 +1305,55 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "BLG战队举办庆功宴。",
-          "analysis": "BLG战队的庆功宴反映了电子竞技行业的发展，以及电竞文化在国内的普及。这表明电子竞技产业正逐渐获得社会认可，对相关产业发展具有推动作用。",
+          "summary": "华尔街日报涉华报道引发争议",
+          "analysis": "此新闻体现了国际舆论对中国的关注和评价。华尔街日报的报道可能涉及对中国的误解或偏见，引发公众不满。对国内社会而言，这反映了国际舆论对中国的关注度；对经济而言，可能影响外国投资者对中国的看法；对治理意味着需要加强对外传播能力，提升国际话语权。后续走向可能包括中国媒体对国际舆论的回应和对外传播策略的调整。",
           "keywords": [
-            "BLG",
-            "电竞",
-            "庆功宴",
-            "电竞文化",
-            "产业发展"
+            "国际舆论",
+            "华尔街日报",
+            "媒体争议",
+            "对外传播",
+            "国际话语权"
           ],
-          "category": "society",
-          "importance": 65,
+          "category": "international",
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23BLG%E5%BA%86%E5%8A%9F%E5%AE%B4%23&t=31&band_rank=5&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E5%8D%8E%E5%B0%94%E8%A1%97%E6%97%A5%E6%8A%A5%E5%BF%85%E9%A1%BB%E9%81%93%E6%AD%89%23&t=31&band_rank=5&Refer=top"
             }
           ],
           "rank": 16
         },
         {
-          "title": "青稚聊天记录",
+          "title": "中俄美元首将举行历史性会晤 专家：重在加强大国战略沟通 - 新浪财经_金融信息服务商",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95&t=31&band_rank=2&Refer=top",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90YUZyZXFnRVVrUy1IZjNmZGNmNGR1Y3FnYWlZdE5mR05DTFYtU0NVVWFfejRqXzhsU2l3dERTbG8tUWhGdFNsSWM5YkpHMWFwWGtMdThFMGVpS1NvMjN4MWcxcXZsVnp6S3Q1T1pHaHFwZw?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-16T19:04:59+00:00",
+          "desc": "中俄美元首将举行历史性会晤 专家：重在加强大国战略沟通 新浪财经_金融信息服务商2026年11月16日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 中华人民共和国外交部中俄美元首会晤具有开创性意义 新浪财经_金融信息服务商长平观察：特朗普习近平普京或在深圳会晤，俄方有人期待它成为“新雅尔塔”会议，我看更像破产的“1984”国际秩序 DW.com联合国秘书长告诉VOA：如果美中俄能致力于实现无核化议程，那将是一项重大成就 美国之音",
+          "hotLabel": "",
+          "summary": "中俄美元首将举行历史性会晤 专家：重在加强大国战略沟通 新浪…",
+          "analysis": "（LLM 解读生成失败，以下为原始摘要）\n中俄美元首将举行历史性会晤 专家：重在加强大国战略沟通 新浪财经_金融信息服务商2026年11月16日外交部发言人毛宁主持例行记者会_中华人民共和国外交部 中华人民共和国外交部中俄美元首会晤具有开创性意义 新浪财经_金融信息服务商长平观察：特朗普习近平普京或在深圳会晤，俄方有人期待它成为“新雅尔塔”会议，我看更像破产的“1984”国际秩序 DW.com联合国秘书长告诉VOA：如果美中俄能致力于实现无核化议程，那将是一项重大成就 美国之音",
+          "keywords": [],
+          "category": "domestic",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE90YUZyZXFnRVVrUy1IZjNmZGNmNGR1Y3FnYWlZdE5mR05DTFYtU0NVVWFfejRqXzhsU2l3dERTbG8tUWhGdFNsSWM5YkpHMWFwWGtMdThFMGVpS1NvMjN4MWcxcXZsVnp6S3Q1T1pHaHFwZw?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "干发帽成为微博热搜",
+          "titleOrig": "终于有人说说干发帽了",
+          "url": "https://s.weibo.com/weibo?q=%23%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E8%AF%B4%E8%AF%B4%E5%B9%B2%E5%8F%91%E5%B8%BD%E4%BA%86%23&t=31&band_rank=2&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1286,59 +1363,29 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "青稚的聊天记录被曝光。",
-          "analysis": "此事件可能涉及个人隐私问题，反映了网络时代个人信息安全的重要性。对于社会来说，这提醒了公众对网络隐私保护的重视，同时也可能引发对网络监管政策的讨论。",
+          "summary": "干发帽成为微博热搜。",
+          "analysis": "干发帽成为热搜，反映了社会对生活细节的关注，体现了消费升级背景下人们对生活品质的追求。对市场而言，可能带动相关产品销售。后续可能引发更多关于生活用品的热议。",
           "keywords": [
-            "青稚",
-            "隐私",
-            "网络监管",
-            "个人信息安全",
-            "网络舆论"
+            "干发帽",
+            "热搜",
+            "消费",
+            "生活",
+            "市场"
           ],
           "category": "society",
           "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E9%9D%92%E7%A8%9A%E8%81%8A%E5%A4%A9%E8%AE%B0%E5%BD%95&t=31&band_rank=2&Refer=top"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "购买衣物需警惕面料名称误导",
-          "titleOrig": "买衣服别被面料名字忽悠",
-          "url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%A1%A3%E6%9C%8D%E5%88%AB%E8%A2%AB%E9%9D%A2%E6%96%99%E5%90%8D%E5%AD%97%E5%BF%BD%E6%82%A0&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "消费者在购买衣物时应注意面料名称的真实性。",
-          "analysis": "这一现象反映了消费者对纺织品成分标识的不信任，背后可能是标准不统一或监管不力。对消费者而言，需提高识别能力，对企业和政府来说，加强产品标准和监管是关键。后续可能推动相关法规的完善和消费者权益保护意识的提升。",
-          "keywords": [
-            "消费者权益",
-            "纺织品标准",
-            "监管不力"
-          ],
-          "category": "society",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E4%B9%B0%E8%A1%A3%E6%9C%8D%E5%88%AB%E8%A2%AB%E9%9D%A2%E6%96%99%E5%90%8D%E5%AD%97%E5%BF%BD%E6%82%A0&t=31&band_rank=8&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%23%E7%BB%88%E4%BA%8E%E6%9C%89%E4%BA%BA%E8%AF%B4%E8%AF%B4%E5%B9%B2%E5%8F%91%E5%B8%BD%E4%BA%86%23&t=31&band_rank=2&Refer=top"
             }
           ],
           "rank": 18
         },
         {
-          "title": "韩网友爆料Jennie妈妈",
+          "title": "6年恋爱因一枚戒指分手",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BD%91%E5%8F%8B%E7%88%86%E6%96%99Jennie%E5%A6%88%E5%A6%88%23&t=31&band_rank=6&Refer=top",
+          "url": "https://s.weibo.com/weibo?q=6%E5%B9%B4%E6%81%8B%E7%88%B1%E5%9B%A0%E4%B8%80%E6%9E%9A%E6%88%92%E6%8C%87%E5%88%86%E6%89%8B&t=31&band_rank=4&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1348,29 +1395,29 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "韩国网友爆料Jennie的妈妈。",
-          "analysis": "此事件涉及明星私生活，可能引发对明星隐私权和媒体责任的讨论。对于中国公众来说，这反映了文化交流中可能出现的误解和冲突。",
+          "summary": "戒指引发情感纠纷",
+          "analysis": "这则新闻反映了社会价值观和消费观念的变化。戒指作为婚姻象征，在现代社会中，其重要性可能因人而异。这一事件揭示了年轻人在婚姻观念和物质消费上的分歧。对国内社会而言，可能引发对婚姻价值观的讨论；对经济而言，可能影响婚庆消费市场；对治理意味着需要关注年轻人的情感教育和消费引导。后续走向可能包括社会对婚姻观念的反思和消费教育的加强。",
           "keywords": [
-            "Jennie",
-            "明星",
-            "隐私权",
-            "文化交流",
-            "媒体责任"
+            "婚姻观念",
+            "消费观念",
+            "情感纠纷",
+            "婚庆消费",
+            "社会价值观"
           ],
-          "category": "international",
-          "importance": 50,
+          "category": "society",
+          "importance": 60,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E9%9F%A9%E7%BD%91%E5%8F%8B%E7%88%86%E6%96%99Jennie%E5%A6%88%E5%A6%88%23&t=31&band_rank=6&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=6%E5%B9%B4%E6%81%8B%E7%88%B1%E5%9B%A0%E4%B8%80%E6%9E%9A%E6%88%92%E6%8C%87%E5%88%86%E6%89%8B&t=31&band_rank=4&Refer=top"
             }
           ],
           "rank": 19
         },
         {
-          "title": "白鹿进组前饮食曝光",
-          "titleOrig": "白鹿进组前的伙食",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%BF%9B%E7%BB%84%E5%89%8D%E7%9A%84%E4%BC%99%E9%A3%9F%23&t=31&band_rank=11&Refer=top",
+          "title": "吃了点didi喂",
+          "titleOrig": "",
+          "url": "https://s.weibo.com/weibo?q=%E5%90%83%E4%BA%86%E7%82%B9didi%E5%96%82&t=31&band_rank=6&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
           "tier": "c",
@@ -1380,19 +1427,21 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "明星白鹿进组前的饮食情况受到关注。",
-          "analysis": "这一事件体现了公众对明星生活方式的好奇，同时也反映了明星个人形象的塑造。对粉丝而言，是了解偶像生活的一种方式，对明星则是个人品牌管理的体现。",
+          "summary": "网友调侃滴滴出行",
+          "analysis": "这则新闻是网友对滴滴出行的一次轻松调侃，反映了社交媒体时代公众对热点事件的关注和参与。对国内社会而言，这体现了网络文化的活跃和公众对出行服务的关注；对经济而言，可能影响滴滴出行的品牌形象；对治理意味着需要关注互联网企业的社会责任和网络文化的健康发展。后续走向可能包括滴滴出行的回应和公众对出行服务的进一步讨论。",
           "keywords": [
-            "明星生活",
-            "粉丝文化",
-            "个人品牌"
+            "滴滴出行",
+            "网络文化",
+            "公众参与",
+            "品牌形象",
+            "社会责任"
           ],
           "category": "society",
           "importance": 50,
           "sources": [
             {
               "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%99%BD%E9%B9%BF%E8%BF%9B%E7%BB%84%E5%89%8D%E7%9A%84%E4%BC%99%E9%A3%9F%23&t=31&band_rank=11&Refer=top"
+              "url": "https://s.weibo.com/weibo?q=%E5%90%83%E4%BA%86%E7%82%B9didi%E5%96%82&t=31&band_rank=6&Refer=top"
             }
           ],
           "rank": 20
