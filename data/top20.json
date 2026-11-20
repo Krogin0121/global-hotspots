@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-19T14:54:18.406822+00:00",
+  "generatedAt": "2026-11-20T00:02:20.941614+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 20,
+      "count": 12,
       "ok": true
     },
     {
@@ -90,460 +90,268 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "（局势综述生成失败，请稍后刷新）",
+      "digest": "今日国际局势呈现出多极化与地缘政治紧张并存的态势。联合国对缅甸种族灭绝罪的裁定凸显了国际社会对人权问题的关注。伊朗战争对全球油市和能源转型的影响显著，而美国对伊朗的战争费用也揭示了地缘政治冲突的经济代价。科技领域，AI芯片出口和英伟达的法律风险成为焦点，同时Netflix等巨头争夺世界杯媒体权反映了媒体产业的竞争格局。欧洲与俄罗斯就乌克兰战争的谈判意向，以及特朗普、习近平和普京的首次峰会，都显示出大国关系的微妙变化。此外，经济领域，加密交易所的发展和经济数据的变化也值得关注。整体而言，国际局势复杂多变，各大国间的互动和竞争将决定未来走向。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "国际能源署：数据中心电力使用量到2030年可能翻倍",
-          "titleOrig": "Data center electricity use could double by 2030, IEA says",
-          "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
+          "title": "联合国最高法院裁定缅甸对罗兴亚少数族裔犯有种族灭绝罪",
+          "titleOrig": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+          "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-19T11:34:24+00:00",
-          "desc": "Global electricity use by data centers could double by 2030 as the AI boom adds pressure to power grids across the world, according to the IEA.",
+          "publishedAt": "2026-11-19T20:07:02+00:00",
+          "desc": "The unprecedented International Court of Justice verdict concerns a 2017 military crackdown that killed thousands.",
           "hotLabel": "",
-          "summary": "随着人工智能的兴起，全球数据中心电力使用量可能到2030年翻倍。",
-          "analysis": "数据中心的电力使用量增长反映了数字经济的快速发展，尤其是人工智能和云计算的兴起。这将对全球能源需求和电力基础设施提出巨大挑战。对于能源行业来说，这意味着需要投资于更高效的能源解决方案和可再生能源。对于全球环境来说，这可能导致能源消耗和碳排放的增加，从而加剧气候变化问题。后续可能的发展趋势包括能源效率提升、绿色能源技术的创新以及能源政策的调整。",
+          "summary": "联合国最高法院裁定缅甸对罗兴亚少数族裔犯有种族灭绝罪。",
+          "analysis": "这一裁决对缅甸政府和国际社会都具有重要意义。它不仅揭示了缅甸政府在2017年军事行动中的暴行，也增加了缅甸在国际社会中的孤立。后续可能引发国际制裁和缅甸国内的抗议活动，对缅甸的政治稳定和地区安全构成挑战。",
           "keywords": [
-            "数据中心",
-            "电力使用",
-            "人工智能",
-            "能源需求",
-            "气候变化"
+            "种族灭绝",
+            "缅甸",
+            "联合国",
+            "国际法",
+            "政治冲突"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/data-center-electricity-demand-iea.html"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 1
         },
         {
-          "title": "伊朗在霍尔木兹海峡对船只发动攻击，局势升级",
-          "titleOrig": "Iran's attacks on ships in the Strait of Hormuz escalate",
-          "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
+          "title": "伊朗战争意外后果：全球油市震荡加速电动汽车和可再生能源转型",
+          "titleOrig": "Unexpected Fallout From the Iran War",
+          "url": "https://www.nytimes.com/2026/11/19/climate/iea-energy-transition-electric-cars.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-19T09:46:24+00:00",
-          "desc": "Iran takes the offensive with attacks on ships in the Strait of Hormuz and airstrikes on several countries around the Persian Gulf.",
+          "publishedAt": "2026-11-19T21:40:38+00:00",
+          "desc": "Global oil shocks are accelerating the shift to electric vehicles and renewable energy, a new report finds.",
           "hotLabel": "",
-          "summary": "伊朗在霍尔木兹海峡攻击船只，局势紧张。",
-          "analysis": "伊朗的攻击行为可能引发地区冲突，对中东地区的稳定构成威胁。这一事件可能加剧美伊紧张关系，并影响全球能源供应安全。后续可能引发国际社会的干预和制裁。",
+          "summary": "伊朗战争意外后果导致全球油市震荡，加速电动汽车和可再生能源转型。",
+          "analysis": "伊朗战争引发的全球油市震荡，对能源市场产生深远影响。这可能导致全球能源结构加速向清洁能源转型，对国际能源格局和环境保护产生重要影响。后续可能引发全球能源政策调整。",
           "keywords": [
-            "伊朗",
-            "霍尔木兹海峡",
-            "攻击",
-            "地区冲突",
-            "能源安全"
+            "伊朗战争",
+            "能源市场",
+            "电动汽车",
+            "可再生能源",
+            "全球影响"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/19/climate/iea-energy-transition-electric-cars.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "特朗普、习近平和普京会晤，全球联盟平衡悬而未决",
-          "titleOrig": "Trump, Xi and Putin meet as global alliances hang in the balance",
-          "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T09:44:40+00:00",
-          "desc": "President Trump, China's Xi Jinping and Russia's Vladimir Putin have gathered in Shenzhen, China, for a historic trilateral meeting, with Ukraine, Iran and nuclear disarmament on the agenda.",
-          "hotLabel": "",
-          "summary": "特朗普、习近平和普京会晤，全球联盟平衡受影响。",
-          "analysis": "此次会晤反映了美中俄三国在全球政治格局中的地位和影响力。三国的互动将对全球政治格局产生重要影响，特别是在乌克兰、伊朗和核裁军等问题上。这一事件可能加剧全球政治紧张局势。",
-          "keywords": [
-            "特朗普",
-            "习近平",
-            "普京",
-            "全球联盟",
-            "政治格局"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/18/nx-s1-6040432/trump-xi-and-putin-shenzhen-china-russia-usa"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "联合国法庭判决缅甸对罗兴亚人犯有种族灭绝罪",
-          "titleOrig": "Live Updates: U.N. Court Rules Myanmar Committed Genocide Against Rohingya",
-          "url": "https://www.nytimes.com/live/2026/11/19/world/myanmar-icj-ruling-genocide",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T14:41:30+00:00",
-          "desc": "Myanmar became the first state held accountable for violating the 1948 Genocide Convention. The ruling by the International Court of Justice could have broad implications.",
-          "hotLabel": "",
-          "summary": "缅甸首次因违反1948年种族灭绝公约被追究责任。",
-          "analysis": "缅甸对罗兴亚人的种族灭绝行为被国际法庭认定，标志着国际社会对人权侵犯的零容忍态度。此判决对缅甸国内政治、区域稳定以及国际法律体系均有深远影响。后续可能引发国际制裁和缅甸国内政治动荡，同时强化国际法庭的权威。",
-          "keywords": [
-            "缅甸",
-            "种族灭绝",
-            "联合国",
-            "国际法庭",
-            "人权"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/11/19/world/myanmar-icj-ruling-genocide"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "一村庄被焚毁，居民被杀或流放。法庭判决这是种族灭绝。",
-          "titleOrig": "A Village Burned, Its People Killed or Exiled. A Court Ruled It Was Genocide.",
-          "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T12:23:29+00:00",
-          "desc": "Zammona’s erasure was part of a wider campaign of violence against Rohingya Muslims. An international court found that Myanmar was culpable for the atrocities.",
-          "hotLabel": "",
-          "summary": "国际法庭认定缅甸对罗兴亚人犯下种族灭绝罪。",
-          "analysis": "此判决是对缅甸政府行为的国际谴责，可能加剧缅甸国内矛盾和地区紧张。同时，它也强调了国际法庭在维护国际法和人权方面的作用。",
-          "keywords": [
-            "缅甸",
-            "种族灭绝",
-            "国际法庭",
-            "罗兴亚人",
-            "人权"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/myanmar-rohingya-village-refugee-genocide.html"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "普京、特朗普与习近平共同谴责核战争，欧洲密切关注",
-          "titleOrig": "Putin, Trump and Xi Condemn Nuclear War as Europe Watches Closely",
-          "url": "https://www.nytimes.com/2026/11/19/world/europe/trump-xi-putin-nuclear-weapons-ukraine.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T14:23:07+00:00",
-          "desc": "After their summit, the leaders of Russia, the United States and China agreed that “a nuclear war cannot be won and must never be fought.” Some analysts are skeptical that real change will result.",
-          "hotLabel": "",
-          "summary": "俄美中三国领导人峰会后发表共同声明，强调核战争不可胜且不应发生。",
-          "analysis": "此次声明反映了大国间对核战争风险的共同担忧，但实际变化仍需观察。背景是国际局势紧张，尤其是美俄关系和朝鲜半岛问题。关键影响是可能降低核战争风险，但需关注后续行动。后续走向可能包括更多多边对话和核不扩散努力的加强。",
-          "keywords": [
-            "核战争",
-            "国际关系",
-            "普京",
-            "特朗普",
-            "习近平"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/europe/trump-xi-putin-nuclear-weapons-ukraine.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "乌干达山体滑坡幸存者在联合国寻求正义",
-          "titleOrig": "Survivors of Uganda's deadly landslide seek justice at the UN",
-          "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T09:21:54+00:00",
-          "desc": "Survivors reject relocation plans they say ignore their safety, land rights and livelihoods.",
-          "hotLabel": "",
-          "summary": "乌干达山体滑坡幸存者反对搬迁计划，认为其忽视安全、土地权利和生计。",
-          "analysis": "乌干达山体滑坡事件反映了该地区自然灾害频发的问题，幸存者寻求联合国介入，凸显了国际社会在应对自然灾害和保障人权方面的责任。这一事件可能加剧国际社会对发展中国家基础设施和灾害应对能力的关注，并对相关国家的政治稳定和社会发展产生深远影响。后续可能发展为国际援助和合作的新案例。",
-          "keywords": [
-            "乌干达",
-            "山体滑坡",
-            "联合国",
-            "人权",
-            "灾害应对"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c920xgxp5785o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "诺华上调重磅药物销售预期至180亿美元，寻求证明增长可持续",
-          "titleOrig": "Novartis raises blockbuster drug forecasts to $18 billion as it seeks to prove growth can last",
-          "url": "https://www.cnbc.com/2026/11/19/novartis-stock-cmd-2026-ceo.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T09:57:53+00:00",
-          "desc": "The drugmaker cited strong demand for its blockbuster drugs as it upgraded peak sales forecasts for multiple sclerosis, leukemia, and cholesterol medicines.",
-          "hotLabel": "",
-          "summary": "诺华因其重磅药物需求强劲，上调多发性硬化症、白血病和降胆固醇药物的销售预期。",
-          "analysis": "诺华的乐观预测反映了全球医药市场的强劲需求，尤其是针对慢性疾病的治疗。这表明创新药物在对抗疾病方面的重要性，同时也反映了全球老龄化趋势对药物市场的推动。对于诺华而言，这意味着其产品组合的强大，但同时也可能加剧行业竞争。对于全球医药市场来说，这预示着持续的研发投入和医疗技术创新的重要性。后续可能的发展趋势包括行业并购、新药研发加速以及市场竞争加剧。",
-          "keywords": [
-            "诺华",
-            "重磅药物",
-            "医药市场",
-            "销售预期",
-            "全球老龄化"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/novartis-stock-cmd-2026-ceo.html"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "人工智能巨头Anthropic在纳斯达克上市，融资超千亿美元创纪录",
-          "titleOrig": "AI giant Anthropic raises more than $100 billion in record-setting IPO",
-          "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T10:00:00+00:00",
-          "desc": "Shares in the maker of the popular Claude artificial intelligence model will start trading on the Nasdaq Thursday.",
-          "hotLabel": "",
-          "summary": "Anthropic公司，其旗下产品Claude人工智能模型，将在纳斯达克上市。",
-          "analysis": "Anthropic的上市标志着人工智能领域的又一重要里程碑，反映了投资者对人工智能行业未来增长的信心。这可能会推动更多人工智能初创公司寻求融资和上市，从而加速行业的发展。对于全球科技行业来说，这预示着人工智能技术的广泛应用和商业模式的创新。后续可能的发展趋势包括人工智能技术的商业化、行业标准的建立以及全球竞争的加剧。",
-          "keywords": [
-            "Anthropic",
-            "人工智能",
-            "纳斯达克",
-            "融资",
-            "科技行业"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/19/nx-s1-6042558/anthropic-ipo-breaks-records-100-billion"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "特朗普会见习近平和普京，民主党提名杰弗里斯为众议院议长，AI巨头Anthropic创纪录IPO融资超千亿美元",
-          "titleOrig": "Morning news brief",
-          "url": "https://www.npr.org/2026/11/19/nx-s1-6042289/morning-news-brief",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T09:46:29+00:00",
-          "desc": "President Trump meets with China's Xi and Russia's Putin, House Democrats nominate Hakeem Jeffries as next speaker of the House, AI giant Anthropic raises more than $100 billion in record-setting IPO.",
-          "hotLabel": "",
-          "summary": "特朗普与中俄领导人会晤，民主党提名新议长，AI公司巨额融资。",
-          "analysis": "此次会晤反映了美中俄三国在当前国际局势下的互动与博弈，民主党提名新议长标志着美国国内政治格局的变化，Anthropic的巨额融资显示了AI领域的投资热度和市场潜力。这些事件将对国际政治、美国国内政治以及科技发展产生深远影响。",
-          "keywords": [
-            "特朗普",
-            "习近平",
-            "普京",
-            "众议院议长",
-            "AI融资"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/19/nx-s1-6042289/morning-news-brief"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "特朗普会晤背后，习近平和普京共享取代美国力量的愿景",
-          "titleOrig": "Behind Trump Meeting, Xi and Putin Share a Vision of Usurping U.S. Power",
-          "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T12:41:50+00:00",
-          "desc": "President Trump joined the Chinese and Russian leaders for a summit in Shenzhen, even though the two autocrats are trying to reverse America’s victory in the Cold War.",
-          "hotLabel": "",
-          "summary": "特朗普与中俄领导人会晤，两国领导人试图逆转冷战胜利。",
-          "analysis": "此次会晤反映了中俄试图在国际政治中挑战美国领导地位的意图。特朗普的参与可能加剧了美国与中俄之间的对立，未来可能影响全球政治经济秩序。",
-          "keywords": [
-            "特朗普",
-            "习近平",
-            "普京",
-            "冷战",
-            "国际秩序"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "Anthropic在股市首日募资810亿美元，创纪录",
-          "titleOrig": "Anthropic raises $81bn in record-breaking stock market debut",
-          "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T10:48:04+00:00",
-          "desc": "The company behind the Claude chatbot will become one of the most valuable firms in the world.",
-          "hotLabel": "",
-          "summary": "Claude聊天机器人背后的公司募资创纪录，成为全球最有价值公司之一。",
-          "analysis": "这反映了科技股的强劲势头和人工智能领域的巨大潜力。关键影响是对科技行业和AI发展的推动，以及对股市的提振。后续走向可能包括更多科技公司的上市和AI技术的广泛应用。",
-          "keywords": [
-            "Anthropic",
-            "股市",
-            "募资",
-            "人工智能",
-            "科技股"
-          ],
-          "category": "tech",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "报告称，到2035年穆斯林人数将超过基督徒，到2070年刚果民主共和国将成为基督徒最多的国家",
-          "titleOrig": "Muslims will outnumber Christians worldwide by 2035, report says",
-          "url": "https://www.npr.org/2026/11/19/nx-s1-6043018/muslims-will-outnumber-christians-worldwide-by-2070-report-says",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T10:00:00+00:00",
-          "desc": "By 2070, the Democratic Republic of the Congo will surpass the United States as the country with the largest total number of Christians.",
-          "hotLabel": "",
-          "summary": "预计到2035年全球穆斯林人数将超过基督徒，到2070年刚果民主共和国将成为基督徒最多的国家。",
-          "analysis": "这一趋势反映了全球宗教人口结构的变化，特别是穆斯林人口的快速增长。这对于全球宗教平衡和地缘政治格局具有重要意义。对于受影响的国家来说，这可能需要调整宗教政策和社会政策。对于全球来说，这预示着宗教多样性和宗教冲突的可能性增加，需要国际社会更加关注宗教和谐与和平。",
-          "keywords": [
-            "宗教人口",
-            "穆斯林",
-            "基督徒",
-            "地缘政治",
-            "宗教冲突"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/19/nx-s1-6043018/muslims-will-outnumber-christians-worldwide-by-2070-report-says"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "COP31最新草案未提及化石燃料",
-          "titleOrig": "No mention of fossil fuels in latest COP31 draft deal",
-          "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf",
+          "title": "美国对伊朗战争费用超过480亿美元",
+          "titleOrig": "Price tag for US war in Iran barrels past $48 billion",
+          "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-19T14:46:00+00:00",
-          "desc": "One of the most fraught debates at the UN climate talks in Turkey has revolved around the future of coal, oil and gas. Now all mention of fossil fuels has been removed from the summit's new draft agreement.",
+          "publishedAt": "2026-11-19T23:22:00+00:00",
+          "desc": "A Pentagon budget officer has said the price of the Iran war surpassed $48.3 billion last week. That does not include costs sustained in Iranian attacks on US bases — lawmakers want details the Pentagon is loath to give.",
           "hotLabel": "",
-          "summary": "COP31草案未提及化石燃料。",
-          "analysis": "这一变化可能表明国际社会在应对气候变化问题上对化石燃料的立场发生转变。未来可能加强国际社会对化石燃料使用的限制，对能源行业和全球气候治理产生深远影响。",
+          "summary": "美国对伊朗战争的预算已超过480亿美元，不包括伊朗对美国基地攻击的成本。",
+          "analysis": "美国对伊朗的战争成本不断上升，反映出美国在中东地区的长期军事投入。这一成本不仅对美国财政构成压力，也可能加剧美国与其他国家的关系紧张。美国国会对详细成本信息的追求可能揭示战争的真实成本，并影响未来美国在中东的政策。后续可能看到更多的财政辩论和外交努力，以减少美国在该地区的军事存在。",
           "keywords": [
-            "COP31",
-            "气候变化",
-            "化石燃料",
-            "能源行业",
-            "全球气候治理"
+            "美国",
+            "伊朗战争",
+            "军事成本",
+            "预算",
+            "中东"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/price-tag-for-us-war-in-iran-barrels-past-48-billion/a-79998255?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "Anthropic在首次公开募股中成为全球最有价值的上市公司之一",
+          "titleOrig": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T23:33:51+00:00",
+          "desc": "Anthropic is the first purely AI company to be publicly listed, creating a test for the entire industry.",
+          "hotLabel": "",
+          "summary": "AI公司Anthropic首次公开募股，成为全球最有价值的上市公司之一。",
+          "analysis": "Anthropic的上市标志着AI行业的一个里程碑，它不仅反映了AI技术的快速发展，也显示了投资者对AI领域的信心。这一事件可能推动更多AI公司上市，加速行业整合和资本运作。对于全球科技格局而言，这标志着AI技术在全球经济中的核心地位日益凸显。后续可能看到更多AI领域的创新和竞争。",
+          "keywords": [
+            "AI",
+            "上市",
+            "Anthropic",
+            "资本市场",
+            "科技发展"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "美国批准向中国公司出售超过87.9万颗AI芯片",
+          "titleOrig": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T21:43:30+00:00",
+          "desc": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
+          "hotLabel": "",
+          "summary": "美国批准向中国公司出售大量AI芯片，引发出口控制讨论。",
+          "analysis": "此举可能加剧中美在技术领域的竞争。在Jensen Huang事件后，美国国会对芯片出口中国实施更严格的控制，这表明美国对技术出口的担忧。此举可能影响全球半导体供应链，并对中美两国在人工智能领域的竞争格局产生影响。",
+          "keywords": [
+            "AI芯片",
+            "出口控制",
+            "中美关系",
+            "半导体产业",
+            "技术竞争"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
+            }
+          ],
+          "rank": 5
+        },
+        {
+          "title": "黄仁勋及英伟达面临的法律风险加剧",
+          "titleOrig": "Jensen Huang's — and Nvidia's — legal exposure balloons",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T18:44:34+00:00",
+          "desc": "\"It's not going to get any better for Jensen Huang; it's going to get far worse,\" said Salvatore Graziano, a New York securities litigation attorney.",
+          "hotLabel": "",
+          "summary": "黄仁勋的法律风险加剧，英伟达面临挑战。",
+          "analysis": "黄仁勋作为英伟达的CEO，其个人和法律风险因公司面临的法律诉讼而加剧。这反映出科技行业在快速发展的同时，也面临着监管和法律风险。对英伟达而言，这可能影响其市场地位和投资者信心。后续可能面临更严格的监管审查，甚至影响整个行业的发展。对国际局势而言，这表明科技巨头在全球化过程中需更加注重合规和风险管理。",
+          "keywords": [
+            "黄仁勋",
+            "英伟达",
+            "法律风险",
+            "监管",
+            "科技行业"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/nvidia-jensen-huang-legal.html"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "Netflix、亚马逊、福克斯争夺2030年世界杯媒体权，迪士尼退出",
+          "titleOrig": "Netflix, Amazon, Fox to bid for 2030 men's World Cup rights; Disney out",
+          "url": "https://www.cnbc.com/2026/11/19/netflix-amazon-fox-bid-for-2030-mens-world-cup-rights-disney-out.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T18:30:51+00:00",
+          "desc": "Netflix, Amazon and Fox are among those bidding on the 2030 men's World Cup media rights. Disney has decided not to bid, sources told CNBC.",
+          "hotLabel": "",
+          "summary": "Netflix、亚马逊和福克斯参与2030年世界杯媒体权竞标，迪士尼放弃参与。",
+          "analysis": "随着数字媒体平台的崛起，体育赛事的媒体权争夺战愈发激烈。Netflix、亚马逊和福克斯的参与表明了他们对体育内容的高度重视，尤其是在足球这一全球最受欢迎的运动项目上。迪士尼的退出可能与其战略调整有关，可能更专注于其他领域。这一事件将对体育媒体行业和世界杯的全球影响力产生深远影响。后续可能看到更多媒体巨头加入竞标，竞争将更加激烈，也可能导致世界杯转播权价格的上涨。",
+          "keywords": [
+            "世界杯",
+            "媒体权",
+            "Netflix",
+            "亚马逊",
+            "福克斯"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/netflix-amazon-fox-bid-for-2030-mens-world-cup-rights-disney-out.html"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "欧洲领导人表示准备好与俄罗斯就结束乌克兰战争进行谈判",
+          "titleOrig": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+          "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T21:21:43+00:00",
+          "desc": "European allies of Ukraine say they have a \"united\" negotiating position at a summit in Berlin.",
+          "hotLabel": "",
+          "summary": "欧洲领导人表示准备好与俄罗斯就结束乌克兰战争进行谈判。",
+          "analysis": "这一表态反映了欧洲在乌克兰问题上的统一立场，同时也表明了欧洲在结束战争方面的决心。谈判的进行可能对乌克兰局势产生重要影响，但鉴于双方分歧巨大，谈判结果存在不确定性。后续可能看到更多的外交努力和军事行动。",
+          "keywords": [
+            "乌克兰战争",
+            "欧洲",
+            "谈判",
+            "国际关系",
+            "政治解决"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/no-mention-of-fossil-fuels-in-latest-cop31-draft-deal/a-79992394?maca=en-rss-en-all-1573-rdf"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 14
+          "rank": 8
         },
         {
-          "title": "特朗普、习近平和普京首次峰会寻求展示力量",
-          "titleOrig": "Live Updates: Trump, Xi and Putin Seek to Project Power at Their First Summit",
+          "title": "特朗普、习近平和普京在首次峰会寻求展示力量",
+          "titleOrig": "Trump, Xi and Putin Seek to Project Power at Their First Summit",
           "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec",
           "source": "NYT World",
           "sourceId": "nyt",
@@ -551,184 +359,376 @@
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-19T14:40:07+00:00",
+          "publishedAt": "2026-11-19T22:04:42+00:00",
           "desc": "The meeting in China appeared to be largely symbolic. After President Trump departed, President Vladimir V. Putin said that Russia would not negotiate with Ukraine on a cease-fire.",
           "hotLabel": "",
-          "summary": "中美俄三国领导人首次峰会，象征意义大于实质。",
-          "analysis": "此次峰会体现了中美俄三国在国际政治中的竞争态势。尽管特朗普已离开，普京的表态显示俄罗斯在乌克兰问题上的立场强硬，这可能加剧地区紧张局势。未来三国关系走向将影响全球政治格局。",
+          "summary": "特朗普、习近平和普京在首次峰会中寻求展示力量。",
+          "analysis": "此次峰会具有象征意义，反映了大国领导人之间的互动和力量对比。特朗普离开后，普京的表态表明俄罗斯在乌克兰问题上的立场，这可能影响地区安全格局。后续可能涉及多边合作与地缘政治博弈。",
           "keywords": [
             "特朗普",
             "习近平",
             "普京",
             "峰会",
-            "国际关系"
+            "地缘政治"
           ],
           "category": "international",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec"
             }
           ],
-          "rank": 15
+          "rank": 9
         },
         {
-          "title": "委内瑞拉与美签订军事协议，马杜罗被罢免后不足一年",
-          "titleOrig": "Venezuela signs military deal with US less than a year after Maduro's removal",
-          "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+          "title": "基辅的“人道主义任务”：这是陷阱吗？",
+          "titleOrig": "'Humanitarian mission' for Kostiantynivka: Is it a trap?",
+          "url": "https://www.dw.com/en/humanitarian-mission-for-kostiantynivka-is-it-a-trap/a-79996772?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T20:53:00+00:00",
+          "desc": "Russian President Putin has proposed an evacuation of the Ukrainian city of Kostiantynivka, like the recent operation in Oleshky. Experts warn this could serve military, not humanitarian, aims. What should Kyiv do?",
+          "hotLabel": "",
+          "summary": "俄罗斯总统普京提议疏散乌克兰城市科斯特扬蒂诺夫卡，专家警告这可能不是纯粹的人道主义行动。",
+          "analysis": "普京提议疏散科斯特扬蒂诺夫卡可能旨在缓解乌克兰东部的紧张局势，但背后的动机可能更为复杂。此举可能被视为对乌克兰军事行动的回应，也可能引发乌克兰和国际社会的关注。基辅的决策将取决于对局势的评估和对俄罗斯意图的解读。后续可能看到乌克兰与俄罗斯在该地区的冲突升级，以及国际社会对此事的反应。",
+          "keywords": [
+            "乌克兰",
+            "俄罗斯",
+            "科斯特扬蒂诺夫卡",
+            "疏散",
+            "冲突"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/humanitarian-mission-for-kostiantynivka-is-it-a-trap/a-79996772?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "加州针对英伟达在中国AI芯片进行调查",
+          "titleOrig": "California targets Nvidia in China AI chip probe",
+          "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-19T13:31:23+00:00",
-          "desc": "The US Secretary of Defence says Venezuela has 'gone from our most aggressive regional threat to a compliant security partner'.",
+          "publishedAt": "2026-11-19T23:04:30+00:00",
+          "desc": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
           "hotLabel": "",
-          "summary": "委内瑞拉与美国签订军事协议，美国国防部长称委内瑞拉已从地区威胁转变为合作伙伴。",
-          "analysis": "事件反映了委内瑞拉国内政治变化和国际关系的调整。关键影响是可能改变拉美地区的力量平衡，并对委内瑞拉内部政治稳定产生影响。后续走向可能包括美委关系的进一步改善或紧张。",
+          "summary": "加州对AI芯片制造商英伟达在中国AI芯片进行调查。",
+          "analysis": "这一调查反映了美国对技术出口管制的加强，特别是针对中国。英伟达作为全球领先的AI芯片制造商，其业务受到的影响可能波及整个行业。后续可能看到更多关于技术出口和地缘政治的紧张关系。",
           "keywords": [
-            "委内瑞拉",
-            "军事协议",
-            "美国",
-            "马杜罗",
-            "拉美关系"
+            "英伟达",
+            "AI芯片",
+            "加州调查",
+            "技术出口",
+            "地缘政治"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 16
+          "rank": 11
         },
         {
-          "title": "Anthropic IPO：过早抛售股票的投资者可能面临经纪商处罚",
-          "titleOrig": "Anthropic IPO: Investors who flip the stock may face brokerage penalty",
-          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html",
+          "title": "托马斯·马克尔被判定精神状态适宜受审",
+          "titleOrig": "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges",
+          "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T22:48:22+00:00",
+          "desc": "Markle, who has denied possessing images of child sex abuse was deemed competent after an evaluation by a court-appointed psychiatrist.",
+          "hotLabel": "",
+          "summary": "托马斯·马克尔因涉嫌持有儿童性侵图像被判定精神状态适宜受审。",
+          "analysis": "此案揭示了名人隐私与法律界限的冲突。马克尔作为公众人物，其案件可能引发对名人隐私权与法律责任的讨论。对英国法律体系而言，此案可能对类似案件的处理产生指导意义。后续可能面临审判，对马克尔个人及家庭产生深远影响。",
+          "keywords": [
+            "托马斯·马克尔",
+            "儿童性侵",
+            "法律",
+            "隐私权",
+            "英国"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/crgj35ldz2zxo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "Anthropic的AI交易预期落空",
+          "titleOrig": "Anthropic was supposed to save the AI trade. What went wrong?",
+          "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-19T14:09:43+00:00",
-          "desc": "Brokerage firms may put future IPO limits in place for investors who sell their Anthropic stake too soon.",
+          "publishedAt": "2026-11-19T23:15:58+00:00",
+          "desc": "Technology stocks tanked despite one of the most hotly anticipated tech IPOs in years. Why Anthropic couldn't revive AI animal spirits.",
           "hotLabel": "",
-          "summary": "过早抛售Anthropic股票的投资者可能面临经纪商处罚。",
-          "analysis": "这一事件可能对首次公开募股（IPO）市场的投资者行为产生影响，提醒投资者对IPO股票的短期投机风险保持警惕。同时，也可能促使监管机构对IPO市场的监管措施进行审查。这对美国乃至全球的资本市场监管和投资者保护具有重要意义。",
+          "summary": "备受期待的Anthropic科技IPO失败，AI市场情绪受挫。",
+          "analysis": "Anthropic的IPO失败反映了市场对AI行业前景的担忧。这可能会影响投资者对科技股的信心，并对AI行业的发展产生短期影响。长期来看，这可能会促使AI公司更加注重盈利能力和业务模式的可持续性。",
           "keywords": [
-            "IPO",
             "Anthropic",
-            "投资者",
-            "经纪商",
-            "监管"
+            "AI行业",
+            "科技股",
+            "市场情绪",
+            "投资前景"
+          ],
+          "category": "tech",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-ai-stocks-selloff.html"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "Kraken母公司收购Tribe Capital，标志着加密交易所新篇章的开始",
+          "titleOrig": "Kraken parent's acquisition of Tribe Capital flags new chapter in evolution of crypto exchanges",
+          "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T20:33:05+00:00",
+          "desc": "Payward, the owner of crypto exchange Kraken, is pushing into private markets with its purchase of venture capital and asset management provider Tribe Capital.",
+          "hotLabel": "",
+          "summary": "Kraken母公司收购Tribe Capital，开启加密交易所新篇章。",
+          "analysis": "Kraken母公司收购Tribe Capital，表明加密货币行业在向更成熟的市场迈进。这一收购可能加强Kraken在加密市场中的地位，并推动加密交易所向专业化和合规化方向发展。对国际金融市场而言，这可能是加密货币合法化和监管加强的信号。",
+          "keywords": [
+            "Kraken",
+            "加密交易所",
+            "收购",
+            "合规",
+            "金融市场"
           ],
           "category": "economy",
           "importance": 75,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/anthropic-ipo-flipping-rules.html"
+              "url": "https://www.cnbc.com/2026/11/19/acquisition-of-tribe-capital-flags-new-chapter-in-evolution-of-crypto-exchanges.html"
             }
           ],
-          "rank": 17
+          "rank": 14
         },
         {
-          "title": "百名移民船在塞内加尔海岸沉没，数十人失踪",
-          "titleOrig": "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
-          "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T09:02:52+00:00",
-          "desc": "Some local media report that at least four bodies have been recovered.",
-          "hotLabel": "",
-          "summary": "一艘载有百名移民的船只沉没，至少四人确认死亡。",
-          "analysis": "事件反映了全球移民问题严峻，特别是非洲向欧洲的移民潮。关键影响是对非洲移民政策的讨论和对欧洲安全格局的挑战。后续走向可能包括国际社会对移民问题的关注和援助行动。",
-          "keywords": [
-            "移民",
-            "船只沉没",
-            "塞内加尔",
-            "欧洲",
-            "移民政策"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "澳大利亚音乐界拒绝给音乐家AI抓取豁免的‘分而治之’提议",
-          "titleOrig": "Australian music industry rejects ‘divide and conquer’ proposal to give musicians exemption from AI scraping",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "乌干达部长在COP31上表示：“我们需要公平过渡”",
+          "titleOrig": "Uganda minister at COP31: 'We need a just transition'",
+          "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-19T14:00:52+00:00",
-          "desc": "Reported proposal to give musicians special treatment is ‘unworkable’, Aria CEO says, vowing to stand with other creativesGet our daily political email, free app or daily news podcastThe music industry will not accept an AI carveout deal that leaves other creative sectors behind, rejecting a reporte",
+          "publishedAt": "2026-11-19T19:31:00+00:00",
+          "desc": "Funding from wealthy countries to help deal with the impacts of climate change hasn't materialized, says Uganda's environment minister. The East African country is hoping oil and carbon credits will help boost finances.",
           "hotLabel": "",
-          "summary": "音乐行业拒绝给予音乐家AI抓取豁免，认为此举不可行。",
-          "analysis": "这一事件反映了音乐界对AI技术应用的不满，以及对公平竞争的担忧。拒绝AI豁免提议可能促使音乐行业寻求更广泛的版权保护措施，并可能引发对科技与艺术创作界限的讨论。这将对澳大利亚乃至全球的音乐产业产生长远影响。",
+          "summary": "乌干达环境部长表示，富裕国家尚未兑现帮助应对气候变化的影响的资金，乌干达希望石油和碳信用额能帮助增加财政。",
+          "analysis": "乌干达在COP31上的表态反映了发展中国家在气候变化问题上的困境。尽管全球承诺了资金支持，但实际资金到位缓慢。乌干达寻求通过石油和碳信用额增加收入，这表明发展中国家在应对气候变化方面面临的挑战。后续可能看到更多国家寻求替代能源和碳交易市场，以及国际社会在资金支持方面的努力。",
           "keywords": [
-            "澳大利亚",
-            "音乐产业",
-            "AI",
-            "版权",
-            "公平竞争"
+            "气候变化",
+            "乌干达",
+            "COP31",
+            "资金支持",
+            "碳信用额"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/uganda-minister-at-cop31-we-need-a-just-transition/a-79997209?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "《侠盗猎车手》从道德恐慌到文化标志",
+          "titleOrig": "Love and Carjackings in a Video Game",
+          "url": "https://www.nytimes.com/2026/11/19/world/gta-anthropic-shenzhen-summit.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T20:57:18+00:00",
+          "desc": "Grand Theft Auto once caused a moral panic. Now, it’s a “signature cultural event.”",
+          "hotLabel": "",
+          "summary": "《侠盗猎车手》游戏从引发道德恐慌到成为文化事件。",
+          "analysis": "《侠盗猎车手》游戏自发布以来，曾因暴力内容引发道德争议。但随着时间的推移，该游戏已成为全球文化现象，反映了游戏产业对文化的影响力和娱乐消费的变化。这一转变可能预示着未来游戏内容审查和文化价值观的演变。对国际游戏产业和文化交流产生影响，同时也反映了社会对娱乐内容接受度的变化。",
+          "keywords": [
+            "侠盗猎车手",
+            "游戏文化",
+            "道德争议",
+            "娱乐产业",
+            "文化现象"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/nov/20/australian-music-industry-rejects-proposal-to-give-musicians-exemption-ai-scraping"
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/19/world/gta-anthropic-shenzhen-summit.html"
             }
           ],
-          "rank": 19
+          "rank": 16
         },
         {
-          "title": "卡什·帕特尔在马阿拉哥晚宴后缺席国会听证会",
-          "titleOrig": "Kash Patel skips House hearing after Mar-a-Lago gala with $50,000 access",
-          "url": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html",
+          "title": "Intuit 将 Mailchimp 以 36.8 亿美元出售给 Bending Spoons",
+          "titleOrig": "Intuit to sell Mailchimp to Bending Spoons for $3.68 billion",
+          "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-19T14:15:18+00:00",
-          "desc": "Kash Patel missed a congressional hearing after appearing the night before at a Mar-a-Lago gala offering donors of $50,000 access to top officials.",
+          "publishedAt": "2026-11-19T21:40:31+00:00",
+          "desc": "Intuit is offloading a segment that has slowed down revenue growth, for less than a third of what it paid to acquire Mailchimp in 2021.",
           "hotLabel": "",
-          "summary": "卡什·帕特尔在参加马阿拉哥晚宴后，未出席国会听证会。",
-          "analysis": "此事件可能涉及政治人物与私人利益的关系，以及公共透明度问题。卡什·帕特尔的缺席可能会引发公众对政治人物行为规范的关注，并可能对美国的政治环境产生一定影响。后续可能涉及更深入的调查和讨论。",
+          "summary": "Intuit 以低于2021年收购价的三分之一将Mailchimp出售。",
+          "analysis": "Intuit出售Mailchimp反映了其业务战略调整，以应对市场竞争和增长放缓。这一举措可能减少Intuit的财务负担，但同时也可能影响其市场地位。对Bending Spoons而言，这是扩大其业务版图的重要一步。对经济格局而言，这表明企业并购策略在适应市场变化中扮演重要角色。",
           "keywords": [
-            "美国",
-            "国会听证会",
-            "马阿拉哥晚宴",
-            "政治人物",
-            "透明度"
+            "Intuit",
+            "Mailchimp",
+            "出售",
+            "并购",
+            "市场策略"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/intuit-mailchimp-sale-bending-spoons.html"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "日本10月核心通胀低于预期",
+          "titleOrig": "Japan reports cooler-than-expected core inflation in October of 2.2% — but highest this year so far",
+          "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T23:45:23+00:00",
+          "desc": "The core inflation figure — which strips out prices of food — was lower than the 2.3% expected by Reuters-polled economists.",
+          "hotLabel": "",
+          "summary": "日本10月核心通胀低于预期，但为今年最高。",
+          "analysis": "日本通胀数据低于预期可能表明经济复苏不如预期。这可能会影响日本央行的货币政策，可能进一步推迟加息。对全球经济格局产生一定影响，尤其是对亚洲地区的经济预期。",
+          "keywords": [
+            "日本通胀",
+            "经济复苏",
+            "货币政策",
+            "亚洲经济",
+            "全球经济"
+          ],
+          "category": "economy",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/20/japan-inflation-cpi-october.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "S&P 500 连续第六次下跌，强生推出两款关键产品",
+          "titleOrig": "S&P 500 heads for 6th straight decline. Plus, J&J advances two key products",
+          "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T20:10:21+00:00",
+          "desc": "Every weekday, the Investing Club releases the Homestretch; an actionable afternoon update just in time for the last hour of trading.",
+          "hotLabel": "",
+          "summary": "S&P 500 连续第六次下跌，强生推出两款新产品。",
+          "analysis": "S&P 500的连续下跌可能反映了市场对经济前景的担忧。强生推出新产品可能有助于提振其业绩，但市场对此的反应将取决于产品的市场接受度和公司业绩。对国际股市而言，这表明市场情绪波动和宏观经济因素对股市表现有重要影响。",
+          "keywords": [
+            "S&P 500",
+            "股市下跌",
+            "强生",
+            "新产品",
+            "市场情绪"
           ],
           "category": "international",
           "importance": 65,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/18/kash-patel-hearing-mar-a-lago-gala.html"
+              "url": "https://www.cnbc.com/investingclub/2026/11/19/sp-500-heads-for-6th-straight-decline-plus-jj-advances-two-key-products.html"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "辛辛那提动物园的河马菲奥娜因吞下帽子而死亡",
+          "titleOrig": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T23:40:29+00:00",
+          "desc": "Fiona, who became an internet star after her premature birth in 2017, \"fought until she couldn’t anymore\", the zoo says.",
+          "hotLabel": "",
+          "summary": "辛辛那提动物园的河马菲奥娜因吞下帽子不幸死亡。",
+          "analysis": "菲奥娜的死亡是一个意外事件，反映了动物园动物护理和安全管理的重要性。此事件可能促使动物园重新审视其动物护理程序和安全措施。对公众而言，菲奥娜的去世可能引发对动物园动物福利的关注。",
+          "keywords": [
+            "河马",
+            "动物园",
+            "意外",
+            "动物福利",
+            "辛辛那提"
+          ],
+          "category": "society",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss"
             }
           ],
           "rank": 20
@@ -737,380 +737,298 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势，国际关系方面，中俄美元首将举行会晤，展现多边外交新动向；国内政策方面，新一轮国资国企改革全面实施，强调防止“救助型”并购，经济结构调整持续深入；社会动向方面，关注失业男子断供房贷被判非恶意断供等案例，反映社会公平正义议题；科技领域，腾讯内部危机感与DeepSeek对话上限调整等事件，显示行业竞争与技术创新并存。总体来看，国内外形势复杂多变，我国政策调整与改革持续推进，社会稳定与经济发展并重。",
+      "digest": "今日国内形势综述显示，国内政策与社会动向呈现出多方面的发展脉络。一方面，腐败问题成为社会关注的焦点，强调党性蜕化是问题的根源，反映出国家在反腐败斗争上的决心。另一方面，国际关系方面，中俄美元首和平宣言及三边会谈等事件，展现了我国在国际舞台上的地位和影响力。经济领域，Anthropic上市和腾讯内部危机感等新闻，反映出市场和企业发展的不确定性。科技方面，海信视像入选智能工厂培育名单，知乎智能搜索全新上线，表明我国在技术创新和产业升级方面的努力。社会层面，国家广播电视总局举办电视剧创作座谈会，拼音成为单词等事件，体现了文化软实力的提升。总体来看，当前国内形势复杂多变，值得关注的走向包括反腐败斗争的深入、国际关系的动态以及科技创新和文化发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "中俄美元首将在深圳会晤",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%BC%9A%E6%99%A4",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "腐败问题的深层根源在于党性蜕化",
+          "titleOrig": "腐败问题的深层根源在于党性蜕化 - Sohu",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGRjNzhSTnc4UldqZzdraUVrVGQwVkJyS3lvVnl0Tnk2bG1sNnM5UUFxbHdHNG1GX3lxMkVUdTRCLXhmTDlqZzROYjN0SnNwbXBRbzA4ZXhiTThCV1NRbEpselFmdE5LTUpOZ0dwZHhSeGx0NnB1OXdPYzJnUGgwLWdKbDN1ZFdfMXVqeQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "中俄美元首将在深圳举行会晤。",
-          "analysis": "中俄美元首在深圳的会晤，体现了中国在国际事务中的重要作用，以及中国与俄罗斯、美国等国家的外交关系。对国际关系意味着可能就重大国际问题进行沟通协调，对国内治理意味着中国在国际舞台上的影响力增强。",
+          "publishedAt": "2026-11-19T21:06:03+00:00",
+          "desc": "腐败问题的深层根源在于党性蜕化 Sohu陈小江在塔城地区调研 新华网江西省委宣讲团深入井冈山大学、全省教育系统、江西科技师范大学、南昌大学、上饶市、省投资集团宣讲 凤凰网学习贯彻五中全会精神·板报微课堂③：群众的钱一分都不能截留 光明网丰台区委理论学习中心组开展学习贯彻党的二十届五中全会精神专题交流研讨 北京市人民政府门户网站",
+          "hotLabel": "",
+          "summary": "分析腐败问题根源，强调党性教育重要性",
+          "analysis": "该新闻揭示了腐败问题的根源在于党性蜕化，强调了加强党性教育的重要性。这背后反映了当前中国政府对反腐败工作的决心，以及通过强化党性教育来提升党员干部的政治素质和道德水平。这对国内治理意味着必须加强党内监督，提高党的纯洁性，同时对社会而言，有助于树立清正廉洁的政府形象，增强民众对政府的信任。后续可能的发展是，政府将推出更多相关政策，加强对党员干部的教育和监督。",
           "keywords": [
-            "中俄美",
-            "深圳会晤",
-            "国际关系",
-            "外交政策",
-            "国际影响力"
+            "腐败",
+            "党性教育",
+            "反腐败",
+            "政府治理",
+            "政治素质"
           ],
-          "category": "international",
+          "category": "society",
           "importance": 90,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%B0%86%E5%9C%A8%E6%B7%B1%E5%9C%B3%E4%BC%9A%E6%99%A4"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTGRjNzhSTnc4UldqZzdraUVrVGQwVkJyS3lvVnl0Tnk2bG1sNnM5UUFxbHdHNG1GX3lxMkVUdTRCLXhmTDlqZzROYjN0SnNwbXBRbzA4ZXhiTThCV1NRbEpselFmdE5LTUpOZ0dwZHhSeGx0NnB1OXdPYzJnUGgwLWdKbDN1ZFdfMXVqeQ?oc=5"
             },
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtTmIzRGk5ZUlYZ1FKdDVWTHpxVEpUbVMzaWpxXzNVbUthYTNES0h0XzVwUHp6TFVSejI1YWQxTG1RbzNQeFphdzVHM2tpNnF6cWRMRndzazMtWnQtQmNOWmxneEdMZ0VO?oc=5"
             },
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qSkFkUjJHZU41WUg1UEtvaVExWXJJNWM5Qm1scHc3U1J4U1kzcWJyTFZWaDRUNUtUa2JTVFhGQTBQYlp0ekw0b3RPalZFbG5UWE9UWnVCbkVxUXQ4Y3F3?oc=5"
             }
           ],
           "rank": 1
         },
         {
-          "title": "中俄美元首同框",
+          "title": "中俄美元首和平宣言",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%90%8C%E6%A1%86",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
+          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%92%8C%E5%B9%B3%E5%AE%A3%E8%A8%80%23&t=31&band_rank=1&Refer=top",
+          "source": "微博热搜",
+          "sourceId": "weibo",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "",
-          "summary": "中俄美三国领导人同框合影。",
-          "analysis": "此事件反映了当前国际政治经济格局的复杂性。事件背景是国际关系中的多边主义与单边主义之争。对国内民生而言，这可能影响国际局势的稳定；对经济而言，可能影响国际贸易和投资环境；对治理意味着，需要加强国际沟通与合作，维护国家利益。后续走向可能包括三国关系的进一步发展，以及国际政治经济格局的演变。",
+          "hotLabel": "#1",
+          "summary": "中俄美元首发表和平宣言。",
+          "analysis": "中俄美元首和平宣言的发布，标志着三国在维护世界和平与稳定方面的共识。这对国际社会来说，具有积极的示范作用，有助于推动国际关系的和平发展。对中国而言，维护多边主义，促进国际合作，符合国家利益。后续可能在国际事务中发挥重要作用。",
           "keywords": [
-            "中俄美",
-            "领导人",
+            "和平宣言",
             "国际关系",
             "多边主义",
-            "单边主义"
+            "中俄美三国"
           ],
           "category": "international",
           "importance": 90,
           "sources": [
             {
+              "name": "微博热搜",
+              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%92%8C%E5%B9%B3%E5%AE%A3%E8%A8%80%23&t=31&band_rank=1&Refer=top"
+            },
+            {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E5%85%83%E9%A6%96%E5%90%8C%E6%A1%86"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E4%B8%89%E5%9B%BD%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4"
             },
             {
               "name": "Deutsche Welle",
               "url": "https://www.dw.com/en/iran-balances-ties-with-china-and-russia-as-trump-ramps-up-pressure/a-79979920?maca=en-rss-en-all-1573-rdf"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/19/world/asia/russia-china-united-states-oil-joint-statement.html"
             }
           ],
           "rank": 2
         },
         {
-          "title": "北京发布大风蓝色预警",
-          "titleOrig": "【受权发布】北京11月19日19时45分继续发布大风蓝色预警信号 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wLUNlOEcyVGtCbGZPR0NvY2hUTFNwS3Y5Zm9iem5Nci1wLWs2eG9iYlVYT0lCenN2TWxZS0x4cEJTN3JCZTh1X2xrMVE?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "Anthropic上市",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=Anthropic%E4%B8%8A%E5%B8%82",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-19T11:52:00+00:00",
-          "desc": "【受权发布】北京11月19日19时45分继续发布大风蓝色预警信号 凤凰网北京今明两天，北风强劲！注意防寒保暖 北京市人民政府门户网站故宫现在天气怎么样？11月19日阵风7级实况+游览建议+FAQ 新浪财经_金融信息服务商早安北京1119：白天阵风明显；海淀今年“上新”41片运动场地 新京报今明两天北京北风较大，风寒效应明显 阵风可达7级左右 中华网",
-          "hotLabel": "",
-          "summary": "北京市发布大风蓝色预警，提醒市民注意防寒保暖。",
-          "analysis": "北京市发布大风蓝色预警，体现了政府部门对极端天气的预警和应对能力。这一预警反映了我国在气象灾害预防方面的政策意图，即加强公共安全管理和应急响应。大风天气对市民出行、交通和城市基础设施可能造成一定影响，对民生和经济活动产生间接影响。后续可能需要加强城市基础设施的维护和加固，以及提高公众的防灾减灾意识。关键词：大风预警、公共安全、气象灾害、民生影响、城市安全。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "人工智能公司Anthropic在中国上市",
+          "analysis": "Anthropic的上市反映了中国人工智能行业的快速发展，以及国内外投资者对人工智能领域的关注。这一事件可能推动中国人工智能技术的创新和产业升级，对经济有积极影响。同时，也意味着中国在全球人工智能竞争中的地位日益提升。后续可能看到更多人工智能企业上市，推动行业进一步发展。",
           "keywords": [
-            "大风预警",
-            "公共安全",
-            "气象灾害",
-            "民生影响",
-            "城市安全"
+            "人工智能",
+            "上市",
+            "Anthropic"
           ],
-          "category": "domestic",
-          "importance": 85,
+          "category": "economy",
+          "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9wLUNlOEcyVGtCbGZPR0NvY2hUTFNwS3Y5Zm9iem5Nci1wLWs2eG9iYlVYT0lCenN2TWxZS0x4cEJTN3JCZTh1X2xrMVE?oc=5"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/japan-china-trump-takaichi-taiwan-.html"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=Anthropic%E4%B8%8A%E5%B8%82"
             }
           ],
           "rank": 3
         },
         {
-          "title": "韩国前第一夫人金建希首案终审获刑4年",
-          "titleOrig": "韩国前第一夫人金建希首案终审被判有期徒刑4年 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mNWxHMEMtdzRmQzFicTdIT1JEbVUweEVDbDBZX3lrR0MxTW9tWl8xY2RkSnkyTTNpbi1TNHpXWGcxMzNqS3hBbHctT21adGtZRGNCdVYwMzBscmxiR1RicW9sa3NpZ1NX?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-19T13:54:49+00:00",
-          "desc": "韩国前第一夫人金建希首案终审被判有期徒刑4年 中国新闻网在Google 新闻上查看更多头条新闻和观点",
+          "title": "习近平、特朗普和普京峰会：历史新篇章还是一笔注脚？",
+          "titleOrig": "New page in history? Xi, Trump and Putin summit was more of a footnote",
+          "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T15:35:01+00:00",
+          "desc": "Far from the grand ambitions declared in Yalta in 1945, Shenzhen felt like a meeting in search of an agendaIt is arguably true, given it was the first such meeting of the leaders of China, Russia and the US, that Thursday’s gathering in Shenzhen deserved the description of “historic”.But in terms of",
           "hotLabel": "",
-          "summary": "韩国前第一夫人金建希因首案终审被判有期徒刑4年。",
-          "analysis": "此案反映了韩国法律对公职人员违法行为的严肃态度。对国内而言，此事件可能加强了中国民众对法律公正性的信心。同时，它也提醒公职人员必须遵守法律，对提升国内治理水平具有积极意义。后续可能引发对国际关系和外交政策的讨论。",
+          "summary": "中国、俄罗斯和美国领导人峰会举行，引发国际关注。",
+          "analysis": "此次峰会是三国领导人首次会晤，具有历史意义。其背景是国际政治经济格局的变化，以及中美俄三边关系的新动态。对国内而言，这表明中国在国际舞台上的地位日益重要，对国际治理和全球战略格局有重要影响。后续可能有三方合作的深化，也可能出现新的国际政治博弈。",
           "keywords": [
-            "韩国",
-            "第一夫人",
-            "金建希",
-            "终审",
-            "有期徒刑"
+            "峰会",
+            "习近平",
+            "特朗普",
+            "普京",
+            "国际关系"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 90,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1mNWxHMEMtdzRmQzFicTdIT1JEbVUweEVDbDBZX3lrR0MxTW9tWl8xY2RkSnkyTTNpbi1TNHpXWGcxMzNqS3hBbHctT21adGtZRGNCdVYwMzBscmxiR1RicW9sa3NpZ1NX?oc=5"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
+            },
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 4
         },
         {
-          "title": "蒙古国总统呼日勒苏赫正式卸任",
-          "titleOrig": "蒙古国总统呼日勒苏赫正式卸任 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9qMVRrZ3J4T095d0dmckU3ZVkzNWRXZmxzMVJ5aTZ2Qk5zdmFITl82c0hkbWd6amJzMFhnMGl6bTVOUnFXZkc4VTFnLWs?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
+          "title": "高市早苗抵达深圳",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-19T12:47:02+00:00",
-          "desc": "蒙古国总统呼日勒苏赫正式卸任 凤凰网蒙古国议会审议通过总统呼日勒苏赫的辞职申请 新浪新闻_手机新浪网蒙古国总统宣布辞职，称愿接受调查以恢复名誉 中国青年网毫无征兆辞去总统职务，蒙古国的问题，比表面看上去复杂得多 Sohu突发！蒙古国总统宣布辞职 观察者网",
-          "hotLabel": "",
-          "summary": "蒙古国总统呼日勒苏赫宣布辞职，议会通过辞职申请。",
-          "analysis": "呼日勒苏赫的辞职可能与蒙古国内政治局势、经济发展压力以及外部影响有关。这反映了蒙古国政治体制的不稳定性和治理挑战。对国内民生而言，可能带来政治不确定性，影响经济稳定。后续可能引发蒙古国政治权力的重新分配，对中蒙关系及区域安全稳定产生重要影响。",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#1",
+          "summary": "日本外务大臣访问深圳",
+          "analysis": "高市早苗抵达深圳是中日关系互动的一部分，背后反映了两国在政治、经济和文化领域的交流与合作意愿。此次访问可能涉及双边关系改善、经贸合作以及地区安全议题。对国内民生而言，可能意味着中日关系的稳定有助于区域和平与繁荣；对经济而言，可能促进中日贸易和投资；对治理意味着国际关系和外交政策的重要性。",
           "keywords": [
-            "蒙古国",
-            "总统辞职",
-            "政治局势",
-            "中蒙关系",
-            "区域安全"
+            "中日关系",
+            "外交访问",
+            "深圳"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9qMVRrZ3J4T095d0dmckU3ZVkzNWRXZmxzMVJ5aTZ2Qk5zdmFITl82c0hkbWd6amJzMFhnMGl6bTVOUnFXZkc4VTFnLWs?oc=5"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
             }
           ],
           "rank": 5
         },
         {
-          "title": "新一轮国资国企改革全面实施 国资委要求防止“救助型”并购",
-          "titleOrig": "新一轮国资国企改革全面实施 国资委要求防止“救助型”并购 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkZKLVdXbkdDVW9pbWZ6ZWVKYlJFWERqRmxLcU9TNHU4Rk9WVWFVWi01aHRQZEtvSlhweFJ6ZnRJQmpzVjB4cUxvdjhIdVRJQ3YwU0doNFoyWXFmZnVwbWR3VHdsTldWY3piQWdsZ3RSOHhOa25oTXBsVXluY0Q0YWVB?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-19T03:14:39+00:00",
-          "desc": "新一轮国资国企改革全面实施 国资委要求防止“救助型”并购 新华网新一轮国资国企改革全面实施 凤凰网国务院国资委：央企改革成效将继续纳入经营业绩考核加减分项 ThePaper.cn事关国有资本布局优化！国务院国资委发声 Sohu新一轮国资国企改革规划部署基本完成 中国青年网",
+          "title": "加州针对英伟达在中国AI芯片进行调查",
+          "titleOrig": "California targets Nvidia in China AI chip probe",
+          "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T23:04:30+00:00",
+          "desc": "The probe by California, where the AI chipmaker has its global headquarters, follows former CEO Jensen Huang's departure.",
           "hotLabel": "",
-          "summary": "新一轮国资国企改革全面展开，国资委强调防止“救助型”并购。",
-          "analysis": "新一轮国资国企改革的全面实施，体现了中国政府对国有企业改革深化和优化国有资本布局的决心。国资委要求防止“救助型”并购，意味着政府将更加注重国有企业的市场竞争力，避免资源错配。这对国内经济意味着国企将更加市场化，对治理意味着提高国有资产管理效率和透明度。后续可能看到国企改革步伐加快，市场竞争加剧。",
+          "summary": "加州对AI芯片制造商英伟达在中国AI芯片进行调查。",
+          "analysis": "这一调查反映了美国对技术出口管制的加强，特别是针对中国。英伟达作为全球领先的AI芯片制造商，其业务受到的影响可能波及整个行业。后续可能看到更多关于技术出口和地缘政治的紧张关系。",
           "keywords": [
-            "国资国企改革",
-            "市场化",
-            "国有资本布局",
-            "救助型并购",
-            "国企竞争力"
+            "英伟达",
+            "AI芯片",
+            "加州调查",
+            "技术出口",
+            "地缘政治"
           ],
-          "category": "economy",
-          "importance": 85,
+          "category": "international",
+          "importance": 75,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOYkZKLVdXbkdDVW9pbWZ6ZWVKYlJFWERqRmxLcU9TNHU4Rk9WVWFVWi01aHRQZEtvSlhweFJ6ZnRJQmpzVjB4cUxvdjhIdVRJQ3YwU0doNFoyWXFmZnVwbWR3VHdsTldWY3piQWdsZ3RSOHhOa25oTXBsVXluY0Q0YWVB?oc=5"
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 6
+          "rank": 11
         },
         {
-          "title": "美国总统特朗普抵达深圳",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "习近平、特朗普和普京三边会谈：达成了什么成果？",
+          "titleOrig": "Xi Jinping, Donald Trump and Vladimir Putin have held trilateral talks ― but what did they achieve?",
+          "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T17:52:00+00:00",
+          "desc": "The presidents of China, the US and Russia have held an unprecedented summit. While Trump said the three leaders were \"making history,\" Xi described the talks as \"fruitful\" and Putin called them \"open and candid.\"",
           "hotLabel": "",
-          "summary": "美国总统特朗普访问深圳，引发国际关注。",
-          "analysis": "特朗普访问深圳体现了中美两国在经济、科技等领域的交流与合作。此行可能旨在促进两国关系，推动双边贸易和投资。对中国而言，这有助于提升国际形象，但同时也可能引发国内关于中美关系的讨论。后续可能涉及更多经贸合作协议的签署。",
+          "summary": "中美俄三国领导人举行会谈，成果引人关注。",
+          "analysis": "会谈是三国关系的重要事件，反映了当前国际政治经济形势的复杂性。对国内而言，这表明中国在国际事务中的影响力增强，有助于维护多边主义和促进全球治理。后续可能有三国在特定领域的合作，也可能出现新的国际政治议题。",
           "keywords": [
+            "会谈",
+            "习近平",
             "特朗普",
-            "深圳",
-            "中美关系",
-            "经贸合作",
-            "国际访问"
+            "普京",
+            "国际政治"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%BE%8E%E5%9B%BD%E6%80%BB%E7%BB%9F%E7%89%B9%E6%9C%97%E6%99%AE%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/xi-jinping-donald-trump-and-vladimir-putin-have-held-trilateral-talks-―-but-what-did-they-achieve/a-79996668?maca=en-rss-en-all-1573-rdf"
             },
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/19/five-takeaways-from-putin-trump-xi-apec-shenzhen-summit"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/19/trump-xi-putin-trilateral-meeting-china.html"
+              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
             }
           ],
           "rank": 7
         },
         {
-          "title": "雷军APEC发言",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%9B%B7%E5%86%9BAPEC%E5%8F%91%E8%A8%80",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "海信视像入选领航级智能工厂培育名单",
+          "titleOrig": "海信视像入选领航级智能工厂培育名单 - 中国科技网",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JajQzcG1QMWpjTFFqUGt4TWZIU2pYVkhyZ2o1VC1YazhzeU1oZklKUmJaTmZVUHlJTTgwUDlUUzBoVEsxbjVXd0J5QkNJd1NtQm1xNGpuM25STS1pQWtfaWJyai1RUzNkaENlV2FabDA?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-19T14:42:30+00:00",
+          "desc": "海信视像入选领航级智能工厂培育名单 中国科技网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "小米创始人雷军在APEC会议上发表演讲。",
-          "analysis": "雷军在APEC的发言反映了我国科技企业的国际影响力，以及国家对于科技创新和产业升级的重视。这背后体现了我国政策意图，即通过推动科技创新来提升国家竞争力。对国内民生而言，这有助于提高人民生活水平；对经济而言，有助于推动产业升级和经济增长；对治理意味着，需要加强知识产权保护，营造良好的创新环境。后续走向可能包括更多科技企业的国际化，以及国家政策对科技创新的进一步支持。",
+          "summary": "海信视像被选为领航级智能工厂培育对象。",
+          "analysis": "海信视像入选领航级智能工厂培育名单，体现了国家对智能制造产业的支持和鼓励。这一举措有助于推动企业技术升级，提高生产效率和产品质量。对社会和经济发展来说，智能制造是产业转型升级的关键，有助于提高国家竞争力。后续可能带动更多企业进行智能化改造。",
           "keywords": [
-            "雷军",
-            "APEC",
-            "科技创新",
+            "智能制造",
             "产业升级",
-            "国际影响力"
+            "技术进步",
+            "海信视像"
           ],
-          "category": "international",
-          "importance": 85,
+          "category": "tech",
+          "importance": 80,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%9B%B7%E5%86%9BAPEC%E5%8F%91%E8%A8%80"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9JajQzcG1QMWpjTFFqUGt4TWZIU2pYVkhyZ2o1VC1YazhzeU1oZklKUmJaTmZVUHlJTTgwUDlUUzBoVEsxbjVXd0J5QkNJd1NtQm1xNGpuM25STS1pQWtfaWJyai1RUzNkaENlV2FabDA?oc=5"
             }
           ],
           "rank": 8
-        },
-        {
-          "title": "香港碎尸案蔡天凤前夫首次出庭作供：承认与再婚妻子保持亲密关系",
-          "titleOrig": "香港碎尸案蔡天凤前夫首次出庭作供：承认对方再婚后，仍保持亲密关系 - 凤凰网",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1MajczUXJYZ3BfQ1RRY0gyeW9CS1Y5dHJSYkxCSWdLZUZReWdkWEhfYTlRa3RYN1RBRTdRMWRpd0I2QkliUlRmREg1aXA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-19T09:56:15+00:00",
-          "desc": "香港碎尸案蔡天凤前夫首次出庭作供：承认对方再婚后，仍保持亲密关系 凤凰网蔡天凤案最新：前公公承认对肢解负全责，但绝没有事前计划杀害；事发时叫两个儿子离开，自己对着装尸体的塑料箱发呆 ThePaper.cn邝球称精神崩溃忘记肢解过程，青红萝卜是喂流浪猫狗，刀上血迹解释为萝卜汁 Sohu邝港智供称被谭方骏示爱曾与谭蔡三人同睡一张床｜即时新闻｜中港台｜on.cc东网 on.cc東網蔡天凤碎尸案扑朔迷离 前夫称与蔡现任老公陷“复杂”关系 财新",
-          "hotLabel": "",
-          "summary": "香港碎尸案中，蔡天凤前夫首次出庭，承认与再婚妻子保持亲密关系。",
-          "analysis": "此案反映了香港社会对家庭暴力和婚姻关系的关注。案件背后可能涉及复杂的家庭纠纷和社会问题。对国内民生影响较大，可能引发对家庭暴力的讨论和关注。后续可能涉及法律程序和社会舆论的进一步发酵。",
-          "keywords": [
-            "香港碎尸案",
-            "蔡天凤",
-            "家庭暴力",
-            "婚姻关系",
-            "法律程序"
-          ],
-          "category": "society",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1MajczUXJYZ3BfQ1RRY0gyeW9CS1Y5dHJSYkxCSWdLZUZReWdkWEhfYTlRa3RYN1RBRTdRMWRpd0I2QkliUlRmREg1aXA?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "越山海｜在深圳，看见中国机遇",
-          "titleOrig": "越山海｜在深圳，看见中国机遇 - 人民网",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GcUpiWjFQd1VTX0FDSklFQXJxTE5NOWxQMFdVOXNyOHp6ZkFCbmVsVEFXc3VsU1pTOUZtNzlSbWQtSEZLU0x1T0h3TWEzWGwxQ0NGMV9WUzBaOVN5TjZqM0FEQTJ0eDR0c0VfS3dzZTJrZw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-19T04:50:00+00:00",
-          "desc": "越山海｜在深圳，看见中国机遇 人民网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "报道了在深圳看到的中国发展机遇。",
-          "analysis": "此报道反映了中国经济的活力和潜力。对国内经济有积极影响，有助于提升国内外对中国市场的信心。后续可能吸引更多投资和人才。",
-          "keywords": [
-            "深圳",
-            "中国机遇",
-            "经济发展",
-            "投资环境",
-            "人才流动"
-          ],
-          "category": "economy",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5GcUpiWjFQd1VTX0FDSklFQXJxTE5NOWxQMFdVOXNyOHp6ZkFCbmVsVEFXc3VsU1pTOUZtNzlSbWQtSEZLU0x1T0h3TWEzWGwxQ0NGMV9WUzBaOVN5TjZqM0FEQTJ0eDR0c0VfS3dzZTJrZw?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html"
-            }
-          ],
-          "rank": 10
         },
         {
           "title": "传腾讯内部空前危机感",
@@ -1124,17 +1042,15 @@
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#1",
-          "summary": "腾讯内部出现前所未有的危机感。",
-          "analysis": "腾讯作为中国互联网巨头，其内部危机感的出现可能与市场竞争加剧、政策监管加强等因素有关。这反映出中国互联网行业面临的挑战和压力。对国内科技行业意味着企业需要不断创新，对治理意味着加强行业监管，促进健康竞争。",
+          "hotLabel": "",
+          "summary": "腾讯内部面临重大危机",
+          "analysis": "腾讯内部的危机感可能源于市场竞争加剧、监管环境变化等因素。这一事件对国内互联网行业具有警示作用，意味着企业需要不断创新以适应市场变化。对经济而言，可能影响互联网行业的整体发展；对社会而言，可能影响人们的娱乐和社交方式。后续可能看到腾讯进行战略调整或创新业务布局。",
           "keywords": [
             "腾讯",
-            "互联网行业",
-            "市场竞争",
-            "政策监管",
-            "创新"
+            "危机",
+            "互联网行业"
           ],
-          "category": "tech",
+          "category": "economy",
           "importance": 80,
           "sources": [
             {
@@ -1142,88 +1058,147 @@
               "url": "https://www.zhihu.com/search?q=%E4%BC%A0%E8%85%BE%E8%AE%AF%E5%86%85%E9%83%A8%E7%A9%BA%E5%89%8D%E5%8D%B1%E6%9C%BA%E6%84%9F"
             }
           ],
-          "rank": 11
+          "rank": 9
         },
         {
-          "title": "马斯克称缺席纽约峰会将在中国",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A7%B0%E7%BC%BA%E5%B8%AD%E7%BA%BD%E7%BA%A6%E5%B3%B0%E4%BC%9A%E5%B0%86%E5%9C%A8%E4%B8%AD%E5%9B%BD",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "title": "特朗普、习近平和普京在首次峰会寻求展示力量",
+          "titleOrig": "Trump, Xi and Putin Seek to Project Power at Their First Summit",
+          "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T22:04:42+00:00",
+          "desc": "The meeting in China appeared to be largely symbolic. After President Trump departed, President Vladimir V. Putin said that Russia would not negotiate with Ukraine on a cease-fire.",
           "hotLabel": "",
-          "summary": "特斯拉CEO马斯克表示将缺席纽约峰会，并计划在中国举办。",
-          "analysis": "马斯克的这一言论体现了中国在全球经济中的地位日益上升。事件背景是全球经济格局的变化，以及中国市场的巨大潜力。对国内民生而言，这有助于提升国内企业的国际竞争力；对经济而言，有助于吸引外资和促进经济增长；对治理意味着，需要进一步优化营商环境，提升国际竞争力。后续走向可能包括更多国际企业进入中国市场，以及中国在全球经济中的影响力进一步增强。",
+          "summary": "特朗普、习近平和普京在首次峰会中寻求展示力量。",
+          "analysis": "此次峰会具有象征意义，反映了大国领导人之间的互动和力量对比。特朗普离开后，普京的表态表明俄罗斯在乌克兰问题上的立场，这可能影响地区安全格局。后续可能涉及多边合作与地缘政治博弈。",
           "keywords": [
-            "马斯克",
-            "纽约峰会",
-            "中国市场",
-            "经济格局",
-            "国际竞争力"
+            "特朗普",
+            "习近平",
+            "普京",
+            "峰会",
+            "地缘政治"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A7%B0%E7%BC%BA%E5%B8%AD%E7%BA%BD%E7%BA%A6%E5%B3%B0%E4%BC%9A%E5%B0%86%E5%9C%A8%E4%B8%AD%E5%9B%BD"
-            },
-            {
               "name": "NYT World",
               "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "数据中心到2030年碳排放将增加70%，IEA报告警告",
+          "titleOrig": "Datacentres to create 70% more carbon emissions by 2030, IEA report warns",
+          "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T05:00:18+00:00",
+          "desc": "Global energy watchdog forecasts huge rise as US and China turn to fossil fuels to power AI growth agendas The world’s datacentres will create 70% more carbon emissions within the next four years as the US and China turn to fossil fuels to power their AI growth agendas, according to the world’s ener",
+          "hotLabel": "",
+          "summary": "全球数据中心碳排放预计大幅增加。",
+          "analysis": "报告指出，随着中美两国对人工智能的重视，数据中心将依赖化石燃料，导致碳排放增加。这反映了全球能源结构转型和环境保护之间的矛盾。对国内而言，意味着在推动科技创新的同时，必须重视绿色低碳发展。后续可能看到中国在数据中心建设和运营中加强环保措施。",
+          "keywords": [
+            "数据中心",
+            "碳排放",
+            "人工智能",
+            "能源结构",
+            "环境保护"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "外国领导人的“深圳足迹”：逛校园、逛超市、推广车厘子……",
+          "titleOrig": "外国领导人的“深圳足迹”：逛校园、逛超市、推广车厘子…… - 新京报",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VYVJ2Q2tPTmdnZUpKVWVRNlVhZ21fenh1OHBFa3diZnhpZVJNbVo0V2lJQllDZWRzS3RYMTBuNUpFWW9MMktiaC1sMzJMT1MxbWtyT0piUC14ZkV0MmRaWl9fYVc?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-19T13:14:00+00:00",
+          "desc": "外国领导人的“深圳足迹”：逛校园、逛超市、推广车厘子…… 新京报这扇窗 装下深圳40年风华变迁 新浪财经_金融信息服务商佳话现场·你好APEC丨从“国际手账”看深圳！三个现场读懂创新之城“待客之道” 光明网“希望我的祖国也能有一个深圳”，火了！ 凤凰网和合共生｜“敞开让你看”：外国政要们在深圳沉浸式感受中国 ThePaper.cn",
+          "hotLabel": "",
+          "summary": "外国领导人访问深圳，体验当地生活与经济",
+          "analysis": "该新闻展示了外国领导人访问深圳的活动，反映了深圳作为中国改革开放窗口的形象。这对中国在国际上的形象有积极影响，同时表明深圳经济的活力和开放度。后续可能的发展是，深圳将继续作为国际交流的平台，吸引更多外国投资者。",
+          "keywords": [
+            "外国领导人",
+            "深圳",
+            "改革开放",
+            "国际交流",
+            "经济活力"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1VYVJ2Q2tPTmdnZUpKVWVRNlVhZ21fenh1OHBFa3diZnhpZVJNbVo0V2lJQllDZWRzS3RYMTBuNUpFWW9MMktiaC1sMzJMT1MxbWtyT0piUC14ZkV0MmRaWl9fYVc?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/new-page-in-history-xi-trump-and-putin-summit-was-more-of-a-footnote"
             },
             {
               "name": "NYT World",
               "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html"
             }
           ],
           "rank": 12
         },
         {
-          "title": "歌尔入选2026年度领航级智能工厂培育名单",
-          "titleOrig": "歌尔入选2026年度领航级智能工厂培育名单 - 中国科技网",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vdWh2UkVWQ3dEbVhNaUd0N0NCLXltalFzVUN5eGdUcWRpb3RxSVFsZERaWE5tcDBxbkc5X2w5aTRNWWc1MzVCNy1WbFllQXBVRUxjTmJvWHZNYVpWcnFLNHVmakFaQUdkLXZzN2daTjE?oc=5",
+          "title": "国家广播电视总局举办电视剧《伟大的长征》创作座谈会",
+          "titleOrig": "国家广播电视总局举办电视剧《伟大的长征》创作座谈会 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweVJZWElCMmpfZlNaVmxyUDd2RTQtdFltRWVkNFB5YWVPOUVMQ1JEWHhGcFBnNXh6a19VRXg5WVFVZW5IalA1QjVqQlhDaTFBdnNidG1tcUZqaG10Nnh4SGRjZEdGeFczZmc?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-19T12:53:35+00:00",
-          "desc": "歌尔入选2026年度领航级智能工厂培育名单 中国科技网“智造江宁”风帆劲 新华网江苏频道十年聚势，AI启新：在南京，看见新一代智能制造的时代航向 凤凰网江苏海信视像入选领航级智能工厂培育名单 光明网2026世界智能制造大会在宁开幕共探新一代智能制造发展路径- 中国日报网 China Daily",
+          "publishedAt": "2026-11-19T13:55:31+00:00",
+          "desc": "国家广播电视总局举办电视剧《伟大的长征》创作座谈会 中国新闻网三问《伟大的长征》主创（面对面） 人民日报《伟大的长征》创作座谈会：以长征精神拍长征，创革命题材收视新标杆 ThePaper.cn《伟大的长征》收官，创下2019年以来革命题材剧收视率第一 新浪财经_金融信息服务商今天的中国人，又要重走长征路了 观察者网",
           "hotLabel": "",
-          "summary": "歌尔被选为2026年度领航级智能工厂培育名单之一。",
-          "analysis": "这体现了中国政府对智能制造产业的支持和推动。对国内经济有积极影响，有助于提升中国制造业的智能化水平。后续可能带动相关产业链的发展和创新。",
+          "summary": "国家广播电视总局召开电视剧《伟大的长征》创作座谈会。",
+          "analysis": "电视剧《伟大的长征》的创作座谈会，是国家广播电视总局推动革命题材影视作品创作的具体体现。这反映了国家对弘扬长征精神的重视，以及对文化产业发展的引导。对国内民生而言，有助于传承红色基因，提升国民文化自信。对经济来说，革命题材影视作品能够带动相关产业的发展。后续可能推出更多类似题材的作品。",
           "keywords": [
-            "歌尔",
-            "智能工厂",
-            "智能制造",
-            "产业升级",
-            "政策支持"
+            "长征精神",
+            "影视创作",
+            "文化产业",
+            "广播电视总局"
           ],
-          "category": "economy",
+          "category": "society",
           "importance": 75,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5vdWh2UkVWQ3dEbVhNaUd0N0NCLXltalFzVUN5eGdUcWRpb3RxSVFsZERaWE5tcDBxbkc5X2w5aTRNWWc1MzVCNy1WbFllQXBVRUxjTmJvWHZNYVpWcnFLNHVmakFaQUdkLXZzN2daTjE?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFAweVJZWElCMmpfZlNaVmxyUDd2RTQtdFltRWVkNFB5YWVPOUVMQ1JEWHhGcFBnNXh6a19VRXg5WVFVZW5IalA1QjVqQlhDaTFBdnNidG1tcUZqaG10Nnh4SGRjZEdGeFczZmc?oc=5"
             }
           ],
           "rank": 13
         },
         {
-          "title": "失业男子断供房贷被判非恶意断供",
+          "title": "知乎智能搜索全新上线",
           "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%A4%B1%E4%B8%9A%E7%94%B7%E5%AD%90%E6%96%AD%E4%BE%9B%E6%88%BF%E8%B4%B7%E8%A2%AB%E5%88%A4%E9%9D%9E%E6%81%B6%E6%84%8F%E6%96%AD%E4%BE%9B",
+          "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E5%85%A8%E6%96%B0%E4%B8%8A%E7%BA%BF",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1233,219 +1208,210 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "失业男子因断供房贷被判非恶意断供，引发社会关注。",
-          "analysis": "此事件反映了当前经济环境下，部分群体面临的就业和财务压力。法院的判决可能对类似案件的处理产生指导作用，有利于维护弱势群体的合法权益。同时，也可能促使金融机构在贷款政策上更加人性化。",
+          "summary": "知乎推出智能搜索功能",
+          "analysis": "知乎智能搜索的上线是内容平台技术创新的体现，有助于提升用户体验和搜索效率。对用户而言，意味着更便捷的知识获取方式；对知乎而言，可能增强其作为知识社区的地位。对整个互联网行业，可能推动其他平台进行类似的技术创新。后续可能看到更多智能搜索功能的推出。",
           "keywords": [
-            "失业",
-            "断供",
-            "房贷",
-            "非恶意断供",
-            "社会公平"
+            "知乎",
+            "智能搜索",
+            "技术创新"
           ],
-          "category": "society",
+          "category": "tech",
           "importance": 75,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%A4%B1%E4%B8%9A%E7%94%B7%E5%AD%90%E6%96%AD%E4%BE%9B%E6%88%BF%E8%B4%B7%E8%A2%AB%E5%88%A4%E9%9D%9E%E6%81%B6%E6%84%8F%E6%96%AD%E4%BE%9B"
+              "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E6%99%BA%E8%83%BD%E6%90%9C%E7%B4%A2%E5%85%A8%E6%96%B0%E4%B8%8A%E7%BA%BF"
             }
           ],
           "rank": 14
         },
         {
-          "title": "《伟大的长征》创作座谈会：以长征精神拍长征，创革命题材收视新标杆",
-          "titleOrig": "《伟大的长征》创作座谈会：以长征精神拍长征，创革命题材收视新标杆 - ThePaper.cn",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LcjNjNEJJUkRiMzFTX1BMaE91UzBFUkVSSG5tcEJYZjFfQUxVMWJOVWs0dUoyZXFXLWYzSG5XemZ3Mm51b201VThhY2dfRncwWjFTS2JaOVNTa3d2cjlvXw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-19T11:28:11+00:00",
-          "desc": "《伟大的长征》创作座谈会：以长征精神拍长征，创革命题材收视新标杆 ThePaper.cn三问《伟大的长征》主创（面对面） 人民日报于和伟谈饰演毛主席：很难回答形似还是神似，表达精神更重要 新浪财经_金融信息服务商长征题材史诗之作实现多项新突破 Sohu今天的中国人，又要重走长征路了 观察者网",
+          "title": "美国批准向中国公司出售超过87.9万颗AI芯片",
+          "titleOrig": "Commerce approved sales of more than 879,000 AI chips to Chinese companies, Rep. Mast says",
+          "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-19T21:43:30+00:00",
+          "desc": "Members of Congress have pushed in the wake of the Jensen Huang scandal for legislation to tighten export controls on chip sales to China.",
           "hotLabel": "",
-          "summary": "《伟大的长征》创作座谈会上，强调以长征精神拍摄长征，创新革命题材收视新标杆。",
-          "analysis": "此事件体现了中国对革命历史文化的重视。对国内社会有积极影响，有助于传承和弘扬长征精神。后续可能推动更多革命题材作品的创作和传播。",
+          "summary": "美国批准向中国公司出售大量AI芯片，引发出口控制讨论。",
+          "analysis": "此举可能加剧中美在技术领域的竞争。在Jensen Huang事件后，美国国会对芯片出口中国实施更严格的控制，这表明美国对技术出口的担忧。此举可能影响全球半导体供应链，并对中美两国在人工智能领域的竞争格局产生影响。",
           "keywords": [
-            "长征",
-            "革命题材",
-            "文化传承",
-            "影视创作",
-            "社会影响"
+            "AI芯片",
+            "出口控制",
+            "中美关系",
+            "半导体产业",
+            "技术竞争"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 85,
           "sources": [
             {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1LcjNjNEJJUkRiMzFTX1BMaE91UzBFUkVSSG5tcEJYZjFfQUxVMWJOVWs0dUoyZXFXLWYzSG5XemZ3Mm51b201VThhY2dfRncwWjFTS2JaOVNTa3d2cjlvXw?oc=5"
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/19/nvidia-amd-china-chip-sales-congress.html"
             }
           ],
-          "rank": 15
+          "rank": 5
         },
         {
-          "title": "第二十八届哈尔滨冰雪大世界造雪工作正式启动",
-          "titleOrig": "第二十八届哈尔滨冰雪大世界造雪工作正式启动 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MNTBVYUQwY09KTlFJU0tCSi1UUjdnWmlDcGFGUm1pZ0pXd3JNa0c0UDd5ZGZfaVo3b0xHUE5FUzEzZF93Y0YxWk8xbkh4X0lNd0pFWlJ6OV91SVplN3F5Tl9BUkRyeTliWjJEUjczOFg1X0VDd1ZyR1hXMk5UN0E?oc=5",
+          "title": "咳嗽喘气别大意！四川省人民医院开展慢阻肺义诊",
+          "titleOrig": "咳嗽喘气别大意！四川省人民医院开展慢阻肺义诊 - 新浪财经_金融信息服务商",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcUREaUgwS3JuRzRENTV6Nk5Kd1RTSDBSS0JfeVZ1MkJEeDQ4bE9fbWxqY3dwc0duaGpGb2ZaSW5NOGZaWGtvYWFiZGhnZ1BxcGpTVlZRal9Kc21tXzg3N2hyYUluYmw5blVZc2pxWnFiUFBkRFhmd2ZRamN5SmlLOVdjcUV1WTZLbTJQV2hrcFozMTB2c2pJbHlWdWxYT0ExQjdXN1ItZzV0cE9ERXRQMkNrempad2ZyQmpKS0RuUFd1RTFLWkRla3VfZktSY1k5Y25rMXpaOA?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-19T02:34:39+00:00",
-          "desc": "第二十八届哈尔滨冰雪大世界造雪工作正式启动 新华网哈尔滨冰雪大世界启动造雪 首批雪料将打造“雪人一家” 中国日报网哈尔滨太阳岛雪博会连夜造雪 第三十九届雪博会启动制雪 中华网第二十八届哈尔滨冰雪大世界造雪工作正式启动# 凤凰网第39届太阳岛雪博会正式开启制雪 Sohu",
+          "publishedAt": "2026-11-19T17:57:45+00:00",
+          "desc": "咳嗽喘气别大意！四川省人民医院开展慢阻肺义诊 新浪财经_金融信息服务商西安市中心医院丨寒冬降温，护好你的肺 手机新浪网问康有道｜这些隐匿诱因正在悄悄伤你的肺 央视网科学与健康丨世界慢阻肺病日：我国慢阻肺病防治网络日益健全 新华网早诊断早管理·共创美好生活｜2026年“世界慢阻肺日”主题宣传活动在南宁举办 凤凰网",
           "hotLabel": "",
-          "summary": "哈尔滨冰雪大世界造雪工作启动，打造“雪人一家”等雪景。",
-          "analysis": "哈尔滨冰雪大世界作为一项重要的文化旅游活动，其造雪工作的启动体现了中国对文化旅游产业的支持。此举有助于推动地方经济发展，提升城市形象，同时也是传承和弘扬冰雪文化的体现。对国内民生而言，此类活动丰富了民众的文化生活，对经济则有助于促进旅游消费，对治理意味着通过文化产业发展提升城市软实力。",
+          "summary": "四川省人民医院开展慢阻肺义诊，提高公众对疾病的认识",
+          "analysis": "该新闻关注了四川省人民医院针对慢阻肺的义诊活动，反映了社会对公共卫生问题的关注。这对国内民生意味着提高公众对慢性阻塞性肺疾病的认识，对经济影响较小。后续可能的发展是，政府和社会将更加重视慢性病的预防和治疗。",
           "keywords": [
-            "哈尔滨冰雪大世界",
-            "文化旅游",
-            "地方经济",
-            "城市形象",
-            "冰雪文化"
+            "慢阻肺",
+            "公共卫生",
+            "四川省人民医院",
+            "疾病预防",
+            "健康意识"
           ],
           "category": "society",
           "importance": 70,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9MNTBVYUQwY09KTlFJU0tCSi1UUjdnWmlDcGFGUm1pZ0pXd3JNa0c0UDd5ZGZfaVo3b0xHUE5FUzEzZF93Y0YxWk8xbkh4X0lNd0pFWlJ6OV91SVplN3F5Tl9BUkRyeTliWjJEUjczOFg1X0VDd1ZyR1hXMk5UN0E?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNcUREaUgwS3JuRzRENTV6Nk5Kd1RTSDBSS0JfeVZ1MkJEeDQ4bE9fbWxqY3dwc0duaGpGb2ZaSW5NOGZaWGtvYWFiZGhnZ1BxcGpTVlZRal9Kc21tXzg3N2hyYUluYmw5blVZc2pxWnFiUFBkRFhmd2ZRamN5SmlLOVdjcUV1WTZLbTJQV2hrcFozMTB2c2pJbHlWdWxYT0ExQjdXN1ItZzV0cE9ERXRQMkNrempad2ZyQmpKS0RuUFd1RTFLWkRla3VfZktSY1k5Y25rMXpaOA?oc=5"
             }
           ],
           "rank": 16
         },
         {
-          "title": "知乎数据开放平台新玩法",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E6%95%B0%E6%8D%AE%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E6%96%B0%E7%8E%A9%E6%B3%95",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "知乎数据开放平台推出新功能，用户互动模式升级。",
-          "analysis": "知乎数据开放平台的新玩法可能旨在提升用户体验，增加用户粘性。这反映了互联网企业对数据价值的重视，以及通过开放数据吸引更多开发者参与生态建设。长远来看，这可能推动内容平台的数据化、智能化发展。",
-          "keywords": [
-            "知乎",
-            "数据开放",
-            "用户体验",
-            "开发者生态",
-            "内容平台"
-          ],
-          "category": "tech",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E7%9F%A5%E4%B9%8E%E6%95%B0%E6%8D%AE%E5%BC%80%E6%94%BE%E5%B9%B3%E5%8F%B0%E6%96%B0%E7%8E%A9%E6%B3%95"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "农民工帮转讨薪网帖获刑4年",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=%E5%86%9C%E6%B0%91%E5%B7%A5%E5%B8%AE%E8%BD%AC%E8%AE%A8%E8%96%AA%E7%BD%91%E5%B8%96%E8%8E%B7%E5%88%914%E5%B9%B4",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "因帮助转发讨薪网帖，一名农民工被判刑4年。",
-          "analysis": "此事件揭示了我国在劳动权益保护方面的不足。事件背景是我国劳动市场存在一定程度的非法用工和欠薪问题，社会成因包括劳动者法律意识淡薄和执法力度不足。对国内民生而言，这表明了劳动者权益保护的重要性；对经济而言，可能影响社会稳定和经济发展；对治理意味着，需要加强劳动法律法规的执行和劳动者权益保护。后续走向可能包括劳动法律法规的修订和完善，以及劳动者权益保护意识的提升。",
-          "keywords": [
-            "农民工",
-            "讨薪",
-            "劳动权益",
-            "法律意识",
-            "社会稳定"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%86%9C%E6%B0%91%E5%B7%A5%E5%B8%AE%E8%BD%AC%E8%AE%A8%E8%96%AA%E7%BD%91%E5%B8%96%E8%8E%B7%E5%88%914%E5%B9%B4"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "中国：中美俄元首就乌克兰中东朝鲜半岛等重大国际问题交换意见 - 联合早报",
-          "titleOrig": "",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yUW9haklaQlU3THBjWjNKRVZXX2hEVWtiOGpWdVBRUDVCc21oSUZLVndUdDBqMWdGWllmNXVwdnN5MTUzRFgxM0RvbGxSMkZ1OUJrTjFjaHhSWkd4T3gyQkwwRFdwaE5uN05z?oc=5",
+          "title": "江苏首批8市秋假成绩单出炉：5天吸客1594万人次，研学游带热文旅",
+          "titleOrig": "江苏首批8市秋假成绩单出炉！5天吸客1594万人次，“行走的课堂”带热深秋文旅 - 紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVQlhVTkdpSERtRGtmRVhJRWsteWw2T19yUmxKNFQ5UUo5cTV4U2JndmFZdVB4SDE0Y0JDRHg0R0hLSk1fSHJJdERCX0FTRDB1Ymp2bHZZbDZnOUNEREtYcTZqTGJ2cGtZ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-19T12:01:53+00:00",
-          "desc": "中国：中美俄元首就乌克兰中东朝鲜半岛等重大国际问题交换意见 联合早报中美俄“三巨头”坐在了一起，世界正滑向大国共管吗？ BBC习近平主持中俄美元首会晤- 中国日报网 China Daily美中俄三方会谈 特朗普总统：我们正在创造历史，许多议题待讨论 美国之音德语媒体：三人同桌，谁说了算？ DW.com",
+          "publishedAt": "2026-11-19T13:53:00+00:00",
+          "desc": "江苏首批8市秋假成绩单出炉！5天吸客1594万人次，“行走的课堂”带热深秋文旅 紫牛新闻秋假热力足，南京江宁变身研学大课堂 新华网江苏频道“活”起来、“动”起来 秋假“偶遇”初雪趣味多孩子们乐享“童”款快乐 央视网秋假解锁新玩法，江苏多地研学游成首选 凤凰网江苏江苏发布春秋假“十个严禁” 新浪财经_金融信息服务商",
           "hotLabel": "",
-          "summary": "中国：中美俄元首就乌克兰中东朝鲜半岛等重大国际问题交换意见 …",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\n中国：中美俄元首就乌克兰中东朝鲜半岛等重大国际问题交换意见 联合早报中美俄“三巨头”坐在了一起，世界正滑向大国共管吗？ BBC习近平主持中俄美元首会晤- 中国日报网 China Daily美中俄三方会谈 特朗普总统：我们正在创造历史，许多议题待讨论 美国之音德语媒体：三人同桌，谁说了算？ DW.com",
-          "keywords": [],
+          "summary": "江苏首批8市秋假期间，研学旅游吸引大量游客，带动文旅市场活力。",
+          "analysis": "江苏首批8市秋假成绩单的出炉，反映了当前国内政策对研学旅游的重视。此举旨在通过‘行走的课堂’模式，将教育与旅游相结合，提升青少年的综合素质。对社会而言，这不仅促进了旅游经济的发展，也丰富了民众的文化生活。对经济来说，研学游成为新的增长点，有助于稳定和扩大内需。后续可能进一步推广至全国，成为常态化的教育方式。",
+          "keywords": [
+            "研学旅游",
+            "文旅市场",
+            "经济增长",
+            "教育结合"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBVQlhVTkdpSERtRGtmRVhJRWsteWw2T19yUmxKNFQ5UUo5cTV4U2JndmFZdVB4SDE0Y0JDRHg0R0hLSk1fSHJJdERCX0FTRDB1Ymp2bHZZbDZnOUNEREtYcTZqTGJ2cGtZ?oc=5"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "拼音成为单词，文化出海再添新符号",
+          "titleOrig": "拼音成单词，文化出海再添新符号 - 中国经济网",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qSkFkUjJHZU41WUg1UEtvaVExWXJJNWM5Qm1scHc3U1J4U1kzcWJyTFZWaDRUNUtUa2JTVFhGQTBQYlp0ekw0b3RPalZFbG5UWE9UWnVCbkVxUXQ4Y3F3?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-19T23:15:00+00:00",
+          "desc": "拼音成单词，文化出海再添新符号 中国经济网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "拼音在国际上的使用增加，推动中国文化输出。",
+          "analysis": "拼音作为汉字的音译系统，其国际化使用有助于提升中国文化的国际认知度。此举背后反映了中国政府推动文化出海、提升软实力的政策意图。对国内而言，这有助于增强文化自信，促进文化产业的发展。后续可能看到拼音在国际教育、媒体传播等领域的进一步推广。",
+          "keywords": [
+            "拼音",
+            "文化出海",
+            "国际化",
+            "软实力",
+            "文化产业"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9qSkFkUjJHZU41WUg1UEtvaVExWXJJNWM5Qm1scHc3U1J4U1kzcWJyTFZWaDRUNUtUa2JTVFhGQTBQYlp0ekw0b3RPalZFbG5UWE9UWnVCbkVxUXQ4Y3F3?oc=5"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "大风预警生效中！北京今天北风仍强劲 双休日晴天为主适宜出行",
+          "titleOrig": "大风预警生效中！北京今天北风仍强劲 双休日晴天为主适宜出行 - 天气网",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuLUN1eWZXUWVHOGJMMER2dTgyX2g1SkZOTW4yV0JCNm52ZHpyVEotaHF6b0djLUZjT2d4bmJpN3F4T2pyMDJ5VGNidWIwSlFsTEFMeThCQXVlUE93?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-19T23:13:48+00:00",
+          "desc": "大风预警生效中！北京今天北风仍强劲 双休日晴天为主适宜出行 天气网北京今明两天，北风强劲！注意防寒保暖 北京市人民政府门户网站故宫现在天气怎么样？11月19日阵风7级实况+游览建议+FAQ 新浪财经_金融信息服务商北京市发布大风蓝色预警 凤凰网早安北京1119：白天阵风明显；海淀今年“上新”41片运动场地 新京报",
+          "hotLabel": "",
+          "summary": "北京发布大风预警，周末天气晴朗适宜出行",
+          "analysis": "该新闻反映了北京地区当前的气象状况，大风预警的发布体现了政府对民众生命财产安全的重视。这对民生意味着民众需注意防寒保暖，对经济影响较小。后续走向可能包括持续关注天气变化，发布相关安全提示。",
+          "keywords": [
+            "大风预警",
+            "北京天气",
+            "民生安全",
+            "防寒保暖",
+            "气象预警"
+          ],
           "category": "domestic",
           "importance": 60,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE0yUW9haklaQlU3THBjWjNKRVZXX2hEVWtiOGpWdVBRUDVCc21oSUZLVndUdDBqMWdGWllmNXVwdnN5MTUzRFgxM0RvbGxSMkZ1OUJrTjFjaHhSWkd4T3gyQkwwRFdwaE5uN05z?oc=5"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/live/2026/11/18/world/trump-xi-putin-apec"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/19/world/asia/xi-putin-trump-meeting-china-russia.html"
-            },
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/18/world/canada/trump-carney-meeting-asia-us-canada-trade.html"
+              "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBuLUN1eWZXUWVHOGJMMER2dTgyX2g1SkZOTW4yV0JCNm52ZHpyVEotaHF6b0djLUZjT2d4bmJpN3F4T2pyMDJ5VGNidWIwSlFsTEFMeThCQXVlUE93?oc=5"
             }
           ],
           "rank": 19
         },
         {
-          "title": "DeepSeek调整对话上限长度",
-          "titleOrig": "",
-          "url": "https://www.zhihu.com/search?q=DeepSeek%E8%B0%83%E6%95%B4%E5%AF%B9%E8%AF%9D%E4%B8%8A%E9%99%90%E9%95%BF%E5%BA%A6",
-          "source": "知乎热榜",
-          "sourceId": "zhihu",
-          "tier": "c",
+          "title": "尼泊尔法院批准羁押两名前劳工部长",
+          "titleOrig": "尼泊尔法院批准羁押两名前劳工部长 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtTmIzRGk5ZUlYZ1FKdDVWTHpxVEpUbVMzaWpxXzNVbUthYTNES0h0XzVwUHp6TFVSejI1YWQxTG1RbzNQeFphdzVHM2tpNnF6cWRMRndzazMtWnQtQmNOWmxneEdMZ0VO?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-19T23:40:39+00:00",
+          "desc": "尼泊尔法院批准羁押两名前劳工部长 中国新闻网",
           "hotLabel": "",
-          "summary": "人工智能助手DeepSeek调整对话上限，提升交互体验。",
-          "analysis": "DeepSeek调整对话上限可能是为了改善用户交互体验，使其更加流畅。这反映了人工智能技术在对话系统上的进步，同时也可能推动相关标准和规范的制定。后续可能看到更多人工智能助手在交互能力上的提升。",
+          "summary": "尼泊尔法院批准羁押两名前劳工部长。",
+          "analysis": "此事件反映了尼泊尔司法体系的运作。事件背景是尼泊尔政治和社会问题，社会成因是政治斗争。对国内影响，可能影响中尼关系，对经济和治理意味着需要关注周边国家的政治稳定。后续走向可能包括尼泊尔政治局势的进一步发展。",
           "keywords": [
-            "DeepSeek",
-            "人工智能",
-            "对话系统",
-            "交互体验",
-            "技术进步"
+            "尼泊尔",
+            "司法",
+            "政治斗争",
+            "中尼关系",
+            "政治稳定"
           ],
-          "category": "tech",
+          "category": "international",
           "importance": 60,
           "sources": [
             {
-              "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=DeepSeek%E8%B0%83%E6%95%B4%E5%AF%B9%E8%AF%9D%E4%B8%8A%E9%99%90%E9%95%BF%E5%BA%A6"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtTmIzRGk5ZUlYZ1FKdDVWTHpxVEpUbVMzaWpxXzNVbUthYTNES0h0XzVwUHp6TFVSejI1YWQxTG1RbzNQeFphdzVHM2tpNnF6cWRMRndzazMtWnQtQmNOWmxneEdMZ0VO?oc=5"
             }
           ],
           "rank": 20
