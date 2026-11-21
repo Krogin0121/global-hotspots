@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-20T23:32:21.473377+00:00",
+  "generatedAt": "2026-11-21T04:41:43.961131+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 12,
+      "count": 15,
       "ok": true
     },
     {
@@ -90,76 +90,172 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多方面复杂态势。大国间在联合国秘书长职位争夺中显现分歧，波兰与乌克兰紧张关系加剧，伊朗人权状况恶化。美国移民政策引发争议，德国汽车制造业面临挑战，特朗普威胁对海外数据中心企业施加重罚。全球气候变暖行动因COP31争议而减缓，欧洲生活成本抗议活动蔓延，数据中心建设成本飙升。巴基斯坦在阿富汗问题上的立场引发关注，英伟达股价暴跌，Z世代推动全球政治变革。韩国反作弊措施实施，欧盟与英国达成脱欧后协议，英国宣布脱欧重置协议，加州面临历史性海浪警报，非洲在COP31上关注气候资金流向。总体而言，国际局势复杂多变，值得关注的事件走向包括大国间关系、地区冲突、人权状况、经济政策及全球气候变化等。",
+      "digest": "今日国际局势呈现多领域紧张与动荡。特朗普亚洲之行后的言论引发国际关注，波兰导弹袭击事件加剧乌克兰紧张局势。英国与欧盟关系发展，德国经济面临挑战，美国移民政策争议持续。伊朗、南非等地人权问题备受关注，欧洲生活成本抗议活动蔓延。此外，全球气候变化、环境问题及战争对野生动物的影响亦不容忽视。整体来看，国际局势复杂多变，各国在政治、经济、社会等领域面临诸多挑战。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "争夺下任联合国秘书长职位暴露世界大国之间的分歧",
-          "titleOrig": "Race to be next UN secretary general exposes divisions among world powers",
-          "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers",
+          "title": "特朗普亚洲之行后的记者会最新消息",
+          "titleOrig": "The latest from Trump's press conference",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T21:38:21+00:00",
+          "desc": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
+          "hotLabel": "",
+          "summary": "特朗普在亚洲之行后举行记者会，会晤了中俄领导人。",
+          "analysis": "特朗普的亚洲之行和记者会体现了美国在亚洲的外交政策，可能影响中美俄三国关系和全球战略平衡。后续可能引发地区安全和经济合作的调整。",
+          "keywords": [
+            "特朗普",
+            "亚洲之行",
+            "中美关系",
+            "中俄关系",
+            "全球战略"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "波兰称俄导弹袭击，乌克兰盟友举行军事演习",
+          "titleOrig": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
+          "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-21T02:09:46+00:00",
+          "desc": "Nobody was hurt and no damage has been reported, but Warsaw described the incident as a \"provocation\" from Moscow.",
+          "hotLabel": "",
+          "summary": "波兰称俄导弹误入境内，引发政治紧张。",
+          "analysis": "事件背景：俄罗斯与乌克兰的紧张关系长期存在，此次导弹事件可能加剧双方对立。关键影响：此事件可能影响北约与俄罗斯的关系，以及欧洲的安全格局。后续走向：可能引发国际社会的关注和介入，进一步加剧地区紧张局势。",
+          "keywords": [
+            "俄罗斯",
+            "导弹",
+            "波兰",
+            "乌克兰",
+            "北约"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+            },
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "英国与欧盟达成协议后，将探索更紧密的关系，伯恩汉姆表示",
+          "titleOrig": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+          "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T17:49:48+00:00",
+          "desc": "The UK-EU deal agreed on Friday covers British food exports, emissions trading and a youth experience scheme.",
+          "hotLabel": "",
+          "summary": "英国与欧盟达成新协议，涉及食品出口、排放交易和青年体验计划。",
+          "analysis": "英国脱欧后，双方在贸易和合作方面寻求新的平衡。新协议可能有助于缓解脱欧带来的不确定性，但英国寻求更紧密关系可能面临欧盟内部的反对。后续可能涉及更多领域的合作深化，但需克服政治和经济的挑战。",
+          "keywords": [
+            "英国",
+            "欧盟",
+            "脱欧",
+            "贸易协议",
+            "合作"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "德克萨斯州死刑犯执行过程超一小时，犯人尖叫",
+          "titleOrig": "Texas death-row inmate screams as execution takes more than one hour",
+          "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T12:42:37+00:00",
+          "desc": "This prolonged execution comes weeks after Christa Pike survived the lethal injection of the same drug.",
+          "hotLabel": "",
+          "summary": "死刑犯执行过程异常漫长，引发关注。",
+          "analysis": "这起事件反映了美国司法系统的执行效率和人权问题。德克萨斯州的死刑执行程序可能存在缺陷，导致犯人遭受不必要的痛苦。这一事件可能引发对死刑执行程序的全面审查，并影响美国在国际人权领域的形象。后续可能引发公众对死刑合法性的讨论，以及司法改革议程的推进。",
+          "keywords": [
+            "死刑",
+            "美国司法",
+            "人权问题",
+            "德克萨斯州",
+            "执行程序"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "美国移民局秘密强制喂食手段导致古巴父亲绝食抗议结束",
+          "titleOrig": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
+          "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-20T05:00:24+00:00",
-          "desc": "Debate about dominance of permanent five members could reignite if major powers block Costa Rican frontrunnerThe race to become the next UN secretary general could reach a decisive moment on Friday when a UN security council vote is likely to reveal whether the Costa Rican frontrunner for the post w",
+          "publishedAt": "2026-11-20T11:00:31+00:00",
+          "desc": "Exclusive: Luis Alejandro Cora Pérez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strikeThe text message that came from inside the Immigration and Customs Enforcement (ICE) detention center was stark: “I have spent five days eating regular food. I",
           "hotLabel": "",
-          "summary": "联合国安理会投票可能揭示是否阻止哥斯达黎加候选人成为下任联合国秘书长。",
-          "analysis": "此事件反映了联合国内部权力斗争和世界大国之间的政治角力。如果主要大国阻止哥斯达黎加候选人，可能会加剧联合国内部的权力平衡问题，影响联合国的决策效率和影响力。后续可能引发联合国改革和权力分配的讨论。",
+          "summary": "古巴父亲在美国移民局拘留中心绝食抗议，因强制喂食痛苦而放弃。",
+          "analysis": "此事件揭示了美国移民政策对人权的影响，引发国际社会对移民待遇的关注。强制喂食手段可能加剧美古关系紧张，并对全球移民政策产生示范效应。后续可能引发国际法律诉讼和外交抗议。",
           "keywords": [
-            "联合国",
-            "秘书长",
-            "权力斗争",
-            "世界大国",
-            "哥斯达黎加"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/20/race-to-be-next-un-secretary-general-exposes-divisions-among-world-powers"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "波兰称俄方物体坠毁系挑衅，乌克兰盟友军演引发紧张",
-          "titleOrig": "‘Russian Objects’ Crashed in Poland, Officials Say. Here’s What We Can See.",
-          "url": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T20:30:59+00:00",
-          "desc": "There were no injuries or damage from three incidents that the Polish authorities called a likely “provocation” from Russia during military exercises by Ukraine’s allies.",
-          "hotLabel": "",
-          "summary": "波兰官员称俄罗斯物体坠毁为挑衅行为。",
-          "analysis": "事件背景：乌克兰与俄罗斯之间的紧张关系持续升级，乌克兰盟友在波兰举行军事演习可能加剧了紧张局势。关键影响：这一事件可能加剧北约与俄罗斯之间的紧张关系，影响地区安全稳定。后续走向：双方可能进一步采取军事或外交手段回应此事，国际社会可能介入调解。",
-          "keywords": [
-            "波兰",
-            "俄罗斯",
-            "军事演习",
-            "挑衅",
-            "紧张关系"
+            "移民政策",
+            "人权",
+            "强制喂食",
+            "美古关系",
+            "国际法律"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/20/world/europe/poland-russia-airspace-missile.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding"
             }
           ],
-          "rank": 2
+          "rank": 5
         },
         {
           "title": "伊朗律师遭打压加剧",
@@ -174,14 +270,14 @@
           "publishedAt": "2026-11-20T20:36:00+00:00",
           "desc": "At least 135 lawyers in Iran have been subjected to repressive measures over the past year. UN experts warn that this seriously jeopardizes the right of those accused to trial in a constitutional court.",
           "hotLabel": "",
-          "summary": "伊朗至少135名律师在过去一年内遭受打压，联合国专家警告这严重威胁到被告在宪法法院受审的权利。",
-          "analysis": "伊朗政府对律师的打压反映了该国司法体系的脆弱性和对言论自由的限制。这一行为不仅损害了伊朗的法治，还可能加剧国内的政治紧张和外部压力。对国际社会而言，这表明伊朗人权状况恶化，可能影响国际社会对伊朗的外交关系和经济制裁。后续可能引发国际社会的关注和干预，对伊朗的国内政治和国际形象产生深远影响。",
+          "summary": "伊朗至少135名律师在过去一年遭受打压，联合国专家警告这严重威胁被告在宪法法院受审的权利。",
+          "analysis": "伊朗政府对律师的打压反映了其司法体系的脆弱性和对反对声音的恐惧。这不仅是伊朗国内司法独立问题的体现，也可能加剧地区紧张局势。联合国专家的警告表明国际社会对此问题的关注，后续可能引发国际干预或制裁，对伊朗国内政治稳定和区域安全产生深远影响。后续走向可能包括国际社会对伊朗的进一步施压，以及伊朗政府可能采取的报复措施。",
           "keywords": [
             "伊朗",
             "律师",
-            "打压",
-            "人权",
-            "联合国"
+            "司法独立",
+            "联合国",
+            "区域安全"
           ],
           "category": "international",
           "importance": 85,
@@ -191,10 +287,10 @@
               "url": "https://www.dw.com/en/repression-against-iranian-lawyers-increases/a-80006742?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 3
+          "rank": 6
         },
         {
-          "title": "南非三个月内近600名女性遇害",
+          "title": "南非三个月内近600名女性被杀害",
           "titleOrig": "Nearly 600 women killed in South Africa within three months",
           "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -206,155 +302,27 @@
           "publishedAt": "2026-11-20T15:55:16+00:00",
           "desc": "Police officials called for \"greater efforts to prevent... violence\" against women and children.",
           "hotLabel": "",
-          "summary": "南非三个月内发生多起女性遇害事件，警方呼吁加强防范。",
-          "analysis": "事件背景：南非女性安全问题长期存在，社会治安状况堪忧。关键影响：加剧社会不安，对南非国际形象和女性权益保护构成挑战。后续走向：可能引发社会运动，政府需加强治安管理和女性权益保护措施。",
+          "summary": "警方官员呼吁加大力度防止针对妇女和儿童的暴力。",
+          "analysis": "此数据揭示了南非女性面临的安全危机。政府和社会各界需共同努力，加强法律执行和社会支持，以减少暴力事件。此问题可能影响南非的国际形象，并引发国际社会的关注。",
           "keywords": [
             "南非",
-            "女性安全",
-            "社会治安",
-            "女性权益",
-            "政府政策"
+            "女性",
+            "暴力",
+            "安全",
+            "社会问题"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "BBC World",
               "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 4
-        },
-        {
-          "title": "美国移民与海关执法局秘密强制喂食策略导致古巴父亲绝食抗议结束",
-          "titleOrig": "‘Weak and dizzy’: the secretive ICE force-feeding tactics that ended a Cuban father’s hunger strike",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T11:00:31+00:00",
-          "desc": "Exclusive: Luis Alejandro Cora Pérez says in messages to Guardian from inside Texas facility pain of force-feeding caused him to break strikeThe text message that came from inside the Immigration and Customs Enforcement (ICE) detention center was stark: “I have spent five days eating regular food. I",
-          "hotLabel": "",
-          "summary": "古巴父亲在德克萨斯州移民拘留中心绝食抗议，称强制喂食的痛苦迫使他放弃抗议。",
-          "analysis": "此事件揭示了美国移民政策中的人权问题，反映了移民拘留中心条件的恶劣。这可能会引发国际社会对美国政府移民政策的批评，并加剧美国国内对移民政策的争议。后续可能引发对拘留中心条件的审查，以及对移民政策的更广泛改革。",
-          "keywords": [
-            "移民政策",
-            "人权",
-            "强制喂食",
-            "美国",
-            "拘留中心"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/nov/20/ice-cuba-hunger-strike-force-feeding"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "梅赛德斯-奔驰和大众汽车削减投资后，德国汽车制造业能否复苏？",
-          "titleOrig": "Can German auto manufacturing recover after Mercedes and VW cuts?",
-          "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T15:36:00+00:00",
-          "desc": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector's future. Some industry watchers think there is still a narrow window to stem the decline. But how?",
-          "hotLabel": "",
-          "summary": "德国汽车制造商减少国内投资，引发对汽车行业未来的担忧。",
-          "analysis": "德国汽车制造业的衰退与全球汽车行业转型、环保法规升级以及经济不确定性有关。梅赛德斯-奔驰和大众汽车的削减投资反映了行业内的焦虑和不确定性。这对德国经济至关重要，因为汽车制造业是其出口导向型经济的关键部分。如果行业无法找到解决方案，可能会加剧德国乃至欧洲的经济问题。后续可能需要政府干预和行业自身创新来扭转局面。",
-          "keywords": [
-            "德国汽车",
-            "投资削减",
-            "经济衰退",
-            "行业转型",
-            "欧洲经济"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "特朗普威胁对海外建数据中心的美企施加重罚",
-          "titleOrig": "Trump threatens ‘tremendous penalties’ on US tech firms that build datacenters abroad",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T21:47:41+00:00",
-          "desc": "President gives wide-ranging White House press conference and says he has ‘fantastic relationships’ with Putin and XiDonald Trump threatened on Friday to impose “tremendous penalties” on American tech companies that build datacenters outside the US, though he gave no details and told reporters he ha",
-          "hotLabel": "",
-          "summary": "特朗普警告海外建数据中心的美企将面临重罚。",
-          "analysis": "事件背景：特朗普在白宫记者会上表达了对普京和习近平的友好态度，同时威胁对在海外建立数据中心的美国科技公司施加重罚。关键影响：这可能影响美国科技公司的全球布局，并可能加剧美国与盟友之间的分歧。后续走向：美国政府的政策可能对全球数据存储和网络安全产生深远影响。",
-          "keywords": [
-            "特朗普",
-            "美国",
-            "科技企业",
-            "数据中心",
-            "重罚"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/nov/20/trump-datacenters-white-house"
-            }
-          ],
           "rank": 7
         },
         {
-          "title": "COP31气候科学争议减缓全球变暖行动",
-          "titleOrig": "At COP31, conflict over climate science slows action on global warming",
-          "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T20:34:00+00:00",
-          "desc": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
-          "hotLabel": "",
-          "summary": "在安塔利亚举行的COP31会议上，对气候科学的攻击和虚假信息风险推迟了关键措施的通过。",
-          "analysis": "气候科学争议表明全球气候治理的复杂性，不同国家在气候政策上的分歧可能导致全球应对气候变化的努力受阻。这一事件对全球气候治理进程具有负面影响，可能导致全球变暖问题加剧。后续可能引发国际社会对气候治理机制的重新评估和改革。",
-          "keywords": [
-            "COP31",
-            "气候科学",
-            "全球变暖",
-            "争议",
-            "国际治理"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "欧洲生活成本抗议活动席卷各大城市",
+          "title": "欧洲生活成本抗议活动席卷多国城市",
           "titleOrig": "Cost of living protests sweep across Europe",
           "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
@@ -366,14 +334,14 @@
           "publishedAt": "2026-11-20T16:45:34+00:00",
           "desc": "Thousands marched across European cities on Friday to protest against the cost of living and other issues.",
           "hotLabel": "",
-          "summary": "成千上万的人在欧洲各地举行抗议活动，反对生活成本。",
-          "analysis": "事件背景：欧洲经济复苏缓慢，通货膨胀加剧，生活成本上升。关键影响：可能引发更大规模的社会动荡，对欧洲政治和经济稳定构成挑战。后续走向：可能促使政府采取措施缓解生活成本压力。",
+          "summary": "数千人在欧洲多国城市举行抗议活动。",
+          "analysis": "欧洲生活成本的上涨是经济衰退和通货膨胀的后果。这些抗议活动反映了民众对经济困境的不满，可能加剧社会不稳定。后续可能引发欧洲各国政府的经济政策调整，并影响欧盟的经济一体化进程。",
           "keywords": [
             "欧洲",
             "生活成本",
-            "通货膨胀",
-            "社会动荡",
-            "政府政策"
+            "抗议活动",
+            "经济困境",
+            "社会不稳定"
           ],
           "category": "international",
           "importance": 80,
@@ -383,356 +351,404 @@
               "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 9
+          "rank": 8
         },
         {
-          "title": "数据中心建设成本在2026年飙升13%",
-          "titleOrig": "Data center construction costs soar 13% in 2026",
-          "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
+          "title": "S&P 500指数下跌3.7%，纳斯达克全年转负",
+          "titleOrig": "S&P 500 sinks 3.7% and the Nasdaq composite goes negative for the year",
+          "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
-          "cat": "economy",
+          "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-20T16:52:08+00:00",
-          "desc": "The demand for large data centers in the U.S. this year, driven by AI needs, grew beyond the supply of powered land and the labor to build these structures.",
+          "publishedAt": "2026-11-20T22:11:29+00:00",
+          "desc": "AI stocks have hefty market values and have a much bigger impact on the market's direction. They were responsible for Wall Street's big gains this year and are now behind the big slide for the market.",
           "hotLabel": "",
-          "summary": "美国对大型数据中心的巨大需求，由于AI需求增长，超过了供电土地和建设这些结构的劳动力供应。",
-          "analysis": "此事件反映了人工智能行业对数据中心需求的增长，以及相关基础设施建设的挑战。这可能会推动数据中心技术的创新和成本优化，并对全球数据中心行业产生深远影响。后续可能引发对数据中心行业发展的关注。",
+          "summary": "AI股票市场价值大，对市场影响显著，导致股市大幅下跌。",
+          "analysis": "AI股票的波动反映了科技股对股市的巨大影响力。此次下跌可能预示着科技股泡沫的破裂，对全球经济和投资者信心造成冲击。后续可能引发对科技行业监管的讨论。",
           "keywords": [
-            "数据中心",
-            "AI需求",
-            "建设成本",
-            "美国",
-            "技术发展"
+            "股市",
+            "AI股票",
+            "市场波动",
+            "科技行业",
+            "投资者信心"
           ],
           "category": "economy",
           "importance": 80,
           "sources": [
             {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/20/a-massive-bearish-trade-just-happened-in-the-chip-stocks.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/20/sp-500-8000-kalshi-odds-ai-selloff.html"
+            },
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
+            },
+            {
               "name": "CNBC World",
               "url": "https://www.cnbc.com/2026/11/20/data-center-construction-costs-soar-13-percent-in-2026.html"
             }
           ],
-          "rank": 10
+          "rank": 9
         },
         {
-          "title": "巴基斯坦是否在支持阿富汗反塔利班组织？",
-          "titleOrig": "Is Pakistan backing anti-Taliban groups in Afghanistan?",
-          "url": "https://www.dw.com/en/is-pakistan-backing-anti-taliban-groups-in-afghanistan/a-80004814?maca=en-rss-en-all-1573-rdf",
+          "title": "COP31气候科学争议延缓全球变暖行动",
+          "titleOrig": "At COP31, conflict over climate science slows action on global warming",
+          "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-20T15:02:00+00:00",
-          "desc": "The Taliban rulers in Afghanistan have accused Pakistan of aiding and sheltering armed resistance groups. The allegations come amid heightened tensions and are likely to deepen the rift between the two neighbors.",
+          "publishedAt": "2026-11-20T20:34:00+00:00",
+          "desc": "Attacks on climate science and disinformation risk delaying key measures at COP31 in Antalya. As the UN climate talks draw to a close, how will that affect efforts to come to an agreement?",
           "hotLabel": "",
-          "summary": "阿富汗塔利班指责巴基斯坦支持武装抵抗组织，加剧两国紧张关系。",
-          "analysis": "巴基斯坦与阿富汗的关系长期复杂，塔利班的指责可能加剧两国之间的紧张和互信缺失。这对南亚地区的稳定构成威胁，并可能影响美国在中亚地区的战略利益。后续可能引发地区冲突，并影响国际社会对阿富汗局势的介入。",
+          "summary": "在安塔利亚举行的COP31上，对气候科学的攻击和虚假信息风险推迟了关键措施的实施。",
+          "analysis": "COP31的争议反映了全球气候治理中的科学和政治分歧。气候科学的质疑可能会削弱国际社会对气候变化的共识，影响全球减排努力。这可能导致全球气候治理进程的延误，增加全球变暖的风险。后续走向可能包括国际社会加强科学共识的传播，以及各国在气候政策上的重新谈判。",
           "keywords": [
-            "巴基斯坦",
-            "阿富汗",
-            "塔利班",
-            "地区冲突",
-            "国际关系"
+            "COP31",
+            "气候科学",
+            "全球变暖",
+            "国际共识",
+            "减排"
           ],
           "category": "international",
           "importance": 80,
           "sources": [
             {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/is-pakistan-backing-anti-taliban-groups-in-afghanistan/a-80004814?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 11
+          "rank": 10
         },
         {
-          "title": "英伟达股价暴跌14%，结束自2008年金融危机以来最长周度下跌",
-          "titleOrig": "Nvidia stock plunges 14%, wraps up longest weekly losing streak since 2008 financial crisis",
-          "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
+          "title": "美国法官批准拜耳公司72.5亿美元癌症赔偿协议",
+          "titleOrig": "US judge approves Bayer's $7.25 billion cancer settlement",
+          "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
           "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T22:59:33+00:00",
-          "desc": "Once the most valuable company in the world, Nvidia now ranks fourth behind Apple, Microsoft and Alphabet.",
-          "hotLabel": "",
-          "summary": "英伟达股价大幅下跌，创下金融危机以来最长周度下跌记录。",
-          "analysis": "事件背景：英伟达作为全球市值最高的公司之一，其股价下跌可能反映了市场对科技行业前景的担忧。关键影响：这可能会影响整个科技行业的股价，并对全球经济产生连锁反应。后续走向：英伟达的业绩和行业前景将成为市场关注的焦点。",
-          "keywords": [
-            "英伟达",
-            "股价",
-            "科技行业",
-            "金融危机",
-            "市值"
-          ],
-          "category": "economy",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/20/nvidias-7-week-losing-streak-is-longest-since-2008-financial-crisis.html"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "Z世代推动全球政治变革，助力极左和极右",
-          "titleOrig": "Gen Z Is Driving Global Political Change, Aiding Far Left and Far Right",
-          "url": "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
           "cat": "intl",
-          "region": "美国",
+          "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-20T14:17:02+00:00",
-          "desc": "Protests across Europe are the latest example of global youth anger that has driven demonstrations and election upsets.",
+          "publishedAt": "2026-11-21T00:03:00+00:00",
+          "desc": "Bayer could end years of costly lawsuits in the US over claims that its Roundup weedkiller causes cancer. Tens of thousands of people could now receive compensation, although some lawyers say the payments are too low.",
           "hotLabel": "",
-          "summary": "欧洲的抗议活动是Z世代全球愤怒的最新例证，他们推动了示威和选举的颠覆。",
-          "analysis": "Z世代的参与反映了全球政治参与的年轻化趋势，他们的政治立场可能对传统政治格局产生冲击。这一现象可能加剧全球政治极化，对国际政治稳定和合作产生负面影响。后续可能引发各国对年轻一代政治参与的重视和应对策略的调整。",
+          "summary": "拜耳公司因除草剂致癌问题达成赔偿协议。",
+          "analysis": "事件背景：拜耳公司的除草剂争议已久，此次赔偿协议可能结束一系列诉讼。关键影响：对拜耳公司的财务状况和声誉产生影响，同时也为类似案件提供了赔偿标准。后续走向：可能引发对农药安全的更多关注。",
           "keywords": [
-            "Z世代",
-            "政治变革",
-            "极左",
-            "极右",
-            "政治参与"
+            "拜耳公司",
+            "除草剂",
+            "致癌",
+            "赔偿协议",
+            "法律诉讼"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/20/world/europe/youth-protests-far-right-left.html"
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/us-judge-approves-bayer-s-7-25-billion-cancer-settlement/a-80007474?maca=en-rss-en-all-1573-rdf"
             }
           ],
-          "rank": 13
+          "rank": 11
         },
         {
-          "title": "韩国采取新措施反作弊，111名学生携带违禁设备被捕",
-          "titleOrig": "South Korea catches 111 students with new measures against exam cheating",
-          "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
+          "title": "法国警察因殴打音乐制作人米歇尔·泽克莱被判刑",
+          "titleOrig": "French police officers sentenced for beating of music producer Michel Zecler",
+          "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-20T10:16:19+00:00",
-          "desc": "The students were caught with banned smart devices while taking the high-stakes Suneung exam.",
+          "publishedAt": "2026-11-20T22:37:09+00:00",
+          "desc": "The court has upheld the 2020 beating of the black music producer as an aggravated circumstance of racism.",
           "hotLabel": "",
-          "summary": "韩国学生在高考中使用违禁智能设备被捕。",
-          "analysis": "事件背景：韩国高考竞争激烈，作弊现象普遍。关键影响：暴露教育制度问题，可能引发公众对教育公平和选拔机制的讨论。后续走向：可能加强考试监管，提高学生诚信意识。",
+          "summary": "法庭维持了对这位黑人音乐制作人2020年遭受的殴打事件的种族主义加重情节的判决。",
+          "analysis": "此案反映了法国社会对种族主义问题的关注。判决可能加强法国警方对种族主义行为的打击力度，但同时也可能引发对执法公正性的讨论。长期来看，这有助于提升社会对种族平等的认识。",
           "keywords": [
-            "韩国",
-            "高考",
-            "作弊",
-            "教育公平",
-            "考试监管"
+            "法国",
+            "种族主义",
+            "警察",
+            "判决",
+            "社会问题"
           ],
           "category": "international",
           "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 14
+          "rank": 12
         },
         {
-          "title": "在联盟党面临新南威尔士州一国民党的挑战之际，新的威胁正在崛起： teal",
-          "titleOrig": "As the Coalition stares down One Nation in NSW, a new threat is rising: the teals",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/21/coalition-one-nation-teals-new-threat-sydney",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T14:00:32+00:00",
-          "desc": "The opposition’s struggle is creating an opportunity for progressive independents who are boosted by shrewd political operator Chris MinnsGet our daily political email, free app or daily news podcastThe New South Wales Coalition is facing a renewed threat to its heartland seats on Sydney’s north sho",
-          "hotLabel": "",
-          "summary": "新南威尔士州联盟党面临来自进步独立人士的挑战，这些人士受到政治操作者Chris Minns的支持。",
-          "analysis": "此事件反映了澳大利亚政治格局的变化，独立人士的崛起可能会改变现有的政治力量对比。后续可能引发对澳大利亚政治制度的讨论，以及对独立人士政治影响力的评估。",
-          "keywords": [
-            "澳大利亚",
-            "政治",
-            "独立人士",
-            "联盟党",
-            "一国民党"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/nov/21/coalition-one-nation-teals-new-threat-sydney"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "欧盟和英国达成“里程碑式协议”，加强脱欧后关系",
-          "titleOrig": "EU and UK strike 'landmark deal' to strengthen ties after Brexit",
-          "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T14:30:00+00:00",
-          "desc": "The European Union and the United Kingdom have agreed on \"landmark\" deals on youth mobility and trade. Leaders on both sides praised the agreement as they seek to rebuild ties.",
-          "hotLabel": "",
-          "summary": "欧盟和英国就青年流动和贸易达成重要协议，旨在修复脱欧后的关系。",
-          "analysis": "脱欧后，欧盟和英国的关系紧张。此次协议的达成标志着双方在关键领域取得进展，有助于缓解紧张局势。这对英国和欧盟的经济发展都有积极影响，并可能为未来的合作奠定基础。后续可能涉及更多领域的谈判，以进一步巩固双方关系。",
-          "keywords": [
-            "欧盟",
-            "英国",
-            "脱欧",
-            "贸易协议",
-            "国际关系"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "俄罗斯鸟类学家因向纳瓦尔尼基金会捐款被判入狱",
-          "titleOrig": "Russian ornithologist jailed over small donations to Navalny's foundation",
-          "url": "https://www.dw.com/en/russian-ornithologist-jailed-over-small-donations-to-navalny-s-foundation/a-80005505?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T20:45:00+00:00",
-          "desc": "Sofia Rosenfeld has devoted her life to studying Arctic birds. A Russian court sentenced her to 3.5 years in a penal colony over donations to Navalny's foundation. Friends and family are fighting for her release.",
-          "hotLabel": "",
-          "summary": "俄罗斯鸟类学家因向纳瓦尔尼基金会捐款被判刑。",
-          "analysis": "事件背景：俄罗斯法院因捐款给反对派领导人纳瓦尔尼的基金会而判处俄罗斯鸟类学家索菲亚·罗森菲尔德入狱。关键影响：此案反映了俄罗斯政府对反对派和言论自由的打压。后续走向：国际社会可能对此表示关注，并可能对俄罗斯的人权状况提出批评。",
-          "keywords": [
-            "俄罗斯",
-            "纳瓦尔尼",
-            "捐款",
-            "入狱",
-            "言论自由"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/russian-ornithologist-jailed-over-small-donations-to-navalny-s-foundation/a-80005505?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "英国在欧盟峰会宣布脱欧重置协议：关键信息",
-          "titleOrig": "Britain Announces Brexit Reset Deal at E.U. Summit: What to Know",
-          "url": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html",
+          "title": "四名英国男子因性侵乔安妮·杨被判有罪",
+          "titleOrig": "4 British Men Convicted of Sexually Assaulting Joanne Young",
+          "url": "https://www.nytimes.com/2026/11/19/world/europe/uk-joanne-young-abuse-conviction.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-20T16:50:16+00:00",
-          "desc": "Prime Minister Andy Burnham and European leaders said they had agreed to remove some of the barriers created when Britain left the European Union.",
+          "publishedAt": "2026-11-20T09:17:27+00:00",
+          "desc": "A jury rejected the men’s defense that they had been relying on assurances from Joanne Young’s husband — who himself has pleaded guilty to rape — that she had consented.",
           "hotLabel": "",
-          "summary": "英国首相安迪·伯纳姆和欧盟领导人表示，他们已同意移除英国脱欧时产生的一些障碍。",
-          "analysis": "英国脱欧重置协议的达成是英国与欧盟关系正常化的重要一步，有助于缓解双方关系紧张。然而，协议的具体内容和实施效果仍有待观察。后续可能影响英国与欧盟的经济关系和欧洲一体化进程。",
+          "summary": "四名男子因性侵案件被判有罪。",
+          "analysis": "这一案件反映了英国司法系统对性侵案件的严肃处理。同时，也揭示了家庭暴力问题的严重性。后续可能引发对家庭暴力和性侵案件的关注，以及相关法律和政策的改革。",
           "keywords": [
             "英国",
-            "脱欧",
-            "欧盟",
-            "协议",
-            "国际关系"
+            "性侵案件",
+            "司法系统",
+            "家庭暴力",
+            "法律改革"
           ],
           "category": "international",
-          "importance": 70,
+          "importance": 75,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/20/world/europe/uk-eu-summit-brexit.html"
+              "url": "https://www.nytimes.com/2026/11/19/world/europe/uk-joanne-young-abuse-conviction.html"
             }
           ],
-          "rank": 18
+          "rank": 13
         },
         {
-          "title": "加州沿海社区面临有史以来最大海浪警报",
-          "titleOrig": "California’s coastal communities on alert as biggest waves in years hit state",
-          "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
-          "source": "The Guardian",
-          "sourceId": "guardian",
+          "title": "海平面上升迫使印第安人村落搬迁",
+          "titleOrig": "Rising seas have forced this Quinault village to relocate",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6046485/rising-seas-have-forced-this-quinault-village-to-relocate",
+          "source": "NPR News",
+          "sourceId": "npr",
           "tier": "a",
           "cat": "intl",
-          "region": "英国",
+          "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-20T09:03:20+00:00",
-          "desc": "Hazard warnings issued throughout week after powerful swells and waves of more than 9 metres recordedMultiple coastal hazard warnings were issued this week across California as successive areas of low pressure generated powerful swells and large breaking waves for coastal communities. Beaches and pi",
+          "publishedAt": "2026-11-20T21:38:13+00:00",
+          "desc": "The Quinault Indian Nation has moved its largest village away from rising seas and tsunamis",
           "hotLabel": "",
-          "summary": "加州沿海社区发布海浪警报，应对多年未见的大浪。",
-          "analysis": "事件背景：气候变化导致极端天气事件增多。关键影响：对加州沿海社区构成严重威胁，可能引发财产损失和人员伤亡。后续走向：可能加强沿海地区防灾减灾措施。",
+          "summary": "因海平面上升，印第安人村落被迫搬迁。",
+          "analysis": "此事件凸显了全球气候变化对沿海地区的威胁，可能促使各国加强应对气候变化的措施。后续可能引发全球范围内的环境保护和移民问题讨论。",
           "keywords": [
-            "加州",
-            "海浪",
             "气候变化",
-            "防灾减灾",
-            "沿海社区"
+            "海平面上升",
+            "环境问题",
+            "移民问题",
+            "全球应对"
           ],
-          "category": "international",
-          "importance": 70,
+          "category": "society",
+          "importance": 75,
           "sources": [
             {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state"
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6046485/rising-seas-have-forced-this-quinault-village-to-relocate"
             }
           ],
-          "rank": 19
+          "rank": 14
         },
         {
-          "title": "非洲在COP31上：气候资金最终会流向非洲吗？",
-          "titleOrig": "Africa at COP31: Will climate cash finally flow?",
-          "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-all-1573-rdf",
+          "title": "德国青少年上街抗议教育、气候和成本问题",
+          "titleOrig": "Germany news: Kids take to streets over school, climate and costs",
+          "url": "https://www.dw.com/en/germany-news-kids-take-to-streets-over-school-climate-and-costs/live-79998529?maca=en-rss-en-all-1573-rdf",
           "source": "Deutsche Welle",
           "sourceId": "dw",
           "tier": "a",
           "cat": "intl",
           "region": "德国",
           "lang": "en",
-          "publishedAt": "2026-11-20T14:18:00+00:00",
-          "desc": "As the curtains draw to a close on COP31 in Antalya, one question looms large for African countries: Will climate promises finally translate into the funding African communities need to cope with a warming world?",
+          "publishedAt": "2026-11-20T17:43:00+00:00",
+          "desc": "Thousands of young people turned out across Germany demanding improvements in education, climate and affordability. Protesters say they aren't being taken seriously and will keep protesting until things change.",
           "hotLabel": "",
-          "summary": "随着COP31在安塔利亚闭幕，非洲国家关注气候承诺能否转化为资金支持。",
-          "analysis": "非洲国家在COP31上寻求气候资金支持，以应对气候变化带来的挑战。气候资金的落实对于非洲国家至关重要，但资金到位存在不确定性。后续可能需要国际社会的持续关注和承诺，以确保资金有效分配，帮助非洲应对气候变化。",
+          "summary": "数千名德国青少年走上街头，要求改善教育、气候和可负担性，称他们的诉求未得到重视。",
+          "analysis": "德国青少年的抗议反映了全球对环境和社会问题的关注。这表明社会对传统政治领导层的信任下降，以及对未来可持续发展的担忧。后续走向可能包括政府采取更多措施应对气候变化和教育改革，以及社会运动对政策制定的影响。",
           "keywords": [
-            "非洲",
-            "COP31",
-            "气候资金",
+            "德国",
+            "青少年",
+            "抗议",
             "气候变化",
-            "国际合作"
+            "教育改革"
+          ],
+          "category": "society",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/germany-news-kids-take-to-streets-over-school-climate-and-costs/live-79998529?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "乌克兰战争对野生动物造成严重影响",
+          "titleOrig": "The War Is Ravaging Ukraine’s Wildlife, Too",
+          "url": "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T23:05:46+00:00",
+          "desc": "The war in Ukraine has had untold consequences for dolphins, moose, storks and a huge range of other wildlife whose habitats are now rife with anti-drone netting, minefields or in the direct line of fire.",
+          "hotLabel": "",
+          "summary": "乌克兰战争导致多种野生动物栖息地受损。",
+          "analysis": "事件背景：战争对环境的影响往往被忽视，乌克兰战争对当地生态系统的破坏是战争的一个不为人知的影响。关键影响：揭示了战争对生态系统的长期影响，对国际社会提出警示。后续走向：可能引发对战争与生态保护的更多关注。",
+          "keywords": [
+            "乌克兰战争",
+            "野生动物",
+            "生态系统",
+            "环境破坏",
+            "战争影响"
           ],
           "category": "international",
           "importance": 70,
           "sources": [
             {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/20/world/europe/ukraine-wildlife-war.html"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "杰拉尔·德帕迪约和法国作家因性指控被调查",
+          "titleOrig": "Gérard Depardieu and French author investigated over sexual allegations",
+          "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T19:45:20+00:00",
+          "desc": "A judicial investigation was launched after a complaint was filed last year over \"allegations of a sexual nature\".",
+          "hotLabel": "",
+          "summary": "去年有人提出性指控后，对这两位名人的司法调查已启动。",
+          "analysis": "此事件可能影响法国文化界和公众形象。调查结果将决定是否对德帕迪约和作者造成长期影响。同时，这也可能引发公众对名人隐私和性侵犯问题的关注。",
+          "keywords": [
+            "法国",
+            "性指控",
+            "名人",
+            "调查",
+            "文化"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "首艘澳大利亚建造的战舰沉没128年后残骸被发现",
+          "titleOrig": "Wreck of First Australian-Built Warship Is Revealed 128 Years After It Sank",
+          "url": "https://www.nytimes.com/2026/11/20/world/australia/shipwreck-warship-spitfire-great-barrier-reef.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T08:13:07+00:00",
+          "desc": "The wooden gunboat Spitfire was entombed in waters near the Great Barrier Reef after it went down in a cyclone in 1898.",
+          "hotLabel": "",
+          "summary": "澳大利亚历史战舰残骸在珊瑚礁附近被发现。",
+          "analysis": "这一发现对于澳大利亚历史研究具有重要意义，有助于了解19世纪末的海军技术和海洋环境。同时，这也提醒人们海洋考古的重要性，以及保护水下文化遗产的必要性。后续可能引发对海洋考古和环境保护的关注。",
+          "keywords": [
+            "澳大利亚",
+            "战舰残骸",
+            "海洋考古",
+            "历史研究",
+            "环境保护"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/20/world/australia/shipwreck-warship-spitfire-great-barrier-reef.html"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "德国汽车制造能否在梅赛德斯-奔驰和大众削减后恢复",
+          "titleOrig": "Can German auto manufacturing recover after Mercedes and VW cuts?",
+          "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T15:36:00+00:00",
+          "desc": "German automakers are pulling back on investments at home, sparking fresh anxiety about the auto sector's future. Some industry watchers think there is still a narrow window to stem the decline. But how?",
+          "hotLabel": "",
+          "summary": "德国汽车制造商在国内减少投资，引发对汽车行业未来的担忧。一些行业观察家认为还有机会阻止下滑。",
+          "analysis": "德国汽车行业的困境反映了全球汽车产业的转型挑战。减少投资可能加剧行业衰退，但同时也可能促使企业进行技术创新和结构调整。后续走向可能包括德国汽车制造商的全球竞争力下降，以及欧洲汽车产业的未来发展方向。",
+          "keywords": [
+            "德国",
+            "汽车制造",
+            "投资削减",
+            "技术创新",
+            "产业转型"
+          ],
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
               "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-all-1573-rdf"
+              "url": "https://www.dw.com/en/can-german-auto-manufacturing-recover-after-mercedes-and-vw-cuts/a-79946928?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "巴西前总统博索纳罗因腹痛被送医",
+          "titleOrig": "Brazil ex-president Jair Bolsonaro taken to hospital over abdominal pain",
+          "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-21T03:16:00+00:00",
+          "desc": "Jair Bolsonaro has been hospitalized in Brasilia with intestinal obstruction. The former far-right Brazilian leader is receiving pain medications, his son Carlos said.",
+          "hotLabel": "",
+          "summary": "巴西前总统博索纳罗因健康问题入院。",
+          "analysis": "事件背景：博索纳罗的健康状况一直受到关注，此次入院可能影响巴西政治局势。关键影响：博索纳罗的健康状况可能影响其政治影响力，对巴西国内政治产生波动。后续走向：可能引发对巴西政治稳定性的担忧。",
+          "keywords": [
+            "巴西",
+            "博索纳罗",
+            "健康问题",
+            "政治局势",
+            "巴西政治"
+          ],
+          "category": "international",
+          "importance": 60,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/brazil-ex-president-jair-bolsonaro-taken-to-hospital-over-abdominal-pain/a-80007648?maca=en-rss-en-all-1573-rdf"
             }
           ],
           "rank": 20
@@ -741,190 +757,51 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "今日国内形势综述显示，国际关系方面，习近平主席出席亚太经合组织深圳会议及相关活动，强调加强区域合作，中俄美三国和平宣言未提乌克兰和伊朗战争，显示出国际政治的复杂性。经济领域，伦敦股市下跌，反映出全球经济的波动。社会层面，高校研究生宿舍政策调整，体现了教育资源分配的调整。科技领域，DeepSeek付费体验直线上升，显示出科技创新带来的市场效应。总体来看，当前国内政策与社会动向呈现出多元化、复杂化的特点，国际关系、经济发展、社会变革和科技创新是值得关注的主要走向。",
+      "digest": "今日国内形势综述显示，国内政策与社会动向呈现出多方面的发展脉络。一方面，党的二十届五中全会精神宣讲团的开展，体现了政策解读与贯彻的深入；另一方面，国际关系中的中俄美三国元首会晤，以及特朗普的亚洲行相关动态，凸显了国际形势对国内政策的影响。在科技领域，Anthropic公司上市、12306系统更新、DeepSeek付费体验提升等，展现了技术进步对经济社会发展的推动。社会层面，高校研究生住宿政策调整、茶馆调解等，反映了社会管理与服务模式的创新。总体来看，当前国内形势呈现出政策导向明确、国际环境复杂、科技创新活跃、社会管理创新的特点，值得持续关注。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "黄仁勋将在参议院银行委员会公开作证",
-          "titleOrig": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
-          "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-20T19:42:53+00:00",
-          "desc": "Former Nvidia CEO Jensen Huang has faced a flurry of criticism on Capitol Hill in the wake of his involvement with a suspected Chinese spy.",
+          "title": "学习贯彻党的二十届五中全会精神宣讲团活动",
+          "titleOrig": "【学习贯彻党的二十届五中全会精神】省委宣讲团在新兴领域、金昌市、白银市宣讲_时政 - 中国甘肃网",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpaGYyM0NzLWdhQ21sMFFPLWo0d0RLdUsySFNXVkYzZEcyOGlSRnlDd2RhWlp5Y2hiY19vSTFJVmVDc1dfSG5nbkVKODNxQlYtSWdlQm0xaTlZM0dOSXFGTmNkVENSNEYzWDNZ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T00:37:00+00:00",
+          "desc": "【学习贯彻党的二十届五中全会精神】省委宣讲团在新兴领域、金昌市、白银市宣讲_时政 中国甘肃网北京市学习贯彻党的二十届五中全会精神宣讲团密云区报告会举行 北京市人民政府门户网站许勤主持黑龙江省委理论学习中心组集体学习 人民网黑龙江频道持之以恒推进全面从严治党，山东省委全会作出哪些部署？ 凤凰网山东微宣讲︱深学全会精神，勇担时代使命 台州新闻",
           "hotLabel": "",
-          "summary": "前英伟达CEO黄仁勋将在参议院银行委员会公开作证",
-          "analysis": "黄仁勋的作证与涉华间谍嫌疑有关，可能引发中美科技竞争的进一步紧张。这对中美两国科技企业的合作和全球科技产业链带来不确定性，影响未来两国在科技领域的互动。",
+          "summary": "省委宣讲团在多地宣讲二十届五中全会精神。",
+          "analysis": "此举是为了确保党的二十届五中全会精神得到全面、深入、准确的传达和贯彻落实。宣讲活动覆盖新兴领域和多个城市，表明了中央对基层理论学习的重视。这对加强党的建设、推动政策落地、促进社会稳定具有积极意义。后续可能进一步强化理论学习，推动政策实施。",
           "keywords": [
-            "黄仁勋",
-            "英伟达",
-            "间谍嫌疑",
-            "科技竞争",
-            "中美关系"
+            "党的二十届五中全会",
+            "宣讲团",
+            "理论学习",
+            "政策实施",
+            "党的建设"
           ],
-          "category": "international",
+          "category": "domestic",
           "importance": 90,
           "sources": [
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBpaGYyM0NzLWdhQ21sMFFPLWo0d0RLdUsySFNXVkYzZEcyOGlSRnlDd2RhWlp5Y2hiY19vSTFJVmVDc1dfSG5nbkVKODNxQlYtSWdlQm0xaTlZM0dOSXFGTmNkVENSNEYzWDNZ?oc=5"
+            },
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E6%96%B9%E5%9B%9E%E5%BA%94%E9%AB%98%E5%B8%82%E6%97%A9%E8%8B%97%E7%A4%BC%E5%AE%BE%E5%AE%89%E6%8E%92"
             }
           ],
           "rank": 1
         },
         {
-          "title": "普京称克里米亚大桥再遭袭后 俄方不再就海上停火等问题谈判",
-          "titleOrig": "普京称克里米亚大桥再遭袭后 俄方不再就海上停火等问题谈判 - Shangbao Indonesia",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObENtTGVVSG9nOUsxTU5WVjJFNDBvWk1vcThtcVNSQ2pwMi1pc09XWTZJME9Xajk4THJnX19YMlRPRzVoWm1TdlJkTlh5cjM1M0ZZZTBwT1hwRWM1bmRIYWRhSnpwdzVWZWxvZm9WeE5JUkotNWtwRFliOXhrMmlfZmVtRVhydw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T12:24:00+00:00",
-          "desc": "普京称克里米亚大桥再遭袭后 俄方不再就海上停火等问题谈判 Shangbao Indonesia克里米亚大桥这一击，为什么分量极重 凤凰网乌军炸了俄军大动脉，泽连斯基不许普京，带着一身荣光和中美碰面 风闻普京誓言为克里米亚大桥遭袭展开报复，俄乌局势进一步复杂化 Jiemian.com泽连斯基不想让普京在深圳会场上风光，先送上一份大礼 Sohu",
-          "hotLabel": "",
-          "summary": "普京表示克里米亚大桥再遭袭后，俄方不再谈判。",
-          "analysis": "这一事件凸显了俄乌冲突的复杂性和紧张局势。对国际社会而言，这可能导致冲突进一步升级，增加地区不稳定因素。对中国来说，这要求在处理国际事务时更加谨慎，维护地区和平与稳定。后续可能看到国际社会对俄乌冲突的介入加深，影响全球政治经济格局。",
-          "keywords": [
-            "普京",
-            "克里米亚大桥",
-            "俄乌冲突",
-            "谈判"
-          ],
-          "category": "international",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObENtTGVVSG9nOUsxTU5WVjJFNDBvWk1vcThtcVNSQ2pwMi1pc09XWTZJME9Xajk4THJnX19YMlRPRzVoWm1TdlJkTlh5cjM1M0ZZZTBwT1hwRWM1bmRIYWRhSnpwdzVWZWxvZm9WeE5JUkotNWtwRFliOXhrMmlfZmVtRVhydw?oc=5"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "习近平主席出席亚太经合组织深圳会议及相关活动纪实",
-          "titleOrig": "“像大鹏一样展翅高飞、鹏程万里”——习近平主席出席亚太经合组织深圳会议及相关活动纪实 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVTjctd2Itemo0Njh1Z01XZFQwd2hjbDZMX3dBbzd5X2NvTzA0Z05kd0RnLVphaVZQdlhqSF82bGJCc0hqS1Foa1RpQmV4UlJoM3hOYlBMV19qdWtib21ZcERxT3o2R2FoY1FrVFUwazJ1dHBWQ3VV?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T17:33:59+00:00",
-          "desc": "“像大鹏一样展翅高飞、鹏程万里”——习近平主席出席亚太经合组织深圳会议及相关活动纪实 新华网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "习近平主席出席亚太经合组织深圳会议，强调中国对外开放与合作。",
-          "analysis": "此次会议体现了中国对外开放的政策意图，旨在加强区域经济合作，推动共同发展。对国内民生而言，意味着更多就业机会和消费选择；对经济而言，有利于提升国际竞争力；对治理而言，展示了中国积极参与全球治理的决心。后续可能加强区域经济一体化进程，推动更多国际合作项目。",
-          "keywords": [
-            "习近平",
-            "亚太经合组织",
-            "深圳会议",
-            "对外开放",
-            "区域经济合作"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBVTjctd2Itemo0Njh1Z01XZFQwd2hjbDZMX3dBbzd5X2NvTzA0Z05kd0RnLVphaVZQdlhqSF82bGJCc0hqS1Foa1RpQmV4UlJoM3hOYlBMV19qdWtib21ZcERxT3o2R2FoY1FrVFUwazJ1dHBWQ3VV?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1QlVCODBKRlJaYTN3MnZvTEVaWE5VZElJMU9IVUswZDdjRFlydzNDeWtQLUdBOUpXS2psMkFyY2hhSi12cTNTdi1KWDgtbGY4eXZQZWxwX20yVUNBZjY0WUtYWHBTd1JjMG56Q2E4ak9Od20tNThmd2RpZlQ0cUU?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92UUt3eEhaTkU1TVVxYnROS3U2WS1jaTZYX21UTV9Vd2VjQUd5X1h4RU9nMGlDUFFXN3llVnYzMVFVSGM5bi00eTl6ZFp1RHRYVTdZUG9ORk9BYTVnbDVuc19iajdUeGpoeVk5X1I0QQ?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdDVTZERKMnl2NWJ3WFZYZVQ1UlN3V0lfclN2VDVpS0JkYjAyWEVORDBseFpJTDBNY0pyVWlJZjktcGpMS09ydE9mdFg2NUdkRm1DbjNtcGs0bTRIY19sOUpWZ2FYbEE4WHZVVjhTTHhXYVFHZWhtNHg0WklKbDhyMXRnc0NOcEJjdzJaVkp3OEVrWnhHTnFBdmdiTzJJMEp4S0JzSVhZdUZyN2FDUVRGaFBmcVZWaG83WFNTRFBvRkNEdTJfVzJLV3BqOWo3cTJzd2RUX3J5ekJRZTlIU2FSVkhYY3ozcVhXMHlZVEpuUURzcUVWczZaNXZR0gH8AUFVX3lxTE5sMHNScFBZa0o0MC1YcmkxSzFMSERjUzJwT3AtVEJoYl9wcWQtOGZ1UVRKOUlkcC1Hb0xDWE5VNHRQYzBNZXNNaERqOGtDMnNjMktLMlU5MW15V254VkkwZEI5M2gxRU1qV0Z0X29IaExQbW5mMm9Xa1JRNjNxSy1yS2p2TmktNTVGRlNYaFFxeTlMbXRUNDE5T2RUdUtRS3JUaWNncFZIMmtDRXQ4UlhZQUxUZFZCb2RNLWs1Z29lMXJrM3JUSDhPRERNWk05cnNZRVZYSmw3WW5UVXF3b1dYT09KdHVQQ0pSZEtnVGZ2dTNDc2tQVzI3bDJTcg?oc=5"
-            },
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FeGhHR1NCekRUZ1ZFYVYxazBnVDVob2lRMnJDWFNSMk1yZVlKaFlaWnBoMXZmcDhqZEYyaHlESUFMajJtTXJyd1QzbUhVdURxZ2UwckRFYkxCb3pPWE41aEZiNDI2aHI5R3dN?oc=5"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "特朗普称中俄美元首会晤意义重大",
-          "titleOrig": "特朗普：中俄美元首会晤“史无前例”“意义重大” - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1QlVCODBKRlJaYTN3MnZvTEVaWE5VZElJMU9IVUswZDdjRFlydzNDeWtQLUdBOUpXS2psMkFyY2hhSi12cTNTdi1KWDgtbGY4eXZQZWxwX20yVUNBZjY0WUtYWHBTd1JjMG56Q2E4ak9Od20tNThmd2RpZlQ0cUU?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T21:01:01+00:00",
-          "desc": "特朗普：中俄美元首会晤“史无前例”“意义重大” 新华网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "特朗普强调中俄美元首会晤的重要性",
-          "analysis": "特朗普的这一表态反映了当前国际政治经济格局中，中美俄三国的互动日益频繁。此次会晤可能涉及全球战略平衡、贸易政策、地区安全等多个议题，对国际关系和全球治理格局产生重要影响。对中国而言，这可能是对现有国际秩序的挑战，同时也为我国在国际事务中发挥更大作用提供了机会。后续走向可能包括三国在多个领域的合作加强或竞争加剧。",
-          "keywords": [
-            "特朗普",
-            "中俄美元",
-            "首会晤",
-            "国际关系",
-            "全球治理"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1QlVCODBKRlJaYTN3MnZvTEVaWE5VZElJMU9IVUswZDdjRFlydzNDeWtQLUdBOUpXS2psMkFyY2hhSi12cTNTdi1KWDgtbGY4eXZQZWxwX20yVUNBZjY0WUtYWHBTd1JjMG56Q2E4ak9Od20tNThmd2RpZlQ0cUU?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "中俄美三国和平宣言未提乌克兰和伊朗战争",
-          "titleOrig": "China, Russia and US agree peace declaration with no mention of Ukraine and Iran wars",
-          "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-19T17:13:23+00:00",
-          "desc": "Xi, Putin and Trump outline priorities that include UN reform, boosting oil supplies and ‘protection of diplomatic immunity’China, Russia and the US say they have agreed a peace statement after an unprecedented trilateral summit, but the declaration made no mention of the wars in Ukraine and Iran ca",
-          "hotLabel": "",
-          "summary": "中俄美三国在无提及乌克兰和伊朗战争的情况下发表和平宣言。",
-          "analysis": "此次三国峰会背景是国际关系紧张，三国在宣言中未提及乌克兰和伊朗战争，可能是出于对国际冲突的回避和对联合国改革的关注。此举可能表明三国在维护国际和平与安全方面寻求合作，但对乌克兰和伊朗局势的沉默可能引发国际社会的猜测。对国内民生和经济影响有限，但对国际治理和地缘政治有重要意义。后续可能看到三国在国际事务中加强合作，推动多边主义发展。",
-          "keywords": [
-            "中俄美",
-            "和平宣言",
-            "乌克兰战争",
-            "伊朗战争",
-            "联合国改革"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
-            }
-          ],
-          "rank": 5
-        },
-        {
-          "title": "习近平会见智利总统卡斯特",
+          "title": "中俄美三国元首会晤",
           "titleOrig": "",
-          "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%BC%9A%E8%A7%81%E6%99%BA%E5%88%A9%E6%80%BB%E7%BB%9F%E5%8D%A1%E6%96%AF%E7%89%B9",
-          "source": "百度热搜",
-          "sourceId": "baidu",
+          "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E4%B8%89%E5%9B%BD%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -932,18 +809,117 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "习近平会见智利总统卡斯特",
-          "analysis": "此次会晤体现了中国与智利两国关系的友好，以及中国在国际舞台上的影响力。这对深化两国在经贸、能源等领域的合作具有重要意义，同时也展示了中国外交政策的开放性和包容性。",
+          "summary": "中俄美三国元首举行会晤，讨论国际和地区问题。",
+          "analysis": "中俄美三国元首会晤是国际政治中的重要事件，体现了三国在处理国际和地区问题上的沟通与合作。会晤可能涉及全球治理、地缘政治、经贸合作等议题，对维护世界和平与稳定具有重要意义。对国内而言，会晤可能对国际形势产生积极影响，有利于维护我国的国家利益。后续走向可能包括三国在会晤成果基础上进一步的合作与沟通。",
           "keywords": [
-            "习近平",
-            "智利总统",
-            "会晤",
-            "外交关系",
-            "国际合作"
+            "元首会晤",
+            "国际政治",
+            "全球治理",
+            "地缘政治"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 90,
           "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E4%B8%AD%E4%BF%84%E7%BE%8E%E4%B8%89%E5%9B%BD%E5%85%83%E9%A6%96%E4%BC%9A%E6%99%A4"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "特朗普：中俄美元首会晤具有重大历史意义",
+          "titleOrig": "特朗普：中俄美元首会晤具有重大历史意义 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TSXhGSHk1MTNuMmlpVXVKdkdORGNNMndCSlItMV9TY0hQZUhjMTVtQl90ZVB6TUJlRHUzTGJRM25vOGR4YTJqdEZmMF9KYjFwNEtBcHg3al9mRU5PT0hIQkotSkFpUWlr?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T02:04:27+00:00",
+          "desc": "特朗普：中俄美元首会晤具有重大历史意义 中国新闻网中美俄“三巨头”峰会结束：涉及乌克兰、伊朗议题，发表和平宣言承诺核对话 BBC视频丨国际人士表示中俄美元首会晤为世界和平与稳定注入信心和动力- 中国日报网 China Daily特写：大国外交的“深圳时刻” 新浪新闻_手机新浪网德语媒体：深圳峰会-特朗普为习近平当配角 DW.com",
+          "hotLabel": "",
+          "summary": "特朗普称中俄美元首会晤具有重大历史意义。",
+          "analysis": "此次会晤反映了国际关系中大国之间的互动与合作，以及在全球政治经济格局中的战略地位。会晤涉及乌克兰、伊朗等国际热点议题，表明大国之间在重大国际问题上寻求共识与合作。对国内而言，可能影响中国在国际舞台上的角色和地位，以及国际政治经济环境。",
+          "keywords": [
+            "特朗普",
+            "中俄美元",
+            "国际会晤",
+            "大国关系",
+            "国际政治"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5TSXhGSHk1MTNuMmlpVXVKdkdORGNNMndCSlItMV9TY0hQZUhjMTVtQl90ZVB6TUJlRHUzTGJRM25vOGR4YTJqdEZmMF9KYjFwNEtBcHg3al9mRU5PT0hIQkotSkFpUWlr?oc=5"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "特朗普亚洲之行后的记者会最新消息",
+          "titleOrig": "The latest from Trump's press conference",
+          "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T21:38:21+00:00",
+          "desc": "President Trump gave a wide-ranging press conference following his historic trip to Asia where he met with Chinese President Xi and Russian President Putin.",
+          "hotLabel": "",
+          "summary": "特朗普在亚洲之行后举行记者会，会晤了中俄领导人。",
+          "analysis": "特朗普的亚洲之行和记者会体现了美国在亚洲的外交政策，可能影响中美俄三国关系和全球战略平衡。后续可能引发地区安全和经济合作的调整。",
+          "keywords": [
+            "特朗普",
+            "亚洲之行",
+            "中美关系",
+            "中俄关系",
+            "全球战略"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/20/nx-s1-6047636/trump-presser"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "习近平会见印尼总统普拉博沃",
+          "titleOrig": "习近平会见印度尼西亚总统普拉博沃 - 中国共产党新闻网",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vVFpMR3FwS0hoek04Q203cXl1ZDZub294N0J2UThrbWlYRWdUbFdOVnh3TTI4SVRDa2Q2LTZnajhGT3Fhem5YNTQ4SGU4MFBQLTN1SE9MMm1uNlpxYWhSaWZLQ19UTjNFeUZN?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T00:21:00+00:00",
+          "desc": "习近平会见印度尼西亚总统普拉博沃 中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "习近平与印尼总统举行会谈。",
+          "analysis": "此次会晤体现了中国与印尼两国关系的友好，以及双方在多领域合作的意愿。背景上，中国致力于构建周边命运共同体，加强与东南亚国家的关系。此次会谈可能涉及经济、贸易、安全等领域合作，对两国乃至区域稳定与繁荣具有重要意义。后续可能加强双边关系，推动区域合作机制。",
+          "keywords": [
+            "习近平",
+            "印尼总统",
+            "外交关系",
+            "区域合作",
+            "命运共同体"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9vVFpMR3FwS0hoek04Q203cXl1ZDZub294N0J2UThrbWlYRWdUbFdOVnh3TTI4SVRDa2Q2LTZnajhGT3Fhem5YNTQ4SGU4MFBQLTN1SE9MMm1uNlpxYWhSaWZLQ19UTjNFeUZN?oc=5"
+            },
             {
               "name": "百度热搜",
               "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%BC%9A%E8%A7%81%E6%99%BA%E5%88%A9%E6%80%BB%E7%BB%9F%E5%8D%A1%E6%96%AF%E7%89%B9"
@@ -957,74 +933,11 @@
               "url": "https://www.cnbc.com/2026/11/20/trump-data-centers-ai-companies-tax.html"
             }
           ],
-          "rank": 6
+          "rank": 5
         },
         {
-          "title": "也门媒体称沙特空袭造成至少41人死亡",
-          "titleOrig": "也门媒体：过去24小时沙特空袭造成至少41人死亡 - 中国网",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92UUt3eEhaTkU1TVVxYnROS3U2WS1jaTZYX21UTV9Vd2VjQUd5X1h4RU9nMGlDUFFXN3llVnYzMVFVSGM5bi00eTl6ZFp1RHRYVTdZUG9ORk9BYTVnbDVuc19iajdUeGpoeVk5X1I0QQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T18:06:00+00:00",
-          "desc": "也门媒体：过去24小时沙特空袭造成至少41人死亡 中国网沙特利雅得最高摩天大楼遭胡塞武装袭击受损 凤凰网沙特领导的空袭轰炸也门，胡塞武装报告17人死亡 美国之音胡塞武装称重创沙特发电站和港口，沙特剑指胡塞弹道导弹能力 Sohu沙特联军警告撤离也门港口 胡塞武装扬言袭击吉达 联合早报",
-          "hotLabel": "",
-          "summary": "也门媒体报告沙特空袭造成大量平民死亡",
-          "analysis": "沙特对也门的空袭行动引发了国际社会的广泛关注和批评。这一事件反映了中东地区复杂的冲突局势，以及地区大国间的权力斗争。对中国来说，这涉及到地区安全稳定和我国在该地区的利益。后续可能包括国际社会对沙特行动的进一步反应，以及地区冲突的进一步升级。",
-          "keywords": [
-            "也门",
-            "沙特",
-            "空袭",
-            "平民死亡",
-            "中东冲突"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92UUt3eEhaTkU1TVVxYnROS3U2WS1jaTZYX21UTV9Vd2VjQUd5X1h4RU9nMGlDUFFXN3llVnYzMVFVSGM5bi00eTl6ZFp1RHRYVTdZUG9ORk9BYTVnbDVuc19iajdUeGpoeVk5X1I0QQ?oc=5"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "赵乐际会见澳大利亚总理阿尔巴尼斯",
-          "titleOrig": "赵乐际会见澳大利亚总理阿尔巴尼斯 - 中国共产党新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wd2ZEeENUdnpiZl9xa3Y3WWFTRWRBQjdMOXpQdjhQbUVRekh0eEhfN2wxWmFudVNYYmxOWE5sQnhDTldsd2RLQWdzY0dnTHJsY2t6ZmdUUFdoRnJSNDdYTU8tMDFFWWZNY3c?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T11:16:00+00:00",
-          "desc": "赵乐际会见澳大利亚总理阿尔巴尼斯 中国共产党新闻网在Google 新闻上查看更多头条新闻和观点",
-          "hotLabel": "",
-          "summary": "赵乐际与澳大利亚总理会面，探讨双边关系与合作。",
-          "analysis": "此次会面体现了中国对加强与澳大利亚关系的重视，旨在深化两国在政治、经济、文化等领域的合作。这背后反映了中国在区域外交中的战略意图，即通过多边合作促进地区稳定与繁荣。对国内民生而言，加强国际合作有利于促进经济发展，提高人民生活水平。后续可能看到两国在经贸、科技等领域的合作项目增多。",
-          "keywords": [
-            "赵乐际",
-            "澳大利亚",
-            "外交关系",
-            "合作"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1wd2ZEeENUdnpiZl9xa3Y3WWFTRWRBQjdMOXpQdjhQbUVRekh0eEhfN2wxWmFudVNYYmxOWE5sQnhDTldsd2RLQWdzY0dnTHJsY2t6ZmdUUFdoRnJSNDdYTU8tMDFFWWZNY3c?oc=5"
-            }
-          ],
-          "rank": 8
-        },
-        {
-          "title": "APEC盛会效应拉满",
-          "titleOrig": "",
+          "title": "APEC峰会效应显著",
+          "titleOrig": "APEC盛会效应拉满",
           "url": "https://s.weibo.com/weibo?q=%23APEC%E7%9B%9B%E4%BC%9A%E6%95%88%E5%BA%94%E6%8B%89%E6%BB%A1%23&t=31&band_rank=3&Refer=top",
           "source": "微博热搜",
           "sourceId": "weibo",
@@ -1035,24 +948,184 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#3",
-          "summary": "微博热搜称APEC盛会效应显著。",
-          "analysis": "APEC盛会对中国来说是一个展示国家形象和促进区域合作的重要平台。盛会的成功举办可能带来区域经济合作机会，提升中国在国际经济中的地位。对国内经济有正面影响，有助于推动国内经济结构调整和对外开放。后续可能看到APEC成员国在多个领域的合作加深。",
+          "summary": "APEC峰会在中国举行，引发国内外广泛关注。",
+          "analysis": "APEC峰会作为亚太地区最高级别的政府间经济合作论坛，在中国举行体现了中国在国际经济合作中的地位和影响力。此次峰会可能涉及区域经济一体化、贸易自由化、气候变化等议题，对推动区域经济合作具有重要意义。对国内而言，峰会可能促进相关产业发展，提升国际形象；对社会，可能带来一定的经济效应，如旅游、餐饮等行业的增长。后续走向可能包括峰会成果的落实和区域合作的深化。",
           "keywords": [
-            "APEC",
-            "盛会效应",
-            "区域合作",
-            "经济影响",
-            "国际合作"
+            "APEC峰会",
+            "区域经济合作",
+            "国际形象",
+            "经济效应"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=%23APEC%E7%9B%9B%E4%BC%9A%E6%95%88%E5%BA%94%E6%8B%89%E6%BB%A1%23&t=31&band_rank=3&Refer=top"
             }
           ],
+          "rank": 6
+        },
+        {
+          "title": "沙特拦截胡塞武装导弹，也门冲突升级",
+          "titleOrig": "沙特称拦截3枚胡塞武装导弹 也门媒体称沙特袭击致41死 - 中国新闻网",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HNzl4U2JzaVJoQ1JOT25kbFJLS1hnV2cwb1BpeFR0SkdxMGhMeGJyWWNLaG14cDA3OEE4bnN0SjgxRlBRRUxNcWFqdXo4aHRZWjd6UHlDQXVXb014QWliWDItZVNMbG10?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T03:31:51+00:00",
+          "desc": "沙特称拦截3枚胡塞武装导弹 也门媒体称沙特袭击致41死 中国新闻网阿盟谴责胡塞武装持续袭击沙特 凤凰网沙特利雅得最高摩天大楼遭胡塞武装袭击受损 观察者网沙特领导的空袭轰炸也门，胡塞武装报告17人死亡 美国之音胡塞武装称重创沙特发电站和港口，沙特剑指胡塞弹道导弹能力 Sohu",
+          "hotLabel": "",
+          "summary": "沙特称拦截胡塞武装导弹，也门冲突加剧。",
+          "analysis": "沙特与胡塞武装的冲突反映了中东地区复杂的政治和安全局势。沙特拦截导弹表明其防御能力的提升，但胡塞武装的袭击也显示了冲突的严重性。此事件可能加剧地区紧张局势，影响地区稳定与能源安全。后续可能引发更大规模的冲突或国际干预。",
+          "keywords": [
+            "沙特",
+            "胡塞武装",
+            "中东冲突",
+            "能源安全",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5HNzl4U2JzaVJoQ1JOT25kbFJLS1hnV2cwb1BpeFR0SkdxMGhMeGJyWWNLaG14cDA3OEE4bnN0SjgxRlBRRUxNcWFqdXo4aHRZWjd6UHlDQXVXb014QWliWDItZVNMbG10?oc=5"
+            },
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "Anthropic公司上市",
+          "titleOrig": "Anthropic上市",
+          "url": "https://www.zhihu.com/search?q=Anthropic%E4%B8%8A%E5%B8%82",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "#3",
+          "summary": "人工智能公司Anthropic在中国上市。",
+          "analysis": "Anthropic的上市标志着中国人工智能产业的进一步发展，体现了中国在人工智能领域的创新能力和市场潜力。对国内而言，这一事件可能推动人工智能技术的应用和产业发展，促进相关产业链的完善。对社会，可能带来新的就业机会和生活方式的改变。后续走向可能包括更多人工智能企业的上市和行业的快速发展。",
+          "keywords": [
+            "Anthropic",
+            "人工智能",
+            "上市",
+            "产业发展"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=Anthropic%E4%B8%8A%E5%B8%82"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "特朗普刚返美就发重大预告",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%88%9A%E8%BF%94%E7%BE%8E%E5%B0%B1%E5%8F%91%E9%87%8D%E5%A4%A7%E9%A2%84%E5%91%8A",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "特朗普返回美国后发布重大预告。",
+          "analysis": "特朗普的预告可能涉及政治、经济或国际关系等领域，其言论对国内外政治环境可能产生一定影响。后续事件的发展将取决于预告的具体内容及其后续行动。",
+          "keywords": [
+            "特朗普",
+            "预告",
+            "政治",
+            "国际关系",
+            "政治言论"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E5%88%9A%E8%BF%94%E7%BE%8E%E5%B0%B1%E5%8F%91%E9%87%8D%E5%A4%A7%E9%A2%84%E5%91%8A"
+            }
+          ],
           "rank": 9
+        },
+        {
+          "title": "12306迎来重大更新",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=12306%E8%BF%8E%E6%9D%A5%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "中国铁路12306网站进行了一次重大更新。",
+          "analysis": "12306的更新可能涉及用户体验、功能优化或系统升级。这反映了中国在提升公共服务效率和用户体验方面的努力。对于广大旅客而言，这可能意味着购票更加便捷，对于铁路系统来说，则可能涉及运营效率和成本控制。后续可能关注更新对铁路购票市场的影响。",
+          "keywords": [
+            "12306",
+            "铁路购票",
+            "系统更新",
+            "用户体验"
+          ],
+          "category": "tech",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=12306%E8%BF%8E%E6%9D%A5%E9%87%8D%E5%A4%A7%E6%9B%B4%E6%96%B0"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "黄仁勋将公开作证于参议院银行委员会，斯科特主席表示",
+          "titleOrig": "Jensen Huang to testify publicly before Senate banking panel, Chairman Scott says",
+          "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-20T19:42:53+00:00",
+          "desc": "Former Nvidia CEO Jensen Huang has faced a flurry of criticism on Capitol Hill in the wake of his involvement with a suspected Chinese spy.",
+          "hotLabel": "",
+          "summary": "前英伟达CEO黄仁勋将公开作证。",
+          "analysis": "黄仁勋的作证事件涉及国家安全和商业道德问题，反映了中美在高科技领域的竞争和合作。对国内经济而言，这可能影响中美贸易关系和高科技产业的合作。后续事件的发展将对中美科技产业产生重要影响。",
+          "keywords": [
+            "黄仁勋",
+            "国家安全",
+            "中美贸易",
+            "高科技产业"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/20/jensen-huang-nvidia-senate-testimony.html"
+            }
+          ],
+          "rank": 11
         },
         {
           "title": "马斯克离开深圳突访上海",
@@ -1067,16 +1140,15 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "马斯克离开深圳，突访上海。",
-          "analysis": "马斯克访问上海可能意味着对中国的商业投资兴趣增加。这可能与特斯拉等企业的扩张计划有关。对国内经济而言，可能带来外资流入和技术合作机会。后续可能加强中美之间的商业交流。",
+          "summary": "特斯拉CEO马斯克离开深圳，突然访问上海。",
+          "analysis": "马斯克离开深圳并访问上海可能涉及特斯拉在中国的业务布局和发展战略。深圳作为科技创新中心，而上海则在中国经济中扮演重要角色。马斯克的这一行动可能意味着特斯拉在中国市场的进一步扩张和深化。对国内而言，这可能促进新能源汽车和智能汽车产业的发展。后续走向可能包括特斯拉在上海的工厂建设进度和业务拓展。",
           "keywords": [
             "马斯克",
-            "深圳",
-            "上海",
-            "商业投资",
-            "中美交流"
+            "特斯拉",
+            "业务布局",
+            "新能源汽车"
           ],
-          "category": "international",
+          "category": "economy",
           "importance": 75,
           "sources": [
             {
@@ -1084,119 +1156,12 @@
               "url": "https://www.zhihu.com/search?q=%E9%A9%AC%E6%96%AF%E5%85%8B%E7%A6%BB%E5%BC%80%E6%B7%B1%E5%9C%B3%E7%AA%81%E8%AE%BF%E4%B8%8A%E6%B5%B7"
             }
           ],
-          "rank": 10
-        },
-        {
-          "title": "特朗普提议禁止美企海外建数据中心",
-          "titleOrig": "特朗普：希望禁止美企在海外建数据中心，以在超级智能竞赛保持领先中国 - 美国之音",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdDVTZERKMnl2NWJ3WFZYZVQ1UlN3V0lfclN2VDVpS0JkYjAyWEVORDBseFpJTDBNY0pyVWlJZjktcGpMS09ydE9mdFg2NUdkRm1DbjNtcGs0bTRIY19sOUpWZ2FYbEE4WHZVVjhTTHhXYVFHZWhtNHg0WklKbDhyMXRnc0NOcEJjdzJaVkp3OEVrWnhHTnFBdmdiTzJJMEp4S0JzSVhZdUZyN2FDUVRGaFBmcVZWaG83WFNTRFBvRkNEdTJfVzJLV3BqOWo3cTJzd2RUX3J5ekJRZTlIU2FSVkhYY3ozcVhXMHlZVEpuUURzcUVWczZaNXZR0gH8AUFVX3lxTE5sMHNScFBZa0o0MC1YcmkxSzFMSERjUzJwT3AtVEJoYl9wcWQtOGZ1UVRKOUlkcC1Hb0xDWE5VNHRQYzBNZXNNaERqOGtDMnNjMktLMlU5MW15V254VkkwZEI5M2gxRU1qV0Z0X29IaExQbW5mMm9Xa1JRNjNxSy1yS2p2TmktNTVGRlNYaFFxeTlMbXRUNDE5T2RUdUtRS3JUaWNncFZIMmtDRXQ4UlhZQUxUZFZCb2RNLWs1Z29lMXJrM3JUSDhPRERNWk05cnNZRVZYSmw3WW5UVXF3b1dYT09KdHVQQ0pSZEtnVGZ2dTNDc2tQVzI3bDJTcg?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T20:17:13+00:00",
-          "desc": "特朗普：希望禁止美企在海外建数据中心，以在超级智能竞赛保持领先中国 美国之音建设亚太共同体 促进共同繁荣 新浪财经特朗普：美国反对任何形式的AI“全球主义监管” 联合早报川普拟禁海外数据中心 再促黄仁勋回归英伟达 美国中文网特朗普表示：将对在海外建设数据中心的公司征税 东方财富",
-          "hotLabel": "",
-          "summary": "特朗普提出禁止美企海外建数据中心以保持科技领先",
-          "analysis": "特朗普的这一提议旨在保护美国在超级智能领域的领先地位，同时也可能引发国际数据流动和隐私保护的争议。对中国而言，这可能影响中美之间的科技竞争和合作。后续可能包括美国国内的政策制定和国际社会的反应。",
-          "keywords": [
-            "特朗普",
-            "数据中心",
-            "超级智能",
-            "数据流动",
-            "科技竞争"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPdDVTZERKMnl2NWJ3WFZYZVQ1UlN3V0lfclN2VDVpS0JkYjAyWEVORDBseFpJTDBNY0pyVWlJZjktcGpMS09ydE9mdFg2NUdkRm1DbjNtcGs0bTRIY19sOUpWZ2FYbEE4WHZVVjhTTHhXYVFHZWhtNHg0WklKbDhyMXRnc0NOcEJjdzJaVkp3OEVrWnhHTnFBdmdiTzJJMEp4S0JzSVhZdUZyN2FDUVRGaFBmcVZWaG83WFNTRFBvRkNEdTJfVzJLV3BqOWo3cTJzd2RUX3J5ekJRZTlIU2FSVkhYY3ozcVhXMHlZVEpuUURzcUVWczZaNXZR0gH8AUFVX3lxTE5sMHNScFBZa0o0MC1YcmkxSzFMSERjUzJwT3AtVEJoYl9wcWQtOGZ1UVRKOUlkcC1Hb0xDWE5VNHRQYzBNZXNNaERqOGtDMnNjMktLMlU5MW15V254VkkwZEI5M2gxRU1qV0Z0X29IaExQbW5mMm9Xa1JRNjNxSy1yS2p2TmktNTVGRlNYaFFxeTlMbXRUNDE5T2RUdUtRS3JUaWNncFZIMmtDRXQ4UlhZQUxUZFZCb2RNLWs1Z29lMXJrM3JUSDhPRERNWk05cnNZRVZYSmw3WW5UVXF3b1dYT09KdHVQQ0pSZEtnVGZ2dTNDc2tQVzI3bDJTcg?oc=5"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "印中寻求加强南中国海合作与共同开发磋商",
-          "titleOrig": "印中寻求加强南中国海合作与共同开发磋商 - 8world",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWFzeHNzTzY0aDZ5ZkpKUnR6MVB4djg4Qkk5bWNCMHllVFJLaHVDeWMtd244R3FDTmxkbVRQMXJGTWhyRW5pYTFobl9ybzcxVGRJN1RLbEJWNlpPQUNfODg2d3otSFVaVVplLUQ1bXQyQUw3MldyZUhER1hjaXJxYWFUeERHdWlO?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T07:50:02+00:00",
-          "desc": "印中寻求加强南中国海合作与共同开发磋商 8world中印（尼）签署关于启动全面经济伙伴关系协定谈判的谅解备忘录 ThePaper.cn出海日报｜印尼与中企达成718亿美元合作意向，小米汽车重申2027年出海计划 手机新浪网印尼APEC高官：雅万高铁拉近雅加达与万隆，基建联通推动亚太融合 凤凰网印尼主持人：关注APEC期间印尼达成的潜在投资｜境外媒体连线 21财经",
-          "hotLabel": "",
-          "summary": "印度与中国就南中国海合作与共同开发进行磋商。",
-          "analysis": "这一磋商反映了南中国海地区多边合作的趋势，体现了中国和印度在地区安全与经济发展方面的共同利益。对国内经济而言，这有助于推动区域贸易和投资，促进地区经济增长。后续可能看到两国在南海问题上的合作机制更加完善，有助于缓解地区紧张局势。",
-          "keywords": [
-            "南中国海",
-            "印中关系",
-            "合作",
-            "磋商"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLWFzeHNzTzY0aDZ5ZkpKUnR6MVB4djg4Qkk5bWNCMHllVFJLaHVDeWMtd244R3FDTmxkbVRQMXJGTWhyRW5pYTFobl9ybzcxVGRJN1RLbEJWNlpPQUNfODg2d3otSFVaVVplLUQ1bXQyQUw3MldyZUhER1hjaXJxYWFUeERHdWlO?oc=5"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
-            },
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
-            }
-          ],
           "rank": 12
         },
         {
-          "title": "伦敦股市20日下跌",
-          "titleOrig": "伦敦股市20日下跌 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ocGhUaDVsMjBxRFppa2l3dzFaZlE1MEVzVjFkZUYtTlVJU3lPY19YWjlHTWs3aEtOOHRVTUdGTWxIOFMzZkJnSnpIUWlFb1FzYW5xRnBwQXMzbkFXNnFpNFRUbWJKOHNhYVlpYTZGekNwMDF5LTRrYUJ0V2RUcms?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T18:28:00+00:00",
-          "desc": "伦敦股市20日下跌 新华网欧洲股市创2025年以来最大周跌幅 科技股重挫 Sohu德国DAX指数日内跌幅达2% 东方财富网欧洲股市下跌／投资者担心，大规模人工智能投资无法带来足够利润 Informat.ro英法德股市沽压持续 低收1%至近3% 香港電台",
-          "hotLabel": "",
-          "summary": "伦敦股市下跌，创2025年以来最大周跌幅。",
-          "analysis": "伦敦股市下跌反映了全球股市对人工智能投资前景的担忧。这可能与投资者对人工智能投资回报的预期降低有关。对国内经济可能产生间接影响，如影响投资者信心和资金流向。后续可能需要关注全球股市的波动对国内金融市场的影响。",
-          "keywords": [
-            "伦敦股市",
-            "下跌",
-            "人工智能",
-            "投资",
-            "全球股市"
-          ],
-          "category": "economy",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5ocGhUaDVsMjBxRFppa2l3dzFaZlE1MEVzVjFkZUYtTlVJU3lPY19YWjlHTWs3aEtOOHRVTUdGTWxIOFMzZkJnSnpIUWlFb1FzYW5xRnBwQXMzbkFXNnFpNFRUbWJKOHNhYVlpYTZGekNwMDF5LTRrYUJ0V2RUcms?oc=5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "高校2027级研究生不提供宿舍",
-          "titleOrig": "多所高校不向2027级研究生提供宿舍",
-          "url": "https://www.zhihu.com/search?q=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D",
+          "title": "特朗普说美国不支持台独",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E7%BE%8E%E5%9B%BD%E4%B8%8D%E6%94%AF%E6%8C%81%E5%8F%B0%E7%8B%AC",
           "source": "知乎热榜",
           "sourceId": "zhihu",
           "tier": "c",
@@ -1206,119 +1171,56 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "部分高校不再为2027级研究生提供宿舍",
-          "analysis": "此举可能是为了减轻高校宿舍资源压力，提高教育资源利用效率。这将对研究生生活成本和高校管理带来影响，可能促使学生更早独立，同时要求高校提供更多非住宿生活支持。后续可能出台相关配套政策以应对可能的社会反响。",
+          "summary": "特朗普表示美国不支持台独。",
+          "analysis": "特朗普的表态体现了美国在台海问题上的政策立场，可能对中美关系及台海局势产生一定影响。后续中美两国在台海问题上的互动值得关注。",
           "keywords": [
-            "高校",
-            "研究生",
-            "宿舍",
-            "教育资源",
-            "政策调整"
+            "特朗普",
+            "台独",
+            "美国政策",
+            "中美关系",
+            "台海局势"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 75,
           "sources": [
             {
               "name": "知乎热榜",
-              "url": "https://www.zhihu.com/search?q=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D"
+              "url": "https://www.zhihu.com/search?q=%E7%89%B9%E6%9C%97%E6%99%AE%E8%AF%B4%E7%BE%8E%E5%9B%BD%E4%B8%8D%E6%94%AF%E6%8C%81%E5%8F%B0%E7%8B%AC"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "特朗普：深圳干净整洁，一尘不染",
+          "titleOrig": "特朗普：深圳干净整洁，一尘不染 - 观察者网",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pYlZUal9RTXpPSXlJcDdLa2stZDZ5QjYtVFhyX0ZrcGtJc2pHUXk4SmZFMTVqR2Y5eEl3eWFDdG5VNThuM3d6VjJNdkFWVHhWS0VxVDJYUElnNFlzYVFNMHRuYVlyN1dBbXlsV09EN19wYTg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T01:32:00+00:00",
+          "desc": "特朗普：深圳干净整洁，一尘不染 观察者网特朗普点赞深圳：这个城市干净无瑕，而我们有些城市脏得让人恶心 凤凰网特朗普在白宫感叹中国行：城市一尘不染，而美国的“又脏又破犯罪率还奇高” ThePaper.cn中国基建最佳推销员，川建国同志如实说 见道网特朗普：看看人家深圳，城市很干净、一切都很完美，我们一些城市“脏得让人恶心” Sohu",
+          "hotLabel": "",
+          "summary": "特朗普称赞深圳城市干净整洁。",
+          "analysis": "特朗普的评论可能反映了深圳作为中国改革开放前沿城市的形象。这不仅是个人评价，也可能代表了对中国城市管理成就的认可。对国内而言，这一评价可能提升深圳乃至中国的国际形象，同时也可能激励其他城市在城市建设和管理方面提升标准。",
+          "keywords": [
+            "特朗普",
+            "深圳",
+            "城市管理",
+            "国际形象",
+            "中国城市"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5pYlZUal9RTXpPSXlJcDdLa2stZDZ5QjYtVFhyX0ZrcGtJc2pHUXk4SmZFMTVqR2Y5eEl3eWFDdG5VNThuM3d6VjJNdkFWVHhWS0VxVDJYUElnNFlzYVFNMHRuYVlyN1dBbXlsV09EN19wYTg?oc=5"
             }
           ],
           "rank": 14
-        },
-        {
-          "title": "日本研究引进核潜艇及为“无核三原则”设例外",
-          "titleOrig": "日媒：日本研究引进核潜艇及为“无核三原则”设例外--国际 - 人民网",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FeGhHR1NCekRUZ1ZFYVYxazBnVDVob2lRMnJDWFNSMk1yZVlKaFlaWnBoMXZmcDhqZEYyaHlESUFMajJtTXJyd1QzbUhVdURxZ2UwckRFYkxCb3pPWE41aEZiNDI2aHI5R3dN?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T21:55:00+00:00",
-          "desc": "日媒：日本研究引进核潜艇及为“无核三原则”设例外--国际 人民网日本东京万人集会抗议高市政权政策--国际 人民网数万名日本民众签名反对日本拥有核潜艇 央视网上万日本民众举行抗议集会 反对高市政府扩军修宪 中国网日媒：日本研究引进核潜艇及为“无核三原则”设例外 Sohu",
-          "hotLabel": "",
-          "summary": "日本考虑引进核潜艇并突破无核三原则",
-          "analysis": "日本此举可能标志着其军事战略的重大转变，引发地区安全格局的变化。对中国来说，这可能增加地区不稳定因素。后续可能包括日本国内的政治辩论和国际社会的反应。",
-          "keywords": [
-            "日本",
-            "核潜艇",
-            "无核三原则",
-            "军事战略",
-            "地区安全"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5FeGhHR1NCekRUZ1ZFYVYxazBnVDVob2lRMnJDWFNSMk1yZVlKaFlaWnBoMXZmcDhqZEYyaHlESUFMajJtTXJyd1QzbUhVdURxZ2UwckRFYkxCb3pPWE41aEZiNDI2aHI5R3dN?oc=5"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "于和伟谈出演《伟大的长征》",
-          "titleOrig": "于和伟谈出演《伟大的长征》：九十年后，依然与他们同悲同喜 - 新浪财经",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNGU0MFh5WlcySnNBb2ZDRG5BcC10X3RGYVE2LWdLN0VETFdmalRqT25JelMxSnVBNDFYdEEwbERDYXdhc2FGNnJsSF9jaE5fWHJNUXhWU25GWEpYcWVSRHZDVms2cjFpM1hIbW1vQjJ2djRHV3JsdFRVaTlON1NMeEE1dEt4Qzk3YlJF?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-20T13:12:46+00:00",
-          "desc": "于和伟谈出演《伟大的长征》：九十年后，依然与他们同悲同喜 新浪财经新华社评《伟大的长征》破圈：让“久远的先辈”变成与我们血脉相连的同路人 ThePaper.cn国家广播电视总局举办电视剧《伟大的长征》创作座谈会 凤凰网三问《伟大的长征》主创（面对面） 人民日报今天的中国人，又要重走长征路了 观察者网",
-          "hotLabel": "",
-          "summary": "演员于和伟谈出演电视剧《伟大的长征》，重温历史。",
-          "analysis": "该剧的播出有助于弘扬长征精神，增强民族凝聚力。对国内社会而言，通过文艺作品回顾历史，有助于传承红色基因，激发爱国情怀。后续可能看到类似题材的作品增多，进一步推动社会主义核心价值观的传播。",
-          "keywords": [
-            "于和伟",
-            "长征",
-            "电视剧",
-            "历史教育"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNNGU0MFh5WlcySnNBb2ZDRG5BcC10X3RGYVE2LWdLN0VETFdmalRqT25JelMxSnVBNDFYdEEwbERDYXdhc2FGNnJsSF9jaE5fWHJNUXhWU25GWEpYcWVSRHZDVms2cjFpM1hIbW1vQjJ2djRHV3JsdFRVaTlON1NMeEE1dEt4Qzk3YlJF?oc=5"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "后会友期黄焖鸡事件原声视频",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E9%BB%84%E7%84%96%E9%B8%A1%E4%BA%8B%E4%BB%B6%E5%8E%9F%E5%A3%B0%E8%A7%86%E9%A2%91&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "#2",
-          "summary": "微博热搜中出现后会友期黄焖鸡事件原声视频。",
-          "analysis": "该事件原声视频的曝光可能源于社会对食品安全和消费者权益的关注。事件背后反映的是食品安全监管和消费者维权意识的提高。对国内社会影响较大，可能促使相关部门加强食品安全监管，提高公众对食品安全的认识。后续可能引发对食品安全问题的进一步讨论和监管措施。",
-          "keywords": [
-            "食品安全",
-            "消费者权益",
-            "微博热搜",
-            "黄焖鸡事件",
-            "社会影响"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%90%8E%E4%BC%9A%E5%8F%8B%E6%9C%9F%E9%BB%84%E7%84%96%E9%B8%A1%E4%BA%8B%E4%BB%B6%E5%8E%9F%E5%A3%B0%E8%A7%86%E9%A2%91&t=31&band_rank=2&Refer=top"
-            }
-          ],
-          "rank": 17
         },
         {
           "title": "DeepSeek付费体验直线上升",
@@ -1333,21 +1235,127 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "DeepSeek付费体验提升。",
-          "analysis": "DeepSeek付费体验的提升可能反映了该平台在内容或服务上的优化，这可能与用户需求和市场反馈有关。对科技行业而言，表明了付费模式在内容服务中的可行性。后续可能推动更多平台采用付费模式，提升用户体验。",
+          "summary": "DeepSeek付费用户增长迅速。",
+          "analysis": "DeepSeek的用户增长可能反映了市场对深度学习工具的需求增加，或其产品和服务质量提升。这对科技行业是一个积极的信号，表明技术创新和市场需求之间存在良好互动。后续可能吸引更多用户，推动行业竞争和创新。",
           "keywords": [
             "DeepSeek",
-            "付费体验",
-            "科技行业",
-            "内容服务",
-            "付费模式"
+            "付费用户",
+            "深度学习",
+            "市场需求",
+            "技术创新"
           ],
           "category": "tech",
-          "importance": 60,
+          "importance": 70,
           "sources": [
             {
               "name": "微博热搜",
               "url": "https://s.weibo.com/weibo?q=DeepSeek%E4%BB%98%E8%B4%B9%E4%BD%93%E9%AA%8C%E7%9B%B4%E7%BA%BF%E4%B8%8A%E5%8D%87&t=31&band_rank=1&Refer=top"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "多所高校2027级研究生不提供宿舍",
+          "titleOrig": "多所高校不向2027级研究生提供宿舍",
+          "url": "https://www.zhihu.com/search?q=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "部分高校宣布2027级研究生不再提供宿舍。",
+          "analysis": "这一政策可能反映了高校在资源分配上的调整，旨在提高研究生教育质量，鼓励学生独立生活。此举可能对部分家庭经济条件较差的研究生造成影响，同时也可能促使高校改善宿舍条件或提供更多校外住宿选择。后续可能看到高校在研究生住宿政策上的更多创新。",
+          "keywords": [
+            "高校",
+            "研究生",
+            "宿舍政策",
+            "资源分配",
+            "教育质量"
+          ],
+          "category": "international",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E5%A4%9A%E6%89%80%E9%AB%98%E6%A0%A1%E4%B8%8D%E5%90%912027%E7%BA%A7%E7%A0%94%E7%A9%B6%E7%94%9F%E6%8F%90%E4%BE%9B%E5%AE%BF%E8%88%8D"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "DeepSeek调整API定价",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=DeepSeek%E8%B0%83%E6%95%B4API%E5%AE%9A%E4%BB%B7",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "DeepSeek调整其API服务定价策略。",
+          "analysis": "DeepSeek作为一家提供API服务的企业，调整定价可能旨在应对市场竞争或成本变化。这一举措可能会影响使用其API服务的开发者，进而影响整个科技行业的服务成本和商业模式。后续可能需要观察市场对此反应以及DeepSeek如何调整其服务以适应市场变化。",
+          "keywords": [
+            "DeepSeek",
+            "API定价",
+            "市场策略",
+            "科技行业"
+          ],
+          "category": "tech",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=DeepSeek%E8%B0%83%E6%95%B4API%E5%AE%9A%E4%BB%B7"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "何以中国·和合礼让：茶馆调解，线上线下结合",
+          "titleOrig": "何以中国·和合礼让丨这杯“调解茶”：茶馆坐得下，云端连得上 - 紫牛新闻",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKbHg4OVRET0owVGpmNTg0dHBXcEhIMjRzdzlEMUNzcFV5SC1QeWpJMHJJcVpsLXluUGdneDExNS1HbXAyVVd3b04wcUJZN3JxV3lYbTBaTzduaXMyX3FFc1NWcUZ6MWJx?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-21T02:04:00+00:00",
+          "desc": "何以中国·和合礼让丨这杯“调解茶”：茶馆坐得下，云端连得上 紫牛新闻在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "茶馆调解成为新型社会矛盾解决方式。",
+          "analysis": "这反映了中国在推进社会治理现代化，通过传统与现代结合的方式解决社会矛盾。茶馆调解体现了社区治理的精细化，有助于维护社会稳定。对国内民生而言，这种非正式的调解方式能够降低解决矛盾的成本，提高社会和谐度。后续可能推广至更多地区，成为社会治理的新模式。",
+          "keywords": [
+            "茶馆调解",
+            "社会治理",
+            "社会稳定",
+            "和谐"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBKbHg4OVRET0owVGpmNTg0dHBXcEhIMjRzdzlEMUNzcFV5SC1QeWpJMHJJcVpsLXluUGdneDExNS1HbXAyVVd3b04wcUJZN3JxV3lYbTBaTzduaXMyX3FFc1NWcUZ6MWJx?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
             }
           ],
           "rank": 18
@@ -1365,17 +1373,17 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "网红李子柒当选四川文联副主席",
-          "analysis": "李子柒的当选反映了传统文化与现代流行文化的结合，以及新兴文化产业在文化领域的影响力。这将对四川乃至全国的文化产业发展产生积极影响，可能促进传统文化与现代创意的融合。",
+          "summary": "网红李子柒当选四川省文联副主席。",
+          "analysis": "李子柒的当选体现了文化领域对网络文化人才的认可，同时也可能推动传统文化与现代传播手段的结合。这一事件可能激发更多年轻人关注和传承传统文化，对四川省的文化产业发展具有积极意义。",
           "keywords": [
             "李子柒",
             "四川文联",
-            "网红",
-            "文化产业",
-            "传统文化"
+            "网络文化",
+            "传统文化",
+            "文化产业"
           ],
           "category": "society",
-          "importance": 60,
+          "importance": 65,
           "sources": [
             {
               "name": "知乎热榜",
@@ -1385,33 +1393,44 @@
           "rank": 19
         },
         {
-          "title": "王子璇问马天宇你不会爱上我",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E9%97%AE%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%BD%A0%E4%B8%8D%E4%BC%9A%E7%88%B1%E4%B8%8A%E6%88%91%23&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "何以中国：长安诗与月，古今同辉",
+          "titleOrig": "何以中国丨长安诗与月 同照古今人 - 凤凰网",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAySjlXWTgzTWhGYmwyeDR2T0VMOXZiYXI2LW1aYlB2M0lmOWpuRUVNX1FneDM4OThfWG1YX2hDMTRmU2tOdUNGVFd1QVg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-21T02:03:13+00:00",
+          "desc": "何以中国丨长安诗与月 同照古今人 凤凰网在Google 新闻上查看更多头条新闻和观点",
           "hotLabel": "",
-          "summary": "微博热搜出现王子璇问马天宇是否会爱上她的新闻。",
-          "analysis": "该新闻属于娱乐圈事件，对公众娱乐生活有一定影响，但对社会经济和治理无直接影响。这类事件通常反映娱乐圈的动态和粉丝文化，对国内社会影响有限。后续可能引发粉丝讨论和媒体关注。",
+          "summary": "长安历史与现代文化交融。",
+          "analysis": "文章通过长安的历史与现代文化的对比，展现了中国传统文化的魅力和现代社会的活力。这体现了中国对传统文化的重视和传承，同时也反映了文化自信的提升。对国内文化产业发展具有积极影响，有助于提升国家文化软实力。后续可能促进文化旅游业的繁荣。",
           "keywords": [
-            "娱乐圈",
-            "王子璇",
-            "马天宇",
-            "粉丝文化",
-            "娱乐新闻"
+            "长安",
+            "历史文化",
+            "文化自信",
+            "文化旅游"
           ],
           "category": "society",
-          "importance": 50,
+          "importance": 65,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%8E%8B%E5%AD%90%E7%92%87%E9%97%AE%E9%A9%AC%E5%A4%A9%E5%AE%87%E4%BD%A0%E4%B8%8D%E4%BC%9A%E7%88%B1%E4%B8%8A%E6%88%91%23&t=31&band_rank=4&Refer=top"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAySjlXWTgzTWhGYmwyeDR2T0VMOXZiYXI2LW1aYlB2M0lmOWpuRUVNX1FneDM4OThfWG1YX2hDMTRmU2tOdUNGVFd1QVg?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/19/trump-apec-asleep-china"
             }
           ],
           "rank": 20
