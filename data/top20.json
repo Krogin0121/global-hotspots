@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T01:19:31.308122+00:00",
+  "generatedAt": "2026-11-26T16:01:27.815931+00:00",
   "model": "glm-4-flash",
   "sourceStats": [
     {
@@ -41,7 +41,7 @@
     {
       "id": "hackernews",
       "name": "Hacker News",
-      "count": 30,
+      "count": 29,
       "ok": true
     },
     {
@@ -59,7 +59,7 @@
     {
       "id": "zhihu",
       "name": "知乎热榜",
-      "count": 12,
+      "count": 16,
       "ok": true
     },
     {
@@ -90,75 +90,424 @@
   "sections": {
     "international": {
       "title": "国际热点 20",
-      "digest": "今日国际局势呈现多领域紧张态势。美股受AI担忧影响下跌，科技巨头面临监管压力。乌克兰与俄罗斯冲突持续，中东地区战事重燃，印尼和尼日利亚等地发生严重事故。韩国通胀率持续高于目标，美国军队在阿布列戈·加西亚事件中采取行动。全球范围内，自然灾害和恐怖主义威胁依然存在。值得注意的是，科技、安全和地缘政治领域的事件走向值得持续关注。",
+      "digest": "今日国际局势呈现出多领域紧张与合作的交织。非洲地区在公共卫生、经济和地缘政治等方面面临多重挑战，如HIV预防注射剂的抵达、埃博拉疫情的蔓延、反对派声音受到压力等。同时，科技领域的发展，如SpaceX卫星发射计划的批准，以及英伟达芯片对中国的限制，反映出全球科技竞争的加剧。在欧洲，英欧新条约的签署和西班牙领导欧洲央行的任命，体现了区域合作的意愿。而在国际政治层面，中美贸易摩擦、伊朗无人机袭击等事件，则凸显了大国博弈的紧张局势。总体而言，国际局势复杂多变，各国在应对全球性挑战中寻求合作，同时也在战略利益上展开竞争。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "美股受AI担忧加剧进一步下跌",
-          "titleOrig": "US stocks fall further as fears over AI intensify",
-          "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+          "title": "更便宜的HIV预防注射剂抵达非洲，数百万人有希望",
+          "titleOrig": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+          "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-25T21:43:18+00:00",
-          "desc": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+          "publishedAt": "2026-11-26T11:00:39+00:00",
+          "desc": "Lenacapavir, administered as an injection twice a year, is nearly 100% effective at preventing HIV infection.",
           "hotLabel": "",
-          "summary": "美三大股指开盘下跌，科技股为主的纳斯达克指数下跌近4%。",
-          "analysis": "随着人工智能技术发展带来的担忧加剧，投资者对科技股的信心下降，导致美股进一步下跌。这反映了市场对于技术进步可能带来的不确定性和潜在风险的担忧。对国际科技股市场及全球经济可能产生连锁反应，影响全球股市走势。后续可能需要关注相关政策和监管动态，以及市场对人工智能技术的接受程度。",
+          "summary": "高效的HIV预防注射剂Lenacapavir在非洲推广，为数百万HIV感染者带来希望。",
+          "analysis": "Lenacapavir的推广将极大提高非洲地区HIV预防的可及性和效果，有助于降低HIV感染率。这对非洲公共卫生和全球抗击艾滋病具有重要意义。",
           "keywords": [
-            "美股",
-            "人工智能",
-            "股市下跌",
-            "投资者担忧",
-            "全球股市"
+            "HIV预防",
+            "Lenacapavir",
+            "非洲",
+            "公共卫生"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "刚果（金）埃博拉疫情达到12000例，一些响应者撤离",
+          "titleOrig": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+          "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+          "source": "NPR News",
+          "sourceId": "npr",
+          "tier": "a",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T13:47:09+00:00",
+          "desc": "As the fast-moving outbreak continues to spread in eastern Congo, fighting between rebels and the army is disrupting efforts to contain the spread of the disease.",
+          "hotLabel": "",
+          "summary": "随着疫情在刚果（金）东部蔓延，叛军与军队之间的战斗干扰了疾病传播的防控工作。",
+          "analysis": "背景：刚果（金）东部地区爆发了埃博拉疫情，疫情迅速蔓延。关键影响：疫情可能对当地社区和全球经济造成严重影响。后续走向：国际社会可能会加大援助力度，但疫情可能难以在短时间内得到控制。",
+          "keywords": [
+            "埃博拉疫情",
+            "刚果（金）",
+            "疾病传播",
+            "国际援助",
+            "公共卫生"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "NPR News",
+              "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders"
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "title": "伊朗无人机袭击造成两名意大利人在科威特丧生",
+          "titleOrig": "Iranian drone attack kills 2 Italians in Kuwait",
+          "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:11:00+00:00",
+          "desc": "The Italians were employed as technicians for the Italian branch of German arms manufacturer Rheinmetall. One Kuwaiti and one Pakistani national were also injured in the attack.",
+          "hotLabel": "",
+          "summary": "两名在科威特的意大利技术人员在伊朗无人机袭击中丧生，袭击还造成一名科威特人和一名巴基斯坦人受伤。",
+          "analysis": "此次袭击可能加剧中东地区的紧张局势，引发地区国家之间的紧张关系。袭击背后的动机和责任归属可能成为国际关注的焦点，对伊朗和意大利的外交关系产生重大影响。未来，该事件可能进一步激化地区冲突。",
+          "keywords": [
+            "伊朗",
+            "无人机袭击",
+            "科威特",
+            "意大利",
+            "中东局势"
+          ],
+          "category": "international",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/iranian-drone-attack-kills-2-italians-in-kuwait/a-80064974?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "title": "马斯克计划发射百万颗SpaceX数据卫星获得批准",
+          "titleOrig": "Musk's plan to send a million SpaceX data satellites into space approved",
+          "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T09:27:44+00:00",
+          "desc": "The Starmind constellation aims to be the most cost and energy-efficient way to meet the growing demand for AI computing power.",
+          "hotLabel": "",
+          "summary": "SpaceX的星链计划旨在以成本和能源效率最高的方式满足日益增长的AI计算能力需求。",
+          "analysis": "SpaceX的星链计划代表了太空技术的发展趋势，同时也反映了全球对高性能计算资源需求的增长。这一计划的成功将加强美国在太空技术领域的领导地位，并对全球通信和互联网基础设施产生深远影响。后续可能面临监管挑战和国际竞争。",
+          "keywords": [
+            "SpaceX",
+            "星链计划",
+            "太空技术",
+            "高性能计算",
+            "国际竞争"
+          ],
+          "category": "tech",
+          "importance": 90,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "title": "法国影星德帕迪约涉嫌2018年强奸女演员将被审判",
+          "titleOrig": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+          "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T14:44:26+00:00",
+          "desc": "A Paris appeals court rules Depardieu will go on trial for the alleged rape of Charlotte Arnould.",
+          "hotLabel": "",
+          "summary": "法国影星德帕迪约因涉嫌2018年强奸案将被审判。",
+          "analysis": "德帕迪约的审判不仅关注个人名誉，也反映了法国司法对性侵案件的重视。此事件可能影响法国电影产业和国际形象。后续可能引发公众对性侵案件的关注和讨论，对法国社会产生深远影响。",
+          "keywords": [
+            "德帕迪约",
+            "强奸案",
+            "法国司法",
+            "电影产业"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 1
+          "rank": 5
         },
         {
-          "title": "万内奇称未收到黄仁勋被司法部调查的保证",
-          "titleOrig": "Vance says he was assured Jensen Huang was not under DOJ investigation",
-          "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html",
+          "title": "英欧新条约包含10年终止条款",
+          "titleOrig": "New UK-EU treaty has 10-year termination clause",
+          "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:23:17+00:00",
+          "desc": "Text of the treaties was published this afternoon, alongside legislation designed to enact the bulk of the deal.",
+          "hotLabel": "",
+          "summary": "英国与欧盟签署的新条约文本公布，包含终止条款。",
+          "analysis": "该条约的签署反映了英国脱欧后的新关系框架，10年终止条款可能意味着双方关系的长期性和不确定性。对英国和欧盟的经济关系以及欧洲一体化进程有重要影响。后续可能面临双方国内的政治压力和公众意见的考验。",
+          "keywords": [
+            "英国",
+            "欧盟",
+            "条约",
+            "终止条款",
+            "脱欧"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c98r7p65edvgo?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "中国对特朗普新关税提案保留采取必要措施的权力",
+          "titleOrig": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+          "source": "The Guardian",
+          "sourceId": "guardian",
+          "tier": "a",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T12:00:22+00:00",
+          "desc": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’Trump proposing new tariffs on 14 partners including China and EUBeijing has said it reserves the right to take “necessary measures” after Donald Trump’s administration proposed new tariff",
+          "hotLabel": "",
+          "summary": "北京称新关税为‘政治操纵’，巴西表示不会屈服于这种威胁。",
+          "analysis": "背景：特朗普政府提出对包括中国和欧盟在内的14个伙伴国的新关税。中国认为这是政治操纵，巴西则表示不会屈服。关键影响：这可能导致中美和中美欧之间的贸易紧张关系升级，影响全球供应链和经济增长。后续走向：双方可能采取进一步的报复性关税措施，进一步加剧贸易战。",
+          "keywords": [
+            "关税",
+            "贸易战",
+            "中国",
+            "特朗普",
+            "全球供应链"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+            }
+          ],
+          "rank": 7
+        },
+        {
+          "title": "越南是否准备逐步废除死刑？",
+          "titleOrig": "Is authoritarian Vietnam ready to phase out the death penalty?",
+          "url": "https://www.dw.com/en/is-authoritarian-vietnam-ready-to-phase-out-the-death-penalty/a-80064271?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:19:00+00:00",
+          "desc": "Vietnam has voted to abolish the death penalty for six more crimes, continuing a decades-long trend of restricting capital punishment.",
+          "hotLabel": "",
+          "summary": "越南投票决定废除六项罪行的死刑，延续了几十年限制死刑的趋势。",
+          "analysis": "越南此举可能受到国际社会压力和国内改革思潮的影响，显示出其试图改善国际形象和人权记录。废除死刑对国内法治建设和国际关系可能产生积极影响，但同时也可能引发对国家安全的担忧。未来，越南可能继续推进相关改革，但其步伐和效果仍需观察。",
+          "keywords": [
+            "越南",
+            "死刑",
+            "人权",
+            "国际关系",
+            "法治"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/is-authoritarian-vietnam-ready-to-phase-out-the-death-penalty/a-80064271?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 8
+        },
+        {
+          "title": "刚果金要求对乌干达将军威胁作出解释",
+          "titleOrig": "DR Congo demands answers over Ugandan general's threats",
+          "url": "https://www.bbc.co.uk/news/articles/cwz0k90rgpm8o?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T07:24:39+00:00",
+          "desc": "Gen Kainerugaba threatened a rebel takeover of a mineral-rich area in DR Congo in controversial X posts.",
+          "hotLabel": "",
+          "summary": "乌干达将军在社交媒体上威胁夺取刚果金矿产丰富地区的控制权。",
+          "analysis": "乌干达将军的威胁反映了刚果金地区安全局势的紧张和地缘政治的复杂。刚果金的矿产资源丰富，但政治不稳定，外部势力干预的可能性增加。这一事件可能导致区域冲突升级，对地区安全和国际关系产生负面影响。后续可能需要国际社会的介入来缓解紧张局势。",
+          "keywords": [
+            "刚果金",
+            "乌干达",
+            "地缘政治",
+            "矿产资源",
+            "区域安全"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cwz0k90rgpm8o?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 9
+        },
+        {
+          "title": "载有7000吨柴油的油轮在伊维萨岛附近倾覆，一人死亡",
+          "titleOrig": "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+          "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:17:18+00:00",
+          "desc": "The possible environmental damage is still being assessed by Spain's sea rescue service.",
+          "hotLabel": "",
+          "summary": "一艘载有7000吨柴油的油轮在伊维萨岛附近倾覆，造成一人死亡。",
+          "analysis": "油轮倾覆事件可能对西班牙环境造成严重破坏，影响旅游业和海洋生态。此事件凸显了海上运输安全的重要性，后续可能引发对航运安全的关注和审查。",
+          "keywords": [
+            "油轮倾覆",
+            "环境破坏",
+            "西班牙",
+            "航运安全"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 10
+        },
+        {
+          "title": "ISIS袭击致2名叙利亚安全部队成员死亡",
+          "titleOrig": "Attack Blamed on ISIS Kills 2 Syrian Security Force Members",
+          "url": "https://www.nytimes.com/2026/11/26/world/middleeast/isis-attack-syria.html",
+          "source": "NYT World",
+          "sourceId": "nyt",
+          "tier": "s",
+          "cat": "intl",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T11:08:41+00:00",
+          "desc": "The assault on a security headquarters in the northeastern city of Hasakah was carried out by four militants who local officials linked to the Islamic State.",
+          "hotLabel": "",
+          "summary": "极端组织ISIS在叙利亚东北部城市哈萨卡发动袭击，造成2名安全部队成员死亡。",
+          "analysis": "此次袭击表明ISIS在叙利亚的影响力仍然存在，对叙利亚政府和国际反恐努力构成挑战。这可能加剧地区不稳定，并影响国际社会对叙利亚问题的关注和干预。",
+          "keywords": [
+            "ISIS",
+            "叙利亚",
+            "袭击",
+            "安全部队",
+            "反恐"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/26/world/middleeast/isis-attack-syria.html"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "英伟达芯片买家被告知排除中国租户购买GPU，据消息人士透露",
+          "titleOrig": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say",
+          "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-25T21:00:08+00:00",
-          "desc": "Whether the Trump administration has investigated Jensen Huang for potential national security risks has been the subject of questions.",
+          "publishedAt": "2026-11-26T15:34:08+00:00",
+          "desc": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
           "hotLabel": "",
-          "summary": "万内奇确认黄仁勋未受到司法部调查。",
-          "analysis": "此事件背后可能涉及美国政府对科技行业的监管态度。黄仁勋作为英伟达CEO，其个人及公司行为受到关注，反映了美国在国家安全和科技竞争方面的担忧。此事件可能影响中美科技关系及全球半导体产业格局。后续可能进一步揭示美国政府对科技企业的监管策略。",
+          "summary": "美国商务部长杰姆森·格雷尔表示，新的BIS规则旨在关闭‘漏洞’。",
+          "analysis": "背景：美国商务部长杰姆森·格雷尔表示，新的出口管制规则旨在防止中国通过租赁方式获取敏感技术。关键影响：这可能限制中国获取先进芯片的能力，影响全球半导体市场。后续走向：这可能引发中美之间的技术竞争，并可能导致中国加大自主研发的投入。",
           "keywords": [
-            "黄仁勋",
-            "司法部调查",
-            "国家安全",
-            "科技竞争",
-            "中美关系"
+            "英伟达",
+            "芯片",
+            "出口管制",
+            "中国",
+            "技术竞争"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/vance-jensen-huang-nvidia-doj-investigation.html"
+              "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
             }
           ],
-          "rank": 2
+          "rank": 12
         },
         {
-          "title": "开罗高速公路油罐车相撞引发大火，至少31人死亡",
+          "title": "非洲：反对派声音面临日益增加的压力",
+          "titleOrig": "Africa: Opposition voices face growing pressure",
+          "url": "https://www.dw.com/en/africa-opposition-voices-face-growing-pressure/a-80063893?maca=en-rss-en-all-1573-rdf",
+          "source": "Deutsche Welle",
+          "sourceId": "dw",
+          "tier": "a",
+          "cat": "intl",
+          "region": "德国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:04:00+00:00",
+          "desc": "Opposition politicians and government critics say arrests, prosecutions and restrictions on public activity are making it harder to challenge those in power. Is a broader pattern emerging?",
+          "hotLabel": "",
+          "summary": "非洲反对派政治家和政府批评者表示，逮捕、起诉和限制公共活动使得挑战权力变得更加困难。",
+          "analysis": "这表明非洲一些国家在民主进程中的挑战和压力。反对派面临的政治压力可能反映出政府试图维护权力，但也可能引发更广泛的民主运动。这一趋势对非洲的民主进程和地区稳定具有深远影响。",
+          "keywords": [
+            "非洲",
+            "反对派",
+            "民主",
+            "政治压力",
+            "地区稳定"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "Deutsche Welle",
+              "url": "https://www.dw.com/en/africa-opposition-voices-face-growing-pressure/a-80063893?maca=en-rss-en-all-1573-rdf"
+            }
+          ],
+          "rank": 13
+        },
+        {
+          "title": "开罗高速公路燃油罐车相撞引发大火 至少31人死亡",
           "titleOrig": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
           "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
           "source": "The Guardian",
@@ -170,555 +519,212 @@
           "publishedAt": "2026-11-26T00:39:10+00:00",
           "desc": "Blaze on ring road surrounding Egyptian capital injures at least 21 people and leaves cars and motorcycles charredA crash involving a fuel tanker ignited a huge fire on a highway surrounding Cairo on Wednesday, killing at least 31 people, Egyptian authorities said.The blaze on the ring road, a key a",
           "hotLabel": "",
-          "summary": "埃及开罗周边高速公路发生油罐车相撞事故，造成至少31人死亡，21人受伤。",
-          "analysis": "这起事故反映了埃及基础设施的脆弱性和交通安全问题。事故可能揭示了埃及在能源运输和基础设施维护方面的不足，对埃及的经济和社会稳定构成潜在威胁。此外，此类事件可能加剧国际社会对埃及安全状况的担忧。后续可能需要埃及政府加强基础设施建设和交通安全管理。",
+          "summary": "开罗环路上发生燃油罐车相撞事故，引发大火，造成至少31人死亡。",
+          "analysis": "这起事故暴露了埃及交通安全问题的严重性，可能引发对基础设施安全性的广泛审查。事故对埃及的社会稳定和经济发展产生负面影响。后续可能需要加强交通安全措施，并提高公众对安全意识。",
           "keywords": [
-            "埃及",
-            "交通事故",
-            "基础设施",
-            "能源安全"
+            "开罗",
+            "燃油罐车事故",
+            "交通安全",
+            "社会稳定",
+            "经济发展"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 80,
           "sources": [
             {
               "name": "The Guardian",
               "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway"
             }
           ],
-          "rank": 3
+          "rank": 14
         },
         {
-          "title": "乌克兰称五架俄军机在机场遭打击",
-          "titleOrig": "Five Russian military jets hit in airfield strike, says Ukraine",
-          "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+          "title": "曼谷炼油厂爆炸导致七人受伤，四人重伤",
+          "titleOrig": "Seven injured, four critically, after Bangkok oil refinery explosion",
+          "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss",
           "source": "BBC World",
           "sourceId": "bbc",
           "tier": "s",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-25T14:46:41+00:00",
-          "desc": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
+          "publishedAt": "2026-11-26T11:21:50+00:00",
+          "desc": "Black smoke could be seen across Bangkok's skyline after the blast, as officials urged residents to leave the area.",
           "hotLabel": "",
-          "summary": "乌克兰称俄军机在萨瓦塞卡机场遭打击，该机场用于发射高超音速导弹和滑翔炸弹。",
-          "analysis": "萨瓦塞卡机场是俄罗斯对乌克兰进行军事行动的重要基地。此次打击可能表明乌克兰在军事上对俄罗斯实施反击，同时也反映了乌克兰在冲突中的防御能力。事件可能加剧乌克兰与俄罗斯之间的紧张关系，对地区安全局势产生重大影响。后续可能引发更大规模的冲突，或促使国际社会介入调解。",
+          "summary": "曼谷炼油厂发生爆炸，导致七人受伤，其中四人重伤。",
+          "analysis": "炼油厂爆炸事件可能对泰国经济和能源供应造成影响，同时引发对炼油厂安全标准的关注。泰国政府可能加强相关行业的监管，以防止类似事件再次发生。",
           "keywords": [
-            "乌克兰",
-            "俄罗斯",
-            "军事打击",
-            "萨瓦塞卡机场",
-            "高超音速导弹"
+            "炼油厂爆炸",
+            "泰国",
+            "能源供应",
+            "安全监管"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 75,
           "sources": [
             {
               "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo?at_medium=RSS&at_campaign=rss"
             }
           ],
-          "rank": 4
+          "rank": 15
         },
         {
-          "title": "也门阿den城抵抗胡塞武装，伊朗战争重燃十年内战",
-          "titleOrig": "Defending Aden, Yemen’s Holdout Against the Houthis",
-          "url": "https://www.nytimes.com/video/world/middleeast/100000011300541/defending-aden-yemens-holdout-against-the-houthis.html",
+          "title": "英国净移民人数降至1997年以来最低，除疫情外",
+          "titleOrig": "Net Migration to U.K. Falls to Lowest Level Since 1997, Excluding Pandemic",
+          "url": "https://www.nytimes.com/2026/11/26/world/europe/uk-net-migration-data.html",
           "source": "NYT World",
           "sourceId": "nyt",
           "tier": "s",
           "cat": "intl",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-25T13:39:46+00:00",
-          "desc": "The war in Iran has reignited Yemen’s decade-old civil war. Saudi-backed troops are scrambling to defend against advancing Houthi fighters as the wounded are taken to the port city of Aden, the government’s provisional capital.",
+          "publishedAt": "2026-11-26T13:51:57+00:00",
+          "desc": "The drop was largely driven by fewer people arriving from outside the European Union. It reflects government action to restrict immigration after a public backlash.",
           "hotLabel": "",
-          "summary": "也门政府军在沙特支持下，在阿den城抵御胡塞武装进攻。",
-          "analysis": "也门内战因伊朗战争而加剧，沙特支持的政府军与胡塞武装的冲突表明地区冲突的复杂性。这场战争对也门国内局势、沙特与伊朗的地缘政治对抗，以及整个中东地区的稳定构成威胁。未来，若冲突持续，可能引发更大规模的地区冲突和国际干预。",
+          "summary": "英国净移民人数因欧盟外移民减少而降至历史低点。",
+          "analysis": "这一变化反映了英国政府限制移民政策的成效，同时也可能对英国劳动力市场和国际学生市场产生影响。长期来看，这可能影响英国的经济增长和国际竞争力。",
           "keywords": [
-            "也门内战",
-            "胡塞武装",
-            "沙特",
-            "伊朗战争",
-            "中东地区"
+            "英国",
+            "移民",
+            "政策",
+            "劳动力市场",
+            "经济增长"
           ],
           "category": "international",
-          "importance": 85,
+          "importance": 75,
           "sources": [
             {
               "name": "NYT World",
-              "url": "https://www.nytimes.com/video/world/middleeast/100000011300541/defending-aden-yemens-holdout-against-the-houthis.html"
+              "url": "https://www.nytimes.com/2026/11/26/world/europe/uk-net-migration-data.html"
             }
           ],
-          "rank": 5
+          "rank": 16
         },
         {
-          "title": "印尼非法矿洞暴雨后发生坍塌，造成3死多人被困",
-          "titleOrig": "3 Dead and Many More Trapped in Indonesian Mine After Heavy Rainfall",
-          "url": "https://www.nytimes.com/2026/11/25/world/asia/indonesia-miners-trapped.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T17:17:42+00:00",
-          "desc": "At least 23 workers are believed to have been stuck inside the illegal mine since Monday, after its narrow shaft flooded.",
-          "hotLabel": "",
-          "summary": "印尼一非法矿洞因暴雨发生坍塌，至少23名矿工被困。",
-          "analysis": "印尼非法矿洞事故反映了该国内部对矿产资源监管不力，以及非法采矿活动的普遍性。这起事故可能加剧国内外对印尼劳动安全和环境保护的关注。未来，印尼政府可能面临加强监管和改善矿工工作条件的压力，同时可能引发国际社会对印尼矿业可持续性的讨论。",
-          "keywords": [
-            "印尼",
-            "矿洞坍塌",
-            "非法采矿",
-            "监管不力",
-            "环境保护"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/25/world/asia/indonesia-miners-trapped.html"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "努力学习，就能出人头地？",
-          "titleOrig": "Study Hard, Get Ahead?",
-          "url": "https://www.nytimes.com/2026/11/25/world/youth-protests-education-tariffs-thanksgiving.html",
-          "source": "NYT World",
-          "sourceId": "nyt",
-          "tier": "s",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T20:38:48+00:00",
-          "desc": "The broken promise of upward mobility through education is sparking youth protests around the world.",
-          "hotLabel": "",
-          "summary": "教育提升社会流动性承诺的破灭引发全球青年抗议。",
-          "analysis": "教育被视为提升社会流动性的途径，但现实中的教育不平等和就业困难导致青年对这一承诺的失望，进而引发全球范围内的抗议活动。这反映了社会不平等和青年对未来的担忧，可能对全球教育体系和社会稳定产生影响。后续可能需要关注教育改革和青年就业问题。",
-          "keywords": [
-            "教育",
-            "社会流动性",
-            "青年抗议",
-            "不平等",
-            "全球趋势"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NYT World",
-              "url": "https://www.nytimes.com/2026/11/25/world/youth-protests-education-tariffs-thanksgiving.html"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "SpaceX获得FCC批准部署100万颗轨道数据中心卫星",
-          "titleOrig": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
-          "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+          "title": "西班牙的帕布洛·埃尔南德斯·德科斯将领导欧洲央行",
+          "titleOrig": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+          "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
           "source": "CNBC World",
           "sourceId": "cnbc",
           "tier": "a",
           "cat": "economy",
           "region": "美国",
           "lang": "en",
-          "publishedAt": "2026-11-25T19:52:47+00:00",
-          "desc": "SpaceX won approval from the FCC to put 1 million orbital data center satellites into space, a proposal that was opposed by Amazon and other groups.",
+          "publishedAt": "2026-11-26T15:28:26+00:00",
+          "desc": "De Cos will lead the ECB into a period of political uncertainty and choppy growth, after winning the backing needed to succeed Christine Lagarde next year.",
           "hotLabel": "",
-          "summary": "SpaceX获得FCC批准部署大量卫星。",
-          "analysis": "SpaceX的卫星计划可能改变全球互联网服务格局，加剧太空竞赛。此举可能推动全球卫星通信行业的发展，但也引发对太空资源利用和太空交通管理的关注。后续可能面临国际监管和市场竞争的挑战。",
+          "summary": "德科斯将在政治不确定性和经济增长波动中接替拉加德。",
+          "analysis": "背景：德科斯将在政治不确定性和经济增长波动中接替拉加德担任欧洲央行行长。关键影响：德科斯的领导风格和政策将影响欧元区的货币政策，可能影响欧元区的经济增长和通货膨胀。后续走向：德科斯可能会继续实施目前的宽松货币政策，但可能根据经济数据调整。",
           "keywords": [
-            "SpaceX",
-            "FCC批准",
-            "卫星通信",
-            "太空竞赛",
-            "行业竞争"
+            "欧洲央行",
+            "德科斯",
+            "欧元区",
+            "货币政策",
+            "经济增长"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
               "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html"
+              "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html"
             }
           ],
-          "rank": 8
+          "rank": 17
         },
         {
-          "title": "弗林德斯岛森林大火蔓延至1.3万公顷，塔斯马尼亚家园和财产面临威胁",
-          "titleOrig": "Flinders Island bushfire grows to 13,000 hectares with Tasmanian homes and properties at risk",
-          "url": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania",
+          "title": "矿难致十三人死亡，非法淘金引发关注",
+          "titleOrig": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+          "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss",
+          "source": "BBC World",
+          "sourceId": "bbc",
+          "tier": "s",
+          "cat": "intl",
+          "region": "英国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T07:31:24+00:00",
+          "desc": "Indonesian authorities say another 13 are missing in the illegal gold mine, which flooded on Monday.",
+          "hotLabel": "",
+          "summary": "印度尼西亚当局表示，周一发生洪水的一处非法金矿导致13人死亡，另有13人失踪。",
+          "analysis": "这起矿难凸显了非法淘金活动的危险性和对环境的影响。印度尼西亚政府可能加强监管，打击非法淘金活动，但这也可能对当地经济和就业产生负面影响。此外，矿难可能引发对政府监管能力的质疑。",
+          "keywords": [
+            "印度尼西亚",
+            "矿难",
+            "非法淘金",
+            "监管",
+            "环境"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "BBC World",
+              "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro?at_medium=RSS&at_campaign=rss"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "日本记者被俄拘留，妻子呼吁释放",
+          "titleOrig": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+          "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-25T23:08:49+00:00",
-          "desc": "Fire making a ‘significant run’ towards the southwest of the island on Thursday, Tasmania Fire Service saysGet our breaking news email, free app or daily news podcastHomes and properties on a picturesque remote island remain under threat from an out-of-control bushfire that has sent smoke hundreds o",
+          "publishedAt": "2026-11-26T05:16:17+00:00",
+          "desc": "Yuki Imai being held in Moscow on allegations he conducted ‘espionage’ while working for a newspaper in Sakhalin island in Russia’s far eastThe wife of a Japanese journalist who has been detained in Russia for more than a month on suspicion of spying has issued an emotive appeal for his release.Yuki",
           "hotLabel": "",
-          "summary": "塔斯马尼亚弗林德斯岛森林大火蔓延，威胁当地家园和财产。",
-          "analysis": "这场大火暴露了澳大利亚在应对极端气候事件方面的挑战。澳大利亚是全球变暖影响明显的国家之一，此类事件可能增加，对当地居民生活、生态和旅游业造成严重影响。未来可能需要澳大利亚政府加强森林管理和应急响应能力。",
+          "summary": "日本记者在日本远东萨哈林岛为报纸工作期间被指控间谍活动。",
+          "analysis": "这起事件反映了俄罗斯与日本在远东地区的紧张关系，以及国际间谍活动的复杂性。事件可能对双边关系产生负面影响，并引发国际社会的关注。后续可能通过外交途径寻求解决。",
           "keywords": [
-            "澳大利亚",
-            "森林大火",
-            "气候变化",
-            "应急管理"
+            "日本记者",
+            "俄罗斯",
+            "间谍活动",
+            "双边关系",
+            "国际关注"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 75,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/australia-news/2026/nov/25/large-bushfire-threatens-homes-and-properties-on-remote-island-off-tasmania"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "共和党议员要求在质询英伟达CEO前得到FBI和CIA的答案",
-          "titleOrig": "Republican wants FBI and CIA answers before questioning Nvidia chief",
-          "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T11:50:05+00:00",
-          "desc": "\"The public is rightly concerned,\" says the Republican lawmaker, who wants to know what the FBI and CIA knew about potential national security threats and whether Jensen Huang was warned.",
-          "hotLabel": "",
-          "summary": "共和党议员要求在质询英伟达CEO黄仁勋前，了解FBI和CIA对潜在国家安全威胁的了解情况。",
-          "analysis": "这一事件表明美国政治对科技企业的关注，以及国家安全问题在政治议程中的重要性。议员的要求可能源于对英伟达技术可能被用于国家安全威胁的担忧。后续可能的发展趋势包括对科技企业安全审查的加强，以及政治对科技行业的进一步监管。",
-          "keywords": [
-            "英伟达",
-            "FBI",
-            "CIA",
-            "国家安全",
-            "政治监管"
-          ],
-          "category": "international",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation"
-            }
-          ],
-          "rank": 10
-        },
-        {
-          "title": "朝鲜因制裁驱逐瑞士外交官",
-          "titleOrig": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T21:51:17+00:00",
-          "desc": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
-          "hotLabel": "",
-          "summary": "朝鲜驱逐瑞士外交官，两国关系紧张。",
-          "analysis": "朝鲜驱逐瑞士外交官是两国关系紧张的表现，可能与国际制裁和朝鲜的对外政策有关。此举可能会加剧朝鲜与西方国家的对立，影响朝鲜的国际地位和外交关系。后续可能引发国际社会的关注，并可能导致更多国家对朝鲜实施制裁。",
-          "keywords": [
-            "朝鲜",
-            "瑞士外交官",
-            "制裁",
-            "外交关系",
-            "国际局势"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "韩国加息至两年最高水平，通胀率仍高于目标",
-          "titleOrig": "South Korea raises rates to highest in two years, as inflation remains above target",
-          "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-26T00:58:38+00:00",
-          "desc": "The central bank raised rates by 25 basis points to 3.25% for its final meeting of the year, in line with expectations from economists.",
-          "hotLabel": "",
-          "summary": "韩国央行加息至3.25%，通胀压力持续。",
-          "analysis": "韩国央行加息反映了其对通胀控制的决心。高通胀可能影响韩国经济稳定和消费者信心。此举措可能对韩国出口和经济增长产生压力，并可能影响亚洲其他国家的货币政策。",
-          "keywords": [
-            "韩国央行",
-            "加息",
-            "通胀",
-            "经济稳定",
-            "货币政策"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html"
-            }
-          ],
-          "rank": 12
-        },
-        {
-          "title": "尼日利亚逮捕5名墨西哥人，查获2200万美元甲基苯丙胺",
-          "titleOrig": "Nigeria detains 5 Mexicans, confiscates over $220 million of meth",
-          "url": "https://www.dw.com/en/nigeria-detains-5-mexicans-confiscates-over-220-million-of-meth/a-80054606?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
-          "tier": "a",
-          "cat": "intl",
-          "region": "德国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T20:28:00+00:00",
-          "desc": "Nigeria's anti-drug agency said Mexican experts were allegedly recruited by a Nigerian national to run a meth laboratory in the southeastern state of Enugu.",
-          "hotLabel": "",
-          "summary": "尼日利亚警方逮捕5名墨西哥人，查获超过2200万美元的甲基苯丙胺。",
-          "analysis": "这起事件揭示了跨国毒品犯罪的严重性。尼日利亚作为非洲的主要毒品中转站，其打击毒品犯罪的努力对于全球毒品贸易的打击具有重要意义。后续可能需要加强国际合作，共同打击跨国毒品犯罪。",
-          "keywords": [
-            "尼日利亚",
-            "毒品犯罪",
-            "跨国合作",
-            "甲基苯丙胺"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/nigeria-detains-5-mexicans-confiscates-over-220-million-of-meth/a-80054606?maca=en-rss-en-all-1573-rdf"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "美国军队将引爆大量叠氮化铅，阿布列戈·加西亚离开美国",
-          "titleOrig": "Army to detonate tons of lead azide after delays. And, Abrego Garcia leaves U.S.",
-          "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T12:18:09+00:00",
-          "desc": "Authorities have evacuated a 5-mile radius to prepare to dispose of thousands of pounds of lead azide. And, after a nearly two-year legal battle, Kilmar Abrego Garcia's has voluntarily left the U.S.",
-          "hotLabel": "",
-          "summary": "美国当局疏散5英里半径区域以处理数千磅叠氮化铅，同时阿布列戈·加西亚结束在美国的法律斗争后自愿离开。",
-          "analysis": "此次事件反映了美国在处理危险物质时的严格安全措施，以及司法系统在处理非法移民和国家安全问题时的效率。阿布列戈·加西亚的离开可能意味着美国在移民政策上的调整，以及对特定个案的解决。后续可能的发展趋势包括对类似案件的审理，以及美国在移民和国家安全政策上的进一步调整。",
-          "keywords": [
-            "叠氮化铅",
-            "阿布列戈·加西亚",
-            "美国军队",
-            "司法系统",
-            "移民政策"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/25/g-s1-155493/up-first-newsletter-iowa-detonation-kilmar-abrego-garcia-nvidia-jensen-huang"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "在这家奥斯汀的小型免费面包店，邻居们为了糕点而来，为了社区而留",
-          "titleOrig": "At this Little Free Bakery in Austin, neighbors come for the pastries and stay for community connection",
-          "url": "https://www.npr.org/2026/11/25/nx-s1-6005522/little-free-bakery-austin-community-connection",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T21:02:58+00:00",
-          "desc": "The bakers behind these pop-up pastry drops aren't raking in the profits, but they are building a space for people to come together in polarized times.",
-          "hotLabel": "",
-          "summary": "这家面包店的糕点师不以盈利为目的，而是为社区提供了一个聚集场所。",
-          "analysis": "这个小型的免费面包店不仅提供美食，还成为社区成员交流和建立联系的地方，反映了在极化时代人们对于社区归属感的渴望。这种社区建设的模式可能对其他社区产生启发，有助于加强社区凝聚力。后续可能需要关注这种模式在其他地区的推广和应用。",
-          "keywords": [
-            "社区",
-            "面包店",
-            "社区凝聚力",
-            "社会联系",
-            "社区建设"
-          ],
-          "category": "society",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/25/nx-s1-6005522/little-free-bakery-austin-community-connection"
-            }
-          ],
-          "rank": 15
-        },
-        {
-          "title": "美国感恩节在利比里亚的起源与发展",
-          "titleOrig": "How American Thanksgiving took root -- and evolved -- in Liberia",
-          "url": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T14:14:34+00:00",
-          "desc": "The first settlers of Liberia were African Americans who brought along the holiday of Thanksgiving — which has evolved to reflect the history and identity of this new nation.",
-          "hotLabel": "",
-          "summary": "利比里亚的感恩节庆祝活动反映了该国历史和身份的演变。",
-          "analysis": "利比里亚作为非洲裔美国人的定居点，其感恩节的庆祝活动体现了美国文化对非洲国家的深远影响。这一现象不仅加深了两国之间的文化联系，也反映了全球化背景下文化交流的普遍性。随着利比里亚历史的演变，感恩节庆祝活动也融入了当地文化元素，成为展示国家身份和多元文化的重要窗口。后续可能的发展趋势包括更多国际文化交流活动的举办，以及利比里亚本土文化的进一步发展。",
-          "keywords": [
-            "利比里亚",
-            "感恩节",
-            "文化",
-            "美国",
-            "全球化"
-          ],
-          "category": "international",
-          "importance": 70,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/25/nx-s1-6048614/thanksgiving-liberia-gratitude-prayer"
-            }
-          ],
-          "rank": 16
-        },
-        {
-          "title": "经典66号公路餐厅近百年服务美国文化",
-          "titleOrig": "A quintessential Route 66 diner has been serving up Americana for nearly 100 years",
-          "url": "https://www.npr.org/2026/11/25/nx-s1-5983717/ariston-cafe-route-66-diner-litchfield-illinois",
-          "source": "NPR News",
-          "sourceId": "npr",
-          "tier": "a",
-          "cat": "intl",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T10:00:00+00:00",
-          "desc": "The Ariston Cafe opened its doors in 1924 to serve travelers along Route 66 and has dished up classic American road fare ever since.",
-          "hotLabel": "",
-          "summary": "自1924年起，Ariston咖啡馆在66号公路上为旅行者提供经典美国公路食品。",
-          "analysis": "Ariston咖啡馆的长期运营反映了美国公路文化的历史和连续性。它不仅是美国文化的象征，也是美国社会变迁的见证。随着时间推移，此类文化地标可能成为吸引游客和促进地方经济发展的关键。后续可能的发展趋势包括对类似文化遗址的保护和利用。",
-          "keywords": [
-            "66号公路",
-            "美国文化",
-            "Ariston咖啡馆",
-            "旅游",
-            "文化地标"
-          ],
-          "category": "international",
-          "importance": 65,
-          "sources": [
-            {
-              "name": "NPR News",
-              "url": "https://www.npr.org/2026/11/25/nx-s1-5983717/ariston-cafe-route-66-diner-litchfield-illinois"
-            }
-          ],
-          "rank": 17
-        },
-        {
-          "title": "梅西百货因恶劣天气推迟感恩节游行",
-          "titleOrig": "Macy's postpones Thanksgiving Day Parade due to severe weather",
-          "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T22:26:56+00:00",
-          "desc": "Macy's announced Wednesday that its annual Thanksgiving Day Parade is being postponed to Saturday due to severe weather.",
-          "hotLabel": "",
-          "summary": "梅西百货因天气原因推迟感恩节游行。",
-          "analysis": "恶劣天气影响了梅西百货的传统活动，反映了极端天气事件对商业活动的影响。此事件可能引发对气候变化和极端天气事件对经济影响的讨论。",
-          "keywords": [
-            "梅西百货",
-            "感恩节游行",
-            "恶劣天气",
-            "气候变化",
-            "商业活动"
-          ],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html"
-            }
-          ],
-          "rank": 18
-        },
-        {
-          "title": "俄方数据表明其在乌克兰战争中损失近50万人",
-          "titleOrig": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
-          "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T12:21:49+00:00",
-          "desc": "Leaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
-          "hotLabel": "",
-          "summary": "Leaked data reveal how the ful…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\nLeaked data reveal how the full-scale invasion of Ukraine has fundamentally changed mortality patterns in Russia.",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss"
+              "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release"
             }
           ],
           "rank": 19
         },
         {
-          "title": "Duran Duran吉他手Andy Taylor逝世，享年65岁",
-          "titleOrig": "Duran Duran guitarist Andy Taylor dies at 65",
-          "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-all-1573-rdf",
-          "source": "Deutsche Welle",
-          "sourceId": "dw",
+          "title": "联合国候选人兰娜·努赛贝希试图摆脱阿联酋记录",
+          "titleOrig": "‘I’m no longer a UAE official’: UN hopeful Lana Nusseibeh tries to shake off Sudan record",
+          "url": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general",
+          "source": "The Guardian",
+          "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
-          "region": "德国",
+          "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-25T22:53:00+00:00",
-          "desc": "Andy Taylor first revealed he was battling cancer in 2022 when Duran Duran was inducted into the Rock & Roll Hall of Fame. The band had numerous hits in the 1980s, including \"Girls on Film\" and \"Hungry Like The Wolf.\"",
+          "publishedAt": "2026-11-26T12:37:42+00:00",
+          "desc": "The US and Russia’s candidate for secretary general is on a charm offensive. Can she overcome London’s resistance to her bid?Lana Nusseibeh is in Britain this week, attempting to present herself as a potential future UN secretary general, and shift the focus from her past as a United Arab Emirates d",
           "hotLabel": "",
-          "summary": "摇滚乐队Duran Duran吉他手Andy Taylor因癌症去世。",
-          "analysis": "Andy Taylor的去世是摇滚乐坛的一大损失，他的音乐生涯代表了80年代摇滚乐的辉煌。这一事件对音乐界和粉丝群体具有情感影响，但不会对国际局势产生重大影响。",
+          "summary": "联合国秘书长候选人兰娜·努赛贝希在英国进行外交活动，试图改变其阿联酋过去的形象。",
+          "analysis": "努赛贝希的竞选活动反映了联合国秘书长职位的竞争激烈。她的成功与否将取决于能否克服英国等国的反对，以及她能否获得足够的国际支持。",
           "keywords": [
-            "摇滚乐",
-            "音乐界",
-            "逝世",
-            "Andy Taylor"
+            "联合国",
+            "候选人",
+            "兰娜·努赛贝希",
+            "阿联酋",
+            "外交活动"
           ],
           "category": "international",
-          "importance": 50,
+          "importance": 70,
           "sources": [
             {
-              "name": "Deutsche Welle",
-              "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-all-1573-rdf"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/26/lana-nusseibeh-uae-sudan-un-secretary-general"
             }
           ],
           "rank": 20
@@ -727,347 +733,167 @@
     },
     "domestic": {
       "title": "国内热点 20",
-      "digest": "（局势综述生成失败，请稍后刷新）",
+      "digest": "今日国内形势综述显示，中国在国际舞台上坚定维护自身利益，同时积极推动国内经济和社会发展。科技领域取得显著成就，神舟二十四号发射任务成功，黎曼猜想证明获国际认可。经济方面，国有大行推动股票回购和贷款增持，应对外部压力。社会层面，深圳作为现代化窗口展示中国发展成果，文化娱乐产业迎来贺岁档电影上映数量新高。同时，关注江河治理、打击“撞脸药”乱象等社会问题，维护社会稳定。国际关系方面，中国坚决反对美国对14个经济体加征关税，并保留采取必要措施的权利。总体来看，中国正以开放包容的态度，积极应对内外挑战，推动国家持续发展。",
       "totalSelected": 20,
       "items": [
         {
-          "title": "坚持依规治党，推进党内法规制度建设",
-          "titleOrig": "坚持把依规治党当作管党治党基本方式 持续高质量推进党内法规制度建设 - 人民网",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBESmJIRkFMSlB3SE92X2RQQzNBQmpWbkZfaUpLbjkzQ09WaU1DdEp5N1dMcGJNcmJlZUtlRmVLTEh4cl9uMktMRkgzel9LMnZsbVhRM3dqQjRfc1RlMm1tT200YXdtZ0xYVU1JdUpLbw?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T22:03:00+00:00",
-          "desc": "坚持把依规治党当作管党治党基本方式 持续高质量推进党内法规制度建设 人民网习近平对党内法规工作作出重要指示 北京市人民政府门户网站蔡奇出席全国党内法规工作会议并讲话 新华网11月26日早读 Sohu依规治党 砺行致远（今日谈） 人民日报",
-          "hotLabel": "",
-          "summary": "习近平强调依规治党，推进党内法规制度建设。",
-          "analysis": "这表明中国政府在加强党内法规制度建设，以规范党员干部行为，提高党的执政能力和领导水平。这对于加强党的建设，提高党的纯洁性和战斗力具有重要意义。长期来看，这有助于推动国家治理体系和治理能力现代化。",
-          "keywords": [
-            "依规治党",
-            "党内法规",
-            "党的建设",
-            "治理能力",
-            "习近平"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBESmJIRkFMSlB3SE92X2RQQzNBQmpWbkZfaUpLbjkzQ09WaU1DdEp5N1dMcGJNcmJlZUtlRmVLTEh4cl9uMktMRkgzel9LMnZsbVhRM3dqQjRfc1RlMm1tT200YXdtZ0xYVU1JdUpLbw?oc=5"
-            }
-          ],
-          "rank": 1
-        },
-        {
-          "title": "曲青山强调持之以恒推进全面从严治党",
-          "titleOrig": "曲青山：深刻领会持之以恒推进全面从严治党的指导思想和原则 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPejZ2RXNPUFlfbGdLcHFBMHF1V0RaSVpoaC1BTVFuWll4cWRYSUZOUWhnZVhwMXN1bGJlaHY2RUNHNW91WDAxTFVSUGNqZ1F4bFM0WGl5TDEtal83dGxrUHVaVmdPT2lyQkd5enNyMzBnZzk1THFUVU5BZE5vakJ6QkZn?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T23:31:25+00:00",
-          "desc": "曲青山：深刻领会持之以恒推进全面从严治党的指导思想和原则 新华网市领导宣讲党的二十届五中全会精神 北京市人民政府门户网站深刻领会持之以恒推进全面从严治党的指导思想和原则（学习贯彻党的二十届五中全会精神） 人民日报人民日报访司法部部长贺荣：推动依法治国和依规治党有机统一 ThePaper.cn【好评中国·敦煌风】“两个答案”，写在百年大党的自我革命里 新浪财经",
-          "hotLabel": "",
-          "summary": "曲青山就全面从严治党指导思想和原则进行宣讲。",
-          "analysis": "曲青山的讲话体现了中国共产党对于党风廉政建设和反腐败斗争的持续重视。这背后反映了党在新时代下对于加强党的建设、提高执政能力和领导水平的决心。对于国内民生来说，这意味着更加严格的政治生态和廉洁高效的政府服务；对于经济而言，有助于营造更加公平竞争的市场环境；对于治理，强调了法治和纪律的重要性。后续走向可能包括更多的党内法规制定和执行力度加大。",
-          "keywords": [
-            "全面从严治党",
-            "党风廉政建设",
-            "党的建设",
-            "反腐败斗争",
-            "政治生态"
-          ],
-          "category": "domestic",
-          "importance": 90,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPejZ2RXNPUFlfbGdLcHFBMHF1V0RaSVpoaC1BTVFuWll4cWRYSUZOUWhnZVhwMXN1bGJlaHY2RUNHNW91WDAxTFVSUGNqZ1F4bFM0WGl5TDEtal83dGxrUHVaVmdPT2lyQkd5enNyMzBnZzk1THFUVU5BZE5vakJ6QkZn?oc=5"
-            }
-          ],
-          "rank": 2
-        },
-        {
-          "title": "神舟24乘组进驻天宫",
-          "titleOrig": "神24乘组进驻天宫",
-          "url": "https://s.weibo.com/weibo?q=%23%E7%A5%9E24%E4%B9%98%E7%BB%84%E8%BF%9B%E9%A9%BB%E5%A4%A9%E5%AE%AB%23&t=31&band_rank=3&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "神舟二十四号发射任务",
+          "titleOrig": "",
+          "url": "https://www.zhihu.com/search?q=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7%E5%8F%91%E5%B0%84%E4%BB%BB%E5%8A%A1",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
           "publishedAt": null,
           "desc": "",
-          "hotLabel": "#3",
-          "summary": "神舟24乘组成功进驻天宫空间站。",
-          "analysis": "神舟24乘组的进驻标志着我国空间站建设的重要进展，反映了我国在航天领域的成就。这一事件可能提升国家科技实力和国际地位，对国内科技发展和国际合作有积极影响。后续可能关注空间站运营和科学研究。",
+          "hotLabel": "",
+          "summary": "神舟二十四号发射任务即将进行。",
+          "analysis": "神舟二十四号的发射是中国航天事业的重要进展，背景是中国航天科技的发展。对国内民生和经济意味着国家科技实力的提升，对治理意味着国家战略科技力量的加强。后续走向可能包括更多航天任务的实施。",
           "keywords": [
-            "神舟24",
-            "天宫空间站",
-            "航天",
-            "科技成就",
-            "国际合作"
+            "神舟二十四号",
+            "航天发射",
+            "航天科技",
+            "国家战略",
+            "科技实力"
           ],
           "category": "tech",
+          "importance": 95,
+          "sources": [
+            {
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E7%A5%9E%E8%88%9F%E4%BA%8C%E5%8D%81%E5%9B%9B%E5%8F%B7%E5%8F%91%E5%B0%84%E4%BB%BB%E5%8A%A1"
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "title": "深圳：中国式现代化的窗口",
+          "titleOrig": "全球聚焦深圳：从“未来之城”读懂中国式现代化 - 人民网",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rZHhVZGkyRTJyTDVTOWE2ZVRNMVc2Ql9GNWx6eW15emZRNWx4dUk2X2xFeWpEYm5DaURHVGx5cTcyVEt3OHdXcFBZRUExMkdhYmRqLXhDUDgzOWMtczhaajV1d20yUUxuOVE?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-26T07:19:00+00:00",
+          "desc": "全球聚焦深圳：从“未来之城”读懂中国式现代化 人民网【和合共生】习言道｜习近平在深圳的这四个比喻意涵深远 新浪新闻_手机新浪网创意微视频｜鹏程万里- 中国日报网 China Daily开放的中国，为世界能源提供稳定之锚 人民日报纸上风华映盛会！从APEC领导人会议周解码“印在广东”的创新力量 Sohu",
+          "hotLabel": "",
+          "summary": "深圳被视为中国式现代化的典范，全球关注。",
+          "analysis": "深圳的成功故事体现了中国改革开放和现代化建设的成就。这一事件背景是中国改革开放政策推动下区域发展的成功案例。对国内民生和经济意味着展示中国现代化路径，对治理意味着提供城市发展的成功模式。后续走向可能包括更多城市借鉴深圳经验，推动区域协调发展。",
+          "keywords": [
+            "深圳",
+            "中国式现代化",
+            "改革开放",
+            "区域发展",
+            "现代化路径"
+          ],
+          "category": "society",
           "importance": 90,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E7%A5%9E24%E4%B9%98%E7%BB%84%E8%BF%9B%E9%A9%BB%E5%A4%A9%E5%AE%AB%23&t=31&band_rank=3&Refer=top"
-            }
-          ],
-          "rank": 3
-        },
-        {
-          "title": "也门胡塞武装袭击沙特炼油厂和金融中心",
-          "titleOrig": "也门胡塞武装称袭击沙特炼油厂和金融中心 - 新浪财经_金融信息服务商",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4YjN5SV9vV2loRTFvR2tQeUR5ZTNSRjRabVNlMy16ODVuRjNnbDBLQlJpMnd2WlV0QTZERzFhX2hzZE1XT3RkS05CQy01SUo2RlZGOHozYnRFOE8yR2prV1ZxZmk5c3E5dFFHLVJIWVcyOVgtT3lDYQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T20:37:30+00:00",
-          "desc": "也门胡塞武装称袭击沙特炼油厂和金融中心 新浪财经_金融信息服务商多国联军发动空袭 新浪财经卢比奥国务卿谴责胡塞武装持续袭击沙特阿拉伯 美国之音沙特首都最高建筑一周内再次遭袭 11人受伤 上海热线也门胡塞武装称袭击沙特吉达港和吉赞港 手机新浪网",
-          "hotLabel": "",
-          "summary": "也门胡塞武装袭击沙特阿拉伯的炼油厂和金融中心。",
-          "analysis": "此次袭击可能加剧了也门冲突的复杂性，同时也对沙特阿拉伯的能源安全和经济稳定构成威胁。对于国内民生，可能影响石油价格和能源供应；对于经济，可能引发全球石油市场的波动；对于治理，国际社会可能呼吁各方保持克制，通过和平方式解决冲突。",
-          "keywords": [
-            "也门胡塞武装",
-            "沙特",
-            "炼油厂",
-            "金融中心",
-            "能源安全"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB4YjN5SV9vV2loRTFvR2tQeUR5ZTNSRjRabVNlMy16ODVuRjNnbDBLQlJpMnd2WlV0QTZERzFhX2hzZE1XT3RkS05CQy01SUo2RlZGOHozYnRFOE8yR2prV1ZxZmk5c3E5dFFHLVJIWVcyOVgtT3lDYQ?oc=5"
-            }
-          ],
-          "rank": 4
-        },
-        {
-          "title": "美国对包括中国和欧盟在内的14个贸易伙伴提出新的关税",
-          "titleOrig": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
-          "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
-          "source": "CNBC World",
-          "sourceId": "cnbc",
-          "tier": "a",
-          "cat": "economy",
-          "region": "美国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T16:02:52+00:00",
-          "desc": "The new levies seek to counter foreign trade practices deemed unfair, discriminatory or burdensome to U.S. commerce.",
-          "hotLabel": "",
-          "summary": "美国提议对14个贸易伙伴，包括中国和欧盟，实施新关税以应对不公平的贸易做法。",
-          "analysis": "这一举措反映了美国对全球贸易不平衡和某些国家贸易政策的担忧。美国试图通过增加关税来保护本国产业，并推动公平贸易。对中国和欧盟实施关税可能加剧中美贸易摩擦，影响全球供应链和国际贸易秩序。对中国而言，这可能迫使国内企业提高竞争力，同时也可能引发报复性关税，影响中国经济稳定。后续走向可能包括双方进一步的贸易谈判和可能的贸易战。",
-          "keywords": [
-            "美国",
-            "关税",
-            "贸易战",
-            "中国",
-            "欧盟"
-          ],
-          "category": "international",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html"
+              "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9rZHhVZGkyRTJyTDVTOWE2ZVRNMVc2Ql9GNWx6eW15emZRNWx4dUk2X2xFeWpEYm5DaURHVGx5cTcyVEt3OHdXcFBZRUExMkdhYmRqLXhDUDgzOWMtczhaajV1d20yUUxuOVE?oc=5"
             },
             {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
             },
             {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_medium=RSS&at_campaign=rss"
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer"
             }
           ],
-          "rank": 5
+          "rank": 2
         },
         {
-          "title": "陕西“秦岭公益慢火车”焕新出发",
-          "titleOrig": "陕西：跑了68年的“秦岭公益慢火车”焕新再出发 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Ldi1oc1VjSGdCRnFnTS13bkRZdmlRRlVsR3NrR0JmSUFJV0ZnNGlXQkdrdGtHYWtDX1Z5ZG9mdGNwbmpaNTJjdm5OdlVMLXpITGNaNmpXbTAtZXRMRVRkQUQ3Y1I4bFdMOGU0alV0S2tCdnNqVTlWMG05LUFKUQ?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T15:27:00+00:00",
-          "desc": "陕西：跑了68年的“秦岭公益慢火车”焕新再出发 中国新闻网涉及客货列车4700余列 全国铁路第一批车次变更正式实施 北京市人民政府门户网站全国普速旅客列车和旅游列车车次变更实施 中国经济网出行提醒！11月25日起，南铁担当的这些列车“改名”了 凤凰网江西跑了68年的“秦岭小慢慢”焕新再出发 Sohu",
-          "hotLabel": "",
-          "summary": "陕西68年历史的秦岭公益慢火车进行升级改造后重新投入运营。",
-          "analysis": "秦岭公益慢火车的焕新再出发体现了我国对偏远地区交通基础设施的重视，旨在缩小城乡差距，促进区域均衡发展。此举有助于提高偏远地区居民的生活质量，促进旅游业发展，同时也体现了我国对公共服务的持续投入。后续可能继续推广类似项目，以改善更多偏远地区的交通状况。",
-          "keywords": [
-            "秦岭公益慢火车",
-            "交通基础设施",
-            "区域均衡发展",
-            "公共服务",
-            "旅游业"
-          ],
-          "category": "domestic",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1Ldi1oc1VjSGdCRnFnTS13bkRZdmlRRlVsR3NrR0JmSUFJV0ZnNGlXQkdrdGtHYWtDX1Z5ZG9mdGNwbmpaNTJjdm5OdlVMLXpITGNaNmpXbTAtZXRMRVRkQUQ3Y1I4bFdMOGU0alV0S2tCdnNqVTlWMG05LUFKUQ?oc=5"
-            }
-          ],
-          "rank": 6
-        },
-        {
-          "title": "广东台山核电项目3号机组主体工程开工",
-          "titleOrig": "广东台山核电项目3号机组主体工程开工 - 新华网",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNy1jSEw1Mm1wX1F2XzlXV3NnVDNCVUx1RTFBQzVFVExSLUV6d3l5SFBrM1dtT2tXajZ2UnYzSTRfcFduSjdWdGlsR3lzVGpCeGlEQy1tUXpmc3FoQUo0dE44ZV9TV0RwXzNxTTMzOVFfQlVhbEF3QUxDWVdJS2M?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T13:36:23+00:00",
-          "desc": "广东台山核电项目3号机组主体工程开工 新华网中国在运核电规模2030年前有望成为世界第一 新浪财经_金融信息服务商1200MW！核电龙头“华龙一号”新机组全面开建 | 盘后公告精选 富途牛牛中广核浙江三澳核电厂4号机组核岛反应堆厂房筏基顺利完成浇筑 国际电力网中国广核(003816):台山3号机组开始全面建设 中财网",
-          "hotLabel": "",
-          "summary": "台山核电项目3号机组主体工程启动，中国核电规模预计2030年前世界第一",
-          "analysis": "广东台山核电项目3号机组的开工是中国能源战略和核能发展的重要里程碑。这一项目体现了中国政府对清洁能源发展的坚定承诺，尤其是在应对气候变化和减少对化石燃料依赖的背景下。核电的发展不仅有助于提高能源安全，还能促进经济增长和就业。对国内民生而言，核电的稳定供应有助于保障电力供应的可靠性，对经济意味着降低能源成本，提高产业竞争力。后续走向可能包括其他核电站的建设和现有核电站的升级改造，以及国际核电技术的合作与交流。",
-          "keywords": [
-            "核电",
-            "能源战略",
-            "台山核电",
-            "清洁能源",
-            "经济发展"
-          ],
-          "category": "tech",
-          "importance": 85,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtNy1jSEw1Mm1wX1F2XzlXV3NnVDNCVUx1RTFBQzVFVExSLUV6d3l5SFBrM1dtT2tXajZ2UnYzSTRfcFduSjdWdGlsR3lzVGpCeGlEQy1tUXpmc3FoQUo0dE44ZV9TV0RwXzNxTTMzOVFfQlVhbEF3QUxDWVdJS2M?oc=5"
-            }
-          ],
-          "rank": 7
-        },
-        {
-          "title": "特朗普忽视情报处理Nvidia事件",
-          "titleOrig": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
-          "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence",
+          "title": "中国对特朗普新关税提案保留采取必要措施的权力",
+          "titleOrig": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+          "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
           "source": "The Guardian",
           "sourceId": "guardian",
           "tier": "a",
           "cat": "intl",
           "region": "英国",
           "lang": "en",
-          "publishedAt": "2026-11-24T14:00:48+00:00",
-          "desc": "Trump’s reaction to sensitive information that contradicts his worldview mirrors his conduct towards war with IranDonald Trump’s unwillingness to heed warnings of suspected Chinese penetration of the tech giant Nvidia follows a pattern of the US president ignoring sensitive intelligence that contrad",
+          "publishedAt": "2026-11-26T12:00:22+00:00",
+          "desc": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’Trump proposing new tariffs on 14 partners including China and EUBeijing has said it reserves the right to take “necessary measures” after Donald Trump’s administration proposed new tariff",
           "hotLabel": "",
-          "summary": "特朗普忽视关于Nvidia被中国渗透的情报，反映其处理敏感信息的态度。",
-          "analysis": "特朗普在处理敏感情报时表现出的忽视态度，可能与他对伊朗战争的策略相似。这一行为可能反映了美国在科技领域对中国竞争的担忧，以及其内部情报系统的信任危机。对国内民生影响有限，但对国际关系和科技产业竞争格局有深远影响。后续可能引发更多关于美国情报政策和对外科技竞争策略的讨论。",
+          "summary": "北京称新关税为‘政治操纵’，巴西表示不会屈服于这种威胁。",
+          "analysis": "背景：特朗普政府提出对包括中国和欧盟在内的14个伙伴国的新关税。中国认为这是政治操纵，巴西则表示不会屈服。关键影响：这可能导致中美和中美欧之间的贸易紧张关系升级，影响全球供应链和经济增长。后续走向：双方可能采取进一步的报复性关税措施，进一步加剧贸易战。",
           "keywords": [
-            "特朗普",
-            "情报",
-            "Nvidia",
+            "关税",
+            "贸易战",
             "中国",
-            "科技竞争"
+            "特朗普",
+            "全球供应链"
           ],
           "category": "international",
           "importance": 85,
           "sources": [
             {
               "name": "The Guardian",
-              "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence"
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
             }
           ],
-          "rank": 8
+          "rank": 7
         },
         {
-          "title": "省党代会报告审议，强调实干实绩",
-          "titleOrig": "各代表团继续审议省党代会报告 以实干实绩在走在前做示范中多作贡献 - 紫牛新闻",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tRnFBV2k5NnQ3S0ZBYjFTUWtfbE4zMVN2S1pRODYwWFlXQzFXdTNrcjlXUldCMFp1a3B0SFowNDlveEwtbW9WeWg0bk1hV2hmakstMXlKcXJ0Uk5oWkUxaFpVWEZPdnNZ?oc=5",
+          "title": "美国拟对14个经济体加征301关税，中国坚决反对",
+          "titleOrig": "美国拟对14个经济体加征301关税，中国商务部称坚决反对，而其他贸易伙伴与中国的摩擦可能增多 - DW.com",
+          "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPeWhaWjdTdHFpQTg1MFVpaTBDQTMwa2R4RmVsT0hWZnFzREJlbEhOOHRtcjV2WGlkYkI5WG8tRWJjMHNsRVJQXzQ4S0pYUy04Q0pTdkJjX21wMC1iQndTMmdURVBPZDZsbWYwczB0aVdtT1Y5OEo2RTVoZ1dzN2RBdnhGRXJqZ0VZcVVPT0RxRjBRcHhndDAwN2RTZjRCWmI2am5xeVRMcWd4YmVlR3dCQ2dyUnAzOTN0b3RucVRRTzhCMFVXUHBsbmlvQ1VoYWp2aS1uZGRIUVVhZmZoS1RFMmRMYWJIbU1uczd0SmxwREFSVmIwd25uUUZ5b0FDYldIOGhjc0I2MDlkTjR6Zlpab3lQUE1pRDBtVXFUZnRFazBxRTE0elh3YkxkZGs5SnNRSHBmUmhBNE5fUXZNeDJwVENQTm9YTVlhSDBVT3BNbG5xZmpYYkdaMWtsdDNTTk9OUjFMeklCbldBcVNyX05tQk50SlA4amdWbnVBcUpEbWFFdDRkZ2JrYlB2aUdZNjdjSlZJUnVYT1IxN3JNMXNERDY4cGF1TkgtRzlFdVRhMEJrQdIBsgNBVV95cUxQUjJ5Rko1T3VaN3dzRmJZenRxbk9EamRwdUFmbVdzbUllUVJraXB4TWF3eGk4ZjJiaDczTS0xMnFqNE9EVEN2bDFuRm5PLVNEaml6Nl9TSGxzb2w4WFZmZlVYWVJaYS14czY3YVlQZS1oNUlGWTV2eEJLTDYwQXpkWE1iZlVDUHB6VllCN1VDYjNhbTQzQk9xT1M4a3hIN1A4VnlBZkRsVlBOdnVvZXQ5LUFubUV1NWFzbGdoY2piRHlLcUZUdWFBSzVjbGxkMGkzRnc3bDU2SEgybEVPa0VTcFNBN1F4ZHNVUE5aaXlLYkl0X19wNEJBOGdtOG1sSW9pR05IdXVqN0ptRkh0OGZwTmFEdmlmN3duSW83ZndwVkczRU15WEdHUTdSQ05CLVV4Yl9WZ3R5NnNwbFVYTkQ5dmF2OHpQMmZKVFdjOXo0SUJ6SFNDbUtDcWUyYXhTMDlQU04xUklaYVkxVzR1T29KOXVNd0RJd1Y5SXd6dVV3U2wyd3NZcXN6aTVJV01SNS1Hb0NtaFVocDI5cGY5Q1NKVjZ5dVRrUWhrYVE1VkhyeG9mQQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-25T23:22:00+00:00",
-          "desc": "各代表团继续审议省党代会报告 以实干实绩在走在前做示范中多作贡献 紫牛新闻江苏省第十五次党代会主席团举行第二次会议 凤凰网江苏信长星参加南京代表团审议 China Daily以更高标准、更实举措推进全面从严治党 Sohu江苏省第十五次党代会开幕 信长星向大会作报告 人民网－江苏频道",
+          "publishedAt": "2026-11-26T12:46:17+00:00",
+          "desc": "美国拟对14个经济体加征301关税，中国商务部称坚决反对，而其他贸易伙伴与中国的摩擦可能增多 DW.com美方称针对中国产品关税可能会增至40%，中方回应 凤凰网美议员搅混水：特朗普不长记性，反让中国主导 观察者网商务部：坚决反对美对中国等经济体加征301关税 东方财富网环球时报快评：美国刚亮出关税大棒，有人立刻滑跪了 新浪新闻_手机新浪网",
           "hotLabel": "",
-          "summary": "省党代会报告审议，强调实干实绩，走在前做示范。",
-          "analysis": "这体现了中国政府在地方治理中强调实干精神和实绩导向。这对于推动地方经济发展，提高政府工作效率具有重要意义。同时，这也是对党员干部的一种要求，即要注重实际工作成效，而不是仅仅追求形式。",
+          "summary": "美国计划对14个经济体加征关税，中国商务部表示坚决反对。",
+          "analysis": "此事件背景是美国贸易保护主义的加剧，旨在通过加征关税来保护本国产业。中国作为全球最大的贸易国之一，其反对表明了维护多边贸易体系的决心。此举可能对全球经济产生连锁反应，增加贸易摩擦。对国内民生而言，可能面临进口商品价格上涨，影响消费者生活成本；对经济而言，可能加剧出口压力，影响经济增长；后续走向可能包括更多贸易战，或通过谈判解决。",
           "keywords": [
-            "省党代会",
-            "实干实绩",
-            "地方治理",
-            "政府效率",
-            "党员干部"
-          ],
-          "category": "domestic",
-          "importance": 80,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5tRnFBV2k5NnQ3S0ZBYjFTUWtfbE4zMVN2S1pRODYwWFlXQzFXdTNrcjlXUldCMFp1a3B0SFowNDlveEwtbW9WeWg0bk1hV2hmakstMXlKcXJ0Uk5oWkUxaFpVWEZPdnNZ?oc=5"
-            }
-          ],
-          "rank": 9
-        },
-        {
-          "title": "以色列军队打死哈马斯安全机构负责人",
-          "titleOrig": "以军证实：打死一名哈马斯内部安全机构负责人 - 中国新闻网",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OZUtRNjhKalVpR0c4MGxOTUtTWmI5dVVpYk5jSm8xd1FtS1lvOEFZb0NPV2NEQzd3b2oxelA3U3VCV20yYUItc2lpVTY1ZXBjUnl1a0Vmc0ZneW9yN0pjN1VTV2NXNHk0?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T22:59:52+00:00",
-          "desc": "以军证实：打死一名哈马斯内部安全机构负责人 中国新闻网以军称打死又一名哈马斯内部安全机构负责人 手机新浪网以军空袭加沙地带多地，造成至少7人死亡 凤凰网以军越过加沙“黄线”，哈马斯发声谴责 Sohu一名联合国工作人员在以军空袭中身亡 中华军事",
-          "hotLabel": "",
-          "summary": "以色列军队在加沙地带打死哈马斯安全机构负责人。",
-          "analysis": "这一事件表明中东地区冲突持续升级，以色列与哈马斯之间的对抗愈发激烈。对于国内民生，可能引发对地区安全局势的担忧；对于经济，可能影响相关国家的贸易和投资；对于治理，国际社会可能对以色列的军事行动提出质疑，要求和平解决冲突。",
-          "keywords": [
-            "以色列",
-            "哈马斯",
-            "中东冲突",
-            "军事行动",
-            "安全局势"
+            "美国",
+            "关税",
+            "贸易战",
+            "中国",
+            "商务部"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OZUtRNjhKalVpR0c4MGxOTUtTWmI5dVVpYk5jSm8xd1FtS1lvOEFZb0NPV2NEQzd3b2oxelA3U3VCV20yYUItc2lpVTY1ZXBjUnl1a0Vmc0ZneW9yN0pjN1VTV2NXNHk0?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMisgNBVV95cUxPeWhaWjdTdHFpQTg1MFVpaTBDQTMwa2R4RmVsT0hWZnFzREJlbEhOOHRtcjV2WGlkYkI5WG8tRWJjMHNsRVJQXzQ4S0pYUy04Q0pTdkJjX21wMC1iQndTMmdURVBPZDZsbWYwczB0aVdtT1Y5OEo2RTVoZ1dzN2RBdnhGRXJqZ0VZcVVPT0RxRjBRcHhndDAwN2RTZjRCWmI2am5xeVRMcWd4YmVlR3dCQ2dyUnAzOTN0b3RucVRRTzhCMFVXUHBsbmlvQ1VoYWp2aS1uZGRIUVVhZmZoS1RFMmRMYWJIbU1uczd0SmxwREFSVmIwd25uUUZ5b0FDYldIOGhjc0I2MDlkTjR6Zlpab3lQUE1pRDBtVXFUZnRFazBxRTE0elh3YkxkZGs5SnNRSHBmUmhBNE5fUXZNeDJwVENQTm9YTVlhSDBVT3BNbG5xZmpYYkdaMWtsdDNTTk9OUjFMeklCbldBcVNyX05tQk50SlA4amdWbnVBcUpEbWFFdDRkZ2JrYlB2aUdZNjdjSlZJUnVYT1IxN3JNMXNERDY4cGF1TkgtRzlFdVRhMEJrQdIBsgNBVV95cUxQUjJ5Rko1T3VaN3dzRmJZenRxbk9EamRwdUFmbVdzbUllUVJraXB4TWF3eGk4ZjJiaDczTS0xMnFqNE9EVEN2bDFuRm5PLVNEaml6Nl9TSGxzb2w4WFZmZlVYWVJaYS14czY3YVlQZS1oNUlGWTV2eEJLTDYwQXpkWE1iZlVDUHB6VllCN1VDYjNhbTQzQk9xT1M4a3hIN1A4VnlBZkRsVlBOdnVvZXQ5LUFubUV1NWFzbGdoY2piRHlLcUZUdWFBSzVjbGxkMGkzRnc3bDU2SEgybEVPa0VTcFNBN1F4ZHNVUE5aaXlLYkl0X19wNEJBOGdtOG1sSW9pR05IdXVqN0ptRkh0OGZwTmFEdmlmN3duSW83ZndwVkczRU15WEdHUTdSQ05CLVV4Yl9WZ3R5NnNwbFVYTkQ5dmF2OHpQMmZKVFdjOXo0SUJ6SFNDbUtDcWUyYXhTMDlQU04xUklaYVkxVzR1T29KOXVNd0RJd1Y5SXd6dVV3U2wyd3NZcXN6aTVJV01SNS1Hb0NtaFVocDI5cGY5Q1NKVjZ5dVRrUWhrYVE1VkhyeG9mQQ?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer"
             }
           ],
-          "rank": 10
+          "rank": 4
         },
         {
-          "title": "巴基斯坦电视主持人激动播报",
+          "title": "黎曼猜想证明被Lean社区确认",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%94%B5%E8%A7%86%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%BF%80%E5%8A%A8%E6%92%AD%E6%8A%A5%23&t=31&band_rank=5&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.zhihu.com/search?q=%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E8%AF%81%E6%98%8E%E8%A2%ABLean%E7%A4%BE%E5%8C%BA%E7%A1%AE%E8%AE%A4",
+          "source": "知乎热榜",
+          "sourceId": "zhihu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1075,155 +901,94 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "巴基斯坦电视主持人播报重要新闻时情绪激动",
-          "analysis": "该事件可能表明巴基斯坦国内发生了重大事件，电视主持人情绪激动反映了新闻内容的重大性和其对社会的影响。这可能涉及政治、经济或社会领域的重大变化，对中巴关系可能产生积极或消极的影响。",
+          "summary": "数学界重大突破，黎曼猜想被证明。",
+          "analysis": "黎曼猜想是数学领域的重要未解问题，其证明对于数学理论的发展具有重要意义。这一证明的确认，不仅体现了中国数学研究的实力，也标志着中国在国际数学界的影响力提升。对于国内而言，这有助于提升国家科技实力，激发数学研究热情，促进科技人才培养。后续可能引发国内外数学界的进一步研究热潮。",
           "keywords": [
-            "巴基斯坦",
-            "新闻播报",
-            "中巴关系"
+            "黎曼猜想",
+            "数学证明",
+            "科技实力",
+            "人才培养"
           ],
           "category": "international",
-          "importance": 80,
+          "importance": 85,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%B7%B4%E5%9F%BA%E6%96%AF%E5%9D%A6%E7%94%B5%E8%A7%86%E4%B8%BB%E6%8C%81%E4%BA%BA%E6%BF%80%E5%8A%A8%E6%92%AD%E6%8A%A5%23&t=31&band_rank=5&Refer=top"
+              "name": "知乎热榜",
+              "url": "https://www.zhihu.com/search?q=%E9%BB%8E%E6%9B%BC%E7%8C%9C%E6%83%B3%E8%AF%81%E6%98%8E%E8%A2%ABLean%E7%A4%BE%E5%8C%BA%E7%A1%AE%E8%AE%A4"
             }
           ],
-          "rank": 11
+          "rank": 5
         },
         {
-          "title": "冰雪经济升温，4股获机构看好",
-          "titleOrig": "爆单！冰雪经济升温 4股获机构看好 - 东方财富网",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JYnVzYmxSU2dHaFBFRHAzSGxBYnN0TFU3ZkE4U3Blcjc5d0tYNENtaHlMVUJVSWJVaWdqV0pVTjQxbHRpMmtZWWdxb1dvWUFvemVlb3FBZ253WXhaVG1Ka0xVdUJndw?oc=5",
+          "title": "普京微笑致意迎接人群",
+          "titleOrig": "普京向接机现场欢迎人群微笑致意",
+          "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E5%90%91%E6%8E%A5%E6%9C%BA%E7%8E%B0%E5%9C%BA%E6%AC%A2%E8%BF%8E%E4%BA%BA%E7%BE%A4%E5%BE%AE%E7%AC%91%E8%87%B4%E6%84%8F",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "普京在接机现场向欢迎人群微笑致意。",
+          "analysis": "普京的微笑致意可能体现了中俄关系的友好，以及两国领导人之间的良好互动。这背后可能反映了我国外交政策的稳定性和对国际关系和谐的追求。对于国内来说，这样的国际互动有助于提升国家形象，促进国际间的合作与交流。后续可能继续加强中俄在政治、经济、文化等领域的合作。",
+          "keywords": [
+            "普京",
+            "接机",
+            "中俄关系",
+            "外交政策",
+            "国际交流"
+          ],
+          "category": "international",
+          "importance": 85,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E5%90%91%E6%8E%A5%E6%9C%BA%E7%8E%B0%E5%9C%BA%E6%AC%A2%E8%BF%8E%E4%BA%BA%E7%BE%A4%E5%BE%AE%E7%AC%91%E8%87%B4%E6%84%8F"
+            }
+          ],
+          "rank": 6
+        },
+        {
+          "title": "多家国有大行推动股票回购增持贷款",
+          "titleOrig": "事关股票回购增持贷款 多家国有大行发声 - 央广财经",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nLUVmazA2NG5VeHhmOGU3V2Noa0xSUGxoa0NmcTMzNjdsUy1wOEtwenlUZDNac2RkelJPN3pQZTFseHNVTWxPYU1hNm1kclRhNXdjUGgxRlhNQW5WUDBrUzdXY3NvU244M0dIcVRaQQ?oc=5",
           "source": "Google 新闻 · 中文",
           "sourceId": "gn-cn",
           "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": "2026-11-25T23:58:48+00:00",
-          "desc": "爆单！冰雪经济升温 4股获机构看好 东方财富网雪场加紧造雪，赛事举办在即，旅游线路、消费券等相继推出，京城冰雪季来临 “冷资源”持续释放“热活力” 北京市人民政府门户网站冰雪季航线网络加密拓展滑雪消费新空间 支线机场成为文旅“流量开关” 上海热线订单排到2029年！又一国产“神器”爆单了 新浪新闻_手机新浪网在阿勒泰雪山山顶 和绝美落日一起蹦迪 Sohu",
+          "publishedAt": "2026-11-26T10:21:29+00:00",
+          "desc": "事关股票回购增持贷款 多家国有大行发声 央广财经三家国有大行，最新发声！ 新浪财经_金融信息服务商快速行动！建设银行加力推动股票回购增持贷款投放 新浪财经A股重磅，超4600亿元资金在路上，建行、工行、中行，密集表态 凤凰网财经制度持续优化 年内超1300家上市公司实施回购 中国经济网",
           "hotLabel": "",
-          "summary": "冰雪经济升温，相关股票受到机构看好。",
-          "analysis": "随着冬季的到来，冰雪旅游和体育活动逐渐升温，带动了相关产业的发展。这反映了消费升级和产业结构调整的趋势。对于相关企业来说，这是一个发展的机遇。长期来看，冰雪经济的发展有助于推动区域经济多元化。",
+          "summary": "国有大行发声支持股票回购和增持贷款，资金规模超4600亿元。",
+          "analysis": "此举措反映了政府对股市稳定的关注，旨在通过增加流动性来提振市场信心。政策意图在于稳定资本市场，促进经济平稳增长。对国内民生和经济意味着增强投资者信心，对治理意味着提高金融市场的稳定性和风险防控能力。后续走向可能包括更多金融机构参与，以及相关政策的持续优化。",
           "keywords": [
-            "冰雪经济",
-            "消费升级",
-            "产业结构",
-            "股票市场",
-            "区域经济"
+            "国有大行",
+            "股票回购",
+            "增持贷款",
+            "资本市场",
+            "经济稳定"
           ],
           "category": "economy",
-          "importance": 75,
+          "importance": 80,
           "sources": [
             {
               "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5JYnVzYmxSU2dHaFBFRHAzSGxBYnN0TFU3ZkE4U3Blcjc5d0tYNENtaHlMVUJVSWJVaWdqV0pVTjQxbHRpMmtZWWdxb1dvWUFvemVlb3FBZ253WXhaVG1Ka0xVdUJndw?oc=5"
+              "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9nLUVmazA2NG5VeHhmOGU3V2Noa0xSUGxoa0NmcTMzNjdsUy1wOEtwenlUZDNac2RkelJPN3pQZTFseHNVTWxPYU1hNm1kclRhNXdjUGgxRlhNQW5WUDBrUzdXY3NvU244M0dIcVRaQQ?oc=5"
             }
           ],
-          "rank": 12
+          "rank": 7
         },
         {
-          "title": "华南地区发现十万年前多种古人类",
-          "titleOrig": "研究新发现十万年前华南地区存在多种古人类- 湖北日报新闻客户端 - 湖北日报传媒集团",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRbURsQzQxQWpRdnVWT0JDNUlucXBfNTQxX0d1QnBlWlFERmx2YmkyWkNUenBSUXdtdGJ6RERNZkhscno0N29aOFdJa2tQM3c4UjJ2WXV4OA?oc=5",
-          "source": "Google 新闻 · 中文",
-          "sourceId": "gn-cn",
-          "tier": "b",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": "2026-11-25T19:16:35+00:00",
-          "desc": "研究新发现十万年前华南地区存在多种古人类- 湖北日报新闻客户端 湖北日报传媒集团中国岭南首次发现丹尼索瓦人和10.1万年前未知古人类 光明网研究新发现：十万年前华南地区存在多种古人类 科学网—新闻如何凭几颗牙齿化石发现中国年代最晚的直立人？考古学家为您揭秘 Sohu我国南方发现未知古人类支系 中国科技网",
-          "hotLabel": "",
-          "summary": "考古研究显示华南地区在十万年前存在多种古人类。",
-          "analysis": "这一发现对于研究人类起源和演化具有重要意义。它揭示了华南地区在人类历史上的重要地位，同时也为研究古人类的迁徙和生存提供了新的线索。对于国内社会来说，这有助于增强民族自豪感和对历史的认识；对于科技，推动了考古学的发展；对于国际学术界，提供了新的研究素材。",
-          "keywords": [
-            "古人类",
-            "考古学",
-            "人类起源",
-            "演化",
-            "华南地区"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "Google 新闻 · 中文",
-              "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBRbURsQzQxQWpRdnVWT0JDNUlucXBfNTQxX0d1QnBlWlFERmx2YmkyWkNUenBSUXdtdGJ6RERNZkhscno0N29aOFdJa2tQM3c4UjJ2WXV4OA?oc=5"
-            }
-          ],
-          "rank": 13
-        },
-        {
-          "title": "谷爱凌伤情待医生判断",
+          "title": "习近平会见智利总统卡斯特",
           "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%E8%B0%B7%E7%88%B1%E5%87%8C%E4%BC%A4%E6%83%85%E5%BE%85%E5%8C%BB%E7%94%9F%E5%88%A4%E6%96%AD&t=31&band_rank=7&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
-          "cat": "cn",
-          "region": "中国",
-          "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
-          "hotLabel": "",
-          "summary": "谷爱凌受伤，伤情待定",
-          "analysis": "谷爱凌作为中国滑雪运动员的代表，其伤情受到广泛关注。这不仅关系到她个人的运动生涯，也关系到中国滑雪运动的发展。伤情结果将对体育迷和体育产业产生重要影响，同时也可能引发对运动员安全保障的讨论。",
-          "keywords": [
-            "谷爱凌",
-            "滑雪运动",
-            "运动员安全"
-          ],
-          "category": "society",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E8%B0%B7%E7%88%B1%E5%87%8C%E4%BC%A4%E6%83%85%E5%BE%85%E5%8C%BB%E7%94%9F%E5%88%A4%E6%96%AD&t=31&band_rank=7&Refer=top"
-            }
-          ],
-          "rank": 14
-        },
-        {
-          "title": "朝鲜因制裁驱逐瑞士外交官",
-          "titleOrig": "North Korea expels Swiss diplomat in sanctions row",
-          "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-          "source": "BBC World",
-          "sourceId": "bbc",
-          "tier": "s",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T21:51:17+00:00",
-          "desc": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
-          "hotLabel": "",
-          "summary": "朝鲜驱逐瑞士外交官，两国关系紧张。",
-          "analysis": "朝鲜驱逐瑞士外交官是两国关系紧张的表现，可能与国际制裁和朝鲜的对外政策有关。此举可能会加剧朝鲜与西方国家的对立，影响朝鲜的国际地位和外交关系。后续可能引发国际社会的关注，并可能导致更多国家对朝鲜实施制裁。",
-          "keywords": [
-            "朝鲜",
-            "瑞士外交官",
-            "制裁",
-            "外交关系",
-            "国际局势"
-          ],
-          "category": "international",
-          "importance": 75,
-          "sources": [
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
-            }
-          ],
-          "rank": 11
-        },
-        {
-          "title": "蔡磊渐冻症晚期",
-          "titleOrig": "蔡磊已进渐冻症终末期",
-          "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E7%A3%8A%E5%B7%B2%E8%BF%9B%E6%B8%90%E5%86%BB%E7%97%87%E7%BB%88%E6%9C%AB%E6%9C%9F%23&t=31&band_rank=1&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%BC%9A%E8%A7%81%E6%99%BA%E5%88%A9%E6%80%BB%E7%BB%9F%E5%8D%A1%E6%96%AF%E7%89%B9",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1231,31 +996,30 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#1",
-          "summary": "微博热搜显示，蔡磊被诊断出渐冻症晚期。",
-          "analysis": "蔡磊的病情反映了我国在罕见病研究和治疗方面的挑战。这一事件可能促使政府和社会关注罕见病患者的权益，推动相关医疗政策的改进和医疗资源的分配。后续可能引发对医疗体系改革的讨论。",
+          "summary": "国家主席习近平会见智利总统卡斯特。",
+          "analysis": "此次会见体现了中国与智利两国关系的友好，以及中国在国际事务中的积极参与。这有助于深化中智两国在政治、经济、文化等领域的合作，推动构建人类命运共同体。对于国内来说，这有助于提升中国在国际舞台上的地位，促进区域经济一体化，增强中国在全球治理中的影响力。",
           "keywords": [
-            "蔡磊",
-            "渐冻症",
-            "罕见病",
-            "医疗政策",
-            "社会关注"
+            "习近平",
+            "智利总统",
+            "中智关系",
+            "国际合作"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 80,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E8%94%A1%E7%A3%8A%E5%B7%B2%E8%BF%9B%E6%B8%90%E5%86%BB%E7%97%87%E7%BB%88%E6%9C%AB%E6%9C%9F%23&t=31&band_rank=1&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B9%A0%E8%BF%91%E5%B9%B3%E4%BC%9A%E8%A7%81%E6%99%BA%E5%88%A9%E6%80%BB%E7%BB%9F%E5%8D%A1%E6%96%AF%E7%89%B9"
             }
           ],
-          "rank": 16
+          "rank": 8
         },
         {
-          "title": "小城良方合照都比赞不告诉倪大红",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%90%88%E7%85%A7%E9%83%BD%E6%AF%94%E8%B5%9E%E4%B8%8D%E5%91%8A%E8%AF%89%E5%80%AA%E5%A4%A7%E7%BA%A2%23&t=31&band_rank=4&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "三次东道主，这次有什么不一样",
+          "titleOrig": "三次东道主 这次有什么不一样",
+          "url": "https://www.baidu.com/s?wd=%E4%B8%89%E6%AC%A1%E4%B8%9C%E9%81%93%E4%B8%BB%20%E8%BF%99%E6%AC%A1%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E4%B8%80%E6%A0%B7",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1263,97 +1027,63 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "",
-          "summary": "倪大红合照引发网友热议",
-          "analysis": "该事件反映了娱乐圈内粉丝与明星互动的新趋势，体现了社交媒体对公众人物形象塑造的影响。背后可能反映了粉丝文化对明星个人隐私的侵犯，以及公众对明星私生活的过度关注。这将对明星的隐私保护提出更高要求，也可能促使相关法律法规的完善。",
+          "summary": "探讨我国作为东道主举办某活动的第三次特点。",
+          "analysis": "我国连续三次作为东道主举办某活动，可能体现了我国在该领域的影响力和组织能力。此次活动的不同之处可能在于政策支持、组织水平、国际参与度等方面有所提升。对于国内来说，这有助于提升我国在国际舞台上的地位，促进相关领域的发展。后续可能继续举办类似活动，扩大国际影响力。",
           "keywords": [
-            "娱乐圈",
-            "粉丝文化",
-            "隐私保护"
+            "东道主",
+            "活动",
+            "国际影响力",
+            "政策支持",
+            "组织能力"
           ],
-          "category": "society",
-          "importance": 70,
+          "category": "international",
+          "importance": 80,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E5%B0%8F%E5%9F%8E%E8%89%AF%E6%96%B9%E5%90%88%E7%85%A7%E9%83%BD%E6%AF%94%E8%B5%9E%E4%B8%8D%E5%91%8A%E8%AF%89%E5%80%AA%E5%A4%A7%E7%BA%A2%23&t=31&band_rank=4&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E4%B8%89%E6%AC%A1%E4%B8%9C%E9%81%93%E4%B8%BB%20%E8%BF%99%E6%AC%A1%E6%9C%89%E4%BB%80%E4%B9%88%E4%B8%8D%E4%B8%80%E6%A0%B7"
             }
           ],
-          "rank": 17
+          "rank": 9
         },
         {
-          "title": "中国男篮世亚预12人大名单",
-          "titleOrig": "",
-          "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E4%B8%96%E4%BA%9A%E9%A2%8412%E4%BA%BA%E5%A4%A7%E5%90%8D%E5%8D%95%23&t=31&band_rank=8&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
-          "tier": "c",
+          "title": "呼和浩特盛乐国际机场正式投入运营",
+          "titleOrig": "呼和浩特盛乐国际机场正式投入运营，系内蒙古首座4F级国际机场 - ThePaper.cn",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiQjV3UTFGeDF6aE5LNkh4UWZDbzNRUHR2SmZvRmpNQVVTNGxJX0xsbHBzTzBobEMtbFR3ZkJQblFvTjNQSE9JRnp4aW1UT2hBZ01ILUxqdGhzNWE4YmVhZg?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
           "cat": "cn",
           "region": "中国",
           "lang": "zh",
-          "publishedAt": null,
-          "desc": "",
+          "publishedAt": "2026-11-26T10:27:22+00:00",
+          "desc": "呼和浩特盛乐国际机场正式投入运营，系内蒙古首座4F级国际机场 ThePaper.cn呼和浩特盛乐国际机场转场运营：白塔机场关闭，内蒙古迎来4F级航空枢纽 虎嗅网呼和浩特盛乐国际机场正式投运 中国日报网刚刚，内蒙古机场，失去地铁 凤凰网68岁白塔机场谢幕离场，呼和浩特盛乐新机场即将接棒启航 观察者网",
           "hotLabel": "",
-          "summary": "中国男篮公布世亚预12人大名单",
-          "analysis": "中国男篮的世亚预大名单公布，标志着中国篮球备战国际大赛的开始。这不仅是对中国篮球运动员能力的认可，也是对中国篮球运动发展的期待。大名单的公布将影响中国篮球的发展方向和策略。",
+          "summary": "内蒙古首座4F级国际机场呼和浩特盛乐国际机场正式投入运营。",
+          "analysis": "新机场的投入运营将提升内蒙古的航空运输能力，促进区域经济发展。对经济意味着增加交通便利性，吸引更多投资和旅游。后续可能带动相关产业链的发展，如航空服务、旅游业等。",
           "keywords": [
-            "中国男篮",
-            "篮球运动",
-            "国际大赛"
+            "呼和浩特",
+            "盛乐国际机场",
+            "航空运输",
+            "区域经济",
+            "旅游业"
           ],
-          "category": "international",
-          "importance": 65,
+          "category": "economy",
+          "importance": 75,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%23%E4%B8%AD%E5%9B%BD%E7%94%B7%E7%AF%AE%E4%B8%96%E4%BA%9A%E9%A2%8412%E4%BA%BA%E5%A4%A7%E5%90%8D%E5%8D%95%23&t=31&band_rank=8&Refer=top"
-            },
-            {
-              "name": "CNBC World",
-              "url": "https://www.cnbc.com/2026/11/25/nvidia-china-ai-chip-remote-access.html"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
-            },
-            {
-              "name": "BBC World",
-              "url": "https://www.bbc.co.uk/news/videos/c3x29v11ed1xo?at_medium=RSS&at_campaign=rss"
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBiQjV3UTFGeDF6aE5LNkh4UWZDbzNRUHR2SmZvRmpNQVVTNGxJX0xsbHBzTzBobEMtbFR3ZkJQblFvTjNQSE9JRnp4aW1UT2hBZ01ILUxqdGhzNWE4YmVhZg?oc=5"
             }
           ],
-          "rank": 18
+          "rank": 10
         },
         {
-          "title": "China investigates politburo star in Xi Jinping’s latest purge",
-          "titleOrig": "China investigates politburo star in Xi Jinping’s latest purge",
-          "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
-          "source": "The Guardian",
-          "sourceId": "guardian",
-          "tier": "a",
-          "cat": "intl",
-          "region": "英国",
-          "lang": "en",
-          "publishedAt": "2026-11-25T01:31:46+00:00",
-          "desc": "Chen Jining, regarded as a contender for higher office, becomes the fourth member of China’s elite politburo to be investigated since 2025China has launched an investigation into Shanghai’s Communist party chief Chen Jining, a member of the country’s elite politburo, the state-run Xinhua news agency",
-          "hotLabel": "",
-          "summary": "Chen Jining, regarded as a con…",
-          "analysis": "（LLM 解读生成失败，以下为原始摘要）\nChen Jining, regarded as a contender for higher office, becomes the fourth member of China’s elite politburo to be investigated since 2025China has launched an investigation into Shanghai’s Communist party chief Chen Jining, a member of the country’s elite politburo, the state-run Xinhua news agency",
-          "keywords": [],
-          "category": "international",
-          "importance": 60,
-          "sources": [
-            {
-              "name": "The Guardian",
-              "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge"
-            }
-          ],
-          "rank": 19
-        },
-        {
-          "title": "小米SU7 Ultra通过工信部",
-          "titleOrig": "小米SU7 Ultra上工信部",
-          "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3SU7%20Ultra%E4%B8%8A%E5%B7%A5%E4%BF%A1%E9%83%A8&t=31&band_rank=2&Refer=top",
-          "source": "微博热搜",
-          "sourceId": "weibo",
+          "title": "普京抵达深圳",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3",
+          "source": "百度热搜",
+          "sourceId": "baidu",
           "tier": "c",
           "cat": "cn",
           "region": "中国",
@@ -1361,21 +1091,323 @@
           "publishedAt": null,
           "desc": "",
           "hotLabel": "#2",
-          "summary": "小米SU7 Ultra获得工信部认证。",
-          "analysis": "小米SU7 Ultra的工信部认证标志着该产品即将上市，反映了我国手机市场竞争的激烈。这一事件可能推动手机行业的技术创新和产品升级，对消费者有利。后续可能关注该产品的市场表现。",
+          "summary": "俄罗斯总统普京访问深圳。",
+          "analysis": "普京访问深圳是中俄两国关系密切的体现，也是中国对外开放和国际合作的象征。此次访问有助于推动中俄两国在科技、经贸等领域的合作，促进两国人民之间的相互了解和友谊。对于国内而言，这有助于提升深圳的国际形象，推动深圳成为国际科技、金融中心。",
           "keywords": [
-            "小米",
-            "SU7 Ultra",
-            "工信部",
-            "手机市场",
+            "普京",
+            "深圳",
+            "中俄关系",
+            "国际合作"
+          ],
+          "category": "international",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%99%AE%E4%BA%AC%E6%8A%B5%E8%BE%BE%E6%B7%B1%E5%9C%B3"
+            },
+            {
+              "name": "NYT World",
+              "url": "https://www.nytimes.com/2026/11/26/world/asia/japan-china-takaichi-snubbed.html"
+            }
+          ],
+          "rank": 11
+        },
+        {
+          "title": "美股三大股指集体收跌",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%82%A1%E6%8C%87%E9%9B%86%E4%BD%93%E6%94%B6%E8%B7%8C",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "美国股市三大股指当天集体下跌。",
+          "analysis": "美股三大股指集体下跌可能受到多种因素影响，如全球经济形势、政策调整、市场预期等。对于国内来说，这可能对资本市场产生一定影响，需要关注外资流入和股市稳定性。后续可能需要关注国际经济形势变化，以及我国政策应对。",
+          "keywords": [
+            "美股",
+            "股指",
+            "股市",
+            "经济形势",
+            "政策调整"
+          ],
+          "category": "economy",
+          "importance": 75,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E7%BE%8E%E8%82%A1%E4%B8%89%E5%A4%A7%E8%82%A1%E6%8C%87%E9%9B%86%E4%BD%93%E6%94%B6%E8%B7%8C"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "英伟达芯片买家被告知排除中国租户购买GPU，据消息人士透露",
+          "titleOrig": "Nvidia chip buyers told to rule out Chinese renters to buy GPUs, sources say",
+          "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+          "source": "CNBC World",
+          "sourceId": "cnbc",
+          "tier": "a",
+          "cat": "economy",
+          "region": "美国",
+          "lang": "en",
+          "publishedAt": "2026-11-26T15:34:08+00:00",
+          "desc": "A new BIS rule was intended to close \"loopholes,\" U.S. Trade Representative Jamieson Greer told CNBC's \"Squawk Box\" on Wednesday.",
+          "hotLabel": "",
+          "summary": "美国商务部长杰姆森·格雷尔表示，新的BIS规则旨在关闭‘漏洞’。",
+          "analysis": "背景：美国商务部长杰姆森·格雷尔表示，新的出口管制规则旨在防止中国通过租赁方式获取敏感技术。关键影响：这可能限制中国获取先进芯片的能力，影响全球半导体市场。后续走向：这可能引发中美之间的技术竞争，并可能导致中国加大自主研发的投入。",
+          "keywords": [
+            "英伟达",
+            "芯片",
+            "出口管制",
+            "中国",
+            "技术竞争"
+          ],
+          "category": "international",
+          "importance": 80,
+          "sources": [
+            {
+              "name": "CNBC World",
+              "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html"
+            }
+          ],
+          "rank": 12
+        },
+        {
+          "title": "新华社发布《江河穿越千年涵养时代文明——从都江堰看江河治理的中国智慧》报告",
+          "titleOrig": "新华社国家高端智库发布《江河穿越千年涵养时代文明——从都江堰看江河治理的中国智慧》智库报告 - 新华网客户端",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0tpV3hCaEtnN2VQWUNITWlRektXdERkbzFaZUJoRTN5WkN6SUotU0NXcnlfWjVoMi1SbmxNeDY3NDJnYnczTmVqZkQ1N3J3UExISlNFX0QtbkpQVmlVNVgtSm90NlhXdGx2NnNRQ1drVDF0VmpNLXFUQVN1ZTFFV1d1czZkS3djWjhLZ2lTOWF5NHFmV2J5OFdR?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-26T15:24:52+00:00",
+          "desc": "新华社国家高端智库发布《江河穿越千年涵养时代文明——从都江堰看江河治理的中国智慧》智库报告 新华网客户端在Google 新闻上查看更多头条新闻和观点",
+          "hotLabel": "",
+          "summary": "新华社发布智库报告，探讨都江堰的江河治理智慧。",
+          "analysis": "报告旨在弘扬中国传统文化中的江河治理智慧，强调可持续发展的重要性。对社会治理意味着在现代化进程中，应借鉴传统智慧，实现人与自然的和谐共生。后续可能推动更多生态治理项目的实施，提升公众对环境保护的认识。",
+          "keywords": [
+            "都江堰",
+            "江河治理",
+            "中国智慧",
+            "可持续发展",
+            "环境保护"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0tpV3hCaEtnN2VQWUNITWlRektXdERkbzFaZUJoRTN5WkN6SUotU0NXcnlfWjVoMi1SbmxNeDY3NDJnYnczTmVqZkQ1N3J3UExISlNFX0QtbkpQVmlVNVgtSm90NlhXdGx2NnNRQ1drVDF0VmpNLXFUQVN1ZTFFV1d1czZkS3djWjhLZ2lTOWF5NHFmV2J5OFdR?oc=5"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/science/2026/nov/25/china-sends-first-pakistani-astronaut-into-space"
+            },
+            {
+              "name": "The Guardian",
+              "url": "https://www.theguardian.com/world/2026/nov/25/china-misusing-interpol-target-dissidents-uk-lawyer"
+            }
+          ],
+          "rank": 14
+        },
+        {
+          "title": "贺岁档电影上映数量创新高",
+          "titleOrig": "今年贺岁档35天超50部电影上映：《真假美猴王》《复仇者联盟5》《沙丘3》等 - 驱动之家",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaN1NZQUl0aktsVVJsM05GNmFnRzZvbHZ0U1hwSEZYWlpGWTh0ckhhRXF6eEtXS2JfVFJpb0kxWHhFRXdYQnZ6ZzZlTUNFQ1NydjBTTUotN3k?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-26T08:24:00+00:00",
+          "desc": "今年贺岁档35天超50部电影上映：《真假美猴王》《复仇者联盟5》《沙丘3》等 驱动之家电影贺岁档来了！这份片单请收好→ 新浪财经_金融信息服务商从“等待档期”到“提前上映” 中国是全球电影市场不可替代核心票仓 中国经济网年末多部新片登陆全国院线 多元业态拓展“电影+”新消费场景 Sohu好戏集结，燃启贺岁｜2026贺岁档片单重磅出炉 正观新闻",
+          "hotLabel": "",
+          "summary": "今年贺岁档35天超50部电影上映，电影市场活跃。",
+          "analysis": "电影市场的繁荣反映了文化产业的发展，对国内民生和经济意味着丰富民众文化生活，对治理意味着推动文化消费升级。后续走向可能包括电影产业的进一步发展和创新。",
+          "keywords": [
+            "贺岁档",
+            "电影市场",
+            "文化产业",
+            "文化消费",
+            "电影产业"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBaN1NZQUl0aktsVVJsM05GNmFnRzZvbHZ0U1hwSEZYWlpGWTh0ckhhRXF6eEtXS2JfVFJpb0kxWHhFRXdYQnZ6ZzZlTUNFQ1NydjBTTUotN3k?oc=5"
+            }
+          ],
+          "rank": 15
+        },
+        {
+          "title": "英伟达三季度营收1158亿美元",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%89%E5%AD%A3%E5%BA%A6%E8%90%A5%E6%94%B61158%E4%BA%BF%E7%BE%8E%E5%85%83",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "英伟达发布三季度财报，营收达1158亿美元。",
+          "analysis": "英伟达作为全球领先的图形处理器和人工智能芯片制造商，其业绩表现反映了全球科技行业的繁荣。对于国内而言，英伟达的成功有助于推动中国半导体产业的发展，促进国内企业技术创新和产业升级。同时，这也提醒国内企业需加强自主研发，提升核心竞争力。",
+          "keywords": [
+            "英伟达",
+            "营收",
+            "半导体产业",
             "技术创新"
           ],
-          "category": "tech",
+          "category": "economy",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E8%8B%B1%E4%BC%9F%E8%BE%BE%E4%B8%89%E5%AD%A3%E5%BA%A6%E8%90%A5%E6%94%B61158%E4%BA%BF%E7%BE%8E%E5%85%83"
+            }
+          ],
+          "rank": 16
+        },
+        {
+          "title": "哈尔滨把“世界”冻进园区了",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E5%93%88%E5%B0%94%E6%BB%A8%E6%8A%8A%E2%80%9C%E4%B8%96%E7%95%8C%E2%80%9D%E5%86%BB%E8%BF%9B%E5%9B%AD%E5%8C%BA%E4%BA%86",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "哈尔滨某园区将“世界”元素冻结展示。",
+          "analysis": "哈尔滨将“世界”元素冻结展示，可能是一种文化创新和旅游推广方式。这背后体现了我国在文化传承和旅游发展方面的政策意图，旨在通过创新吸引游客，提升城市形象。对于国内来说，这有助于推动文化产业发展，促进地方经济。后续可能推广类似活动，丰富旅游市场。",
+          "keywords": [
+            "哈尔滨",
+            "冻结展示",
+            "文化创新",
+            "旅游推广",
+            "经济发展"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E5%93%88%E5%B0%94%E6%BB%A8%E6%8A%8A%E2%80%9C%E4%B8%96%E7%95%8C%E2%80%9D%E5%86%BB%E8%BF%9B%E5%9B%AD%E5%8C%BA%E4%BA%86"
+            }
+          ],
+          "rank": 17
+        },
+        {
+          "title": "多地回应“撞脸药”乱象",
+          "titleOrig": "河南安徽多地回应“撞脸药”乱象",
+          "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%AE%89%E5%BE%BD%E5%A4%9A%E5%9C%B0%E5%9B%9E%E5%BA%94%E2%80%9C%E6%92%9E%E8%84%B8%E8%8D%AF%E2%80%9D%E4%B9%B1%E8%B1%A1",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "多地官方就“撞脸药”问题作出回应。",
+          "analysis": "事件背景：近年来，市场上出现了一些外观与知名药品相似的仿制药，引发了公众对药品安全性的担忧。政策意图：政府对此类乱象的回应，体现了对药品安全监管的重视，以及对消费者权益的保护。关键影响：对国内民生影响较大，可能引发公众对药品质量的担忧，对经济影响可能体现在药品市场的整顿和规范上。后续走向：预计政府将加强药品市场监管，提高药品质量标准，确保公众用药安全。",
+          "keywords": [
+            "药品安全",
+            "仿制药",
+            "市场监管",
+            "消费者权益",
+            "药品质量"
+          ],
+          "category": "society",
+          "importance": 70,
+          "sources": [
+            {
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E6%B2%B3%E5%8D%97%E5%AE%89%E5%BE%BD%E5%A4%9A%E5%9C%B0%E5%9B%9E%E5%BA%94%E2%80%9C%E6%92%9E%E8%84%B8%E8%8D%AF%E2%80%9D%E4%B9%B1%E8%B1%A1"
+            }
+          ],
+          "rank": 18
+        },
+        {
+          "title": "沙特吉赞炼油厂遭也门胡塞武装袭击",
+          "titleOrig": "沙特吉赞炼油厂遭也门胡塞武装袭击 - 新华网",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwcXlCT0pneHNYTHNVZ3o3OVljckNiV2xTbGRKUUptZE5EU3diYW9EMmF5MG5sQTI5Y0Q3M2dHSTQ4UHlnNDRFY0poUGNRMk90Qlg1TG1SUWRZNEJwaUNGX3p1NGRMc1ZRTWV4dEVmMzRyNVFScTFUMW5VS1k0UQ?oc=5",
+          "source": "Google 新闻 · 中文",
+          "sourceId": "gn-cn",
+          "tier": "b",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": "2026-11-26T15:31:19+00:00",
+          "desc": "沙特吉赞炼油厂遭也门胡塞武装袭击 新华网国际观察丨互袭升级，沙特与胡塞武装冲突会否长期化 新华网也门胡塞武装称袭击沙特吉达港和吉赞港 新浪财经中国驻吉达总领馆再次提醒中资机构和中国公民注意安全 Sohu胡塞武装无人机袭击沙特最大炼油厂，布油拉升近3%重回92美元 华尔街见闻",
+          "hotLabel": "",
+          "summary": "沙特吉赞炼油厂遭到也门胡塞武装袭击。",
+          "analysis": "袭击事件反映了中东地区持续的冲突和紧张局势。对国际石油市场可能产生短期影响，但长期来看，全球石油供应仍较为充足。对中国而言，可能关注对沙特投资的安全，以及国际能源市场的影响。",
+          "keywords": [
+            "沙特",
+            "炼油厂",
+            "袭击",
+            "也门胡塞武装",
+            "中东冲突"
+          ],
+          "category": "international",
+          "importance": 65,
+          "sources": [
+            {
+              "name": "Google 新闻 · 中文",
+              "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTFAwcXlCT0pneHNYTHNVZ3o3OVljckNiV2xTbGRKUUptZE5EU3diYW9EMmF5MG5sQTI5Y0Q3M2dHSTQ4UHlnNDRFY0poUGNRMk90Qlg1TG1SUWRZNEJwaUNGX3p1NGRMc1ZRTWV4dEVmMzRyNVFScTFUMW5VS1k0UQ?oc=5"
+            }
+          ],
+          "rank": 19
+        },
+        {
+          "title": "蒙面人闯入家中只偷走一个摄像头",
+          "titleOrig": "",
+          "url": "https://www.baidu.com/s?wd=%E8%92%99%E9%9D%A2%E4%BA%BA%E9%97%AF%E5%85%A5%E5%AE%B6%E4%B8%AD%E5%8F%AA%E5%81%B7%E8%B5%B0%E4%B8%80%E4%B8%AA%E6%91%84%E5%83%8F%E5%A4%B4",
+          "source": "百度热搜",
+          "sourceId": "baidu",
+          "tier": "c",
+          "cat": "cn",
+          "region": "中国",
+          "lang": "zh",
+          "publishedAt": null,
+          "desc": "",
+          "hotLabel": "",
+          "summary": "蒙面人闯入家中盗窃，仅偷走一个摄像头。",
+          "analysis": "事件背景：此类事件反映了社会治安问题，可能涉及盗窃犯罪。社会成因：可能与社会治安状况、犯罪分子作案手段有关。关键影响：对受害者家庭造成财产损失，可能引发公众对居住安全的担忧。后续走向：警方将展开调查，加强治安防范。",
+          "keywords": [
+            "盗窃",
+            "蒙面人",
+            "社会治安",
+            "财产损失",
+            "警方调查"
+          ],
+          "category": "society",
           "importance": 60,
           "sources": [
             {
-              "name": "微博热搜",
-              "url": "https://s.weibo.com/weibo?q=%E5%B0%8F%E7%B1%B3SU7%20Ultra%E4%B8%8A%E5%B7%A5%E4%BF%A1%E9%83%A8&t=31&band_rank=2&Refer=top"
+              "name": "百度热搜",
+              "url": "https://www.baidu.com/s?wd=%E8%92%99%E9%9D%A2%E4%BA%BA%E9%97%AF%E5%85%A5%E5%AE%B6%E4%B8%AD%E5%8F%AA%E5%81%B7%E8%B5%B0%E4%B8%80%E4%B8%AA%E6%91%84%E5%83%8F%E5%A4%B4"
             }
           ],
           "rank": 20
